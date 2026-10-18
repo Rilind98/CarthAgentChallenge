@@ -58,12 +58,27 @@ independent full run completed with 172 passed, 4 skipped and 2 failed in
 that test is now isolated to explicit known responses and its focused suite
 passes 25/25. The other is a repeatable tampered-evidence rebuild failure:
 `ValueError:immutable record collision:export`. App 0.13.1 fixes this by binding
-each immutable export-record ID to its manifest hash. Eight focused checks
-passed after that fix; the complete suite is being rerun with the private
-official template enabled. A complete passing result has not yet been recorded.
+each immutable export-record ID to its manifest hash. The independent complete
+suite with the private official template enabled passed **180/180 tests** in
+131.94 seconds, with five third-party deprecation warnings and no skips.
 
 Source fingerprint at app 0.13.1 edit freeze:
 `c91cf0bc86bd496317028913dbd51b4e3e4c38449f4026e6e65a6f0701d1c708`.
+
+An eight-document app0.13.0 visual-layout sample run also completed: 893 facts,
+881 proxy matches, 12 wrong asset IDs, 2,745 expected slots, 32.09% correct
+coverage. Three complex Excel layouts produced no facts. All eight artifact
+pairs passed the independent integrity audit, including zero orphan ledger
+edges. This run used text/geometry model input, not page-image vision.
+
+Fresh independent code review still requests changes: destination-cell
+collision protection; mapper evidence closure within each region; stronger
+publication-reuse verification; and bounds on mapper-plan expansion. Passing
+the suite does not close these findings or establish corpus quality.
+
+Latest user instruction: implement and test a source-grounded visual fallback
+for unresolved PDF layouts, then push it to this branch. Keep native Excel
+structure primary. This feature was not part of the verified0.13.1 build.
 
 1. Scope Excel header caches to each table/amount row.
 2. Persist mapper dependencies so accepted facts have a closed replay graph.
