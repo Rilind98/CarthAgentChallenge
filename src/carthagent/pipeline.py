@@ -24,7 +24,7 @@ from .semantics import SEMANTICS_VERSION, interpret
 from .store import Ledger, content_hash, preserve_source
 
 
-PIPELINE_VERSION = "0.13.0"
+PIPELINE_VERSION = "0.13.1"
 ACQUISITION_VERSION = "13"
 STRUCTURE_VERSION = "8"
 
@@ -246,9 +246,9 @@ def run_input(input_path: Path, output: Path, config: RunConfig = RunConfig()) -
         diagnostics = (*acquired.diagnostics, *mapper_diagnostics, *output_diagnostics, *context_diagnostics)
         final, evidence, review, manifest = publish(snapshot, output, status.value, diagnostics, template=config.template)
         _check_worker_memory(config.bounds)
-        export_record_id = f"{document_id}:export:{sha256((snapshot.id + snapshot.digest).encode()).hexdigest()[:20]}"
+        manifest_hash = content_hash(manifest)
+        export_record_id = f"{document_id}:export:{sha256((snapshot.id + snapshot.digest + manifest_hash).encode()).hexdigest()[:20]}"
         with ledger.transaction():
-            manifest_hash = content_hash(manifest)
             ledger.append(export_record_id, document_id, "export", {"snapshot_id": snapshot.id, "snapshot_digest": snapshot.digest, "manifest_hash": manifest_hash, "output_dir": str(final)})
             for binding in bindings:
                 ledger.depend(export_record_id, binding.id, "publication")

@@ -211,6 +211,25 @@ def test_manifest_status_tamper_cannot_turn_partial_into_resumed_complete(tmp_pa
     assert json.loads(rebuilt.manifest_path.read_text())["status"] == evidence["document"]["status"]
 
 
+def test_tampered_evidence_rebuild_uses_new_immutable_export_record(tmp_path):
+    source = tmp_path / "clear.xlsx"; wb = Workbook(); ws = wb.active; ws.title = "Data"; ws.append(["Asset ID", "Opening cost EUR 2025"]); ws.append(["A-1", 12]); wb.save(source)
+    output = tmp_path / "out"; first = run_input(source, output)
+    altered = json.loads(first.evidence_path.read_text())
+    altered["facts"][0]["amount"]["normalized_base"] = "999999999"
+    first.evidence_path.write_text(json.dumps(altered))
+    rebuilt = run_input(source, output)
+    assert rebuilt.status.value in {"complete", "partial"}
+    assert rebuilt.diagnostics != ("resumed_verified_publication",)
+    repaired = json.loads(rebuilt.evidence_path.read_text())
+    assert all(fact["amount"]["normalized_base"] != "999999999" for fact in repaired["facts"])
+    ledger = Ledger(output / ".carthagent" / "ledger.sqlite3")
+    export_records = ledger.db.execute("SELECT id FROM records WHERE kind='export'").fetchall()
+    checkpoint = ledger.get_checkpoint(rebuilt.document_id, "publication_verified")
+    ledger.close()
+    assert export_records and checkpoint["export_record_id"] in {row[0] for row in export_records}
+    assert not any("immutable record collision" in diagnostic for diagnostic in rebuilt.diagnostics)
+
+
 def test_concurrent_same_document_publication_converges_on_verified_pair(tmp_path):
     source = tmp_path / "clear.xlsx"; wb = Workbook(); ws = wb.active; ws.title = "Data"; ws.append(["Asset ID", "Opening cost EUR 2025"]); ws.append(["A-1", 12]); wb.save(source)
     output = tmp_path / "out"

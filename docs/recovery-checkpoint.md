@@ -49,7 +49,7 @@ this full-tuple accuracy or real-client validation.
 
 ## Confirmed review findings requiring closure
 
-The current source is app 0.13.0 / acquisition 13 / structure 8 / semantics 12.
+The current source is app 0.13.1 / acquisition 13 / structure 8 / semantics 12.
 The implementation owner reports all eight repairs below plus a local footer
 veto are present. Focused checks passed: the five new stacked-table/locator
 acceptance probes, five focused unit probes, and 60 owned unit tests. The root's
@@ -57,11 +57,13 @@ independent full run completed with 172 passed, 4 skipped and 2 failed in
 102.93 seconds. One failure came from a private OCR fixture-count assumption;
 that test is now isolated to explicit known responses and its focused suite
 passes 25/25. The other is a repeatable tampered-evidence rebuild failure:
-`ValueError:immutable record collision:export`. It needs a production fix;
-the branch must not be described as green.
+`ValueError:immutable record collision:export`. App 0.13.1 fixes this by binding
+each immutable export-record ID to its manifest hash. Eight focused checks
+passed after that fix; the complete suite is being rerun with the private
+official template enabled. A complete passing result has not yet been recorded.
 
-Source fingerprint at edit freeze:
-`6d34871f4ef761a1ec7b29bb0c2f93a3f25198608c2b0543ff164d6694116feb`.
+Source fingerprint at app 0.13.1 edit freeze:
+`c91cf0bc86bd496317028913dbd51b4e3e4c38449f4026e6e65a6f0701d1c708`.
 
 1. Scope Excel header caches to each table/amount row.
 2. Persist mapper dependencies so accepted facts have a closed replay graph.
