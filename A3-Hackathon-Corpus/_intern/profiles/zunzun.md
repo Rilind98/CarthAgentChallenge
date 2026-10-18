@@ -1,0 +1,42 @@
+# zunzun.pdf — layout profile
+
+- **doc_type**: Zugangsliste. This is the SAP FI-AA "Anlagenzugänge - 01 Handelsrecht" report, a hierarchical list with an asset header and the posting lines below it.
+  - p.1: sort/statistics cover page (no Selektionsfeld table).
+  - p.2–8: the additions list.
+- **format**: no text layer, but NOT a raster scan. The glyphs are vector outlines (Ghostscript print), with some tiny inline image fragments. Pure black on white, no noise, no skew, no stamps, no handwriting. Every page is portrait with the landscape report rotated 90° counter-clockwise.
+- **pages / orientation / size / density**: 8 pages, 595 x 791 pt portrait box with the content turned sideways. Monospace (Courier-like) font of about 8 pt in landscape, so it is more airy than rrtvr. About 30–35 lines per page.
+- **software family**: SAP ECC/S4 FI-AA, ALV hierarchical-sequential list. It shows a folder icon in the heading and an expand chevron "∨" on each header line.
+- **years/periods**: one fiscal year. The period appears only in the header (Berichtsdatum = fiscal-year end, Erstellungsdatum = print date). Aktivdatum of an asset can fall in the prior year (assets under construction completed this year).
+- **header block / footer**:
+  - Every page has a 2-line header top left ("Berichtsdatum: dd.mm.yyyy  Anlagenzugänge - 01 Handelsrecht" / "Erstellungsdatum: dd.mm.yyyy"), the page number top right, and a full-width rule.
+  - No footer, no company name, no page x of y.
+  - Cover page: Sortierkriterien table (Belegnummer, ascending, no subtotal) and Datenstatistik table ("Übergebene Sätze Kopf", "Übergebene Sätze Position").
+- **columns**: 2 heading rows (one per hierarchy level), repeated on every page in a boxed heading band.
+  - Row 1 (asset header level): Anlage | UNr. | Aktivdatum | Anlagenbezeichnung | Zugang | Währg. The amount sits in the middle-right of the page.
+  - Row 2 (item level): Belegnr | Buch.dat. | BezDatum | Text | Referenz | Menge | BME | Zugang | Währg. The amount is at the far right.
+- **row levels**: Anlage (header line, chevron, asset number + sub-number + capitalisation date + description + total addition) > posting items (document number, posting date, reference/document date, text, reference, optional quantity + unit, amount). Each asset group is its own box, separated by horizontal rules.
+- **subtotals/totals**:
+  - The header-line Zugang is the sum of its item lines.
+  - No class subtotals and no grand total. The list ends on the last asset group.
+- **number format**: "." thousands, "," decimal, 2 decimals, trailing minus ("1.234,56-"). Zero is shown as "0,00". Amounts are followed by "EUR". Quantity is an integer with unit "ST", and a negative quantity takes a trailing minus ("1- ST").
+- **date / useful life / method**: dd.mm.yyyy everywhere, with three dates per item (Aktivdatum on the header; Buch.dat. and BezDatum on items). No useful life and no method.
+- **asset id**: asset = 4-digit integer, sequential, no leading zero. UNr. = "0". Belegnr = 9-digit sequential document number with a constant leading block. Referenz has mixed formats: plain numeric 5–10 digits, "RE-" + digits, "N-NNNNNN".
+- **arithmetic**:
+  - Header Zugang = Σ item Zugang, including negative items: cash-discount ("Skonto") credit lines posted at year end, and reversal/transfer lines.
+  - One asset can net to 0,00 when its costs are moved out to another asset with a negative "Go-live"-type line; the same amount reappears positive on the receiving asset.
+  - The list shows additions only. No disposals and no depreciation.
+- **quirks**:
+  - Item texts usually read "<item description>, <supplier name>". Asset descriptions are sometimes prefixed by a "NNN-NNNNNN" internal tool number and repeat on the item line.
+  - Skonto lines carry Buch.dat. at year end but BezDatum = the original invoice date.
+  - Quantity is filled only on some items, and the credit line has a negative quantity.
+  - The two Zugang columns sit at different horizontal positions.
+  - The descriptions column is wide and long texts are not wrapped.
+  - No subtotals.
+  - This is the additions detail for the same ledger as rrtvr.pdf (header amounts tie to that grid's Zugang column).
+- **size**: about 70 asset groups, about 180 posting lines.
+- **generator notes**:
+  - Build a two-level boxed list: asset header line with "∨" and the amount mid-page, then 1–6 item lines with document number, two dates, text with supplier, reference, optional quantity/unit, and the amount far right.
+  - Header amount = Σ items. Include year-end Skonto credits (negative amount, negative quantity) and at least one cost transfer that nets an asset to 0,00 and shows up on another.
+  - Use the 2-row repeated column heading with the folder icon, the SAP 2-line header with page number, and a cover page with only Sortierkriterien and Datenstatistik.
+  - Landscape content rotated 90° CCW on a portrait page, text converted to outlines (no text layer, crisp, zero scan noise).
+  - Use trailing-minus negatives and dd.mm.yyyy dates. No subtotals and no grand total. Tie the asset headers to the Zugang column of the rrtvr-like grid.

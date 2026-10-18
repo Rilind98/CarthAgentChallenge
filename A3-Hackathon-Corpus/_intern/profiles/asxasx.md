@@ -1,0 +1,25 @@
+# Profile: asxasx
+
+- doc_type: Abgangsliste (disposals list) for one fiscal year.
+- format: text-PDF (Arial, real text layer); printed from a fixed-asset program (DATEV-like Anlagenbuchführung print), not Excel. Re-saved through macOS print after redaction.
+- pages: 2. orientation: portrait. page size: A4. font feel: airy (8-9 pt, lots of white space; a single block per page).
+- software family guess: DATEV-like ("Blatt n" top right, valuation area word in the bottom-right footer, hyphenated wrapping of long names, 3-digit SKR04-like asset accounts). Same client and software as dsfdvfdvd.
+- years/periods: one period, printed in the title: "Abgangsliste vom DD.MM.YYYY bis DD.MM.YYYY".
+- header/footer: "Blatt n" top right; title top left (report name larger, "vom ... bis ..." smaller); below it the company block (redacted by a black box) and a bold location/branch line; footer bottom right: "Handelsrecht" (valuation area). No print date, no "of y".
+- columns:
+  - page 1 (summary by account, 3 heading lines: label / sub-label / unit): Bezeichnung | Abgang zu AHK (EUR) | Verkaufserlös (EUR) | Abgang zum Buchwert (EUR)
+  - page 2 (detail by asset, 3 heading lines): Bezeichnung | AHK-Datum | Abgang AHK (EUR) | Abgang Buchwert (EUR) | Verkaufserlös (EUR) | Abgangsdatum | Buchungstext
+  - no spanned headings.
+- row levels: Konto > Anlage. Konto heading bold "<3-digit account> <name>" (name hyphen-wrapped); asset line: 6-digit asset id + description (wraps to 2-3 lines) + dates + amounts + posting text (reason, e.g. scrapped).
+- subtotals/totals: account sum line repeats the account name in bold (no "Summe" word), then an unlabeled bold grand total line. Page 1 total is an unlabeled bold line directly under the account line.
+- number format: thousands ".", decimal ",", two decimals; zero shown as "0,00"; no negatives in this list (all disposal amounts positive). Unit EUR in the heading.
+- date format: DD.MM.YYYY (four-digit year). No ND / method columns.
+- asset id pattern: 6 digits = 3-digit account number + 3-digit running number.
+- arithmetic: Abgang AHK − (cumulative AfA on disposal, not printed) = Abgang Buchwert; sale proceeds shown separately; gain/loss not printed. Page 1 summary equals page 2 detail total.
+- quirks: two documents in one: summary page then detail page with a different column set; hyphenated wrap of account names ("Wirt-/schaftsgüter"); asset description wraps over 3 lines; NOTE: the location line and a person name inside an asset description are NOT redacted in the source — a generator must use fake values there.
+- size: 1 asset row, 1 account.
+- generator notes:
+  - Portrait, "Blatt n" top right, valuation area word bottom right, title "Abgangsliste vom ... bis ...".
+  - Summary page (per account: AHK / proceeds / book value) followed by a detail page with dates and posting text.
+  - Bold account heading and bold unlabeled sum lines; names hyphen-wrapped.
+  - 6-digit asset ids built from the 3-digit account; dates with 4-digit year.

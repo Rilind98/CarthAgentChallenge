@@ -1,0 +1,29 @@
+# Profile: ertgerg
+
+- doc_type: Abgangsliste (asset disposals report, "Anlagenabgänge") for one fiscal year.
+- format: scan-PDF class: NO text layer. Not a raster scan though: crisp vector glyph outlines from a print-to-PDF converter, no skew, no noise. Needs OCR after rotating.
+- pages: 4 (page 1 = list statistics page, pages 2-4 = list). orientation: portrait pages carrying a landscape list rotated 90° (read by turning the page clockwise); statistics page also rotated. page size: odd, A4 width × Letter height (~210 × 279 mm). font feel: airy, monospace (Courier-like) ~8 pt, each asset is a framed box of 4 lines.
+- software family guess: SAP ERP / S/4HANA FI-AA (ALV list print: folder icon and expand arrows, "Buchungskreis", "Bestandskonto AHK", "Anlagenklasse", "UNr.", "BWA", "Sortierkriterien / Datenstatistik" page).
+- years/periods: one. Printed in the header: "Berichtsdatum: DD.MM.YYYY" + report name "Anlagenabgänge - <area no> Handelsrecht"; "Erstellungsdatum: DD.MM.YYYY" on the second line. Posting periods appear as "YYYY-PP" inside the BWA/Referenz line.
+- header/footer: every list page: report date + report name (with valuation area number and name) top left, creation date below, page number alone at the far right, full-width rule. Then a group header block: "Buchungskreis | BestandskontoAHK | Anlagenklasse" labels with values below (company code 4 digits, balance account 5 digits, class 3 digits). Then the framed column heading. No footer. Statistics page: two small framed tables "Sortierkriterien | Aufst. | Abst. | Zwischensumme" (sort keys company code, document number) and "Datenstatistik | Anzahl" (header records, item records, sum lines).
+- columns (4 heading lines, each column stacks 2-4 fields):
+  - Anlage / Belegnr
+  - UNr. / Buch.dat.
+  - Aktivdatum / Deakt.Dat. / Text / BezDatum + Anlagenbezeichnung / Anlagenbezeichnung (2nd) / BWA / Referenz
+  - Abgang / Abgangserlös
+  - Abgang AfA / Mindererlös
+  - Abgang Buchwrt / Mehrerlös
+  - Währg
+- row levels: Buchungskreis > Bestandskonto/Anlagenklasse (in the page group header, a change forces a new page) > Anlage (box of 4 lines: line 1 asset no, sub-no, capitalisation date, description, disposal AHK / AfA / BV + currency; line 2 deactivation date, proceeds / loss / gain; line 3 document no, posting date, reason text; line 4 value date, transaction type, reference "YYYY-nn").
+- subtotals/totals: no subtotal per class or account; one grand total box at the end labeled "* Summe" (2 lines, same columns).
+- number format: thousands ".", decimal ",", two decimals; negatives with TRAILING minus ("1.234,56-"); disposal at cost negative, AfA on disposal positive, book value negative; zero "0,00". Currency code "EUR" printed after the first amount line.
+- date format: DD.MM.YYYY. No useful life / method columns.
+- asset id pattern: main number 3-4 digits (no leading zeros) + sub-number "0"; document numbers 9 digits sharing one common prefix; reference "YYYY-nn" running counter.
+- arithmetic: Abgang (AHK, negative) + Abgang AfA (positive) = Abgang Buchwert (negative). Abgangserlös − Buchwert = Mindererlös (negative) or Mehrerlös. The grand-total line obeys the same row law (checked); sum of rows vs total not verified (no text layer). Disposals at cost, with book value and gain/loss derived; nearly all items are scrapped assets with a one-euro book value, one sold item with proceeds.
+- quirks: no text layer; pages rotated; statistics page first; each asset framed in its own box with a disclosure arrow; group header (company code / account / class) instead of heading lines; posting/reason text inside the row; "Buchwrt" abbreviation in heading; currency column glued after the first amount.
+- size: about 20-25 asset rows, 2 asset classes.
+- generator notes:
+  - Monospace SAP list look, framed per-asset boxes of 4 lines, page rotated 90° on a portrait sheet, no text layer (render text to outlines).
+  - Header: "Berichtsdatum" + report name with valuation area, "Erstellungsdatum", page no right; group block "Buchungskreis / BestandskontoAHK / Anlagenklasse" with page break on change.
+  - Trailing-minus signs with sign logic AHK − / AfA + / BW −; second line proceeds and loss/gain.
+  - Only one "* Summe" box at the end; put a statistics page (sort criteria + record counts) at the front.

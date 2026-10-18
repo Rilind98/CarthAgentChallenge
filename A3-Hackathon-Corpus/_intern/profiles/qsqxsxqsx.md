@@ -1,0 +1,23 @@
+# Profile: qsqxsxqsx
+
+- **doc_type:** Zugangsliste (additions list, tax view: title "Zugangsliste steuerrechtlich")
+- **format:** text-PDF. Printed from the same German mid-market FiBu/ERP asset module as everv. Anonymised re-print (macOS PDF, Arial embedded); company block top right replaced by a black box with white X.
+- **pages / orientation / size / feel:** 1 page, portrait, A4, 7-8 pt body, 10 pt bold title. Airy; lower ~40% of the page empty.
+- **software family guess:** same report family as everv / qsxqsx (German mid-market ERP asset module). Not DATEV, not SAP.
+- **years/periods:** one period: centred line "Zugangsliste vom DD.MM.YYYY bis DD.MM.YYYY"; also in column heading "AHK 01.01.YYYY".
+- **header block:** bold title top left; company block top right (redacted); centred period line; centred bold "Anlagegruppe: A. Anlagevermögen".
+- **footer:** "Datum: DD.MM.YY" bottom left (print date), "Seite: n" bottom right.
+- **columns (in order):** Inventar-Nr. | Inventarbezeichnung | AHK 01.01.YYYY | Zugangsdatum | Buchungstext | Zugang zu AHK. 2 heading text rows ("Zugangs-/datum") plus "EUR" unit under the two amount columns. No grid lines, no spanned headings.
+- **row levels:** Konto > Anlage. Bold "Konto  NNNN" line (two spaces between word and number), blank line above.
+- **subtotals/totals:** bold "Summe" after each Konto, value only in "Zugang zu AHK". No grand total.
+- **number format:** "1.234,56", 2 decimals, no negatives. The AHK 01.01. column is blank for all rows (new assets have no opening cost). Unit EUR.
+- **date format:** DD.MM.YYYY. No useful life / method columns.
+- **asset id pattern:** 4-digit sequential inventory numbers (consecutive numbers spread across accounts in order of purchase).
+- **arithmetic:** Summe per Konto = sum of Zugang zu AHK (verified, all tie). All Zugangsdatum values inside the period.
+- **quirks:** Buchungstext repeats the asset description verbatim and wraps to a 2nd line when long; text layer glues Zugangsdatum to Buchungstext. Empty opening-cost column.
+- **size:** ~11 asset rows, 4 Konto groups.
+- **generator notes:**
+  - Same frame as the Abgangsliste (title, period line, Anlagegruppe line, footer) so the two lists look like siblings.
+  - Leave "AHK 01.01." column empty; Buchungstext = copy of description, wrapped under the Buchungstext column.
+  - Use consecutive 4-digit inventory numbers interleaved across accounts.
+  - Bold "Summe" per Konto, no grand total, short one-page output.

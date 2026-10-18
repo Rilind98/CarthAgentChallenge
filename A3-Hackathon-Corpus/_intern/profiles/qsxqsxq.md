@@ -1,0 +1,23 @@
+# Profile: qsxqsxq
+
+- **doc_type:** Anlagenverzeichnis (asset register, tax view: title "Anlageverzeichnis steuerrechtlich")
+- **format:** text-PDF, anonymised re-print of qsxqsx (macOS PDF, Arial embedded instead of Helvetica). Same content, same 18 pages, but the cell grid is gone and the company block top right is replaced by a black box with a white X.
+- **pages / orientation / size / feel:** 18 pages, portrait, A4, 7-8 pt body, ~10 pt bold title. Medium density, no ruling at all (whitespace columns only).
+- **software family guess:** German mid-market ERP/FiBu asset module (same family as everv / qsqxsxqsx / qsxqsx).
+- **years/periods:** one period; centred period line "Anlageverzeichnis vom DD.MM.YYYY bis DD.MM.YY.." - the end date is cut off by the redaction box, in the image AND in the text layer (only "DD.MM.YY" of the year survives).
+- **header block:** bold title top left; redaction box top right; centred period line (clipped); centred bold "Anlagegruppe: A. Anlagevermögen"; headings repeated per page.
+- **footer:** "Datum: DD.MM.YY" bottom left, "Seite: n" bottom right.
+- **columns (in order):** Inventar-Nummer | Inventar-Bezeichnung | Kostenstelle | AHK EUR | Anschaff. Datum | AfA Art | ND | Buchwert EUR | Datum des Abgangs. 2 heading rows (hyphen-broken words), bold, no box.
+- **row levels:** Konto > Anlage. Bold "Konto  NNNN" line with blank line above; "Summe" line plain weight.
+- **subtotals/totals:** "Summe" per Konto in AHK and Buchwert columns; no grand total; no Übertrag.
+- **number format:** "1.234,56", 2 decimals, zero "0,00", no negatives, EUR.
+- **date format / life / method:** Anschaff. Datum DD.MM.YYYY; Datum des Abgangs DD.MM.YY; ND whole years; AfA Art lin / deg / geb / k / sb / hsv.
+- **asset id pattern:** 1-4 digits, no fixed width, optional letter suffix; text-sorted within each Konto.
+- **arithmetic:** identical to qsxqsx: Summe AHK and Summe Buchwert per Konto tie to the rows; disposed rows shown with 0,00 / 0,00 and a disposal date.
+- **quirks:** redaction box clips the period end date (a reader must cope with a truncated year); no grid lines (column detection only by x-position); wrapped 2-line descriptions; Kostenstelle "0" or blank.
+- **size:** ~618 asset rows, 26 Konto groups.
+- **generator notes:**
+  - Produce the same register as the qsxqsx profile but render it gridless, with Arial.
+  - Add a black redaction rectangle (white diagonal X) top right that overlaps the end of the centred period line.
+  - Keep wrapped descriptions and text-sorted ids so x-position column detection is exercised.
+  - Pair it with a gridded twin to test that the same data parses identically in both renderings.

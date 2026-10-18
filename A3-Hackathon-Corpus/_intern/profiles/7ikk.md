@@ -1,0 +1,26 @@
+# Profile: 7ikk
+
+- doc_type: Zugangsliste (most likely; title is redacted). Column set (supplier, posting text, voucher date, quantity, share %, one amount column) is an additions/movement list, printed at summary level only (no asset rows, only account and balance-sheet-position totals).
+- format: text-PDF (Arial, real text layer); printed from an ERP / accounting list generator, not Excel. Re-saved through macOS print after redaction.
+- pages: 2. orientation: landscape (page stored with /Rotate 90). page size: A4. font feel: airy (8 pt, bold for almost everything, wide row pitch with blank band rows between entries).
+- software family guess: ERP list report, green-bar style (alternating light-grey bands across full width), "ENDE DER LISTE" end marker; AS400/ERP-list look. Exact vendor unknown.
+- years/periods: one period. Period is not visible (title/header block is redacted); no period in column headings.
+- header/footer: top of every page a full-width redaction box (originally report title + company/selection block). Column heading repeated on every page. No visible print date, no page number, no footer. Last page ends with a plain line "ENDE DER LISTE" followed by empty green-bar bands to the page bottom.
+- columns (2 heading rows, no spanned headings; heading row 2 sits under row 1 shifted right):
+  - row 1: Bil.Pos. | Anl.Konto | Anlagenummer | Bezeichnung | Standort | AfA-Meth. | AfA-% | ND | Ansch-Dat. | Lieferant
+  - row 2: BA | KSt | KTr | Prj | GE | GF | Buchungstext | Belegdatum | Menge | Anteil % | Betrag
+  - (BA/KSt/KTr/Prj/GE/GF = cost-accounting dimension codes). Only Betrag carries values in this print.
+- row levels: Bilanzposition > Anlagenkonto (> asset, suppressed). Bil.Pos. line: 6-digit position code flush left + position name in bold, name truncated at a fixed width (sometimes cut mid-word, sometimes ends with "*"). Anl.Konto line: indented, 6-digit account with leading zero + account name, name often carries a valuation suffix ", StR" (tax) or ", HR" (commercial).
+- subtotals/totals: "** Summe Anl.Konto <account>" (two stars) after each account; "* Summe Bil.Pos. <code>" (one star) after each position; "Gesamt" grand total at the end. Labels sit in the middle of the row, the account/position number repeated in a separate column to the right of the label, amount far right.
+- number format: thousands ".", decimal ",", always two decimals; negatives not seen; zero total shown as blank (an account sum line with no amount). Unit not printed (EUR implied).
+- date format: none visible (column "Ansch-Dat." / "Belegdatum" empty at summary level). Useful life column "ND" and "AfA-Meth." / "AfA-%" present but empty.
+- asset id pattern: not visible (asset rows suppressed). Account ids: 6 digits with leading zero; position codes: 6 digits.
+- arithmetic: account sums add to position sums, position sums add to "Gesamt" (checked, ties to the cent). Single amount column, so no row law.
+- quirks: page split in the middle of a position (an account heading at the bottom of page 1, its sum at top of page 2, no carry-over line); empty account sum (blank) kept in the list; truncated position names; full-width redaction box; blank band row inserted between most entries.
+- size: 0 asset rows printed; about 11 asset accounts in 4 balance-sheet positions.
+- generator notes:
+  - Landscape page, green-bar alternating grey bands, Arial 8 pt bold, two-row column heading repeated on every page.
+  - Star-prefixed sum lines: "**" for account, "*" for position, then "Gesamt", then "ENDE DER LISTE".
+  - Account names with ", StR" / ", HR" suffix; 6-digit codes with leading zero.
+  - Option to suppress detail rows (summary-only print) and to leave a zero sum blank.
+  - Let a position break across pages with no carry-over line.

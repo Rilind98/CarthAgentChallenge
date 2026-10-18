@@ -1,0 +1,28 @@
+# Profile: dsfdvfdvd
+
+- doc_type: Anlagenspiegel/Anlagengitter ("Entwicklung des Anlagevermögens"), two documents in one file: (1) account summary pages, (2) full asset-level detail (de facto Anlagenverzeichnis with movements).
+- format: text-PDF (Arial, real text layer); printed from a fixed-asset program via a print-to-PDF driver, not Excel. NOT redacted: company name and location are in clear text in the page header.
+- pages: 117 (5 summary + 112 detail). orientation: landscape. page size: A4. font feel: airy (7.4 pt body; every account/asset block is 3 lines with a blank line between blocks; ~9 assets per page).
+- software family guess: DATEV-like Anlagenbuchführung ("Blatt n" top right, valuation-area word bottom right, 3-line AHK/Absch/BW blocks, 3-digit SKR04-like asset accounts, AfA-Art words like "Linear", "GWG-Sofort"). Same client and software as asxasx.
+- years/periods: one fiscal year. Period in the title "Entwicklung des Anlagevermögens vom DD.MM.YYYY bis DD.MM.YYYY" and in the column headings "Stand zum DD.MM.YYYY" (opening) and "Stand zum DD.MM.YYYY" (closing).
+- header/footer: every page: "Blatt n" top right; centred title; centred company name line; centred bold location line; then the column heading block and a full-width rule. Footer bottom right: "Handelsrecht" (valuation area). No print date, no "of y", no client number, no selection lines.
+- columns:
+  - summary part (3 heading lines; two-line headings, a trailing hyphen marks the second meaning in the same column): Bezeichnung | Entwicklung der | Stand zum <opening date> | Zugang / Abgang- | Umbuchung | Abschreibung / Zuschreibung- | Stand zum <closing date>; unit row "EUR" under each amount column.
+  - detail part (3 heading lines): Bezeichnung | Datum / AfA-Art / ND % | Entw. der | Stand zum <opening> | Zugang / Abgang- | Umbuchung | Abschreibung / Zuschreibung- | Stand zum <closing>.
+  - "Entwicklung der" column holds the line type: "Ansch-/Herst-K", "Abschreibung", "Buchwerte" (summary) or "AHK", "Absch", "BW" (detail).
+- row levels: Konto > Anlage, each shown as a 3-line block.
+  - summary: "<3-digit account> <name>" on the first line of its block, then 3 lines AHK / Abschreibung / Buchwerte.
+  - detail: account heading line "<3-digit account> <name>" (indented, repeated at the top of every continuation page; each account starts a new page); asset block: line 1 = asset id + description + acquisition date + "AHK" figures; line 2 = description wrap / AfA-Art word + "Absch" figures; line 3 = "ND/MM rate%" + "BW" figures.
+- subtotals/totals: account subtotal = account name (no "Summe" word) in the Bezeichnung column + 3-line AHK/Absch/BW block, thin rule above each line. Grand total = unlabeled 3-line block after the last account, heavy rule above, double rule below; appears at the end of the summary part and again at the end of the detail part.
+- number format: thousands ".", decimal ",", two decimals; negatives with TRAILING minus "1.234,56-", printed on a SECOND line inside the same column (disposals under "Zugang", outgoing transfers under "Umbuchung"; gross in and out are never netted). Zero movement shown blank; zero opening/closing balance shown "0,00". Unit EUR.
+- date format: DD.MM.YYYY. Useful life "Y/MM" (years/months, e.g. pattern "5/00") followed by the rate in % with two decimals. AfA-Art words: "Linear" (most), "GWG-Sofort", "Immat.WG", "Keine AfA", "Geom.degr.", "Lin.Geb.<n>", "Fest.lin.".
+- asset id pattern: 6 digits = 3-digit account + 3-digit running number (account prefix repeated in the id).
+- arithmetic: AHK line: Stand Anfang + Zugang − Abgang ± Umbuchung = Stand Ende. Absch line: Stand Anfang + Abschreibung − Abgang (cumulative AfA of disposals) − Zuschreibung = Stand Ende. BW line: Stand Anfang + Zugang ± Umbuchung − Abschreibung = Stand Ende; BW = AHK − Absch on every block. Disposals at cost (removed from both AHK and Absch). Account opening AHK values sum exactly to the grand total (checked).
+- quirks: the "Buchwerte" line repeats the Zugang and AfA figures in their columns; second-line negatives under the positive line; account heading repeated on every page; long descriptions with supplier text after a slash wrap to line 2; many fully written-down assets with a one-euro memo value; GWG accounts where the year's additions are fully written off in the same year; financial-asset accounts at the end with "Keine AfA".
+- size: about 800 asset rows, 31 accounts.
+- generator notes:
+  - Emit both parts: account summary pages, then per-asset detail with new page per account and the account heading repeated per page.
+  - Everything in 3-line blocks (AHK / Absch / BW), line-type label in its own column.
+  - Negative movements on a second line with trailing minus; "Abgang-" / "Zuschreibung-" two-meaning column headings.
+  - Asset id = account + 3-digit counter; "Y/MM rate%" useful life under the AfA-Art word.
+  - Unlabeled grand total with heavy/double rules; "Blatt n" top right and valuation area bottom right.

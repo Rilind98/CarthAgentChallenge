@@ -1,0 +1,24 @@
+# Book6 — layout profile
+
+- **doc_type per sheet**: Sheet1 is an Abgangsliste (disposals list, commercial-law depreciation area, one asset class / one balance-sheet account).
+- **sheets**: 1 tab "Sheet1", A1:G106 (7 cols). No hidden sheets.
+- **export origin guess**: SAP disposals report (RABGANG-style: Aktivdatum/Deakt.Dat., Abgang/Abgang AfA/Abgang Buchwrt, Abgangserlös/Mindererlös/Mehrerlös), exported as a spreadsheet and re-saved in recent Excel (Aptos Narrow 11). There is no asset number column; it was probably removed by anonymisation.
+- **years/periods**: A1 holds the reporting date as text "dd.mm.yyyy". A2 holds a second, later date as text (run date). B1 holds the report title "Anlagenabgänge - <area no.> Handelsrecht".
+- **header block above the table**: rows 1–2 hold the dates and the title. Row 4 holds the labels "BestandskontoAHK" (A) and "Anlagenklasse" (C). Row 5 holds their values (5-digit account and 3-digit class, both text). Rows 7–8 hold **2 heading rows**. Rows 9–11 are empty.
+- **columns** (2 heading rows, verbatim):
+  - row 7: Aktivdatum | Anlagenbezeichnung | (blank) | Abgang | Abgang AfA | Abgang Buchwrt | Währg
+  - row 8: Deakt.Dat. | Text | Referenz | Abgangserlös | Mindererlös | Mehrerlös | (blank)
+  - No merged cells. No hidden columns.
+- **row levels**: one level. Each disposal is a 4-row block: line 1 (capitalisation date, description, amounts AHK/AfA/book value, "EUR"), line 2 (deactivation date, reason text, reference, proceeds/loss/gain), then 2 spacer rows. Most cells in the spacer rows hold empty strings "" rather than real blanks.
+- **subtotals/totals**: 2 unlabelled rows at the end (same 2-line shape as a record) hold the class totals as **values**. There are no formulas.
+- **number storage**: numbers as numbers. Format is "#,##0.00" only where |value| ≥ 1,000; smaller values keep "General". Signs: Abgang (AHK) negative, Abgang AfA positive, Abgang Buchwrt negative (often a token memo value: the Erinnerungswert). Abgangserlös positive, Mindererlös negative. Zeros are written as 0.
+- **dates / useful life / method codes**: dates are **text** "dd.mm.yyyy". Reference is text "YYYY-NN" (or an 8-digit document no.). The reason text is a plain word (scrapped, fire damage, sold to <buyer>). No useful life, no method.
+- **asset id pattern**: none in the file (column missing). The class is a 3-digit text that equals the account's first digits.
+- **arithmetic**: Abgang + Abgang AfA = Abgang Buchwrt in every record. Book value + proceeds = gain + loss in every record. Both total rows tie to the sum of the records. Disposals are shown **both at cost and at book value**.
+- **quirks**: two-line records with 2 spacer rows. Empty-string cells everywhere. Mixed number formats chosen by size. Unlabelled total rows. No bold, no fills.
+- **size**: ~23 disposals, 1 class.
+- **generator notes**
+  - Build a 4-row block per disposal (2 data lines + 2 spacer rows filled with "") under a 2-row heading.
+  - Use the SAP sign set (AHK −, AfA +, book value −; proceeds +, loss −). Use many fully written-off assets with a token memo value.
+  - Store dates and references as text. Use "#,##0.00" only on values ≥ 1,000.
+  - Put an account/class mini-header in rows 4–5 and unlabelled value totals at the bottom.

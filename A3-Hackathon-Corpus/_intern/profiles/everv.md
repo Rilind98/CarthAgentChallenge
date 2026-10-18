@@ -1,0 +1,25 @@
+# Profile: everv
+
+- **doc_type:** Abgangsliste (disposals list, tax view: title "Abgangsliste steuerrechtlich")
+- **format:** text-PDF. Printed from the asset module of a German mid-market accounting/ERP package (Windows report writer). This copy is an anonymised re-print (macOS PDF, Arial embedded); company/logo block replaced by a black box with a white X top right.
+- **pages / orientation / size / feel:** 3 pages, portrait, A4. Small type (7-8 pt body, 10 pt bold title). Airy: one asset per row, generous row pitch, wide white margins, page 3 half empty.
+- **software family guess:** German mid-market FiBu/ERP asset module (same family as qsxqsx / qsxqsxq / qsqxsxqsx). Not DATEV, not SAP.
+- **years/periods:** one period. Printed as centred line "Abgangsliste vom DD.MM.YYYY bis DD.MM.YYYY" under the title, and in the column heading "AHK 01.01.YYYY".
+- **header block:** top left bold report title; top right company block (redacted here); centred period line; centred bold line "Anlagegruppe: A. Anlagevermögen". Header and column headings repeat on every page.
+- **footer:** bottom left "Datum: DD.MM.YY" (print date, 2-digit year); bottom right "Seite: n" (no "of y"). No client number, no filter lines.
+- **columns (in order):** Inventar-Nr. | Inventarbezeichnung | AHK-Datum | AHK 01.01.YYYY | Abgangsdatum | Buchungstext | Buchwert des Abgangs. Heading has 3 text rows (words broken with hyphen: "AHK-/Datum", "Abgangs-/datum", "Buchwert des/Abgangs"), plus a unit row "EUR" under the two amount columns. No spanned headings. No grid lines.
+- **row levels:** Konto > Anlage. Konto shown as a separate bold line "Konto NNNN" (3-4 digit G/L account), blank line above. Asset rows plain, not indented.
+- **subtotals/totals:** "Summe" (bold, left) after each Konto, value only in the last column (Buchwert des Abgangs); the AHK column is NOT summed. No grand total at the end. No Übertrag lines.
+- **number format:** "." thousands, "," decimals, always 2 decimals ("1.234,56"). No negatives seen. Memo values ("1,00" and sub-one-euro legacy residuals) dominate the book-value column. Unit EUR in heading.
+- **date format:** DD.MM.YYYY in rows; acquisition dates span many decades (oldest rows decades back, often 01.01.YYYY placeholders for very old assets). No useful life, no AfA method on this report.
+- **asset id pattern:** 2-4 digit inventory number without leading zeros, optional lowercase letter suffix a-f for split/sub assets ("NNNa", "NNNb"). Sorted as text inside each Konto (a 2-digit id sorts after 3-digit ids with a smaller first digit, e.g. "N9" after "N1NN").
+- **arithmetic:** each Konto "Summe" = sum of Buchwert des Abgangs (verified, all ties). Disposal shown at AHK as at 01.01. plus residual book value; no AfA columns, no proceeds column. Buchungstext is a reason keyword ("Schrott" for scrapping, "Verkauf" + optional document number for sales).
+- **quirks:** text layer glues AHK amount, disposal date and Buchungstext without spaces (columns are tight; visually separated). Description wraps onto a 2nd/3rd line under the description column. A Konto heading can be orphaned as the last line of a page, its rows continue on the next page with no repeated Konto line. Most rows share one disposal date (year-end scrapping run). Redaction box top right.
+- **size:** ~74 asset rows, 8 Konto groups.
+- **generator notes:**
+  - Reproduce the 3-line hyphen-broken column heading and the repeated header (title, period line, "Anlagegruppe" line) on every page.
+  - Konto group = bold "Konto NNNN" line, rows, bold "Summe" with only the last column filled; no grand total.
+  - Fill Buchwert des Abgangs mostly with memo values (1,00 or small cents) and a few real residual values for sales.
+  - Text-sort the inventory numbers and add letter-suffix siblings ("a", "b", ...).
+  - Keep column gaps tight so a text extractor glues amount+date+text; allow orphan Konto headings at page bottom.
+  - Footer "Datum: DD.MM.YY" left, "Seite: n" right.

@@ -1,0 +1,30 @@
+# Sthg — layout profile
+
+- **doc_type per sheet**
+  - Sheet1: Anlagenspiegel (HGB "Entwicklung des Anlagevermögens", current year), built by hand as a workpaper, with a balance-sheet check column and a reconciliation block.
+  - Sheet2: the same Anlagenspiegel for the prior year (same layout, shifted 1 column left).
+- **sheets**: 2 visible tabs, default names. Sheet1 A1:U48. Sheet2 A1:W46. No hidden sheets. One tab per year, but the tab names do not say which year.
+- **export origin guess**: hand-made Excel. Values come from system class totals and are combined by hand with `=a+b+c` formulas. The roll-forward is done with formulas.
+- **years/periods**: row 2 title "Wirtschaftsjahr vom dd.mm.yyyy bis dd.mm.yyyy" (bold). Heading row 5 holds **real date cells** for the start and end of the period (later columns link with `=C5`, `=H5`). The book-value prior-year column holds a typed date. The fiscal year can be non-calendar.
+- **header block above the table**: row 1 "Entwicklung des Anlagevermögens" (bold). Row 2 the period. Row 3 empty. Row 4 has group headings **merged** over each block. Row 5 has the column headings. Row 6 has "EUR" under each value column. Row 7 is empty.
+- **columns** (Sheet1; Sheet2 has no roman-numeral column A, so everything sits 1 column further left):
+  - A: roman/arabic numbering "I." / "1." | B: line caption
+  - C–H, merged heading "Anschaffungs- und Herstellungskosten": <start date> | Zugänge | Abgänge | Umbuchungen | (G empty spacer) | <end date>
+  - (I spacer) J–M, merged heading "kumulierte Abschreibungen": <start> | Zugänge | Abgänge | <end>
+  - (N spacer) O–P, merged heading "Buchwerte": <end> | <prior year end>
+  - (Q, R spacer) S "lt. Bilanz" (bold) with the note "(Übertragung Werte aus Bilanz)" | T "Differenz" (bold)
+  - 3 heading rows (merged group / column / unit). There is no Zuschreibungen column and no Umbuchungen column in the AfA block.
+- **row levels**: 2 levels. Group rows "I. Immaterielle Vermögensgegenstände", "II. Sachanlagen", "III. Finanzanlagen" (bold, no values). Under them, the HGB §266 line items "1. …", "2. …" (not bold). A blank row separates each group heading from its items and each subtotal from the next group. No indent, no outline.
+- **subtotals/totals**: an unlabelled subtotal row under each group (`=SUM(<range>)`; the ranges are not consistent, e.g. some start one row higher). The grand total is unlabelled (`=<g1>+<g2>+<g3>`) with a double bottom border. Some AfA start-column subtotals are **pasted values**, not formulas.
+- **number storage**: numbers as numbers, "#,##0.00". All movements are **positive**. Abgänge are subtracted by the formula. End AHK = start + Zugänge − Abgänge + Umbuchungen. End AfA = start + Zugänge − Abgänge. Book value = end AHK − end AfA. Prior book value = start AHK − start AfA. Umbuchungen have both signs and total to ~0 (float noise e-10). Unit is EUR (row 6). Some typed values carry binary float noise (long fractional tails).
+- **dates / useful life / method codes**: dates only in the heading cells (real dates, built-in short format). No useful life, no method.
+- **asset id pattern**: none (line-item level only).
+- **arithmetic**: the row laws hold by formula. "Differenz" (balance sheet − Spiegel book value) is 0 on every line and in every total. Disposals are shown at cost in the AHK block and the AfA is reversed in the AfA block. The reconciliation block below the table shows non-zero differences against another workpaper (prior-year start, current movements).
+- **quirks**: hard-coded additions inside cells (`=x+y+z`, 18 on Sheet1, 7 on Sheet2) in Zugänge/Abgänge/Umbuchungen/AfA. Spacer columns between the blocks. Below the table: an italic "Abstimmung Vorjahreswerte" / "Abstimmung aktuelle Werte Anlagegitter" block with a reference to another workpaper, 2 cell comments, and free-text notes ("Bearbeitungsstand dd.mm.yyyy …", an explanation of a difference). Thin bottom borders on the data, a double border on the grand total. Arial 11. No freeze panes, no filters.
+- **size**: about 48 × 21 per sheet. 3 groups, 8 line items.
+- **generator notes**
+  - Reproduce the 3-row merged heading (block title / date-or-movement / "EUR") with real date cells and spacer columns between the AHK, AfA and book-value blocks.
+  - Use positive movements with the formula `H=C+D-E+F`, `M=J+K-L`, `O=H-M`, `P=C-J`. Use unlabelled SUM subtotals per group and an unlabelled grand total with a double border.
+  - Fill some movement cells with hard-coded addition formulas, and paste some subtotals as values.
+  - Add a "lt. Bilanz" + "Differenz" check column pair and a reconciliation block in italics with comments and notes.
+  - Add a prior-year twin tab shifted 1 column left (no numbering column).

@@ -1,0 +1,34 @@
+# Book2 — layout profile
+
+- **doc_type per sheet**
+  - Sheet1: Anlagenverzeichnis (asset register) with full Gitter columns per asset (asset-level history sheet).
+  - Sheet2: Anlagengitter by asset class (one row per class, same Gitter columns).
+- **sheets**: 2 visible tabs, default names "Sheet1"/"Sheet2". Sheet1 used range A1:U944 (21 cols). Sheet2 used range A1:V27 (22 cols). No hidden sheets.
+- **export origin guess**: SAP asset history sheet exported via ALV to Excel (grey header fill, two yellow total rows at the bottom, outline grouping, zero cells formatted "#,##0"). Afterwards edited by hand: an auditor added a "SUMMEN" SUBTOTAL row at the top, check rows at the bottom (Sheet1) and two check columns (Sheet2).
+- **years/periods**: only in Sheet1 A4, bold: "Jahresabschluss per <dd.mm.yyyy>". The fiscal year can end in mid-year (not the calendar year). Column headings say "GJ-Beg" (start of fiscal year) and give no year. Sheet2 has no date.
+- **header block above the table**
+  - Sheet1 rows 1–12: rows 1–3 are empty. A4 holds the report title with the closing date (bold). A6 holds the company code as "BK: <4-digit code>". A9 holds "SUMMEN" (bold) with `=SUBTOTAL(9,<col>14:<col>934)` in F9:U9. Rows 10–12 are empty. The table heading is in row 13.
+  - Sheet2: the heading is in row 1. There is no header block.
+- **columns**
+  - Sheet1 (1 heading row, row 13, fill #DDDDDD, wrap text, not bold): Anlage | Unter-nummer | Aktivierung am | Anlagenbezeichnung | Währ-ung | AHK GJ-Beg | Zugang | Abgang | Umbuchung | Nachaktivg | Invest.Förderg | aktuelle AHK | AfA GJ-Beg | AfA des Jahres | AfA Abgang | AfA Umbuchung | AfA Nachaktivg | Zuschreibungen | kumulierte AfA | Buchwrt GJ-Beg | lfd Buchwert. The hyphens in "Unter-nummer" and "Währ-ung" are line-break remnants from the source system. No merged cells. No hidden columns. Columns J, K, P, Q, R are all zero in every row.
+  - Sheet2 (1 heading row): Buchungskreis | Anlagenklasse | Bezeichnung | Währ-ung | AHK GJ-Beg | Zugang | Abgang | Umbuchung | Nachaktivg | Invest.Förderg | **SUMME AHK / Zugang / Abgang / Umbuchung** | aktuelle AHK | **Differenz zu aktuelle AHK** | AfA GJ-Beg | AfA des Jahres | AfA Abgang | AfA Umbuchung | AfA Nachaktivg | Zuschreibungen | kumulierte AfA | Buchwrt GJ-Beg | lfd Buchwert. The two bold columns (K, M) were inserted by the auditor, have a different fill and hold formulas.
+- **row levels**
+  - Sheet1: only 1 level, the assets. All asset rows (14–934) have outline level 2 and are **hidden** (outline collapsed), so the open sheet shows only the headings and totals. There are no class subtotal rows and no blank rows. The asset class can be read only from the first 2 digits of the asset number.
+  - Sheet2: 1 level (class rows, outline level 1). Class code is 4 digits as text, class name is a short abbreviated text (≤20 chars).
+- **subtotals/totals**
+  - Sheet1 top: "SUMMEN" row with SUBTOTAL(9) formulas (auditor added).
+  - Sheet1 bottom: row 935 "Buchungskreis <code>" (fill #FFFB8B) and row 936 without a label (grand total, fill #FFF844). Both hold pasted **values**, not formulas, and show "EUR" in the currency column. Row 938 holds check formulas `=+<col>936-<col>9`. Rows 940–944 hold a free-text reconciliation to the balance sheet with hard-coded constant formulas (`=a+b+c`, `=SUM`, difference).
+  - Sheet2: same two yellow total rows (values), plus `=SUM` in the inserted K and M columns.
+- **number storage**: amounts are real numbers. Number format "#,##0.00" on non-zero cells and "#,##0" on zero cells (an exact rule in every cell). Zeros are written as 0 and never left blank. Signs: AHK and book values are positive. Abgang (AHK) is negative. All AfA columns (AfA GJ-Beg, AfA des Jahres, kumulierte AfA) are negative. AfA Abgang is positive. Umbuchung has both signs. Unit is EUR (currency column on every row). The SUBTOTAL row uses the accounting format `_-* #,##0.00_-;\-* #,##0.00_-;_-* "-"??_-;_-@_-`.
+- **dates / useful life / method codes**: "Aktivierung am" holds real Excel dates with built-in short date format (id 14, stored as "mm-dd-yy"). Dates span several decades. There is no useful-life column and no method column.
+- **asset id pattern**: 9 digits stored as **text**. The first 2 digits equal the first 2 digits of the 4-digit class code. The sub-number is a separate text column, almost always "0". There are no leading zeros.
+- **arithmetic**: kumulierte AfA = sum of the AfA columns holds in every row. Buchwrt GJ-Beg = AHK GJ-Beg + AfA GJ-Beg holds in every row. lfd Buchwert = aktuelle AHK + kumulierte AfA holds in every row. aktuelle AHK = sum of the AHK movements **fails on <1 % of rows, those with Umbuchung** (the transfer column is incomplete). The same gap appears on Sheet2 in the auditor's "Differenz" column for the classes with transfers. Disposals are shown **at cost** (AHK out, negative) with the AfA reversed separately (positive). Column totals tie exactly to both yellow rows and to the SUBTOTAL row. The Umbuchung total is ~0 (float noise e-9).
+- **quirks**: all detail rows hidden by an outline (data is in the file but not visible). The totals sit at the top (SUBTOTAL) and again at the bottom (ALV values). Hand-made reconciliation block below the table, with hard-coded constants and free-text labels. Two inserted control columns on Sheet2 break the column alignment with Sheet1 (Sheet2 is shifted by 1 column from "Bezeichnung" on). Font is Aptos Narrow 11. No freeze panes, no filters, no comments.
+- **size**: Sheet1 has ~920 asset rows across 16 two-digit class prefixes. Sheet2 has 17 class rows + 2 total rows.
+- **generator notes**
+  - Write an ALV-style flat asset table: 21 columns in the order above, heading row filled #DDDDDD, every number cell filled (0 instead of blank), zero cells "#,##0" and non-zero cells "#,##0.00".
+  - Use the SAP sign convention: AfA columns negative, Abgang negative, AfA Abgang positive. Show disposals at cost.
+  - Group the detail rows at outline level 2 and hide them. Add a "SUMMEN" SUBTOTAL(9) row above the heading and two yellow value-total rows below the data.
+  - Store the asset id as a 9-digit text string with a class prefix, the sub-number as text "0", and dates as real dates.
+  - Add a second tab with class totals (4-digit class as text) plus 2 auditor check columns (SUM formula and difference).
+  - Seed a few transfer rows where the AHK row law does not hold, to test parser tolerance.

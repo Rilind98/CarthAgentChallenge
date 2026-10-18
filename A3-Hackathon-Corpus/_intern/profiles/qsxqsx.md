@@ -1,0 +1,25 @@
+# Profile: qsxqsx
+
+- **doc_type:** Anlagenverzeichnis (asset register, tax view: title "Anlageverzeichnis steuerrechtlich")
+- **format:** text-PDF, original print (NOT anonymised: company block is visible in the source; never copy it). Printed via a Windows PDF printer driver from the asset module of a German mid-market FiBu/ERP package. Helvetica fonts. Twin of qsxqsxq (same content, that one is the anonymised re-print).
+- **pages / orientation / size / feel:** 18 pages, portrait, A4. 7-8 pt body, ~10 pt title. Medium density: one asset per row, fully ruled grid (every cell boxed), ~30-35 rows per page.
+- **software family guess:** German mid-market ERP/FiBu asset module (same family as everv / qsqxsxqsx). Not DATEV, not SAP.
+- **years/periods:** one period. Centred line "Anlageverzeichnis vom DD.MM.YYYY bis DD.MM.YYYY" under the header; values are as at period end.
+- **header block:** top left report title; top right, right-aligned 4-line company block (name, business line, street, postcode + town); centred period line; centred bold "Anlagegruppe: A. Anlagevermögen". Repeated on every page together with the column headings.
+- **footer:** thin rule, then "Datum: DD.MM.YY" bottom left (print date), "Seite: n" bottom right (no total page count).
+- **columns (in order):** Inventar-Nummer | Inventar-Bezeichnung | Kostenstelle | AHK EUR | Anschaff. Datum | AfA Art | ND | Buchwert EUR | Datum des Abgangs. 2 heading rows (words hyphen-broken: "Inventar-/Nummer", "Kosten-/stelle", "AHK/EUR", "Anschaff./Datum", "AfA/Art", "Buchwert/EUR", "Datum des/Abgangs"), all inside one boxed header band. No spanned headings.
+- **row levels:** Konto > Anlage. Konto = separate line "Konto  NNNN" (3-4 digit G/L account, two spaces) in its own small box spanning the first two columns, with an empty gap row above. Asset rows not indented.
+- **subtotals/totals:** "Summe" row after each Konto (boxed), values in AHK and Buchwert columns only. No grand total, no Übertrag / carry-over lines. Groups run across page breaks without repeating the Konto line.
+- **number format:** "1.234,56", always 2 decimals, no negatives. Zero shown as "0,00". Disposed assets show AHK 0,00 and Buchwert 0,00. Memo value 1,00 (sometimes a sub-one-euro legacy residual) for fully depreciated assets. Unit EUR in heading.
+- **date format / life / method:** Anschaff. Datum DD.MM.YYYY; Datum des Abgangs DD.MM.YY (2-digit year, only on disposed rows). ND = useful life in whole years (0-50; 0 for land). AfA Art codes: "lin" (straight-line, majority), "deg" (declining), "geb" (building), "k" (no depreciation, land), "sb" and "hsv" (rare special codes). Kostenstelle column: "0" or blank.
+- **asset id pattern:** 1-4 digit inventory number, no fixed width, optional letter suffix a-f (rarely uppercase), also leading-zero 2-digit ids under the land account. Text-sorted within each Konto (e.g. "N", "N0N", "M", "M0N" with M > N).
+- **arithmetic:** per Konto "Summe" AHK = sum of row AHK and "Summe" Buchwert = sum of row Buchwert (verified, all 26 tie). Only a two-value register (AHK at period end and book value); no movement columns, no accumulated depreciation column. Disposals stay listed with AHK and Buchwert set to 0,00 plus the disposal date (so disposals are not shown at cost here).
+- **quirks:** full cell grid lines; descriptions wrap to a 2nd line inside the description cell (~100 wrapped rows), row height grows; disposed rows with 0,00 amounts in the same year; very old acquisition dates (decades back, 01.01.YYYY placeholders); pages start mid-group without a Konto line.
+- **size:** ~618 asset rows, 26 Konto groups, 18 pages.
+- **generator notes:**
+  - Draw the full cell grid (boxed header band, boxed Konto label, boxed Summe row) to match the original print look.
+  - Two-value register: AHK + Buchwert per asset, Summe per Konto, no grand total.
+  - Mix AfA codes lin/deg/geb/k with ND in years; land rows with ND 0 and Buchwert = AHK.
+  - Include disposed rows with 0,00 / 0,00 and a DD.MM.YY disposal date, and many 1,00 memo rows.
+  - Text-sorted variable-length ids with letter suffixes; wrapped 2-line descriptions.
+  - Repeat title, company block, period line, Anlagegruppe line and headings on every page; footer "Datum:" left, "Seite:" right.
