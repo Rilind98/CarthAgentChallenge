@@ -1,0 +1,11 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.carthagent/
+outputs/
+hackathon-local/
+
+.env
+.env.*
+!.env.example
