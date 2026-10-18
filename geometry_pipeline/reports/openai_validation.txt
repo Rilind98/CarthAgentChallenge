@@ -1,0 +1,25 @@
+OpenAI geometry pipeline validation - 2026-10-18
+
+Python compilation: PASS (agent/ and scripts/)
+CLI entry points: PASS (agent/run.py and scripts/run_openai.py)
+Offline regression suite: 6 tests PASS
+  OpenRouter Chat Completions protocol and model selection
+  OpenAI Responses reasoning history and function-call result pairing
+  OCR budget exhaustion does not cache incomplete work
+  Invalid layout JSON is retried
+  Actual OCR view/fix tools, review caching, and second-pass review
+  Text PDF and Excel extraction reproduces expected values and pointers
+
+Live provider: OpenRouter, model openai/gpt-6.1-sol
+Direct OpenAI connectivity: blocked (credit_balance_exhausted)
+
+Document                              Correct Wrong Extra Missing Points
+f00_demo_01.xlsx                          444     0     0       0    444
+f00_demo_02.pdf                           444     0     0       0    444
+f07_sap_class_summary_04.pdf (scan)        133     0     0       0    133
+TOTAL                                   1021     0     0       0   1021
+
+The scan exercised two page-review sessions (64 and 11 tool calls).
+No column-sum second pass was needed by this live sample; that path is covered
+by the regression test using real correction tools and a scripted model.
+No full-corpus run was performed. Direct OpenAI live behavior remains unverified.

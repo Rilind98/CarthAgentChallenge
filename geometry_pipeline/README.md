@@ -39,9 +39,13 @@ OCR sessions (default 6). `MAX_CALLS` limits tool calls per review (default 300,
 
 This combines the GPT tool harness from thread `b5c2e5fa-99c7-4790-bb70-aaa3a9ac89b6` with the later
 parser and column-sum review fixes from `055e3d25-d5e8-4fc8-99c1-30c9551b30a8` and the shared Excel reader.
-No tests or corpus runs were performed for this switch, as requested. The GPT experiment previously scored
-432/432 and 133/133 on two scans, and 344 points with four wrong digits on the hardest fax scan.
-Those historical runs do not validate this combined version.
+Validation after the switch: six offline regression tests pass, covering both API protocols, text PDF and Excel
+extraction, actual OCR tools, cache reuse, second-pass review, retries and tool-budget exhaustion. Run them with
+`.venv/bin/python -m unittest discover -s tests -v` from this directory.
+Live runs through OpenRouter with `openai/gpt-6.1-sol` scored 444/444 on `f00_demo_01.xlsx`, 444/444 on
+`f00_demo_02.pdf`, and 133/133 on scanned `f07_sap_class_summary_04.pdf`: 1,021 correct, no wrong, extra or missing
+values. Direct OpenAI live validation is blocked by exhausted account credits; its protocol is covered offline.
+These three documents do not establish whole-corpus accuracy. See `reports/openai_validation.txt`.
 
 `out_final/` and `reports/final_text_xlsx_score.txt` are historical Claude-generated artifacts, not outputs or
 measured scores of this OpenAI version. Use a fresh output directory for OpenAI. Known gaps include multiple
