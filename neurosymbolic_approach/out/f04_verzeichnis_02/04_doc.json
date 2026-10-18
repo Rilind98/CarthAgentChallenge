@@ -1,0 +1,4986 @@
+{
+ "meta": {
+  "doc_id": "f04_verzeichnis_02",
+  "source": "../A3-Hackathon-Corpus/f04_verzeichnis/f04_verzeichnis_02.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-01-01",
+    "unit": "EUR",
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "problem"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "107",
+   "sub_no": "",
+   "name": "Finanzbuchhaltung Software",
+   "acq_date": "2025-04-18",
+   "method": "lin",
+   "label": "107 Finanzbuchhaltung Software 18.04.2025 lin 5",
+   "context": [
+    "Konto 027"
+   ],
+   "fields": {
+    "ahk_close": 716500,
+    "bw_close": 609025
+   },
+   "printed": {
+    "ahk_close": "7.165,00",
+    "bw_close": "6.090,25"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     156.35,
+     514.0,
+     163.85
+    ],
+    "frame_band": [
+     156.35,
+     163.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       312.81,
+       156.35,
+       342.0,
+       163.85
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       484.81,
+       156.35,
+       514.0,
+       163.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "16",
+   "sub_no": "",
+   "name": "Warenwirtschaft Modul Lager",
+   "acq_date": "2020-04-04",
+   "method": "lin",
+   "label": "16 Warenwirtschaft Modul Lager 04.04.2020 lin 3",
+   "context": [
+    "Konto 027"
+   ],
+   "fields": {
+    "ahk_close": 5404900,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "54.049,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     171.95,
+     514.0,
+     179.45
+    ],
+    "frame_band": [
+     171.95,
+     179.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       171.95,
+       342.0,
+       179.45
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       171.95,
+       514.0,
+       179.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "323",
+   "sub_no": "",
+   "name": "Zeiterfassung Software Nr. 12",
+   "acq_date": "2024-05-01",
+   "method": "lin",
+   "label": "323 Zeiterfassung Software Nr. 12 01.05.2024 lin 3",
+   "context": [
+    "Konto 027"
+   ],
+   "fields": {
+    "ahk_close": 835649,
+    "bw_close": 371400
+   },
+   "printed": {
+    "ahk_close": "8.356,49",
+    "bw_close": "3.714,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     187.55,
+     514.0,
+     195.05
+    ],
+    "frame_band": [
+     187.55,
+     195.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       312.81,
+       187.55,
+       342.0,
+       195.05
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       484.81,
+       187.55,
+       514.0,
+       195.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "484",
+   "sub_no": "",
+   "name": "Finanzbuchhaltung Software Typ",
+   "acq_date": "2025-05-18",
+   "method": "lin",
+   "label": "484 Finanzbuchhaltung Software Typ 18.05.2025 lin 3 X521",
+   "context": [
+    "Konto 027"
+   ],
+   "fields": {
+    "ahk_close": 3188182,
+    "bw_close": 2479697
+   },
+   "printed": {
+    "ahk_close": "31.881,82",
+    "bw_close": "24.796,97"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     203.15,
+     514.0,
+     210.65
+    ],
+    "frame_band": [
+     203.15,
+     210.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       203.15,
+       342.0,
+       210.65
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       480.64,
+       203.15,
+       514.0,
+       210.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5",
+   "sub_no": "",
+   "name": "Office-Lizenzen",
+   "acq_date": "2011-10-11",
+   "method": "lin",
+   "label": "5 Office-Lizenzen 11.10.2011 lin 5",
+   "context": [
+    "Konto 027"
+   ],
+   "fields": {
+    "ahk_close": 292300,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "2.923,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     227.35,
+     514.0,
+     234.85
+    ],
+    "frame_band": [
+     227.35,
+     234.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       312.81,
+       227.35,
+       342.0,
+       234.85
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       227.35,
+       514.0,
+       234.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "60",
+   "sub_no": "",
+   "name": "CAD-Software Lizenz (gebraucht)",
+   "acq_date": "2018-09-20",
+   "method": "lin",
+   "label": "60 CAD-Software Lizenz (gebraucht) 20.09.2018 lin 5",
+   "context": [
+    "Konto 027"
+   ],
+   "fields": {
+    "ahk_close": 181000,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "1.810,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     242.95,
+     514.0,
+     250.45
+    ],
+    "frame_band": [
+     242.95,
+     250.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       312.81,
+       242.95,
+       342.0,
+       250.45
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       242.95,
+       514.0,
+       250.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "60",
+   "sub_no": "e",
+   "name": "Zeiterfassung Software",
+   "acq_date": "2013-09-23",
+   "method": "lin",
+   "label": "60e Zeiterfassung Software 23.09.2013 lin 3",
+   "context": [
+    "Konto 027"
+   ],
+   "fields": {
+    "ahk_close": 4072300,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "40.723,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     258.55,
+     514.0,
+     266.05
+    ],
+    "frame_band": [
+     258.55,
+     266.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       258.55,
+       342.0,
+       266.05
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       258.55,
+       514.0,
+       266.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 027"
+   ],
+   "fields": {
+    "ahk_close": 14690831,
+    "bw_close": 3460522
+   },
+   "printed": {
+    "ahk_close": "146.908,31",
+    "bw_close": "34.605,22"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     274.15,
+     514.0,
+     281.65
+    ],
+    "frame_band": [
+     274.15,
+     281.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       274.15,
+       342.0,
+       281.65
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       480.64,
+       274.15,
+       514.0,
+       281.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "01",
+   "sub_no": "",
+   "name": "Grund und Boden Betriebsgelände",
+   "acq_date": "2007-01-01",
+   "method": "k",
+   "label": "01 Grund und Boden Betriebsgelände 01.01.2007 k 0",
+   "context": [
+    "Konto 027",
+    "Konto 085"
+   ],
+   "fields": {
+    "ahk_close": 13268700,
+    "bw_close": 13268700
+   },
+   "printed": {
+    "ahk_close": "132.687,00",
+    "bw_close": "132.687,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     313.75,
+     514.0,
+     321.25
+    ],
+    "frame_band": [
+     313.75,
+     321.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       313.75,
+       342.0,
+       321.25
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       476.47,
+       313.75,
+       514.0,
+       321.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "02",
+   "sub_no": "",
+   "name": "Grundstück Gewerbegebiet",
+   "acq_date": "2007-01-01",
+   "method": "k",
+   "label": "02 Grundstück Gewerbegebiet 01.01.2007 k 0",
+   "context": [
+    "Konto 027",
+    "Konto 085"
+   ],
+   "fields": {
+    "ahk_close": 45312400,
+    "bw_close": 45312400
+   },
+   "printed": {
+    "ahk_close": "453.124,00",
+    "bw_close": "453.124,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     329.35,
+     514.0,
+     336.85
+    ],
+    "frame_band": [
+     329.35,
+     336.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       329.35,
+       342.0,
+       336.85
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       476.47,
+       329.35,
+       514.0,
+       336.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "03",
+   "sub_no": "",
+   "name": "Grundstück Gewerbegebiet",
+   "acq_date": "2015-01-01",
+   "method": "k",
+   "label": "03 Grundstück Gewerbegebiet 01.01.2015 k 0",
+   "context": [
+    "Konto 027",
+    "Konto 085"
+   ],
+   "fields": {
+    "ahk_close": 33036400,
+    "bw_close": 33036400
+   },
+   "printed": {
+    "ahk_close": "330.364,00",
+    "bw_close": "330.364,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     344.95,
+     514.0,
+     352.45
+    ],
+    "frame_band": [
+     344.95,
+     352.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       344.95,
+       342.0,
+       352.45
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       476.47,
+       344.95,
+       514.0,
+       352.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 027",
+    "Konto 085"
+   ],
+   "fields": {
+    "ahk_close": 91617500,
+    "bw_close": 91617500
+   },
+   "printed": {
+    "ahk_close": "916.175,00",
+    "bw_close": "916.175,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     360.55,
+     514.0,
+     368.05
+    ],
+    "frame_band": [
+     360.55,
+     368.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       360.55,
+       342.0,
+       368.05
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       476.47,
+       360.55,
+       514.0,
+       368.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "4172",
+   "sub_no": "",
+   "name": "Produktionshalle 0",
+   "acq_date": "2025-12-20",
+   "method": "geb",
+   "label": "4172 Produktionshalle 0 20.12.2025 geb 33",
+   "context": [
+    "Konto 027",
+    "Konto 085",
+    "Konto 100"
+   ],
+   "fields": {
+    "ahk_close": 149454538,
+    "bw_close": 149077128
+   },
+   "printed": {
+    "ahk_close": "1.494.545,38",
+    "bw_close": "1.490.771,28"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     400.15,
+     514.0,
+     407.65
+    ],
+    "frame_band": [
+     400.15,
+     407.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       298.21,
+       400.15,
+       342.0,
+       407.65
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       470.21,
+       400.15,
+       514.0,
+       407.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "604",
+   "sub_no": "",
+   "name": "Produktionshalle 0",
+   "acq_date": "1988-11-20",
+   "method": "geb",
+   "label": "604 Produktionshalle 0 20.11.1988 geb 33",
+   "context": [
+    "Konto 027",
+    "Konto 085",
+    "Konto 100"
+   ],
+   "fields": {
+    "ahk_close": 218752700,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "2.187.527,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     415.75,
+     514.0,
+     423.25
+    ],
+    "frame_band": [
+     415.75,
+     423.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       298.21,
+       415.75,
+       342.0,
+       423.25
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       415.75,
+       514.0,
+       423.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "784",
+   "sub_no": "",
+   "name": "Lagerhalle 0",
+   "acq_date": "2016-02-25",
+   "method": "geb",
+   "label": "784 Lagerhalle 0 25.02.2016 geb 33",
+   "context": [
+    "Konto 027",
+    "Konto 085",
+    "Konto 100"
+   ],
+   "fields": {
+    "ahk_close": 51138541,
+    "bw_close": 35771151
+   },
+   "printed": {
+    "ahk_close": "511.385,41",
+    "bw_close": "357.711,51"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     431.35,
+     514.0,
+     438.85
+    ],
+    "frame_band": [
+     431.35,
+     438.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       431.35,
+       342.0,
+       438.85
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       476.47,
+       431.35,
+       514.0,
+       438.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "799",
+   "sub_no": "",
+   "name": "Werkstattgebäude 0",
+   "acq_date": "2025-09-21",
+   "method": "geb",
+   "label": "799 Werkstattgebäude 0 21.09.2025 geb 33",
+   "context": [
+    "Konto 027",
+    "Konto 085",
+    "Konto 100"
+   ],
+   "fields": {
+    "ahk_close": 204130064,
+    "bw_close": 202068144
+   },
+   "printed": {
+    "ahk_close": "2.041.300,64",
+    "bw_close": "2.020.681,44"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     446.95,
+     514.0,
+     454.45
+    ],
+    "frame_band": [
+     446.95,
+     454.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       298.21,
+       446.95,
+       342.0,
+       454.45
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       470.21,
+       446.95,
+       514.0,
+       454.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "957",
+   "sub_no": "",
+   "name": "Anbau Sozialtrakt 0",
+   "acq_date": "2025-09-21",
+   "method": "geb",
+   "label": "957 Anbau Sozialtrakt 0 21.09.2025 geb 33",
+   "context": [
+    "Konto 027",
+    "Konto 085",
+    "Konto 100"
+   ],
+   "fields": {
+    "ahk_close": 127896283,
+    "bw_close": 126604401
+   },
+   "printed": {
+    "ahk_close": "1.278.962,83",
+    "bw_close": "1.266.044,01"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     462.55,
+     514.0,
+     470.05
+    ],
+    "frame_band": [
+     462.55,
+     470.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       298.21,
+       462.55,
+       342.0,
+       470.05
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       470.21,
+       462.55,
+       514.0,
+       470.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 027",
+    "Konto 085",
+    "Konto 100"
+   ],
+   "fields": {
+    "ahk_close": 751372126,
+    "bw_close": 513520924
+   },
+   "printed": {
+    "ahk_close": "7.513.721,26",
+    "bw_close": "5.135.209,24"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     478.15,
+     514.0,
+     485.65
+    ],
+    "frame_band": [
+     478.15,
+     485.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       298.21,
+       478.15,
+       342.0,
+       485.65
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       470.21,
+       478.15,
+       514.0,
+       485.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "184",
+   "sub_no": "e",
+   "name": "Ständerbohrmaschine (gebraucht)",
+   "acq_date": "2009-11-07",
+   "method": "lin",
+   "label": "184e Ständerbohrmaschine (gebraucht) 07.11.2009 lin 10",
+   "context": [
+    "Konto 085",
+    "Konto 100",
+    "Konto 210"
+   ],
+   "fields": {
+    "ahk_close": 30684628,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "306.846,28",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     517.75,
+     514.0,
+     525.25
+    ],
+    "frame_band": [
+     517.75,
+     525.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       517.75,
+       342.0,
+       525.25
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       517.75,
+       514.0,
+       525.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2581",
+   "sub_no": "",
+   "name": "Hydraulikpresse",
+   "acq_date": "2025-05-12",
+   "method": "lin",
+   "label": "2581 Hydraulikpresse 12.05.2025 lin 15",
+   "context": [
+    "Konto 085",
+    "Konto 100",
+    "Konto 210"
+   ],
+   "fields": {
+    "ahk_close": 2854491,
+    "bw_close": 2727625
+   },
+   "printed": {
+    "ahk_close": "28.544,91",
+    "bw_close": "27.276,25"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     533.35,
+     514.0,
+     540.85
+    ],
+    "frame_band": [
+     533.35,
+     540.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       533.35,
+       342.0,
+       540.85
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       480.64,
+       533.35,
+       514.0,
+       540.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "4356",
+   "sub_no": "",
+   "name": "Laserschneidanlage Nr. 24",
+   "acq_date": "2020-11-30",
+   "method": "lin",
+   "label": "4356 Laserschneidanlage Nr. 24 30.11.2020 lin 8",
+   "context": [
+    "Konto 085",
+    "Konto 100",
+    "Konto 210"
+   ],
+   "fields": {
+    "ahk_close": 1964400,
+    "bw_close": 695725
+   },
+   "printed": {
+    "ahk_close": "19.644,00",
+    "bw_close": "6.957,25"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     548.95,
+     514.0,
+     556.45
+    ],
+    "frame_band": [
+     548.95,
+     556.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       548.95,
+       342.0,
+       556.45
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       484.81,
+       548.95,
+       514.0,
+       556.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "481",
+   "sub_no": "",
+   "name": "Bandsäge",
+   "acq_date": "2008-07-17",
+   "method": "lin",
+   "label": "481 Bandsäge 17.07.2008 lin 13",
+   "context": [
+    "Konto 085",
+    "Konto 100",
+    "Konto 210"
+   ],
+   "fields": {
+    "ahk_close": 5434749,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "54.347,49",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     564.55,
+     514.0,
+     572.05
+    ],
+    "frame_band": [
+     564.55,
+     572.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       564.55,
+       342.0,
+       572.05
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       564.55,
+       514.0,
+       572.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "761",
+   "sub_no": "",
+   "name": "Flachschleifmaschine",
+   "acq_date": "2014-07-09",
+   "method": "lin",
+   "label": "761 Flachschleifmaschine 09.07.2014 lin 8",
+   "context": [
+    "Konto 085",
+    "Konto 100",
+    "Konto 210"
+   ],
+   "fields": {
+    "ahk_close": 1728212,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "17.282,12",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     580.15,
+     514.0,
+     587.65
+    ],
+    "frame_band": [
+     580.15,
+     587.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       580.15,
+       342.0,
+       587.65
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       580.15,
+       514.0,
+       587.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "769",
+   "sub_no": "",
+   "name": "Schraubenkompressor (gebraucht)",
+   "acq_date": "2025-02-18",
+   "method": "lin",
+   "label": "769 Schraubenkompressor (gebraucht) 18.02.2025 lin 13",
+   "context": [
+    "Konto 085",
+    "Konto 100",
+    "Konto 210"
+   ],
+   "fields": {
+    "ahk_close": 32584200,
+    "bw_close": 30286596
+   },
+   "printed": {
+    "ahk_close": "325.842,00",
+    "bw_close": "302.865,96"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     595.75,
+     514.0,
+     603.25
+    ],
+    "frame_band": [
+     595.75,
+     603.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       595.75,
+       342.0,
+       603.25
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       476.47,
+       595.75,
+       514.0,
+       603.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "942",
+   "sub_no": "",
+   "name": "Spritzgießmaschine",
+   "acq_date": "2025-10-30",
+   "method": "lin",
+   "label": "942 Spritzgießmaschine 30.10.2025 lin 13",
+   "context": [
+    "Konto 085",
+    "Konto 100",
+    "Konto 210"
+   ],
+   "fields": {
+    "ahk_close": 30033093,
+    "bw_close": 29455534
+   },
+   "printed": {
+    "ahk_close": "300.330,93",
+    "bw_close": "294.555,34"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     611.35,
+     514.0,
+     618.85
+    ],
+    "frame_band": [
+     611.35,
+     618.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       611.35,
+       342.0,
+       618.85
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       476.47,
+       611.35,
+       514.0,
+       618.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 085",
+    "Konto 100",
+    "Konto 210"
+   ],
+   "fields": {
+    "ahk_close": 105283773,
+    "bw_close": 63165780
+   },
+   "printed": {
+    "ahk_close": "1.052.837,73",
+    "bw_close": "631.657,80"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     626.95,
+     514.0,
+     634.45
+    ],
+    "frame_band": [
+     626.95,
+     634.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       298.21,
+       626.95,
+       342.0,
+       634.45
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       476.47,
+       626.95,
+       514.0,
+       634.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "159",
+   "sub_no": "",
+   "name": "Photovoltaikanlage Dach 0",
+   "acq_date": "2020-12-22",
+   "method": "lin",
+   "label": "159 Photovoltaikanlage Dach 0 22.12.2020 lin 15",
+   "context": [
+    "Konto 100",
+    "Konto 210",
+    "Konto 240"
+   ],
+   "fields": {
+    "ahk_close": 1089190,
+    "bw_close": 720076
+   },
+   "printed": {
+    "ahk_close": "10.891,90",
+    "bw_close": "7.200,76"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     666.55,
+     514.0,
+     674.05
+    ],
+    "frame_band": [
+     666.55,
+     674.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       666.55,
+       342.0,
+       674.05
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       484.81,
+       666.55,
+       514.0,
+       674.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "198",
+   "sub_no": "",
+   "name": "Kälteanlage 0",
+   "acq_date": "2018-03-31",
+   "method": "lin",
+   "label": "198 Kälteanlage 0 31.03.2018 lin 15",
+   "context": [
+    "Konto 100",
+    "Konto 210",
+    "Konto 240"
+   ],
+   "fields": {
+    "ahk_close": 1609247,
+    "bw_close": 768862
+   },
+   "printed": {
+    "ahk_close": "16.092,47",
+    "bw_close": "7.688,62"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     682.15,
+     514.0,
+     689.65
+    ],
+    "frame_band": [
+     682.15,
+     689.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       682.15,
+       342.0,
+       689.65
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       484.81,
+       682.15,
+       514.0,
+       689.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2836",
+   "sub_no": "",
+   "name": "Photovoltaikanlage Dach 0",
+   "acq_date": "2009-03-10",
+   "method": "lin",
+   "label": "2836 Photovoltaikanlage Dach 0 10.03.2009 lin 10",
+   "context": [
+    "Konto 100",
+    "Konto 210",
+    "Konto 240"
+   ],
+   "fields": {
+    "ahk_close": 18678518,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "186.785,18",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     697.75,
+     514.0,
+     705.25
+    ],
+    "frame_band": [
+     697.75,
+     705.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       697.75,
+       342.0,
+       705.25
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       697.75,
+       514.0,
+       705.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "4790",
+   "sub_no": "",
+   "name": "Photovoltaikanlage Dach 0",
+   "acq_date": "2020-12-07",
+   "method": "lin",
+   "label": "4790 Photovoltaikanlage Dach 0 07.12.2020 lin 15",
+   "context": [
+    "Konto 100",
+    "Konto 210",
+    "Konto 240"
+   ],
+   "fields": {
+    "ahk_close": 4878787,
+    "bw_close": 3225420
+   },
+   "printed": {
+    "ahk_close": "48.787,87",
+    "bw_close": "32.254,20"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     713.35,
+     514.0,
+     720.85
+    ],
+    "frame_band": [
+     713.35,
+     720.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       713.35,
+       342.0,
+       720.85
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       480.64,
+       713.35,
+       514.0,
+       720.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "4832",
+   "sub_no": "",
+   "name": "Photovoltaikanlage Dach Typ A471 0",
+   "acq_date": "2007-09-10",
+   "method": "lin",
+   "label": "4832 Photovoltaikanlage Dach Typ A471 0 10.09.2007 lin 15",
+   "context": [
+    "Konto 100",
+    "Konto 210",
+    "Konto 240"
+   ],
+   "fields": {
+    "ahk_close": 8521000,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "85.210,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     728.95,
+     514.0,
+     736.45
+    ],
+    "frame_band": [
+     728.95,
+     736.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       728.95,
+       342.0,
+       736.45
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       728.95,
+       514.0,
+       736.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "489",
+   "sub_no": "",
+   "name": "Notstromaggregat Halle 4 0",
+   "acq_date": "2025-06-26",
+   "method": "lin",
+   "label": "489 Notstromaggregat Halle 4 0 26.06.2025 lin 15",
+   "context": [
+    "Konto 100",
+    "Konto 210",
+    "Konto 240"
+   ],
+   "fields": {
+    "ahk_close": 3040100,
+    "bw_close": 2921874
+   },
+   "printed": {
+    "ahk_close": "30.401,00",
+    "bw_close": "29.218,74"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     744.55,
+     514.0,
+     752.05
+    ],
+    "frame_band": [
+     744.55,
+     752.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       308.64,
+       744.55,
+       342.0,
+       752.05
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       480.64,
+       744.55,
+       514.0,
+       752.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "62",
+   "sub_no": "",
+   "name": "Photovoltaikanlage Dach 0",
+   "acq_date": "2006-09-20",
+   "method": "lin",
+   "label": "62 Photovoltaikanlage Dach 0 20.09.2006 lin 10",
+   "context": [
+    "Konto 100",
+    "Konto 210",
+    "Konto 240"
+   ],
+   "fields": {
+    "ahk_close": 18570500,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "185.705,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     760.15,
+     514.0,
+     767.65
+    ],
+    "frame_band": [
+     760.15,
+     767.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       760.15,
+       342.0,
+       767.65
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       499.4,
+       760.15,
+       514.0,
+       767.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r34",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 100",
+    "Konto 210",
+    "Konto 240"
+   ],
+   "fields": {
+    "ahk_close": 56387342,
+    "bw_close": 7636532
+   },
+   "printed": {
+    "ahk_close": "563.873,42",
+    "bw_close": "76.365,32"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     775.75,
+     514.0,
+     783.25
+    ],
+    "frame_band": [
+     775.75,
+     783.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       304.47,
+       775.75,
+       342.0,
+       783.25
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       480.64,
+       775.75,
+       514.0,
+       783.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r35",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "119",
+   "sub_no": "",
+   "name": "Pkw Elektro 0",
+   "acq_date": "2025-09-12",
+   "method": "lin",
+   "label": "119 Pkw Elektro 0 12.09.2025 lin 6",
+   "context": [
+    "Konto 320"
+   ],
+   "fields": {
+    "ahk_close": 2293057,
+    "bw_close": 2165665
+   },
+   "printed": {
+    "ahk_close": "22.930,57",
+    "bw_close": "21.656,65"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     156.35,
+     514.0,
+     163.85
+    ],
+    "frame_band": [
+     156.35,
+     163.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       156.35,
+       342.0,
+       163.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       156.35,
+       514.0,
+       163.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r36",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "14",
+   "sub_no": "",
+   "name": "Pkw Elektro 0",
+   "acq_date": "2025-08-01",
+   "method": "lin",
+   "label": "14 Pkw Elektro 0 01.08.2025 lin 6",
+   "context": [
+    "Konto 320"
+   ],
+   "fields": {
+    "ahk_close": 3930009,
+    "bw_close": 3657092
+   },
+   "printed": {
+    "ahk_close": "39.300,09",
+    "bw_close": "36.570,92"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     171.95,
+     514.0,
+     179.45
+    ],
+    "frame_band": [
+     171.95,
+     179.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       171.95,
+       342.0,
+       179.45
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       171.95,
+       514.0,
+       179.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r37",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "31",
+   "sub_no": "f",
+   "name": "Pkw Elektro 0",
+   "acq_date": "2025-04-21",
+   "method": "lin",
+   "label": "31f Pkw Elektro 0 21.04.2025 lin 6",
+   "context": [
+    "Konto 320"
+   ],
+   "fields": {
+    "ahk_close": 5537595,
+    "bw_close": 4845396
+   },
+   "printed": {
+    "ahk_close": "55.375,95",
+    "bw_close": "48.453,96"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     187.55,
+     514.0,
+     195.05
+    ],
+    "frame_band": [
+     187.55,
+     195.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       187.55,
+       342.0,
+       195.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       187.55,
+       514.0,
+       195.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r38",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "555",
+   "sub_no": "",
+   "name": "Pkw Kombi Diesel (gebraucht) 0",
+   "acq_date": "2021-07-20",
+   "method": "lin",
+   "label": "555 Pkw Kombi Diesel (gebraucht) 0 20.07.2021 lin 6",
+   "context": [
+    "Konto 320"
+   ],
+   "fields": {
+    "ahk_close": 3837775,
+    "bw_close": 959444
+   },
+   "printed": {
+    "ahk_close": "38.377,75",
+    "bw_close": "9.594,44"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     203.15,
+     514.0,
+     210.65
+    ],
+    "frame_band": [
+     203.15,
+     210.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       203.15,
+       342.0,
+       210.65
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       484.81,
+       203.15,
+       514.0,
+       210.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r39",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "577",
+   "sub_no": "",
+   "name": "Kleintransporter (gebraucht) 0",
+   "acq_date": "2025-10-26",
+   "method": "lin",
+   "label": "577 Kleintransporter (gebraucht) 0 26.10.2025 lin 6",
+   "context": [
+    "Konto 320"
+   ],
+   "fields": {
+    "ahk_close": 6553900,
+    "bw_close": 6280821
+   },
+   "printed": {
+    "ahk_close": "65.539,00",
+    "bw_close": "62.808,21"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     218.75,
+     514.0,
+     226.25
+    ],
+    "frame_band": [
+     218.75,
+     226.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       218.75,
+       342.0,
+       226.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       218.75,
+       514.0,
+       226.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r40",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "738",
+   "sub_no": "",
+   "name": "Pkw Kompaktklasse Nr. 3 0",
+   "acq_date": "2019-10-12",
+   "method": "lin",
+   "label": "738 Pkw Kompaktklasse Nr. 3 0 12.10.2019 lin 6",
+   "context": [
+    "Konto 320"
+   ],
+   "fields": {
+    "ahk_close": 7657132,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "76.571,32",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     234.35,
+     514.0,
+     241.85
+    ],
+    "frame_band": [
+     234.35,
+     241.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       234.35,
+       342.0,
+       241.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       234.35,
+       514.0,
+       241.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r41",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "87",
+   "sub_no": "a",
+   "name": "Pkw Elektro 0",
+   "acq_date": "2018-12-10",
+   "method": "lin",
+   "label": "87a Pkw Elektro 0 10.12.2018 lin 6",
+   "context": [
+    "Konto 320"
+   ],
+   "fields": {
+    "ahk_close": 7189356,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "71.893,56",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     249.95,
+     514.0,
+     257.45
+    ],
+    "frame_band": [
+     249.95,
+     257.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       249.95,
+       342.0,
+       257.45
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       249.95,
+       514.0,
+       257.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r42",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 320"
+   ],
+   "fields": {
+    "ahk_close": 36998824,
+    "bw_close": 17908618
+   },
+   "printed": {
+    "ahk_close": "369.988,24",
+    "bw_close": "179.086,18"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     265.55,
+     514.0,
+     273.05
+    ],
+    "frame_band": [
+     265.55,
+     273.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       304.47,
+       265.55,
+       342.0,
+       273.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       476.47,
+       265.55,
+       514.0,
+       273.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r43",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "146",
+   "sub_no": "",
+   "name": "Tandemanhänger Nr. 37 0",
+   "acq_date": "2015-01-09",
+   "method": "lin",
+   "label": "146 Tandemanhänger Nr. 37 0 09.01.2015 lin 9",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 3954400,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "39.544,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     305.15,
+     514.0,
+     312.65
+    ],
+    "frame_band": [
+     305.15,
+     312.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       305.15,
+       342.0,
+       312.65
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       305.15,
+       514.0,
+       312.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r44",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "381",
+   "sub_no": "a",
+   "name": "Tandemanhänger 0",
+   "acq_date": "2020-04-20",
+   "method": "lin",
+   "label": "381a Tandemanhänger 0 20.04.2020 lin 9",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 4107700,
+    "bw_close": 1483336
+   },
+   "printed": {
+    "ahk_close": "41.077,00",
+    "bw_close": "14.833,36"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     320.75,
+     514.0,
+     328.25
+    ],
+    "frame_band": [
+     320.75,
+     328.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       320.75,
+       342.0,
+       328.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       320.75,
+       514.0,
+       328.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r45",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "41",
+   "sub_no": "",
+   "name": "Tandemanhänger 0",
+   "acq_date": "2017-03-23",
+   "method": "lin",
+   "label": "41 Tandemanhänger 0 23.03.2017 lin 9",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 7814300,
+    "bw_close": 144709
+   },
+   "printed": {
+    "ahk_close": "78.143,00",
+    "bw_close": "1.447,09"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     336.35,
+     514.0,
+     343.85
+    ],
+    "frame_band": [
+     336.35,
+     343.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       336.35,
+       342.0,
+       343.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       484.81,
+       336.35,
+       514.0,
+       343.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r46",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "427",
+   "sub_no": "a",
+   "name": "Sattelzugmaschine Typ R649 0",
+   "acq_date": "2019-11-15",
+   "method": "lin",
+   "label": "427a Sattelzugmaschine Typ R649 0 15.11.2019 lin 9",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 5382400,
+    "bw_close": 1694459
+   },
+   "printed": {
+    "ahk_close": "53.824,00",
+    "bw_close": "16.944,59"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     351.95,
+     514.0,
+     359.45
+    ],
+    "frame_band": [
+     351.95,
+     359.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       351.95,
+       342.0,
+       359.45
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       351.95,
+       514.0,
+       359.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r47",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "473",
+   "sub_no": "",
+   "name": "Sattelzugmaschine 0",
+   "acq_date": "2023-10-07",
+   "method": "lin",
+   "label": "473 Sattelzugmaschine 0 07.10.2023 lin 9",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 13639649,
+    "bw_close": 10229737
+   },
+   "printed": {
+    "ahk_close": "136.396,49",
+    "bw_close": "102.297,37"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     367.55,
+     514.0,
+     375.05
+    ],
+    "frame_band": [
+     367.55,
+     375.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       304.47,
+       367.55,
+       342.0,
+       375.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       476.47,
+       367.55,
+       514.0,
+       375.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r48",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "4871",
+   "sub_no": "",
+   "name": "Kastenwagen Nr. 28 0",
+   "acq_date": "2025-04-22",
+   "method": "lin",
+   "label": "4871 Kastenwagen Nr. 28 0 22.04.2025 lin 9",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 17268370,
+    "bw_close": 15829339
+   },
+   "printed": {
+    "ahk_close": "172.683,70",
+    "bw_close": "158.293,39"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     383.15,
+     514.0,
+     390.65
+    ],
+    "frame_band": [
+     383.15,
+     390.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       304.47,
+       383.15,
+       342.0,
+       390.65
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       476.47,
+       383.15,
+       514.0,
+       390.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r49",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "62",
+   "sub_no": "",
+   "name": "C Kastenwagen 0",
+   "acq_date": "2021-10-22",
+   "method": "lin",
+   "label": "62C Kastenwagen 0 22.10.2021 lin 9",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 3226363,
+    "bw_close": 1702803
+   },
+   "printed": {
+    "ahk_close": "32.263,63",
+    "bw_close": "17.028,03"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     398.75,
+     514.0,
+     406.25
+    ],
+    "frame_band": [
+     398.75,
+     406.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       398.75,
+       342.0,
+       406.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       398.75,
+       514.0,
+       406.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r50",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "969",
+   "sub_no": "",
+   "name": "Sattelzugmaschine (gebraucht) 0",
+   "acq_date": "2025-12-27",
+   "method": "lin",
+   "label": "969 Sattelzugmaschine (gebraucht) 0 27.12.2025 lin 9",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 3921882,
+    "bw_close": 3885568
+   },
+   "printed": {
+    "ahk_close": "39.218,82",
+    "bw_close": "38.855,68"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     414.35,
+     514.0,
+     421.85
+    ],
+    "frame_band": [
+     414.35,
+     421.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       414.35,
+       342.0,
+       421.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       414.35,
+       514.0,
+       421.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r51",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 320",
+    "Konto 350"
+   ],
+   "fields": {
+    "ahk_close": 59315064,
+    "bw_close": 34970051
+   },
+   "printed": {
+    "ahk_close": "593.150,64",
+    "bw_close": "349.700,51"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     429.95,
+     514.0,
+     437.45
+    ],
+    "frame_band": [
+     429.95,
+     437.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       304.47,
+       429.95,
+       342.0,
+       437.45
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       476.47,
+       429.95,
+       514.0,
+       437.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r52",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "1462",
+   "sub_no": "c",
+   "name": "Werkbank Nr. 31 0",
+   "acq_date": "2024-11-20",
+   "method": "lin",
+   "label": "1462c Werkbank Nr. 31 0 20.11.2024 lin 8",
+   "context": [
+    "Konto 320",
+    "Konto 350",
+    "Konto 400"
+   ],
+   "fields": {
+    "ahk_close": 1393300,
+    "bw_close": 1190110
+   },
+   "printed": {
+    "ahk_close": "13.933,00",
+    "bw_close": "11.901,10"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     469.55,
+     514.0,
+     477.05
+    ],
+    "frame_band": [
+     469.55,
+     477.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       469.55,
+       342.0,
+       477.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       469.55,
+       514.0,
+       477.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r53",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "3729",
+   "sub_no": "",
+   "name": "A Palettenregal Nr. 7 0",
+   "acq_date": "2022-08-26",
+   "method": "lin",
+   "label": "3729A Palettenregal Nr. 7 0 26.08.2022 lin 10",
+   "context": [
+    "Konto 320",
+    "Konto 350",
+    "Konto 400"
+   ],
+   "fields": {
+    "ahk_close": 1715463,
+    "bw_close": 1129346
+   },
+   "printed": {
+    "ahk_close": "17.154,63",
+    "bw_close": "11.293,46"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     485.15,
+     514.0,
+     492.65
+    ],
+    "frame_band": [
+     485.15,
+     492.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       485.15,
+       342.0,
+       492.65
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       485.15,
+       514.0,
+       492.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r54",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "501",
+   "sub_no": "",
+   "name": "Werkbank (gebraucht) 0",
+   "acq_date": "2014-11-11",
+   "method": "lin",
+   "label": "501 Werkbank (gebraucht) 0 11.11.2014 lin 10",
+   "context": [
+    "Konto 320",
+    "Konto 350",
+    "Konto 400"
+   ],
+   "fields": {
+    "ahk_close": 1078200,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "10.782,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     500.75,
+     514.0,
+     508.25
+    ],
+    "frame_band": [
+     500.75,
+     508.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       500.75,
+       342.0,
+       508.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       500.75,
+       514.0,
+       508.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r55",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "971",
+   "sub_no": "",
+   "name": "Elektro-Hubwagen 0",
+   "acq_date": "2018-01-20",
+   "method": "lin",
+   "label": "971 Elektro-Hubwagen 0 20.01.2018 lin 5",
+   "context": [
+    "Konto 320",
+    "Konto 350",
+    "Konto 400"
+   ],
+   "fields": {
+    "ahk_close": 571400,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "5.714,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     516.35,
+     514.0,
+     523.85
+    ],
+    "frame_band": [
+     516.35,
+     523.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       312.81,
+       516.35,
+       342.0,
+       523.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       516.35,
+       514.0,
+       523.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r56",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 320",
+    "Konto 350",
+    "Konto 400"
+   ],
+   "fields": {
+    "ahk_close": 4758363,
+    "bw_close": 2319656
+   },
+   "printed": {
+    "ahk_close": "47.583,63",
+    "bw_close": "23.196,56"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     531.95,
+     514.0,
+     539.45
+    ],
+    "frame_band": [
+     531.95,
+     539.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       531.95,
+       342.0,
+       539.45
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       480.64,
+       531.95,
+       514.0,
+       539.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r57",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "1448",
+   "sub_no": "",
+   "name": "Schreibtisch höhenverstellbar Nr. 37 0",
+   "acq_date": "2012-01-21",
+   "method": "lin",
+   "label": "1448 Schreibtisch höhenverstellbar Nr. 37 0 21.01.2012 lin 13",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 297514,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "2.975,14",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     571.55,
+     514.0,
+     579.05
+    ],
+    "frame_band": [
+     571.55,
+     579.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       312.81,
+       571.55,
+       342.0,
+       579.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       571.55,
+       514.0,
+       579.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r58",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "180",
+   "sub_no": "",
+   "name": "Empfangstheke Nr. 32 0",
+   "acq_date": "2024-06-09",
+   "method": "lin",
+   "label": "180 Empfangstheke Nr. 32 0 09.06.2024 lin 13",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 147237,
+    "bw_close": 129304
+   },
+   "printed": {
+    "ahk_close": "1.472,37",
+    "bw_close": "1.293,04"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     587.15,
+     514.0,
+     594.65
+    ],
+    "frame_band": [
+     587.15,
+     594.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       312.81,
+       587.15,
+       342.0,
+       594.65
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       484.81,
+       587.15,
+       514.0,
+       594.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r59",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "1943",
+   "sub_no": "",
+   "name": "A Regalsystem Archiv (gebraucht) 0",
+   "acq_date": "2008-04-26",
+   "method": "lin",
+   "label": "1943A Regalsystem Archiv (gebraucht) 0 26.04.2008 lin 13",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 348200,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "3.482,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     602.75,
+     514.0,
+     610.25
+    ],
+    "frame_band": [
+     602.75,
+     610.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       312.81,
+       602.75,
+       342.0,
+       610.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       602.75,
+       514.0,
+       610.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r60",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "22",
+   "sub_no": "",
+   "name": "Rollcontainer 0",
+   "acq_date": "2007-07-06",
+   "method": "lin",
+   "label": "22 Rollcontainer 0 06.07.2007 lin 13",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 1725300,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "17.253,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     618.35,
+     514.0,
+     625.85
+    ],
+    "frame_band": [
+     618.35,
+     625.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       618.35,
+       342.0,
+       625.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       618.35,
+       514.0,
+       625.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r61",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "34",
+   "sub_no": "",
+   "name": "Besprechungstisch Halle 5 0",
+   "acq_date": "2008-09-28",
+   "method": "lin",
+   "label": "34 Besprechungstisch Halle 5 0 28.09.2008 lin 13",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 101013,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "1.010,13",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     633.95,
+     514.0,
+     641.45
+    ],
+    "frame_band": [
+     633.95,
+     641.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       312.81,
+       633.95,
+       342.0,
+       641.45
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       633.95,
+       514.0,
+       641.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r62",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "612",
+   "sub_no": "",
+   "name": "Besprechungstisch Halle 3 0",
+   "acq_date": "2021-01-20",
+   "method": "lin",
+   "label": "612 Besprechungstisch Halle 3 0 20.01.2021 lin 13",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 79900,
+    "bw_close": 49169
+   },
+   "printed": {
+    "ahk_close": "799,00",
+    "bw_close": "491,69"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     649.55,
+     514.0,
+     657.05
+    ],
+    "frame_band": [
+     649.55,
+     657.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       319.06,
+       649.55,
+       342.0,
+       657.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       491.06,
+       649.55,
+       514.0,
+       657.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r63",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "685",
+   "sub_no": "",
+   "name": "Schrankwand Büro (gebraucht) 0",
+   "acq_date": "2019-11-10",
+   "method": "lin",
+   "label": "685 Schrankwand Büro (gebraucht) 0 10.11.2019 lin 13",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 797966,
+    "bw_close": 419444
+   },
+   "printed": {
+    "ahk_close": "7.979,66",
+    "bw_close": "4.194,44"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     665.15,
+     514.0,
+     672.65
+    ],
+    "frame_band": [
+     665.15,
+     672.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       312.81,
+       665.15,
+       342.0,
+       672.65
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       484.81,
+       665.15,
+       514.0,
+       672.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r64",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "720",
+   "sub_no": "f",
+   "name": "Bürostuhl ergonomisch Typ F584 0",
+   "acq_date": "2025-07-23",
+   "method": "lin",
+   "label": "720f Bürostuhl ergonomisch Typ F584 0 23.07.2025 lin 13",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 341661,
+    "bw_close": 328520
+   },
+   "printed": {
+    "ahk_close": "3.416,61",
+    "bw_close": "3.285,20"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     680.75,
+     514.0,
+     688.25
+    ],
+    "frame_band": [
+     680.75,
+     688.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       312.81,
+       680.75,
+       342.0,
+       688.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       484.81,
+       680.75,
+       514.0,
+       688.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r65",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "943",
+   "sub_no": "",
+   "name": "Schreibtisch höhenverstellbar 0",
+   "acq_date": "2023-02-25",
+   "method": "lin",
+   "label": "943 Schreibtisch höhenverstellbar 0 25.02.2023 lin 13 28.05.25 (gebraucht)",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     696.35,
+     547.19,
+     703.85
+    ],
+    "frame_band": [
+     696.35,
+     703.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       327.4,
+       696.35,
+       342.0,
+       703.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       696.35,
+       514.0,
+       703.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r66",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 350",
+    "Konto 400",
+    "Konto 420"
+   ],
+   "fields": {
+    "ahk_close": 3838791,
+    "bw_close": 926837
+   },
+   "printed": {
+    "ahk_close": "38.387,91",
+    "bw_close": "9.268,37"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     720.55,
+     514.0,
+     728.05
+    ],
+    "frame_band": [
+     720.55,
+     728.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       308.64,
+       720.55,
+       342.0,
+       728.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       484.81,
+       720.55,
+       514.0,
+       728.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r67",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "201",
+   "sub_no": "",
+   "name": "Bürostuhl 0",
+   "acq_date": "2023-09-07",
+   "method": "sb",
+   "label": "201 Bürostuhl 0 07.09.2023 sb 1",
+   "context": [
+    "Konto 400",
+    "Konto 420",
+    "Konto 480"
+   ],
+   "fields": {
+    "ahk_close": 34805,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "348,05",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     760.15,
+     514.0,
+     767.65
+    ],
+    "frame_band": [
+     760.15,
+     767.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       319.06,
+       760.15,
+       342.0,
+       767.65
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       760.15,
+       514.0,
+       767.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r68",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2208",
+   "sub_no": "",
+   "name": "Laserdrucker 0",
+   "acq_date": "2023-03-24",
+   "method": "sb",
+   "label": "2208 Laserdrucker 0 24.03.2023 sb 1",
+   "context": [
+    "Konto 400",
+    "Konto 420",
+    "Konto 480"
+   ],
+   "fields": {
+    "ahk_close": 30600,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "306,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     775.75,
+     514.0,
+     783.25
+    ],
+    "frame_band": [
+     775.75,
+     783.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       319.06,
+       775.75,
+       342.0,
+       783.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       775.75,
+       514.0,
+       783.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r69",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "3462",
+   "sub_no": "",
+   "name": "Aktenvernichter 0",
+   "acq_date": "2024-08-07",
+   "method": "sb",
+   "label": "3462 Aktenvernichter 0 07.08.2024 sb 1",
+   "context": [
+    "Konto 400",
+    "Konto 420",
+    "Konto 480"
+   ],
+   "fields": {
+    "ahk_close": 53100,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "531,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     791.35,
+     514.0,
+     798.85
+    ],
+    "frame_band": [
+     791.35,
+     798.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       319.06,
+       791.35,
+       342.0,
+       798.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       499.4,
+       791.35,
+       514.0,
+       798.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r70",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "521",
+   "sub_no": "",
+   "name": "Laserdrucker 0",
+   "acq_date": "2021-10-11",
+   "method": "sb",
+   "label": "521 Laserdrucker 0 11.10.2021 sb 1",
+   "context": [],
+   "fields": {
+    "ahk_close": 30900,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "309,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     132.35,
+     514.0,
+     139.85
+    ],
+    "frame_band": [
+     132.35,
+     139.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       319.06,
+       132.35,
+       342.0,
+       139.85
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       132.35,
+       514.0,
+       139.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r71",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "691",
+   "sub_no": "",
+   "name": "Kaffeevollautomat 0",
+   "acq_date": "2025-01-20",
+   "method": "sb",
+   "label": "691 Kaffeevollautomat 0 20.01.2025 sb 1",
+   "context": [],
+   "fields": {
+    "ahk_close": 74499,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "744,99",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     147.95,
+     514.0,
+     155.45
+    ],
+    "frame_band": [
+     147.95,
+     155.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       319.06,
+       147.95,
+       342.0,
+       155.45
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       147.95,
+       514.0,
+       155.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r72",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "71",
+   "sub_no": "",
+   "name": "Akkuschrauber 0",
+   "acq_date": "2025-04-19",
+   "method": "sb",
+   "label": "71 Akkuschrauber 0 19.04.2025 sb 1",
+   "context": [],
+   "fields": {
+    "ahk_close": 46411,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "464,11",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     163.55,
+     514.0,
+     171.05
+    ],
+    "frame_band": [
+     163.55,
+     171.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       319.06,
+       163.55,
+       342.0,
+       171.05
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       163.55,
+       514.0,
+       171.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r73",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [],
+   "fields": {
+    "ahk_close": 270315,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "2.703,15",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     179.15,
+     514.0,
+     186.65
+    ],
+    "frame_band": [
+     179.15,
+     186.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       312.81,
+       179.15,
+       342.0,
+       186.65
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       179.15,
+       514.0,
+       186.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r74",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2303",
+   "sub_no": "",
+   "name": "Netzwerk-Switch 48 Port Typ H787 0",
+   "acq_date": "2019-09-10",
+   "method": "lin",
+   "label": "2303 Netzwerk-Switch 48 Port Typ H787 0 10.09.2019 lin 3",
+   "context": [
+    "Konto 490"
+   ],
+   "fields": {
+    "ahk_close": 136758,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "1.367,58",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     218.75,
+     514.0,
+     226.25
+    ],
+    "frame_band": [
+     218.75,
+     226.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       312.81,
+       218.75,
+       342.0,
+       226.25
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       218.75,
+       514.0,
+       226.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r75",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2859",
+   "sub_no": "c",
+   "name": "Server 2HE (gebraucht) 0",
+   "acq_date": "2017-08-21",
+   "method": "lin",
+   "label": "2859c Server 2HE (gebraucht) 0 21.08.2017 lin 3",
+   "context": [
+    "Konto 490"
+   ],
+   "fields": {
+    "ahk_close": 298300,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "2.983,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     234.35,
+     514.0,
+     241.85
+    ],
+    "frame_band": [
+     234.35,
+     241.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       312.81,
+       234.35,
+       342.0,
+       241.85
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       234.35,
+       514.0,
+       241.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r76",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "325",
+   "sub_no": "",
+   "name": "Workstation CAD (gebraucht) 0",
+   "acq_date": "2023-04-17",
+   "method": "lin",
+   "label": "325 Workstation CAD (gebraucht) 0 17.04.2023 lin 3",
+   "context": [
+    "Konto 490"
+   ],
+   "fields": {
+    "ahk_close": 1705800,
+    "bw_close": 142150
+   },
+   "printed": {
+    "ahk_close": "17.058,00",
+    "bw_close": "1.421,50"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     249.95,
+     514.0,
+     257.45
+    ],
+    "frame_band": [
+     249.95,
+     257.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       308.64,
+       249.95,
+       342.0,
+       257.45
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       484.81,
+       249.95,
+       514.0,
+       257.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r77",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "391",
+   "sub_no": "",
+   "name": "Netzwerk-Switch 48 Port Typ R643 0",
+   "acq_date": "2020-03-22",
+   "method": "lin",
+   "label": "391 Netzwerk-Switch 48 Port Typ R643 0 22.03.2020 lin 3",
+   "context": [
+    "Konto 490"
+   ],
+   "fields": {
+    "ahk_close": 96200,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "962,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     265.55,
+     514.0,
+     273.05
+    ],
+    "frame_band": [
+     265.55,
+     273.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       319.06,
+       265.55,
+       342.0,
+       273.05
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       265.55,
+       514.0,
+       273.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r78",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "4622",
+   "sub_no": "",
+   "name": "Firewall-Appliance 0",
+   "acq_date": "2019-01-08",
+   "method": "lin",
+   "label": "4622 Firewall-Appliance 0 08.01.2019 lin 3",
+   "context": [
+    "Konto 490"
+   ],
+   "fields": {
+    "ahk_close": 589500,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "5.895,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     281.15,
+     514.0,
+     288.65
+    ],
+    "frame_band": [
+     281.15,
+     288.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       312.81,
+       281.15,
+       342.0,
+       288.65
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       281.15,
+       514.0,
+       288.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r79",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "70",
+   "sub_no": "",
+   "name": "NAS-Speicher 0",
+   "acq_date": "2019-10-09",
+   "method": "lin",
+   "label": "70 NAS-Speicher 0 09.10.2019 lin 3",
+   "context": [
+    "Konto 490"
+   ],
+   "fields": {
+    "ahk_close": 119100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "1.191,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     296.75,
+     514.0,
+     304.25
+    ],
+    "frame_band": [
+     296.75,
+     304.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       312.81,
+       296.75,
+       342.0,
+       304.25
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       296.75,
+       514.0,
+       304.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r80",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 490"
+   ],
+   "fields": {
+    "ahk_close": 2945658,
+    "bw_close": 142650
+   },
+   "printed": {
+    "ahk_close": "29.456,58",
+    "bw_close": "1.426,50"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     312.35,
+     514.0,
+     319.85
+    ],
+    "frame_band": [
+     312.35,
+     319.85
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       308.64,
+       312.35,
+       342.0,
+       319.85
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       484.81,
+       312.35,
+       514.0,
+       319.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r81",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "1546",
+   "sub_no": "",
+   "name": "Anlagen im Bau Halle 6 0",
+   "acq_date": "2025-05-02",
+   "method": "k",
+   "label": "1546 Anlagen im Bau Halle 6 0 02.05.2025 k 0",
+   "context": [
+    "Konto 490",
+    "Konto 120"
+   ],
+   "fields": {
+    "ahk_close": 7148200,
+    "bw_close": 7148200
+   },
+   "printed": {
+    "ahk_close": "71.482,00",
+    "bw_close": "71.482,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     351.95,
+     514.0,
+     359.45
+    ],
+    "frame_band": [
+     351.95,
+     359.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       308.64,
+       351.95,
+       342.0,
+       359.45
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       480.64,
+       351.95,
+       514.0,
+       359.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r82",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "510",
+   "sub_no": "",
+   "name": "AiB Spritzgießmaschine 0",
+   "acq_date": "2024-07-25",
+   "method": "k",
+   "label": "510 AiB Spritzgießmaschine 0 25.07.2024 k 0",
+   "context": [
+    "Konto 490",
+    "Konto 120"
+   ],
+   "fields": {
+    "ahk_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     367.55,
+     514.0,
+     375.05
+    ],
+    "frame_band": [
+     367.55,
+     375.05
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       327.4,
+       367.55,
+       342.0,
+       375.05
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       499.4,
+       367.55,
+       514.0,
+       375.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r83",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 490",
+    "Konto 120"
+   ],
+   "fields": {
+    "ahk_close": 7148200,
+    "bw_close": 7148200
+   },
+   "printed": {
+    "ahk_close": "71.482,00",
+    "bw_close": "71.482,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     383.15,
+     514.0,
+     390.65
+    ],
+    "frame_band": [
+     383.15,
+     390.65
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       308.64,
+       383.15,
+       342.0,
+       390.65
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       480.64,
+       383.15,
+       514.0,
+       390.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r84",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "3580",
+   "sub_no": "",
+   "name": "Geschäftsanteile 0",
+   "acq_date": "2007-12-13",
+   "method": "k",
+   "label": "3580 Geschäftsanteile 0 13.12.2007 k 0 Genossenschaftsbank",
+   "context": [
+    "Konto 490",
+    "Konto 120",
+    "Konto 510"
+   ],
+   "fields": {
+    "ahk_close": 17210700,
+    "bw_close": 14629095
+   },
+   "printed": {
+    "ahk_close": "172.107,00",
+    "bw_close": "146.290,95"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     422.75,
+     514.0,
+     430.25
+    ],
+    "frame_band": [
+     422.75,
+     430.25
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       304.47,
+       422.75,
+       342.0,
+       430.25
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       476.47,
+       422.75,
+       514.0,
+       430.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r85",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto 490",
+    "Konto 120",
+    "Konto 510"
+   ],
+   "fields": {
+    "ahk_close": 17210700,
+    "bw_close": 14629095
+   },
+   "printed": {
+    "ahk_close": "172.107,00",
+    "bw_close": "146.290,95"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     446.95,
+     514.0,
+     454.45
+    ],
+    "frame_band": [
+     446.95,
+     454.45
+    ],
+    "fields": {
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       304.47,
+       446.95,
+       342.0,
+       454.45
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       476.47,
+       446.95,
+       514.0,
+       454.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": [
+  {
+   "type": "wrapped_description",
+   "evidence": "3 description(s) continue on the next line",
+   "where": [
+    {
+     "row": "r4",
+     "page": 1,
+     "label": "484 Finanzbuchhaltung Software Typ 18.05.2025 lin 3 X521"
+    },
+    {
+     "row": "r65",
+     "page": 2,
+     "label": "943 Schreibtisch höhenverstellbar 0 25.02.2023 lin 13 28.05.25 (gebraucht)"
+    },
+    {
+     "row": "r84",
+     "page": 3,
+     "label": "3580 Geschäftsanteile 0 13.12.2007 k 0 Genossenschaftsbank"
+    }
+   ]
+  }
+ ]
+}

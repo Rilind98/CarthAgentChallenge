@@ -1,0 +1,272 @@
+{
+ "doc_id": "f02_asset_spiegel_01",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "wrapped_description",
+   "evidence": "10 description(s) continue on the next line",
+   "where": [
+    {
+     "row": "r8",
+     "page": 1,
+     "label": "232Warenwirtschaft Modul 27.10.25 lin 5 Lager (gebraucht)"
+    },
+    {
+     "row": "r23",
+     "page": 2,
+     "label": "129Anbau 24.04.19 geb 33 Sozialtrakt"
+    },
+    {
+     "row": "r33",
+     "page": 3,
+     "label": "115Etikettiermaschine 10.09.18 lin 15 Halle 3"
+    },
+    {
+     "row": "r61",
+     "page": 5,
+     "label": "170Kastenwagen 06.07.24 lin 9 Nr. 12"
+    },
+    {
+     "row": "r67",
+     "page": 5,
+     "label": "93Werkbank 16.01.14 lin 8 Typ K715"
+    },
+    {
+     "row": "r69",
+     "page": 5,
+     "label": "105aSchweißgerät 31.03.24 lin 8 Nachrüstung"
+    },
+    {
+     "row": "r70",
+     "page": 5,
+     "label": "106Palettenregal 15.10.16 lin 8 Halle 4"
+    },
+    {
+     "row": "r72",
+     "page": 5,
+     "label": "203Werkbank 03.03.25 lin 10 Halle 3"
+    },
+    {
+     "row": "r73",
+     "page": 5,
+     "label": "235Werkbank 12.12.25 lin 5 Halle 1"
+    },
+    {
+     "row": "r104",
+     "page": 7,
+     "label": "201Messschieber 20.01.25 sb 1 digital"
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "12 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r15",
+     "field": "bw_close",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       50.28,
+       161.1,
+       814.94,
+       168.1
+      ],
+      "frame_band": [
+       161.1,
+       168.1
+      ]
+     }
+    },
+    {
+     "row": "r16",
+     "field": "*",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       36.67,
+       180.0,
+       814.94,
+       187.0
+      ],
+      "frame_band": [
+       180.0,
+       187.0
+      ]
+     }
+    },
+    {
+     "row": "r17",
+     "field": "bw_close",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       26.94,
+       198.9,
+       814.94,
+       205.9
+      ],
+      "frame_band": [
+       198.9,
+       205.9
+      ]
+     }
+    },
+    {
+     "row": "r28",
+     "field": "bw_close",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       50.28,
+       482.4,
+       814.94,
+       489.4
+      ],
+      "frame_band": [
+       482.4,
+       489.4
+      ]
+     }
+    },
+    {
+     "row": "r29",
+     "field": "*",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       36.67,
+       501.3,
+       814.94,
+       508.3
+      ],
+      "frame_band": [
+       501.3,
+       508.3
+      ]
+     }
+    },
+    {
+     "row": "r30",
+     "field": "bw_close",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       26.94,
+       520.2,
+       814.94,
+       527.2
+      ],
+      "frame_band": [
+       520.2,
+       527.2
+      ]
+     }
+    },
+    {
+     "row": "r75",
+     "field": "bw_prev",
+     "pointer": {
+      "page": 6,
+      "bbox": [
+       36.67,
+       170.55,
+       814.94,
+       177.55
+      ],
+      "frame_band": [
+       170.55,
+       177.55
+      ]
+     }
+    },
+    {
+     "row": "r76",
+     "field": "*",
+     "pointer": {
+      "page": 6,
+      "bbox": [
+       26.94,
+       189.45,
+       814.94,
+       196.45
+      ],
+      "frame_band": [
+       189.45,
+       196.45
+      ]
+     }
+    },
+    {
+     "row": "r90",
+     "field": "kum_afa_close",
+     "pointer": {
+      "page": 6,
+      "bbox": [
+       36.67,
+       520.2,
+       814.94,
+       527.2
+      ],
+      "frame_band": [
+       520.2,
+       527.2
+      ]
+     }
+    },
+    {
+     "row": "r97",
+     "field": "*",
+     "pointer": {
+      "page": 7,
+      "bbox": [
+       26.94,
+       302.85,
+       814.94,
+       309.85
+      ],
+      "frame_band": [
+       302.85,
+       309.85
+      ]
+     }
+    },
+    {
+     "row": "r111",
+     "field": "zugang",
+     "pointer": {
+      "page": 8,
+      "bbox": [
+       36.67,
+       283.95,
+       814.94,
+       290.95
+      ],
+      "frame_band": [
+       283.95,
+       290.95
+      ]
+     }
+    },
+    {
+     "row": "r112",
+     "field": "zugang",
+     "pointer": {
+      "page": 8,
+      "bbox": [
+       26.94,
+       302.85,
+       814.94,
+       309.85
+      ],
+      "frame_band": [
+       302.85,
+       309.85
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

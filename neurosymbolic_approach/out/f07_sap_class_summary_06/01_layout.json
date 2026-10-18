@@ -1,0 +1,468 @@
+{
+ "doc_id": "f07_sap_class_summary_06",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    3,
+    4
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "TEUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 60.86,
+     "span": [
+      26.0,
+      60.86
+     ],
+     "col": null,
+     "header": "Bil Pos",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c2",
+     "anchor": 194.92,
+     "span": [
+      175.0,
+      194.92
+     ],
+     "col": null,
+     "header": "",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c3",
+     "anchor": 274.02,
+     "span": [
+      249.12,
+      274.02
+     ],
+     "col": null,
+     "header": "kum Ansch Wert",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.55,
+       "kum -> close?"
+      ],
+      [
+       "ahk_open",
+       0.45,
+       "kum -> open?"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 350.02,
+     "span": [
+      335.08,
+      355.0
+     ],
+     "col": null,
+     "header": "Bew Ansch Wert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bew_ahk",
+       1.0,
+       "net column 'Bew Ansch Wert'"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 426.02,
+     "span": [
+      401.12,
+      431.0
+     ],
+     "col": null,
+     "header": "kum AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "kum -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "kum -> open?"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 502.02,
+     "span": [
+      487.08,
+      507.0
+     ],
+     "col": null,
+     "header": "gep AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 578.02,
+     "span": [
+      573.04,
+      578.02
+     ],
+     "col": null,
+     "header": "Bew Wertber",
+     "group_header": "",
+     "candidates": [
+      [
+       "bew_wb",
+       1.0,
+       "net column 'Bew Wertber'"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 654.02,
+     "span": [
+      629.12,
+      654.02
+     ],
+     "col": null,
+     "header": "Ende-Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 730.02,
+     "span": [
+      705.12,
+      730.02
+     ],
+     "col": null,
+     "header": "Beg-Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "BilPos Bezeichnung Klasse kum AnschWert Bew AnschWert kum AfA gep AfA Bew Wertber Ende-Buchwert Beg-Buchwert Währg"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    64.39,
+    72.69
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2101200 EDV-Software 1000 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    80.18,
+    88.48
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*2101200 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    95.97,
+    104.27
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102100 Grund und Boden 2000 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    106.76,
+    115.06
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102100 Fabrikbauten 2100 4.3034.446 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    122.55,
+    130.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*2102100 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    138.34,
+    146.64
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102200 Maschinen 3000 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    154.13,
+    162.43
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*2102200 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    169.92,
+    178.22
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102300 Pkw 4200 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    180.71,
+    189.01
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102300 Lkw 4300 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    191.5,
+    199.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102300 Büroeinrichtung 4100 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    202.29,
+    210.59
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102300 Geringwertige Wirtsc 4900 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    213.08,
+    221.38
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102300 EDV-Hardware 4400 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    228.87,
+    237.17
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*2102300 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    244.66,
+    252.96
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102400 Anlagen im Bau 5000 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    255.45,
+    263.75
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2102400 Anzahlungen auf Anla 5100 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    271.24,
+    279.54
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*2102400 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    287.03,
+    295.33
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2103300 Beteiligungen 6000 TEUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    64.39,
+    72.69
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*2103300 TEUR",
+   "context": [],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 1: no amounts, skipped",
+  "page 2: no amounts, skipped",
+  "page 4: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "no_amounts",
+  "2": "no_amounts",
+  "3": "schedule",
+  "4": "repeats"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "doc_id": "f05_sap_class_gitter_07",
+  "source": "../A3-Hackathon-Corpus/f05_sap_class_gitter/f05_sap_class_gitter_07.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-06-30",
+    "unit": "EUR",
+    "pages": [
+     2,
+     3,
+     5,
+     6
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "unknown"
+ },
+ "rows": [],
+ "detections": [
+  {
+   "type": "glued_numbers",
+   "evidence": "3 printed string(s) hold two amounts; 0 row(s) where the laws suggest two amounts were read as one",
+   "where": [
+    {
+     "page": 2,
+     "printed": "0,00198.956,73-"
+    },
+    {
+     "page": 3,
+     "printed": "2.939,84-0,00"
+    },
+    {
+     "page": 5,
+     "printed": "0,000,00"
+    }
+   ]
+  },
+  {
+   "type": "noise_page_blank",
+   "evidence": "page has no printed text",
+   "where": [
+    {
+     "page": 4
+    }
+   ]
+  },
+  {
+   "type": "header_only_on_first_page",
+   "evidence": "3 page(s) carry rows but no column header",
+   "where": [
+    {
+     "page": 3
+    },
+    {
+     "page": 5
+    },
+    {
+     "page": 6
+    }
+   ]
+  },
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+   "where": []
+  }
+ ]
+}

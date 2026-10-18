@@ -1,0 +1,906 @@
+{
+ "doc_id": "f09_excel_register_06",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Sheet1",
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Sheet1:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "AHK GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "Zugang",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "Umbuchung",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:12",
+     "anchor": null,
+     "span": null,
+     "col": 12,
+     "header": "aktuelle AHK",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:13",
+     "anchor": null,
+     "span": null,
+     "col": 13,
+     "header": "AfA GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:14",
+     "anchor": null,
+     "span": null,
+     "col": 14,
+     "header": "AfA des Jahres",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:15",
+     "anchor": null,
+     "span": null,
+     "col": 15,
+     "header": "AfA Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:18",
+     "anchor": null,
+     "span": null,
+     "col": 18,
+     "header": "Zuschreibungen",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:19",
+     "anchor": null,
+     "span": null,
+     "col": 19,
+     "header": "kumulierte AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:20",
+     "anchor": null,
+     "span": null,
+     "col": 20,
+     "header": "Buchwrt GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "Sheet1:21",
+     "anchor": null,
+     "span": null,
+     "col": 21,
+     "header": "lfd Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "asset_no": 1,
+    "sub_no": 2,
+    "acq_date": 3,
+    "name": 4
+   },
+   "header_lines": [
+    "Anlage | Unter-nummer | Aktivierung am | Anlagenbezeichnung | Währ-ung | AHK GJ-Beg | Zugang | Abgang | Umbuchung | Nachaktivg | Invest.Förderg | aktuelle AHK | AfA GJ-Beg | AfA des Jahres | AfA Abgang | AfA Umbuchung | AfA Nachaktivg | Zuschreibungen | kumulierte AfA | Buchwrt GJ-Beg | lfd Buchwert"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 14,
+   "kind_guess": "asset",
+   "label": "100001001 0 Finanzbuchhaltung Software (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 15,
+   "kind_guess": "asset",
+   "label": "100001002 0 Zeiterfassung Software (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 16,
+   "kind_guess": "asset",
+   "label": "100001003 0 Finanzbuchhaltung Software EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "100001004 0 Zeiterfassung Software Typ F987 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "100001005 0 CAD-Software Lizenz Typ H159 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 19,
+   "kind_guess": "asset",
+   "label": "200001001 0 Grundstück Gewerbegebiet EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 20,
+   "kind_guess": "asset",
+   "label": "200001002 0 Grundstück Gewerbegebiet EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 21,
+   "kind_guess": "asset",
+   "label": "210001001 0 Werkstattgebäude EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 22,
+   "kind_guess": "asset",
+   "label": "210001003 0 Werkstattgebäude EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 23,
+   "kind_guess": "asset",
+   "label": "210001003 1 Werkstattgebäude Nachrüstung EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 24,
+   "kind_guess": "asset",
+   "label": "210001004 0 Anbau Sozialtrakt EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 25,
+   "kind_guess": "asset",
+   "label": "210001005 0 Werkstattgebäude EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 26,
+   "kind_guess": "asset",
+   "label": "300001001 0 Bandsäge EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 27,
+   "kind_guess": "asset",
+   "label": "300001002 0 Ständerbohrmaschine Typ X900 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 28,
+   "kind_guess": "asset",
+   "label": "300001003 0 Teilewaschanlage EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 29,
+   "kind_guess": "asset",
+   "label": "300001003 1 Teilewaschanlage Erweiterung EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 30,
+   "kind_guess": "asset",
+   "label": "300001004 0 Etikettiermaschine Typ R324 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 31,
+   "kind_guess": "asset",
+   "label": "300001005 0 Hydraulikpresse Typ S726 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 32,
+   "kind_guess": "asset",
+   "label": "310001001 0 Lüftungsanlage Halle EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 33,
+   "kind_guess": "asset",
+   "label": "310001002 0 Druckluftnetz Typ X33 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 34,
+   "kind_guess": "asset",
+   "label": "400001001 0 Gabelstapler Halle 3 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 35,
+   "kind_guess": "asset",
+   "label": "400001001 1 Gabelstapler Halle 3 Zusatzmodul EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 36,
+   "kind_guess": "asset",
+   "label": "400001002 0 Elektro-Hubwagen Nr. 24 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 37,
+   "kind_guess": "asset",
+   "label": "400001003 0 Elektro-Hubwagen EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 38,
+   "kind_guess": "asset",
+   "label": "400001004 0 Palettenregal (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 39,
+   "kind_guess": "asset",
+   "label": "400001005 0 Schweißgerät (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 40,
+   "kind_guess": "asset",
+   "label": "410001001 0 Konferenzstühle (8 Stück) EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 41,
+   "kind_guess": "asset",
+   "label": "410001001 1 Konferenzstühle (8 Stück) Zusatzmodul EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 42,
+   "kind_guess": "asset",
+   "label": "410001002 0 Konferenzstühle (8 Stück) EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 43,
+   "kind_guess": "asset",
+   "label": "410001003 0 Aktenschrank EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 44,
+   "kind_guess": "asset",
+   "label": "420001001 0 Pkw Mittelklasse Hybrid EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 45,
+   "kind_guess": "asset",
+   "label": "420001002 0 Pkw Elektro Typ F854 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 46,
+   "kind_guess": "asset",
+   "label": "430001001 0 Kastenwagen Halle 3 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 47,
+   "kind_guess": "asset",
+   "label": "430001002 0 Tandemanhänger EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 48,
+   "kind_guess": "asset",
+   "label": "440001001 0 Serverschrank 42HE EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 49,
+   "kind_guess": "asset",
+   "label": "440001002 0 Firewall-Appliance Typ A569 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 50,
+   "kind_guess": "asset",
+   "label": "490001001 0 Stehleuchte EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 51,
+   "kind_guess": "asset",
+   "label": "490001002 0 Stehleuchte EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 52,
+   "kind_guess": "asset",
+   "label": "490001003 0 Messschieber digital EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 53,
+   "kind_guess": "asset",
+   "label": "490001004 0 Aktenvernichter EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 54,
+   "kind_guess": "asset",
+   "label": "490001005 0 Monitor 27 Zoll EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 55,
+   "kind_guess": "asset",
+   "label": "500001001 0 AiB Hydraulikpresse Typ S726 EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 56,
+   "kind_guess": "asset",
+   "label": "600001001 0 Anteile Servicegesellschaft EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 57,
+   "kind_guess": "asset",
+   "label": "600001002 0 Anteile Servicegesellschaft EUR",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 58,
+   "kind_guess": "asset",
+   "label": "Buchungskreis 7342",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Sheet1",
+   "row": 59,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "Jahresabschluss per 31.12.2025",
+    "BK: 7342"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {}
+}

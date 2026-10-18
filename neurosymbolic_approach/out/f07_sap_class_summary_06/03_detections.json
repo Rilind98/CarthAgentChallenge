@@ -1,0 +1,65 @@
+{
+ "doc_id": "f07_sap_class_summary_06",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "glued_numbers",
+   "evidence": "0 printed string(s) hold two amounts; 1 row(s) where the laws suggest two amounts were read as one",
+   "where": [
+    {
+     "row": "r10",
+     "pointer": {
+      "page": 3,
+      "bbox": [
+       26.0,
+       191.5,
+       758.92,
+       199.8
+      ],
+      "frame_band": [
+       191.5,
+       199.8
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "type": "noise_page_cover",
+   "evidence": "page has text but no amounts (54 words)",
+   "where": [
+    {
+     "page": 1
+    }
+   ]
+  },
+  {
+   "type": "teur_rounding",
+   "evidence": "amounts are printed in thousand euro; sums may differ by rounding",
+   "where": []
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "1 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r13",
+     "field": "*",
+     "pointer": {
+      "page": 3,
+      "bbox": [
+       26.0,
+       228.87,
+       758.92,
+       237.17
+      ],
+      "frame_band": [
+       228.87,
+       237.17
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

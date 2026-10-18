@@ -1,0 +1,29 @@
+{
+ "values_in_key": 552,
+ "correct": 552,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 552,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": 1.0,
+ "details": [],
+ "detection": {
+  "planted": [
+   "numbers_as_text"
+  ],
+  "detected": [
+   "numbers_as_text"
+  ],
+  "hit": [
+   "numbers_as_text"
+  ],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

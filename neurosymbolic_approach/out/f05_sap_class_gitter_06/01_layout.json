@@ -1,0 +1,26 @@
+{
+ "doc_id": "f05_sap_class_gitter_06",
+ "proposer": "heuristic-v0",
+ "mode": "block",
+ "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+ "sections": [],
+ "rows": [],
+ "notes": [
+  "page 1: no amounts, skipped",
+  "page 2: 30 of 41 amount lines carry no label (identity printed on another line)",
+  "page 2: amounts but no schedule header, skipped",
+  "page 3: 30 of 41 amount lines carry no label (identity printed on another line)",
+  "page 3: amounts but no schedule header, skipped",
+  "page 4: 30 of 41 amount lines carry no label (identity printed on another line)",
+  "page 4: amounts but no schedule header, skipped",
+  "page 5: 6 of 7 amount lines carry no label (identity printed on another line)",
+  "page 5: amounts but no schedule header, skipped"
+ ],
+ "page_status": {
+  "1": "no_amounts",
+  "2": "no_header",
+  "3": "no_header",
+  "4": "no_header",
+  "5": "no_header"
+ }
+}

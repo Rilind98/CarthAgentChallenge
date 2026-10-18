@@ -1,0 +1,462 @@
+{
+ "doc_id": "f07_sap_class_summary_06",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    3,
+    4
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "unit": "TEUR",
+   "mapping": {
+    "c1": null,
+    "c2": null,
+    "c3": "ahk_open",
+    "c4": "bew_ahk",
+    "c5": "kum_afa_open",
+    "c6": "afa_gj",
+    "c7": "bew_wb",
+    "c8": "bw_close",
+    "c9": "bw_prev"
+   },
+   "mapping_headers": {
+    "c1": "Bil Pos",
+    "c2": "",
+    "c3": "kum Ansch Wert",
+    "c4": "Bew Ansch Wert",
+    "c5": "kum AfA",
+    "c6": "gep AfA",
+    "c7": "Bew Wertber",
+    "c8": "Ende-Buchwert",
+    "c9": "Beg-Buchwert"
+   },
+   "field_support": {
+    "c3": "law",
+    "c4": "law",
+    "c5": "law",
+    "c6": "law",
+    "c7": "header",
+    "c8": "law",
+    "c9": "law"
+   },
+   "transfer_imbalance": null,
+   "totals_direction": "top-down",
+   "transfer_fixes": {},
+   "hypotheses": [
+    {
+     "score": 9.011,
+     "lexicon": 5.9,
+     "laws": 2,
+     "passed": 32,
+     "failed": 2,
+     "mapping": {
+      "c1": null,
+      "c2": null,
+      "c3": "ahk_open",
+      "c4": "bew_ahk",
+      "c5": "kum_afa_open",
+      "c6": "afa_gj",
+      "c7": "bew_wb",
+      "c8": "bw_close",
+      "c9": "bw_prev"
+     }
+    },
+    {
+     "score": 4.444,
+     "lexicon": 6.0,
+     "laws": 2,
+     "passed": 18,
+     "failed": 16,
+     "mapping": {
+      "c1": null,
+      "c2": null,
+      "c3": "ahk_open",
+      "c4": "bew_ahk",
+      "c5": "kum_afa_close",
+      "c6": "afa_gj",
+      "c7": "bew_wb",
+      "c8": "bw_close",
+      "c9": "bw_prev"
+     }
+    },
+    {
+     "score": 2.444,
+     "lexicon": 6.0,
+     "laws": 2,
+     "passed": 12,
+     "failed": 22,
+     "mapping": {
+      "c1": null,
+      "c2": null,
+      "c3": "ahk_close",
+      "c4": "bew_ahk",
+      "c5": "kum_afa_open",
+      "c6": "afa_gj",
+      "c7": "bew_wb",
+      "c8": "bw_close",
+      "c9": "bw_prev"
+     }
+    },
+    {
+     "score": 1.878,
+     "lexicon": 6.1,
+     "laws": 2,
+     "passed": 10,
+     "failed": 24,
+     "mapping": {
+      "c1": null,
+      "c2": null,
+      "c3": "ahk_close",
+      "c4": "bew_ahk",
+      "c5": "kum_afa_close",
+      "c6": "afa_gj",
+      "c7": "bew_wb",
+      "c8": "bw_close",
+      "c9": "bw_prev"
+     }
+    }
+   ],
+   "laws_checked": [
+    "-ahk_open +kum_afa_open +bw_prev = 0",
+    "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0"
+   ],
+   "fields_without_law": [],
+   "row_law_checks": {
+    "checked": 34,
+    "passed": 32,
+    "pass_rate": 0.9411764705882353
+   },
+   "gate": "ok",
+   "row_kinds": {
+    "asset": 12,
+    "subtotal": 6
+   },
+   "non_tying": [],
+   "rows": {
+    "r1": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r2": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r1"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r3": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r4": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r5": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r3",
+      "r4"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r6": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r7": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r6"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r8": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r9": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r10": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       false
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       false
+      ]
+     ]
+    },
+    "r11": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r12": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r13": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [],
+     "why": "label says total, but no run of rows above adds up to it",
+     "flags": {
+      "*": "sum_unverified"
+     },
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r14": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r15": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r16": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r14",
+      "r15"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r17": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    },
+    "r18": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r17"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "+ahk_open -kum_afa_open -afa_gj -bw_close +bew_ahk +bew_wb = 0",
+       true
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "completeness": {
+  "unassigned_amounts": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,694 @@
+{
+ "doc_id": "f08_excel_spiegel_2y_05",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Tabelle1",
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Tabelle1:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "01.01.2025 EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "Zugänge EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "AHK x add"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:5",
+     "anchor": null,
+     "span": null,
+     "col": 5,
+     "header": "Abgänge EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "AHK x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "Umbuchungen EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "AHK x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "31.12.2025 EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:10",
+     "anchor": null,
+     "span": null,
+     "col": 10,
+     "header": "01.01.2025 EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:11",
+     "anchor": null,
+     "span": null,
+     "col": 11,
+     "header": "Zugänge EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x add"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:12",
+     "anchor": null,
+     "span": null,
+     "col": 12,
+     "header": "Abgänge EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:13",
+     "anchor": null,
+     "span": null,
+     "col": 13,
+     "header": "31.12.2025 EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:15",
+     "anchor": null,
+     "span": null,
+     "col": 15,
+     "header": "31.12.2025 EUR",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle1:16",
+     "anchor": null,
+     "span": null,
+     "col": 16,
+     "header": "31.12.2024 EUR",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anschaffungs- und Herstellungskosten | kumulierte Abschreibungen | Buchwerte | lt. Bilanz | Differenz",
+    "01.01.2025 | Zugänge | Abgänge | Umbuchungen | 31.12.2025 | 01.01.2025 | Zugänge | Abgänge | 31.12.2025 | 31.12.2025 | 31.12.2024 | (aus Bilanz)",
+    "EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR"
+   ]
+  },
+  {
+   "id": "s2",
+   "pages": [],
+   "sheet": "Tabelle2",
+   "period_end": "2024-12-31",
+   "period_start": "2024-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Tabelle2:2",
+     "anchor": null,
+     "span": null,
+     "col": 2,
+     "header": "01.01.2024 EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "Zugänge EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "AHK x add"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "Abgänge EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "AHK x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:5",
+     "anchor": null,
+     "span": null,
+     "col": 5,
+     "header": "Umbuchungen EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "AHK x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "31.12.2024 EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "01.01.2024 EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:10",
+     "anchor": null,
+     "span": null,
+     "col": 10,
+     "header": "Zugänge EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x add"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:11",
+     "anchor": null,
+     "span": null,
+     "col": 11,
+     "header": "Abgänge EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:12",
+     "anchor": null,
+     "span": null,
+     "col": 12,
+     "header": "31.12.2024 EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:14",
+     "anchor": null,
+     "span": null,
+     "col": 14,
+     "header": "31.12.2024 EUR",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "Tabelle2:15",
+     "anchor": null,
+     "span": null,
+     "col": 15,
+     "header": "31.12.2023 EUR",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anschaffungs- und Herstellungskosten | kumulierte Abschreibungen | Buchwerte | lt. Bilanz | Differenz",
+    "01.01.2024 | Zugänge | Abgänge | Umbuchungen | 31.12.2024 | 01.01.2024 | Zugänge | Abgänge | 31.12.2024 | 31.12.2024 | 31.12.2023 | (aus Bilanz)",
+    "EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR | EUR"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 10,
+   "kind_guess": "asset",
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "context": [
+    "Entwicklung des Anlagevermögens",
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 11,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "Entwicklung des Anlagevermögens",
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 15,
+   "kind_guess": "asset",
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 16,
+   "kind_guess": "asset",
+   "label": "2. Technische Anlagen und Maschinen",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 19,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 23,
+   "kind_guess": "asset",
+   "label": "3. Beteiligungen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 24,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle1",
+   "row": 26,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 10,
+   "kind_guess": "asset",
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "context": [
+    "Entwicklung des Anlagevermögens",
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 11,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "Entwicklung des Anlagevermögens",
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 15,
+   "kind_guess": "asset",
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 16,
+   "kind_guess": "asset",
+   "label": "2. Technische Anlagen und Maschinen",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 19,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 23,
+   "kind_guess": "asset",
+   "label": "3. Beteiligungen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 24,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s2",
+   "page": null,
+   "band": null,
+   "sheet": "Tabelle2",
+   "row": 26,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {}
+}

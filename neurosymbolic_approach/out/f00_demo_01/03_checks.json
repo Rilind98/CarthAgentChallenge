@@ -1,0 +1,1081 @@
+{
+ "doc_id": "f00_demo_01",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Anlagenspiegel",
+   "period_end": "2025-12-31",
+   "unit": "EUR",
+   "mapping": {
+    "Anlagenspiegel:3": "ahk_open",
+    "Anlagenspiegel:4": "zugang",
+    "Anlagenspiegel:5": "abgang",
+    "Anlagenspiegel:6": "umbuchung",
+    "Anlagenspiegel:7": "ahk_close",
+    "Anlagenspiegel:8": "kum_afa_open",
+    "Anlagenspiegel:9": "afa_gj",
+    "Anlagenspiegel:10": "afa_abgang",
+    "Anlagenspiegel:11": "zuschreibung",
+    "Anlagenspiegel:12": "kum_afa_close",
+    "Anlagenspiegel:13": "bw_close",
+    "Anlagenspiegel:14": "bw_prev"
+   },
+   "mapping_headers": {
+    "Anlagenspiegel:3": "01.01.2025",
+    "Anlagenspiegel:4": "Zugänge",
+    "Anlagenspiegel:5": "Abgänge",
+    "Anlagenspiegel:6": "Umbuchungen",
+    "Anlagenspiegel:7": "31.12.2025",
+    "Anlagenspiegel:8": "01.01.2025",
+    "Anlagenspiegel:9": "Geschäftsjahr",
+    "Anlagenspiegel:10": "Abgänge",
+    "Anlagenspiegel:11": "Zuschreib.",
+    "Anlagenspiegel:12": "31.12.2025",
+    "Anlagenspiegel:13": "31.12.2025",
+    "Anlagenspiegel:14": "31.12.2024"
+   },
+   "field_support": {
+    "Anlagenspiegel:3": "law",
+    "Anlagenspiegel:4": "law",
+    "Anlagenspiegel:5": "law",
+    "Anlagenspiegel:6": "law",
+    "Anlagenspiegel:7": "law",
+    "Anlagenspiegel:8": "law",
+    "Anlagenspiegel:9": "law",
+    "Anlagenspiegel:10": "law",
+    "Anlagenspiegel:11": "header",
+    "Anlagenspiegel:12": "law",
+    "Anlagenspiegel:13": "law",
+    "Anlagenspiegel:14": "law"
+   },
+   "transfer_imbalance": 0,
+   "totals_direction": "top-down",
+   "transfer_fixes": {},
+   "hypotheses": [
+    {
+     "score": 20.0,
+     "lexicon": 12.0,
+     "laws": 4,
+     "passed": 148,
+     "failed": 0,
+     "mapping": {
+      "Anlagenspiegel:3": "ahk_open",
+      "Anlagenspiegel:4": "zugang",
+      "Anlagenspiegel:5": "abgang",
+      "Anlagenspiegel:6": "umbuchung",
+      "Anlagenspiegel:7": "ahk_close",
+      "Anlagenspiegel:8": "kum_afa_open",
+      "Anlagenspiegel:9": "afa_gj",
+      "Anlagenspiegel:10": "afa_abgang",
+      "Anlagenspiegel:11": "zuschreibung",
+      "Anlagenspiegel:12": "kum_afa_close",
+      "Anlagenspiegel:13": "bw_close",
+      "Anlagenspiegel:14": "bw_prev"
+     }
+    }
+   ],
+   "laws_checked": [
+    "-ahk_open +kum_afa_open +bw_prev = 0",
+    "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+    "-ahk_close +kum_afa_close +bw_close = 0"
+   ],
+   "fields_without_law": [],
+   "row_law_checks": {
+    "checked": 148,
+    "passed": 148,
+    "pass_rate": 1.0
+   },
+   "gate": "ok",
+   "row_kinds": {
+    "asset": 30,
+    "subtotal": 6,
+    "grand_total": 1
+   },
+   "non_tying": [],
+   "rows": {
+    "r1": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r2": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r3": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r4": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r5": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r6": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r7": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5",
+      "r6"
+     ],
+     "closes_all": true,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r8": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r9": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r10": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r11": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r12": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r13": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r14": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r15": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r8",
+      "r9",
+      "r10",
+      "r11",
+      "r12",
+      "r13",
+      "r14"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r16": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r17": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r18": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r19": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r20": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r21": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r22": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r16",
+      "r17",
+      "r18",
+      "r19",
+      "r20",
+      "r21"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r23": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r24": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r25": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r26": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r23",
+      "r24",
+      "r25"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r27": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r28": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r29": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r30": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r31": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r32": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r33": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r27",
+      "r28",
+      "r29",
+      "r30",
+      "r31",
+      "r32"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r34": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r35": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r36": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r34",
+      "r35"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    },
+    "r37": {
+     "kind": "grand_total",
+     "level": 2,
+     "sums": [
+      "r7",
+      "r15",
+      "r22",
+      "r26",
+      "r33",
+      "r36"
+     ],
+     "closes_all": true,
+     "why": "closes every row above it and no total follows",
+     "flags": {},
+     "laws": [
+      [
+       "-ahk_open +kum_afa_open +bw_prev = 0",
+       true
+      ],
+      [
+       "-ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+       true
+      ],
+      [
+       "+zuschreibung -kum_afa_open -afa_gj +afa_abgang +kum_afa_close = 0",
+       true
+      ],
+      [
+       "-ahk_close +kum_afa_close +bw_close = 0",
+       true
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "completeness": {
+  "unassigned_amounts": 0,
+  "examples": []
+ }
+}

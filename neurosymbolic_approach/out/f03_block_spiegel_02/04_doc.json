@@ -1,0 +1,63 @@
+{
+ "meta": {
+  "doc_id": "f03_block_spiegel_02",
+  "source": "../A3-Hackathon-Corpus/f03_block_spiegel/f03_block_spiegel_02.xlsx",
+  "format": "xlsx",
+  "proposer": "heuristic-v0",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several rows): block reader not built yet",
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2024-12-31",
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Kontenübersicht"
+   },
+   {
+    "id": "s2",
+    "period_end": "2024-12-31",
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Anlagen"
+   },
+   {
+    "id": "s3",
+    "period_end": null,
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Anlagen"
+   },
+   {
+    "id": "s4",
+    "period_end": null,
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Anlagen"
+   },
+   {
+    "id": "s5",
+    "period_end": null,
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Anlagen"
+   },
+   {
+    "id": "s6",
+    "period_end": null,
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Anlagen"
+   }
+  ],
+  "variant_guess": "unknown"
+ },
+ "rows": [],
+ "detections": [
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several rows): block reader not built yet",
+   "where": []
+  }
+ ]
+}

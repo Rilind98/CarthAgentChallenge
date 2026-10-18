@@ -1,0 +1,1554 @@
+{
+ "doc_id": "f04_verzeichnis_08",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 423.0,
+     "span": [
+      383.38,
+      423.0
+     ],
+     "col": null,
+     "header": "Anschaffungs- wert EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.55,
+       "AHK without role -> close?"
+      ],
+      [
+       "ahk_open",
+       0.45,
+       "AHK without role -> open?"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 493.0,
+     "span": [
+      453.38,
+      493.0
+     ],
+     "col": null,
+     "header": "Rest- buchwert EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       0.55,
+       "BW without role -> close?"
+      ],
+      [
+       "bw_prev",
+       0.45,
+       "BW without role -> open?"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anlagegruppe: A. Anlagevermögen",
+    "Anlage- Bezeichnung Zugang Nutzungs- AfA- Anschaffungs- Rest- Abgang KSt",
+    "Nr. am dauer Methode wert EUR buchwert EUR am"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    156.35,
+    163.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1323d Zeiterfassung Software 30.04.2017 3 lin 0",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    171.95,
+    179.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2043 Warenwirtschaft Modul Lager (gebraucht) 02.09.2021 3 lin 0",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    187.55,
+    195.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2139 Zeiterfassung Software 06.09.2019 5 lin 0",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    203.15,
+    210.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "311 ERP-Lizenz Typ S294 19.08.2025 3 lin 0",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    218.75,
+    226.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3831 ERP-Lizenz Nr. 1 07.04.2022 5 lin 0",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    234.35,
+    241.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "417 Finanzbuchhaltung Software Nr. 18 18.12.2019 5 lin 0",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    249.95,
+    257.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "687 Finanzbuchhaltung Software 26.08.2022 3 lin 0",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    265.55,
+    273.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "94 Zeiterfassung Software (gebraucht) 10.04.2014 5 lin 0",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    281.15,
+    288.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    320.75,
+    328.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "01 Grund und Boden Betriebsgelände 01.01.2006 0 k 0",
+   "context": [
+    "Konto 027 EDV-Software",
+    "Konto 085 Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    336.35,
+    343.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 027 EDV-Software",
+    "Konto 085 Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    375.95,
+    383.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "16a Produktionshalle 13.05.2020 33 geb 0",
+   "context": [
+    "Konto 027 EDV-Software",
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    391.55,
+    399.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3707 Produktionshalle 06.07.2025 33 geb 0",
+   "context": [
+    "Konto 027 EDV-Software",
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    407.15,
+    414.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3851 Anbau Sozialtrakt 06.05.2019 33 geb 0",
+   "context": [
+    "Konto 027 EDV-Software",
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    422.75,
+    430.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4218 Produktionshalle 16.01.1989 33 geb 0",
+   "context": [
+    "Konto 027 EDV-Software",
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    438.35,
+    445.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "982a Anbau Sozialtrakt 14.04.2018 33 geb 0",
+   "context": [
+    "Konto 027 EDV-Software",
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    453.95,
+    461.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 027 EDV-Software",
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    493.55,
+    501.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "119b CNC-Drehmaschine Typ K410 03.09.2025 10 lin 0",
+   "context": [
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    509.15,
+    516.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "179 Bandsäge 16.08.2009 15 lin 0",
+   "context": [
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    524.75,
+    532.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2774 Hydraulikpresse Typ F290 04.11.2021 10 lin 0",
+   "context": [
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    540.35,
+    547.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "39 Schweißroboter Typ L614 06.02.2019 13 lin 0",
+   "context": [
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    555.95,
+    563.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "455 Teilewaschanlage Halle 3 12.03.2012 15 lin 0",
+   "context": [
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    571.55,
+    579.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4903 Flachschleifmaschine 03.07.2011 10 lin 0",
+   "context": [
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    587.15,
+    594.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "641 Schraubenkompressor Nr. 3 13.11.2019 13 lin 0",
+   "context": [
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    602.75,
+    610.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 085 Grund und Boden",
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    642.35,
+    649.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "110 Absauganlage Halle 5 28.11.2004 20 lin",
+   "context": [
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    657.95,
+    665.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "28a Photovoltaikanlage Dach Nr. 28 20.01.2010 20 lin",
+   "context": [
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    673.55,
+    681.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "581 Brückenkran 5t (gebraucht) 25.03.2012 10 lin",
+   "context": [
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    689.15,
+    696.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "77C Notstromaggregat (gebraucht) 01.07.2016 20 lin",
+   "context": [
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    704.75,
+    712.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 100 Fabrikbauten",
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    744.35,
+    751.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "246d Pkw Kompaktklasse Typ R440 24.08.2025 6 lin 0",
+   "context": [
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen",
+    "Konto 320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    759.95,
+    767.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2974 Pkw Kompaktklasse Nr. 37 16.10.2018 6 lin 0",
+   "context": [
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen",
+    "Konto 320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    775.55,
+    783.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "42 Pkw Kombi Diesel Halle 1 29.07.2025 6 lin 0",
+   "context": [
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen",
+    "Konto 320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    791.15,
+    798.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4868 Pkw Kombi Diesel 21.01.2010 6 lin 0",
+   "context": [
+    "Konto 210 Maschinen",
+    "Konto 240 Technische Anlagen",
+    "Konto 320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    132.35,
+    139.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "700 Pkw Kombi Diesel 13.09.2016 6 lin 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    147.95,
+    155.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    187.55,
+    195.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "100 Kastenwagen 27.06.2023 9 lin 0",
+   "context": [
+    "Konto 350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    203.15,
+    210.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "15 Sattelzugmaschine (gebraucht) 23.04.2009 9 lin 0",
+   "context": [
+    "Konto 350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    218.75,
+    226.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "206 Lkw 7,5t Pritsche Typ F770 08.08.2019 9 lin 0",
+   "context": [
+    "Konto 350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    234.35,
+    241.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "26 Lkw 7,5t Pritsche Halle 5 04.12.2019 9 lin 0",
+   "context": [
+    "Konto 350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    249.95,
+    257.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4364 Lkw 7,5t Pritsche (gebraucht) 01.01.2014 9 lin 0",
+   "context": [
+    "Konto 350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    265.55,
+    273.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "44 Tandemanhänger 22.11.2015 9 lin 0",
+   "context": [
+    "Konto 350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    281.15,
+    288.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "826 Tandemanhänger 06.02.2018 9 lin 07.07.25 0",
+   "context": [
+    "Konto 350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    296.75,
+    304.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    336.35,
+    343.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "190 Gabelstapler (gebraucht) 11.11.2015 10 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    351.95,
+    359.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "24 Schweißgerät Typ X689 15.01.2013 8 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    367.55,
+    375.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3360d Palettenregal Halle 5 26.04.2021 5 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    383.15,
+    390.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3580 Palettenregal Nr. 33 12.06.2009 10 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    398.75,
+    406.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "363 Gabelstapler Halle 5 21.03.2021 8 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    414.35,
+    421.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3991 Gabelstapler Nr. 32 14.05.2011 10 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    429.95,
+    437.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "553 Elektro-Hubwagen Nr. 8 22.07.2025 8 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    445.55,
+    453.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "917 Hochdruckreiniger 29.01.2025 5 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    461.15,
+    468.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    500.75,
+    508.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "183 Besprechungstisch 03.11.2021 13 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    516.35,
+    523.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "353 Regalsystem Archiv Halle 5 02.09.2022 13 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    531.95,
+    539.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4 Besprechungstisch Nr. 8 22.10.2009 13 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    547.55,
+    555.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "458 Empfangstheke (gebraucht) 21.06.2024 13 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    563.15,
+    570.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "740 Besprechungstisch Nr. 12 18.10.2020 13 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    578.75,
+    586.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "851a Bürostuhl ergonomisch 15.05.2009 13 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    594.35,
+    601.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "892 Konferenzstühle (8 Stück) 18.08.2024 13 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    609.95,
+    617.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "919 Empfangstheke Nr. 23 14.04.2021 13 lin 0",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r62",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    625.55,
+    633.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 350 Lkw",
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r63",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    665.15,
+    672.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3044 Laserdrucker 19.02.2023 1 sb 0",
+   "context": [
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung",
+    "Konto 480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r64",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    680.75,
+    688.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3584 Monitor 27 Zoll 27.01.2022 1 sb 0",
+   "context": [
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung",
+    "Konto 480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r65",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    696.35,
+    703.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4324 Akkuschrauber 18.04.2024 1 sb 0",
+   "context": [
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung",
+    "Konto 480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r66",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    711.95,
+    719.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "565 Messschieber digital 10.07.2021 1 sb 0",
+   "context": [
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung",
+    "Konto 480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r67",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    727.55,
+    735.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "85 Tablet 26.08.2024 1 sb 0",
+   "context": [
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung",
+    "Konto 480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r68",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    743.15,
+    750.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 400 Betriebsausstattung",
+    "Konto 420 Büroeinrichtung",
+    "Konto 480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r69",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    782.75,
+    790.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1242 Workstation CAD Typ S234 11.06.2009 3 lin 0",
+   "context": [
+    "Konto 420 Büroeinrichtung",
+    "Konto 480 Geringwertige Wirtschaftsgüter",
+    "Konto 490 EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r70",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    132.35,
+    139.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1551 NAS-Speicher 09.11.2021 5 lin 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r71",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    147.95,
+    155.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1659b Server 2HE Nr. 13 28.12.2021 3 lin 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r72",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    163.55,
+    171.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3086 Serverschrank 42HE (gebraucht) 18.08.2019 3 lin 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r73",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    179.15,
+    186.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4964 Netzwerk-Switch 48 Port 14.01.2021 5 lin 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r74",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    194.75,
+    202.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "573 Workstation CAD Nr. 8 16.11.2025 5 lin 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r75",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    210.35,
+    217.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "796 Firewall-Appliance (gebraucht) 02.02.2017 5 lin 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r76",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    225.95,
+    233.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r77",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    265.55,
+    273.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "747 AiB CNC-Drehmaschine Typ K410 08.12.2024 0 k 0",
+   "context": [
+    "Konto 120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r78",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    281.15,
+    288.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r79",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    320.75,
+    328.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4939 Beteiligung Einkaufsgenossenschaft 16.09.2017 0 k 0",
+   "context": [
+    "Konto 120 Anlagen im Bau",
+    "Konto 510 Beteiligungen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r80",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    336.35,
+    343.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "819a Geschäftsanteile Genossenschaftsbank 20.10.2002 0 k 0",
+   "context": [
+    "Konto 120 Anlagen im Bau",
+    "Konto 510 Beteiligungen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r81",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    351.95,
+    359.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "848d Anteile Servicegesellschaft 26.03.2011 0 k 0",
+   "context": [
+    "Konto 120 Anlagen im Bau",
+    "Konto 510 Beteiligungen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r82",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    367.55,
+    375.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto 120 Anlagen im Bau",
+    "Konto 510 Beteiligungen"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 2: repeats the header of section s1",
+  "page 3: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "schedule",
+  "2": "repeats",
+  "3": "repeats"
+ }
+}

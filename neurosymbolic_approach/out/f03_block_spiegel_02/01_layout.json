@@ -1,0 +1,506 @@
+{
+ "doc_id": "f03_block_spiegel_02",
+ "proposer": "heuristic-v0",
+ "mode": "block",
+ "abstain": "multi-line records (one asset/class = several rows): block reader not built yet",
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Kontenübersicht",
+   "period_end": "2024-12-31",
+   "period_start": "2024-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Kontenübersicht:5",
+     "anchor": null,
+     "span": null,
+     "col": 5,
+     "header": "Stand zum 01.01.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "Kontenübersicht:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "Zugang Abgang- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "Kontenübersicht:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "Umbuchung EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Kontenübersicht:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "Abschreibung Zuschreibung- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "AFA x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "Kontenübersicht:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "Stand zum 31.12.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "name": 1
+   },
+   "header_lines": [
+    "Bezeichnung | Entwicklung | Stand zum | Zugang | Abschreibung | Stand zum",
+    "der | 01.01.2024 | Abgang- | Umbuchung | Zuschreibung- | 31.12.2024",
+    "EUR | EUR | EUR | EUR | EUR"
+   ]
+  },
+  {
+   "id": "s2",
+   "pages": [],
+   "sheet": "Anlagen",
+   "period_end": "2024-12-31",
+   "period_start": "2024-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagen:5",
+     "anchor": null,
+     "span": null,
+     "col": 5,
+     "header": "Stand zum 01.01.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "Zugang Abgang- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "Umbuchung EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "Abschreibung Zuschreibung- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "AFA x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "Stand zum 31.12.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "name": 1,
+    "method": 3
+   },
+   "header_lines": [
+    "Bezeichnung | Datum | Entw. | Stand zum | Zugang | Abschreibung | Stand zum",
+    "AfA-Art | der | 01.01.2024 | Abgang- | Umbuchung | Zuschreibung- | 31.12.2024",
+    "ND  % | EUR | EUR | EUR | EUR | EUR"
+   ]
+  },
+  {
+   "id": "s3",
+   "pages": [],
+   "sheet": "Anlagen",
+   "period_end": null,
+   "period_start": null,
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagen:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "Keine AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "Absch",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Keine AfA | Absch | 0,00 | 0,00"
+   ]
+  },
+  {
+   "id": "s4",
+   "pages": [],
+   "sheet": "Anlagen",
+   "period_end": null,
+   "period_start": null,
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagen:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "Keine AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "Absch",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Keine AfA | Absch | 0,00 | 0,00"
+   ]
+  },
+  {
+   "id": "s5",
+   "pages": [],
+   "sheet": "Anlagen",
+   "period_end": null,
+   "period_start": null,
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagen:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "Keine AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "Absch",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Keine AfA | Absch | 0,00 | 0,00"
+   ]
+  },
+  {
+   "id": "s6",
+   "pages": [],
+   "sheet": "Anlagen",
+   "period_end": null,
+   "period_start": null,
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagen:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "Keine AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "Absch",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Keine AfA | Absch | 0,00 | 0,00"
+   ]
+  }
+ ],
+ "rows": [],
+ "notes": [
+  "sheet Anlagen: 5 header rows, one section each"
+ ],
+ "page_status": {}
+}

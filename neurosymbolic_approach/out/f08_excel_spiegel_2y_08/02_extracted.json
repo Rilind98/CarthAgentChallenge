@@ -1,0 +1,2935 @@
+{
+ "doc_id": "f08_excel_spiegel_2y_08",
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Anlagevermögen gesamt",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B6"
+     ],
+     "text": "1.264.533,10",
+     "cents": 126453310,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B6"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C6"
+     ],
+     "text": "519.986,54",
+     "cents": 51998654,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C6"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D6"
+     ],
+     "text": "66.473,54",
+     "cents": 6647354,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D6"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E6"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E6"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F6"
+     ],
+     "text": "1.718.046,10",
+     "cents": 171804610,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F6"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G6"
+     ],
+     "text": "597.574,91",
+     "cents": 59757491,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G6"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H6"
+     ],
+     "text": "72.783,48",
+     "cents": 7278348,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H6"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I6"
+     ],
+     "text": "24.927,58",
+     "cents": 2492758,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I6"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J6"
+     ],
+     "text": "645.430,81",
+     "cents": 64543081,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J6"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K6"
+     ],
+     "text": "1.072.615,29",
+     "cents": 107261529,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K6"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L6"
+     ],
+     "text": "666.958,19",
+     "cents": 66695819,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L6"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A6",
+    "row": 6
+   }
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "I. Immaterielle Vermögensgegenstände",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B7"
+     ],
+     "text": "51.692,53",
+     "cents": 5169253,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B7"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C7"
+     ],
+     "text": "3.605,90",
+     "cents": 360590,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C7"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D7"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E7"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F7"
+     ],
+     "text": "55.298,43",
+     "cents": 5529843,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F7"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G7"
+     ],
+     "text": "42.221,03",
+     "cents": 4222103,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G7"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H7"
+     ],
+     "text": "8.715,98",
+     "cents": 871598,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H7"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I7"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J7"
+     ],
+     "text": "50.937,01",
+     "cents": 5093701,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J7"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K7"
+     ],
+     "text": "4.361,42",
+     "cents": 436142,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K7"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L7"
+     ],
+     "text": "9.471,50",
+     "cents": 947150,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L7"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A7",
+    "row": 7
+   }
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+    "acq_date": null,
+    "method": null,
+    "position": "2. Entgeltlich erworbene Konzessionen und Lizenzen"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B8"
+     ],
+     "text": "51.692,53",
+     "cents": 5169253,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B8"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C8"
+     ],
+     "text": "3.605,90",
+     "cents": 360590,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C8"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F8"
+     ],
+     "text": "55.298,43",
+     "cents": 5529843,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F8"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G8"
+     ],
+     "text": "42.221,03",
+     "cents": 4222103,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G8"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H8"
+     ],
+     "text": "8.715,98",
+     "cents": 871598,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H8"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J8"
+     ],
+     "text": "50.937,01",
+     "cents": 5093701,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J8"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K8"
+     ],
+     "text": "4.361,42",
+     "cents": 436142,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K8"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L8"
+     ],
+     "text": "9.471,50",
+     "cents": 947150,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L8"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A8",
+    "row": 8
+   }
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "II. Sachanlagen",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B9"
+     ],
+     "text": "898.142,15",
+     "cents": 89814215,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B9"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C9"
+     ],
+     "text": "516.380,64",
+     "cents": 51638064,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C9"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D9"
+     ],
+     "text": "66.473,54",
+     "cents": 6647354,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D9"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E9"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F9"
+     ],
+     "text": "1.348.049,25",
+     "cents": 134804925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F9"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G9"
+     ],
+     "text": "528.656,50",
+     "cents": 52865650,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G9"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H9"
+     ],
+     "text": "64.067,50",
+     "cents": 6406750,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H9"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I9"
+     ],
+     "text": "24.927,58",
+     "cents": 2492758,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I9"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J9"
+     ],
+     "text": "567.796,42",
+     "cents": 56779642,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J9"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K9"
+     ],
+     "text": "780.252,83",
+     "cents": 78025283,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K9"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L9"
+     ],
+     "text": "369.485,65",
+     "cents": 36948565,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L9"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A9",
+    "row": 9
+   }
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+    "acq_date": null,
+    "method": null,
+    "position": "1. Grundstücke, grundstücksgleiche Rechte und Bauten"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B10"
+     ],
+     "text": "40.033,55",
+     "cents": 4003355,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B10"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F10"
+     ],
+     "text": "40.033,55",
+     "cents": 4003355,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F10"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J10"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K10"
+     ],
+     "text": "40.033,55",
+     "cents": 4003355,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K10"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L10"
+     ],
+     "text": "40.033,55",
+     "cents": 4003355,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L10"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A10",
+    "row": 10
+   }
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2. Technische Anlagen und Maschinen",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "2. Technische Anlagen und Maschinen",
+    "acq_date": null,
+    "method": null,
+    "position": "2. Technische Anlagen und Maschinen"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B11"
+     ],
+     "text": "422.134,78",
+     "cents": 42213478,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B11"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C11"
+     ],
+     "text": "447.114,46",
+     "cents": 44711446,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C11"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E11"
+     ],
+     "text": "290.443,52",
+     "cents": 29044352,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E11"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F11"
+     ],
+     "text": "1.159.692,76",
+     "cents": 115969276,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F11"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G11"
+     ],
+     "text": "409.742,55",
+     "cents": 40974255,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G11"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H11"
+     ],
+     "text": "52.115,30",
+     "cents": 5211530,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H11"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J11"
+     ],
+     "text": "461.857,85",
+     "cents": 46185785,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J11"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K11"
+     ],
+     "text": "697.834,91",
+     "cents": 69783491,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K11"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L11"
+     ],
+     "text": "12.392,23",
+     "cents": 1239223,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L11"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A11",
+    "row": 11
+   }
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+    "acq_date": null,
+    "method": null,
+    "position": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B12"
+     ],
+     "text": "214.284,57",
+     "cents": 21428457,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B12"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C12"
+     ],
+     "text": "511,91",
+     "cents": 51191,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C12"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D12"
+     ],
+     "text": "66.473,54",
+     "cents": 6647354,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D12"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F12"
+     ],
+     "text": "148.322,94",
+     "cents": 14832294,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F12"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G12"
+     ],
+     "text": "118.913,95",
+     "cents": 11891395,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G12"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H12"
+     ],
+     "text": "11.952,20",
+     "cents": 1195220,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H12"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I12"
+     ],
+     "text": "24.927,58",
+     "cents": 2492758,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I12"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J12"
+     ],
+     "text": "105.938,57",
+     "cents": 10593857,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J12"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K12"
+     ],
+     "text": "42.384,37",
+     "cents": 4238437,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K12"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L12"
+     ],
+     "text": "95.370,62",
+     "cents": 9537062,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L12"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A12",
+    "row": 12
+   }
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "4. Geleistete Anzahlungen und Anlagen im Bau",
+    "acq_date": null,
+    "method": null,
+    "position": "4. Geleistete Anzahlungen und Anlagen im Bau"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B13"
+     ],
+     "text": "221.689,25",
+     "cents": 22168925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B13"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C13"
+     ],
+     "text": "68.754,27",
+     "cents": 6875427,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C13"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E13"
+     ],
+     "text": "-290.443,52",
+     "cents": -29044352,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E13"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F13"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J13"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K13"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L13"
+     ],
+     "text": "221.689,25",
+     "cents": 22168925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L13"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A13",
+    "row": 13
+   }
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "III. Finanzanlagen",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B14"
+     ],
+     "text": "314.698,42",
+     "cents": 31469842,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B14"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C14"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D14"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E14"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F14"
+     ],
+     "text": "314.698,42",
+     "cents": 31469842,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F14"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G14"
+     ],
+     "text": "26.697,38",
+     "cents": 2669738,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G14"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H14"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I14"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J14"
+     ],
+     "text": "26.697,38",
+     "cents": 2669738,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J14"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K14"
+     ],
+     "text": "288.001,04",
+     "cents": 28800104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K14"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L14"
+     ],
+     "text": "288.001,04",
+     "cents": 28800104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L14"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A14",
+    "row": 14
+   }
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "3. Beteiligungen",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "3. Beteiligungen",
+    "acq_date": null,
+    "method": null,
+    "position": "3. Beteiligungen"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B15"
+     ],
+     "text": "314.698,42",
+     "cents": 31469842,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B15"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F15"
+     ],
+     "text": "314.698,42",
+     "cents": 31469842,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F15"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G15"
+     ],
+     "text": "26.697,38",
+     "cents": 2669738,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G15"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J15"
+     ],
+     "text": "26.697,38",
+     "cents": 2669738,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J15"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K15"
+     ],
+     "text": "288.001,04",
+     "cents": 28800104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K15"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L15"
+     ],
+     "text": "288.001,04",
+     "cents": 28800104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L15"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A15",
+    "row": 15
+   }
+  },
+  {
+   "id": "r11",
+   "section": "s2",
+   "kind_guess": "total",
+   "label": "Anlagevermögen gesamt",
+   "year": 2024,
+   "identity": {},
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B23"
+     ],
+     "text": "1.026.179,57",
+     "cents": 102617957,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B23"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C23"
+     ],
+     "text": "261.544,31",
+     "cents": 26154431,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C23"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D23"
+     ],
+     "text": "23.190,78",
+     "cents": 2319078,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D23"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E23"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E23"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F23"
+     ],
+     "text": "1.264.533,10",
+     "cents": 126453310,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F23"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G23"
+     ],
+     "text": "559.961,94",
+     "cents": 55996194,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G23"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H23"
+     ],
+     "text": "43.410,67",
+     "cents": 4341067,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H23"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I23"
+     ],
+     "text": "5.797,70",
+     "cents": 579770,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I23"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J23"
+     ],
+     "text": "597.574,91",
+     "cents": 59757491,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J23"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K23"
+     ],
+     "text": "666.958,19",
+     "cents": 66695819,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K23"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L23"
+     ],
+     "text": "466.217,63",
+     "cents": 46621763,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L23"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A23",
+    "row": 23
+   }
+  },
+  {
+   "id": "r12",
+   "section": "s2",
+   "kind_guess": "total",
+   "label": "I. Immaterielle Vermögensgegenstände",
+   "year": 2024,
+   "identity": {},
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B24"
+     ],
+     "text": "51.692,53",
+     "cents": 5169253,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B24"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C24"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D24"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E24"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F24"
+     ],
+     "text": "51.692,53",
+     "cents": 5169253,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F24"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G24"
+     ],
+     "text": "30.831,52",
+     "cents": 3083152,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G24"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H24"
+     ],
+     "text": "11.389,51",
+     "cents": 1138951,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H24"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I24"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J24"
+     ],
+     "text": "42.221,03",
+     "cents": 4222103,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J24"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K24"
+     ],
+     "text": "9.471,50",
+     "cents": 947150,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K24"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L24"
+     ],
+     "text": "20.861,01",
+     "cents": 2086101,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L24"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A24",
+    "row": 24
+   }
+  },
+  {
+   "id": "r13",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+    "acq_date": null,
+    "method": null,
+    "position": "2. Entgeltlich erworbene Konzessionen und Lizenzen"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B25"
+     ],
+     "text": "51.692,53",
+     "cents": 5169253,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B25"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F25"
+     ],
+     "text": "51.692,53",
+     "cents": 5169253,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F25"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G25"
+     ],
+     "text": "30.831,52",
+     "cents": 3083152,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G25"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H25"
+     ],
+     "text": "11.389,51",
+     "cents": 1138951,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H25"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J25"
+     ],
+     "text": "42.221,03",
+     "cents": 4222103,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J25"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K25"
+     ],
+     "text": "9.471,50",
+     "cents": 947150,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K25"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L25"
+     ],
+     "text": "20.861,01",
+     "cents": 2086101,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L25"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A25",
+    "row": 25
+   }
+  },
+  {
+   "id": "r14",
+   "section": "s2",
+   "kind_guess": "total",
+   "label": "II. Sachanlagen",
+   "year": 2024,
+   "identity": {},
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B26"
+     ],
+     "text": "659.788,62",
+     "cents": 65978862,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B26"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C26"
+     ],
+     "text": "261.544,31",
+     "cents": 26154431,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C26"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D26"
+     ],
+     "text": "23.190,78",
+     "cents": 2319078,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D26"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E26"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F26"
+     ],
+     "text": "898.142,15",
+     "cents": 89814215,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F26"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G26"
+     ],
+     "text": "502.433,04",
+     "cents": 50243304,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G26"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H26"
+     ],
+     "text": "32.021,16",
+     "cents": 3202116,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H26"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I26"
+     ],
+     "text": "5.797,70",
+     "cents": 579770,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I26"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J26"
+     ],
+     "text": "528.656,50",
+     "cents": 52865650,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J26"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K26"
+     ],
+     "text": "369.485,65",
+     "cents": 36948565,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K26"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L26"
+     ],
+     "text": "157.355,58",
+     "cents": 15735558,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L26"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A26",
+    "row": 26
+   }
+  },
+  {
+   "id": "r15",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+    "acq_date": null,
+    "method": null,
+    "position": "1. Grundstücke, grundstücksgleiche Rechte und Bauten"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B27"
+     ],
+     "text": "40.033,55",
+     "cents": 4003355,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B27"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F27"
+     ],
+     "text": "40.033,55",
+     "cents": 4003355,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F27"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J27"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J27"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K27"
+     ],
+     "text": "40.033,55",
+     "cents": 4003355,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K27"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L27"
+     ],
+     "text": "40.033,55",
+     "cents": 4003355,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L27"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A27",
+    "row": 27
+   }
+  },
+  {
+   "id": "r16",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "2. Technische Anlagen und Maschinen",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "2. Technische Anlagen und Maschinen",
+    "acq_date": null,
+    "method": null,
+    "position": "2. Technische Anlagen und Maschinen"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B28"
+     ],
+     "text": "422.134,78",
+     "cents": 42213478,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B28"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F28"
+     ],
+     "text": "422.134,78",
+     "cents": 42213478,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F28"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G28"
+     ],
+     "text": "400.093,62",
+     "cents": 40009362,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G28"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H28"
+     ],
+     "text": "9.648,93",
+     "cents": 964893,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H28"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J28"
+     ],
+     "text": "409.742,55",
+     "cents": 40974255,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J28"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K28"
+     ],
+     "text": "12.392,23",
+     "cents": 1239223,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K28"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L28"
+     ],
+     "text": "22.041,16",
+     "cents": 2204116,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L28"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A28",
+    "row": 28
+   }
+  },
+  {
+   "id": "r17",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+    "acq_date": null,
+    "method": null,
+    "position": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B29"
+     ],
+     "text": "197.620,29",
+     "cents": 19762029,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B29"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C29"
+     ],
+     "text": "39.855,06",
+     "cents": 3985506,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C29"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D29"
+     ],
+     "text": "23.190,78",
+     "cents": 2319078,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D29"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F29"
+     ],
+     "text": "214.284,57",
+     "cents": 21428457,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F29"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G29"
+     ],
+     "text": "102.339,42",
+     "cents": 10233942,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G29"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H29"
+     ],
+     "text": "22.372,23",
+     "cents": 2237223,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H29"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I29"
+     ],
+     "text": "5.797,70",
+     "cents": 579770,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I29"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J29"
+     ],
+     "text": "118.913,95",
+     "cents": 11891395,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J29"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K29"
+     ],
+     "text": "95.370,62",
+     "cents": 9537062,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K29"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L29"
+     ],
+     "text": "95.280,87",
+     "cents": 9528087,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L29"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A29",
+    "row": 29
+   }
+  },
+  {
+   "id": "r18",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "4. Geleistete Anzahlungen und Anlagen im Bau",
+    "acq_date": null,
+    "method": null,
+    "position": "4. Geleistete Anzahlungen und Anlagen im Bau"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C30"
+     ],
+     "text": "221.689,25",
+     "cents": 22168925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C30"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F30"
+     ],
+     "text": "221.689,25",
+     "cents": 22168925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F30"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J30"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K30"
+     ],
+     "text": "221.689,25",
+     "cents": 22168925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K30"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L30"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A30",
+    "row": 30
+   }
+  },
+  {
+   "id": "r19",
+   "section": "s2",
+   "kind_guess": "total",
+   "label": "III. Finanzanlagen",
+   "year": 2024,
+   "identity": {},
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B31"
+     ],
+     "text": "314.698,42",
+     "cents": 31469842,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B31"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [
+      "AV-Spiegel!C31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C31"
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [
+      "AV-Spiegel!D31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D31"
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [
+      "AV-Spiegel!E31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E31"
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F31"
+     ],
+     "text": "314.698,42",
+     "cents": 31469842,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F31"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G31"
+     ],
+     "text": "26.697,38",
+     "cents": 2669738,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G31"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [
+      "AV-Spiegel!H31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H31"
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [
+      "AV-Spiegel!I31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I31"
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J31"
+     ],
+     "text": "26.697,38",
+     "cents": 2669738,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J31"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K31"
+     ],
+     "text": "288.001,04",
+     "cents": 28800104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K31"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L31"
+     ],
+     "text": "288.001,04",
+     "cents": 28800104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L31"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A31",
+    "row": 31
+   }
+  },
+  {
+   "id": "r20",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "3. Beteiligungen",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "3. Beteiligungen",
+    "acq_date": null,
+    "method": null,
+    "position": "3. Beteiligungen"
+   },
+   "cells": {
+    "AV-Spiegel:2": {
+     "column": "AV-Spiegel:2",
+     "tokens": [
+      "AV-Spiegel!B32"
+     ],
+     "text": "314.698,42",
+     "cents": 31469842,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B32"
+    },
+    "AV-Spiegel:3": {
+     "column": "AV-Spiegel:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:4": {
+     "column": "AV-Spiegel:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:5": {
+     "column": "AV-Spiegel:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:6": {
+     "column": "AV-Spiegel:6",
+     "tokens": [
+      "AV-Spiegel!F32"
+     ],
+     "text": "314.698,42",
+     "cents": 31469842,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F32"
+    },
+    "AV-Spiegel:7": {
+     "column": "AV-Spiegel:7",
+     "tokens": [
+      "AV-Spiegel!G32"
+     ],
+     "text": "26.697,38",
+     "cents": 2669738,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G32"
+    },
+    "AV-Spiegel:8": {
+     "column": "AV-Spiegel:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:9": {
+     "column": "AV-Spiegel:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "AV-Spiegel:10": {
+     "column": "AV-Spiegel:10",
+     "tokens": [
+      "AV-Spiegel!J32"
+     ],
+     "text": "26.697,38",
+     "cents": 2669738,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J32"
+    },
+    "AV-Spiegel:11": {
+     "column": "AV-Spiegel:11",
+     "tokens": [
+      "AV-Spiegel!K32"
+     ],
+     "text": "288.001,04",
+     "cents": 28800104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K32"
+    },
+    "AV-Spiegel:12": {
+     "column": "AV-Spiegel:12",
+     "tokens": [
+      "AV-Spiegel!L32"
+     ],
+     "text": "288.001,04",
+     "cents": 28800104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L32"
+    }
+   },
+   "pointer": {
+    "sheet": "AV-Spiegel",
+    "cell": "A32",
+    "row": 32
+   }
+  }
+ ]
+}

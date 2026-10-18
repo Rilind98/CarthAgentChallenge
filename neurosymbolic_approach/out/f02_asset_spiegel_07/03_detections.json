@@ -1,0 +1,56 @@
+{
+ "doc_id": "f02_asset_spiegel_07",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "glued_numbers",
+   "evidence": "3 printed string(s) hold two amounts; 0 row(s) where the laws suggest two amounts were read as one",
+   "where": [
+    {
+     "page": 1,
+     "printed": "334,041,00"
+    },
+    {
+     "page": 2,
+     "printed": "53.478,761.056.205,46"
+    },
+    {
+     "page": 4,
+     "printed": "1.082,0517.763,72"
+    }
+   ]
+  },
+  {
+   "type": "noise_page_blank",
+   "evidence": "page has no printed text",
+   "where": [
+    {
+     "page": 5
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "1 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r135",
+     "field": "zugang",
+     "pointer": {
+      "page": 10,
+      "bbox": [
+       26.94,
+       208.35,
+       814.94,
+       215.35
+      ],
+      "frame_band": [
+       208.35,
+       215.35
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

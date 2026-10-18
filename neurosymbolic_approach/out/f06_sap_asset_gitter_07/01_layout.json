@@ -1,0 +1,1182 @@
+{
+ "doc_id": "f06_sap_asset_gitter_07",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1,
+    2
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 263.5,
+     "span": [
+      223.18,
+      263.5
+     ],
+     "col": null,
+     "header": "AHK Beginn",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 314.5,
+     "span": [
+      280.9,
+      314.5
+     ],
+     "col": null,
+     "header": "Zugänge",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 365.5,
+     "span": [
+      331.9,
+      365.5
+     ],
+     "col": null,
+     "header": "Abgänge",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 416.5,
+     "span": [
+      382.9,
+      416.5
+     ],
+     "col": null,
+     "header": "Umbuchungen",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 467.5,
+     "span": [
+      427.18,
+      467.5
+     ],
+     "col": null,
+     "header": "AHK Ende",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 518.5,
+     "span": [
+      481.54,
+      518.5
+     ],
+     "col": null,
+     "header": "AfA kum. Beginn",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 569.5,
+     "span": [
+      535.9,
+      569.5
+     ],
+     "col": null,
+     "header": "AfA lfd. Jahr",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 620.5,
+     "span": [
+      590.26,
+      620.5
+     ],
+     "col": null,
+     "header": "AfA auf Abgänge",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 671.5,
+     "span": [
+      634.54,
+      671.5
+     ],
+     "col": null,
+     "header": "AfA kum. Ende",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 722.5,
+     "span": [
+      682.18,
+      722.5
+     ],
+     "col": null,
+     "header": "BW Beginn",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c11",
+     "anchor": 773.5,
+     "span": [
+      733.18,
+      773.5
+     ],
+     "col": null,
+     "header": "BW Ende",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anlage UNr Bezeichnung Akt.-Datum AHK Beginn Zugänge Abgänge Umbuchungen AHK EndeAfA kum. Beginn AfA lfd. JahrAfA auf Abgänge AfA kum. Ende BW Beginn BW Ende Whrg"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    47.88,
+    53.48
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "15 0 Zeiterfassung Software Typ 09.10.2015 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    55.16,
+    60.76
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "21 0 Office-Lizenzen Typ D143 29.08.2018 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    62.44,
+    68.04
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "26 0 288-257778 Office-Lizenzen 12.02.2020 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    69.72,
+    75.32
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "45 0 Warenwirtschaft Modul Lage 16.03.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    77.0,
+    82.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 1000 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    84.28,
+    89.88
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3 0 489-943669 Grundstück Gewe 20.12.2005 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    91.56,
+    97.16
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4 0 Erweiterungsfläche 06.01.2008 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    98.84,
+    104.44
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 2000 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    106.12,
+    111.72
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1 0 Produktionshalle 04.05.1988 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    113.4,
+    119.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1 1 825-858579 Produktionshall 16.04.2021 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    120.68,
+    126.28
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "18 0 231-634047 Lagerhalle 18.09.2016 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    127.96,
+    133.56
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "36 0 Lagerhalle 01.05.2023 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    135.24,
+    140.84
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "36 1 Lagerhalle Zusatzmodul 06.11.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    142.52,
+    148.12
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "37 0 Produktionshalle 09.11.2023 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    149.8,
+    155.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "37 1 Produktionshalle Zusatzmod 14.04.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    157.08,
+    162.68
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "42 0 513-500214 Lagerhalle 02.11.2024 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    164.36,
+    169.96
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "51 0 385-676485 Werkstattgebäud 01.12.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    171.64,
+    177.24
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 2100 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    178.92,
+    184.52
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "13 0 Abkantpresse (gebraucht) 01.11.2014 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    186.2,
+    191.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "13 1 439-704321 Abkantpresse (g 14.11.2020 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    193.48,
+    199.08
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "24 0 Teilewaschanlage Nr. 30 27.05.2019 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    200.76,
+    206.36
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "30 0 Hydraulikpresse Typ L807 23.02.2022 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    208.04,
+    213.64
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "40 0 Schraubenkompressor 07.04.2024 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    215.32,
+    220.92
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "46 0 Verpackungsmaschine Halle 06.05.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    222.6,
+    228.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 3000 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    229.88,
+    235.48
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "16 0 Kleintransporter (gebrauch 19.05.2016 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    237.16,
+    242.76
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "16 1 Kleintransporter (gebrauch 24.06.2024 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    244.44,
+    250.04
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "20 0 166-965671 Pkw Kompaktklas 03.12.2017 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    251.72,
+    257.32
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "35 0 277-982513 Pkw Elektro Nr. 20.04.2023 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    259.0,
+    264.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "38 0 852-347307 Pkw Elektro 27.11.2023 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    266.28,
+    271.88
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "38 1 Pkw Elektro Zusatzmodul 09.12.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    273.56,
+    279.16
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 4200 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    280.84,
+    286.44
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "8 0 Sattelzugmaschine 27.01.2012 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    288.12,
+    293.72
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "12 0 Sattelzugmaschine Typ R188 22.07.2014 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    295.4,
+    301.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "28 0 868-311559 Kastenwagen Nr. 16.04.2021 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    302.68,
+    308.28
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "29 0 Lkw 7,5t Pritsche 06.11.2021 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    309.96,
+    315.56
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "29 1 Lkw 7,5t Pritsche Nachrüst 02.05.2022 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    317.24,
+    322.84
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "34 0 Sattelzugmaschine (gebrauc 21.01.2023 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    324.52,
+    330.12
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "44 0 Lkw 7,5t Pritsche Typ M951 20.02.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    331.8,
+    337.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "47 0 Tandemanhänger Nr. 13 12.05.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    339.08,
+    344.68
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 4300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    346.36,
+    351.96
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5 0 733-299555 Schrankwand Bür 07.01.2011 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    353.64,
+    359.24
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "6 0 299-164906 Besprechungstis 16.09.2011 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    360.92,
+    366.52
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "9 0 686-733483 Schrankwand Bür 16.07.2012 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    368.2,
+    373.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "9 1 905-777761 Schrankwand Bür 23.06.2015 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    375.48,
+    381.08
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "14 0 Schrankwand Büro 04.06.2015 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    382.76,
+    388.36
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "31 0 Aktenschrank Nr. 32 11.08.2022 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    390.04,
+    395.64
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "31 1 Aktenschrank Nr. 32 Zusatz 24.06.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    397.32,
+    402.92
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "43 0 358-445615 Schrankwand Bür 05.02.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    404.6,
+    410.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 4100 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    47.88,
+    53.48
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "27 0 146-516595 Bürostuhl 25.03.2021 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    55.16,
+    60.76
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "32 0 350-311853 Messschieber di 08.09.2022 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    62.44,
+    68.04
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "48 0 Messschieber digital 04.08.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    69.72,
+    75.32
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 4900 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    77.0,
+    82.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "11 0 Workstation CAD Typ M444 26.06.2014 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    84.28,
+    89.88
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "19 0 Server 2HE 23.06.2017 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    91.56,
+    97.16
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "23 0 NAS-Speicher Nr. 30 16.05.2019 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    98.84,
+    104.44
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "41 0 113-498251 Notebook 21.05.2024 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    106.12,
+    111.72
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "50 0 Firewall-Appliance 13.10.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    113.4,
+    119.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 4400 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    120.68,
+    126.28
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "39 0 AiB Verpackungsmaschine Ha 29.02.2024 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r62",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    127.96,
+    133.56
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "49 0 149-119695 Anlagen im Bau 06.09.2025 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r63",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    135.24,
+    140.84
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Klasse 5000 EUR",
+   "context": [],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 2: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "schedule",
+  "2": "repeats"
+ }
+}

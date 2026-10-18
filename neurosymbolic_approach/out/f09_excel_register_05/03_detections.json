@@ -1,0 +1,75 @@
+{
+ "doc_id": "f09_excel_register_05",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "transfer_breaks_cost_law",
+   "evidence": "a transfer is missing from a row although its cost at year end includes it",
+   "where": [
+    {
+     "row": "r1",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet1",
+      "cell": "A9",
+      "row": 9
+     }
+    },
+    {
+     "row": "r19",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet1",
+      "cell": "A31",
+      "row": 31
+     }
+    },
+    {
+     "row": "r50",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet1",
+      "cell": "A62",
+      "row": 62
+     }
+    },
+    {
+     "row": "r51",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet1",
+      "cell": "A63",
+      "row": 63
+     }
+    },
+    {
+     "row": "r61",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet2",
+      "cell": "A5",
+      "row": 5
+     }
+    },
+    {
+     "row": "r71",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet2",
+      "cell": "A15",
+      "row": 15
+     }
+    },
+    {
+     "row": "r72",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet2",
+      "cell": "A16",
+      "row": 16
+     }
+    }
+   ]
+  }
+ ]
+}

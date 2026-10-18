@@ -1,0 +1,937 @@
+{
+ "doc_id": "f08_excel_spiegel_2y_02",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1
+   ],
+   "sheet": null,
+   "period_end": "2025-06-30",
+   "period_start": "2024-07-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 287.61,
+     "span": [
+      249.66,
+      287.61
+     ],
+     "col": null,
+     "header": "01.07.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 325.14,
+     "span": [
+      292.61,
+      325.14
+     ],
+     "col": null,
+     "header": "Zugänge EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "AHK x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 359.05,
+     "span": [
+      330.14,
+      359.05
+     ],
+     "col": null,
+     "header": "Abgänge EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "AHK x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 409.55,
+     "span": [
+      374.86,
+      409.55
+     ],
+     "col": null,
+     "header": "Umbuchungen EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "AHK x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 457.5,
+     "span": [
+      419.55,
+      457.5
+     ],
+     "col": null,
+     "header": "30.06.2025 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 500.02,
+     "span": [
+      467.5,
+      500.02
+     ],
+     "col": null,
+     "header": "01.07.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 533.93,
+     "span": [
+      505.02,
+      533.93
+     ],
+     "col": null,
+     "header": "Zugänge EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x add"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 567.85,
+     "span": [
+      538.93,
+      567.85
+     ],
+     "col": null,
+     "header": "Abgänge EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 605.37,
+     "span": [
+      572.85,
+      605.37
+     ],
+     "col": null,
+     "header": "30.06.2025 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 653.32,
+     "span": [
+      615.37,
+      653.32
+     ],
+     "col": null,
+     "header": "30.06.2025 EUR",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "c11",
+     "anchor": 690.85,
+     "span": [
+      658.32,
+      690.85
+     ],
+     "col": null,
+     "header": "30.06.2024 EUR",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c12",
+     "anchor": 743.79,
+     "span": [
+      705.85,
+      743.79
+     ],
+     "col": null,
+     "header": "lt. Bilanz (aus Bilanz) EUR",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c13",
+     "anchor": 776.6,
+     "span": [
+      763.95,
+      776.6
+     ],
+     "col": null,
+     "header": "Differenz EUR",
+     "group_header": "",
+     "candidates": []
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anschaffungs- und Herstellungskosten kumulierte Abschreibungen Buchwerte lt. Bilanz Differenz",
+    "01.07.2024 Zugänge Abgänge Umbuchungen 30.06.2025 01.07.2024 Zugänge Abgänge 30.06.2025 30.06.2025 30.06.2024 (aus Bilanz)",
+    "EUR EUR EUR EUR EUR EUR EUR EUR EUR EUR EUR EUR EUR"
+   ]
+  },
+  {
+   "id": "s2",
+   "pages": [
+    2
+   ],
+   "sheet": null,
+   "period_end": "2024-06-30",
+   "period_start": "2023-07-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 286.95,
+     "span": [
+      254.43,
+      286.95
+     ],
+     "col": null,
+     "header": "01.07.2023 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 324.48,
+     "span": [
+      291.95,
+      324.48
+     ],
+     "col": null,
+     "header": "Zugänge EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "AHK x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 357.28,
+     "span": [
+      344.64,
+      357.28
+     ],
+     "col": null,
+     "header": "Abgänge EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "AHK x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 407.78,
+     "span": [
+      395.14,
+      407.78
+     ],
+     "col": null,
+     "header": "Umbuchungen EUR",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "AHK x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 455.73,
+     "span": [
+      417.78,
+      455.73
+     ],
+     "col": null,
+     "header": "30.06.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 498.26,
+     "span": [
+      465.73,
+      498.26
+     ],
+     "col": null,
+     "header": "01.07.2023 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 532.17,
+     "span": [
+      503.26,
+      532.17
+     ],
+     "col": null,
+     "header": "Zugänge EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x add"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 564.98,
+     "span": [
+      552.33,
+      564.98
+     ],
+     "col": null,
+     "header": "Abgänge EUR",
+     "group_header": "kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 602.5,
+     "span": [
+      569.98,
+      602.5
+     ],
+     "col": null,
+     "header": "30.06.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 645.03,
+     "span": [
+      612.5,
+      645.03
+     ],
+     "col": null,
+     "header": "30.06.2024 EUR",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "c11",
+     "anchor": 682.55,
+     "span": [
+      650.03,
+      682.55
+     ],
+     "col": null,
+     "header": "30.06.2023 EUR",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c12",
+     "anchor": 734.03,
+     "span": [
+      701.51,
+      734.03
+     ],
+     "col": null,
+     "header": "lt. Bilanz (aus Bilanz) EUR",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c13",
+     "anchor": 766.84,
+     "span": [
+      754.19,
+      766.84
+     ],
+     "col": null,
+     "header": "Differenz EUR",
+     "group_header": "",
+     "candidates": []
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anschaffungs- und Herstellungskosten kumulierte Abschreibungen Buchwerte lt. Bilanz Differenz",
+    "01.07.2023 Zugänge Abgänge Umbuchungen 30.06.2024 01.07.2023 Zugänge Abgänge 30.06.2024 30.06.2024 30.06.2023 (aus Bilanz)",
+    "EUR EUR EUR EUR EUR EUR EUR EUR EUR EUR EUR EUR EUR"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    108.56,
+    115.06
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    117.33,
+    123.83
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    152.43,
+    158.93
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    161.21,
+    167.71
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2. Technische Anlagen und Maschinen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    169.98,
+    176.48
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    178.76,
+    185.26
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    187.53,
+    194.03
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    222.63,
+    229.13
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3. Beteiligungen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    231.41,
+    237.91
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    248.96,
+    255.46
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    108.56,
+    115.06
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    117.33,
+    123.83
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    152.43,
+    158.93
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    161.21,
+    167.71
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2. Technische Anlagen und Maschinen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    169.98,
+    176.48
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    178.76,
+    185.26
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    187.53,
+    194.03
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    222.63,
+    229.13
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3. Beteiligungen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    231.41,
+    237.91
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    248.96,
+    255.46
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {
+  "1": "schedule",
+  "2": "schedule"
+ }
+}

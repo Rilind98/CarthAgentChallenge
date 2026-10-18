@@ -1,0 +1,3752 @@
+{
+ "doc_id": "f01_net_spiegel_07",
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0027    EDV-Software",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0027    EDV-Software",
+    "acq_date": null,
+    "method": null,
+    "position": "0027    EDV-Software"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B8"
+     ],
+     "text": "9.323,59",
+     "cents": 932359,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B8"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C8"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E8"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F8"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G8"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H8"
+     ],
+     "text": "7.843,76",
+     "cents": 784376,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H8"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J8"
+     ],
+     "text": "117.999,16",
+     "cents": 11799916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J8"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K8"
+     ],
+     "text": "1.479,83",
+     "cents": 147983,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K8"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A8",
+    "row": 8
+   }
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe EDV-Software",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B9"
+     ],
+     "text": "9.323,59",
+     "cents": 932359,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B9"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C9"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E9"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F9"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G9"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H9"
+     ],
+     "text": "7.843,76",
+     "cents": 784376,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H9"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J9"
+     ],
+     "text": "117.999,16",
+     "cents": 11799916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J9"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K9"
+     ],
+     "text": "1.479,83",
+     "cents": 147983,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K9"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A9",
+    "row": 9
+   }
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 0. Immaterielle Vermögensgegenstände",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B10"
+     ],
+     "text": "9.323,59",
+     "cents": 932359,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B10"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C10"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E10"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F10"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G10"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H10"
+     ],
+     "text": "7.843,76",
+     "cents": 784376,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H10"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J10"
+     ],
+     "text": "117.999,16",
+     "cents": 11799916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J10"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K10"
+     ],
+     "text": "1.479,83",
+     "cents": 147983,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K10"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A10",
+    "row": 10
+   }
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0085    Grund und Boden",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0085    Grund und Boden",
+    "acq_date": null,
+    "method": null,
+    "position": "0085    Grund und Boden"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B13"
+     ],
+     "text": "237.329,25",
+     "cents": 23732925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B13"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C13"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E13"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F13"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G13"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H13"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J13"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K13"
+     ],
+     "text": "237.329,25",
+     "cents": 23732925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K13"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A13",
+    "row": 13
+   }
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Grund und Boden",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B14"
+     ],
+     "text": "237.329,25",
+     "cents": 23732925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B14"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C14"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E14"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F14"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G14"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H14"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J14"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K14"
+     ],
+     "text": "237.329,25",
+     "cents": 23732925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K14"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A14",
+    "row": 14
+   }
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 1. Grund und Boden",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B15"
+     ],
+     "text": "237.329,25",
+     "cents": 23732925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B15"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C15"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E15"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F15"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G15"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H15"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J15"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K15"
+     ],
+     "text": "237.329,25",
+     "cents": 23732925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K15"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A15",
+    "row": 15
+   }
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0100    Fabrikbauten",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0100    Fabrikbauten",
+    "acq_date": null,
+    "method": null,
+    "position": "0100    Fabrikbauten"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B18"
+     ],
+     "text": "1.866.465,00",
+     "cents": 186646500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B18"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C18"
+     ],
+     "text": "4.925.126,88",
+     "cents": 492512688,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C18"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E18"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F18"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G18"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H18"
+     ],
+     "text": "143.183,01",
+     "cents": 14318301,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H18"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J18"
+     ],
+     "text": "1.005.834,84",
+     "cents": 100583484,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J18"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K18"
+     ],
+     "text": "6.648.408,87",
+     "cents": 664840887,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K18"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A18",
+    "row": 18
+   }
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Fabrikbauten",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B19"
+     ],
+     "text": "1.866.465,00",
+     "cents": 186646500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B19"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C19"
+     ],
+     "text": "4.925.126,88",
+     "cents": 492512688,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C19"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E19"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F19"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G19"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H19"
+     ],
+     "text": "143.183,01",
+     "cents": 14318301,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H19"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J19"
+     ],
+     "text": "1.005.834,84",
+     "cents": 100583484,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J19"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K19"
+     ],
+     "text": "6.648.408,87",
+     "cents": 664840887,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K19"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A19",
+    "row": 19
+   }
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 2. Betriebsgebäude",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B20"
+     ],
+     "text": "1.866.465,00",
+     "cents": 186646500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B20"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C20"
+     ],
+     "text": "4.925.126,88",
+     "cents": 492512688,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C20"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E20"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F20"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G20"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H20"
+     ],
+     "text": "143.183,01",
+     "cents": 14318301,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H20"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J20"
+     ],
+     "text": "1.005.834,84",
+     "cents": 100583484,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J20"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K20"
+     ],
+     "text": "6.648.408,87",
+     "cents": 664840887,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K20"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A20",
+    "row": 20
+   }
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0210    Maschinen",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0210    Maschinen",
+    "acq_date": null,
+    "method": null,
+    "position": "0210    Maschinen"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B23"
+     ],
+     "text": "86.036,19",
+     "cents": 8603619,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B23"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C23"
+     ],
+     "text": "242.943,00",
+     "cents": 24294300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C23"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E23"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E23"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F23"
+     ],
+     "text": "456.548,24",
+     "cents": 45654824,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F23"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G23"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G23"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H23"
+     ],
+     "text": "49.550,99",
+     "cents": 4955099,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H23"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J23"
+     ],
+     "text": "288.680,57",
+     "cents": 28868057,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J23"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K23"
+     ],
+     "text": "735.975,44",
+     "cents": 73597544,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K23"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A23",
+    "row": 23
+   }
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Maschinen",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B24"
+     ],
+     "text": "86.036,19",
+     "cents": 8603619,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B24"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C24"
+     ],
+     "text": "242.943,00",
+     "cents": 24294300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C24"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E24"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E24"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F24"
+     ],
+     "text": "456.548,24",
+     "cents": 45654824,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F24"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G24"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H24"
+     ],
+     "text": "49.550,99",
+     "cents": 4955099,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H24"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J24"
+     ],
+     "text": "288.680,57",
+     "cents": 28868057,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J24"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K24"
+     ],
+     "text": "735.975,44",
+     "cents": 73597544,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K24"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A24",
+    "row": 24
+   }
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 3. Maschinenpark",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B25"
+     ],
+     "text": "86.036,19",
+     "cents": 8603619,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B25"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C25"
+     ],
+     "text": "242.943,00",
+     "cents": 24294300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C25"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E25"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E25"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F25"
+     ],
+     "text": "456.548,24",
+     "cents": 45654824,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F25"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G25"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G25"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H25"
+     ],
+     "text": "49.550,99",
+     "cents": 4955099,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H25"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J25"
+     ],
+     "text": "288.680,57",
+     "cents": 28868057,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J25"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K25"
+     ],
+     "text": "735.975,44",
+     "cents": 73597544,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K25"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A25",
+    "row": 25
+   }
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0240    Technische Anlagen",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0240    Technische Anlagen",
+    "acq_date": null,
+    "method": null,
+    "position": "0240    Technische Anlagen"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B28"
+     ],
+     "text": "584.844,98",
+     "cents": 58484498,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B28"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C28"
+     ],
+     "text": "10.733,00",
+     "cents": 1073300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C28"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E28"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F28"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G28"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H28"
+     ],
+     "text": "44.359,88",
+     "cents": 4435988,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H28"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J28"
+     ],
+     "text": "285.729,05",
+     "cents": 28572905,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J28"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K28"
+     ],
+     "text": "551.218,10",
+     "cents": 55121810,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K28"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A28",
+    "row": 28
+   }
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Technische Anlagen Kto. 0240",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B29"
+     ],
+     "text": "584.844,98",
+     "cents": 58484498,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B29"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C29"
+     ],
+     "text": "10.733,00",
+     "cents": 1073300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C29"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E29"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F29"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G29"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H29"
+     ],
+     "text": "44.359,88",
+     "cents": 4435988,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H29"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J29"
+     ],
+     "text": "285.729,05",
+     "cents": 28572905,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J29"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K29"
+     ],
+     "text": "551.218,10",
+     "cents": 55121810,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K29"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A29",
+    "row": 29
+   }
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 4. Betriebstechnik",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B30"
+     ],
+     "text": "584.844,98",
+     "cents": 58484498,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B30"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C30"
+     ],
+     "text": "10.733,00",
+     "cents": 1073300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C30"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E30"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F30"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G30"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H30"
+     ],
+     "text": "44.359,88",
+     "cents": 4435988,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H30"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J30"
+     ],
+     "text": "285.729,05",
+     "cents": 28572905,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J30"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K30"
+     ],
+     "text": "551.218,10",
+     "cents": 55121810,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K30"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A30",
+    "row": 30
+   }
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0320    Pkw",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0320    Pkw",
+    "acq_date": null,
+    "method": null,
+    "position": "0320    Pkw"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B33"
+     ],
+     "text": "1.016,75",
+     "cents": 101675,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B33"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C33"
+     ],
+     "text": "18.179,23",
+     "cents": 1817923,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C33"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E33"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F33"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G33"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H33"
+     ],
+     "text": "1.771,22",
+     "cents": 177122,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H33"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J33"
+     ],
+     "text": "82.257,96",
+     "cents": 8225796,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J33"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K33"
+     ],
+     "text": "17.424,76",
+     "cents": 1742476,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K33"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A33",
+    "row": 33
+   }
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0350    Lkw",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0350    Lkw",
+    "acq_date": null,
+    "method": null,
+    "position": "0350    Lkw"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B34"
+     ],
+     "text": "90.713,17",
+     "cents": 9071317,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B34"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C34"
+     ],
+     "text": "38.382,00",
+     "cents": 3838200,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C34"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E34"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E34"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F34"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F34"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G34"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G34"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H34"
+     ],
+     "text": "22.547,34",
+     "cents": 2254734,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H34"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J34"
+     ],
+     "text": "195.258,67",
+     "cents": 19525867,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J34"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K34"
+     ],
+     "text": "106.547,83",
+     "cents": 10654783,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K34"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A34",
+    "row": 34
+   }
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Pkw",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B35"
+     ],
+     "text": "91.729,92",
+     "cents": 9172992,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B35"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C35"
+     ],
+     "text": "56.561,23",
+     "cents": 5656123,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C35"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E35"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F35"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G35"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H35"
+     ],
+     "text": "24.318,56",
+     "cents": 2431856,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H35"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J35"
+     ],
+     "text": "277.516,63",
+     "cents": 27751663,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J35"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K35"
+     ],
+     "text": "123.972,59",
+     "cents": 12397259,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K35"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A35",
+    "row": 35
+   }
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 5. Fuhrpark",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B36"
+     ],
+     "text": "91.729,92",
+     "cents": 9172992,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B36"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C36"
+     ],
+     "text": "56.561,23",
+     "cents": 5656123,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C36"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E36"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E36"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F36"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F36"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G36"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G36"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H36"
+     ],
+     "text": "24.318,56",
+     "cents": 2431856,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H36"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J36"
+     ],
+     "text": "277.516,63",
+     "cents": 27751663,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J36"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K36"
+     ],
+     "text": "123.972,59",
+     "cents": 12397259,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K36"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A36",
+    "row": 36
+   }
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0400    Betriebsausstattung",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0400    Betriebsausstattung",
+    "acq_date": null,
+    "method": null,
+    "position": "0400    Betriebsausstattung"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B39"
+     ],
+     "text": "49.678,40",
+     "cents": 4967840,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B39"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C39"
+     ],
+     "text": "11.987,00",
+     "cents": 1198700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C39"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E39"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F39"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G39"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H39"
+     ],
+     "text": "10.772,19",
+     "cents": 1077219,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H39"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J39"
+     ],
+     "text": "44.209,18",
+     "cents": 4420918,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J39"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K39"
+     ],
+     "text": "50.893,21",
+     "cents": 5089321,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K39"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A39",
+    "row": 39
+   }
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Betriebsausstattung",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B40"
+     ],
+     "text": "49.678,40",
+     "cents": 4967840,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B40"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C40"
+     ],
+     "text": "11.987,00",
+     "cents": 1198700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C40"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E40"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E40"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F40"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F40"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G40"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G40"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H40"
+     ],
+     "text": "10.772,19",
+     "cents": 1077219,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H40"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J40"
+     ],
+     "text": "44.209,18",
+     "cents": 4420918,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J40"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K40"
+     ],
+     "text": "50.893,21",
+     "cents": 5089321,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K40"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A40",
+    "row": 40
+   }
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 6. Werkstatt und Lager",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B41"
+     ],
+     "text": "49.678,40",
+     "cents": 4967840,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B41"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C41"
+     ],
+     "text": "11.987,00",
+     "cents": 1198700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C41"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E41"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E41"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F41"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F41"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G41"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G41"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H41"
+     ],
+     "text": "10.772,19",
+     "cents": 1077219,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H41"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J41"
+     ],
+     "text": "44.209,18",
+     "cents": 4420918,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J41"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K41"
+     ],
+     "text": "50.893,21",
+     "cents": 5089321,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K41"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A41",
+    "row": 41
+   }
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0420    Büroeinrichtung",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0420    Büroeinrichtung",
+    "acq_date": null,
+    "method": null,
+    "position": "0420    Büroeinrichtung"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B44"
+     ],
+     "text": "10.668,16",
+     "cents": 1066816,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B44"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C44"
+     ],
+     "text": "6.293,40",
+     "cents": 629340,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C44"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E44"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F44"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G44"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H44"
+     ],
+     "text": "2.390,68",
+     "cents": 239068,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H44"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J44"
+     ],
+     "text": "17.860,34",
+     "cents": 1786034,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J44"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K44"
+     ],
+     "text": "14.570,88",
+     "cents": 1457088,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K44"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A44",
+    "row": 44
+   }
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Büroeinrichtung",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B45"
+     ],
+     "text": "10.668,16",
+     "cents": 1066816,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B45"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C45"
+     ],
+     "text": "6.293,40",
+     "cents": 629340,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C45"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E45"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E45"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F45"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F45"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G45"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G45"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H45"
+     ],
+     "text": "2.390,68",
+     "cents": 239068,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H45"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J45"
+     ],
+     "text": "17.860,34",
+     "cents": 1786034,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J45"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K45"
+     ],
+     "text": "14.570,88",
+     "cents": 1457088,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K45"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A45",
+    "row": 45
+   }
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0490    EDV-Hardware",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0490    EDV-Hardware",
+    "acq_date": null,
+    "method": null,
+    "position": "0490    EDV-Hardware"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B47"
+     ],
+     "text": "24.898,80",
+     "cents": 2489880,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B47"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C47"
+     ],
+     "text": "25.793,66",
+     "cents": 2579366,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C47"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E47"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F47"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G47"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H47"
+     ],
+     "text": "14.125,98",
+     "cents": 1412598,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H47"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J47"
+     ],
+     "text": "85.650,78",
+     "cents": 8565078,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J47"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K47"
+     ],
+     "text": "36.566,48",
+     "cents": 3656648,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K47"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A47",
+    "row": 47
+   }
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe EDV-Hardware",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B48"
+     ],
+     "text": "24.898,80",
+     "cents": 2489880,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B48"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C48"
+     ],
+     "text": "25.793,66",
+     "cents": 2579366,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C48"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E48"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F48"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G48"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H48"
+     ],
+     "text": "14.125,98",
+     "cents": 1412598,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H48"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J48"
+     ],
+     "text": "85.650,78",
+     "cents": 8565078,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J48"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K48"
+     ],
+     "text": "36.566,48",
+     "cents": 3656648,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K48"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A48",
+    "row": 48
+   }
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 7. Büro und Verwaltung",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B49"
+     ],
+     "text": "35.566,96",
+     "cents": 3556696,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B49"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C49"
+     ],
+     "text": "32.087,06",
+     "cents": 3208706,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C49"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E49"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E49"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F49"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F49"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G49"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G49"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H49"
+     ],
+     "text": "16.516,66",
+     "cents": 1651666,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H49"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J49"
+     ],
+     "text": "103.511,12",
+     "cents": 10351112,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J49"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K49"
+     ],
+     "text": "51.137,36",
+     "cents": 5113736,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K49"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A49",
+    "row": 49
+   }
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0480    Geringwertige Wirtschaftsgüter",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0480    Geringwertige Wirtschaftsgüter",
+    "acq_date": null,
+    "method": null,
+    "position": "0480    Geringwertige Wirtschaftsgüter"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B52"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C52"
+     ],
+     "text": "1.297,00",
+     "cents": 129700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C52"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E52"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F52"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G52"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H52"
+     ],
+     "text": "1.297,00",
+     "cents": 129700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H52"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J52"
+     ],
+     "text": "2.554,18",
+     "cents": 255418,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J52"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K52"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A52",
+    "row": 52
+   }
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe GWG",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B53"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C53"
+     ],
+     "text": "1.297,00",
+     "cents": 129700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C53"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E53"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F53"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G53"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H53"
+     ],
+     "text": "1.297,00",
+     "cents": 129700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H53"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J53"
+     ],
+     "text": "2.554,18",
+     "cents": 255418,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J53"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K53"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A53",
+    "row": 53
+   }
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B54"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C54"
+     ],
+     "text": "1.297,00",
+     "cents": 129700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C54"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E54"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F54"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G54"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H54"
+     ],
+     "text": "1.297,00",
+     "cents": 129700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H54"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J54"
+     ],
+     "text": "2.554,18",
+     "cents": 255418,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J54"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K54"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A54",
+    "row": 54
+   }
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0120    Anlagen im Bau",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "0120    Anlagen im Bau",
+    "acq_date": null,
+    "method": null,
+    "position": "0120    Anlagen im Bau"
+   },
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B57"
+     ],
+     "text": "294.208,37",
+     "cents": 29420837,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B57"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C57"
+     ],
+     "text": "162.339,87",
+     "cents": 16233987,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C57"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E57"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F57"
+     ],
+     "text": "-456.548,24",
+     "cents": -45654824,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F57"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G57"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H57"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J57"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K57"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A57",
+    "row": 57
+   }
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagen im Bau",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B58"
+     ],
+     "text": "294.208,37",
+     "cents": 29420837,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B58"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C58"
+     ],
+     "text": "162.339,87",
+     "cents": 16233987,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C58"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E58"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F58"
+     ],
+     "text": "-456.548,24",
+     "cents": -45654824,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F58"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G58"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H58"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J58"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K58"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A58",
+    "row": 58
+   }
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 9. Anlagen im Bau",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Netto-Anlagespiegel:2": {
+     "column": "Netto-Anlagespiegel:2",
+     "tokens": [
+      "Netto-Anlagespiegel!B59"
+     ],
+     "text": "294.208,37",
+     "cents": 29420837,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B59"
+    },
+    "Netto-Anlagespiegel:3": {
+     "column": "Netto-Anlagespiegel:3",
+     "tokens": [
+      "Netto-Anlagespiegel!C59"
+     ],
+     "text": "162.339,87",
+     "cents": 16233987,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C59"
+    },
+    "Netto-Anlagespiegel:5": {
+     "column": "Netto-Anlagespiegel:5",
+     "tokens": [
+      "Netto-Anlagespiegel!E59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E59"
+    },
+    "Netto-Anlagespiegel:6": {
+     "column": "Netto-Anlagespiegel:6",
+     "tokens": [
+      "Netto-Anlagespiegel!F59"
+     ],
+     "text": "-456.548,24",
+     "cents": -45654824,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F59"
+    },
+    "Netto-Anlagespiegel:7": {
+     "column": "Netto-Anlagespiegel:7",
+     "tokens": [
+      "Netto-Anlagespiegel!G59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G59"
+    },
+    "Netto-Anlagespiegel:8": {
+     "column": "Netto-Anlagespiegel:8",
+     "tokens": [
+      "Netto-Anlagespiegel!H59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H59"
+    },
+    "Netto-Anlagespiegel:10": {
+     "column": "Netto-Anlagespiegel:10",
+     "tokens": [
+      "Netto-Anlagespiegel!J59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J59"
+    },
+    "Netto-Anlagespiegel:11": {
+     "column": "Netto-Anlagespiegel:11",
+     "tokens": [
+      "Netto-Anlagespiegel!K59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K59"
+    }
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A59",
+    "row": 59
+   }
+  }
+ ]
+}

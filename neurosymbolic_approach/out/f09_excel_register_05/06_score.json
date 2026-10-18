@@ -1,0 +1,29 @@
+{
+ "values_in_key": 792,
+ "correct": 785,
+ "wrong": 0,
+ "blank": 7,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 785,
+ "kind_accuracy": 0.803,
+ "asset_id_accuracy": 1.0,
+ "details": [],
+ "detection": {
+  "planted": [
+   "transfer_breaks_cost_law"
+  ],
+  "detected": [
+   "transfer_breaks_cost_law"
+  ],
+  "hit": [
+   "transfer_breaks_cost_law"
+  ],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

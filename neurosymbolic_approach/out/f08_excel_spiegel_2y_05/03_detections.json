@@ -1,0 +1,106 @@
+{
+ "doc_id": "f08_excel_spiegel_2y_05",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "multi_year",
+   "evidence": "sections for 2024, 2025",
+   "where": [
+    {
+     "section": "s1",
+     "period_end": "2025-12-31"
+    },
+    {
+     "section": "s2",
+     "period_end": "2024-12-31"
+    }
+   ]
+  },
+  {
+   "type": "numbers_as_text",
+   "evidence": "31 amount cell(s) hold text, not numbers",
+   "where": [
+    {
+     "cell": "Tabelle1!D10",
+     "printed": "1.635,90"
+    },
+    {
+     "cell": "Tabelle1!K10",
+     "printed": "6.951,66"
+    },
+    {
+     "cell": "Tabelle1!D11",
+     "printed": "1.635,90"
+    },
+    {
+     "cell": "Tabelle1!E11",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Tabelle1!F11",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Tabelle1!K11",
+     "printed": "6.951,66"
+    },
+    {
+     "cell": "Tabelle1!L11",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Tabelle1!D16",
+     "printed": "267.989,00"
+    },
+    {
+     "cell": "Tabelle1!E16",
+     "printed": "23.538,00"
+    },
+    {
+     "cell": "Tabelle1!F16",
+     "printed": "179.864,05"
+    },
+    {
+     "cell": "Tabelle1!K16",
+     "printed": "23.405,57"
+    },
+    {
+     "cell": "Tabelle1!L16",
+     "printed": "18.879,44"
+    },
+    {
+     "cell": "Tabelle1!D17",
+     "printed": "1.900,18"
+    },
+    {
+     "cell": "Tabelle1!K17",
+     "printed": "14.600,40"
+    },
+    {
+     "cell": "Tabelle1!D18",
+     "printed": "201.133,80"
+    },
+    {
+     "cell": "Tabelle1!F18",
+     "printed": "-179.864,05"
+    },
+    {
+     "cell": "Tabelle1!D19",
+     "printed": "471.022,98"
+    },
+    {
+     "cell": "Tabelle1!E19",
+     "printed": "23.538,00"
+    },
+    {
+     "cell": "Tabelle1!F19",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Tabelle1!K19",
+     "printed": "38.005,97"
+    }
+   ]
+  }
+ ]
+}

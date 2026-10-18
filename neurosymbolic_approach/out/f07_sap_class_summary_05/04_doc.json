@@ -1,0 +1,4477 @@
+{
+ "meta": {
+  "doc_id": "f07_sap_class_summary_05",
+  "source": "../A3-Hackathon-Corpus/f07_sap_class_summary/f07_sap_class_summary_05.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2024-12-31",
+    "unit": "EUR",
+    "pages": [
+     2,
+     3
+    ],
+    "sheet": null
+   },
+   {
+    "id": "s2",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [
+     5,
+     6
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "problem"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2101200",
+   "sub_no": "",
+   "name": "EDV-Software 1000",
+   "acq_date": null,
+   "method": null,
+   "label": "2101200 EDV-Software 1000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 21936103,
+    "bew_ahk": 0,
+    "kum_afa_open": 14377315,
+    "afa_gj": 2268009,
+    "bew_wb": 0,
+    "bw_close": 5290779,
+    "bw_prev": 7558788
+   },
+   "printed": {
+    "ahk_open": "219.361,03",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "143.773,15-",
+    "afa_gj": "22.680,09-",
+    "bew_wb": "0,00",
+    "bw_close": "52.907,79",
+    "bw_prev": "75.587,88"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     64.39,
+     753.94,
+     72.69
+    ],
+    "frame_band": [
+     64.39,
+     72.69
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       64.39,
+       274.02,
+       72.69
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       64.39,
+       350.02,
+       72.69
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       64.39,
+       431.0,
+       72.69
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       64.39,
+       507.0,
+       72.69
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       64.39,
+       578.02,
+       72.69
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       609.2,
+       64.39,
+       654.02,
+       72.69
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       685.2,
+       64.39,
+       730.02,
+       72.69
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2101200 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 21936103,
+    "bew_ahk": 0,
+    "kum_afa_open": 14377315,
+    "afa_gj": 2268009,
+    "bew_wb": 0,
+    "bw_close": 5290779,
+    "bw_prev": 7558788
+   },
+   "printed": {
+    "ahk_open": "219.361,03",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "143.773,15-",
+    "afa_gj": "22.680,09-",
+    "bew_wb": "0,00",
+    "bw_close": "52.907,79",
+    "bw_prev": "75.587,88"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     80.18,
+     753.94,
+     88.48
+    ],
+    "frame_band": [
+     80.18,
+     88.48
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       80.18,
+       274.02,
+       88.48
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       80.18,
+       350.02,
+       88.48
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       80.18,
+       431.0,
+       88.48
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       80.18,
+       507.0,
+       88.48
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       80.18,
+       578.02,
+       88.48
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       609.2,
+       80.18,
+       654.02,
+       88.48
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       685.2,
+       80.18,
+       730.02,
+       88.48
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102100",
+   "sub_no": "",
+   "name": "Grund und Boden 2000",
+   "acq_date": null,
+   "method": null,
+   "label": "2102100 Grund und Boden 2000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 67474007,
+    "bew_ahk": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 67474007,
+    "bw_prev": 67474007
+   },
+   "printed": {
+    "ahk_open": "674.740,07",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "674.740,07",
+    "bw_prev": "674.740,07"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     95.97,
+     753.94,
+     104.27
+    ],
+    "frame_band": [
+     95.97,
+     104.27
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       95.97,
+       274.02,
+       104.27
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       95.97,
+       350.02,
+       104.27
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       406.1,
+       95.97,
+       426.02,
+       104.27
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       482.1,
+       95.97,
+       502.02,
+       104.27
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       95.97,
+       578.02,
+       104.27
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       604.22,
+       95.97,
+       654.02,
+       104.27
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       680.22,
+       95.97,
+       730.02,
+       104.27
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102100",
+   "sub_no": "",
+   "name": "Fabrikbauten 2100",
+   "acq_date": null,
+   "method": null,
+   "label": "2102100 Fabrikbauten 2100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 309574413,
+    "bew_ahk": 0,
+    "kum_afa_open": 86859594,
+    "afa_gj": 9185059,
+    "bew_wb": 0,
+    "bw_close": 213529760,
+    "bw_prev": 222714819
+   },
+   "printed": {
+    "ahk_open": "3.095.744,13",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "868.595,94-",
+    "afa_gj": "91.850,59-",
+    "bew_wb": "0,00",
+    "bw_close": "2.135.297,60",
+    "bw_prev": "2.227.148,19"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     106.76,
+     753.94,
+     115.06
+    ],
+    "frame_band": [
+     106.76,
+     115.06
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       214.26,
+       106.76,
+       274.02,
+       115.06
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       106.76,
+       350.02,
+       115.06
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       106.76,
+       431.0,
+       115.06
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       106.76,
+       507.0,
+       115.06
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       106.76,
+       578.02,
+       115.06
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       594.26,
+       106.76,
+       654.02,
+       115.06
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       670.26,
+       106.76,
+       730.02,
+       115.06
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2102100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 377048420,
+    "bew_ahk": 0,
+    "kum_afa_open": 86859594,
+    "afa_gj": 9185059,
+    "bew_wb": 0,
+    "bw_close": 281003767,
+    "bw_prev": 290188826
+   },
+   "printed": {
+    "ahk_open": "3.770.484,20",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "868.595,94-",
+    "afa_gj": "91.850,59-",
+    "bew_wb": "0,00",
+    "bw_close": "2.810.037,67",
+    "bw_prev": "2.901.888,26"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     122.55,
+     753.94,
+     130.85
+    ],
+    "frame_band": [
+     122.55,
+     130.85
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       214.26,
+       122.55,
+       274.02,
+       130.85
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       122.55,
+       350.02,
+       130.85
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       122.55,
+       431.0,
+       130.85
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       122.55,
+       507.0,
+       130.85
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       122.55,
+       578.02,
+       130.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       594.26,
+       122.55,
+       654.02,
+       130.85
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       670.26,
+       122.55,
+       730.02,
+       130.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102200",
+   "sub_no": "",
+   "name": "Maschinen 3000",
+   "acq_date": null,
+   "method": null,
+   "label": "2102200 Maschinen 3000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 16757322,
+    "bew_ahk": 0,
+    "kum_afa_open": 11332798,
+    "afa_gj": 891686,
+    "bew_wb": 0,
+    "bw_close": 4532838,
+    "bw_prev": 5424524
+   },
+   "printed": {
+    "ahk_open": "167.573,22",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "113.327,98-",
+    "afa_gj": "8.916,86-",
+    "bew_wb": "0,00",
+    "bw_close": "45.328,38",
+    "bw_prev": "54.245,24"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     138.34,
+     753.94,
+     146.64
+    ],
+    "frame_band": [
+     138.34,
+     146.64
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       138.34,
+       274.02,
+       146.64
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       138.34,
+       350.02,
+       146.64
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       138.34,
+       431.0,
+       146.64
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       462.18,
+       138.34,
+       507.0,
+       146.64
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       138.34,
+       578.02,
+       146.64
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       609.2,
+       138.34,
+       654.02,
+       146.64
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       685.2,
+       138.34,
+       730.02,
+       146.64
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102200",
+   "sub_no": "",
+   "name": "Technische Anlagen 3100",
+   "acq_date": null,
+   "method": null,
+   "label": "2102200 Technische Anlagen 3100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 39055329,
+    "bew_ahk": 0,
+    "kum_afa_open": 14390168,
+    "afa_gj": 2252543,
+    "bew_wb": 0,
+    "bw_close": 22412618,
+    "bw_prev": 24665161
+   },
+   "printed": {
+    "ahk_open": "390.553,29",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "143.901,68-",
+    "afa_gj": "22.525,43-",
+    "bew_wb": "0,00",
+    "bw_close": "224.126,18",
+    "bw_prev": "246.651,61"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     149.13,
+     753.94,
+     157.43
+    ],
+    "frame_band": [
+     149.13,
+     157.43
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       149.13,
+       274.02,
+       157.43
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       149.13,
+       350.02,
+       157.43
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       149.13,
+       431.0,
+       157.43
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       149.13,
+       507.0,
+       157.43
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       149.13,
+       578.02,
+       157.43
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       604.22,
+       149.13,
+       654.02,
+       157.43
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       680.22,
+       149.13,
+       730.02,
+       157.43
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2102200 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 55812651,
+    "bew_ahk": 0,
+    "kum_afa_open": 25722966,
+    "afa_gj": 3144229,
+    "bew_wb": 0,
+    "bw_close": 26945456,
+    "bw_prev": 30089685
+   },
+   "printed": {
+    "ahk_open": "558.126,51",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "257.229,66-",
+    "afa_gj": "31.442,29-",
+    "bew_wb": "0,00",
+    "bw_close": "269.454,56",
+    "bw_prev": "300.896,85"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     164.92,
+     753.94,
+     173.22
+    ],
+    "frame_band": [
+     164.92,
+     173.22
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       164.92,
+       274.02,
+       173.22
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       164.92,
+       350.02,
+       173.22
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       164.92,
+       431.0,
+       173.22
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       164.92,
+       507.0,
+       173.22
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       164.92,
+       578.02,
+       173.22
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       604.22,
+       164.92,
+       654.02,
+       173.22
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       680.22,
+       164.92,
+       730.02,
+       173.22
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Pkw 4200",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Pkw 4200 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 36443372,
+    "bew_ahk": 0,
+    "kum_afa_open": 22005426,
+    "afa_gj": 3704911,
+    "bew_wb": 0,
+    "bw_close": 10733035,
+    "bw_prev": 14437946
+   },
+   "printed": {
+    "ahk_open": "364.433,72",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "220.054,26-",
+    "afa_gj": "37.049,11-",
+    "bew_wb": "0,00",
+    "bw_close": "107.330,35",
+    "bw_prev": "144.379,46"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     180.71,
+     753.94,
+     189.01
+    ],
+    "frame_band": [
+     180.71,
+     189.01
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       180.71,
+       274.02,
+       189.01
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       180.71,
+       350.02,
+       189.01
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       180.71,
+       431.0,
+       189.01
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       180.71,
+       507.0,
+       189.01
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       180.71,
+       578.02,
+       189.01
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       604.22,
+       180.71,
+       654.02,
+       189.01
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       680.22,
+       180.71,
+       730.02,
+       189.01
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Lkw 4300",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Lkw 4300 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 29491757,
+    "bew_ahk": 0,
+    "kum_afa_open": 15070754,
+    "afa_gj": 2873707,
+    "bew_wb": 0,
+    "bw_close": 11547296,
+    "bw_prev": 14421003
+   },
+   "printed": {
+    "ahk_open": "294.917,57",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "150.707,54-",
+    "afa_gj": "28.737,07-",
+    "bew_wb": "0,00",
+    "bw_close": "115.472,96",
+    "bw_prev": "144.210,03"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     191.5,
+     753.94,
+     199.8
+    ],
+    "frame_band": [
+     191.5,
+     199.8
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       191.5,
+       274.02,
+       199.8
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       191.5,
+       350.02,
+       199.8
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       191.5,
+       431.0,
+       199.8
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       191.5,
+       507.0,
+       199.8
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       191.5,
+       578.02,
+       199.8
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       604.22,
+       191.5,
+       654.02,
+       199.8
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       680.22,
+       191.5,
+       730.02,
+       199.8
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Betriebsausstattung 4000",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Betriebsausstattung 4000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 12986529,
+    "bew_ahk": -1532755,
+    "kum_afa_open": 8133266,
+    "afa_gj": 1076051,
+    "bew_wb": 890056,
+    "bw_close": 3134513,
+    "bw_prev": 4853263
+   },
+   "printed": {
+    "ahk_open": "129.865,29",
+    "bew_ahk": "15.327,55-",
+    "kum_afa_open": "81.332,66-",
+    "afa_gj": "10.760,51-",
+    "bew_wb": "8.900,56",
+    "bw_close": "31.345,13",
+    "bw_prev": "48.532,63"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     202.29,
+     753.94,
+     210.59
+    ],
+    "frame_band": [
+     202.29,
+     210.59
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       202.29,
+       274.02,
+       210.59
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       305.2,
+       202.29,
+       355.0,
+       210.59
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       381.2,
+       202.29,
+       431.0,
+       210.59
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       202.29,
+       507.0,
+       210.59
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       538.18,
+       202.29,
+       578.02,
+       210.59
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       609.2,
+       202.29,
+       654.02,
+       210.59
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       685.2,
+       202.29,
+       730.02,
+       210.59
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Büroeinrichtung 4100",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Büroeinrichtung 4100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 1005670,
+    "bew_ahk": -54607,
+    "kum_afa_open": 581659,
+    "afa_gj": 64858,
+    "bew_wb": 45856,
+    "bw_close": 350402,
+    "bw_prev": 424011
+   },
+   "printed": {
+    "ahk_open": "10.056,70",
+    "bew_ahk": "546,07-",
+    "kum_afa_open": "5.816,59-",
+    "afa_gj": "648,58-",
+    "bew_wb": "458,56",
+    "bw_close": "3.504,02",
+    "bw_prev": "4.240,11"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     213.08,
+     753.94,
+     221.38
+    ],
+    "frame_band": [
+     213.08,
+     221.38
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       229.2,
+       213.08,
+       274.02,
+       221.38
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       320.14,
+       213.08,
+       355.0,
+       221.38
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       386.18,
+       213.08,
+       431.0,
+       221.38
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       472.14,
+       213.08,
+       507.0,
+       221.38
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       548.14,
+       213.08,
+       578.02,
+       221.38
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       614.18,
+       213.08,
+       654.02,
+       221.38
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       690.18,
+       213.08,
+       730.02,
+       221.38
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Geringwertige Wirtsc 4900",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 35963,
+    "bew_ahk": 101530,
+    "kum_afa_open": 35963,
+    "afa_gj": 101530,
+    "bew_wb": 0,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "359,63",
+    "bew_ahk": "1.015,30",
+    "kum_afa_open": "359,63-",
+    "afa_gj": "1.015,30-",
+    "bew_wb": "0,00",
+    "bw_close": "0,00",
+    "bw_prev": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     223.87,
+     753.94,
+     232.17
+    ],
+    "frame_band": [
+     223.87,
+     232.17
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       244.14,
+       223.87,
+       274.02,
+       232.17
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       310.18,
+       223.87,
+       350.02,
+       232.17
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       396.14,
+       223.87,
+       431.0,
+       232.17
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       462.18,
+       223.87,
+       507.0,
+       232.17
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       223.87,
+       578.02,
+       232.17
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       634.1,
+       223.87,
+       654.02,
+       232.17
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       710.1,
+       223.87,
+       730.02,
+       232.17
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "EDV-Hardware 4400",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 EDV-Hardware 4400 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 4878932,
+    "bew_ahk": -70348,
+    "kum_afa_open": 4878632,
+    "afa_gj": 29133,
+    "bew_wb": 157647,
+    "bw_close": 58466,
+    "bw_prev": 300
+   },
+   "printed": {
+    "ahk_open": "48.789,32",
+    "bew_ahk": "703,48-",
+    "kum_afa_open": "48.786,32-",
+    "afa_gj": "291,33-",
+    "bew_wb": "1.576,47",
+    "bw_close": "584,66",
+    "bw_prev": "3,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     234.66,
+     753.94,
+     242.96
+    ],
+    "frame_band": [
+     234.66,
+     242.96
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       229.2,
+       234.66,
+       274.02,
+       242.96
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       320.14,
+       234.66,
+       355.0,
+       242.96
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       381.2,
+       234.66,
+       431.0,
+       242.96
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       472.14,
+       234.66,
+       507.0,
+       242.96
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       538.18,
+       234.66,
+       578.02,
+       242.96
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       624.14,
+       234.66,
+       654.02,
+       242.96
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       710.1,
+       234.66,
+       730.02,
+       242.96
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2102300 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 84842223,
+    "bew_ahk": -1556180,
+    "kum_afa_open": 50705700,
+    "afa_gj": 7850190,
+    "bew_wb": 1093559,
+    "bw_close": 25823712,
+    "bw_prev": 34136523
+   },
+   "printed": {
+    "ahk_open": "848.422,23",
+    "bew_ahk": "15.561,80-",
+    "kum_afa_open": "507.057,00-",
+    "afa_gj": "78.501,90-",
+    "bew_wb": "10.935,59",
+    "bw_close": "258.237,12",
+    "bw_prev": "341.365,23"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     250.45,
+     753.94,
+     258.75
+    ],
+    "frame_band": [
+     250.45,
+     258.75
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       250.45,
+       274.02,
+       258.75
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       305.2,
+       250.45,
+       355.0,
+       258.75
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       376.22,
+       250.45,
+       431.0,
+       258.75
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       457.2,
+       250.45,
+       507.0,
+       258.75
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       533.2,
+       250.45,
+       578.02,
+       258.75
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       604.22,
+       250.45,
+       654.02,
+       258.75
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       680.22,
+       250.45,
+       730.02,
+       258.75
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102400",
+   "sub_no": "",
+   "name": "Anlagen im Bau 5000",
+   "acq_date": null,
+   "method": null,
+   "label": "2102400 Anlagen im Bau 5000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 0,
+    "bew_ahk": 3455700,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 3455700,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "0,00",
+    "bew_ahk": "34.557,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "34.557,00",
+    "bw_prev": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     266.24,
+     753.94,
+     274.54
+    ],
+    "frame_band": [
+     266.24,
+     274.54
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.1,
+       266.24,
+       274.02,
+       274.54
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       305.2,
+       266.24,
+       350.02,
+       274.54
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       406.1,
+       266.24,
+       426.02,
+       274.54
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       482.1,
+       266.24,
+       502.02,
+       274.54
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       266.24,
+       578.02,
+       274.54
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       609.2,
+       266.24,
+       654.02,
+       274.54
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       710.1,
+       266.24,
+       730.02,
+       274.54
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2102400",
+   "sub_no": "",
+   "name": "Anzahlungen auf Anla 5100",
+   "acq_date": null,
+   "method": null,
+   "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 0,
+    "bew_ahk": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "0,00",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "0,00",
+    "bw_prev": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     277.03,
+     753.94,
+     285.33
+    ],
+    "frame_band": [
+     277.03,
+     285.33
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.1,
+       277.03,
+       274.02,
+       285.33
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       277.03,
+       350.02,
+       285.33
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       406.1,
+       277.03,
+       426.02,
+       285.33
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       482.1,
+       277.03,
+       502.02,
+       285.33
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       277.03,
+       578.02,
+       285.33
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       634.1,
+       277.03,
+       654.02,
+       285.33
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       710.1,
+       277.03,
+       730.02,
+       285.33
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2102400 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 0,
+    "bew_ahk": 3455700,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 3455700,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "0,00",
+    "bew_ahk": "34.557,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "34.557,00",
+    "bw_prev": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     292.82,
+     753.94,
+     301.12
+    ],
+    "frame_band": [
+     292.82,
+     301.12
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.1,
+       292.82,
+       274.02,
+       301.12
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       305.2,
+       292.82,
+       350.02,
+       301.12
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       406.1,
+       292.82,
+       426.02,
+       301.12
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       482.1,
+       292.82,
+       502.02,
+       301.12
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       292.82,
+       578.02,
+       301.12
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       609.2,
+       292.82,
+       654.02,
+       301.12
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       710.1,
+       292.82,
+       730.02,
+       301.12
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2103300",
+   "sub_no": "",
+   "name": "Beteiligungen 6000",
+   "acq_date": null,
+   "method": null,
+   "label": "2103300 Beteiligungen 6000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 21521732,
+    "bew_ahk": 0,
+    "kum_afa_open": 135240,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 21386492,
+    "bw_prev": 21386492
+   },
+   "printed": {
+    "ahk_open": "215.217,32",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "1.352,40-",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "213.864,92",
+    "bw_prev": "213.864,92"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     26.0,
+     308.61,
+     753.94,
+     316.91
+    ],
+    "frame_band": [
+     308.61,
+     316.91
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       224.22,
+       308.61,
+       274.02,
+       316.91
+      ]
+     },
+     "bew_ahk": {
+      "page": 2,
+      "bbox": [
+       330.1,
+       308.61,
+       350.02,
+       316.91
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       386.18,
+       308.61,
+       431.0,
+       316.91
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       482.1,
+       308.61,
+       502.02,
+       316.91
+      ]
+     },
+     "bew_wb": {
+      "page": 2,
+      "bbox": [
+       558.1,
+       308.61,
+       578.02,
+       316.91
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       604.22,
+       308.61,
+       654.02,
+       316.91
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       680.22,
+       308.61,
+       730.02,
+       316.91
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2103300 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 21521732,
+    "bew_ahk": 0,
+    "kum_afa_open": 135240,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 21386492,
+    "bw_prev": 21386492
+   },
+   "printed": {
+    "ahk_open": "215.217,32",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "1.352,40-",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "213.864,92",
+    "bw_prev": "213.864,92"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     26.0,
+     64.39,
+     753.94,
+     72.69
+    ],
+    "frame_band": [
+     64.39,
+     72.69
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       224.22,
+       64.39,
+       274.02,
+       72.69
+      ]
+     },
+     "bew_ahk": {
+      "page": 3,
+      "bbox": [
+       330.1,
+       64.39,
+       350.02,
+       72.69
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       386.18,
+       64.39,
+       431.0,
+       72.69
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       482.1,
+       64.39,
+       502.02,
+       72.69
+      ]
+     },
+     "bew_wb": {
+      "page": 3,
+      "bbox": [
+       558.1,
+       64.39,
+       578.02,
+       72.69
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       604.22,
+       64.39,
+       654.02,
+       72.69
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       680.22,
+       64.39,
+       730.02,
+       72.69
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2101200",
+   "sub_no": "",
+   "name": "EDV-Software 1000",
+   "acq_date": null,
+   "method": null,
+   "label": "2101200 EDV-Software 1000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 21936103,
+    "bew_ahk": -10793514,
+    "kum_afa_open": 16645324,
+    "afa_gj": 1210461,
+    "bew_wb": 7112080,
+    "bw_close": 398884,
+    "bw_prev": 5290779
+   },
+   "printed": {
+    "ahk_open": "219.361,03",
+    "bew_ahk": "107.935,14-",
+    "kum_afa_open": "166.453,24-",
+    "afa_gj": "12.104,61-",
+    "bew_wb": "71.120,80",
+    "bw_close": "3.988,84",
+    "bw_prev": "52.907,79"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     64.39,
+     753.94,
+     72.69
+    ],
+    "frame_band": [
+     64.39,
+     72.69
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       64.39,
+       274.02,
+       72.69
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       300.22,
+       64.39,
+       355.0,
+       72.69
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       64.39,
+       431.0,
+       72.69
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       64.39,
+       507.0,
+       72.69
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       533.2,
+       64.39,
+       578.02,
+       72.69
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       614.18,
+       64.39,
+       654.02,
+       72.69
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       685.2,
+       64.39,
+       730.02,
+       72.69
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2101200 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 21936103,
+    "bew_ahk": -10793514,
+    "kum_afa_open": 16645324,
+    "afa_gj": 1210461,
+    "bew_wb": 7112080,
+    "bw_close": 398884,
+    "bw_prev": 5290779
+   },
+   "printed": {
+    "ahk_open": "219.361,03",
+    "bew_ahk": "107.935,14-",
+    "kum_afa_open": "166.453,24-",
+    "afa_gj": "12.104,61-",
+    "bew_wb": "71.120,80",
+    "bw_close": "3.988,84",
+    "bw_prev": "52.907,79"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     80.18,
+     753.94,
+     88.48
+    ],
+    "frame_band": [
+     80.18,
+     88.48
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       80.18,
+       274.02,
+       88.48
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       300.22,
+       80.18,
+       355.0,
+       88.48
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       80.18,
+       431.0,
+       88.48
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       80.18,
+       507.0,
+       88.48
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       533.2,
+       80.18,
+       578.02,
+       88.48
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       614.18,
+       80.18,
+       654.02,
+       88.48
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       685.2,
+       80.18,
+       730.02,
+       88.48
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102100",
+   "sub_no": "",
+   "name": "Grund und Boden 2000",
+   "acq_date": null,
+   "method": null,
+   "label": "2102100 Grund und Boden 2000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 67474007,
+    "bew_ahk": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 67474007,
+    "bw_prev": 67474007
+   },
+   "printed": {
+    "ahk_open": "674.740,07",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "674.740,07",
+    "bw_prev": "674.740,07"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     95.97,
+     753.94,
+     104.27
+    ],
+    "frame_band": [
+     95.97,
+     104.27
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       95.97,
+       274.02,
+       104.27
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       330.1,
+       95.97,
+       350.02,
+       104.27
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       406.1,
+       95.97,
+       426.02,
+       104.27
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       482.1,
+       95.97,
+       502.02,
+       104.27
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       95.97,
+       578.02,
+       104.27
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       604.22,
+       95.97,
+       654.02,
+       104.27
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       680.22,
+       95.97,
+       730.02,
+       104.27
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102100",
+   "sub_no": "",
+   "name": "Fabrikbauten 2100",
+   "acq_date": null,
+   "method": null,
+   "label": "2102100 Fabrikbauten 2100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 309574413,
+    "bew_ahk": 0,
+    "kum_afa_open": 96044653,
+    "afa_gj": 8793392,
+    "bew_wb": 0,
+    "bw_close": 204736368,
+    "bw_prev": 213529760
+   },
+   "printed": {
+    "ahk_open": "3.095.744,13",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "960.446,53-",
+    "afa_gj": "87.933,92-",
+    "bew_wb": "0,00",
+    "bw_close": "2.047.363,68",
+    "bw_prev": "2.135.297,60"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     106.76,
+     753.94,
+     115.06
+    ],
+    "frame_band": [
+     106.76,
+     115.06
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       214.26,
+       106.76,
+       274.02,
+       115.06
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       330.1,
+       106.76,
+       350.02,
+       115.06
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       106.76,
+       431.0,
+       115.06
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       106.76,
+       507.0,
+       115.06
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       106.76,
+       578.02,
+       115.06
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       594.26,
+       106.76,
+       654.02,
+       115.06
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       670.26,
+       106.76,
+       730.02,
+       115.06
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2102100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 377048420,
+    "bew_ahk": 0,
+    "kum_afa_open": 96044653,
+    "afa_gj": 8793392,
+    "bew_wb": 0,
+    "bw_close": 272210375,
+    "bw_prev": 281003767
+   },
+   "printed": {
+    "ahk_open": "3.770.484,20",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "960.446,53-",
+    "afa_gj": "87.933,92-",
+    "bew_wb": "0,00",
+    "bw_close": "2.722.103,75",
+    "bw_prev": "2.810.037,67"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     122.55,
+     753.94,
+     130.85
+    ],
+    "frame_band": [
+     122.55,
+     130.85
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       214.26,
+       122.55,
+       274.02,
+       130.85
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       330.1,
+       122.55,
+       350.02,
+       130.85
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       122.55,
+       431.0,
+       130.85
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       122.55,
+       507.0,
+       130.85
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       122.55,
+       578.02,
+       130.85
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       594.26,
+       122.55,
+       654.02,
+       130.85
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       670.26,
+       122.55,
+       730.02,
+       130.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102200",
+   "sub_no": "",
+   "name": "Maschinen 3000",
+   "acq_date": null,
+   "method": null,
+   "label": "2102200 Maschinen 3000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 16757322,
+    "bew_ahk": 8912754,
+    "kum_afa_open": 12224484,
+    "afa_gj": 1534513,
+    "bew_wb": 0,
+    "bw_close": 11911079,
+    "bw_prev": 4532838
+   },
+   "printed": {
+    "ahk_open": "167.573,22",
+    "bew_ahk": "89.127,54",
+    "kum_afa_open": "122.244,84-",
+    "afa_gj": "15.345,13-",
+    "bew_wb": "0,00",
+    "bw_close": "119.110,79",
+    "bw_prev": "45.328,38"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     138.34,
+     753.94,
+     146.64
+    ],
+    "frame_band": [
+     138.34,
+     146.64
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       138.34,
+       274.02,
+       146.64
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       305.2,
+       138.34,
+       350.02,
+       146.64
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       138.34,
+       431.0,
+       146.64
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       138.34,
+       507.0,
+       146.64
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       138.34,
+       578.02,
+       146.64
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       604.22,
+       138.34,
+       654.02,
+       146.64
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       685.2,
+       138.34,
+       730.02,
+       146.64
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102200",
+   "sub_no": "",
+   "name": "Technische Anlagen 3100",
+   "acq_date": null,
+   "method": null,
+   "label": "2102200 Technische Anlagen 3100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 39055329,
+    "bew_ahk": 22315162,
+    "kum_afa_open": 16642711,
+    "afa_gj": 3847144,
+    "bew_wb": 3614065,
+    "bw_close": 44494701,
+    "bw_prev": 22412618
+   },
+   "printed": {
+    "ahk_open": "390.553,29",
+    "bew_ahk": "223.151,62",
+    "kum_afa_open": "166.427,11-",
+    "afa_gj": "38.471,44-",
+    "bew_wb": "36.140,65",
+    "bw_close": "444.947,01",
+    "bw_prev": "224.126,18"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     149.13,
+     753.94,
+     157.43
+    ],
+    "frame_band": [
+     149.13,
+     157.43
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       149.13,
+       274.02,
+       157.43
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       300.22,
+       149.13,
+       350.02,
+       157.43
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       149.13,
+       431.0,
+       157.43
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       149.13,
+       507.0,
+       157.43
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       533.2,
+       149.13,
+       578.02,
+       157.43
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       604.22,
+       149.13,
+       654.02,
+       157.43
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       680.22,
+       149.13,
+       730.02,
+       157.43
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2102200 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 55812651,
+    "bew_ahk": 31227916,
+    "kum_afa_open": 28867195,
+    "afa_gj": 5381657,
+    "bew_wb": 3614065,
+    "bw_close": 56405780,
+    "bw_prev": 26945456
+   },
+   "printed": {
+    "ahk_open": "558.126,51",
+    "bew_ahk": "312.279,16",
+    "kum_afa_open": "288.671,95-",
+    "afa_gj": "53.816,57-",
+    "bew_wb": "36.140,65",
+    "bw_close": "564.057,80",
+    "bw_prev": "269.454,56"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     164.92,
+     753.94,
+     173.22
+    ],
+    "frame_band": [
+     164.92,
+     173.22
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       164.92,
+       274.02,
+       173.22
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       300.22,
+       164.92,
+       350.02,
+       173.22
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       164.92,
+       431.0,
+       173.22
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       164.92,
+       507.0,
+       173.22
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       533.2,
+       164.92,
+       578.02,
+       173.22
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       604.22,
+       164.92,
+       654.02,
+       173.22
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       680.22,
+       164.92,
+       730.02,
+       173.22
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Pkw 4200",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Pkw 4200 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 36443372,
+    "bew_ahk": 1356210,
+    "kum_afa_open": 25710337,
+    "afa_gj": 3415857,
+    "bew_wb": 0,
+    "bw_close": 8673388,
+    "bw_prev": 10733035
+   },
+   "printed": {
+    "ahk_open": "364.433,72",
+    "bew_ahk": "13.562,10",
+    "kum_afa_open": "257.103,37-",
+    "afa_gj": "34.158,57-",
+    "bew_wb": "0,00",
+    "bw_close": "86.733,88",
+    "bw_prev": "107.330,35"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     180.71,
+     753.94,
+     189.01
+    ],
+    "frame_band": [
+     180.71,
+     189.01
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       180.71,
+       274.02,
+       189.01
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       305.2,
+       180.71,
+       350.02,
+       189.01
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       180.71,
+       431.0,
+       189.01
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       180.71,
+       507.0,
+       189.01
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       180.71,
+       578.02,
+       189.01
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       609.2,
+       180.71,
+       654.02,
+       189.01
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       680.22,
+       180.71,
+       730.02,
+       189.01
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Lkw 4300",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Lkw 4300 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 29491757,
+    "bew_ahk": 0,
+    "kum_afa_open": 17944461,
+    "afa_gj": 2113242,
+    "bew_wb": 0,
+    "bw_close": 9434054,
+    "bw_prev": 11547296
+   },
+   "printed": {
+    "ahk_open": "294.917,57",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "179.444,61-",
+    "afa_gj": "21.132,42-",
+    "bew_wb": "0,00",
+    "bw_close": "94.340,54",
+    "bw_prev": "115.472,96"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     191.5,
+     753.94,
+     199.8
+    ],
+    "frame_band": [
+     191.5,
+     199.8
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       191.5,
+       274.02,
+       199.8
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       330.1,
+       191.5,
+       350.02,
+       199.8
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       191.5,
+       431.0,
+       199.8
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       191.5,
+       507.0,
+       199.8
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       191.5,
+       578.02,
+       199.8
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       609.2,
+       191.5,
+       654.02,
+       199.8
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       680.22,
+       191.5,
+       730.02,
+       199.8
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Betriebsausstattung 4000",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Betriebsausstattung 4000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 11453774,
+    "bew_ahk": 24601,
+    "kum_afa_open": 8319261,
+    "afa_gj": 925989,
+    "bew_wb": 0,
+    "bw_close": 2233125,
+    "bw_prev": 3134513
+   },
+   "printed": {
+    "ahk_open": "114.537,74",
+    "bew_ahk": "246,01",
+    "kum_afa_open": "83.192,61-",
+    "afa_gj": "9.259,89-",
+    "bew_wb": "0,00",
+    "bw_close": "22.331,25",
+    "bw_prev": "31.345,13"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     202.29,
+     753.94,
+     210.59
+    ],
+    "frame_band": [
+     202.29,
+     210.59
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       202.29,
+       274.02,
+       210.59
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       320.14,
+       202.29,
+       350.02,
+       210.59
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       381.2,
+       202.29,
+       431.0,
+       210.59
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       462.18,
+       202.29,
+       507.0,
+       210.59
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       202.29,
+       578.02,
+       210.59
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       609.2,
+       202.29,
+       654.02,
+       210.59
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       685.2,
+       202.29,
+       730.02,
+       210.59
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Büroeinrichtung 4100",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Büroeinrichtung 4100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 951063,
+    "bew_ahk": -360392,
+    "kum_afa_open": 600661,
+    "afa_gj": 62555,
+    "bew_wb": 334057,
+    "bw_close": 261512,
+    "bw_prev": 350402
+   },
+   "printed": {
+    "ahk_open": "9.510,63",
+    "bew_ahk": "3.603,92-",
+    "kum_afa_open": "6.006,61-",
+    "afa_gj": "625,55-",
+    "bew_wb": "3.340,57",
+    "bw_close": "2.615,12",
+    "bw_prev": "3.504,02"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     213.08,
+     753.94,
+     221.38
+    ],
+    "frame_band": [
+     213.08,
+     221.38
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       234.18,
+       213.08,
+       274.02,
+       221.38
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       310.18,
+       213.08,
+       355.0,
+       221.38
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       386.18,
+       213.08,
+       431.0,
+       221.38
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       472.14,
+       213.08,
+       507.0,
+       221.38
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       538.18,
+       213.08,
+       578.02,
+       221.38
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       614.18,
+       213.08,
+       654.02,
+       221.38
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       690.18,
+       213.08,
+       730.02,
+       221.38
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "Geringwertige Wirtsc 4900",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 137493,
+    "bew_ahk": -17425,
+    "kum_afa_open": 137493,
+    "afa_gj": 52475,
+    "bew_wb": 69900,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "1.374,93",
+    "bew_ahk": "174,25-",
+    "kum_afa_open": "1.374,93-",
+    "afa_gj": "524,75-",
+    "bew_wb": "699,00",
+    "bw_close": "0,00",
+    "bw_prev": "0,00"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     223.87,
+     753.94,
+     232.17
+    ],
+    "frame_band": [
+     223.87,
+     232.17
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       234.18,
+       223.87,
+       274.02,
+       232.17
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       320.14,
+       223.87,
+       355.0,
+       232.17
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       386.18,
+       223.87,
+       431.0,
+       232.17
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       472.14,
+       223.87,
+       507.0,
+       232.17
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       548.14,
+       223.87,
+       578.02,
+       232.17
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       634.1,
+       223.87,
+       654.02,
+       232.17
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       710.1,
+       223.87,
+       730.02,
+       232.17
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r34",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102300",
+   "sub_no": "",
+   "name": "EDV-Hardware 4400",
+   "acq_date": null,
+   "method": null,
+   "label": "2102300 EDV-Hardware 4400 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 4808584,
+    "bew_ahk": -965400,
+    "kum_afa_open": 4750118,
+    "afa_gj": 29133,
+    "bew_wb": 965300,
+    "bw_close": 29233,
+    "bw_prev": 58466
+   },
+   "printed": {
+    "ahk_open": "48.085,84",
+    "bew_ahk": "9.654,00-",
+    "kum_afa_open": "47.501,18-",
+    "afa_gj": "291,33-",
+    "bew_wb": "9.653,00",
+    "bw_close": "292,33",
+    "bw_prev": "584,66"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     234.66,
+     753.94,
+     242.96
+    ],
+    "frame_band": [
+     234.66,
+     242.96
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       229.2,
+       234.66,
+       274.02,
+       242.96
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       310.18,
+       234.66,
+       355.0,
+       242.96
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       381.2,
+       234.66,
+       431.0,
+       242.96
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       472.14,
+       234.66,
+       507.0,
+       242.96
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       538.18,
+       234.66,
+       578.02,
+       242.96
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       624.14,
+       234.66,
+       654.02,
+       242.96
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       700.14,
+       234.66,
+       730.02,
+       242.96
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r35",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2102300 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 83286043,
+    "bew_ahk": 37594,
+    "kum_afa_open": 57462331,
+    "afa_gj": 6599251,
+    "bew_wb": 1369257,
+    "bw_close": 20631312,
+    "bw_prev": 25832712
+   },
+   "printed": {
+    "ahk_open": "832.860,43",
+    "bew_ahk": "375,94",
+    "kum_afa_open": "574.623,31-",
+    "afa_gj": "65.992,51-",
+    "bew_wb": "13.692,57",
+    "bw_close": "206.313,12",
+    "bw_prev": "258.327,12"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     250.45,
+     753.94,
+     258.75
+    ],
+    "frame_band": [
+     250.45,
+     258.75
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       250.45,
+       274.02,
+       258.75
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       320.14,
+       250.45,
+       350.02,
+       258.75
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       376.22,
+       250.45,
+       431.0,
+       258.75
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       457.2,
+       250.45,
+       507.0,
+       258.75
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       533.2,
+       250.45,
+       578.02,
+       258.75
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       604.22,
+       250.45,
+       654.02,
+       258.75
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       680.22,
+       250.45,
+       730.02,
+       258.75
+      ]
+     }
+    }
+   },
+   "flags": {
+    "bw_prev": "non_tying",
+    "*": "law_fail: -ahk_open +kum_afa_open +bw_prev = 0"
+   }
+  },
+  {
+   "id": "r36",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102400",
+   "sub_no": "",
+   "name": "Anlagen im Bau 5000",
+   "acq_date": null,
+   "method": null,
+   "label": "2102400 Anlagen im Bau 5000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 3455700,
+    "bew_ahk": 8348300,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 11804000,
+    "bw_prev": 3455700
+   },
+   "printed": {
+    "ahk_open": "34.557,00",
+    "bew_ahk": "83.483,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "118.040,00",
+    "bw_prev": "34.557,00"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     266.24,
+     753.94,
+     274.54
+    ],
+    "frame_band": [
+     266.24,
+     274.54
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       229.2,
+       266.24,
+       274.02,
+       274.54
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       305.2,
+       266.24,
+       350.02,
+       274.54
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       406.1,
+       266.24,
+       426.02,
+       274.54
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       482.1,
+       266.24,
+       502.02,
+       274.54
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       266.24,
+       578.02,
+       274.54
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       604.22,
+       266.24,
+       654.02,
+       274.54
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       685.2,
+       266.24,
+       730.02,
+       274.54
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r37",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2102400",
+   "sub_no": "",
+   "name": "Anzahlungen auf Anla 5100",
+   "acq_date": null,
+   "method": null,
+   "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 0,
+    "bew_ahk": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "0,00",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "0,00",
+    "bw_prev": "0,00"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     277.03,
+     753.94,
+     285.33
+    ],
+    "frame_band": [
+     277.03,
+     285.33
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       254.1,
+       277.03,
+       274.02,
+       285.33
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       330.1,
+       277.03,
+       350.02,
+       285.33
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       406.1,
+       277.03,
+       426.02,
+       285.33
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       482.1,
+       277.03,
+       502.02,
+       285.33
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       277.03,
+       578.02,
+       285.33
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       634.1,
+       277.03,
+       654.02,
+       285.33
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       710.1,
+       277.03,
+       730.02,
+       285.33
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r38",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2102400 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 3455700,
+    "bew_ahk": 8348300,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "bew_wb": 0,
+    "bw_close": 11804000,
+    "bw_prev": 3455700
+   },
+   "printed": {
+    "ahk_open": "34.557,00",
+    "bew_ahk": "83.483,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "bew_wb": "0,00",
+    "bw_close": "118.040,00",
+    "bw_prev": "34.557,00"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     292.82,
+     753.94,
+     301.12
+    ],
+    "frame_band": [
+     292.82,
+     301.12
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       229.2,
+       292.82,
+       274.02,
+       301.12
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       305.2,
+       292.82,
+       350.02,
+       301.12
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       406.1,
+       292.82,
+       426.02,
+       301.12
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       482.1,
+       292.82,
+       502.02,
+       301.12
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       558.1,
+       292.82,
+       578.02,
+       301.12
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       604.22,
+       292.82,
+       654.02,
+       301.12
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       685.2,
+       292.82,
+       730.02,
+       301.12
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r39",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2103300",
+   "sub_no": "",
+   "name": "Beteiligungen 6000",
+   "acq_date": null,
+   "method": null,
+   "label": "2103300 Beteiligungen 6000 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 21521732,
+    "bew_ahk": 0,
+    "kum_afa_open": 135240,
+    "afa_gj": 0,
+    "bew_wb": 67620,
+    "bw_close": 21454112,
+    "bw_prev": 21386492
+   },
+   "printed": {
+    "ahk_open": "215.217,32",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "1.352,40-",
+    "afa_gj": "0,00",
+    "bew_wb": "676,20",
+    "bw_close": "214.541,12",
+    "bw_prev": "213.864,92"
+   },
+   "pointer": {
+    "page": 5,
+    "bbox": [
+     26.0,
+     308.61,
+     753.94,
+     316.91
+    ],
+    "frame_band": [
+     308.61,
+     316.91
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 5,
+      "bbox": [
+       224.22,
+       308.61,
+       274.02,
+       316.91
+      ]
+     },
+     "bew_ahk": {
+      "page": 5,
+      "bbox": [
+       330.1,
+       308.61,
+       350.02,
+       316.91
+      ]
+     },
+     "kum_afa_open": {
+      "page": 5,
+      "bbox": [
+       386.18,
+       308.61,
+       431.0,
+       316.91
+      ]
+     },
+     "afa_gj": {
+      "page": 5,
+      "bbox": [
+       482.1,
+       308.61,
+       502.02,
+       316.91
+      ]
+     },
+     "bew_wb": {
+      "page": 5,
+      "bbox": [
+       548.14,
+       308.61,
+       578.02,
+       316.91
+      ]
+     },
+     "bw_close": {
+      "page": 5,
+      "bbox": [
+       604.22,
+       308.61,
+       654.02,
+       316.91
+      ]
+     },
+     "bw_prev": {
+      "page": 5,
+      "bbox": [
+       680.22,
+       308.61,
+       730.02,
+       316.91
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r40",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "*2103300 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 21521732,
+    "bew_ahk": 0,
+    "kum_afa_open": 135240,
+    "afa_gj": 0,
+    "bew_wb": 67620,
+    "bw_close": 21454112,
+    "bw_prev": 21386492
+   },
+   "printed": {
+    "ahk_open": "215.217,32",
+    "bew_ahk": "0,00",
+    "kum_afa_open": "1.352,40-",
+    "afa_gj": "0,00",
+    "bew_wb": "676,20",
+    "bw_close": "214.541,12",
+    "bw_prev": "213.864,92"
+   },
+   "pointer": {
+    "page": 6,
+    "bbox": [
+     26.0,
+     64.39,
+     753.94,
+     72.69
+    ],
+    "frame_band": [
+     64.39,
+     72.69
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 6,
+      "bbox": [
+       224.22,
+       64.39,
+       274.02,
+       72.69
+      ]
+     },
+     "bew_ahk": {
+      "page": 6,
+      "bbox": [
+       330.1,
+       64.39,
+       350.02,
+       72.69
+      ]
+     },
+     "kum_afa_open": {
+      "page": 6,
+      "bbox": [
+       386.18,
+       64.39,
+       431.0,
+       72.69
+      ]
+     },
+     "afa_gj": {
+      "page": 6,
+      "bbox": [
+       482.1,
+       64.39,
+       502.02,
+       72.69
+      ]
+     },
+     "bew_wb": {
+      "page": 6,
+      "bbox": [
+       548.14,
+       64.39,
+       578.02,
+       72.69
+      ]
+     },
+     "bw_close": {
+      "page": 6,
+      "bbox": [
+       604.22,
+       64.39,
+       654.02,
+       72.69
+      ]
+     },
+     "bw_prev": {
+      "page": 6,
+      "bbox": [
+       680.22,
+       64.39,
+       730.02,
+       72.69
+      ]
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": [
+  {
+   "type": "multi_year",
+   "evidence": "sections for 2024, 2025",
+   "where": [
+    {
+     "section": "s1",
+     "period_end": "2024-12-31"
+    },
+    {
+     "section": "s2",
+     "period_end": "2025-12-31"
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "1 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r35",
+     "field": "bw_prev",
+     "pointer": {
+      "page": 5,
+      "bbox": [
+       26.0,
+       250.45,
+       753.94,
+       258.75
+      ],
+      "frame_band": [
+       250.45,
+       258.75
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

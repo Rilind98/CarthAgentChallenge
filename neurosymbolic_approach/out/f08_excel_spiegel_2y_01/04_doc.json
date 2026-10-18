@@ -1,0 +1,1945 @@
+{
+ "meta": {
+  "doc_id": "f08_excel_spiegel_2y_01",
+  "source": "../A3-Hackathon-Corpus/f08_excel_spiegel_2y/f08_excel_spiegel_2y_01.xlsx",
+  "format": "xlsx",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Tabelle1"
+   },
+   {
+    "id": "s2",
+    "period_end": "2024-12-31",
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Tabelle2"
+   }
+  ],
+  "variant_guess": "problem"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2.",
+   "sub_no": "",
+   "name": "Entgeltlich erworbene Konzessionen und Lizenzen",
+   "acq_date": null,
+   "method": null,
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "context": [
+    "Entwicklung des Anlagevermögens",
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "fields": {
+    "ahk_open": 14458968,
+    "zugang": 4263345,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 18722313,
+    "kum_afa_open": 14458668,
+    "afa_gj": 449126,
+    "afa_abgang": 0,
+    "kum_afa_close": 14907794,
+    "bw_close": 3814519,
+    "bw_prev": 300
+   },
+   "printed": {
+    "ahk_open": "144.589,68",
+    "zugang": "42.633,45",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "187.223,13",
+    "kum_afa_open": "144.586,68",
+    "afa_gj": "4.491,26",
+    "afa_abgang": "",
+    "kum_afa_close": "149.077,94",
+    "bw_close": "38.145,19",
+    "bw_prev": "3,00"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A10",
+    "row": 10,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C10"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D10"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E10"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F10"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H10"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J10"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K10"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L10"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M10"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O10"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P10"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "Entwicklung des Anlagevermögens",
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "fields": {
+    "ahk_open": 14458968,
+    "zugang": 4263345,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 18722313,
+    "kum_afa_open": 14458668,
+    "afa_gj": 449126,
+    "afa_abgang": 0,
+    "kum_afa_close": 14907794,
+    "bw_close": 3814519,
+    "bw_prev": 300
+   },
+   "printed": {
+    "ahk_open": "144.589,68",
+    "zugang": "42.633,45",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "187.223,13",
+    "kum_afa_open": "144.586,68",
+    "afa_gj": "4.491,26",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "149.077,94",
+    "bw_close": "38.145,19",
+    "bw_prev": "3,00"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A11",
+    "row": 11,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C11"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D11"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E11"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F11"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H11"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J11"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K11"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L11"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M11"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O11"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P11"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "1.",
+   "sub_no": "",
+   "name": "Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "acq_date": null,
+   "method": null,
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 25397608,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 25397608,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 0,
+    "bw_close": 25397608,
+    "bw_prev": 25397608
+   },
+   "printed": {
+    "ahk_open": "253.976,08",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "253.976,08",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "0,00",
+    "bw_close": "253.976,08",
+    "bw_prev": "253.976,08"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A15",
+    "row": 15,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C15"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D15"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E15"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F15"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H15"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J15"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K15"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L15"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M15"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O15"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P15"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2.",
+   "sub_no": "",
+   "name": "Technische Anlagen und Maschinen",
+   "acq_date": null,
+   "method": null,
+   "label": "2. Technische Anlagen und Maschinen",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 64867045,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 41139000,
+    "ahk_close": 106006045,
+    "kum_afa_open": 42594558,
+    "afa_gj": 3906488,
+    "afa_abgang": 0,
+    "kum_afa_close": 46501046,
+    "bw_close": 59504999,
+    "bw_prev": 22272487
+   },
+   "printed": {
+    "ahk_open": "648.670,45",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "411.390,00",
+    "ahk_close": "1.060.060,45",
+    "kum_afa_open": "425.945,58",
+    "afa_gj": "39.064,88",
+    "afa_abgang": "",
+    "kum_afa_close": "465.010,46",
+    "bw_close": "595.049,99",
+    "bw_prev": "222.724,87"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A16",
+    "row": 16,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C16"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D16"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E16"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F16"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H16"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J16"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K16"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L16"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M16"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O16"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P16"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "3.",
+   "sub_no": "",
+   "name": "Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "acq_date": null,
+   "method": null,
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 16056714,
+    "zugang": 174457,
+    "abgang": 4239000,
+    "umbuchung": 0,
+    "ahk_close": 11992171,
+    "kum_afa_open": 15843422,
+    "afa_gj": 163599,
+    "afa_abgang": 4238900,
+    "kum_afa_close": 11768121,
+    "bw_close": 224050,
+    "bw_prev": 213292
+   },
+   "printed": {
+    "ahk_open": "160.567,14",
+    "zugang": "1.744,57",
+    "abgang": "42.390,00",
+    "umbuchung": "",
+    "ahk_close": "119.921,71",
+    "kum_afa_open": "158.434,22",
+    "afa_gj": "1.635,99",
+    "afa_abgang": "42.389,00",
+    "kum_afa_close": "117.681,21",
+    "bw_close": "2.240,50",
+    "bw_prev": "2.132,92"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A17",
+    "row": 17,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C17"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D17"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E17"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F17"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H17"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J17"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K17"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L17"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M17"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O17"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P17"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "4.",
+   "sub_no": "",
+   "name": "Geleistete Anzahlungen und Anlagen im Bau",
+   "acq_date": null,
+   "method": null,
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 11886800,
+    "zugang": 29252200,
+    "abgang": 0,
+    "umbuchung": -41139000,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0,
+    "bw_prev": 11886800
+   },
+   "printed": {
+    "ahk_open": "118.868,00",
+    "zugang": "292.522,00",
+    "abgang": "",
+    "umbuchung": "-411.390,00",
+    "ahk_close": "0,00",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "0,00",
+    "bw_close": "0,00",
+    "bw_prev": "118.868,00"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A18",
+    "row": 18,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C18"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D18"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E18"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F18"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H18"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J18"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K18"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L18"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M18"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O18"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P18"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2025 bis 31.12.2025",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 118208167,
+    "zugang": 29426657,
+    "abgang": 4239000,
+    "umbuchung": 0,
+    "ahk_close": 143395824,
+    "kum_afa_open": 58437980,
+    "afa_gj": 4070087,
+    "afa_abgang": 4238900,
+    "kum_afa_close": 58269167,
+    "bw_close": 85126657,
+    "bw_prev": 59770187
+   },
+   "printed": {
+    "ahk_open": "1.182.081,67",
+    "zugang": "294.266,57",
+    "abgang": "42.390,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.433.958,24",
+    "kum_afa_open": "584.379,80",
+    "afa_gj": "40.700,87",
+    "afa_abgang": "42.389,00",
+    "kum_afa_close": "582.691,67",
+    "bw_close": "851.266,57",
+    "bw_prev": "597.701,87"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A19",
+    "row": 19,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C19"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D19"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E19"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F19"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H19"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J19"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K19"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L19"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M19"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O19"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P19"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "3.",
+   "sub_no": "",
+   "name": "Beteiligungen",
+   "acq_date": null,
+   "method": null,
+   "label": "3. Beteiligungen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 21990456,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 21990456,
+    "kum_afa_open": 6597136,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 6597136,
+    "bw_close": 15393320,
+    "bw_prev": 15393320
+   },
+   "printed": {
+    "ahk_open": "219.904,56",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "219.904,56",
+    "kum_afa_open": "65.971,36",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "65.971,36",
+    "bw_close": "153.933,20",
+    "bw_prev": "153.933,20"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A23",
+    "row": 23,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C23"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D23"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E23"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F23"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H23"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J23"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K23"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L23"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M23"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O23"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P23"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 21990456,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 21990456,
+    "kum_afa_open": 6597136,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 6597136,
+    "bw_close": 15393320,
+    "bw_prev": 15393320
+   },
+   "printed": {
+    "ahk_open": "219.904,56",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "219.904,56",
+    "kum_afa_open": "65.971,36",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "65.971,36",
+    "bw_close": "153.933,20",
+    "bw_prev": "153.933,20"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A24",
+    "row": 24,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C24"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D24"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E24"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F24"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H24"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J24"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K24"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L24"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M24"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O24"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P24"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "grand_total",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 154657591,
+    "zugang": 33690002,
+    "abgang": 4239000,
+    "umbuchung": 0,
+    "ahk_close": 184108593,
+    "kum_afa_open": 79493784,
+    "afa_gj": 4519213,
+    "afa_abgang": 4238900,
+    "kum_afa_close": 79774097,
+    "bw_close": 104334496,
+    "bw_prev": 75163807
+   },
+   "printed": {
+    "ahk_open": "1.546.575,91",
+    "zugang": "336.900,02",
+    "abgang": "42.390,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.841.085,93",
+    "kum_afa_open": "794.937,84",
+    "afa_gj": "45.192,13",
+    "afa_abgang": "42.389,00",
+    "kum_afa_close": "797.740,97",
+    "bw_close": "1.043.344,96",
+    "bw_prev": "751.638,07"
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A26",
+    "row": 26,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle1",
+      "cell": "C26"
+     },
+     "zugang": {
+      "sheet": "Tabelle1",
+      "cell": "D26"
+     },
+     "abgang": {
+      "sheet": "Tabelle1",
+      "cell": "E26"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle1",
+      "cell": "F26"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle1",
+      "cell": "H26"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle1",
+      "cell": "J26"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle1",
+      "cell": "K26"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle1",
+      "cell": "L26"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle1",
+      "cell": "M26"
+     },
+     "bw_close": {
+      "sheet": "Tabelle1",
+      "cell": "O26"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle1",
+      "cell": "P26"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "acq_date": null,
+   "method": null,
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "context": [
+    "Entwicklung des Anlagevermögens",
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "fields": {
+    "ahk_open": 14458968,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 14458968,
+    "kum_afa_open": 13893180,
+    "afa_gj": 565488,
+    "afa_abgang": 0,
+    "kum_afa_close": 14458668,
+    "bw_close": 300,
+    "bw_prev": 565788
+   },
+   "printed": {
+    "ahk_open": "144.589,68",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "144.589,68",
+    "kum_afa_open": "138.931,80",
+    "afa_gj": "5.654,88",
+    "afa_abgang": "",
+    "kum_afa_close": "144.586,68",
+    "bw_close": "3,00",
+    "bw_prev": "5.657,88"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A10",
+    "row": 10,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B10"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C10"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D10"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E10"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G10"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I10"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J10"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K10"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L10"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N10"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O10"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "Entwicklung des Anlagevermögens",
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "fields": {
+    "ahk_open": 14458968,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 14458968,
+    "kum_afa_open": 13893180,
+    "afa_gj": 565488,
+    "afa_abgang": 0,
+    "kum_afa_close": 14458668,
+    "bw_close": 300,
+    "bw_prev": 565788
+   },
+   "printed": {
+    "ahk_open": "144.589,68",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "144.589,68",
+    "kum_afa_open": "138.931,80",
+    "afa_gj": "5.654,88",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "144.586,68",
+    "bw_close": "3,00",
+    "bw_prev": "5.657,88"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A11",
+    "row": 11,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B11"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C11"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D11"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E11"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G11"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I11"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J11"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K11"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L11"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N11"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O11"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "acq_date": null,
+   "method": null,
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 25397608,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 25397608,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 0,
+    "bw_close": 25397608,
+    "bw_prev": 25397608
+   },
+   "printed": {
+    "ahk_open": "253.976,08",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "253.976,08",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "0,00",
+    "bw_close": "253.976,08",
+    "bw_prev": "253.976,08"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A15",
+    "row": 15,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B15"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C15"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D15"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E15"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G15"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I15"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J15"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K15"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L15"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N15"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O15"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "2. Technische Anlagen und Maschinen",
+   "acq_date": null,
+   "method": null,
+   "label": "2. Technische Anlagen und Maschinen",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 64867045,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 64867045,
+    "kum_afa_open": 36971715,
+    "afa_gj": 5622843,
+    "afa_abgang": 0,
+    "kum_afa_close": 42594558,
+    "bw_close": 22272487,
+    "bw_prev": 27895330
+   },
+   "printed": {
+    "ahk_open": "648.670,45",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "648.670,45",
+    "kum_afa_open": "369.717,15",
+    "afa_gj": "56.228,43",
+    "afa_abgang": "",
+    "kum_afa_close": "425.945,58",
+    "bw_close": "222.724,87",
+    "bw_prev": "278.953,30"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A16",
+    "row": 16,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B16"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C16"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D16"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E16"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G16"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I16"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J16"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K16"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L16"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N16"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O16"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "acq_date": null,
+   "method": null,
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 18853413,
+    "zugang": 57601,
+    "abgang": 2854300,
+    "umbuchung": 0,
+    "ahk_close": 16056714,
+    "kum_afa_open": 18185167,
+    "afa_gj": 512455,
+    "afa_abgang": 2854200,
+    "kum_afa_close": 15843422,
+    "bw_close": 213292,
+    "bw_prev": 668246
+   },
+   "printed": {
+    "ahk_open": "188.534,13",
+    "zugang": "576,01",
+    "abgang": "28.543,00",
+    "umbuchung": "",
+    "ahk_close": "160.567,14",
+    "kum_afa_open": "181.851,67",
+    "afa_gj": "5.124,55",
+    "afa_abgang": "28.542,00",
+    "kum_afa_close": "158.434,22",
+    "bw_close": "2.132,92",
+    "bw_prev": "6.682,46"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A17",
+    "row": 17,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B17"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C17"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D17"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E17"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G17"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I17"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J17"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K17"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L17"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N17"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O17"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "acq_date": null,
+   "method": null,
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 11886800,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 11886800,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 0,
+    "bw_close": 11886800,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "118.868,00",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "118.868,00",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "0,00",
+    "bw_close": "118.868,00",
+    "bw_prev": "0,00"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A18",
+    "row": 18,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B18"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C18"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D18"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E18"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G18"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I18"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J18"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K18"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L18"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N18"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O18"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "Wirtschaftsjahr vom 01.01.2024 bis 31.12.2024",
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 109118066,
+    "zugang": 11944401,
+    "abgang": 2854300,
+    "umbuchung": 0,
+    "ahk_close": 118208167,
+    "kum_afa_open": 55156882,
+    "afa_gj": 6135298,
+    "afa_abgang": 2854200,
+    "kum_afa_close": 58437980,
+    "bw_close": 59770187,
+    "bw_prev": 53961184
+   },
+   "printed": {
+    "ahk_open": "1.091.180,66",
+    "zugang": "119.444,01",
+    "abgang": "28.543,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.182.081,67",
+    "kum_afa_open": "551.568,82",
+    "afa_gj": "61.352,98",
+    "afa_abgang": "28.542,00",
+    "kum_afa_close": "584.379,80",
+    "bw_close": "597.701,87",
+    "bw_prev": "539.611,84"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A19",
+    "row": 19,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B19"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C19"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D19"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E19"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G19"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I19"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J19"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K19"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L19"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N19"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O19"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "3. Beteiligungen",
+   "acq_date": null,
+   "method": null,
+   "label": "3. Beteiligungen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 21990456,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 21990456,
+    "kum_afa_open": 6597136,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 6597136,
+    "bw_close": 15393320,
+    "bw_prev": 15393320
+   },
+   "printed": {
+    "ahk_open": "219.904,56",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "219.904,56",
+    "kum_afa_open": "65.971,36",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "65.971,36",
+    "bw_close": "153.933,20",
+    "bw_prev": "153.933,20"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A23",
+    "row": 23,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B23"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C23"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D23"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E23"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G23"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I23"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J23"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K23"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L23"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N23"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O23"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 21990456,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 21990456,
+    "kum_afa_open": 6597136,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 6597136,
+    "bw_close": 15393320,
+    "bw_prev": 15393320
+   },
+   "printed": {
+    "ahk_open": "219.904,56",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "219.904,56",
+    "kum_afa_open": "65.971,36",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "65.971,36",
+    "bw_close": "153.933,20",
+    "bw_prev": "153.933,20"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A24",
+    "row": 24,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B24"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C24"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D24"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E24"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G24"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I24"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J24"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K24"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L24"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N24"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O24"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "grand_total",
+   "level": 2,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 145567490,
+    "zugang": 11944401,
+    "abgang": 2854300,
+    "umbuchung": 0,
+    "ahk_close": 154657591,
+    "kum_afa_open": 75647198,
+    "afa_gj": 6700786,
+    "afa_abgang": 2854200,
+    "kum_afa_close": 79493784,
+    "bw_close": 75163807,
+    "bw_prev": 69920292
+   },
+   "printed": {
+    "ahk_open": "1.455.674,90",
+    "zugang": "119.444,01",
+    "abgang": "28.543,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.546.575,91",
+    "kum_afa_open": "756.471,98",
+    "afa_gj": "67.007,86",
+    "afa_abgang": "28.542,00",
+    "kum_afa_close": "794.937,84",
+    "bw_close": "751.638,07",
+    "bw_prev": "699.202,92"
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A26",
+    "row": 26,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Tabelle2",
+      "cell": "B26"
+     },
+     "zugang": {
+      "sheet": "Tabelle2",
+      "cell": "C26"
+     },
+     "abgang": {
+      "sheet": "Tabelle2",
+      "cell": "D26"
+     },
+     "umbuchung": {
+      "sheet": "Tabelle2",
+      "cell": "E26"
+     },
+     "ahk_close": {
+      "sheet": "Tabelle2",
+      "cell": "G26"
+     },
+     "kum_afa_open": {
+      "sheet": "Tabelle2",
+      "cell": "I26"
+     },
+     "afa_gj": {
+      "sheet": "Tabelle2",
+      "cell": "J26"
+     },
+     "afa_abgang": {
+      "sheet": "Tabelle2",
+      "cell": "K26"
+     },
+     "kum_afa_close": {
+      "sheet": "Tabelle2",
+      "cell": "L26"
+     },
+     "bw_close": {
+      "sheet": "Tabelle2",
+      "cell": "N26"
+     },
+     "bw_prev": {
+      "sheet": "Tabelle2",
+      "cell": "O26"
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": [
+  {
+   "type": "multi_year",
+   "evidence": "sections for 2024, 2025",
+   "where": [
+    {
+     "section": "s1",
+     "period_end": "2025-12-31"
+    },
+    {
+     "section": "s2",
+     "period_end": "2024-12-31"
+    }
+   ]
+  }
+ ]
+}

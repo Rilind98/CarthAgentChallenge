@@ -1,0 +1,504 @@
+{
+ "values_in_key": 360,
+ "correct": 0,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 360,
+ "extra": 0,
+ "spurious": 0,
+ "score": 0,
+ "kind_accuracy": null,
+ "asset_id_accuracy": null,
+ "details": [
+  {
+   "key_row": "1000",
+   "kind": "asset",
+   "pointer": {
+    "page": 2,
+    "line": 1,
+    "bbox": [
+     14,
+     81.8,
+     492,
+     117.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 2,
+    "line": 5,
+    "bbox": [
+     14,
+     120.2,
+     492,
+     155.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.I.2",
+   "kind": "position_subtotal",
+   "pointer": {
+    "page": 2,
+    "line": 10,
+    "bbox": [
+     14,
+     158.5,
+     492,
+     193.9
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "2000",
+   "kind": "asset",
+   "pointer": {
+    "page": 2,
+    "line": 14,
+    "bbox": [
+     14,
+     196.9,
+     492,
+     232.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 2,
+    "line": 18,
+    "bbox": [
+     14,
+     235.2,
+     492,
+     270.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "2100",
+   "kind": "asset",
+   "pointer": {
+    "page": 2,
+    "line": 23,
+    "bbox": [
+     14,
+     273.6,
+     492,
+     309.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 2,
+    "line": 27,
+    "bbox": [
+     14,
+     312.0,
+     492,
+     347.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.II.1",
+   "kind": "position_subtotal",
+   "pointer": {
+    "page": 2,
+    "line": 31,
+    "bbox": [
+     14,
+     350.3,
+     492,
+     385.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "3000",
+   "kind": "asset",
+   "pointer": {
+    "page": 2,
+    "line": 36,
+    "bbox": [
+     14,
+     388.7,
+     492,
+     424.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 2,
+    "line": 40,
+    "bbox": [
+     14,
+     427.0,
+     492,
+     462.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.II.2",
+   "kind": "position_subtotal",
+   "pointer": {
+    "page": 3,
+    "line": 1,
+    "bbox": [
+     14,
+     81.8,
+     492,
+     117.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4200",
+   "kind": "asset",
+   "pointer": {
+    "page": 3,
+    "line": 5,
+    "bbox": [
+     14,
+     120.2,
+     492,
+     155.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 3,
+    "line": 10,
+    "bbox": [
+     14,
+     158.5,
+     492,
+     193.9
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4300",
+   "kind": "asset",
+   "pointer": {
+    "page": 3,
+    "line": 14,
+    "bbox": [
+     14,
+     196.9,
+     492,
+     232.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 3,
+    "line": 18,
+    "bbox": [
+     14,
+     235.2,
+     492,
+     270.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4100",
+   "kind": "asset",
+   "pointer": {
+    "page": 3,
+    "line": 23,
+    "bbox": [
+     14,
+     273.6,
+     492,
+     309.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 3,
+    "line": 27,
+    "bbox": [
+     14,
+     312.0,
+     492,
+     347.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4900",
+   "kind": "asset",
+   "pointer": {
+    "page": 3,
+    "line": 31,
+    "bbox": [
+     14,
+     350.3,
+     492,
+     385.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 3,
+    "line": 36,
+    "bbox": [
+     14,
+     388.7,
+     492,
+     424.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.II.3",
+   "kind": "position_subtotal",
+   "pointer": {
+    "page": 3,
+    "line": 40,
+    "bbox": [
+     14,
+     427.0,
+     492,
+     462.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "5000",
+   "kind": "asset",
+   "pointer": {
+    "page": 4,
+    "line": 1,
+    "bbox": [
+     14,
+     81.8,
+     492,
+     117.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 4,
+    "line": 5,
+    "bbox": [
+     14,
+     120.2,
+     492,
+     155.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "5100",
+   "kind": "asset",
+   "pointer": {
+    "page": 4,
+    "line": 10,
+    "bbox": [
+     14,
+     158.5,
+     492,
+     193.9
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 4,
+    "line": 14,
+    "bbox": [
+     14,
+     196.9,
+     492,
+     232.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.II.4",
+   "kind": "position_subtotal",
+   "pointer": {
+    "page": 4,
+    "line": 18,
+    "bbox": [
+     14,
+     235.2,
+     492,
+     270.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "6000",
+   "kind": "asset",
+   "pointer": {
+    "page": 4,
+    "line": 23,
+    "bbox": [
+     14,
+     273.6,
+     492,
+     309.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "page": 4,
+    "line": 27,
+    "bbox": [
+     14,
+     312.0,
+     492,
+     347.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.III.3",
+   "kind": "position_subtotal",
+   "pointer": {
+    "page": 4,
+    "line": 31,
+    "bbox": [
+     14,
+     350.3,
+     492,
+     385.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "grand_total",
+   "pointer": {
+    "page": 4,
+    "line": 36,
+    "bbox": [
+     14,
+     388.7,
+     492,
+     424.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "grand_total",
+   "pointer": {
+    "page": 4,
+    "line": 40,
+    "bbox": [
+     14,
+     427.0,
+     492,
+     462.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  }
+ ],
+ "detection": {
+  "planted": [],
+  "detected": [],
+  "hit": [],
+  "missed": [],
+  "false_alarm": [],
+  "readable": false,
+  "variant_key": "perfect",
+  "variant_guess": "unknown"
+ }
+}

@@ -1,0 +1,4223 @@
+{
+ "meta": {
+  "doc_id": "f01_net_spiegel_02",
+  "source": "../A3-Hackathon-Corpus/f01_net_spiegel/f01_net_spiegel_02.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "problem"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0027",
+   "sub_no": "",
+   "name": "EDV-Software",
+   "acq_date": null,
+   "method": null,
+   "label": "0027 EDV-Software",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software"
+   ],
+   "fields": {
+    "bw_prev": 620842,
+    "zugang": 6556660,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 2178169,
+    "kum_afa_close": 10170104,
+    "bw_close": 4999333
+   },
+   "printed": {
+    "bw_prev": "6.208,42",
+    "zugang": "65.566,60",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "21.781,69",
+    "kum_afa_close": "101.701,04",
+    "bw_close": "49.993,33"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.28,
+     189.45,
+     796.94,
+     196.45
+    ],
+    "frame_band": [
+     189.45,
+     196.45
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       265.7,
+       189.45,
+       292.94,
+       196.45
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       317.8,
+       189.45,
+       348.94,
+       196.45
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       189.45,
+       460.94,
+       196.45
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       189.45,
+       516.94,
+       196.45
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       189.45,
+       572.94,
+       196.45
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       597.8,
+       189.45,
+       628.94,
+       196.45
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       705.91,
+       189.45,
+       740.94,
+       196.45
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       765.8,
+       189.45,
+       796.94,
+       196.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe EDV-Software",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software"
+   ],
+   "fields": {
+    "bw_prev": 620842,
+    "zugang": 6556660,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 2178169,
+    "kum_afa_close": 10170104,
+    "bw_close": 4999333
+   },
+   "printed": {
+    "bw_prev": "6.208,42",
+    "zugang": "65.566,60",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "21.781,69",
+    "kum_afa_close": "101.701,04",
+    "bw_close": "49.993,33"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     54.67,
+     208.35,
+     796.94,
+     215.35
+    ],
+    "frame_band": [
+     208.35,
+     215.35
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       265.7,
+       208.35,
+       292.94,
+       215.35
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       317.8,
+       208.35,
+       348.94,
+       215.35
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       208.35,
+       460.94,
+       215.35
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       208.35,
+       516.94,
+       215.35
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       208.35,
+       572.94,
+       215.35
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       597.8,
+       208.35,
+       628.94,
+       215.35
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       705.91,
+       208.35,
+       740.94,
+       215.35
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       765.8,
+       208.35,
+       796.94,
+       215.35
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 0. Immaterielle Vermögensgegenstände",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software"
+   ],
+   "fields": {
+    "bw_prev": 620842,
+    "zugang": 6556660,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 2178169,
+    "kum_afa_close": 10170104,
+    "bw_close": 4999333
+   },
+   "printed": {
+    "bw_prev": "6.208,42",
+    "zugang": "65.566,60",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "21.781,69",
+    "kum_afa_close": "101.701,04",
+    "bw_close": "49.993,33"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     44.94,
+     227.25,
+     796.94,
+     234.25
+    ],
+    "frame_band": [
+     227.25,
+     234.25
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       265.7,
+       227.25,
+       292.94,
+       234.25
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       317.8,
+       227.25,
+       348.94,
+       234.25
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       227.25,
+       460.94,
+       234.25
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       227.25,
+       516.94,
+       234.25
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       227.25,
+       572.94,
+       234.25
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       597.8,
+       227.25,
+       628.94,
+       234.25
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       705.91,
+       227.25,
+       740.94,
+       234.25
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       765.8,
+       227.25,
+       796.94,
+       234.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0085",
+   "sub_no": "",
+   "name": "Grund und Boden",
+   "acq_date": null,
+   "method": null,
+   "label": "0085 Grund und Boden",
+   "context": [
+    "EDV-Software",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "fields": {
+    "bw_prev": 72264316,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 72264316
+   },
+   "printed": {
+    "bw_prev": "722.643,16",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "722.643,16"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.28,
+     293.4,
+     796.94,
+     300.4
+    ],
+    "frame_band": [
+     293.4,
+     300.4
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       257.91,
+       293.4,
+       292.94,
+       300.4
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       335.32,
+       293.4,
+       348.94,
+       300.4
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       293.4,
+       460.94,
+       300.4
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       293.4,
+       516.94,
+       300.4
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       293.4,
+       572.94,
+       300.4
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       615.32,
+       293.4,
+       628.94,
+       300.4
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       727.32,
+       293.4,
+       740.94,
+       300.4
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       761.91,
+       293.4,
+       796.94,
+       300.4
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Grund und Boden",
+   "context": [
+    "EDV-Software",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "fields": {
+    "bw_prev": 72264316,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 72264316
+   },
+   "printed": {
+    "bw_prev": "722.643,16",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "722.643,16"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     54.67,
+     312.3,
+     796.94,
+     319.3
+    ],
+    "frame_band": [
+     312.3,
+     319.3
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       257.91,
+       312.3,
+       292.94,
+       319.3
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       335.32,
+       312.3,
+       348.94,
+       319.3
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       312.3,
+       460.94,
+       319.3
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       312.3,
+       516.94,
+       319.3
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       312.3,
+       572.94,
+       319.3
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       615.32,
+       312.3,
+       628.94,
+       319.3
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       727.32,
+       312.3,
+       740.94,
+       319.3
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       761.91,
+       312.3,
+       796.94,
+       319.3
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 1. Grund und Boden",
+   "context": [
+    "EDV-Software",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "fields": {
+    "bw_prev": 72264316,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 72264316
+   },
+   "printed": {
+    "bw_prev": "722.643,16",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "722.643,16"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     44.94,
+     331.2,
+     796.94,
+     338.2
+    ],
+    "frame_band": [
+     331.2,
+     338.2
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       257.91,
+       331.2,
+       292.94,
+       338.2
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       335.32,
+       331.2,
+       348.94,
+       338.2
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       331.2,
+       460.94,
+       338.2
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       331.2,
+       516.94,
+       338.2
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       331.2,
+       572.94,
+       338.2
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       615.32,
+       331.2,
+       628.94,
+       338.2
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       727.32,
+       331.2,
+       740.94,
+       338.2
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       761.91,
+       331.2,
+       796.94,
+       338.2
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0100",
+   "sub_no": "",
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "0100 Fabrikbauten",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "fields": {
+    "bw_prev": 411359627,
+    "zugang": 284198920,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 19768471,
+    "kum_afa_close": 133586804,
+    "bw_close": 675790076
+   },
+   "printed": {
+    "bw_prev": "4.113.596,27",
+    "zugang": "2.841.989,20",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "197.684,71",
+    "kum_afa_close": "1.335.868,04",
+    "bw_close": "6.757.900,76"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.28,
+     397.35,
+     796.94,
+     404.35
+    ],
+    "frame_band": [
+     397.35,
+     404.35
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       252.07,
+       397.35,
+       292.94,
+       404.35
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       308.07,
+       397.35,
+       348.94,
+       404.35
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       397.35,
+       460.94,
+       404.35
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       397.35,
+       516.94,
+       404.35
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       397.35,
+       572.94,
+       404.35
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       593.91,
+       397.35,
+       628.94,
+       404.35
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       700.07,
+       397.35,
+       740.94,
+       404.35
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       756.07,
+       397.35,
+       796.94,
+       404.35
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Fabrikbauten",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "fields": {
+    "bw_prev": 411359627,
+    "zugang": 284198920,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 19768471,
+    "kum_afa_close": 133586804,
+    "bw_close": 675790076
+   },
+   "printed": {
+    "bw_prev": "4.113.596,27",
+    "zugang": "2.841.989,20",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "197.684,71",
+    "kum_afa_close": "1.335.868,04",
+    "bw_close": "6.757.900,76"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     54.67,
+     425.7,
+     796.94,
+     432.7
+    ],
+    "frame_band": [
+     425.7,
+     432.7
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       252.07,
+       425.7,
+       292.94,
+       432.7
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       308.07,
+       425.7,
+       348.94,
+       432.7
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       425.7,
+       460.94,
+       432.7
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       425.7,
+       516.94,
+       432.7
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       425.7,
+       572.94,
+       432.7
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       593.91,
+       425.7,
+       628.94,
+       432.7
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       700.07,
+       425.7,
+       740.94,
+       432.7
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       756.07,
+       425.7,
+       796.94,
+       432.7
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 2. Betriebsgebäude",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "fields": {
+    "bw_prev": 411359627,
+    "zugang": 284198920,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 19768471,
+    "kum_afa_close": 133586804,
+    "bw_close": 675790076
+   },
+   "printed": {
+    "bw_prev": "4.113.596,27",
+    "zugang": "2.841.989,20",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "197.684,71",
+    "kum_afa_close": "1.335.868,04",
+    "bw_close": "6.757.900,76"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     44.94,
+     444.6,
+     796.94,
+     451.6
+    ],
+    "frame_band": [
+     444.6,
+     451.6
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       252.07,
+       444.6,
+       292.94,
+       451.6
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       308.07,
+       444.6,
+       348.94,
+       451.6
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       444.6,
+       460.94,
+       451.6
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       503.32,
+       444.6,
+       516.94,
+       451.6
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       444.6,
+       572.94,
+       451.6
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       593.91,
+       444.6,
+       628.94,
+       451.6
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       700.07,
+       444.6,
+       740.94,
+       451.6
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       756.07,
+       444.6,
+       796.94,
+       451.6
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0210",
+   "sub_no": "",
+   "name": "Maschinen",
+   "acq_date": null,
+   "method": null,
+   "label": "0210 Maschinen",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "fields": {
+    "bw_prev": 51052706,
+    "zugang": 71460459,
+    "abgang_bw": 0,
+    "umbuchung": 40463601,
+    "zuschreibung": 0,
+    "afa_gj": 14650403,
+    "kum_afa_close": 62180039,
+    "bw_close": 148326363
+   },
+   "printed": {
+    "bw_prev": "510.527,06",
+    "zugang": "714.604,59",
+    "abgang_bw": "0,00",
+    "umbuchung": "404.636,01",
+    "zuschreibung": "0,00",
+    "afa_gj": "146.504,03",
+    "kum_afa_close": "621.800,39",
+    "bw_close": "1.483.263,63"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.28,
+     510.75,
+     796.94,
+     517.75
+    ],
+    "frame_band": [
+     510.75,
+     517.75
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       257.91,
+       510.75,
+       292.94,
+       517.75
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       313.91,
+       510.75,
+       348.94,
+       517.75
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       510.75,
+       460.94,
+       517.75
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       481.91,
+       510.75,
+       516.94,
+       517.75
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       510.75,
+       572.94,
+       517.75
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       593.91,
+       510.75,
+       628.94,
+       517.75
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       705.91,
+       510.75,
+       740.94,
+       517.75
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       756.07,
+       510.75,
+       796.94,
+       517.75
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Maschinen",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "fields": {
+    "bw_prev": 51052706,
+    "zugang": 71460459,
+    "abgang_bw": 0,
+    "umbuchung": 40463601,
+    "zuschreibung": 0,
+    "afa_gj": 14650403,
+    "kum_afa_close": 62180039,
+    "bw_close": 148326363
+   },
+   "printed": {
+    "bw_prev": "510.527,06",
+    "zugang": "714.604,59",
+    "abgang_bw": "0,00",
+    "umbuchung": "404.636,01",
+    "zuschreibung": "0,00",
+    "afa_gj": "146.504,03",
+    "kum_afa_close": "621.800,39",
+    "bw_close": "1.483.263,63"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     54.67,
+     529.65,
+     796.94,
+     536.65
+    ],
+    "frame_band": [
+     529.65,
+     536.65
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       257.91,
+       529.65,
+       292.94,
+       536.65
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       313.91,
+       529.65,
+       348.94,
+       536.65
+      ]
+     },
+     "abgang_bw": {
+      "page": 1,
+      "bbox": [
+       447.32,
+       529.65,
+       460.94,
+       536.65
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       481.91,
+       529.65,
+       516.94,
+       536.65
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       559.32,
+       529.65,
+       572.94,
+       536.65
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       593.91,
+       529.65,
+       628.94,
+       536.65
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       705.91,
+       529.65,
+       740.94,
+       536.65
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       756.07,
+       529.65,
+       796.94,
+       536.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 3. Maschinenpark",
+   "context": [],
+   "fields": {
+    "bw_prev": 51052706,
+    "zugang": 71460459,
+    "abgang_bw": 0,
+    "umbuchung": 40463601,
+    "zuschreibung": 0,
+    "afa_gj": 14650403,
+    "kum_afa_close": 62180039,
+    "bw_close": 148326363
+   },
+   "printed": {
+    "bw_prev": "510.527,06",
+    "zugang": "714.604,59",
+    "abgang_bw": "0,00",
+    "umbuchung": "404.636,01",
+    "zuschreibung": "0,00",
+    "afa_gj": "146.504,03",
+    "kum_afa_close": "621.800,39",
+    "bw_close": "1.483.263,63"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     44.94,
+     161.1,
+     796.94,
+     168.1
+    ],
+    "frame_band": [
+     161.1,
+     168.1
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       257.91,
+       161.1,
+       292.94,
+       168.1
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       313.91,
+       161.1,
+       348.94,
+       168.1
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       447.32,
+       161.1,
+       460.94,
+       168.1
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       481.91,
+       161.1,
+       516.94,
+       168.1
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       161.1,
+       572.94,
+       168.1
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       593.91,
+       161.1,
+       628.94,
+       168.1
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       705.91,
+       161.1,
+       740.94,
+       168.1
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       756.07,
+       161.1,
+       796.94,
+       168.1
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0240",
+   "sub_no": "",
+   "name": "Technische Anlagen",
+   "acq_date": null,
+   "method": null,
+   "label": "0240 Technische Anlagen",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "fields": {
+    "bw_prev": 26113084,
+    "zugang": 32884103,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 3328478,
+    "kum_afa_close": 22461697,
+    "bw_close": 55668709
+   },
+   "printed": {
+    "bw_prev": "261.130,84",
+    "zugang": "328.841,03",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "33.284,78",
+    "kum_afa_close": "224.616,97",
+    "bw_close": "556.687,09"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.28,
+     227.25,
+     796.94,
+     234.25
+    ],
+    "frame_band": [
+     227.25,
+     234.25
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       257.91,
+       227.25,
+       292.94,
+       234.25
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       313.91,
+       227.25,
+       348.94,
+       234.25
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       447.32,
+       227.25,
+       460.94,
+       234.25
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       227.25,
+       516.94,
+       234.25
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       227.25,
+       572.94,
+       234.25
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       597.8,
+       227.25,
+       628.94,
+       234.25
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       705.91,
+       227.25,
+       740.94,
+       234.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       761.91,
+       227.25,
+       796.94,
+       234.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Technische Anlagen Kto. 0240",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "fields": {
+    "bw_prev": 26113084,
+    "zugang": 32884103,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 3328478,
+    "kum_afa_close": 22461697,
+    "bw_close": 55668709
+   },
+   "printed": {
+    "bw_prev": "261.130,84",
+    "zugang": "328.841,03",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "33.284,78",
+    "kum_afa_close": "224.616,97",
+    "bw_close": "556.687,09"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     54.67,
+     246.15,
+     796.94,
+     253.15
+    ],
+    "frame_band": [
+     246.15,
+     253.15
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       257.91,
+       246.15,
+       292.94,
+       253.15
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       313.91,
+       246.15,
+       348.94,
+       253.15
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       447.32,
+       246.15,
+       460.94,
+       253.15
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       246.15,
+       516.94,
+       253.15
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       246.15,
+       572.94,
+       253.15
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       597.8,
+       246.15,
+       628.94,
+       253.15
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       705.91,
+       246.15,
+       740.94,
+       253.15
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       761.91,
+       246.15,
+       796.94,
+       253.15
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 4. Betriebstechnik",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "fields": {
+    "bw_prev": 26113084,
+    "zugang": 32884103,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 3328478,
+    "kum_afa_close": 22461697,
+    "bw_close": 55668709
+   },
+   "printed": {
+    "bw_prev": "261.130,84",
+    "zugang": "328.841,03",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "33.284,78",
+    "kum_afa_close": "224.616,97",
+    "bw_close": "556.687,09"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     44.94,
+     265.05,
+     796.94,
+     272.05
+    ],
+    "frame_band": [
+     265.05,
+     272.05
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       257.91,
+       265.05,
+       292.94,
+       272.05
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       313.91,
+       265.05,
+       348.94,
+       272.05
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       447.32,
+       265.05,
+       460.94,
+       272.05
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       265.05,
+       516.94,
+       272.05
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       265.05,
+       572.94,
+       272.05
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       597.8,
+       265.05,
+       628.94,
+       272.05
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       705.91,
+       265.05,
+       740.94,
+       272.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       761.91,
+       265.05,
+       796.94,
+       272.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0320",
+   "sub_no": "",
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "0320 Pkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "fields": {
+    "bw_prev": 4423412,
+    "zugang": 13696996,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 1838573,
+    "kum_afa_close": 12429666,
+    "bw_close": 16281835
+   },
+   "printed": {
+    "bw_prev": "44.234,12",
+    "zugang": "136.969,96",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "18.385,73",
+    "kum_afa_close": "124.296,66",
+    "bw_close": "162.818,35"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.28,
+     331.2,
+     796.94,
+     338.2
+    ],
+    "frame_band": [
+     331.2,
+     338.2
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       261.8,
+       331.2,
+       292.94,
+       338.2
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       313.91,
+       331.2,
+       348.94,
+       338.2
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       447.32,
+       331.2,
+       460.94,
+       338.2
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       331.2,
+       516.94,
+       338.2
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       331.2,
+       572.94,
+       338.2
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       597.8,
+       331.2,
+       628.94,
+       338.2
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       705.91,
+       331.2,
+       740.94,
+       338.2
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       761.91,
+       331.2,
+       796.94,
+       338.2
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0350",
+   "sub_no": "",
+   "name": "Lkw",
+   "acq_date": null,
+   "method": null,
+   "label": "0350 Lkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "fields": {
+    "bw_prev": 34367644,
+    "zugang": 4966700,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 7411217,
+    "kum_afa_close": 64235943,
+    "bw_close": 31923127
+   },
+   "printed": {
+    "bw_prev": "343.676,44",
+    "zugang": "49.667,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "74.112,17",
+    "kum_afa_close": "642.359,43",
+    "bw_close": "319.231,27"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.28,
+     359.55,
+     796.94,
+     366.55
+    ],
+    "frame_band": [
+     359.55,
+     366.55
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       257.91,
+       359.55,
+       292.94,
+       366.55
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       317.8,
+       359.55,
+       348.94,
+       366.55
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       447.32,
+       359.55,
+       460.94,
+       366.55
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       359.55,
+       516.94,
+       366.55
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       359.55,
+       572.94,
+       366.55
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       597.8,
+       359.55,
+       628.94,
+       366.55
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       705.91,
+       359.55,
+       740.94,
+       366.55
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       761.91,
+       359.55,
+       796.94,
+       366.55
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Pkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "fields": {
+    "bw_prev": 38791056,
+    "zugang": 18663696,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 9249790,
+    "kum_afa_close": 76665609,
+    "bw_close": 48204962
+   },
+   "printed": {
+    "bw_prev": "387.910,56",
+    "zugang": "186.636,96",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "92.497,90",
+    "kum_afa_close": "766.656,09",
+    "bw_close": "482.049,62"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     54.67,
+     378.45,
+     796.94,
+     385.45
+    ],
+    "frame_band": [
+     378.45,
+     385.45
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       257.91,
+       378.45,
+       292.94,
+       385.45
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       313.91,
+       378.45,
+       348.94,
+       385.45
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       447.32,
+       378.45,
+       460.94,
+       385.45
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       378.45,
+       516.94,
+       385.45
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       378.45,
+       572.94,
+       385.45
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       597.8,
+       378.45,
+       628.94,
+       385.45
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       705.91,
+       378.45,
+       740.94,
+       385.45
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       761.91,
+       378.45,
+       796.94,
+       385.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 5. Fuhrpark",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "fields": {
+    "bw_prev": 38791056,
+    "zugang": 18663696,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 9249791,
+    "kum_afa_close": 76665609,
+    "bw_close": 48204962
+   },
+   "printed": {
+    "bw_prev": "387.910,56",
+    "zugang": "186.636,96",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "92.497,91",
+    "kum_afa_close": "766.656,09",
+    "bw_close": "482.049,62"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     44.94,
+     397.35,
+     796.94,
+     404.35
+    ],
+    "frame_band": [
+     397.35,
+     404.35
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       257.91,
+       397.35,
+       292.94,
+       404.35
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       313.91,
+       397.35,
+       348.94,
+       404.35
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       447.32,
+       397.35,
+       460.94,
+       404.35
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       397.35,
+       516.94,
+       404.35
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       397.35,
+       572.94,
+       404.35
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       597.8,
+       397.35,
+       628.94,
+       404.35
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       705.91,
+       397.35,
+       740.94,
+       404.35
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       761.91,
+       397.35,
+       796.94,
+       404.35
+      ]
+     }
+    }
+   },
+   "flags": {
+    "afa_gj": "non_tying",
+    "*": "law_fail: -zugang -umbuchung -zuschreibung +afa_gj -bw_prev +bw_close +abgang_bw = 0"
+   }
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0400",
+   "sub_no": "",
+   "name": "Betriebsausstattung",
+   "acq_date": null,
+   "method": null,
+   "label": "0400 Betriebsausstattung",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "fields": {
+    "bw_prev": 2410670,
+    "zugang": 144100,
+    "abgang_bw": 261630,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 789218,
+    "kum_afa_close": 7825478,
+    "bw_close": 1503922
+   },
+   "printed": {
+    "bw_prev": "24.106,70",
+    "zugang": "1.441,00",
+    "abgang_bw": "2.616,30",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "7.892,18",
+    "kum_afa_close": "78.254,78",
+    "bw_close": "15.039,22"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.28,
+     463.5,
+     796.94,
+     470.5
+    ],
+    "frame_band": [
+     463.5,
+     470.5
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       261.8,
+       463.5,
+       292.94,
+       470.5
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       463.5,
+       348.94,
+       470.5
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       433.7,
+       463.5,
+       460.94,
+       470.5
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       463.5,
+       516.94,
+       470.5
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       463.5,
+       572.94,
+       470.5
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       601.7,
+       463.5,
+       628.94,
+       470.5
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       709.8,
+       463.5,
+       740.94,
+       470.5
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       765.8,
+       463.5,
+       796.94,
+       470.5
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Betriebsausstattung",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "fields": {
+    "bw_prev": 2410670,
+    "zugang": 144100,
+    "abgang_bw": 261630,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 789218,
+    "kum_afa_close": 7825478,
+    "bw_close": 1503922
+   },
+   "printed": {
+    "bw_prev": "24.106,70",
+    "zugang": "1.441,00",
+    "abgang_bw": "2.616,30",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "7.892,18",
+    "kum_afa_close": "78.254,78",
+    "bw_close": "15.039,22"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     54.67,
+     482.4,
+     796.94,
+     489.4
+    ],
+    "frame_band": [
+     482.4,
+     489.4
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       261.8,
+       482.4,
+       292.94,
+       489.4
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       482.4,
+       348.94,
+       489.4
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       433.7,
+       482.4,
+       460.94,
+       489.4
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       482.4,
+       516.94,
+       489.4
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       482.4,
+       572.94,
+       489.4
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       601.7,
+       482.4,
+       628.94,
+       489.4
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       709.8,
+       482.4,
+       740.94,
+       489.4
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       765.8,
+       482.4,
+       796.94,
+       489.4
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 6. Werkstatt und Lager",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "fields": {
+    "bw_prev": 2410670,
+    "zugang": 144100,
+    "abgang_bw": 261630,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 789218,
+    "kum_afa_close": 7825478,
+    "bw_close": 1503922
+   },
+   "printed": {
+    "bw_prev": "24.106,70",
+    "zugang": "1.441,00",
+    "abgang_bw": "2.616,30",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "7.892,18",
+    "kum_afa_close": "78.254,78",
+    "bw_close": "15.039,22"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     44.94,
+     501.3,
+     796.94,
+     508.3
+    ],
+    "frame_band": [
+     501.3,
+     508.3
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       261.8,
+       501.3,
+       292.94,
+       508.3
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       501.3,
+       348.94,
+       508.3
+      ]
+     },
+     "abgang_bw": {
+      "page": 2,
+      "bbox": [
+       433.7,
+       501.3,
+       460.94,
+       508.3
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       503.32,
+       501.3,
+       516.94,
+       508.3
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       559.32,
+       501.3,
+       572.94,
+       508.3
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       601.7,
+       501.3,
+       628.94,
+       508.3
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       709.8,
+       501.3,
+       740.94,
+       508.3
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       765.8,
+       501.3,
+       796.94,
+       508.3
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0420",
+   "sub_no": "",
+   "name": "Büroeinrichtung",
+   "acq_date": null,
+   "method": null,
+   "label": "0420 Büroeinrichtung",
+   "context": [
+    "Büroeinrichtung"
+   ],
+   "fields": {
+    "bw_prev": 3224685,
+    "zugang": 145900,
+    "abgang_bw": 191103,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 447241,
+    "kum_afa_close": 4429527,
+    "bw_close": 2732241
+   },
+   "printed": {
+    "bw_prev": "32.246,85",
+    "zugang": "1.459,00",
+    "abgang_bw": "1.911,03",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "4.472,41",
+    "kum_afa_close": "44.295,27",
+    "bw_close": "27.322,41"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     68.28,
+     180.0,
+     796.94,
+     187.0
+    ],
+    "frame_band": [
+     180.0,
+     187.0
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       261.8,
+       180.0,
+       292.94,
+       187.0
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       180.0,
+       348.94,
+       187.0
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       433.7,
+       180.0,
+       460.94,
+       187.0
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       503.32,
+       180.0,
+       516.94,
+       187.0
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       180.0,
+       572.94,
+       187.0
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       601.7,
+       180.0,
+       628.94,
+       187.0
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       709.8,
+       180.0,
+       740.94,
+       187.0
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       765.8,
+       180.0,
+       796.94,
+       187.0
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Büroeinrichtung",
+   "context": [
+    "Büroeinrichtung"
+   ],
+   "fields": {
+    "bw_prev": 3224685,
+    "zugang": 145900,
+    "abgang_bw": 191103,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 447241,
+    "kum_afa_close": 4429527,
+    "bw_close": 2732241
+   },
+   "printed": {
+    "bw_prev": "32.246,85",
+    "zugang": "1.459,00",
+    "abgang_bw": "1.911,03",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "4.472,41",
+    "kum_afa_close": "44.295,27",
+    "bw_close": "27.322,41"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     54.67,
+     198.9,
+     796.94,
+     205.9
+    ],
+    "frame_band": [
+     198.9,
+     205.9
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       261.8,
+       198.9,
+       292.94,
+       205.9
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       198.9,
+       348.94,
+       205.9
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       433.7,
+       198.9,
+       460.94,
+       205.9
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       503.32,
+       198.9,
+       516.94,
+       205.9
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       198.9,
+       572.94,
+       205.9
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       601.7,
+       198.9,
+       628.94,
+       205.9
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       709.8,
+       198.9,
+       740.94,
+       205.9
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       765.8,
+       198.9,
+       796.94,
+       205.9
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0490",
+   "sub_no": "",
+   "name": "EDV-Hardware",
+   "acq_date": null,
+   "method": null,
+   "label": "0490 EDV-Hardware",
+   "context": [
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "fields": {
+    "bw_prev": 700,
+    "zugang": 190630,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 9532,
+    "kum_afa_close": 3545407,
+    "bw_close": 181798
+   },
+   "printed": {
+    "bw_prev": "7,00",
+    "zugang": "1.906,30",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "95,32",
+    "kum_afa_close": "35.454,07",
+    "bw_close": "1.817,98"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     68.28,
+     236.7,
+     796.94,
+     243.7
+    ],
+    "frame_band": [
+     236.7,
+     243.7
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       279.32,
+       236.7,
+       292.94,
+       243.7
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       236.7,
+       348.94,
+       243.7
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       447.32,
+       236.7,
+       460.94,
+       243.7
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       503.32,
+       236.7,
+       516.94,
+       243.7
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       236.7,
+       572.94,
+       243.7
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       611.43,
+       236.7,
+       628.94,
+       243.7
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       709.8,
+       236.7,
+       740.94,
+       243.7
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       769.7,
+       236.7,
+       796.94,
+       243.7
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe EDV-Hardware",
+   "context": [
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "fields": {
+    "bw_prev": 700,
+    "zugang": 190630,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 9532,
+    "kum_afa_close": 3545407,
+    "bw_close": 181798
+   },
+   "printed": {
+    "bw_prev": "7,00",
+    "zugang": "1.906,30",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "95,32",
+    "kum_afa_close": "35.454,07",
+    "bw_close": "1.817,98"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     54.67,
+     255.6,
+     796.94,
+     262.6
+    ],
+    "frame_band": [
+     255.6,
+     262.6
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       279.32,
+       255.6,
+       292.94,
+       262.6
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       255.6,
+       348.94,
+       262.6
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       447.32,
+       255.6,
+       460.94,
+       262.6
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       503.32,
+       255.6,
+       516.94,
+       262.6
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       255.6,
+       572.94,
+       262.6
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       611.43,
+       255.6,
+       628.94,
+       262.6
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       709.8,
+       255.6,
+       740.94,
+       262.6
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       769.7,
+       255.6,
+       796.94,
+       262.6
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 7. Büro und Verwaltung",
+   "context": [
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "fields": {
+    "bw_prev": 3225385,
+    "zugang": 336530,
+    "abgang_bw": 191103,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 456773,
+    "kum_afa_close": 7974934,
+    "bw_close": 2914039
+   },
+   "printed": {
+    "bw_prev": "32.253,85",
+    "zugang": "3.365,30",
+    "abgang_bw": "1.911,03",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "4.567,73",
+    "kum_afa_close": "79.749,34",
+    "bw_close": "29.140,39"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     44.94,
+     274.5,
+     796.94,
+     281.5
+    ],
+    "frame_band": [
+     274.5,
+     281.5
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       261.8,
+       274.5,
+       292.94,
+       281.5
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       274.5,
+       348.94,
+       281.5
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       433.7,
+       274.5,
+       460.94,
+       281.5
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       503.32,
+       274.5,
+       516.94,
+       281.5
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       274.5,
+       572.94,
+       281.5
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       601.7,
+       274.5,
+       628.94,
+       281.5
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       709.8,
+       274.5,
+       740.94,
+       281.5
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       765.8,
+       274.5,
+       796.94,
+       281.5
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0480",
+   "sub_no": "",
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "0480 Geringwertige Wirtschaftsgüter",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "fields": {
+    "bw_prev": 0,
+    "zugang": 189310,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 189310,
+    "kum_afa_close": 355016,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "0,00",
+    "zugang": "1.893,10",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "1.893,10",
+    "kum_afa_close": "3.550,16",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     68.28,
+     340.65,
+     796.94,
+     347.65
+    ],
+    "frame_band": [
+     340.65,
+     347.65
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       279.32,
+       340.65,
+       292.94,
+       347.65
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       340.65,
+       348.94,
+       347.65
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       447.32,
+       340.65,
+       460.94,
+       347.65
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       503.32,
+       340.65,
+       516.94,
+       347.65
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       340.65,
+       572.94,
+       347.65
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       601.7,
+       340.65,
+       628.94,
+       347.65
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       713.7,
+       340.65,
+       740.94,
+       347.65
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       783.32,
+       340.65,
+       796.94,
+       347.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe GWG",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "fields": {
+    "bw_prev": 0,
+    "zugang": 189310,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 189310,
+    "kum_afa_close": 355016,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "0,00",
+    "zugang": "1.893,10",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "1.893,10",
+    "kum_afa_close": "3.550,16",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     54.67,
+     369.0,
+     796.94,
+     376.0
+    ],
+    "frame_band": [
+     369.0,
+     376.0
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       279.32,
+       369.0,
+       292.94,
+       376.0
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       369.0,
+       348.94,
+       376.0
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       447.32,
+       369.0,
+       460.94,
+       376.0
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       503.32,
+       369.0,
+       516.94,
+       376.0
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       369.0,
+       572.94,
+       376.0
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       601.7,
+       369.0,
+       628.94,
+       376.0
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       713.7,
+       369.0,
+       740.94,
+       376.0
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       783.32,
+       369.0,
+       796.94,
+       376.0
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "fields": {
+    "bw_prev": 0,
+    "zugang": 189308,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 189310,
+    "kum_afa_close": 355016,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "0,00",
+    "zugang": "1.893,08",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "1.893,10",
+    "kum_afa_close": "3.550,16",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     44.94,
+     387.9,
+     796.94,
+     394.9
+    ],
+    "frame_band": [
+     387.9,
+     394.9
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       279.32,
+       387.9,
+       292.94,
+       394.9
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       387.9,
+       348.94,
+       394.9
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       447.32,
+       387.9,
+       460.94,
+       394.9
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       503.32,
+       387.9,
+       516.94,
+       394.9
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       387.9,
+       572.94,
+       394.9
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       601.7,
+       387.9,
+       628.94,
+       394.9
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       713.7,
+       387.9,
+       740.94,
+       394.9
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       783.32,
+       387.9,
+       796.94,
+       394.9
+      ]
+     }
+    }
+   },
+   "flags": {
+    "zugang": "non_tying",
+    "*": "law_fail: -zugang -umbuchung -zuschreibung +afa_gj -bw_prev +bw_close +abgang_bw = 0"
+   }
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "0120",
+   "sub_no": "",
+   "name": "Anlagen im Bau",
+   "acq_date": null,
+   "method": null,
+   "label": "0120 Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "fields": {
+    "bw_prev": 14711108,
+    "zugang": 25752493,
+    "abgang_bw": 0,
+    "umbuchung": -40463601,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "147.111,08",
+    "zugang": "257.524,93",
+    "abgang_bw": "0,00",
+    "umbuchung": "-404.636,01",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     68.28,
+     454.05,
+     796.94,
+     461.05
+    ],
+    "frame_band": [
+     454.05,
+     461.05
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       257.91,
+       454.05,
+       292.94,
+       461.05
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       313.91,
+       454.05,
+       348.94,
+       461.05
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       447.32,
+       454.05,
+       460.94,
+       461.05
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       479.58,
+       454.05,
+       516.94,
+       461.05
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       454.05,
+       572.94,
+       461.05
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       615.32,
+       454.05,
+       628.94,
+       461.05
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       727.32,
+       454.05,
+       740.94,
+       461.05
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       783.32,
+       454.05,
+       796.94,
+       461.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "fields": {
+    "bw_prev": 14711108,
+    "zugang": 25752493,
+    "abgang_bw": 0,
+    "umbuchung": -40463601,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "147.111,08",
+    "zugang": "257.524,93",
+    "abgang_bw": "0,00",
+    "umbuchung": "-404.636,01",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     54.67,
+     472.95,
+     796.94,
+     479.95
+    ],
+    "frame_band": [
+     472.95,
+     479.95
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       257.91,
+       472.95,
+       292.94,
+       479.95
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       313.91,
+       472.95,
+       348.94,
+       479.95
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       447.32,
+       472.95,
+       460.94,
+       479.95
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       479.58,
+       472.95,
+       516.94,
+       479.95
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       472.95,
+       572.94,
+       479.95
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       615.32,
+       472.95,
+       628.94,
+       479.95
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       727.32,
+       472.95,
+       740.94,
+       479.95
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       783.32,
+       472.95,
+       796.94,
+       479.95
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 9. Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "fields": {
+    "bw_prev": 14711108,
+    "zugang": 25752492,
+    "abgang_bw": 0,
+    "umbuchung": -40463601,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "147.111,08",
+    "zugang": "257.524,92",
+    "abgang_bw": "0,00",
+    "umbuchung": "-404.636,01",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     44.94,
+     491.85,
+     796.94,
+     498.85
+    ],
+    "frame_band": [
+     491.85,
+     498.85
+    ],
+    "fields": {
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       257.91,
+       491.85,
+       292.94,
+       498.85
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       313.91,
+       491.85,
+       348.94,
+       498.85
+      ]
+     },
+     "abgang_bw": {
+      "page": 3,
+      "bbox": [
+       447.32,
+       491.85,
+       460.94,
+       498.85
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       479.58,
+       491.85,
+       516.94,
+       498.85
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       559.32,
+       491.85,
+       572.94,
+       498.85
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       615.32,
+       491.85,
+       628.94,
+       498.85
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       727.32,
+       491.85,
+       740.94,
+       498.85
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       783.32,
+       491.85,
+       796.94,
+       498.85
+      ]
+     }
+    }
+   },
+   "flags": {
+    "zugang": "non_tying",
+    "*": "law_fail: -zugang -umbuchung -zuschreibung +afa_gj -bw_prev +bw_close +abgang_bw = 0"
+   }
+  }
+ ],
+ "detections": [
+  {
+   "type": "wrapped_description",
+   "evidence": "3 description(s) continue on the next line",
+   "where": [
+    {
+     "row": "r7",
+     "page": 1,
+     "label": "0100 Fabrikbauten"
+    },
+    {
+     "row": "r16",
+     "page": 2,
+     "label": "0320 Pkw"
+    },
+    {
+     "row": "r28",
+     "page": 3,
+     "label": "0480 Geringwertige Wirtschaftsgüter"
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "3 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r19",
+     "field": "afa_gj",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       44.94,
+       397.35,
+       796.94,
+       404.35
+      ],
+      "frame_band": [
+       397.35,
+       404.35
+      ]
+     }
+    },
+    {
+     "row": "r30",
+     "field": "zugang",
+     "pointer": {
+      "page": 3,
+      "bbox": [
+       44.94,
+       387.9,
+       796.94,
+       394.9
+      ],
+      "frame_band": [
+       387.9,
+       394.9
+      ]
+     }
+    },
+    {
+     "row": "r33",
+     "field": "zugang",
+     "pointer": {
+      "page": 3,
+      "bbox": [
+       44.94,
+       491.85,
+       796.94,
+       498.85
+      ],
+      "frame_band": [
+       491.85,
+       498.85
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

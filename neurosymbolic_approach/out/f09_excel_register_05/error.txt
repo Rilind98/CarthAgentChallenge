@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/run.py", line 111, in main
+    r = run_one(p, a.output, a.template)
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/run.py", line 81, in run_one
+    av_info = arbeitsversion.write(template, od / f"Arbeitsversion_{doc_id}.xlsx", doc, det["findings"])
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/pipeline/arbeitsversion.py", line 119, in write
+    av[f"K{i}"] = date.fromisoformat(r["acq_date"])
+                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+ValueError: Invalid isoformat string: '0'

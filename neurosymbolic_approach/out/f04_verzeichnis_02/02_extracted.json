@@ -1,0 +1,5282 @@
+{
+ "doc_id": "f04_verzeichnis_02",
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "107 Finanzbuchhaltung Software 18.04.2025 lin 5",
+   "year": 2025,
+   "identity": {
+    "asset_no": "107",
+    "sub_no": "",
+    "name": "Finanzbuchhaltung Software",
+    "acq_date": "2025-04-18",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w37"
+     ],
+     "text": "7.165,00",
+     "cents": 716500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      156.35,
+      342.0,
+      163.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w41"
+     ],
+     "text": "6.090,25",
+     "cents": 609025,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      156.35,
+      514.0,
+      163.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     156.35,
+     514.0,
+     163.85
+    ],
+    "frame_band": [
+     156.35,
+     163.85
+    ]
+   }
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "16 Warenwirtschaft Modul Lager 04.04.2020 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "16",
+    "sub_no": "",
+    "name": "Warenwirtschaft Modul Lager",
+    "acq_date": "2020-04-04",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w46"
+     ],
+     "text": "54.049,00",
+     "cents": 5404900,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      171.95,
+      342.0,
+      179.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w50"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      171.95,
+      514.0,
+      179.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     171.95,
+     514.0,
+     179.45
+    ],
+    "frame_band": [
+     171.95,
+     179.45
+    ]
+   }
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "323 Zeiterfassung Software Nr. 12 01.05.2024 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "323",
+    "sub_no": "",
+    "name": "Zeiterfassung Software Nr. 12",
+    "acq_date": "2024-05-01",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w56"
+     ],
+     "text": "8.356,49",
+     "cents": 835649,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      187.55,
+      342.0,
+      195.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w60"
+     ],
+     "text": "3.714,00",
+     "cents": 371400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      187.55,
+      514.0,
+      195.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     187.55,
+     514.0,
+     195.05
+    ],
+    "frame_band": [
+     187.55,
+     195.05
+    ]
+   }
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "484 Finanzbuchhaltung Software Typ 18.05.2025 lin 3 X521",
+   "year": 2025,
+   "identity": {
+    "asset_no": "484",
+    "sub_no": "",
+    "name": "Finanzbuchhaltung Software Typ",
+    "acq_date": "2025-05-18",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w66"
+     ],
+     "text": "31.881,82",
+     "cents": 3188182,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      203.15,
+      342.0,
+      210.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w70"
+     ],
+     "text": "24.796,97",
+     "cents": 2479697,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      203.15,
+      514.0,
+      210.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     203.15,
+     514.0,
+     210.65
+    ],
+    "frame_band": [
+     203.15,
+     210.65
+    ]
+   }
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5 Office-Lizenzen 11.10.2011 lin 5",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5",
+    "sub_no": "",
+    "name": "Office-Lizenzen",
+    "acq_date": "2011-10-11",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w73"
+     ],
+     "text": "2.923,00",
+     "cents": 292300,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      227.35,
+      342.0,
+      234.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w77"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      227.35,
+      514.0,
+      234.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     227.35,
+     514.0,
+     234.85
+    ],
+    "frame_band": [
+     227.35,
+     234.85
+    ]
+   }
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "60 CAD-Software Lizenz (gebraucht) 20.09.2018 lin 5",
+   "year": 2025,
+   "identity": {
+    "asset_no": "60",
+    "sub_no": "",
+    "name": "CAD-Software Lizenz (gebraucht)",
+    "acq_date": "2018-09-20",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w82"
+     ],
+     "text": "1.810,00",
+     "cents": 181000,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      242.95,
+      342.0,
+      250.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w86"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      242.95,
+      514.0,
+      250.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     242.95,
+     514.0,
+     250.45
+    ],
+    "frame_band": [
+     242.95,
+     250.45
+    ]
+   }
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "60e Zeiterfassung Software 23.09.2013 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "60",
+    "sub_no": "e",
+    "name": "Zeiterfassung Software",
+    "acq_date": "2013-09-23",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w90"
+     ],
+     "text": "40.723,00",
+     "cents": 4072300,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      258.55,
+      342.0,
+      266.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w94"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      258.55,
+      514.0,
+      266.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     258.55,
+     514.0,
+     266.05
+    ],
+    "frame_band": [
+     258.55,
+     266.05
+    ]
+   }
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w96"
+     ],
+     "text": "146.908,31",
+     "cents": 14690831,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      274.15,
+      342.0,
+      281.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w97"
+     ],
+     "text": "34.605,22",
+     "cents": 3460522,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      274.15,
+      514.0,
+      281.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     274.15,
+     514.0,
+     281.65
+    ],
+    "frame_band": [
+     274.15,
+     281.65
+    ]
+   }
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "01 Grund und Boden Betriebsgelände 01.01.2007 k 0",
+   "year": 2025,
+   "identity": {
+    "asset_no": "01",
+    "sub_no": "",
+    "name": "Grund und Boden Betriebsgelände",
+    "acq_date": "2007-01-01",
+    "method": "k"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w105"
+     ],
+     "text": "132.687,00",
+     "cents": 13268700,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      313.75,
+      342.0,
+      321.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w109"
+     ],
+     "text": "132.687,00",
+     "cents": 13268700,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      313.75,
+      514.0,
+      321.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     313.75,
+     514.0,
+     321.25
+    ],
+    "frame_band": [
+     313.75,
+     321.25
+    ]
+   }
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "02 Grundstück Gewerbegebiet 01.01.2007 k 0",
+   "year": 2025,
+   "identity": {
+    "asset_no": "02",
+    "sub_no": "",
+    "name": "Grundstück Gewerbegebiet",
+    "acq_date": "2007-01-01",
+    "method": "k"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w113"
+     ],
+     "text": "453.124,00",
+     "cents": 45312400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      329.35,
+      342.0,
+      336.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w117"
+     ],
+     "text": "453.124,00",
+     "cents": 45312400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      329.35,
+      514.0,
+      336.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     329.35,
+     514.0,
+     336.85
+    ],
+    "frame_band": [
+     329.35,
+     336.85
+    ]
+   }
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "03 Grundstück Gewerbegebiet 01.01.2015 k 0",
+   "year": 2025,
+   "identity": {
+    "asset_no": "03",
+    "sub_no": "",
+    "name": "Grundstück Gewerbegebiet",
+    "acq_date": "2015-01-01",
+    "method": "k"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w121"
+     ],
+     "text": "330.364,00",
+     "cents": 33036400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      344.95,
+      342.0,
+      352.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w125"
+     ],
+     "text": "330.364,00",
+     "cents": 33036400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      344.95,
+      514.0,
+      352.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     344.95,
+     514.0,
+     352.45
+    ],
+    "frame_band": [
+     344.95,
+     352.45
+    ]
+   }
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w127"
+     ],
+     "text": "916.175,00",
+     "cents": 91617500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      360.55,
+      342.0,
+      368.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w128"
+     ],
+     "text": "916.175,00",
+     "cents": 91617500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      360.55,
+      514.0,
+      368.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     360.55,
+     514.0,
+     368.05
+    ],
+    "frame_band": [
+     360.55,
+     368.05
+    ]
+   }
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "4172 Produktionshalle 0 20.12.2025 geb 33",
+   "year": 2025,
+   "identity": {
+    "asset_no": "4172",
+    "sub_no": "",
+    "name": "Produktionshalle 0",
+    "acq_date": "2025-12-20",
+    "method": "geb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w134"
+     ],
+     "text": "1.494.545,38",
+     "cents": 149454538,
+     "status": "value",
+     "glued": false,
+     "box": [
+      298.21,
+      400.15,
+      342.0,
+      407.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w138"
+     ],
+     "text": "1.490.771,28",
+     "cents": 149077128,
+     "status": "value",
+     "glued": false,
+     "box": [
+      470.21,
+      400.15,
+      514.0,
+      407.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     400.15,
+     514.0,
+     407.65
+    ],
+    "frame_band": [
+     400.15,
+     407.65
+    ]
+   }
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "604 Produktionshalle 0 20.11.1988 geb 33",
+   "year": 2025,
+   "identity": {
+    "asset_no": "604",
+    "sub_no": "",
+    "name": "Produktionshalle 0",
+    "acq_date": "1988-11-20",
+    "method": "geb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w142"
+     ],
+     "text": "2.187.527,00",
+     "cents": 218752700,
+     "status": "value",
+     "glued": false,
+     "box": [
+      298.21,
+      415.75,
+      342.0,
+      423.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w146"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      415.75,
+      514.0,
+      423.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     415.75,
+     514.0,
+     423.25
+    ],
+    "frame_band": [
+     415.75,
+     423.25
+    ]
+   }
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "784 Lagerhalle 0 25.02.2016 geb 33",
+   "year": 2025,
+   "identity": {
+    "asset_no": "784",
+    "sub_no": "",
+    "name": "Lagerhalle 0",
+    "acq_date": "2016-02-25",
+    "method": "geb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w150"
+     ],
+     "text": "511.385,41",
+     "cents": 51138541,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      431.35,
+      342.0,
+      438.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w154"
+     ],
+     "text": "357.711,51",
+     "cents": 35771151,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      431.35,
+      514.0,
+      438.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     431.35,
+     514.0,
+     438.85
+    ],
+    "frame_band": [
+     431.35,
+     438.85
+    ]
+   }
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "799 Werkstattgebäude 0 21.09.2025 geb 33",
+   "year": 2025,
+   "identity": {
+    "asset_no": "799",
+    "sub_no": "",
+    "name": "Werkstattgebäude 0",
+    "acq_date": "2025-09-21",
+    "method": "geb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w158"
+     ],
+     "text": "2.041.300,64",
+     "cents": 204130064,
+     "status": "value",
+     "glued": false,
+     "box": [
+      298.21,
+      446.95,
+      342.0,
+      454.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w162"
+     ],
+     "text": "2.020.681,44",
+     "cents": 202068144,
+     "status": "value",
+     "glued": false,
+     "box": [
+      470.21,
+      446.95,
+      514.0,
+      454.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     446.95,
+     514.0,
+     454.45
+    ],
+    "frame_band": [
+     446.95,
+     454.45
+    ]
+   }
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "957 Anbau Sozialtrakt 0 21.09.2025 geb 33",
+   "year": 2025,
+   "identity": {
+    "asset_no": "957",
+    "sub_no": "",
+    "name": "Anbau Sozialtrakt 0",
+    "acq_date": "2025-09-21",
+    "method": "geb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w167"
+     ],
+     "text": "1.278.962,83",
+     "cents": 127896283,
+     "status": "value",
+     "glued": false,
+     "box": [
+      298.21,
+      462.55,
+      342.0,
+      470.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w171"
+     ],
+     "text": "1.266.044,01",
+     "cents": 126604401,
+     "status": "value",
+     "glued": false,
+     "box": [
+      470.21,
+      462.55,
+      514.0,
+      470.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     462.55,
+     514.0,
+     470.05
+    ],
+    "frame_band": [
+     462.55,
+     470.05
+    ]
+   }
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w173"
+     ],
+     "text": "7.513.721,26",
+     "cents": 751372126,
+     "status": "value",
+     "glued": false,
+     "box": [
+      298.21,
+      478.15,
+      342.0,
+      485.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w174"
+     ],
+     "text": "5.135.209,24",
+     "cents": 513520924,
+     "status": "value",
+     "glued": false,
+     "box": [
+      470.21,
+      478.15,
+      514.0,
+      485.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     478.15,
+     514.0,
+     485.65
+    ],
+    "frame_band": [
+     478.15,
+     485.65
+    ]
+   }
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "184e Ständerbohrmaschine (gebraucht) 07.11.2009 lin 10",
+   "year": 2025,
+   "identity": {
+    "asset_no": "184",
+    "sub_no": "e",
+    "name": "Ständerbohrmaschine (gebraucht)",
+    "acq_date": "2009-11-07",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w180"
+     ],
+     "text": "306.846,28",
+     "cents": 30684628,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      517.75,
+      342.0,
+      525.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w184"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      517.75,
+      514.0,
+      525.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     517.75,
+     514.0,
+     525.25
+    ],
+    "frame_band": [
+     517.75,
+     525.25
+    ]
+   }
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2581 Hydraulikpresse 12.05.2025 lin 15",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2581",
+    "sub_no": "",
+    "name": "Hydraulikpresse",
+    "acq_date": "2025-05-12",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w187"
+     ],
+     "text": "28.544,91",
+     "cents": 2854491,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      533.35,
+      342.0,
+      540.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w191"
+     ],
+     "text": "27.276,25",
+     "cents": 2727625,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      533.35,
+      514.0,
+      540.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     533.35,
+     514.0,
+     540.85
+    ],
+    "frame_band": [
+     533.35,
+     540.85
+    ]
+   }
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "4356 Laserschneidanlage Nr. 24 30.11.2020 lin 8",
+   "year": 2025,
+   "identity": {
+    "asset_no": "4356",
+    "sub_no": "",
+    "name": "Laserschneidanlage Nr. 24",
+    "acq_date": "2020-11-30",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w196"
+     ],
+     "text": "19.644,00",
+     "cents": 1964400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      548.95,
+      342.0,
+      556.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w200"
+     ],
+     "text": "6.957,25",
+     "cents": 695725,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      548.95,
+      514.0,
+      556.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     548.95,
+     514.0,
+     556.45
+    ],
+    "frame_band": [
+     548.95,
+     556.45
+    ]
+   }
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "481 Bandsäge 17.07.2008 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "481",
+    "sub_no": "",
+    "name": "Bandsäge",
+    "acq_date": "2008-07-17",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w203"
+     ],
+     "text": "54.347,49",
+     "cents": 5434749,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      564.55,
+      342.0,
+      572.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w207"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      564.55,
+      514.0,
+      572.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     564.55,
+     514.0,
+     572.05
+    ],
+    "frame_band": [
+     564.55,
+     572.05
+    ]
+   }
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "761 Flachschleifmaschine 09.07.2014 lin 8",
+   "year": 2025,
+   "identity": {
+    "asset_no": "761",
+    "sub_no": "",
+    "name": "Flachschleifmaschine",
+    "acq_date": "2014-07-09",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w210"
+     ],
+     "text": "17.282,12",
+     "cents": 1728212,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      580.15,
+      342.0,
+      587.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w214"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      580.15,
+      514.0,
+      587.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     580.15,
+     514.0,
+     587.65
+    ],
+    "frame_band": [
+     580.15,
+     587.65
+    ]
+   }
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "769 Schraubenkompressor (gebraucht) 18.02.2025 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "769",
+    "sub_no": "",
+    "name": "Schraubenkompressor (gebraucht)",
+    "acq_date": "2025-02-18",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w218"
+     ],
+     "text": "325.842,00",
+     "cents": 32584200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      595.75,
+      342.0,
+      603.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w222"
+     ],
+     "text": "302.865,96",
+     "cents": 30286596,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      595.75,
+      514.0,
+      603.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     595.75,
+     514.0,
+     603.25
+    ],
+    "frame_band": [
+     595.75,
+     603.25
+    ]
+   }
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "942 Spritzgießmaschine 30.10.2025 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "942",
+    "sub_no": "",
+    "name": "Spritzgießmaschine",
+    "acq_date": "2025-10-30",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w225"
+     ],
+     "text": "300.330,93",
+     "cents": 30033093,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      611.35,
+      342.0,
+      618.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w229"
+     ],
+     "text": "294.555,34",
+     "cents": 29455534,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      611.35,
+      514.0,
+      618.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     611.35,
+     514.0,
+     618.85
+    ],
+    "frame_band": [
+     611.35,
+     618.85
+    ]
+   }
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w231"
+     ],
+     "text": "1.052.837,73",
+     "cents": 105283773,
+     "status": "value",
+     "glued": false,
+     "box": [
+      298.21,
+      626.95,
+      342.0,
+      634.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w232"
+     ],
+     "text": "631.657,80",
+     "cents": 63165780,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      626.95,
+      514.0,
+      634.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     626.95,
+     514.0,
+     634.45
+    ],
+    "frame_band": [
+     626.95,
+     634.45
+    ]
+   }
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "159 Photovoltaikanlage Dach 0 22.12.2020 lin 15",
+   "year": 2025,
+   "identity": {
+    "asset_no": "159",
+    "sub_no": "",
+    "name": "Photovoltaikanlage Dach 0",
+    "acq_date": "2020-12-22",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w239"
+     ],
+     "text": "10.891,90",
+     "cents": 1089190,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      666.55,
+      342.0,
+      674.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w243"
+     ],
+     "text": "7.200,76",
+     "cents": 720076,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      666.55,
+      514.0,
+      674.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     666.55,
+     514.0,
+     674.05
+    ],
+    "frame_band": [
+     666.55,
+     674.05
+    ]
+   }
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "198 Kälteanlage 0 31.03.2018 lin 15",
+   "year": 2025,
+   "identity": {
+    "asset_no": "198",
+    "sub_no": "",
+    "name": "Kälteanlage 0",
+    "acq_date": "2018-03-31",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w247"
+     ],
+     "text": "16.092,47",
+     "cents": 1609247,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      682.15,
+      342.0,
+      689.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w251"
+     ],
+     "text": "7.688,62",
+     "cents": 768862,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      682.15,
+      514.0,
+      689.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     682.15,
+     514.0,
+     689.65
+    ],
+    "frame_band": [
+     682.15,
+     689.65
+    ]
+   }
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2836 Photovoltaikanlage Dach 0 10.03.2009 lin 10",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2836",
+    "sub_no": "",
+    "name": "Photovoltaikanlage Dach 0",
+    "acq_date": "2009-03-10",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w256"
+     ],
+     "text": "186.785,18",
+     "cents": 18678518,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      697.75,
+      342.0,
+      705.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w260"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      697.75,
+      514.0,
+      705.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     697.75,
+     514.0,
+     705.25
+    ],
+    "frame_band": [
+     697.75,
+     705.25
+    ]
+   }
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "4790 Photovoltaikanlage Dach 0 07.12.2020 lin 15",
+   "year": 2025,
+   "identity": {
+    "asset_no": "4790",
+    "sub_no": "",
+    "name": "Photovoltaikanlage Dach 0",
+    "acq_date": "2020-12-07",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w265"
+     ],
+     "text": "48.787,87",
+     "cents": 4878787,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      713.35,
+      342.0,
+      720.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w269"
+     ],
+     "text": "32.254,20",
+     "cents": 3225420,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      713.35,
+      514.0,
+      720.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     713.35,
+     514.0,
+     720.85
+    ],
+    "frame_band": [
+     713.35,
+     720.85
+    ]
+   }
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "4832 Photovoltaikanlage Dach Typ A471 0 10.09.2007 lin 15",
+   "year": 2025,
+   "identity": {
+    "asset_no": "4832",
+    "sub_no": "",
+    "name": "Photovoltaikanlage Dach Typ A471 0",
+    "acq_date": "2007-09-10",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w276"
+     ],
+     "text": "85.210,00",
+     "cents": 8521000,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      728.95,
+      342.0,
+      736.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w280"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      728.95,
+      514.0,
+      736.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     728.95,
+     514.0,
+     736.45
+    ],
+    "frame_band": [
+     728.95,
+     736.45
+    ]
+   }
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "489 Notstromaggregat Halle 4 0 26.06.2025 lin 15",
+   "year": 2025,
+   "identity": {
+    "asset_no": "489",
+    "sub_no": "",
+    "name": "Notstromaggregat Halle 4 0",
+    "acq_date": "2025-06-26",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w286"
+     ],
+     "text": "30.401,00",
+     "cents": 3040100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      744.55,
+      342.0,
+      752.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w290"
+     ],
+     "text": "29.218,74",
+     "cents": 2921874,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      744.55,
+      514.0,
+      752.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     744.55,
+     514.0,
+     752.05
+    ],
+    "frame_band": [
+     744.55,
+     752.05
+    ]
+   }
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "62 Photovoltaikanlage Dach 0 20.09.2006 lin 10",
+   "year": 2025,
+   "identity": {
+    "asset_no": "62",
+    "sub_no": "",
+    "name": "Photovoltaikanlage Dach 0",
+    "acq_date": "2006-09-20",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w295"
+     ],
+     "text": "185.705,00",
+     "cents": 18570500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      760.15,
+      342.0,
+      767.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w299"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      760.15,
+      514.0,
+      767.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     760.15,
+     514.0,
+     767.65
+    ],
+    "frame_band": [
+     760.15,
+     767.65
+    ]
+   }
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w301"
+     ],
+     "text": "563.873,42",
+     "cents": 56387342,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      775.75,
+      342.0,
+      783.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w302"
+     ],
+     "text": "76.365,32",
+     "cents": 7636532,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      775.75,
+      514.0,
+      783.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     45.0,
+     775.75,
+     514.0,
+     783.25
+    ],
+    "frame_band": [
+     775.75,
+     783.25
+    ]
+   }
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "119 Pkw Elektro 0 12.09.2025 lin 6",
+   "year": 2025,
+   "identity": {
+    "asset_no": "119",
+    "sub_no": "",
+    "name": "Pkw Elektro 0",
+    "acq_date": "2025-09-12",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w38"
+     ],
+     "text": "22.930,57",
+     "cents": 2293057,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      156.35,
+      342.0,
+      163.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w42"
+     ],
+     "text": "21.656,65",
+     "cents": 2165665,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      156.35,
+      514.0,
+      163.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     156.35,
+     514.0,
+     163.85
+    ],
+    "frame_band": [
+     156.35,
+     163.85
+    ]
+   }
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "14 Pkw Elektro 0 01.08.2025 lin 6",
+   "year": 2025,
+   "identity": {
+    "asset_no": "14",
+    "sub_no": "",
+    "name": "Pkw Elektro 0",
+    "acq_date": "2025-08-01",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w47"
+     ],
+     "text": "39.300,09",
+     "cents": 3930009,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      171.95,
+      342.0,
+      179.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w51"
+     ],
+     "text": "36.570,92",
+     "cents": 3657092,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      171.95,
+      514.0,
+      179.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     171.95,
+     514.0,
+     179.45
+    ],
+    "frame_band": [
+     171.95,
+     179.45
+    ]
+   }
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "31f Pkw Elektro 0 21.04.2025 lin 6",
+   "year": 2025,
+   "identity": {
+    "asset_no": "31",
+    "sub_no": "f",
+    "name": "Pkw Elektro 0",
+    "acq_date": "2025-04-21",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w56"
+     ],
+     "text": "55.375,95",
+     "cents": 5537595,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      187.55,
+      342.0,
+      195.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w60"
+     ],
+     "text": "48.453,96",
+     "cents": 4845396,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      187.55,
+      514.0,
+      195.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     187.55,
+     514.0,
+     195.05
+    ],
+    "frame_band": [
+     187.55,
+     195.05
+    ]
+   }
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "555 Pkw Kombi Diesel (gebraucht) 0 20.07.2021 lin 6",
+   "year": 2025,
+   "identity": {
+    "asset_no": "555",
+    "sub_no": "",
+    "name": "Pkw Kombi Diesel (gebraucht) 0",
+    "acq_date": "2021-07-20",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w67"
+     ],
+     "text": "38.377,75",
+     "cents": 3837775,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      203.15,
+      342.0,
+      210.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w71"
+     ],
+     "text": "9.594,44",
+     "cents": 959444,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      203.15,
+      514.0,
+      210.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     203.15,
+     514.0,
+     210.65
+    ],
+    "frame_band": [
+     203.15,
+     210.65
+    ]
+   }
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "577 Kleintransporter (gebraucht) 0 26.10.2025 lin 6",
+   "year": 2025,
+   "identity": {
+    "asset_no": "577",
+    "sub_no": "",
+    "name": "Kleintransporter (gebraucht) 0",
+    "acq_date": "2025-10-26",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w76"
+     ],
+     "text": "65.539,00",
+     "cents": 6553900,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      218.75,
+      342.0,
+      226.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w80"
+     ],
+     "text": "62.808,21",
+     "cents": 6280821,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      218.75,
+      514.0,
+      226.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     218.75,
+     514.0,
+     226.25
+    ],
+    "frame_band": [
+     218.75,
+     226.25
+    ]
+   }
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "738 Pkw Kompaktklasse Nr. 3 0 12.10.2019 lin 6",
+   "year": 2025,
+   "identity": {
+    "asset_no": "738",
+    "sub_no": "",
+    "name": "Pkw Kompaktklasse Nr. 3 0",
+    "acq_date": "2019-10-12",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w87"
+     ],
+     "text": "76.571,32",
+     "cents": 7657132,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      234.35,
+      342.0,
+      241.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w91"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      234.35,
+      514.0,
+      241.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     234.35,
+     514.0,
+     241.85
+    ],
+    "frame_band": [
+     234.35,
+     241.85
+    ]
+   }
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "87a Pkw Elektro 0 10.12.2018 lin 6",
+   "year": 2025,
+   "identity": {
+    "asset_no": "87",
+    "sub_no": "a",
+    "name": "Pkw Elektro 0",
+    "acq_date": "2018-12-10",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w96"
+     ],
+     "text": "71.893,56",
+     "cents": 7189356,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      249.95,
+      342.0,
+      257.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w100"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      249.95,
+      514.0,
+      257.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     249.95,
+     514.0,
+     257.45
+    ],
+    "frame_band": [
+     249.95,
+     257.45
+    ]
+   }
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w102"
+     ],
+     "text": "369.988,24",
+     "cents": 36998824,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      265.55,
+      342.0,
+      273.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w103"
+     ],
+     "text": "179.086,18",
+     "cents": 17908618,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      265.55,
+      514.0,
+      273.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     265.55,
+     514.0,
+     273.05
+    ],
+    "frame_band": [
+     265.55,
+     273.05
+    ]
+   }
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "146 Tandemanhänger Nr. 37 0 09.01.2015 lin 9",
+   "year": 2025,
+   "identity": {
+    "asset_no": "146",
+    "sub_no": "",
+    "name": "Tandemanhänger Nr. 37 0",
+    "acq_date": "2015-01-09",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w111"
+     ],
+     "text": "39.544,00",
+     "cents": 3954400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      305.15,
+      342.0,
+      312.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w115"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      305.15,
+      514.0,
+      312.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     305.15,
+     514.0,
+     312.65
+    ],
+    "frame_band": [
+     305.15,
+     312.65
+    ]
+   }
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "381a Tandemanhänger 0 20.04.2020 lin 9",
+   "year": 2025,
+   "identity": {
+    "asset_no": "381",
+    "sub_no": "a",
+    "name": "Tandemanhänger 0",
+    "acq_date": "2020-04-20",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w119"
+     ],
+     "text": "41.077,00",
+     "cents": 4107700,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      320.75,
+      342.0,
+      328.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w123"
+     ],
+     "text": "14.833,36",
+     "cents": 1483336,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      320.75,
+      514.0,
+      328.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     320.75,
+     514.0,
+     328.25
+    ],
+    "frame_band": [
+     320.75,
+     328.25
+    ]
+   }
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "41 Tandemanhänger 0 23.03.2017 lin 9",
+   "year": 2025,
+   "identity": {
+    "asset_no": "41",
+    "sub_no": "",
+    "name": "Tandemanhänger 0",
+    "acq_date": "2017-03-23",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w127"
+     ],
+     "text": "78.143,00",
+     "cents": 7814300,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      336.35,
+      342.0,
+      343.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w131"
+     ],
+     "text": "1.447,09",
+     "cents": 144709,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      336.35,
+      514.0,
+      343.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     336.35,
+     514.0,
+     343.85
+    ],
+    "frame_band": [
+     336.35,
+     343.85
+    ]
+   }
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "427a Sattelzugmaschine Typ R649 0 15.11.2019 lin 9",
+   "year": 2025,
+   "identity": {
+    "asset_no": "427",
+    "sub_no": "a",
+    "name": "Sattelzugmaschine Typ R649 0",
+    "acq_date": "2019-11-15",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w137"
+     ],
+     "text": "53.824,00",
+     "cents": 5382400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      351.95,
+      342.0,
+      359.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w141"
+     ],
+     "text": "16.944,59",
+     "cents": 1694459,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      351.95,
+      514.0,
+      359.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     351.95,
+     514.0,
+     359.45
+    ],
+    "frame_band": [
+     351.95,
+     359.45
+    ]
+   }
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "473 Sattelzugmaschine 0 07.10.2023 lin 9",
+   "year": 2025,
+   "identity": {
+    "asset_no": "473",
+    "sub_no": "",
+    "name": "Sattelzugmaschine 0",
+    "acq_date": "2023-10-07",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w145"
+     ],
+     "text": "136.396,49",
+     "cents": 13639649,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      367.55,
+      342.0,
+      375.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w149"
+     ],
+     "text": "102.297,37",
+     "cents": 10229737,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      367.55,
+      514.0,
+      375.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     367.55,
+     514.0,
+     375.05
+    ],
+    "frame_band": [
+     367.55,
+     375.05
+    ]
+   }
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "4871 Kastenwagen Nr. 28 0 22.04.2025 lin 9",
+   "year": 2025,
+   "identity": {
+    "asset_no": "4871",
+    "sub_no": "",
+    "name": "Kastenwagen Nr. 28 0",
+    "acq_date": "2025-04-22",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w155"
+     ],
+     "text": "172.683,70",
+     "cents": 17268370,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      383.15,
+      342.0,
+      390.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w159"
+     ],
+     "text": "158.293,39",
+     "cents": 15829339,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      383.15,
+      514.0,
+      390.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     383.15,
+     514.0,
+     390.65
+    ],
+    "frame_band": [
+     383.15,
+     390.65
+    ]
+   }
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "62C Kastenwagen 0 22.10.2021 lin 9",
+   "year": 2025,
+   "identity": {
+    "asset_no": "62",
+    "sub_no": "",
+    "name": "C Kastenwagen 0",
+    "acq_date": "2021-10-22",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w163"
+     ],
+     "text": "32.263,63",
+     "cents": 3226363,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      398.75,
+      342.0,
+      406.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w167"
+     ],
+     "text": "17.028,03",
+     "cents": 1702803,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      398.75,
+      514.0,
+      406.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     398.75,
+     514.0,
+     406.25
+    ],
+    "frame_band": [
+     398.75,
+     406.25
+    ]
+   }
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "969 Sattelzugmaschine (gebraucht) 0 27.12.2025 lin 9",
+   "year": 2025,
+   "identity": {
+    "asset_no": "969",
+    "sub_no": "",
+    "name": "Sattelzugmaschine (gebraucht) 0",
+    "acq_date": "2025-12-27",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w172"
+     ],
+     "text": "39.218,82",
+     "cents": 3921882,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      414.35,
+      342.0,
+      421.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w176"
+     ],
+     "text": "38.855,68",
+     "cents": 3885568,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      414.35,
+      514.0,
+      421.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     414.35,
+     514.0,
+     421.85
+    ],
+    "frame_band": [
+     414.35,
+     421.85
+    ]
+   }
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w178"
+     ],
+     "text": "593.150,64",
+     "cents": 59315064,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      429.95,
+      342.0,
+      437.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w179"
+     ],
+     "text": "349.700,51",
+     "cents": 34970051,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      429.95,
+      514.0,
+      437.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     429.95,
+     514.0,
+     437.45
+    ],
+    "frame_band": [
+     429.95,
+     437.45
+    ]
+   }
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "1462c Werkbank Nr. 31 0 20.11.2024 lin 8",
+   "year": 2025,
+   "identity": {
+    "asset_no": "1462",
+    "sub_no": "c",
+    "name": "Werkbank Nr. 31 0",
+    "acq_date": "2024-11-20",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w187"
+     ],
+     "text": "13.933,00",
+     "cents": 1393300,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      469.55,
+      342.0,
+      477.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w191"
+     ],
+     "text": "11.901,10",
+     "cents": 1190110,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      469.55,
+      514.0,
+      477.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     469.55,
+     514.0,
+     477.05
+    ],
+    "frame_band": [
+     469.55,
+     477.05
+    ]
+   }
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "3729A Palettenregal Nr. 7 0 26.08.2022 lin 10",
+   "year": 2025,
+   "identity": {
+    "asset_no": "3729",
+    "sub_no": "",
+    "name": "A Palettenregal Nr. 7 0",
+    "acq_date": "2022-08-26",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w197"
+     ],
+     "text": "17.154,63",
+     "cents": 1715463,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      485.15,
+      342.0,
+      492.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w201"
+     ],
+     "text": "11.293,46",
+     "cents": 1129346,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      485.15,
+      514.0,
+      492.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     485.15,
+     514.0,
+     492.65
+    ],
+    "frame_band": [
+     485.15,
+     492.65
+    ]
+   }
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "501 Werkbank (gebraucht) 0 11.11.2014 lin 10",
+   "year": 2025,
+   "identity": {
+    "asset_no": "501",
+    "sub_no": "",
+    "name": "Werkbank (gebraucht) 0",
+    "acq_date": "2014-11-11",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w206"
+     ],
+     "text": "10.782,00",
+     "cents": 1078200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      500.75,
+      342.0,
+      508.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w210"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      500.75,
+      514.0,
+      508.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     500.75,
+     514.0,
+     508.25
+    ],
+    "frame_band": [
+     500.75,
+     508.25
+    ]
+   }
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "971 Elektro-Hubwagen 0 20.01.2018 lin 5",
+   "year": 2025,
+   "identity": {
+    "asset_no": "971",
+    "sub_no": "",
+    "name": "Elektro-Hubwagen 0",
+    "acq_date": "2018-01-20",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w214"
+     ],
+     "text": "5.714,00",
+     "cents": 571400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      516.35,
+      342.0,
+      523.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w218"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      516.35,
+      514.0,
+      523.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     516.35,
+     514.0,
+     523.85
+    ],
+    "frame_band": [
+     516.35,
+     523.85
+    ]
+   }
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w220"
+     ],
+     "text": "47.583,63",
+     "cents": 4758363,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      531.95,
+      342.0,
+      539.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w221"
+     ],
+     "text": "23.196,56",
+     "cents": 2319656,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      531.95,
+      514.0,
+      539.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     531.95,
+     514.0,
+     539.45
+    ],
+    "frame_band": [
+     531.95,
+     539.45
+    ]
+   }
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "1448 Schreibtisch höhenverstellbar Nr. 37 0 21.01.2012 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "1448",
+    "sub_no": "",
+    "name": "Schreibtisch höhenverstellbar Nr. 37 0",
+    "acq_date": "2012-01-21",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w230"
+     ],
+     "text": "2.975,14",
+     "cents": 297514,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      571.55,
+      342.0,
+      579.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w234"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      571.55,
+      514.0,
+      579.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     571.55,
+     514.0,
+     579.05
+    ],
+    "frame_band": [
+     571.55,
+     579.05
+    ]
+   }
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "180 Empfangstheke Nr. 32 0 09.06.2024 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "180",
+    "sub_no": "",
+    "name": "Empfangstheke Nr. 32 0",
+    "acq_date": "2024-06-09",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w240"
+     ],
+     "text": "1.472,37",
+     "cents": 147237,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      587.15,
+      342.0,
+      594.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w244"
+     ],
+     "text": "1.293,04",
+     "cents": 129304,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      587.15,
+      514.0,
+      594.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     587.15,
+     514.0,
+     594.65
+    ],
+    "frame_band": [
+     587.15,
+     594.65
+    ]
+   }
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "1943A Regalsystem Archiv (gebraucht) 0 26.04.2008 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "1943",
+    "sub_no": "",
+    "name": "A Regalsystem Archiv (gebraucht) 0",
+    "acq_date": "2008-04-26",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w250"
+     ],
+     "text": "3.482,00",
+     "cents": 348200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      602.75,
+      342.0,
+      610.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w254"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      602.75,
+      514.0,
+      610.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     602.75,
+     514.0,
+     610.25
+    ],
+    "frame_band": [
+     602.75,
+     610.25
+    ]
+   }
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "22 Rollcontainer 0 06.07.2007 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "22",
+    "sub_no": "",
+    "name": "Rollcontainer 0",
+    "acq_date": "2007-07-06",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w258"
+     ],
+     "text": "17.253,00",
+     "cents": 1725300,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      618.35,
+      342.0,
+      625.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w262"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      618.35,
+      514.0,
+      625.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     618.35,
+     514.0,
+     625.85
+    ],
+    "frame_band": [
+     618.35,
+     625.85
+    ]
+   }
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "34 Besprechungstisch Halle 5 0 28.09.2008 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "34",
+    "sub_no": "",
+    "name": "Besprechungstisch Halle 5 0",
+    "acq_date": "2008-09-28",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w268"
+     ],
+     "text": "1.010,13",
+     "cents": 101013,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      633.95,
+      342.0,
+      641.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w272"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      633.95,
+      514.0,
+      641.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     633.95,
+     514.0,
+     641.45
+    ],
+    "frame_band": [
+     633.95,
+     641.45
+    ]
+   }
+  },
+  {
+   "id": "r62",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "612 Besprechungstisch Halle 3 0 20.01.2021 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "612",
+    "sub_no": "",
+    "name": "Besprechungstisch Halle 3 0",
+    "acq_date": "2021-01-20",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w278"
+     ],
+     "text": "799,00",
+     "cents": 79900,
+     "status": "value",
+     "glued": false,
+     "box": [
+      319.06,
+      649.55,
+      342.0,
+      657.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w282"
+     ],
+     "text": "491,69",
+     "cents": 49169,
+     "status": "value",
+     "glued": false,
+     "box": [
+      491.06,
+      649.55,
+      514.0,
+      657.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     649.55,
+     514.0,
+     657.05
+    ],
+    "frame_band": [
+     649.55,
+     657.05
+    ]
+   }
+  },
+  {
+   "id": "r63",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "685 Schrankwand Büro (gebraucht) 0 10.11.2019 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "685",
+    "sub_no": "",
+    "name": "Schrankwand Büro (gebraucht) 0",
+    "acq_date": "2019-11-10",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w288"
+     ],
+     "text": "7.979,66",
+     "cents": 797966,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      665.15,
+      342.0,
+      672.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w292"
+     ],
+     "text": "4.194,44",
+     "cents": 419444,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      665.15,
+      514.0,
+      672.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     665.15,
+     514.0,
+     672.65
+    ],
+    "frame_band": [
+     665.15,
+     672.65
+    ]
+   }
+  },
+  {
+   "id": "r64",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "720f Bürostuhl ergonomisch Typ F584 0 23.07.2025 lin 13",
+   "year": 2025,
+   "identity": {
+    "asset_no": "720",
+    "sub_no": "f",
+    "name": "Bürostuhl ergonomisch Typ F584 0",
+    "acq_date": "2025-07-23",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w299"
+     ],
+     "text": "3.416,61",
+     "cents": 341661,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      680.75,
+      342.0,
+      688.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w303"
+     ],
+     "text": "3.285,20",
+     "cents": 328520,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      680.75,
+      514.0,
+      688.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     680.75,
+     514.0,
+     688.25
+    ],
+    "frame_band": [
+     680.75,
+     688.25
+    ]
+   }
+  },
+  {
+   "id": "r65",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "943 Schreibtisch höhenverstellbar 0 25.02.2023 lin 13 28.05.25 (gebraucht)",
+   "year": 2025,
+   "identity": {
+    "asset_no": "943",
+    "sub_no": "",
+    "name": "Schreibtisch höhenverstellbar 0",
+    "acq_date": "2023-02-25",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w309"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      327.4,
+      696.35,
+      342.0,
+      703.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w313"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      696.35,
+      514.0,
+      703.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     696.35,
+     547.19,
+     703.85
+    ],
+    "frame_band": [
+     696.35,
+     703.85
+    ]
+   }
+  },
+  {
+   "id": "r66",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w316"
+     ],
+     "text": "38.387,91",
+     "cents": 3838791,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      720.55,
+      342.0,
+      728.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w317"
+     ],
+     "text": "9.268,37",
+     "cents": 926837,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      720.55,
+      514.0,
+      728.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     720.55,
+     514.0,
+     728.05
+    ],
+    "frame_band": [
+     720.55,
+     728.05
+    ]
+   }
+  },
+  {
+   "id": "r67",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "201 Bürostuhl 0 07.09.2023 sb 1",
+   "year": 2025,
+   "identity": {
+    "asset_no": "201",
+    "sub_no": "",
+    "name": "Bürostuhl 0",
+    "acq_date": "2023-09-07",
+    "method": "sb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w323"
+     ],
+     "text": "348,05",
+     "cents": 34805,
+     "status": "value",
+     "glued": false,
+     "box": [
+      319.06,
+      760.15,
+      342.0,
+      767.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w327"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      760.15,
+      514.0,
+      767.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     760.15,
+     514.0,
+     767.65
+    ],
+    "frame_band": [
+     760.15,
+     767.65
+    ]
+   }
+  },
+  {
+   "id": "r68",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2208 Laserdrucker 0 24.03.2023 sb 1",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2208",
+    "sub_no": "",
+    "name": "Laserdrucker 0",
+    "acq_date": "2023-03-24",
+    "method": "sb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w331"
+     ],
+     "text": "306,00",
+     "cents": 30600,
+     "status": "value",
+     "glued": false,
+     "box": [
+      319.06,
+      775.75,
+      342.0,
+      783.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w335"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      775.75,
+      514.0,
+      783.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     775.75,
+     514.0,
+     783.25
+    ],
+    "frame_band": [
+     775.75,
+     783.25
+    ]
+   }
+  },
+  {
+   "id": "r69",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "3462 Aktenvernichter 0 07.08.2024 sb 1",
+   "year": 2025,
+   "identity": {
+    "asset_no": "3462",
+    "sub_no": "",
+    "name": "Aktenvernichter 0",
+    "acq_date": "2024-08-07",
+    "method": "sb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w339"
+     ],
+     "text": "531,00",
+     "cents": 53100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      319.06,
+      791.35,
+      342.0,
+      798.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w343"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      791.35,
+      514.0,
+      798.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     45.0,
+     791.35,
+     514.0,
+     798.85
+    ],
+    "frame_band": [
+     791.35,
+     798.85
+    ]
+   }
+  },
+  {
+   "id": "r70",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "521 Laserdrucker 0 11.10.2021 sb 1",
+   "year": 2025,
+   "identity": {
+    "asset_no": "521",
+    "sub_no": "",
+    "name": "Laserdrucker 0",
+    "acq_date": "2021-10-11",
+    "method": "sb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w35"
+     ],
+     "text": "309,00",
+     "cents": 30900,
+     "status": "value",
+     "glued": false,
+     "box": [
+      319.06,
+      132.35,
+      342.0,
+      139.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      132.35,
+      514.0,
+      139.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     132.35,
+     514.0,
+     139.85
+    ],
+    "frame_band": [
+     132.35,
+     139.85
+    ]
+   }
+  },
+  {
+   "id": "r71",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "691 Kaffeevollautomat 0 20.01.2025 sb 1",
+   "year": 2025,
+   "identity": {
+    "asset_no": "691",
+    "sub_no": "",
+    "name": "Kaffeevollautomat 0",
+    "acq_date": "2025-01-20",
+    "method": "sb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w43"
+     ],
+     "text": "744,99",
+     "cents": 74499,
+     "status": "value",
+     "glued": false,
+     "box": [
+      319.06,
+      147.95,
+      342.0,
+      155.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      147.95,
+      514.0,
+      155.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     147.95,
+     514.0,
+     155.45
+    ],
+    "frame_band": [
+     147.95,
+     155.45
+    ]
+   }
+  },
+  {
+   "id": "r72",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "71 Akkuschrauber 0 19.04.2025 sb 1",
+   "year": 2025,
+   "identity": {
+    "asset_no": "71",
+    "sub_no": "",
+    "name": "Akkuschrauber 0",
+    "acq_date": "2025-04-19",
+    "method": "sb"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w51"
+     ],
+     "text": "464,11",
+     "cents": 46411,
+     "status": "value",
+     "glued": false,
+     "box": [
+      319.06,
+      163.55,
+      342.0,
+      171.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      163.55,
+      514.0,
+      171.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     163.55,
+     514.0,
+     171.05
+    ],
+    "frame_band": [
+     163.55,
+     171.05
+    ]
+   }
+  },
+  {
+   "id": "r73",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w57"
+     ],
+     "text": "2.703,15",
+     "cents": 270315,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      179.15,
+      342.0,
+      186.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      179.15,
+      514.0,
+      186.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     179.15,
+     514.0,
+     186.65
+    ],
+    "frame_band": [
+     179.15,
+     186.65
+    ]
+   }
+  },
+  {
+   "id": "r74",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2303 Netzwerk-Switch 48 Port Typ H787 0 10.09.2019 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2303",
+    "sub_no": "",
+    "name": "Netzwerk-Switch 48 Port Typ H787 0",
+    "acq_date": "2019-09-10",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w68"
+     ],
+     "text": "1.367,58",
+     "cents": 136758,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      218.75,
+      342.0,
+      226.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w72"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      218.75,
+      514.0,
+      226.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     218.75,
+     514.0,
+     226.25
+    ],
+    "frame_band": [
+     218.75,
+     226.25
+    ]
+   }
+  },
+  {
+   "id": "r75",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2859c Server 2HE (gebraucht) 0 21.08.2017 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2859",
+    "sub_no": "c",
+    "name": "Server 2HE (gebraucht) 0",
+    "acq_date": "2017-08-21",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w78"
+     ],
+     "text": "2.983,00",
+     "cents": 298300,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      234.35,
+      342.0,
+      241.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w82"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      234.35,
+      514.0,
+      241.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     234.35,
+     514.0,
+     241.85
+    ],
+    "frame_band": [
+     234.35,
+     241.85
+    ]
+   }
+  },
+  {
+   "id": "r76",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "325 Workstation CAD (gebraucht) 0 17.04.2023 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "325",
+    "sub_no": "",
+    "name": "Workstation CAD (gebraucht) 0",
+    "acq_date": "2023-04-17",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w88"
+     ],
+     "text": "17.058,00",
+     "cents": 1705800,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      249.95,
+      342.0,
+      257.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w92"
+     ],
+     "text": "1.421,50",
+     "cents": 142150,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      249.95,
+      514.0,
+      257.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     249.95,
+     514.0,
+     257.45
+    ],
+    "frame_band": [
+     249.95,
+     257.45
+    ]
+   }
+  },
+  {
+   "id": "r77",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "391 Netzwerk-Switch 48 Port Typ R643 0 22.03.2020 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "391",
+    "sub_no": "",
+    "name": "Netzwerk-Switch 48 Port Typ R643 0",
+    "acq_date": "2020-03-22",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w100"
+     ],
+     "text": "962,00",
+     "cents": 96200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      319.06,
+      265.55,
+      342.0,
+      273.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w104"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      265.55,
+      514.0,
+      273.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     265.55,
+     514.0,
+     273.05
+    ],
+    "frame_band": [
+     265.55,
+     273.05
+    ]
+   }
+  },
+  {
+   "id": "r78",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "4622 Firewall-Appliance 0 08.01.2019 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "4622",
+    "sub_no": "",
+    "name": "Firewall-Appliance 0",
+    "acq_date": "2019-01-08",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w108"
+     ],
+     "text": "5.895,00",
+     "cents": 589500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      281.15,
+      342.0,
+      288.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w112"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      281.15,
+      514.0,
+      288.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     281.15,
+     514.0,
+     288.65
+    ],
+    "frame_band": [
+     281.15,
+     288.65
+    ]
+   }
+  },
+  {
+   "id": "r79",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "70 NAS-Speicher 0 09.10.2019 lin 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "70",
+    "sub_no": "",
+    "name": "NAS-Speicher 0",
+    "acq_date": "2019-10-09",
+    "method": "lin"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w116"
+     ],
+     "text": "1.191,00",
+     "cents": 119100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      312.81,
+      296.75,
+      342.0,
+      304.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w120"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      296.75,
+      514.0,
+      304.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     296.75,
+     514.0,
+     304.25
+    ],
+    "frame_band": [
+     296.75,
+     304.25
+    ]
+   }
+  },
+  {
+   "id": "r80",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w122"
+     ],
+     "text": "29.456,58",
+     "cents": 2945658,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      312.35,
+      342.0,
+      319.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w123"
+     ],
+     "text": "1.426,50",
+     "cents": 142650,
+     "status": "value",
+     "glued": false,
+     "box": [
+      484.81,
+      312.35,
+      514.0,
+      319.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     312.35,
+     514.0,
+     319.85
+    ],
+    "frame_band": [
+     312.35,
+     319.85
+    ]
+   }
+  },
+  {
+   "id": "r81",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "1546 Anlagen im Bau Halle 6 0 02.05.2025 k 0",
+   "year": 2025,
+   "identity": {
+    "asset_no": "1546",
+    "sub_no": "",
+    "name": "Anlagen im Bau Halle 6 0",
+    "acq_date": "2025-05-02",
+    "method": "k"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w133"
+     ],
+     "text": "71.482,00",
+     "cents": 7148200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      351.95,
+      342.0,
+      359.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w137"
+     ],
+     "text": "71.482,00",
+     "cents": 7148200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      351.95,
+      514.0,
+      359.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     351.95,
+     514.0,
+     359.45
+    ],
+    "frame_band": [
+     351.95,
+     359.45
+    ]
+   }
+  },
+  {
+   "id": "r82",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "510 AiB Spritzgießmaschine 0 25.07.2024 k 0",
+   "year": 2025,
+   "identity": {
+    "asset_no": "510",
+    "sub_no": "",
+    "name": "AiB Spritzgießmaschine 0",
+    "acq_date": "2024-07-25",
+    "method": "k"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w142"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      327.4,
+      367.55,
+      342.0,
+      375.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w146"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      499.4,
+      367.55,
+      514.0,
+      375.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     367.55,
+     514.0,
+     375.05
+    ],
+    "frame_band": [
+     367.55,
+     375.05
+    ]
+   }
+  },
+  {
+   "id": "r83",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w148"
+     ],
+     "text": "71.482,00",
+     "cents": 7148200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.64,
+      383.15,
+      342.0,
+      390.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w149"
+     ],
+     "text": "71.482,00",
+     "cents": 7148200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      480.64,
+      383.15,
+      514.0,
+      390.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     383.15,
+     514.0,
+     390.65
+    ],
+    "frame_band": [
+     383.15,
+     390.65
+    ]
+   }
+  },
+  {
+   "id": "r84",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "3580 Geschäftsanteile 0 13.12.2007 k 0 Genossenschaftsbank",
+   "year": 2025,
+   "identity": {
+    "asset_no": "3580",
+    "sub_no": "",
+    "name": "Geschäftsanteile 0",
+    "acq_date": "2007-12-13",
+    "method": "k"
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w156"
+     ],
+     "text": "172.107,00",
+     "cents": 17210700,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      422.75,
+      342.0,
+      430.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w160"
+     ],
+     "text": "146.290,95",
+     "cents": 14629095,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      422.75,
+      514.0,
+      430.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     422.75,
+     514.0,
+     430.25
+    ],
+    "frame_band": [
+     422.75,
+     430.25
+    ]
+   }
+  },
+  {
+   "id": "r85",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w162"
+     ],
+     "text": "172.107,00",
+     "cents": 17210700,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.47,
+      446.95,
+      342.0,
+      454.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w163"
+     ],
+     "text": "146.290,95",
+     "cents": 14629095,
+     "status": "value",
+     "glued": false,
+     "box": [
+      476.47,
+      446.95,
+      514.0,
+      454.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     45.0,
+     446.95,
+     514.0,
+     454.45
+    ],
+    "frame_band": [
+     446.95,
+     454.45
+    ]
+   }
+  }
+ ]
+}

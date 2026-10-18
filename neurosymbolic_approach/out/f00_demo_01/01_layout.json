@@ -1,0 +1,801 @@
+{
+ "doc_id": "f00_demo_01",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Anlagenspiegel",
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagenspiegel:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "01.01.2025",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "Zugänge",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "AHK x add"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:5",
+     "anchor": null,
+     "span": null,
+     "col": 5,
+     "header": "Abgänge",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "AHK x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "Umbuchungen",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "AHK x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "31.12.2025",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "01.01.2025",
+     "group_header": "Kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "Geschäftsjahr",
+     "group_header": "Kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:10",
+     "anchor": null,
+     "span": null,
+     "col": 10,
+     "header": "Abgänge",
+     "group_header": "Kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:11",
+     "anchor": null,
+     "span": null,
+     "col": 11,
+     "header": "Zuschreib.",
+     "group_header": "Kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "AFA x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:12",
+     "anchor": null,
+     "span": null,
+     "col": 12,
+     "header": "31.12.2025",
+     "group_header": "Kumulierte Abschreibungen",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:13",
+     "anchor": null,
+     "span": null,
+     "col": 13,
+     "header": "31.12.2025",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagenspiegel:14",
+     "anchor": null,
+     "span": null,
+     "col": 14,
+     "header": "31.12.2024",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "name": 2
+   },
+   "header_lines": [
+    "Anschaffungs- und Herstellungskosten | Kumulierte Abschreibungen | Buchwerte",
+    "Anl.-Nr. | Bezeichnung | 01.01.2025 | Zugänge | Abgänge | Umbuchungen | 31.12.2025 | 01.01.2025 | Geschäftsjahr | Abgänge | Zuschreib. | 31.12.2025 | 31.12.2025 | 31.12.2024"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 8,
+   "kind_guess": "asset",
+   "label": "27001 Office-Lizenzen Typ S146",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 9,
+   "kind_guess": "asset",
+   "label": "27002 ERP-Lizenz Halle 4",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 10,
+   "kind_guess": "asset",
+   "label": "27003 Zeiterfassung Software",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 11,
+   "kind_guess": "asset",
+   "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 12,
+   "kind_guess": "asset",
+   "label": "27005 CAD-Software Lizenz Nr. 5",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 13,
+   "kind_guess": "asset",
+   "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 14,
+   "kind_guess": "total",
+   "label": "Summe EDV-Software",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "210001 Bandsäge Typ K481",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "210002 Teilewaschanlage",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 19,
+   "kind_guess": "asset",
+   "label": "210003 CNC-Drehmaschine Halle 4",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 20,
+   "kind_guess": "asset",
+   "label": "210004 CNC-Fräszentrum 5-Achs",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 21,
+   "kind_guess": "asset",
+   "label": "210005 Spritzgießmaschine Nr. 13",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 22,
+   "kind_guess": "asset",
+   "label": "210006 Flachschleifmaschine Halle 1",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 23,
+   "kind_guess": "asset",
+   "label": "210007 Flachschleifmaschine",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 24,
+   "kind_guess": "total",
+   "label": "Summe Maschinen",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 27,
+   "kind_guess": "asset",
+   "label": "320001 Pkw Kompaktklasse Typ T708",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 28,
+   "kind_guess": "asset",
+   "label": "320002 Kleintransporter",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 29,
+   "kind_guess": "asset",
+   "label": "320003 Pkw Kombi Diesel Nr. 9",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 30,
+   "kind_guess": "asset",
+   "label": "320004 Pkw Kompaktklasse",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 31,
+   "kind_guess": "asset",
+   "label": "320005 Pkw Kombi Diesel Nr. 35",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 32,
+   "kind_guess": "asset",
+   "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 33,
+   "kind_guess": "total",
+   "label": "Summe Pkw",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 36,
+   "kind_guess": "asset",
+   "label": "420001 Aktenschrank",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 37,
+   "kind_guess": "asset",
+   "label": "420002 Bürostuhl ergonomisch",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 38,
+   "kind_guess": "asset",
+   "label": "420003 Rollcontainer Typ F29",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 39,
+   "kind_guess": "total",
+   "label": "Summe Büroeinrichtung",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 42,
+   "kind_guess": "asset",
+   "label": "480001 Aktenvernichter",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 43,
+   "kind_guess": "asset",
+   "label": "480002 Stehleuchte",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 44,
+   "kind_guess": "asset",
+   "label": "480003 Stehleuchte",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 45,
+   "kind_guess": "asset",
+   "label": "480004 Messschieber digital",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 46,
+   "kind_guess": "asset",
+   "label": "480005 Akkuschrauber",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 47,
+   "kind_guess": "asset",
+   "label": "480006 Messschieber digital",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 48,
+   "kind_guess": "total",
+   "label": "Summe Geringwertige Wirtschaftsgüter",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 51,
+   "kind_guess": "asset",
+   "label": "120001 AiB Flachschleifmaschine",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 52,
+   "kind_guess": "asset",
+   "label": "120002 Anlagen im Bau Halle 3",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 53,
+   "kind_guess": "total",
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagenspiegel",
+   "row": 55,
+   "kind_guess": "total",
+   "label": "Summe Anlagevermögen",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {}
+}

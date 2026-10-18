@@ -1,0 +1,1131 @@
+{
+ "doc_id": "f09_excel_register_08",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Anlagen",
+   "period_end": "2025-03-31",
+   "period_start": "2024-04-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagen:5",
+     "anchor": null,
+     "span": null,
+     "col": 5,
+     "header": "Restbuchwert Ende",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "Restbuchwert Beginn",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "Anschaffungswert Beginn",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "Zugänge",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "Abgänge",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:10",
+     "anchor": null,
+     "span": null,
+     "col": 10,
+     "header": "Umbuchungen",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:11",
+     "anchor": null,
+     "span": null,
+     "col": 11,
+     "header": "Anschaffungswert Ende",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:12",
+     "anchor": null,
+     "span": null,
+     "col": 12,
+     "header": "Abschreibung kum. Beginn",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:13",
+     "anchor": null,
+     "span": null,
+     "col": 13,
+     "header": "Abschreibung GJ",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:14",
+     "anchor": null,
+     "span": null,
+     "col": 14,
+     "header": "Abschreibung Abgänge",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:15",
+     "anchor": null,
+     "span": null,
+     "col": 15,
+     "header": "Zuschreibungen",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagen:16",
+     "anchor": null,
+     "span": null,
+     "col": 16,
+     "header": "Abschreibung kum. Ende",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "asset_no": 1,
+    "sub_no": 2,
+    "name": 3,
+    "acq_date": 4
+   },
+   "header_lines": [
+    "Anlagennummer | UNr. | Bezeichnung | Aktiviert | Restbuchwert Ende | Restbuchwert Beginn | Anschaffungswert Beginn | Zugänge | Abgänge | Umbuchungen | Anschaffungswert Ende | Abschreibung kum. Beginn | Abschreibung GJ | Abschreibung Abgänge | Zuschreibungen | Abschreibung kum. Ende"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 5,
+   "kind_guess": "asset",
+   "label": "100001001 0 Warenwirtschaft Modul Lager Typ K329",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 6,
+   "kind_guess": "asset",
+   "label": "100001002 0 Finanzbuchhaltung Software",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 7,
+   "kind_guess": "asset",
+   "label": "100001002 1 Finanzbuchhaltung Software Zusatzmodul",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 8,
+   "kind_guess": "asset",
+   "label": "100001003 0 Office-Lizenzen (gebraucht)",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 9,
+   "kind_guess": "asset",
+   "label": "100001004 0 Office-Lizenzen",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 10,
+   "kind_guess": "asset",
+   "label": "100001004 1 Office-Lizenzen Erweiterung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 11,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 1000 EDV-Software",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 12,
+   "kind_guess": "asset",
+   "label": "200001001 0 Grund und Boden Betriebsgelände",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 13,
+   "kind_guess": "asset",
+   "label": "200001002 0 Erweiterungsfläche",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 14,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 2000 Grund und Boden",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 15,
+   "kind_guess": "asset",
+   "label": "210001001 0 Anbau Sozialtrakt",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 16,
+   "kind_guess": "asset",
+   "label": "210001002 0 Lagerhalle",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "210001004 0 Lagerhalle",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "210001005 0 Lagerhalle",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 19,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 2100 Fabrikbauten",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 20,
+   "kind_guess": "asset",
+   "label": "300001001 0 Teilewaschanlage",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 21,
+   "kind_guess": "asset",
+   "label": "300001003 0 Verpackungsmaschine",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 22,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 3000 Maschinen",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 23,
+   "kind_guess": "asset",
+   "label": "310001001 0 Kälteanlage (gebraucht)",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 24,
+   "kind_guess": "asset",
+   "label": "310001002 0 Kälteanlage",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 25,
+   "kind_guess": "asset",
+   "label": "310001003 0 Absauganlage Nr. 11",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 26,
+   "kind_guess": "asset",
+   "label": "310001004 0 Brückenkran 5t Halle 1",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 27,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 3100 Technische Anlagen",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 28,
+   "kind_guess": "asset",
+   "label": "400001001 0 Gabelstapler (gebraucht)",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 29,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4000 Betriebsausstattung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 30,
+   "kind_guess": "asset",
+   "label": "410001001 0 Aktenschrank",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 31,
+   "kind_guess": "asset",
+   "label": "410001001 1 Aktenschrank Erweiterung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 32,
+   "kind_guess": "asset",
+   "label": "410001002 0 Schrankwand Büro",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 33,
+   "kind_guess": "asset",
+   "label": "410001003 0 Bürostuhl ergonomisch Typ A120",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 34,
+   "kind_guess": "asset",
+   "label": "410001004 0 Rollcontainer (gebraucht)",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 35,
+   "kind_guess": "asset",
+   "label": "410001005 0 Rollcontainer Halle 4",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 36,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4100 Büroeinrichtung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 37,
+   "kind_guess": "asset",
+   "label": "420001001 0 Pkw Elektro Halle 3",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 38,
+   "kind_guess": "asset",
+   "label": "420001002 0 Pkw Mittelklasse Hybrid Typ R805",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 39,
+   "kind_guess": "asset",
+   "label": "420001002 1 Pkw Mittelklasse Hybrid Typ R805 Erweiterung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 40,
+   "kind_guess": "asset",
+   "label": "420001003 0 Kleintransporter",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 41,
+   "kind_guess": "asset",
+   "label": "420001004 0 Kleintransporter Typ L805",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 42,
+   "kind_guess": "asset",
+   "label": "420001005 0 Pkw Elektro Nr. 12",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 43,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4200 Pkw",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 44,
+   "kind_guess": "asset",
+   "label": "430001001 0 Kastenwagen Typ T962",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 45,
+   "kind_guess": "asset",
+   "label": "430001002 0 Sattelzugmaschine Nr. 36",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 46,
+   "kind_guess": "asset",
+   "label": "430001003 0 Sattelzugmaschine",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 47,
+   "kind_guess": "asset",
+   "label": "430001004 0 Kastenwagen Nr. 21",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 48,
+   "kind_guess": "asset",
+   "label": "430001005 0 Kastenwagen Typ K288",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 49,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4300 Lkw",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 50,
+   "kind_guess": "asset",
+   "label": "440001001 0 Server 2HE Nr. 2",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 51,
+   "kind_guess": "asset",
+   "label": "440001002 0 Server 2HE",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 52,
+   "kind_guess": "asset",
+   "label": "440001003 0 Notebook Halle 1",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 53,
+   "kind_guess": "asset",
+   "label": "440001003 1 Notebook Halle 1 Erweiterung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 54,
+   "kind_guess": "asset",
+   "label": "440001004 0 Serverschrank 42HE",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 55,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4400 EDV-Hardware",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 56,
+   "kind_guess": "asset",
+   "label": "490001002 0 Messschieber digital",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 57,
+   "kind_guess": "asset",
+   "label": "490001003 0 Stehleuchte",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 58,
+   "kind_guess": "asset",
+   "label": "490001004 0 Laserdrucker",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 59,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4900 Geringwertige Wirtschaftsgüter",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 60,
+   "kind_guess": "asset",
+   "label": "500001001 0 AiB Verpackungsmaschine",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 61,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 5000 Anlagen im Bau",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 62,
+   "kind_guess": "asset",
+   "label": "600001001 0 Anteile Servicegesellschaft",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 63,
+   "kind_guess": "asset",
+   "label": "600001002 0 Anteile Servicegesellschaft",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 64,
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 6000 Beteiligungen",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagen",
+   "row": 65,
+   "kind_guess": "total",
+   "label": "Gesamtsumme",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {}
+}

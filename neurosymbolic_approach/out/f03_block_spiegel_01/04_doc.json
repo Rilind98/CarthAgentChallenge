@@ -1,0 +1,50 @@
+{
+ "meta": {
+  "doc_id": "f03_block_spiegel_01",
+  "source": "../A3-Hackathon-Corpus/f03_block_spiegel/f03_block_spiegel_01.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [
+     1,
+     2
+    ],
+    "sheet": null
+   },
+   {
+    "id": "s2",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "unknown"
+ },
+ "rows": [],
+ "detections": [
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+   "where": []
+  }
+ ]
+}

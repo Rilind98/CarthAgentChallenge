@@ -1,0 +1,1891 @@
+{
+ "doc_id": "f07_sap_class_summary_02",
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2101200 EDV-Software 1000 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2101200",
+    "sub_no": "",
+    "name": "EDV-Software",
+    "acq_date": null,
+    "method": null,
+    "position": "2101200",
+    "class": "1000"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D5"
+     ],
+     "text": "208.034,23",
+     "cents": 20803423,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D5"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E5"
+     ],
+     "text": "6.678,85",
+     "cents": 667885,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E5"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F5"
+     ],
+     "text": "-184.782,83",
+     "cents": -18478283,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F5"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G5"
+     ],
+     "text": "-23.056,37",
+     "cents": -2305637,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G5"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H5"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H5"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I5"
+     ],
+     "text": "6.873,88",
+     "cents": 687388,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I5"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J5"
+     ],
+     "text": "23.251,40",
+     "cents": 2325140,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J5"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A5",
+    "row": 5
+   }
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "*2101200 EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D6"
+     ],
+     "text": "208.034,23",
+     "cents": 20803423,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D6"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E6"
+     ],
+     "text": "6.678,85",
+     "cents": 667885,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E6"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F6"
+     ],
+     "text": "-184.782,83",
+     "cents": -18478283,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F6"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G6"
+     ],
+     "text": "-23.056,37",
+     "cents": -2305637,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G6"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H6"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H6"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I6"
+     ],
+     "text": "6.873,88",
+     "cents": 687388,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I6"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J6"
+     ],
+     "text": "23.251,40",
+     "cents": 2325140,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J6"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A6",
+    "row": 6
+   }
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102100 Grund und Boden 2000 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102100",
+    "sub_no": "",
+    "name": "Grund und Boden",
+    "acq_date": null,
+    "method": null,
+    "position": "2102100",
+    "class": "2000"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D7"
+     ],
+     "text": "338.383,99",
+     "cents": 33838399,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D7"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E7"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F7"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G7"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H7"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I7"
+     ],
+     "text": "338.383,99",
+     "cents": 33838399,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I7"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J7"
+     ],
+     "text": "338.383,99",
+     "cents": 33838399,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J7"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A7",
+    "row": 7
+   }
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102100 Fabrikbauten 2100 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102100",
+    "sub_no": "",
+    "name": "Fabrikbauten",
+    "acq_date": null,
+    "method": null,
+    "position": "2102100",
+    "class": "2100"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D8"
+     ],
+     "text": "4.234.901,48",
+     "cents": 423490148,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D8"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E8"
+     ],
+     "text": "839.135,55",
+     "cents": 83913555,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E8"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F8"
+     ],
+     "text": "-2.553.996,13",
+     "cents": -255399613,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F8"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G8"
+     ],
+     "text": "-71.936,32",
+     "cents": -7193632,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G8"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H8"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I8"
+     ],
+     "text": "2.448.104,58",
+     "cents": 244810458,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I8"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J8"
+     ],
+     "text": "1.680.905,35",
+     "cents": 168090535,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J8"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A8",
+    "row": 8
+   }
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "*2102100 EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D9"
+     ],
+     "text": "4.573.285,47",
+     "cents": 457328547,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D9"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E9"
+     ],
+     "text": "839.135,55",
+     "cents": 83913555,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E9"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F9"
+     ],
+     "text": "-2.553.996,13",
+     "cents": -255399613,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F9"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G9"
+     ],
+     "text": "-71.936,32",
+     "cents": -7193632,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G9"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H9"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I9"
+     ],
+     "text": "2.786.488,57",
+     "cents": 278648857,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I9"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J9"
+     ],
+     "text": "2.019.289,34",
+     "cents": 201928934,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J9"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A9",
+    "row": 9
+   }
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102200 Maschinen 3000 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102200",
+    "sub_no": "",
+    "name": "Maschinen",
+    "acq_date": null,
+    "method": null,
+    "position": "2102200",
+    "class": "3000"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D10"
+     ],
+     "text": "85.034,41",
+     "cents": 8503441,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D10"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E10"
+     ],
+     "text": "485.871,23",
+     "cents": 48587123,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E10"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F10"
+     ],
+     "text": "-71.189,10",
+     "cents": -7118910,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F10"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G10"
+     ],
+     "text": "-18.980,20",
+     "cents": -1898020,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G10"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H10"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I10"
+     ],
+     "text": "480.736,34",
+     "cents": 48073634,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I10"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J10"
+     ],
+     "text": "13.845,31",
+     "cents": 1384531,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J10"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A10",
+    "row": 10
+   }
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102200 Technische Anlagen 3100 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102200",
+    "sub_no": "",
+    "name": "Technische Anlagen",
+    "acq_date": null,
+    "method": null,
+    "position": "2102200",
+    "class": "3100"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D11"
+     ],
+     "text": "236.990,04",
+     "cents": 23699004,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D11"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E11"
+     ],
+     "text": "-74.400,36",
+     "cents": -7440036,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E11"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F11"
+     ],
+     "text": "-181.223,80",
+     "cents": -18122380,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F11"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G11"
+     ],
+     "text": "-13.056,88",
+     "cents": -1305688,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G11"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H11"
+     ],
+     "text": "52.080,25",
+     "cents": 5208025,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H11"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I11"
+     ],
+     "text": "20.389,25",
+     "cents": 2038925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I11"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J11"
+     ],
+     "text": "55.766,24",
+     "cents": 5576624,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J11"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A11",
+    "row": 11
+   }
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "*2102200 EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D12"
+     ],
+     "text": "322.024,45",
+     "cents": 32202445,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D12"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E12"
+     ],
+     "text": "411.470,87",
+     "cents": 41147087,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E12"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F12"
+     ],
+     "text": "-252.412,90",
+     "cents": -25241290,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F12"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G12"
+     ],
+     "text": "-32.037,08",
+     "cents": -3203708,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G12"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H12"
+     ],
+     "text": "52.080,25",
+     "cents": 5208025,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H12"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I12"
+     ],
+     "text": "501.125,59",
+     "cents": 50112559,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I12"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J12"
+     ],
+     "text": "69.611,55",
+     "cents": 6961155,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J12"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A12",
+    "row": 12
+   }
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102300 Pkw 4200 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102300",
+    "sub_no": "",
+    "name": "Pkw",
+    "acq_date": null,
+    "method": null,
+    "position": "2102300",
+    "class": "4200"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D13"
+     ],
+     "text": "210.981,00",
+     "cents": 21098100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D13"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E13"
+     ],
+     "text": "28.869,65",
+     "cents": 2886965,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E13"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F13"
+     ],
+     "text": "-210.977,00",
+     "cents": -21097700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F13"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G13"
+     ],
+     "text": "-12.328,59",
+     "cents": -1232859,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G13"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H13"
+     ],
+     "text": "45.100,91",
+     "cents": 4510091,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H13"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I13"
+     ],
+     "text": "61.645,97",
+     "cents": 6164597,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I13"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J13"
+     ],
+     "text": "4,00",
+     "cents": 400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J13"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A13",
+    "row": 13
+   }
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102300 Lkw 4300 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102300",
+    "sub_no": "",
+    "name": "Lkw",
+    "acq_date": null,
+    "method": null,
+    "position": "2102300",
+    "class": "4300"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D14"
+     ],
+     "text": "505.417,22",
+     "cents": 50541722,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D14"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E14"
+     ],
+     "text": "58.662,88",
+     "cents": 5866288,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E14"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F14"
+     ],
+     "text": "-283.543,30",
+     "cents": -28354330,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F14"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G14"
+     ],
+     "text": "-36.207,66",
+     "cents": -3620766,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G14"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H14"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I14"
+     ],
+     "text": "244.329,14",
+     "cents": 24432914,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I14"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J14"
+     ],
+     "text": "221.873,92",
+     "cents": 22187392,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J14"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A14",
+    "row": 14
+   }
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102300 Betriebsausstattung 4000 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102300",
+    "sub_no": "",
+    "name": "Betriebsausstattung",
+    "acq_date": null,
+    "method": null,
+    "position": "2102300",
+    "class": "4000"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D15"
+     ],
+     "text": "68.379,79",
+     "cents": 6837979,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D15"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E15"
+     ],
+     "text": "2.386,55",
+     "cents": 238655,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E15"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F15"
+     ],
+     "text": "-58.076,15",
+     "cents": -5807615,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F15"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G15"
+     ],
+     "text": "-9.616,75",
+     "cents": -961675,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G15"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H15"
+     ],
+     "text": "1.320,00",
+     "cents": 132000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H15"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I15"
+     ],
+     "text": "4.393,44",
+     "cents": 439344,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I15"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J15"
+     ],
+     "text": "10.303,64",
+     "cents": 1030364,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J15"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A15",
+    "row": 15
+   }
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102300 Büroeinrichtung 4100 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102300",
+    "sub_no": "",
+    "name": "Büroeinrichtung",
+    "acq_date": null,
+    "method": null,
+    "position": "2102300",
+    "class": "4100"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D16"
+     ],
+     "text": "56.029,87",
+     "cents": 5602987,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D16"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E16"
+     ],
+     "text": "-8.068,97",
+     "cents": -806897,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E16"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F16"
+     ],
+     "text": "-33.565,86",
+     "cents": -3356586,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F16"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G16"
+     ],
+     "text": "-2.699,55",
+     "cents": -269955,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G16"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H16"
+     ],
+     "text": "1.583,30",
+     "cents": 158330,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H16"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I16"
+     ],
+     "text": "13.278,79",
+     "cents": 1327879,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I16"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J16"
+     ],
+     "text": "22.464,01",
+     "cents": 2246401,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J16"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A16",
+    "row": 16
+   }
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102300",
+    "sub_no": "",
+    "name": "Geringwertige Wirtsc",
+    "acq_date": null,
+    "method": null,
+    "position": "2102300",
+    "class": "4900"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D17"
+     ],
+     "text": "1.956,92",
+     "cents": 195692,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D17"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E17"
+     ],
+     "text": "-450,00",
+     "cents": -45000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E17"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F17"
+     ],
+     "text": "-1.956,92",
+     "cents": -195692,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F17"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G17"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G17"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H17"
+     ],
+     "text": "450,00",
+     "cents": 45000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H17"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I17"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I17"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J17"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J17"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A17",
+    "row": 17
+   }
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102300 EDV-Hardware 4400 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102300",
+    "sub_no": "",
+    "name": "EDV-Hardware",
+    "acq_date": null,
+    "method": null,
+    "position": "2102300",
+    "class": "4400"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D18"
+     ],
+     "text": "76.956,81",
+     "cents": 7695681,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D18"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E18"
+     ],
+     "text": "-23.258,65",
+     "cents": -2325865,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E18"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F18"
+     ],
+     "text": "-38.052,70",
+     "cents": -3805270,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F18"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G18"
+     ],
+     "text": "-9.862,66",
+     "cents": -986266,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G18"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H18"
+     ],
+     "text": "7.320,86",
+     "cents": 732086,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H18"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I18"
+     ],
+     "text": "13.103,66",
+     "cents": 1310366,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I18"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J18"
+     ],
+     "text": "38.904,11",
+     "cents": 3890411,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J18"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A18",
+    "row": 18
+   }
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "*2102300 EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D19"
+     ],
+     "text": "919.721,61",
+     "cents": 91972161,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D19"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E19"
+     ],
+     "text": "58.141,46",
+     "cents": 5814146,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E19"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F19"
+     ],
+     "text": "-626.171,93",
+     "cents": -62617193,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F19"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G19"
+     ],
+     "text": "-70.715,21",
+     "cents": -7071521,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G19"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H19"
+     ],
+     "text": "55.775,07",
+     "cents": 5577507,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H19"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I19"
+     ],
+     "text": "336.751,00",
+     "cents": 33675100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I19"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J19"
+     ],
+     "text": "293.549,68",
+     "cents": 29354968,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J19"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A19",
+    "row": 19
+   }
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102400 Anlagen im Bau 5000 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102400",
+    "sub_no": "",
+    "name": "Anlagen im Bau",
+    "acq_date": null,
+    "method": null,
+    "position": "2102400",
+    "class": "5000"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D20"
+     ],
+     "text": "215.515,23",
+     "cents": 21551523,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D20"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E20"
+     ],
+     "text": "-170.533,52",
+     "cents": -17053352,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E20"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F20"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G20"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H20"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I20"
+     ],
+     "text": "44.981,71",
+     "cents": 4498171,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I20"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J20"
+     ],
+     "text": "215.515,23",
+     "cents": 21551523,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J20"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A20",
+    "row": 20
+   }
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2102400",
+    "sub_no": "",
+    "name": "Anzahlungen auf Anla",
+    "acq_date": null,
+    "method": null,
+    "position": "2102400",
+    "class": "5100"
+   },
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D21"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E21"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F21"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G21"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H21"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I21"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J21"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A21",
+    "row": 21
+   }
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "*2102400 EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Abschreibungen:4": {
+     "column": "Abschreibungen:4",
+     "tokens": [
+      "Abschreibungen!D22"
+     ],
+     "text": "215.515,23",
+     "cents": 21551523,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D22"
+    },
+    "Abschreibungen:5": {
+     "column": "Abschreibungen:5",
+     "tokens": [
+      "Abschreibungen!E22"
+     ],
+     "text": "-170.533,52",
+     "cents": -17053352,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E22"
+    },
+    "Abschreibungen:6": {
+     "column": "Abschreibungen:6",
+     "tokens": [
+      "Abschreibungen!F22"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F22"
+    },
+    "Abschreibungen:7": {
+     "column": "Abschreibungen:7",
+     "tokens": [
+      "Abschreibungen!G22"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G22"
+    },
+    "Abschreibungen:8": {
+     "column": "Abschreibungen:8",
+     "tokens": [
+      "Abschreibungen!H22"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H22"
+    },
+    "Abschreibungen:9": {
+     "column": "Abschreibungen:9",
+     "tokens": [
+      "Abschreibungen!I22"
+     ],
+     "text": "44.981,71",
+     "cents": 4498171,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I22"
+    },
+    "Abschreibungen:10": {
+     "column": "Abschreibungen:10",
+     "tokens": [
+      "Abschreibungen!J22"
+     ],
+     "text": "215.515,23",
+     "cents": 21551523,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J22"
+    }
+   },
+   "pointer": {
+    "sheet": "Abschreibungen",
+    "cell": "A22",
+    "row": 22
+   }
+  }
+ ]
+}

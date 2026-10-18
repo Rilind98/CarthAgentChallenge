@@ -1,0 +1,23 @@
+{
+ "values_in_key": 140,
+ "correct": 140,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 140,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": null,
+ "details": [],
+ "detection": {
+  "planted": [],
+  "detected": [],
+  "hit": [],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "layout-mutation",
+  "variant_guess": "perfect"
+ }
+}

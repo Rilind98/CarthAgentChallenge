@@ -1,0 +1,368 @@
+{
+ "doc_id": "f03_block_spiegel_06",
+ "proposer": "heuristic-v0",
+ "mode": "block",
+ "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    2,
+    3
+   ],
+   "sheet": null,
+   "period_end": "2024-12-31",
+   "period_start": "2024-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 463.0,
+     "span": [
+      419.8,
+      463.0
+     ],
+     "col": null,
+     "header": "Sorekahausen Stand zum 01.01.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 544.49,
+     "span": [
+      508.51,
+      548.0
+     ],
+     "col": null,
+     "header": "Zugang Abgang- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 548.0,
+     "span": [
+      510.97,
+      548.0
+     ],
+     "col": null,
+     "header": "",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c4",
+     "anchor": 626.41,
+     "span": [
+      590.51,
+      630.0
+     ],
+     "col": null,
+     "header": "Umbuchung EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 630.0,
+     "span": [
+      592.97,
+      630.0
+     ],
+     "col": null,
+     "header": "",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c6",
+     "anchor": 714.0,
+     "span": [
+      676.97,
+      714.0
+     ],
+     "col": null,
+     "header": "Abschreibung Zuschreibung- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "AFA x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 800.0,
+     "span": [
+      756.8,
+      800.0
+     ],
+     "col": null,
+     "header": "Stand zum 31.12.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Sorekahausen",
+    "Bezeichnung Entwicklung Stand zum Zugang Abschreibung Stand zum",
+    "der 01.01.2024 Abgang- Umbuchung Zuschreibung- 31.12.2024",
+    "EUR EUR EUR EUR EUR"
+   ]
+  },
+  {
+   "id": "s2",
+   "pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "sheet": null,
+   "period_end": "2024-12-31",
+   "period_start": "2024-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 327.03,
+     "span": [
+      308.51,
+      327.03
+     ],
+     "col": null,
+     "header": "",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c2",
+     "anchor": 463.0,
+     "span": [
+      425.97,
+      463.0
+     ],
+     "col": null,
+     "header": "Sorekahausen Stand zum 01.01.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 548.0,
+     "span": [
+      515.08,
+      548.0
+     ],
+     "col": null,
+     "header": "Zugang Abgang- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 630.0,
+     "span": [
+      590.11,
+      630.0
+     ],
+     "col": null,
+     "header": "Umbuchung EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 714.0,
+     "span": [
+      681.08,
+      714.0
+     ],
+     "col": null,
+     "header": "Abschreibung Zuschreibung- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "AFA x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 800.0,
+     "span": [
+      762.97,
+      800.0
+     ],
+     "col": null,
+     "header": "Stand zum 31.12.2024 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Sorekahausen",
+    "Bezeichnung Datum Entw. Stand zum Zugang Abschreibung Stand zum",
+    "AfA-Art der 01.01.2024 Abgang- Umbuchung Zuschreibung- 31.12.2024",
+    "ND % EUR EUR EUR EUR EUR"
+   ]
+  }
+ ],
+ "rows": [],
+ "notes": [
+  "page 1: no amounts, skipped",
+  "page 2: 21 of 29 amount lines name their value type (AFA, AHK, BW)",
+  "page 3: 3 of 6 amount lines name their value type (AFA, AHK, BW)",
+  "page 3: repeats the header of section s1",
+  "page 4: 21 of 21 amount lines name their value type (AFA, AHK, BW)",
+  "page 4: blank column(s) found from the header: ['Umbuchung EUR']",
+  "page 5: 6 of 6 amount lines name their value type (AFA, AHK, BW)",
+  "page 5: no header, continues section s2",
+  "page 6: 30 of 33 amount lines name their value type (AFA, AHK, BW)",
+  "page 6: no header, continues section s2",
+  "page 7: 9 of 12 amount lines name their value type (AFA, AHK, BW)",
+  "page 7: no header, continues section s2",
+  "page 8: 33 of 33 amount lines name their value type (AFA, AHK, BW)",
+  "page 8: no header, continues section s2",
+  "page 9: 6 of 6 amount lines name their value type (AFA, AHK, BW)",
+  "page 9: no header, continues section s2",
+  "page 10: 30 of 33 amount lines name their value type (AFA, AHK, BW)",
+  "page 10: no header, continues section s2",
+  "page 11: 9 of 12 amount lines name their value type (AFA, AHK, BW)",
+  "page 11: no header, continues section s2",
+  "page 12: 33 of 33 amount lines name their value type (AFA, AHK, BW)",
+  "page 12: no header, continues section s2",
+  "page 13: 3 of 3 amount lines name their value type (AFA, AHK, BW)",
+  "page 13: no header, continues section s2",
+  "page 14: 12 of 19 amount lines name their value type (AFA, AHK, BW)",
+  "page 14: no header, continues section s2"
+ ],
+ "page_status": {
+  "1": "no_amounts",
+  "2": "schedule",
+  "3": "repeats",
+  "4": "schedule",
+  "5": "continues",
+  "6": "continues",
+  "7": "continues",
+  "8": "continues",
+  "9": "continues",
+  "10": "continues",
+  "11": "continues",
+  "12": "continues",
+  "13": "continues",
+  "14": "continues"
+ }
+}

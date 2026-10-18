@@ -1,0 +1,466 @@
+{
+ "doc_id": "f07_sap_class_summary_07",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1
+   ],
+   "sheet": null,
+   "period_end": "2024-12-31",
+   "period_start": "2024-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 279.02,
+     "span": [
+      219.26,
+      279.02
+     ],
+     "col": null,
+     "header": "AHK Beginn",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 355.02,
+     "span": [
+      305.22,
+      360.0
+     ],
+     "col": null,
+     "header": "Bewegung AHK",
+     "group_header": "",
+     "candidates": [
+      [
+       "bew_ahk",
+       1.0,
+       "net column 'Bewegung AHK'"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 431.02,
+     "span": [
+      366.28,
+      436.0
+     ],
+     "col": null,
+     "header": "AfA kum. Beg.",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 507.02,
+     "span": [
+      452.24,
+      512.0
+     ],
+     "col": null,
+     "header": "AfA geplant",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 583.02,
+     "span": [
+      533.22,
+      583.02
+     ],
+     "col": null,
+     "header": "Bewegung WB",
+     "group_header": "",
+     "candidates": [
+      [
+       "bew_wb",
+       1.0,
+       "net column 'Bewegung WB'"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 659.02,
+     "span": [
+      599.26,
+      659.02
+     ],
+     "col": null,
+     "header": "Buchwert Beg.",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 735.02,
+     "span": [
+      675.26,
+      735.02
+     ],
+     "col": null,
+     "header": "Buchwert Ende",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Klasse Klassenbezeichnung Bil.-Pos. AHK Beginn Bewegung AHK AfA kum. Beg. AfA geplant Bewegung WB Buchwert Beg. Buchwert Ende Whrg"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    59.39,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1000 EDV-Software 2101200 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    70.18,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 2101200 2101200 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    80.97,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2000 Grund und Boden 2102100 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    91.76,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2100 Fabrikbauten 2102100 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    102.55,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 2102100 2102100 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    113.34,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3000 Maschinen 2102200 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    124.13,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3100 Technische Anlagen 2102200 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    134.92,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 2102200 2102200 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    145.71,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4200 Pkw 2102300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    156.5,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4300 Lkw 2102300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    167.29,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4000 Betriebsausstattung 2102300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    178.08,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4100 Büroeinrichtung 2102300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    188.87,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4900 Geringwertige Wirtsc 2102300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    199.66,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "4400 EDV-Hardware 2102300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    210.45,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 2102300 2102300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    221.24,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5000 Anlagen im Bau 2102400 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    232.03,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5100 Anzahlungen auf Anla 2102400 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    242.82,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 2102400 2102400 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    253.61,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "6000 Beteiligungen 2103300 EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    264.4,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 2103300 2103300 EUR",
+   "context": [],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {
+  "1": "schedule"
+ }
+}

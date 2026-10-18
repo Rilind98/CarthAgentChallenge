@@ -1,0 +1,70 @@
+{
+ "doc_id": "f04_verzeichnis_06",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "wrapped_description",
+   "evidence": "7 description(s) continue on the next line",
+   "where": [
+    {
+     "row": "r1",
+     "page": 1,
+     "label": "176 Finanzbuchhaltung Software 01.06.2011 lin 3 (gebraucht)"
+    },
+    {
+     "row": "r3",
+     "page": 1,
+     "label": "2172 Warenwirtschaft Modul Lager Typ 23.03.2025 lin 3 B43"
+    },
+    {
+     "row": "r5",
+     "page": 1,
+     "label": "671 Finanzbuchhaltung Software 08.07.2021 lin 3 (gebraucht)"
+    },
+    {
+     "row": "r36",
+     "page": 2,
+     "label": "460 Pkw 0 23.02.2025 lin 6 Kompaktklasse"
+    },
+    {
+     "row": "r37",
+     "page": 2,
+     "label": "4693 Pkw 0 14.06.2025 lin 6 Kompaktklasse"
+    },
+    {
+     "row": "r79",
+     "page": 3,
+     "label": "493 Geschäftsanteile 0 22.12.2017 k 0 Genossenschaftsbank"
+    },
+    {
+     "row": "r81",
+     "page": 3,
+     "label": "93 Geschäftsanteile 0 21.09.2012 k 0 Genossenschaftsbank"
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "1 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r67",
+     "field": "*",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       45.0,
+       789.95,
+       514.0,
+       797.45
+      ],
+      "frame_band": [
+       789.95,
+       797.45
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

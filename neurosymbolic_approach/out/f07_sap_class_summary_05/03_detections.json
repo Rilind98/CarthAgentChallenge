@@ -1,0 +1,43 @@
+{
+ "doc_id": "f07_sap_class_summary_05",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "multi_year",
+   "evidence": "sections for 2024, 2025",
+   "where": [
+    {
+     "section": "s1",
+     "period_end": "2024-12-31"
+    },
+    {
+     "section": "s2",
+     "period_end": "2025-12-31"
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "1 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r35",
+     "field": "bw_prev",
+     "pointer": {
+      "page": 5,
+      "bbox": [
+       26.0,
+       250.45,
+       753.94,
+       258.75
+      ],
+      "frame_band": [
+       250.45,
+       258.75
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

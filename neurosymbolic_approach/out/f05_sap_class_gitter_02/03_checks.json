@@ -1,0 +1,70 @@
+{
+ "doc_id": "f05_sap_class_gitter_02",
+ "abstain": "multi-line records (one asset/class = several rows): block reader not built yet",
+ "sections": [],
+ "completeness": {
+  "unassigned_amounts": 233,
+  "examples": [
+   {
+    "token": "Anlagengitter!B9",
+    "text": "13"
+   },
+   {
+    "token": "Anlagengitter!B10",
+    "text": "20"
+   },
+   {
+    "token": "Anlagengitter!B20",
+    "text": "208.034,23"
+   },
+   {
+    "token": "Anlagengitter!C20",
+    "text": "6.678,85"
+   },
+   {
+    "token": "Anlagengitter!D20",
+    "text": "0,00"
+   },
+   {
+    "token": "Anlagengitter!B21",
+    "text": "-184.782,83"
+   },
+   {
+    "token": "Anlagengitter!C21",
+    "text": "-23.056,37"
+   },
+   {
+    "token": "Anlagengitter!D21",
+    "text": "0,00"
+   },
+   {
+    "token": "Anlagengitter!B22",
+    "text": "23.251,40"
+   },
+   {
+    "token": "Anlagengitter!B25",
+    "text": "208.034,23"
+   },
+   {
+    "token": "Anlagengitter!C25",
+    "text": "6.678,85"
+   },
+   {
+    "token": "Anlagengitter!D25",
+    "text": "0,00"
+   },
+   {
+    "token": "Anlagengitter!B26",
+    "text": "-184.782,83"
+   },
+   {
+    "token": "Anlagengitter!C26",
+    "text": "-23.056,37"
+   },
+   {
+    "token": "Anlagengitter!D26",
+    "text": "0,00"
+   }
+  ]
+ }
+}

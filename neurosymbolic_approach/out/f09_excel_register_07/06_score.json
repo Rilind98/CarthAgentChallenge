@@ -1,0 +1,29 @@
+{
+ "values_in_key": 708,
+ "correct": 708,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 708,
+ "kind_accuracy": 0.78,
+ "asset_id_accuracy": 1.0,
+ "details": [],
+ "detection": {
+  "planted": [
+   "unrelated_table"
+  ],
+  "detected": [
+   "unrelated_table"
+  ],
+  "hit": [
+   "unrelated_table"
+  ],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

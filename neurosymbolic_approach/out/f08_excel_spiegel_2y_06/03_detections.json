@@ -1,0 +1,35 @@
+{
+ "doc_id": "f08_excel_spiegel_2y_06",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "multi_year",
+   "evidence": "sections for 2024, 2025",
+   "where": [
+    {
+     "section": "s1",
+     "period_end": "2025-06-30"
+    },
+    {
+     "section": "s2",
+     "period_end": "2024-06-30"
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "1 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r7",
+     "field": "kum_afa_open",
+     "pointer": {
+      "sheet": "Tabelle1",
+      "cell": "A19",
+      "row": 19
+     }
+    }
+   ]
+  }
+ ]
+}

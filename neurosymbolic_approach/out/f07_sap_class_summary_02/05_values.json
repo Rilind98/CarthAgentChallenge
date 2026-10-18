@@ -1,0 +1,2144 @@
+[
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2101200",
+  "sub_no": "",
+  "label": "2101200 EDV-Software 1000 EUR",
+  "field": "ahk_open",
+  "value": 20803423,
+  "printed": "208.034,23",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D5"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2101200",
+  "sub_no": "",
+  "label": "2101200 EDV-Software 1000 EUR",
+  "field": "bew_ahk",
+  "value": 667885,
+  "printed": "6.678,85",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E5"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2101200",
+  "sub_no": "",
+  "label": "2101200 EDV-Software 1000 EUR",
+  "field": "kum_afa_open",
+  "value": 18478283,
+  "printed": "-184.782,83",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F5"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2101200",
+  "sub_no": "",
+  "label": "2101200 EDV-Software 1000 EUR",
+  "field": "afa_gj",
+  "value": 2305637,
+  "printed": "-23.056,37",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G5"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2101200",
+  "sub_no": "",
+  "label": "2101200 EDV-Software 1000 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H5"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2101200",
+  "sub_no": "",
+  "label": "2101200 EDV-Software 1000 EUR",
+  "field": "bw_close",
+  "value": 687388,
+  "printed": "6.873,88",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I5"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2101200",
+  "sub_no": "",
+  "label": "2101200 EDV-Software 1000 EUR",
+  "field": "bw_prev",
+  "value": 2325140,
+  "printed": "23.251,40",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J5"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2101200 EUR",
+  "field": "ahk_open",
+  "value": 20803423,
+  "printed": "208.034,23",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D6"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2101200 EUR",
+  "field": "bew_ahk",
+  "value": 667885,
+  "printed": "6.678,85",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E6"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2101200 EUR",
+  "field": "kum_afa_open",
+  "value": 18478283,
+  "printed": "-184.782,83",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F6"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2101200 EUR",
+  "field": "afa_gj",
+  "value": 2305637,
+  "printed": "-23.056,37",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G6"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2101200 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H6"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2101200 EUR",
+  "field": "bw_close",
+  "value": 687388,
+  "printed": "6.873,88",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I6"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2101200 EUR",
+  "field": "bw_prev",
+  "value": 2325140,
+  "printed": "23.251,40",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J6"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Grund und Boden 2000 EUR",
+  "field": "ahk_open",
+  "value": 33838399,
+  "printed": "338.383,99",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D7"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Grund und Boden 2000 EUR",
+  "field": "bew_ahk",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E7"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Grund und Boden 2000 EUR",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F7"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Grund und Boden 2000 EUR",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G7"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Grund und Boden 2000 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H7"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Grund und Boden 2000 EUR",
+  "field": "bw_close",
+  "value": 33838399,
+  "printed": "338.383,99",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I7"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Grund und Boden 2000 EUR",
+  "field": "bw_prev",
+  "value": 33838399,
+  "printed": "338.383,99",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J7"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Fabrikbauten 2100 EUR",
+  "field": "ahk_open",
+  "value": 423490148,
+  "printed": "4.234.901,48",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Fabrikbauten 2100 EUR",
+  "field": "bew_ahk",
+  "value": 83913555,
+  "printed": "839.135,55",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Fabrikbauten 2100 EUR",
+  "field": "kum_afa_open",
+  "value": 255399613,
+  "printed": "-2.553.996,13",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Fabrikbauten 2100 EUR",
+  "field": "afa_gj",
+  "value": 7193632,
+  "printed": "-71.936,32",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Fabrikbauten 2100 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Fabrikbauten 2100 EUR",
+  "field": "bw_close",
+  "value": 244810458,
+  "printed": "2.448.104,58",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102100",
+  "sub_no": "",
+  "label": "2102100 Fabrikbauten 2100 EUR",
+  "field": "bw_prev",
+  "value": 168090535,
+  "printed": "1.680.905,35",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102100 EUR",
+  "field": "ahk_open",
+  "value": 457328547,
+  "printed": "4.573.285,47",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102100 EUR",
+  "field": "bew_ahk",
+  "value": 83913555,
+  "printed": "839.135,55",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102100 EUR",
+  "field": "kum_afa_open",
+  "value": 255399613,
+  "printed": "-2.553.996,13",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102100 EUR",
+  "field": "afa_gj",
+  "value": 7193632,
+  "printed": "-71.936,32",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102100 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102100 EUR",
+  "field": "bw_close",
+  "value": 278648857,
+  "printed": "2.786.488,57",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102100 EUR",
+  "field": "bw_prev",
+  "value": 201928934,
+  "printed": "2.019.289,34",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Maschinen 3000 EUR",
+  "field": "ahk_open",
+  "value": 8503441,
+  "printed": "85.034,41",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Maschinen 3000 EUR",
+  "field": "bew_ahk",
+  "value": 48587123,
+  "printed": "485.871,23",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Maschinen 3000 EUR",
+  "field": "kum_afa_open",
+  "value": 7118910,
+  "printed": "-71.189,10",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Maschinen 3000 EUR",
+  "field": "afa_gj",
+  "value": 1898020,
+  "printed": "-18.980,20",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Maschinen 3000 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Maschinen 3000 EUR",
+  "field": "bw_close",
+  "value": 48073634,
+  "printed": "480.736,34",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Maschinen 3000 EUR",
+  "field": "bw_prev",
+  "value": 1384531,
+  "printed": "13.845,31",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Technische Anlagen 3100 EUR",
+  "field": "ahk_open",
+  "value": 23699004,
+  "printed": "236.990,04",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Technische Anlagen 3100 EUR",
+  "field": "bew_ahk",
+  "value": -7440036,
+  "printed": "-74.400,36",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Technische Anlagen 3100 EUR",
+  "field": "kum_afa_open",
+  "value": 18122380,
+  "printed": "-181.223,80",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Technische Anlagen 3100 EUR",
+  "field": "afa_gj",
+  "value": 1305688,
+  "printed": "-13.056,88",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Technische Anlagen 3100 EUR",
+  "field": "bew_wb",
+  "value": 5208025,
+  "printed": "52.080,25",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Technische Anlagen 3100 EUR",
+  "field": "bw_close",
+  "value": 2038925,
+  "printed": "20.389,25",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102200",
+  "sub_no": "",
+  "label": "2102200 Technische Anlagen 3100 EUR",
+  "field": "bw_prev",
+  "value": 5576624,
+  "printed": "55.766,24",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102200 EUR",
+  "field": "ahk_open",
+  "value": 32202445,
+  "printed": "322.024,45",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102200 EUR",
+  "field": "bew_ahk",
+  "value": 41147087,
+  "printed": "411.470,87",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102200 EUR",
+  "field": "kum_afa_open",
+  "value": 25241290,
+  "printed": "-252.412,90",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102200 EUR",
+  "field": "afa_gj",
+  "value": 3203708,
+  "printed": "-32.037,08",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102200 EUR",
+  "field": "bew_wb",
+  "value": 5208025,
+  "printed": "52.080,25",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102200 EUR",
+  "field": "bw_close",
+  "value": 50112559,
+  "printed": "501.125,59",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102200 EUR",
+  "field": "bw_prev",
+  "value": 6961155,
+  "printed": "69.611,55",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Pkw 4200 EUR",
+  "field": "ahk_open",
+  "value": 21098100,
+  "printed": "210.981,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Pkw 4200 EUR",
+  "field": "bew_ahk",
+  "value": 2886965,
+  "printed": "28.869,65",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Pkw 4200 EUR",
+  "field": "kum_afa_open",
+  "value": 21097700,
+  "printed": "-210.977,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Pkw 4200 EUR",
+  "field": "afa_gj",
+  "value": 1232859,
+  "printed": "-12.328,59",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Pkw 4200 EUR",
+  "field": "bew_wb",
+  "value": 4510091,
+  "printed": "45.100,91",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Pkw 4200 EUR",
+  "field": "bw_close",
+  "value": 6164597,
+  "printed": "61.645,97",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Pkw 4200 EUR",
+  "field": "bw_prev",
+  "value": 400,
+  "printed": "4,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Lkw 4300 EUR",
+  "field": "ahk_open",
+  "value": 50541722,
+  "printed": "505.417,22",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Lkw 4300 EUR",
+  "field": "bew_ahk",
+  "value": 5866288,
+  "printed": "58.662,88",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Lkw 4300 EUR",
+  "field": "kum_afa_open",
+  "value": 28354330,
+  "printed": "-283.543,30",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Lkw 4300 EUR",
+  "field": "afa_gj",
+  "value": 3620766,
+  "printed": "-36.207,66",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Lkw 4300 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Lkw 4300 EUR",
+  "field": "bw_close",
+  "value": 24432914,
+  "printed": "244.329,14",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Lkw 4300 EUR",
+  "field": "bw_prev",
+  "value": 22187392,
+  "printed": "221.873,92",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Betriebsausstattung 4000 EUR",
+  "field": "ahk_open",
+  "value": 6837979,
+  "printed": "68.379,79",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Betriebsausstattung 4000 EUR",
+  "field": "bew_ahk",
+  "value": 238655,
+  "printed": "2.386,55",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Betriebsausstattung 4000 EUR",
+  "field": "kum_afa_open",
+  "value": 5807615,
+  "printed": "-58.076,15",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Betriebsausstattung 4000 EUR",
+  "field": "afa_gj",
+  "value": 961675,
+  "printed": "-9.616,75",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Betriebsausstattung 4000 EUR",
+  "field": "bew_wb",
+  "value": 132000,
+  "printed": "1.320,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Betriebsausstattung 4000 EUR",
+  "field": "bw_close",
+  "value": 439344,
+  "printed": "4.393,44",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Betriebsausstattung 4000 EUR",
+  "field": "bw_prev",
+  "value": 1030364,
+  "printed": "10.303,64",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Büroeinrichtung 4100 EUR",
+  "field": "ahk_open",
+  "value": 5602987,
+  "printed": "56.029,87",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D16"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Büroeinrichtung 4100 EUR",
+  "field": "bew_ahk",
+  "value": -806897,
+  "printed": "-8.068,97",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E16"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Büroeinrichtung 4100 EUR",
+  "field": "kum_afa_open",
+  "value": 3356586,
+  "printed": "-33.565,86",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F16"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Büroeinrichtung 4100 EUR",
+  "field": "afa_gj",
+  "value": 269955,
+  "printed": "-2.699,55",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G16"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Büroeinrichtung 4100 EUR",
+  "field": "bew_wb",
+  "value": 158330,
+  "printed": "1.583,30",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H16"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Büroeinrichtung 4100 EUR",
+  "field": "bw_close",
+  "value": 1327879,
+  "printed": "13.278,79",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I16"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Büroeinrichtung 4100 EUR",
+  "field": "bw_prev",
+  "value": 2246401,
+  "printed": "22.464,01",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J16"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+  "field": "ahk_open",
+  "value": 195692,
+  "printed": "1.956,92",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+  "field": "bew_ahk",
+  "value": -45000,
+  "printed": "-450,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+  "field": "kum_afa_open",
+  "value": 195692,
+  "printed": "-1.956,92",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+  "field": "bew_wb",
+  "value": 45000,
+  "printed": "450,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 EDV-Hardware 4400 EUR",
+  "field": "ahk_open",
+  "value": 7695681,
+  "printed": "76.956,81",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 EDV-Hardware 4400 EUR",
+  "field": "bew_ahk",
+  "value": -2325865,
+  "printed": "-23.258,65",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 EDV-Hardware 4400 EUR",
+  "field": "kum_afa_open",
+  "value": 3805270,
+  "printed": "-38.052,70",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 EDV-Hardware 4400 EUR",
+  "field": "afa_gj",
+  "value": 986266,
+  "printed": "-9.862,66",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 EDV-Hardware 4400 EUR",
+  "field": "bew_wb",
+  "value": 732086,
+  "printed": "7.320,86",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 EDV-Hardware 4400 EUR",
+  "field": "bw_close",
+  "value": 1310366,
+  "printed": "13.103,66",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102300",
+  "sub_no": "",
+  "label": "2102300 EDV-Hardware 4400 EUR",
+  "field": "bw_prev",
+  "value": 3890411,
+  "printed": "38.904,11",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102300 EUR",
+  "field": "ahk_open",
+  "value": 91972161,
+  "printed": "919.721,61",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102300 EUR",
+  "field": "bew_ahk",
+  "value": 5814146,
+  "printed": "58.141,46",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102300 EUR",
+  "field": "kum_afa_open",
+  "value": 62617193,
+  "printed": "-626.171,93",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102300 EUR",
+  "field": "afa_gj",
+  "value": 7071521,
+  "printed": "-70.715,21",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102300 EUR",
+  "field": "bew_wb",
+  "value": 5577507,
+  "printed": "55.775,07",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102300 EUR",
+  "field": "bw_close",
+  "value": 33675100,
+  "printed": "336.751,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102300 EUR",
+  "field": "bw_prev",
+  "value": 29354968,
+  "printed": "293.549,68",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anlagen im Bau 5000 EUR",
+  "field": "ahk_open",
+  "value": 21551523,
+  "printed": "215.515,23",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anlagen im Bau 5000 EUR",
+  "field": "bew_ahk",
+  "value": -17053352,
+  "printed": "-170.533,52",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anlagen im Bau 5000 EUR",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anlagen im Bau 5000 EUR",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anlagen im Bau 5000 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anlagen im Bau 5000 EUR",
+  "field": "bw_close",
+  "value": 4498171,
+  "printed": "44.981,71",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anlagen im Bau 5000 EUR",
+  "field": "bw_prev",
+  "value": 21551523,
+  "printed": "215.515,23",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+  "field": "bew_ahk",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "2102400",
+  "sub_no": "",
+  "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102400 EUR",
+  "field": "ahk_open",
+  "value": 21551523,
+  "printed": "215.515,23",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "D22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102400 EUR",
+  "field": "bew_ahk",
+  "value": -17053352,
+  "printed": "-170.533,52",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "E22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102400 EUR",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "F22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102400 EUR",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "G22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102400 EUR",
+  "field": "bew_wb",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "H22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102400 EUR",
+  "field": "bw_close",
+  "value": 4498171,
+  "printed": "44.981,71",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "I22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "*2102400 EUR",
+  "field": "bw_prev",
+  "value": 21551523,
+  "printed": "215.515,23",
+  "pointer": {
+   "sheet": "Abschreibungen",
+   "cell": "J22"
+  },
+  "flag": null
+ }
+]

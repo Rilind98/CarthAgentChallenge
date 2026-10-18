@@ -1,0 +1,11 @@
+{
+ "doc_id": "f03_block_spiegel_01",
+ "variant_guess": "unknown",
+ "findings": [
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+   "where": []
+  }
+ ]
+}

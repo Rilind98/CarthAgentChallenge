@@ -1,0 +1,29 @@
+{
+ "doc_id": "f03_block_spiegel_05",
+ "variant_guess": "unknown",
+ "findings": [
+  {
+   "type": "glued_numbers",
+   "evidence": "3 printed string(s) hold two amounts; 0 row(s) where the laws suggest two amounts were read as one",
+   "where": [
+    {
+     "page": 5,
+     "printed": "30.251,3312.100,54"
+    },
+    {
+     "page": 6,
+     "printed": "0,0027.669,30"
+    },
+    {
+     "page": 7,
+     "printed": "12.223,455.867,26"
+    }
+   ]
+  },
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+   "where": []
+  }
+ ]
+}

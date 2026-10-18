@@ -1,0 +1,95 @@
+{
+ "meta": {
+  "doc_id": "f03_block_spiegel_06",
+  "source": "../A3-Hackathon-Corpus/f03_block_spiegel/f03_block_spiegel_06.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2024-12-31",
+    "unit": "EUR",
+    "pages": [
+     2,
+     3
+    ],
+    "sheet": null
+   },
+   {
+    "id": "s2",
+    "period_end": "2024-12-31",
+    "unit": "EUR",
+    "pages": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "unknown"
+ },
+ "rows": [],
+ "detections": [
+  {
+   "type": "noise_page_cover",
+   "evidence": "page has text but no amounts (51 words)",
+   "where": [
+    {
+     "page": 1
+    }
+   ]
+  },
+  {
+   "type": "header_only_on_first_page",
+   "evidence": "10 page(s) carry rows but no column header",
+   "where": [
+    {
+     "page": 5
+    },
+    {
+     "page": 6
+    },
+    {
+     "page": 7
+    },
+    {
+     "page": 8
+    },
+    {
+     "page": 9
+    },
+    {
+     "page": 10
+    },
+    {
+     "page": 11
+    },
+    {
+     "page": 12
+    },
+    {
+     "page": 13
+    },
+    {
+     "page": 14
+    }
+   ]
+  },
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+   "where": []
+  }
+ ]
+}

@@ -1,0 +1,6123 @@
+{
+ "meta": {
+  "doc_id": "f09_excel_register_08",
+  "source": "../A3-Hackathon-Corpus/f09_excel_register/f09_excel_register_08.xlsx",
+  "format": "xlsx",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-03-31",
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Anlagen"
+   }
+  ],
+  "variant_guess": "perfect"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "100001001",
+   "sub_no": "0",
+   "name": "Warenwirtschaft Modul Lager Typ K329",
+   "acq_date": "2005-07-23",
+   "method": null,
+   "label": "100001001 0 Warenwirtschaft Modul Lager Typ K329",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 800904,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 800904,
+    "kum_afa_open": 800804,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 800804
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "8.009,04",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "8.009,04",
+    "kum_afa_open": "8.008,04",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "8.008,04"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A5",
+    "row": 5,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E5"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F5"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G5"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H5"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I5"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J5"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K5"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L5"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M5"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N5"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O5"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P5"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "100001002",
+   "sub_no": "0",
+   "name": "Finanzbuchhaltung Software",
+   "acq_date": "2013-09-21",
+   "method": null,
+   "label": "100001002 0 Finanzbuchhaltung Software",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 379600,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 379600,
+    "kum_afa_open": 379500,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 379500
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "3.796,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "3.796,00",
+    "kum_afa_open": "3.795,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "3.795,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A6",
+    "row": 6,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E6"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F6"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G6"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H6"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I6"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J6"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K6"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L6"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M6"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N6"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O6"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P6"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "100001002",
+   "sub_no": "1",
+   "name": "Finanzbuchhaltung Software Zusatzmodul",
+   "acq_date": "2024-10-07",
+   "method": null,
+   "label": "100001002 1 Finanzbuchhaltung Software Zusatzmodul",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 97826,
+    "bw_prev": 0,
+    "ahk_open": 0,
+    "zugang": 108696,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 108696,
+    "kum_afa_open": 0,
+    "afa_gj": 10870,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 10870
+   },
+   "printed": {
+    "bw_close": "978,26",
+    "bw_prev": "0,00",
+    "ahk_open": "0,00",
+    "zugang": "1.086,96",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.086,96",
+    "kum_afa_open": "0,00",
+    "afa_gj": "108,70",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "108,70"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A7",
+    "row": 7,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E7"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F7"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G7"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H7"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I7"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J7"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K7"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L7"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M7"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N7"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O7"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P7"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "100001003",
+   "sub_no": "0",
+   "name": "Office-Lizenzen (gebraucht)",
+   "acq_date": "2018-02-24",
+   "method": null,
+   "label": "100001003 0 Office-Lizenzen (gebraucht)",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 367537,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 367537,
+    "kum_afa_open": 367437,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 367437
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "3.675,37",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "3.675,37",
+    "kum_afa_open": "3.674,37",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "3.674,37"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A8",
+    "row": 8,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E8"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F8"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G8"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H8"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I8"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J8"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K8"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L8"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M8"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N8"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O8"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P8"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "100001004",
+   "sub_no": "0",
+   "name": "Office-Lizenzen",
+   "acq_date": "2020-02-15",
+   "method": null,
+   "label": "100001004 0 Office-Lizenzen",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 1510324,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1510324,
+    "kum_afa_open": 1510224,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1510224
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "15.103,24",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "15.103,24",
+    "kum_afa_open": "15.102,24",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "15.102,24"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A9",
+    "row": 9,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E9"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F9"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G9"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H9"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I9"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J9"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K9"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L9"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M9"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N9"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O9"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P9"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "100001004",
+   "sub_no": "1",
+   "name": "Office-Lizenzen Erweiterung",
+   "acq_date": "2023-06-02",
+   "method": null,
+   "label": "100001004 1 Office-Lizenzen Erweiterung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 136260,
+    "bw_prev": 253054,
+    "ahk_open": 350383,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 350383,
+    "kum_afa_open": 97329,
+    "afa_gj": 116794,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 214123
+   },
+   "printed": {
+    "bw_close": "1.362,60",
+    "bw_prev": "2.530,54",
+    "ahk_open": "3.503,83",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "3.503,83",
+    "kum_afa_open": "973,29",
+    "afa_gj": "1.167,94",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "2.141,23"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A10",
+    "row": 10,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E10"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F10"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G10"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H10"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I10"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J10"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K10"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L10"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M10"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N10"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O10"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P10"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 1000 EDV-Software",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 234486,
+    "bw_prev": 253454,
+    "ahk_open": 3408748,
+    "zugang": 108696,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3517444,
+    "kum_afa_open": 3155294,
+    "afa_gj": 127664,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 3282958
+   },
+   "printed": {
+    "bw_close": "2.344,86",
+    "bw_prev": "2.534,54",
+    "ahk_open": "34.087,48",
+    "zugang": "1.086,96",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "35.174,44",
+    "kum_afa_open": "31.552,94",
+    "afa_gj": "1.276,64",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "32.829,58"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A11",
+    "row": 11,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E11"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F11"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G11"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H11"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I11"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J11"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K11"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L11"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M11"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N11"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O11"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P11"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "200001001",
+   "sub_no": "0",
+   "name": "Grund und Boden Betriebsgelände",
+   "acq_date": "2003-08-21",
+   "method": null,
+   "label": "200001001 0 Grund und Boden Betriebsgelände",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 41721200,
+    "bw_prev": 41721200,
+    "ahk_open": 41721200,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 41721200,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0
+   },
+   "printed": {
+    "bw_close": "417.212,00",
+    "bw_prev": "417.212,00",
+    "ahk_open": "417.212,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "417.212,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A12",
+    "row": 12,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E12"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F12"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G12"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H12"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I12"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J12"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K12"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L12"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M12"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N12"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O12"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P12"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "200001002",
+   "sub_no": "0",
+   "name": "Erweiterungsfläche",
+   "acq_date": "2016-07-31",
+   "method": null,
+   "label": "200001002 0 Erweiterungsfläche",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 26774300,
+    "bw_prev": 26774300,
+    "ahk_open": 26774300,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 26774300,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0
+   },
+   "printed": {
+    "bw_close": "267.743,00",
+    "bw_prev": "267.743,00",
+    "ahk_open": "267.743,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "267.743,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A13",
+    "row": 13,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E13"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F13"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G13"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H13"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I13"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J13"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K13"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L13"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M13"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N13"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O13"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P13"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 2000 Grund und Boden",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 68495500,
+    "bw_prev": 68495500,
+    "ahk_open": 68495500,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 68495500,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0
+   },
+   "printed": {
+    "bw_close": "684.955,00",
+    "bw_prev": "684.955,00",
+    "ahk_open": "684.955,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "684.955,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A14",
+    "row": 14,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E14"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F14"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G14"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H14"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I14"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J14"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K14"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L14"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M14"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N14"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O14"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P14"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210001001",
+   "sub_no": "0",
+   "name": "Anbau Sozialtrakt",
+   "acq_date": "1987-08-12",
+   "method": null,
+   "label": "210001001 0 Anbau Sozialtrakt",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 182403400,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 182403400,
+    "kum_afa_open": 182403300,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 182403300
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "1.824.034,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.824.034,00",
+    "kum_afa_open": "1.824.033,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "1.824.033,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A15",
+    "row": 15,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E15"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F15"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G15"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H15"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I15"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J15"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K15"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L15"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M15"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N15"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O15"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P15"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210001002",
+   "sub_no": "0",
+   "name": "Lagerhalle",
+   "acq_date": "2020-02-23",
+   "method": null,
+   "label": "210001002 0 Lagerhalle",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 58516000,
+    "bw_prev": 60618372,
+    "ahk_open": 69378252,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 69378252,
+    "kum_afa_open": 8759880,
+    "afa_gj": 2102372,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 10862252
+   },
+   "printed": {
+    "bw_close": "585.160,00",
+    "bw_prev": "606.183,72",
+    "ahk_open": "693.782,52",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "693.782,52",
+    "kum_afa_open": "87.598,80",
+    "afa_gj": "21.023,72",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "108.622,52"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A16",
+    "row": 16,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E16"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F16"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G16"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H16"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I16"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J16"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K16"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L16"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M16"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N16"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O16"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P16"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210001004",
+   "sub_no": "0",
+   "name": "Lagerhalle",
+   "acq_date": "2022-02-13",
+   "method": null,
+   "label": "210001004 0 Lagerhalle",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 124830803,
+    "bw_prev": 129015076,
+    "ahk_open": 138081000,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 138081000,
+    "kum_afa_open": 9065924,
+    "afa_gj": 4184273,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 13250197
+   },
+   "printed": {
+    "bw_close": "1.248.308,03",
+    "bw_prev": "1.290.150,76",
+    "ahk_open": "1.380.810,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.380.810,00",
+    "kum_afa_open": "90.659,24",
+    "afa_gj": "41.842,73",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "132.501,97"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A17",
+    "row": 17,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E17"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F17"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G17"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H17"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I17"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J17"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K17"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L17"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M17"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N17"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O17"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P17"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210001005",
+   "sub_no": "0",
+   "name": "Lagerhalle",
+   "acq_date": "2025-01-23",
+   "method": null,
+   "label": "210001005 0 Lagerhalle",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 155930981,
+    "bw_prev": 0,
+    "ahk_open": 0,
+    "zugang": 157121294,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 157121294,
+    "kum_afa_open": 0,
+    "afa_gj": 1190313,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1190313
+   },
+   "printed": {
+    "bw_close": "1.559.309,81",
+    "bw_prev": "0,00",
+    "ahk_open": "0,00",
+    "zugang": "1.571.212,94",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.571.212,94",
+    "kum_afa_open": "0,00",
+    "afa_gj": "11.903,13",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "11.903,13"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A18",
+    "row": 18,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E18"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F18"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G18"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H18"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I18"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J18"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K18"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L18"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M18"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N18"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O18"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P18"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 2100 Fabrikbauten",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 339277884,
+    "bw_prev": 189633548,
+    "ahk_open": 389862652,
+    "zugang": 157121294,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 546983946,
+    "kum_afa_open": 200229104,
+    "afa_gj": 7476958,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 207706062
+   },
+   "printed": {
+    "bw_close": "3.392.778,84",
+    "bw_prev": "1.896.335,48",
+    "ahk_open": "3.898.626,52",
+    "zugang": "1.571.212,94",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "5.469.839,46",
+    "kum_afa_open": "2.002.291,04",
+    "afa_gj": "74.769,58",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "2.077.060,62"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A19",
+    "row": 19,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E19"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F19"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G19"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H19"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I19"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J19"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K19"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L19"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M19"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N19"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O19"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P19"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "300001001",
+   "sub_no": "0",
+   "name": "Teilewaschanlage",
+   "acq_date": "2008-05-24",
+   "method": null,
+   "label": "300001001 0 Teilewaschanlage",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 882800,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 882800,
+    "kum_afa_open": 882700,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 882700
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "8.828,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "8.828,00",
+    "kum_afa_open": "8.827,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "8.827,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A20",
+    "row": 20,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E20"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F20"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G20"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H20"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I20"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J20"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K20"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L20"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M20"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N20"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O20"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P20"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "300001003",
+   "sub_no": "0",
+   "name": "Verpackungsmaschine",
+   "acq_date": "2024-06-13",
+   "method": null,
+   "label": "300001003 0 Verpackungsmaschine",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 26256584,
+    "bw_prev": 0,
+    "ahk_open": 0,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 27801089,
+    "ahk_close": 27801089,
+    "kum_afa_open": 0,
+    "afa_gj": 1544505,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1544505
+   },
+   "printed": {
+    "bw_close": "262.565,84",
+    "bw_prev": "0,00",
+    "ahk_open": "0,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "278.010,89",
+    "ahk_close": "278.010,89",
+    "kum_afa_open": "0,00",
+    "afa_gj": "15.445,05",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "15.445,05"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A21",
+    "row": 21,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E21"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F21"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G21"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H21"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I21"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J21"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K21"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L21"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M21"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N21"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O21"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P21"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 3000 Maschinen",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 26256684,
+    "bw_prev": 100,
+    "ahk_open": 882800,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 27801089,
+    "ahk_close": 28683889,
+    "kum_afa_open": 882700,
+    "afa_gj": 1544505,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 2427205
+   },
+   "printed": {
+    "bw_close": "262.566,84",
+    "bw_prev": "1,00",
+    "ahk_open": "8.828,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "278.010,89",
+    "ahk_close": "286.838,89",
+    "kum_afa_open": "8.827,00",
+    "afa_gj": "15.445,05",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "24.272,05"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A22",
+    "row": 22,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E22"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F22"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G22"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H22"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I22"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J22"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K22"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L22"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M22"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N22"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O22"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P22"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "310001001",
+   "sub_no": "0",
+   "name": "Kälteanlage (gebraucht)",
+   "acq_date": "2010-12-02",
+   "method": null,
+   "label": "310001001 0 Kälteanlage (gebraucht)",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 1551800,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1551800,
+    "kum_afa_open": 1551700,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1551700
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "15.518,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "15.518,00",
+    "kum_afa_open": "15.517,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "15.517,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A23",
+    "row": 23,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E23"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F23"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G23"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H23"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I23"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J23"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K23"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L23"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M23"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N23"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O23"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P23"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "310001002",
+   "sub_no": "0",
+   "name": "Kälteanlage",
+   "acq_date": "2014-05-08",
+   "method": null,
+   "label": "310001002 0 Kälteanlage",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 253717,
+    "ahk_open": 30446100,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 30446100,
+    "kum_afa_open": 30192383,
+    "afa_gj": 253617,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 30446000
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "2.537,17",
+    "ahk_open": "304.461,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "304.461,00",
+    "kum_afa_open": "301.923,83",
+    "afa_gj": "2.536,17",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "304.460,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A24",
+    "row": 24,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E24"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F24"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G24"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H24"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I24"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J24"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K24"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L24"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M24"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N24"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O24"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P24"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "310001003",
+   "sub_no": "0",
+   "name": "Absauganlage Nr. 11",
+   "acq_date": "2024-05-24",
+   "method": null,
+   "label": "310001003 0 Absauganlage Nr. 11",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 3752739,
+    "bw_prev": 0,
+    "ahk_open": 0,
+    "zugang": 3997000,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3997000,
+    "kum_afa_open": 0,
+    "afa_gj": 244261,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 244261
+   },
+   "printed": {
+    "bw_close": "37.527,39",
+    "bw_prev": "0,00",
+    "ahk_open": "0,00",
+    "zugang": "39.970,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "39.970,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "2.442,61",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "2.442,61"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A25",
+    "row": 25,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E25"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F25"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G25"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H25"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I25"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J25"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K25"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L25"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M25"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N25"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O25"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P25"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "310001004",
+   "sub_no": "0",
+   "name": "Brückenkran 5t Halle 1",
+   "acq_date": "2024-09-05",
+   "method": null,
+   "label": "310001004 0 Brückenkran 5t Halle 1",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 22922812,
+    "bw_prev": 0,
+    "ahk_open": 0,
+    "zugang": 24342809,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 24342809,
+    "kum_afa_open": 0,
+    "afa_gj": 1419997,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1419997
+   },
+   "printed": {
+    "bw_close": "229.228,12",
+    "bw_prev": "0,00",
+    "ahk_open": "0,00",
+    "zugang": "243.428,09",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "243.428,09",
+    "kum_afa_open": "0,00",
+    "afa_gj": "14.199,97",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "14.199,97"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A26",
+    "row": 26,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E26"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F26"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G26"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H26"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I26"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J26"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K26"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L26"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M26"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N26"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O26"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P26"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 3100 Technische Anlagen",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 26675751,
+    "bw_prev": 253817,
+    "ahk_open": 31997900,
+    "zugang": 28339809,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 60337709,
+    "kum_afa_open": 31744083,
+    "afa_gj": 1917875,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 33661958
+   },
+   "printed": {
+    "bw_close": "266.757,51",
+    "bw_prev": "2.538,17",
+    "ahk_open": "319.979,00",
+    "zugang": "283.398,09",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "603.377,09",
+    "kum_afa_open": "317.440,83",
+    "afa_gj": "19.178,75",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "336.619,58"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A27",
+    "row": 27,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E27"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F27"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G27"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H27"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I27"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J27"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K27"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L27"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M27"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N27"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O27"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P27"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "400001001",
+   "sub_no": "0",
+   "name": "Gabelstapler (gebraucht)",
+   "acq_date": "2012-10-10",
+   "method": null,
+   "label": "400001001 0 Gabelstapler (gebraucht)",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 143800,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 143800,
+    "kum_afa_open": 143700,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 143700
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "1.438,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.438,00",
+    "kum_afa_open": "1.437,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "1.437,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A28",
+    "row": 28,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E28"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F28"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G28"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H28"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I28"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J28"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K28"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L28"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M28"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N28"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O28"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P28"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 4000 Betriebsausstattung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 143800,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 143800,
+    "kum_afa_open": 143700,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 143700
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "1.438,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.438,00",
+    "kum_afa_open": "1.437,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "1.437,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A29",
+    "row": 29,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E29"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F29"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G29"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H29"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I29"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J29"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K29"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L29"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M29"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N29"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O29"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P29"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "410001001",
+   "sub_no": "0",
+   "name": "Aktenschrank",
+   "acq_date": "2008-08-30",
+   "method": null,
+   "label": "410001001 0 Aktenschrank",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 2343933,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2343933,
+    "kum_afa_open": 2343833,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 2343833
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "23.439,33",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "23.439,33",
+    "kum_afa_open": "23.438,33",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "23.438,33"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A30",
+    "row": 30,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E30"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F30"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G30"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H30"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I30"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J30"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K30"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L30"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M30"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N30"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O30"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P30"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "410001001",
+   "sub_no": "1",
+   "name": "Aktenschrank Erweiterung",
+   "acq_date": "2019-04-27",
+   "method": null,
+   "label": "410001001 1 Aktenschrank Erweiterung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 322530,
+    "bw_prev": 368606,
+    "ahk_open": 598984,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 598984,
+    "kum_afa_open": 230378,
+    "afa_gj": 46076,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 276454
+   },
+   "printed": {
+    "bw_close": "3.225,30",
+    "bw_prev": "3.686,06",
+    "ahk_open": "5.989,84",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "5.989,84",
+    "kum_afa_open": "2.303,78",
+    "afa_gj": "460,76",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "2.764,54"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A31",
+    "row": 31,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E31"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F31"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G31"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H31"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I31"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J31"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K31"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L31"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M31"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N31"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O31"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P31"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "410001002",
+   "sub_no": "0",
+   "name": "Schrankwand Büro",
+   "acq_date": "2009-02-24",
+   "method": null,
+   "label": "410001002 0 Schrankwand Büro",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 61100,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 61100,
+    "kum_afa_open": 61000,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 61000
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "611,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "611,00",
+    "kum_afa_open": "610,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "610,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A32",
+    "row": 32,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E32"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F32"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G32"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H32"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I32"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J32"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K32"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L32"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M32"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N32"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O32"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P32"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "410001003",
+   "sub_no": "0",
+   "name": "Bürostuhl ergonomisch Typ A120",
+   "acq_date": "2010-02-06",
+   "method": null,
+   "label": "410001003 0 Bürostuhl ergonomisch Typ A120",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 2236600,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2236600,
+    "kum_afa_open": 2236500,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 2236500
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "22.366,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "22.366,00",
+    "kum_afa_open": "22.365,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "22.365,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A33",
+    "row": 33,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E33"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F33"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G33"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H33"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I33"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J33"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K33"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L33"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M33"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N33"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O33"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P33"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "410001004",
+   "sub_no": "0",
+   "name": "Rollcontainer (gebraucht)",
+   "acq_date": "2013-11-21",
+   "method": null,
+   "label": "410001004 0 Rollcontainer (gebraucht)",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 127461,
+    "bw_prev": 207962,
+    "ahk_open": 1046519,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1046519,
+    "kum_afa_open": 838557,
+    "afa_gj": 80501,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 919058
+   },
+   "printed": {
+    "bw_close": "1.274,61",
+    "bw_prev": "2.079,62",
+    "ahk_open": "10.465,19",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "10.465,19",
+    "kum_afa_open": "8.385,57",
+    "afa_gj": "805,01",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "9.190,58"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A34",
+    "row": 34,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E34"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F34"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G34"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H34"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I34"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J34"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K34"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L34"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M34"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N34"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O34"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P34"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "410001005",
+   "sub_no": "0",
+   "name": "Rollcontainer Halle 4",
+   "acq_date": "2023-07-24",
+   "method": null,
+   "label": "410001005 0 Rollcontainer Halle 4",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 0,
+    "bw_prev": 631912,
+    "ahk_open": 670600,
+    "zugang": 0,
+    "abgang": 670600,
+    "umbuchung": 0,
+    "ahk_close": 0,
+    "kum_afa_open": 38688,
+    "afa_gj": 30091,
+    "afa_abgang": 68779,
+    "zuschreibung": 0,
+    "kum_afa_close": 0
+   },
+   "printed": {
+    "bw_close": "0,00",
+    "bw_prev": "6.319,12",
+    "ahk_open": "6.706,00",
+    "zugang": "0,00",
+    "abgang": "6.706,00",
+    "umbuchung": "0,00",
+    "ahk_close": "0,00",
+    "kum_afa_open": "386,88",
+    "afa_gj": "300,91",
+    "afa_abgang": "687,79",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A35",
+    "row": 35,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E35"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F35"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G35"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H35"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I35"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J35"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K35"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L35"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M35"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N35"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O35"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P35"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 4100 Büroeinrichtung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 450291,
+    "bw_prev": 1208780,
+    "ahk_open": 6957736,
+    "zugang": 0,
+    "abgang": 670600,
+    "umbuchung": 0,
+    "ahk_close": 6287136,
+    "kum_afa_open": 5748956,
+    "afa_gj": 156668,
+    "afa_abgang": 68779,
+    "zuschreibung": 0,
+    "kum_afa_close": 5836845
+   },
+   "printed": {
+    "bw_close": "4.502,91",
+    "bw_prev": "12.087,80",
+    "ahk_open": "69.577,36",
+    "zugang": "0,00",
+    "abgang": "6.706,00",
+    "umbuchung": "0,00",
+    "ahk_close": "62.871,36",
+    "kum_afa_open": "57.489,56",
+    "afa_gj": "1.566,68",
+    "afa_abgang": "687,79",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "58.368,45"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A36",
+    "row": 36,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E36"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F36"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G36"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H36"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I36"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J36"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K36"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L36"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M36"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N36"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O36"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P36"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420001001",
+   "sub_no": "0",
+   "name": "Pkw Elektro Halle 3",
+   "acq_date": "2015-02-06",
+   "method": null,
+   "label": "420001001 0 Pkw Elektro Halle 3",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 3988297,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3988297,
+    "kum_afa_open": 3988197,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 3988197
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "39.882,97",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "39.882,97",
+    "kum_afa_open": "39.881,97",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "39.881,97"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A37",
+    "row": 37,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E37"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F37"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G37"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H37"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I37"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J37"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K37"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L37"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M37"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N37"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O37"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P37"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r34",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420001002",
+   "sub_no": "0",
+   "name": "Pkw Mittelklasse Hybrid Typ R805",
+   "acq_date": "2017-11-22",
+   "method": null,
+   "label": "420001002 0 Pkw Mittelklasse Hybrid Typ R805",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 5155730,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5155730,
+    "kum_afa_open": 5155630,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5155630
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "51.557,30",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "51.557,30",
+    "kum_afa_open": "51.556,30",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "51.556,30"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A38",
+    "row": 38,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E38"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F38"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G38"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H38"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I38"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J38"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K38"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L38"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M38"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N38"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O38"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P38"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r35",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420001002",
+   "sub_no": "1",
+   "name": "Pkw Mittelklasse Hybrid Typ R805 Erweiterung",
+   "acq_date": "2021-10-27",
+   "method": null,
+   "label": "420001002 1 Pkw Mittelklasse Hybrid Typ R805 Erweiterung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 562947,
+    "bw_prev": 788126,
+    "ahk_open": 1351074,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1351074,
+    "kum_afa_open": 562948,
+    "afa_gj": 225179,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 788127
+   },
+   "printed": {
+    "bw_close": "5.629,47",
+    "bw_prev": "7.881,26",
+    "ahk_open": "13.510,74",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "13.510,74",
+    "kum_afa_open": "5.629,48",
+    "afa_gj": "2.251,79",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "7.881,27"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A39",
+    "row": 39,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E39"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F39"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G39"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H39"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I39"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J39"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K39"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L39"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M39"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N39"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O39"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P39"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r36",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420001003",
+   "sub_no": "0",
+   "name": "Kleintransporter",
+   "acq_date": "2019-11-19",
+   "method": null,
+   "label": "420001003 0 Kleintransporter",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 600780,
+    "bw_prev": 1630689,
+    "ahk_open": 6179452,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 6179452,
+    "kum_afa_open": 4548763,
+    "afa_gj": 1029909,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5578672
+   },
+   "printed": {
+    "bw_close": "6.007,80",
+    "bw_prev": "16.306,89",
+    "ahk_open": "61.794,52",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "61.794,52",
+    "kum_afa_open": "45.487,63",
+    "afa_gj": "10.299,09",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "55.786,72"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A40",
+    "row": 40,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E40"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F40"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G40"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H40"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I40"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J40"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K40"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L40"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M40"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N40"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O40"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P40"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r37",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420001004",
+   "sub_no": "0",
+   "name": "Kleintransporter Typ L805",
+   "acq_date": "2021-05-04",
+   "method": null,
+   "label": "420001004 0 Kleintransporter Typ L805",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 2431597,
+    "bw_prev": 3598764,
+    "ahk_open": 7003000,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 7003000,
+    "kum_afa_open": 3404236,
+    "afa_gj": 1167167,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 4571403
+   },
+   "printed": {
+    "bw_close": "24.315,97",
+    "bw_prev": "35.987,64",
+    "ahk_open": "70.030,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "70.030,00",
+    "kum_afa_open": "34.042,36",
+    "afa_gj": "11.671,67",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "45.714,03"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A41",
+    "row": 41,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E41"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F41"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G41"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H41"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I41"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J41"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K41"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L41"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M41"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N41"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O41"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P41"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r38",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420001005",
+   "sub_no": "0",
+   "name": "Pkw Elektro Nr. 12",
+   "acq_date": "2024-03-28",
+   "method": null,
+   "label": "420001005 0 Pkw Elektro Nr. 12",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 4392778,
+    "bw_prev": 5286224,
+    "ahk_open": 5360678,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5360678,
+    "kum_afa_open": 74454,
+    "afa_gj": 893446,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 967900
+   },
+   "printed": {
+    "bw_close": "43.927,78",
+    "bw_prev": "52.862,24",
+    "ahk_open": "53.606,78",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "53.606,78",
+    "kum_afa_open": "744,54",
+    "afa_gj": "8.934,46",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "9.679,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A42",
+    "row": 42,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E42"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F42"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G42"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H42"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I42"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J42"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K42"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L42"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M42"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N42"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O42"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P42"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r39",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 4200 Pkw",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 7988302,
+    "bw_prev": 11304003,
+    "ahk_open": 29038231,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 29038231,
+    "kum_afa_open": 17734228,
+    "afa_gj": 3315701,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 21049929
+   },
+   "printed": {
+    "bw_close": "79.883,02",
+    "bw_prev": "113.040,03",
+    "ahk_open": "290.382,31",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "290.382,31",
+    "kum_afa_open": "177.342,28",
+    "afa_gj": "33.157,01",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "210.499,29"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A43",
+    "row": 43,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E43"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F43"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G43"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H43"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I43"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J43"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K43"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L43"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M43"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N43"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O43"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P43"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r40",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "430001001",
+   "sub_no": "0",
+   "name": "Kastenwagen Typ T962",
+   "acq_date": "2011-05-13",
+   "method": null,
+   "label": "430001001 0 Kastenwagen Typ T962",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 16754900,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 16754900,
+    "kum_afa_open": 16754800,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 16754800
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "167.549,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "167.549,00",
+    "kum_afa_open": "167.548,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "167.548,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A44",
+    "row": 44,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E44"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F44"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G44"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H44"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I44"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J44"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K44"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L44"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M44"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N44"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O44"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P44"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r41",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "430001002",
+   "sub_no": "0",
+   "name": "Sattelzugmaschine Nr. 36",
+   "acq_date": "2019-04-01",
+   "method": null,
+   "label": "430001002 0 Sattelzugmaschine Nr. 36",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 3180133,
+    "bw_prev": 4240178,
+    "ahk_open": 9540400,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 9540400,
+    "kum_afa_open": 5300222,
+    "afa_gj": 1060045,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 6360267
+   },
+   "printed": {
+    "bw_close": "31.801,33",
+    "bw_prev": "42.401,78",
+    "ahk_open": "95.404,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "95.404,00",
+    "kum_afa_open": "53.002,22",
+    "afa_gj": "10.600,45",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "63.602,67"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A45",
+    "row": 45,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E45"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F45"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G45"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H45"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I45"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J45"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K45"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L45"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M45"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N45"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O45"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P45"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r42",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "430001003",
+   "sub_no": "0",
+   "name": "Sattelzugmaschine",
+   "acq_date": "2020-07-09",
+   "method": null,
+   "label": "430001003 0 Sattelzugmaschine",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 1444931,
+    "bw_prev": 1784915,
+    "ahk_open": 3059854,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3059854,
+    "kum_afa_open": 1274939,
+    "afa_gj": 339984,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1614923
+   },
+   "printed": {
+    "bw_close": "14.449,31",
+    "bw_prev": "17.849,15",
+    "ahk_open": "30.598,54",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "30.598,54",
+    "kum_afa_open": "12.749,39",
+    "afa_gj": "3.399,84",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "16.149,23"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A46",
+    "row": 46,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E46"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F46"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G46"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H46"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I46"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J46"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K46"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L46"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M46"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N46"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O46"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P46"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r43",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "430001004",
+   "sub_no": "0",
+   "name": "Kastenwagen Nr. 21",
+   "acq_date": "2022-04-06",
+   "method": null,
+   "label": "430001004 0 Kastenwagen Nr. 21",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 0,
+    "bw_prev": 4751816,
+    "ahk_open": 6109478,
+    "zugang": 0,
+    "abgang": 6109478,
+    "umbuchung": 0,
+    "ahk_close": 0,
+    "kum_afa_open": 1357662,
+    "afa_gj": 56569,
+    "afa_abgang": 1414231,
+    "zuschreibung": 0,
+    "kum_afa_close": 0
+   },
+   "printed": {
+    "bw_close": "0,00",
+    "bw_prev": "47.518,16",
+    "ahk_open": "61.094,78",
+    "zugang": "0,00",
+    "abgang": "61.094,78",
+    "umbuchung": "0,00",
+    "ahk_close": "0,00",
+    "kum_afa_open": "13.576,62",
+    "afa_gj": "565,69",
+    "afa_abgang": "14.142,31",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A47",
+    "row": 47,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E47"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F47"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G47"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H47"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I47"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J47"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K47"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L47"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M47"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N47"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O47"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P47"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r44",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "430001005",
+   "sub_no": "0",
+   "name": "Kastenwagen Typ K288",
+   "acq_date": "2024-11-12",
+   "method": null,
+   "label": "430001005 0 Kastenwagen Typ K288",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 7299703,
+    "bw_prev": 0,
+    "ahk_open": 0,
+    "zugang": 7654057,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 7654057,
+    "kum_afa_open": 0,
+    "afa_gj": 354354,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 354354
+   },
+   "printed": {
+    "bw_close": "72.997,03",
+    "bw_prev": "0,00",
+    "ahk_open": "0,00",
+    "zugang": "76.540,57",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "76.540,57",
+    "kum_afa_open": "0,00",
+    "afa_gj": "3.543,54",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "3.543,54"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A48",
+    "row": 48,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E48"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F48"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G48"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H48"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I48"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J48"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K48"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L48"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M48"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N48"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O48"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P48"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r45",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 4300 Lkw",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 11924867,
+    "bw_prev": 10777009,
+    "ahk_open": 35464632,
+    "zugang": 7654057,
+    "abgang": 6109478,
+    "umbuchung": 0,
+    "ahk_close": 37009211,
+    "kum_afa_open": 24687623,
+    "afa_gj": 1810952,
+    "afa_abgang": 1414231,
+    "zuschreibung": 0,
+    "kum_afa_close": 25084344
+   },
+   "printed": {
+    "bw_close": "119.248,67",
+    "bw_prev": "107.770,09",
+    "ahk_open": "354.646,32",
+    "zugang": "76.540,57",
+    "abgang": "61.094,78",
+    "umbuchung": "0,00",
+    "ahk_close": "370.092,11",
+    "kum_afa_open": "246.876,23",
+    "afa_gj": "18.109,52",
+    "afa_abgang": "14.142,31",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "250.843,44"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A49",
+    "row": 49,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E49"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F49"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G49"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H49"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I49"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J49"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K49"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L49"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M49"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N49"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O49"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P49"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r46",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "440001001",
+   "sub_no": "0",
+   "name": "Server 2HE Nr. 2",
+   "acq_date": "2009-06-21",
+   "method": null,
+   "label": "440001001 0 Server 2HE Nr. 2",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 3358400,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3358400,
+    "kum_afa_open": 3358300,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 3358300
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "33.584,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "33.584,00",
+    "kum_afa_open": "33.583,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "33.583,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A50",
+    "row": 50,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E50"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F50"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G50"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H50"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I50"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J50"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K50"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L50"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M50"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N50"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O50"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P50"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r47",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "440001002",
+   "sub_no": "0",
+   "name": "Server 2HE",
+   "acq_date": "2014-11-08",
+   "method": null,
+   "label": "440001002 0 Server 2HE",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 1429100,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1429100,
+    "kum_afa_open": 1429000,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1429000
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "14.291,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "14.291,00",
+    "kum_afa_open": "14.290,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "14.290,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A51",
+    "row": 51,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E51"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F51"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G51"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H51"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I51"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J51"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K51"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L51"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M51"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N51"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O51"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P51"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r48",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "440001003",
+   "sub_no": "0",
+   "name": "Notebook Halle 1",
+   "acq_date": "2019-01-16",
+   "method": null,
+   "label": "440001003 0 Notebook Halle 1",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 100,
+    "ahk_open": 64400,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 64400,
+    "kum_afa_open": 64300,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 64300
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "1,00",
+    "ahk_open": "644,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "644,00",
+    "kum_afa_open": "643,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "643,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A52",
+    "row": 52,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E52"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F52"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G52"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H52"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I52"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J52"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K52"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L52"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M52"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N52"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O52"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P52"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r49",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "440001003",
+   "sub_no": "1",
+   "name": "Notebook Halle 1 Erweiterung",
+   "acq_date": "2021-08-28",
+   "method": null,
+   "label": "440001003 1 Notebook Halle 1 Erweiterung",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 100,
+    "bw_prev": 1914,
+    "ahk_open": 17227,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 17227,
+    "kum_afa_open": 15313,
+    "afa_gj": 1814,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 17127
+   },
+   "printed": {
+    "bw_close": "1,00",
+    "bw_prev": "19,14",
+    "ahk_open": "172,27",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "172,27",
+    "kum_afa_open": "153,13",
+    "afa_gj": "18,14",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "171,27"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A53",
+    "row": 53,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E53"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F53"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G53"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H53"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I53"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J53"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K53"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L53"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M53"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N53"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O53"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P53"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r50",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "440001004",
+   "sub_no": "0",
+   "name": "Serverschrank 42HE",
+   "acq_date": "2021-07-13",
+   "method": null,
+   "label": "440001004 0 Serverschrank 42HE",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 60525,
+    "bw_prev": 108945,
+    "ahk_open": 242100,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 242100,
+    "kum_afa_open": 133155,
+    "afa_gj": 48420,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 181575
+   },
+   "printed": {
+    "bw_close": "605,25",
+    "bw_prev": "1.089,45",
+    "ahk_open": "2.421,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "2.421,00",
+    "kum_afa_open": "1.331,55",
+    "afa_gj": "484,20",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "1.815,75"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A54",
+    "row": 54,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E54"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F54"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G54"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H54"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I54"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J54"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K54"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L54"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M54"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N54"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O54"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P54"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r51",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 4400 EDV-Hardware",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 60925,
+    "bw_prev": 111159,
+    "ahk_open": 5111227,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5111227,
+    "kum_afa_open": 5000068,
+    "afa_gj": 50234,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5050302
+   },
+   "printed": {
+    "bw_close": "609,25",
+    "bw_prev": "1.111,59",
+    "ahk_open": "51.112,27",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "51.112,27",
+    "kum_afa_open": "50.000,68",
+    "afa_gj": "502,34",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "50.503,02"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A55",
+    "row": 55,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E55"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F55"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G55"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H55"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I55"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J55"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K55"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L55"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M55"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N55"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O55"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P55"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r52",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "490001002",
+   "sub_no": "0",
+   "name": "Messschieber digital",
+   "acq_date": "2023-09-04",
+   "method": null,
+   "label": "490001002 0 Messschieber digital",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 0,
+    "bw_prev": 0,
+    "ahk_open": 54100,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 54100,
+    "kum_afa_open": 54100,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 54100
+   },
+   "printed": {
+    "bw_close": "0,00",
+    "bw_prev": "0,00",
+    "ahk_open": "541,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "541,00",
+    "kum_afa_open": "541,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "541,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A56",
+    "row": 56,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E56"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F56"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G56"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H56"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I56"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J56"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K56"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L56"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M56"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N56"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O56"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P56"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r53",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "490001003",
+   "sub_no": "0",
+   "name": "Stehleuchte",
+   "acq_date": "2024-03-28",
+   "method": null,
+   "label": "490001003 0 Stehleuchte",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 0,
+    "bw_prev": 0,
+    "ahk_open": 57821,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 57821,
+    "kum_afa_open": 57821,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 57821
+   },
+   "printed": {
+    "bw_close": "0,00",
+    "bw_prev": "0,00",
+    "ahk_open": "578,21",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "578,21",
+    "kum_afa_open": "578,21",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "578,21"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A57",
+    "row": 57,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E57"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F57"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G57"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H57"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I57"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J57"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K57"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L57"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M57"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N57"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O57"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P57"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r54",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "490001004",
+   "sub_no": "0",
+   "name": "Laserdrucker",
+   "acq_date": "2025-01-31",
+   "method": null,
+   "label": "490001004 0 Laserdrucker",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 0,
+    "bw_prev": 0,
+    "ahk_open": 0,
+    "zugang": 37408,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 37408,
+    "kum_afa_open": 0,
+    "afa_gj": 37408,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 37408
+   },
+   "printed": {
+    "bw_close": "0,00",
+    "bw_prev": "0,00",
+    "ahk_open": "0,00",
+    "zugang": "374,08",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "374,08",
+    "kum_afa_open": "0,00",
+    "afa_gj": "374,08",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "374,08"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A58",
+    "row": 58,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E58"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F58"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G58"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H58"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I58"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J58"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K58"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L58"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M58"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N58"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O58"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P58"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r55",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 4900 Geringwertige Wirtschaftsgüter",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 0,
+    "bw_prev": 0,
+    "ahk_open": 111921,
+    "zugang": 37408,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 149329,
+    "kum_afa_open": 111921,
+    "afa_gj": 37408,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 149329
+   },
+   "printed": {
+    "bw_close": "0,00",
+    "bw_prev": "0,00",
+    "ahk_open": "1.119,21",
+    "zugang": "374,08",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.493,29",
+    "kum_afa_open": "1.119,21",
+    "afa_gj": "374,08",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "1.493,29"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A59",
+    "row": 59,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E59"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F59"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G59"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H59"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I59"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J59"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K59"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L59"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M59"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N59"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O59"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P59"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r56",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "500001001",
+   "sub_no": "0",
+   "name": "AiB Verpackungsmaschine",
+   "acq_date": "2023-07-15",
+   "method": null,
+   "label": "500001001 0 AiB Verpackungsmaschine",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 0,
+    "bw_prev": 4004345,
+    "ahk_open": 4004345,
+    "zugang": 23796744,
+    "abgang": 0,
+    "umbuchung": -27801089,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0
+   },
+   "printed": {
+    "bw_close": "0,00",
+    "bw_prev": "40.043,45",
+    "ahk_open": "40.043,45",
+    "zugang": "237.967,44",
+    "abgang": "0,00",
+    "umbuchung": "-278.010,89",
+    "ahk_close": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A60",
+    "row": 60,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E60"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F60"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G60"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H60"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I60"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J60"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K60"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L60"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M60"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N60"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O60"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P60"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r57",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 5000 Anlagen im Bau",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 0,
+    "bw_prev": 4004345,
+    "ahk_open": 4004345,
+    "zugang": 23796744,
+    "abgang": 0,
+    "umbuchung": -27801089,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0
+   },
+   "printed": {
+    "bw_close": "0,00",
+    "bw_prev": "40.043,45",
+    "ahk_open": "40.043,45",
+    "zugang": "237.967,44",
+    "abgang": "0,00",
+    "umbuchung": "-278.010,89",
+    "ahk_close": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A61",
+    "row": 61,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E61"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F61"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G61"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H61"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I61"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J61"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K61"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L61"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M61"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N61"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O61"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P61"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r58",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "600001001",
+   "sub_no": "0",
+   "name": "Anteile Servicegesellschaft",
+   "acq_date": "2002-04-28",
+   "method": null,
+   "label": "600001001 0 Anteile Servicegesellschaft",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 251619,
+    "bw_prev": 207216,
+    "ahk_open": 296022,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 296022,
+    "kum_afa_open": 88806,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 44403,
+    "kum_afa_close": 44403
+   },
+   "printed": {
+    "bw_close": "2.516,19",
+    "bw_prev": "2.072,16",
+    "ahk_open": "2.960,22",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "2.960,22",
+    "kum_afa_open": "888,06",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "444,03",
+    "kum_afa_close": "444,03"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A62",
+    "row": 62,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E62"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F62"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G62"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H62"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I62"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J62"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K62"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L62"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M62"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N62"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O62"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P62"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r59",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "600001002",
+   "sub_no": "0",
+   "name": "Anteile Servicegesellschaft",
+   "acq_date": "2016-02-11",
+   "method": null,
+   "label": "600001002 0 Anteile Servicegesellschaft",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 243580,
+    "bw_prev": 243580,
+    "ahk_open": 243580,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 243580,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0
+   },
+   "printed": {
+    "bw_close": "2.435,80",
+    "bw_prev": "2.435,80",
+    "ahk_open": "2.435,80",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "2.435,80",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A63",
+    "row": 63,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E63"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F63"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G63"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H63"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I63"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J63"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K63"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L63"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M63"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N63"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O63"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P63"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r60",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagenklasse 6000 Beteiligungen",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 495199,
+    "bw_prev": 450796,
+    "ahk_open": 539602,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 539602,
+    "kum_afa_open": 88806,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 44403,
+    "kum_afa_close": 44403
+   },
+   "printed": {
+    "bw_close": "4.951,99",
+    "bw_prev": "4.507,96",
+    "ahk_open": "5.396,02",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "5.396,02",
+    "kum_afa_open": "888,06",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "444,03",
+    "kum_afa_close": "444,03"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A64",
+    "row": 64,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E64"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F64"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G64"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H64"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I64"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J64"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K64"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L64"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M64"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N64"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O64"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P64"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r61",
+   "kind": "grand_total",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Gesamtsumme",
+   "context": [
+    "Tarvunbrock Logistik GmbH",
+    "Anlagenliste nach Anlagenklassen zum 31.03.2025"
+   ],
+   "fields": {
+    "bw_close": 481859989,
+    "bw_prev": 286492611,
+    "ahk_open": 576019094,
+    "zugang": 217058008,
+    "abgang": 6780078,
+    "umbuchung": 0,
+    "ahk_close": 786297024,
+    "kum_afa_open": 289526483,
+    "afa_gj": 16437965,
+    "afa_abgang": 1483010,
+    "zuschreibung": 44403,
+    "kum_afa_close": 304437035
+   },
+   "printed": {
+    "bw_close": "4.818.599,89",
+    "bw_prev": "2.864.926,11",
+    "ahk_open": "5.760.190,94",
+    "zugang": "2.170.580,08",
+    "abgang": "67.800,78",
+    "umbuchung": "0,00",
+    "ahk_close": "7.862.970,24",
+    "kum_afa_open": "2.895.264,83",
+    "afa_gj": "164.379,65",
+    "afa_abgang": "14.830,10",
+    "zuschreibung": "444,03",
+    "kum_afa_close": "3.044.370,35"
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A65",
+    "row": 65,
+    "fields": {
+     "bw_close": {
+      "sheet": "Anlagen",
+      "cell": "E65"
+     },
+     "bw_prev": {
+      "sheet": "Anlagen",
+      "cell": "F65"
+     },
+     "ahk_open": {
+      "sheet": "Anlagen",
+      "cell": "G65"
+     },
+     "zugang": {
+      "sheet": "Anlagen",
+      "cell": "H65"
+     },
+     "abgang": {
+      "sheet": "Anlagen",
+      "cell": "I65"
+     },
+     "umbuchung": {
+      "sheet": "Anlagen",
+      "cell": "J65"
+     },
+     "ahk_close": {
+      "sheet": "Anlagen",
+      "cell": "K65"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagen",
+      "cell": "L65"
+     },
+     "afa_gj": {
+      "sheet": "Anlagen",
+      "cell": "M65"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagen",
+      "cell": "N65"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagen",
+      "cell": "O65"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagen",
+      "cell": "P65"
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": []
+}

@@ -1,0 +1,971 @@
+{
+ "doc_id": "f06_sap_asset_gitter_06",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 256.14,
+     "span": [
+      222.54,
+      256.14
+     ],
+     "col": null,
+     "header": "AHK GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 307.14,
+     "span": [
+      273.54,
+      310.5
+     ],
+     "col": null,
+     "header": "AfA GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 358.14,
+     "span": [
+      327.9,
+      358.14
+     ],
+     "col": null,
+     "header": "Buchwert GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 409.14,
+     "span": [
+      378.9,
+      409.14
+     ],
+     "col": null,
+     "header": "Zugang",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 460.14,
+     "span": [
+      429.9,
+      463.5
+     ],
+     "col": null,
+     "header": "AfA des Jahres",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 511.14,
+     "span": [
+      497.7,
+      511.14
+     ],
+     "col": null,
+     "header": "Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 562.14,
+     "span": [
+      548.7,
+      562.14
+     ],
+     "col": null,
+     "header": "AfA Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 613.14,
+     "span": [
+      599.7,
+      613.14
+     ],
+     "col": null,
+     "header": "Umbuchung",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 664.14,
+     "span": [
+      633.9,
+      664.14
+     ],
+     "col": null,
+     "header": "lfd Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 715.14,
+     "span": [
+      681.54,
+      715.14
+     ],
+     "col": null,
+     "header": "aktuelle AHK",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anlage UNr. Anlagenbezeichnung Währg Aktivdatum AHK GJ-Beg AfA GJ-BegBuchwert GJ-Beg Zugang AfA des Jahres Abgang AfA Abgang Umbuchung lfd Buchwert aktuelle AHK kumulierte"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    68.26,
+    73.86
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "10 0 434-737268 Warenwirtschaft EUR 02.11.2016 112.043",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    75.54,
+    81.14
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "10 1 Warenwirtschaft Modul Lage EUR 09.09.2023 15.718",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    82.82,
+    88.42
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "12 0 Finanzbuchhaltung Software EUR 24.11.2017 4.301",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    90.1,
+    95.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "12 1 Finanzbuchhaltung Software EUR 24.06.2025 61",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    97.38,
+    102.98
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "14 0 950-195546 ERP-Lizenz Typ EUR 16.07.2019 9.166",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    104.66,
+    110.26
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "14 1 ERP-Lizenz Typ D770 Nachrü EUR 27.10.2022 1.003",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    111.94,
+    117.54
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "15 0 Office-Lizenzen EUR 27.08.2019 4.938",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    119.22,
+    124.82
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "21 0 CAD-Software Lizenz Typ F6 EUR 15.04.2023 7.530",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    126.5,
+    132.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "21 1 CAD-Software Lizenz Typ F6 EUR 03.04.2024 551",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    133.78,
+    139.38
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "25 0 Finanzbuchhaltung Software EUR 22.04.2025 12.193",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    141.06,
+    146.66
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*Klasse 1000 EDV-Software EUR 167.508",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    68.26,
+    73.86
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "2 0 Grund und Boden Betriebsge EUR 10.05.2008 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    75.54,
+    81.14
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "3 0 Grund und Boden Betriebsge EUR 20.08.2010 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    82.82,
+    88.42
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*Klasse 2000 Grund und Boden EUR 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    68.26,
+    73.86
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "6 0 Schraubenkompressor Nr. 29 EUR 31.12.2012 94.167",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    75.54,
+    81.14
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "6 1 340-383451 Schraubenkompre EUR 27.05.2022 2.462",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    82.82,
+    88.42
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "26 0 Spritzgießmaschine Typ S59 EUR 08.06.2025 659",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    90.1,
+    95.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "28 0 Flachschleifmaschine Typ B EUR 13.07.2025 2.383",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    97.38,
+    102.98
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "29 0 Hydraulikpresse (gebraucht EUR 28.07.2025 2.051",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    104.66,
+    110.26
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "30 0 Schraubenkompressor Halle EUR 20.08.2025 1.181",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    111.94,
+    117.54
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "31 0 848-521113 Schweißroboter EUR 10.09.2025 3.747",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    119.22,
+    124.82
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*Klasse 3000 Maschinen EUR 106.653",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    68.26,
+    73.86
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "9 0 Pkw Kompaktklasse Halle 5 EUR 04.08.2015 79.973",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    75.54,
+    81.14
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "11 0 Pkw Elektro Typ T170 EUR 20.11.2017 23.028",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    82.82,
+    88.42
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "11 1 Pkw Elektro Typ T170 Zusat EUR 19.08.2019 3.763",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    90.1,
+    95.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "16 0 Kleintransporter EUR 02.09.2019 33.512",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    97.38,
+    102.98
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "17 0 Pkw Kombi Diesel Halle 5 EUR 14.10.2019 82.856",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    104.66,
+    110.26
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "17 1 718-517919 Pkw Kombi Diese EUR 17.06.2022 8.739",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    111.94,
+    117.54
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*Klasse 4200 Pkw EUR 231.873",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    68.26,
+    73.86
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "1 0 876-665253 Rollcontainer T EUR 22.01.2008 9.594",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    75.54,
+    81.14
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5 0 Empfangstheke EUR 02.01.2012 2.650",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    82.82,
+    88.42
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "8 0 549-443326 Schrankwand Bür EUR 04.07.2015 2.470",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    90.1,
+    95.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "13 0 Schreibtisch höhenverstell EUR 28.06.2019 2.212",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    97.38,
+    102.98
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "18 0 Besprechungstisch (gebrauc EUR 16.02.2021 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    104.66,
+    110.26
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "20 0 108-278356 Bürostuhl ergon EUR 11.08.2022 378",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    111.94,
+    117.54
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "20 1 Bürostuhl ergonomisch Hall EUR 07.07.2024 15",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    119.22,
+    124.82
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "33 0 Regalsystem Archiv EUR 10.11.2025 29",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    126.5,
+    132.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "34 0 Schrankwand Büro Halle 3 EUR 27.11.2025 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    133.78,
+    139.38
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*Klasse 4100 Büroeinrichtung EUR 17.358",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    68.26,
+    73.86
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "19 0 Bürostuhl EUR 17.08.2021 252",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    75.54,
+    81.14
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "22 0 Messschieber digital EUR 18.04.2023 418",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    82.82,
+    88.42
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "23 0 Stehleuchte EUR 27.12.2023 606",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    90.1,
+    95.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "27 0 Werkzeugkoffer EUR 11.06.2025 660",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    97.38,
+    102.98
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "32 0 Stehleuchte EUR 12.09.2025 748",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    104.66,
+    110.26
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "35 0 830-227180 Tablet EUR 29.11.2025 268",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    111.94,
+    117.54
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "36 0 Messschieber digital EUR 09.12.2025 283",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    119.22,
+    124.82
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*Klasse 4900 Geringwertige WirtschaftsgüEtUeRr 3.237",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    68.26,
+    73.86
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "24 0 455-138296 AiB Schweißrobo EUR 02.03.2024 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    75.54,
+    81.14
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "*Klasse 5000 Anlagen im Bau EUR 0",
+   "context": [],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 1: no amounts, skipped",
+  "page 3: repeats the header of section s1",
+  "page 4: repeats the header of section s1",
+  "page 5: repeats the header of section s1",
+  "page 6: repeats the header of section s1",
+  "page 7: repeats the header of section s1",
+  "page 8: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "no_amounts",
+  "2": "schedule",
+  "3": "repeats",
+  "4": "repeats",
+  "5": "repeats",
+  "6": "repeats",
+  "7": "repeats",
+  "8": "repeats"
+ }
+}

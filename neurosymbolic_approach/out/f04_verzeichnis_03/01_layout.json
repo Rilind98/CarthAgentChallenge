@@ -1,0 +1,1592 @@
+{
+ "doc_id": "f04_verzeichnis_03",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Anlageverzeichnis",
+   "period_end": "2024-12-31",
+   "period_start": "2024-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlageverzeichnis:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "AHK EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.55,
+       "AHK without role -> close?"
+      ],
+      [
+       "ahk_open",
+       0.45,
+       "AHK without role -> open?"
+      ]
+     ]
+    },
+    {
+     "id": "Anlageverzeichnis:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "Buchwert EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       0.55,
+       "BW without role -> close?"
+      ],
+      [
+       "bw_prev",
+       0.45,
+       "BW without role -> open?"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "asset_no": 1,
+    "name": 2,
+    "acq_date": 5,
+    "method": 6
+   },
+   "header_lines": [
+    "Inventar- | Inventar- | Kosten- | AHK | Anschaff. | AfA | ND | Buchwert | Datum des",
+    "Nummer | Bezeichnung | stelle | EUR | Datum | Art | EUR | Abgangs"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 13,
+   "kind_guess": "asset",
+   "label": "11 Office-Lizenzen lin 5",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 14,
+   "kind_guess": "asset",
+   "label": "43e CAD-Software Lizenz Nr. 5 lin 5",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 15,
+   "kind_guess": "asset",
+   "label": "46 Finanzbuchhaltung Software lin 5",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 16,
+   "kind_guess": "asset",
+   "label": "60 ERP-Lizenz Halle 4 lin 5",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "603 Office-Lizenzen lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "658 CAD-Software Lizenz lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 19,
+   "kind_guess": "asset",
+   "label": "74 CAD-Software Lizenz lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 20,
+   "kind_guess": "asset",
+   "label": "751 Office-Lizenzen (gebraucht) lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 21,
+   "kind_guess": "asset",
+   "label": "805 ERP-Lizenz Halle 4 lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 22,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 25,
+   "kind_guess": "asset",
+   "label": "01 Grund und Boden Betriebsgelände 0 k 0",
+   "context": [
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027",
+    "Konto  085"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 26,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027",
+    "Konto  085"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 29,
+   "kind_guess": "asset",
+   "label": "1463A Werkstattgebäude 0 geb 33",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 30,
+   "kind_guess": "asset",
+   "label": "3107 Anbau Sozialtrakt 0 geb 33",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 31,
+   "kind_guess": "asset",
+   "label": "797C Lagerhalle 0 geb 33",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 32,
+   "kind_guess": "asset",
+   "label": "8 Produktionshalle 0 geb 33",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 33,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 36,
+   "kind_guess": "asset",
+   "label": "127 Teilewaschanlage 0 lin 8",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 37,
+   "kind_guess": "asset",
+   "label": "25 3D-Koordinatenmessmaschine (gebraucht) 0 lin 15",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 38,
+   "kind_guess": "asset",
+   "label": "3134 3D-Koordinatenmessmaschine 0 lin 10",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 39,
+   "kind_guess": "asset",
+   "label": "3327 Ständerbohrmaschine (gebraucht) 0 lin 15",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 40,
+   "kind_guess": "asset",
+   "label": "37 Bandsäge Typ A635 0 lin 10",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 41,
+   "kind_guess": "asset",
+   "label": "455 Abkantpresse (gebraucht) 0 lin 8",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 42,
+   "kind_guess": "asset",
+   "label": "71 Verpackungsmaschine Halle 4 0 lin 15",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 43,
+   "kind_guess": "asset",
+   "label": "76 Laserschneidanlage 0 lin 15",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 44,
+   "kind_guess": "asset",
+   "label": "842 CNC-Fräszentrum 5-Achs Typ K764 0 lin 13",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 45,
+   "kind_guess": "asset",
+   "label": "925 Laserschneidanlage (gebraucht) 0 lin 10",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 46,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 49,
+   "kind_guess": "asset",
+   "label": "1337 Lüftungsanlage Halle Typ M494 lin 15",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 50,
+   "kind_guess": "asset",
+   "label": "1796 Photovoltaikanlage Dach Typ M615 lin 20",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 51,
+   "kind_guess": "asset",
+   "label": "233e Druckluftnetz Halle 2 lin 15",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 52,
+   "kind_guess": "asset",
+   "label": "28 Lüftungsanlage Halle (gebraucht) lin 10",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 53,
+   "kind_guess": "asset",
+   "label": "4835 Kälteanlage (gebraucht) lin 20",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 54,
+   "kind_guess": "asset",
+   "label": "488 Brückenkran 5t lin 20",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 55,
+   "kind_guess": "asset",
+   "label": "552 Absauganlage lin 20",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 56,
+   "kind_guess": "asset",
+   "label": "558 Photovoltaikanlage Dach lin 10",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 57,
+   "kind_guess": "asset",
+   "label": "78 Absauganlage lin 10",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 58,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 61,
+   "kind_guess": "asset",
+   "label": "239 Pkw Mittelklasse Hybrid lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 62,
+   "kind_guess": "asset",
+   "label": "2396 Pkw Kombi Diesel Halle 1 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 63,
+   "kind_guess": "asset",
+   "label": "281 Kleintransporter Halle 4 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 64,
+   "kind_guess": "asset",
+   "label": "294 Pkw Elektro Halle 5 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 65,
+   "kind_guess": "asset",
+   "label": "313 Kleintransporter Halle 2 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 66,
+   "kind_guess": "asset",
+   "label": "3851 Pkw Elektro Halle 2 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 67,
+   "kind_guess": "asset",
+   "label": "612 Pkw Mittelklasse Hybrid Typ S928 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 68,
+   "kind_guess": "asset",
+   "label": "670 Kleintransporter lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 69,
+   "kind_guess": "asset",
+   "label": "7 Pkw Elektro Halle 4 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 70,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 73,
+   "kind_guess": "asset",
+   "label": "1498 Lkw 7,5t Pritsche Typ K774 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 74,
+   "kind_guess": "asset",
+   "label": "2889 Kastenwagen Typ D42 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 75,
+   "kind_guess": "asset",
+   "label": "403 Sattelzugmaschine (gebraucht) 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 76,
+   "kind_guess": "asset",
+   "label": "448 Kastenwagen Halle 5 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 77,
+   "kind_guess": "asset",
+   "label": "4523 Sattelzugmaschine Nr. 26 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 78,
+   "kind_guess": "asset",
+   "label": "519 Sattelzugmaschine 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 79,
+   "kind_guess": "asset",
+   "label": "760b Sattelzugmaschine Halle 5 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 80,
+   "kind_guess": "asset",
+   "label": "80 Lkw 7,5t Pritsche 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 81,
+   "kind_guess": "asset",
+   "label": "88 Kastenwagen Halle 2 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 82,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 85,
+   "kind_guess": "asset",
+   "label": "318 Gabelstapler lin 10",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 86,
+   "kind_guess": "asset",
+   "label": "32a Werkbank Halle 1 lin 5",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 87,
+   "kind_guess": "asset",
+   "label": "4570 Schweißgerät lin 10",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r62",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 88,
+   "kind_guess": "asset",
+   "label": "531 Gabelstapler Halle 4 lin 5",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r63",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 89,
+   "kind_guess": "asset",
+   "label": "617 Elektro-Hubwagen (gebraucht) lin 10",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r64",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 90,
+   "kind_guess": "asset",
+   "label": "631 Hochdruckreiniger Typ A254 lin 10",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r65",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 91,
+   "kind_guess": "asset",
+   "label": "85 Palettenregal Nr. 26 lin 8",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r66",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 92,
+   "kind_guess": "asset",
+   "label": "86 Werkbank Typ M522 lin 5",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r67",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 93,
+   "kind_guess": "asset",
+   "label": "99 Hochdruckreiniger lin 8",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r68",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 94,
+   "kind_guess": "asset",
+   "label": "992 Werkbank (gebraucht) lin 5",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r69",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 95,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r70",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 98,
+   "kind_guess": "asset",
+   "label": "18f Rollcontainer Typ T629 lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r71",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 99,
+   "kind_guess": "asset",
+   "label": "192 Rollcontainer lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r72",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 100,
+   "kind_guess": "asset",
+   "label": "3822 Besprechungstisch lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r73",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 101,
+   "kind_guess": "asset",
+   "label": "49 Regalsystem Archiv lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r74",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 102,
+   "kind_guess": "asset",
+   "label": "555 Rollcontainer lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r75",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 103,
+   "kind_guess": "asset",
+   "label": "768 Aktenschrank (gebraucht) lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r76",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 104,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r77",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 107,
+   "kind_guess": "asset",
+   "label": "1109 Laserdrucker 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r78",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 108,
+   "kind_guess": "asset",
+   "label": "1966 Stehleuchte 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r79",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 109,
+   "kind_guess": "asset",
+   "label": "29 Aktenvernichter 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r80",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 110,
+   "kind_guess": "asset",
+   "label": "315 Messschieber digital 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r81",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 111,
+   "kind_guess": "asset",
+   "label": "3663C Werkzeugkoffer 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r82",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 112,
+   "kind_guess": "asset",
+   "label": "379 Laserdrucker 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r83",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 113,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r84",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 116,
+   "kind_guess": "asset",
+   "label": "245 Workstation CAD Nr. 7 0 lin 5",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r85",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 117,
+   "kind_guess": "asset",
+   "label": "2708 Server 2HE Nr. 25 0 lin 5",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r86",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 118,
+   "kind_guess": "asset",
+   "label": "325 Serverschrank 42HE Halle 3 0 lin 3",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r87",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 119,
+   "kind_guess": "asset",
+   "label": "4084 Notebook Halle 1 0 lin 5",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r88",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 120,
+   "kind_guess": "asset",
+   "label": "4996 Firewall-Appliance Nr. 33 0 lin 3",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r89",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 121,
+   "kind_guess": "asset",
+   "label": "6 Serverschrank 42HE 0 lin 5",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r90",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 122,
+   "kind_guess": "asset",
+   "label": "862 Server 2HE (gebraucht) 0 lin 3",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r91",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 123,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r92",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 126,
+   "kind_guess": "asset",
+   "label": "2827 AiB Abkantpresse (gebraucht) k 0",
+   "context": [
+    "Konto  480",
+    "Konto  490",
+    "Konto  120"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r93",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 127,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  480",
+    "Konto  490",
+    "Konto  120"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r94",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 130,
+   "kind_guess": "asset",
+   "label": "4172 Anteile Servicegesellschaft k 0",
+   "context": [
+    "Konto  490",
+    "Konto  120",
+    "Konto  510"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r95",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlageverzeichnis",
+   "row": 131,
+   "kind_guess": "total",
+   "label": "Summe",
+   "context": [
+    "Konto  490",
+    "Konto  120",
+    "Konto  510"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {}
+}

@@ -1,0 +1,86 @@
+{
+ "doc_id": "f05_sap_class_gitter_02",
+ "proposer": "heuristic-v0",
+ "mode": "block",
+ "abstain": "multi-line records (one asset/class = several rows): block reader not built yet",
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Anlagengitter",
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagengitter:2",
+     "anchor": null,
+     "span": null,
+     "col": 2,
+     "header": "BuKr GsBe AHK GJ-Beg AfA GJ-Beg Buchwrt GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.333,
+       "AHK x open"
+      ],
+      [
+       "kum_afa_open",
+       0.333,
+       "AFA x open"
+      ],
+      [
+       "bw_prev",
+       0.333,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "BilanzPos Zugang AfA des Jahres",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x add"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "BestKtoAHK Abgang AfA Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "class": 5,
+    "acq_date": 6
+   },
+   "header_lines": [
+    "BuKr GsBe | BilanzPos | BestKtoAHK | Klasse | Währg",
+    "AHK GJ-Beg | Zugang | Abgang | Umbuchung | Nachaktivg | Invest.Förderg | aktuelle AHK",
+    "AfA GJ-Beg | AfA des Jahres | AfA Abgang | AfA Umbuchung | AfA Nachaktivg | Zuschreibungen | kumulierte AfA",
+    "Buchwrt GJ-Beg | lfd Buchwert"
+   ]
+  }
+ ],
+ "rows": [],
+ "notes": [],
+ "page_status": {}
+}

@@ -1,0 +1,30 @@
+{
+ "doc_id": "f08_excel_spiegel_2y_07",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "multi_year",
+   "evidence": "sections for 2024, 2025",
+   "where": [
+    {
+     "section": "s1",
+     "period_end": "2025-12-31"
+    },
+    {
+     "section": "s2",
+     "period_end": "2024-12-31"
+    }
+   ]
+  },
+  {
+   "type": "hidden_column",
+   "evidence": "a hidden column holds numbers; it is not part of the schedule",
+   "where": [
+    {
+     "sheet": "Tabelle1",
+     "col": 7
+    }
+   ]
+  }
+ ]
+}

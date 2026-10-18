@@ -1,0 +1,35 @@
+{
+ "values_in_key": 1251,
+ "correct": 1251,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 1251,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": 0.981,
+ "details": [],
+ "detection": {
+  "planted": [
+   "glued_numbers",
+   "noise_page_blank",
+   "non_tying_subtotal"
+  ],
+  "detected": [
+   "glued_numbers",
+   "noise_page_blank",
+   "non_tying_subtotal"
+  ],
+  "hit": [
+   "glued_numbers",
+   "noise_page_blank",
+   "non_tying_subtotal"
+  ],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

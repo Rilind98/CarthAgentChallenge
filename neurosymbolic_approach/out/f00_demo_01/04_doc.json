@@ -1,0 +1,3760 @@
+{
+ "meta": {
+  "doc_id": "f00_demo_01",
+  "source": "../A3-Hackathon-Corpus/f00_demo/f00_demo_01.xlsx",
+  "format": "xlsx",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Anlagenspiegel"
+   }
+  ],
+  "variant_guess": "perfect"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27001",
+   "sub_no": "",
+   "name": "Office-Lizenzen Typ S146",
+   "acq_date": null,
+   "method": null,
+   "label": "27001 Office-Lizenzen Typ S146",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "ahk_open": 4041497,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 4041497,
+    "kum_afa_open": 4041397,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 4041397,
+    "bw_close": 100,
+    "bw_prev": 100
+   },
+   "printed": {
+    "ahk_open": "40.414,97",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "40.414,97",
+    "kum_afa_open": "40.413,97",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "40.413,97",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A8",
+    "row": 8,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C8"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D8"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E8"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F8"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G8"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H8"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I8"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J8"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K8"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L8"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M8"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N8"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27002",
+   "sub_no": "",
+   "name": "ERP-Lizenz Halle 4",
+   "acq_date": null,
+   "method": null,
+   "label": "27002 ERP-Lizenz Halle 4",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "ahk_open": 1248773,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1248773,
+    "kum_afa_open": 1248673,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1248673,
+    "bw_close": 100,
+    "bw_prev": 100
+   },
+   "printed": {
+    "ahk_open": "12.487,73",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "12.487,73",
+    "kum_afa_open": "12.486,73",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "12.486,73",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A9",
+    "row": 9,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C9"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D9"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E9"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F9"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G9"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H9"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I9"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J9"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K9"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L9"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M9"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N9"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27003",
+   "sub_no": "",
+   "name": "Zeiterfassung Software",
+   "acq_date": null,
+   "method": null,
+   "label": "27003 Zeiterfassung Software",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "ahk_open": 5850849,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5850849,
+    "kum_afa_open": 5850749,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5850749,
+    "bw_close": 100,
+    "bw_prev": 100
+   },
+   "printed": {
+    "ahk_open": "58.508,49",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "58.508,49",
+    "kum_afa_open": "58.507,49",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "58.507,49",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A10",
+    "row": 10,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C10"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D10"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E10"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F10"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G10"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H10"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I10"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J10"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K10"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L10"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M10"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N10"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27004",
+   "sub_no": "",
+   "name": "Warenwirtschaft Modul Lager Halle 2",
+   "acq_date": null,
+   "method": null,
+   "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "ahk_open": 1619780,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1619780,
+    "kum_afa_open": 1619680,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1619680,
+    "bw_close": 100,
+    "bw_prev": 100
+   },
+   "printed": {
+    "ahk_open": "16.197,80",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "16.197,80",
+    "kum_afa_open": "16.196,80",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "16.196,80",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A11",
+    "row": 11,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C11"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D11"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E11"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F11"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G11"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H11"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I11"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J11"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K11"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L11"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M11"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N11"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27005",
+   "sub_no": "",
+   "name": "CAD-Software Lizenz Nr. 5",
+   "acq_date": null,
+   "method": null,
+   "label": "27005 CAD-Software Lizenz Nr. 5",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "ahk_open": 597500,
+    "zugang": 0,
+    "abgang": 597500,
+    "umbuchung": 0,
+    "ahk_close": 0,
+    "kum_afa_open": 159333,
+    "afa_gj": 29875,
+    "afa_abgang": 189208,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0,
+    "bw_prev": 438167
+   },
+   "printed": {
+    "ahk_open": "5.975,00",
+    "zugang": "",
+    "abgang": "5.975,00",
+    "umbuchung": "",
+    "ahk_close": "",
+    "kum_afa_open": "1.593,33",
+    "afa_gj": "298,75",
+    "afa_abgang": "1.892,08",
+    "zuschreibung": "",
+    "kum_afa_close": "",
+    "bw_close": "",
+    "bw_prev": "4.381,67"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A12",
+    "row": 12,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C12"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D12"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E12"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F12"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G12"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H12"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I12"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J12"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K12"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L12"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M12"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N12"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27006",
+   "sub_no": "",
+   "name": "Warenwirtschaft Modul Lager Typ X934",
+   "acq_date": null,
+   "method": null,
+   "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "ahk_open": 828600,
+    "zugang": 0,
+    "abgang": 828600,
+    "umbuchung": 0,
+    "ahk_close": 0,
+    "kum_afa_open": 92067,
+    "afa_gj": 69050,
+    "afa_abgang": 161117,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0,
+    "bw_prev": 736533
+   },
+   "printed": {
+    "ahk_open": "8.286,00",
+    "zugang": "",
+    "abgang": "8.286,00",
+    "umbuchung": "",
+    "ahk_close": "",
+    "kum_afa_open": "920,67",
+    "afa_gj": "690,50",
+    "afa_abgang": "1.611,17",
+    "zuschreibung": "",
+    "kum_afa_close": "",
+    "bw_close": "",
+    "bw_prev": "7.365,33"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A13",
+    "row": 13,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C13"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D13"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E13"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F13"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G13"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H13"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I13"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J13"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K13"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L13"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M13"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N13"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe EDV-Software",
+   "context": [
+    "Anlagenspiegel zum 31.12.2025",
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "ahk_open": 14186999,
+    "zugang": 0,
+    "abgang": 1426100,
+    "umbuchung": 0,
+    "ahk_close": 12760899,
+    "kum_afa_open": 13011899,
+    "afa_gj": 98925,
+    "afa_abgang": 350325,
+    "zuschreibung": 0,
+    "kum_afa_close": 12760499,
+    "bw_close": 400,
+    "bw_prev": 1175100
+   },
+   "printed": {
+    "ahk_open": "141.869,99",
+    "zugang": "",
+    "abgang": "14.261,00",
+    "umbuchung": "",
+    "ahk_close": "127.608,99",
+    "kum_afa_open": "130.118,99",
+    "afa_gj": "989,25",
+    "afa_abgang": "3.503,25",
+    "zuschreibung": "",
+    "kum_afa_close": "127.604,99",
+    "bw_close": "4,00",
+    "bw_prev": "11.751,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A14",
+    "row": 14,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C14"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D14"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E14"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F14"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G14"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H14"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I14"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J14"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K14"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L14"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M14"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N14"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210001",
+   "sub_no": "",
+   "name": "Bandsäge Typ K481",
+   "acq_date": null,
+   "method": null,
+   "label": "210001 Bandsäge Typ K481",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "ahk_open": 4339900,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 4339900,
+    "kum_afa_open": 4339800,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 4339800,
+    "bw_close": 100,
+    "bw_prev": 100
+   },
+   "printed": {
+    "ahk_open": "43.399,00",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "43.399,00",
+    "kum_afa_open": "43.398,00",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "43.398,00",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A17",
+    "row": 17,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C17"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D17"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E17"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F17"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G17"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H17"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I17"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J17"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K17"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L17"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M17"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N17"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210002",
+   "sub_no": "",
+   "name": "Teilewaschanlage",
+   "acq_date": null,
+   "method": null,
+   "label": "210002 Teilewaschanlage",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "ahk_open": 1297700,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1297700,
+    "kum_afa_open": 407611,
+    "afa_gj": 99823,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 507434,
+    "bw_close": 790266,
+    "bw_prev": 890089
+   },
+   "printed": {
+    "ahk_open": "12.977,00",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "12.977,00",
+    "kum_afa_open": "4.076,11",
+    "afa_gj": "998,23",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "5.074,34",
+    "bw_close": "7.902,66",
+    "bw_prev": "8.900,89"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A18",
+    "row": 18,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C18"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D18"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E18"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F18"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G18"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H18"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I18"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J18"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K18"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L18"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M18"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N18"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210003",
+   "sub_no": "",
+   "name": "CNC-Drehmaschine Halle 4",
+   "acq_date": null,
+   "method": null,
+   "label": "210003 CNC-Drehmaschine Halle 4",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "ahk_open": 4515861,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 4515861,
+    "kum_afa_open": 376322,
+    "afa_gj": 301057,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 677379,
+    "bw_close": 3838482,
+    "bw_prev": 4139539
+   },
+   "printed": {
+    "ahk_open": "45.158,61",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "45.158,61",
+    "kum_afa_open": "3.763,22",
+    "afa_gj": "3.010,57",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "6.773,79",
+    "bw_close": "38.384,82",
+    "bw_prev": "41.395,39"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A19",
+    "row": 19,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C19"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D19"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E19"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F19"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G19"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H19"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I19"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J19"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K19"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L19"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M19"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N19"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210004",
+   "sub_no": "",
+   "name": "CNC-Fräszentrum 5-Achs",
+   "acq_date": null,
+   "method": null,
+   "label": "210004 CNC-Fräszentrum 5-Achs",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 1942596,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1942596,
+    "kum_afa_open": 0,
+    "afa_gj": 129506,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 129506,
+    "bw_close": 1813090,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "19.425,96",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "19.425,96",
+    "kum_afa_open": "",
+    "afa_gj": "1.295,06",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "1.295,06",
+    "bw_close": "18.130,90",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A20",
+    "row": 20,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C20"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D20"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E20"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F20"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G20"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H20"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I20"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J20"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K20"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L20"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M20"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N20"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210005",
+   "sub_no": "",
+   "name": "Spritzgießmaschine Nr. 13",
+   "acq_date": null,
+   "method": null,
+   "label": "210005 Spritzgießmaschine Nr. 13",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 28548189,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 28548189,
+    "kum_afa_open": 0,
+    "afa_gj": 1486885,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1486885,
+    "bw_close": 27061304,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "285.481,89",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "285.481,89",
+    "kum_afa_open": "",
+    "afa_gj": "14.868,85",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "14.868,85",
+    "bw_close": "270.613,04",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A21",
+    "row": 21,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C21"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D21"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E21"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F21"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G21"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H21"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I21"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J21"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K21"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L21"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M21"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N21"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210006",
+   "sub_no": "",
+   "name": "Flachschleifmaschine Halle 1",
+   "acq_date": null,
+   "method": null,
+   "label": "210006 Flachschleifmaschine Halle 1",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 2332010,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2332010,
+    "kum_afa_open": 0,
+    "afa_gj": 77734,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 77734,
+    "bw_close": 2254276,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "23.320,10",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "23.320,10",
+    "kum_afa_open": "",
+    "afa_gj": "777,34",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "777,34",
+    "bw_close": "22.542,76",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A22",
+    "row": 22,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C22"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D22"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E22"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F22"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G22"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H22"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I22"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J22"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K22"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L22"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M22"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N22"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210007",
+   "sub_no": "",
+   "name": "Flachschleifmaschine",
+   "acq_date": null,
+   "method": null,
+   "label": "210007 Flachschleifmaschine",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 31460206,
+    "ahk_close": 31460206,
+    "kum_afa_open": 0,
+    "afa_gj": 655421,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 655421,
+    "bw_close": 30804785,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "314.602,06",
+    "ahk_close": "314.602,06",
+    "kum_afa_open": "",
+    "afa_gj": "6.554,21",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "6.554,21",
+    "bw_close": "308.047,85",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A23",
+    "row": 23,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C23"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D23"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E23"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F23"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G23"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H23"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I23"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J23"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K23"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L23"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M23"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N23"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Maschinen",
+   "context": [
+    "Wirtschaftsjahr 01.01.2025 bis 31.12.2025     Beträge in EUR",
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "ahk_open": 10153461,
+    "zugang": 32822795,
+    "abgang": 0,
+    "umbuchung": 31460206,
+    "ahk_close": 74436462,
+    "kum_afa_open": 5123733,
+    "afa_gj": 2750426,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 7874159,
+    "bw_close": 66562303,
+    "bw_prev": 5029728
+   },
+   "printed": {
+    "ahk_open": "101.534,61",
+    "zugang": "328.227,95",
+    "abgang": "",
+    "umbuchung": "314.602,06",
+    "ahk_close": "744.364,62",
+    "kum_afa_open": "51.237,33",
+    "afa_gj": "27.504,26",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "78.741,59",
+    "bw_close": "665.623,03",
+    "bw_prev": "50.297,28"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A24",
+    "row": 24,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C24"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D24"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E24"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F24"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G24"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H24"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I24"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J24"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K24"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L24"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M24"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N24"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320001",
+   "sub_no": "",
+   "name": "Pkw Kompaktklasse Typ T708",
+   "acq_date": null,
+   "method": null,
+   "label": "320001 Pkw Kompaktklasse Typ T708",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "ahk_open": 1849161,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1849161,
+    "kum_afa_open": 1849061,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1849061,
+    "bw_close": 100,
+    "bw_prev": 100
+   },
+   "printed": {
+    "ahk_open": "18.491,61",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "18.491,61",
+    "kum_afa_open": "18.490,61",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "18.490,61",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A27",
+    "row": 27,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C27"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D27"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E27"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F27"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G27"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H27"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I27"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J27"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K27"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L27"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M27"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N27"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320002",
+   "sub_no": "",
+   "name": "Kleintransporter",
+   "acq_date": null,
+   "method": null,
+   "label": "320002 Kleintransporter",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "ahk_open": 5370900,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5370900,
+    "kum_afa_open": 5370800,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5370800,
+    "bw_close": 100,
+    "bw_prev": 100
+   },
+   "printed": {
+    "ahk_open": "53.709,00",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "53.709,00",
+    "kum_afa_open": "53.708,00",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "53.708,00",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A28",
+    "row": 28,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C28"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D28"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E28"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F28"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G28"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H28"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I28"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J28"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K28"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L28"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M28"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N28"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320003",
+   "sub_no": "",
+   "name": "Pkw Kombi Diesel Nr. 9",
+   "acq_date": null,
+   "method": null,
+   "label": "320003 Pkw Kombi Diesel Nr. 9",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "ahk_open": 5475508,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5475508,
+    "kum_afa_open": 4943167,
+    "afa_gj": 532241,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5475408,
+    "bw_close": 100,
+    "bw_prev": 532341
+   },
+   "printed": {
+    "ahk_open": "54.755,08",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "54.755,08",
+    "kum_afa_open": "49.431,67",
+    "afa_gj": "5.322,41",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "54.754,08",
+    "bw_close": "1,00",
+    "bw_prev": "5.323,41"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A29",
+    "row": 29,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C29"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D29"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E29"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F29"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G29"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H29"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I29"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J29"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K29"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L29"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M29"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N29"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320004",
+   "sub_no": "",
+   "name": "Pkw Kompaktklasse",
+   "acq_date": null,
+   "method": null,
+   "label": "320004 Pkw Kompaktklasse",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "ahk_open": 5043621,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5043621,
+    "kum_afa_open": 3012163,
+    "afa_gj": 840603,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 3852766,
+    "bw_close": 1190855,
+    "bw_prev": 2031458
+   },
+   "printed": {
+    "ahk_open": "50.436,21",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "50.436,21",
+    "kum_afa_open": "30.121,63",
+    "afa_gj": "8.406,03",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "38.527,66",
+    "bw_close": "11.908,55",
+    "bw_prev": "20.314,58"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A30",
+    "row": 30,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C30"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D30"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E30"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F30"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G30"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H30"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I30"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J30"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K30"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L30"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M30"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N30"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320005",
+   "sub_no": "",
+   "name": "Pkw Kombi Diesel Nr. 35",
+   "acq_date": null,
+   "method": null,
+   "label": "320005 Pkw Kombi Diesel Nr. 35",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "ahk_open": 6088900,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 6088900,
+    "kum_afa_open": 591976,
+    "afa_gj": 1014817,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1606793,
+    "bw_close": 4482107,
+    "bw_prev": 5496924
+   },
+   "printed": {
+    "ahk_open": "60.889,00",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "60.889,00",
+    "kum_afa_open": "5.919,76",
+    "afa_gj": "10.148,17",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "16.067,93",
+    "bw_close": "44.821,07",
+    "bw_prev": "54.969,24"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A31",
+    "row": 31,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C31"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D31"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E31"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F31"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G31"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H31"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I31"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J31"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K31"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L31"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M31"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N31"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320006",
+   "sub_no": "",
+   "name": "Pkw Mittelklasse Hybrid Nr. 7",
+   "acq_date": null,
+   "method": null,
+   "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 5525413,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5525413,
+    "kum_afa_open": 0,
+    "afa_gj": 230226,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 230226,
+    "bw_close": 5295187,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "55.254,13",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "55.254,13",
+    "kum_afa_open": "",
+    "afa_gj": "2.302,26",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "2.302,26",
+    "bw_close": "52.951,87",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A32",
+    "row": 32,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C32"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D32"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E32"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F32"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G32"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H32"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I32"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J32"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K32"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L32"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M32"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N32"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Pkw",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "ahk_open": 23828090,
+    "zugang": 5525413,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 29353503,
+    "kum_afa_open": 15767167,
+    "afa_gj": 2617887,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 18385054,
+    "bw_close": 10968449,
+    "bw_prev": 8060923
+   },
+   "printed": {
+    "ahk_open": "238.280,90",
+    "zugang": "55.254,13",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "293.535,03",
+    "kum_afa_open": "157.671,67",
+    "afa_gj": "26.178,87",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "183.850,54",
+    "bw_close": "109.684,49",
+    "bw_prev": "80.609,23"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A33",
+    "row": 33,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C33"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D33"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E33"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F33"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G33"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H33"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I33"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J33"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K33"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L33"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M33"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N33"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420001",
+   "sub_no": "",
+   "name": "Aktenschrank",
+   "acq_date": null,
+   "method": null,
+   "label": "420001 Aktenschrank",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "fields": {
+    "ahk_open": 60300,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 60300,
+    "kum_afa_open": 60200,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 60200,
+    "bw_close": 100,
+    "bw_prev": 100
+   },
+   "printed": {
+    "ahk_open": "603,00",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "603,00",
+    "kum_afa_open": "602,00",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "602,00",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A36",
+    "row": 36,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C36"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D36"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E36"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F36"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G36"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H36"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I36"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J36"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K36"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L36"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M36"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N36"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420002",
+   "sub_no": "",
+   "name": "Bürostuhl ergonomisch",
+   "acq_date": null,
+   "method": null,
+   "label": "420002 Bürostuhl ergonomisch",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "fields": {
+    "ahk_open": 2237286,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2237286,
+    "kum_afa_open": 1448499,
+    "afa_gj": 172099,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1620598,
+    "bw_close": 616688,
+    "bw_prev": 788787
+   },
+   "printed": {
+    "ahk_open": "22.372,86",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "22.372,86",
+    "kum_afa_open": "14.484,99",
+    "afa_gj": "1.720,99",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "16.205,98",
+    "bw_close": "6.166,88",
+    "bw_prev": "7.887,87"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A37",
+    "row": 37,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C37"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D37"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E37"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F37"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G37"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H37"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I37"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J37"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K37"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L37"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M37"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N37"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420003",
+   "sub_no": "",
+   "name": "Rollcontainer Typ F29",
+   "acq_date": null,
+   "method": null,
+   "label": "420003 Rollcontainer Typ F29",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "fields": {
+    "ahk_open": 411696,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 411696,
+    "kum_afa_open": 150427,
+    "afa_gj": 31669,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 182096,
+    "bw_close": 229600,
+    "bw_prev": 261269
+   },
+   "printed": {
+    "ahk_open": "4.116,96",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "4.116,96",
+    "kum_afa_open": "1.504,27",
+    "afa_gj": "316,69",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "1.820,96",
+    "bw_close": "2.296,00",
+    "bw_prev": "2.612,69"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A38",
+    "row": 38,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C38"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D38"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E38"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F38"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G38"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H38"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I38"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J38"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K38"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L38"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M38"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N38"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Büroeinrichtung",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "fields": {
+    "ahk_open": 2709282,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2709282,
+    "kum_afa_open": 1659126,
+    "afa_gj": 203768,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1862894,
+    "bw_close": 846388,
+    "bw_prev": 1050156
+   },
+   "printed": {
+    "ahk_open": "27.092,82",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "27.092,82",
+    "kum_afa_open": "16.591,26",
+    "afa_gj": "2.037,68",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "18.628,94",
+    "bw_close": "8.463,88",
+    "bw_prev": "10.501,56"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A39",
+    "row": 39,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C39"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D39"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E39"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F39"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G39"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H39"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I39"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J39"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K39"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L39"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M39"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N39"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480001",
+   "sub_no": "",
+   "name": "Aktenvernichter",
+   "acq_date": null,
+   "method": null,
+   "label": "480001 Aktenvernichter",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "ahk_open": 44576,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 44576,
+    "kum_afa_open": 44576,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 44576,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "445,76",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "445,76",
+    "kum_afa_open": "445,76",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "445,76",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A42",
+    "row": 42,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C42"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D42"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E42"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F42"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G42"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H42"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I42"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J42"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K42"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L42"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M42"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N42"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480002",
+   "sub_no": "",
+   "name": "Stehleuchte",
+   "acq_date": null,
+   "method": null,
+   "label": "480002 Stehleuchte",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "ahk_open": 26600,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 26600,
+    "kum_afa_open": 26600,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 26600,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "266,00",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "266,00",
+    "kum_afa_open": "266,00",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "266,00",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A43",
+    "row": 43,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C43"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D43"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E43"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F43"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G43"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H43"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I43"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J43"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K43"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L43"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M43"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N43"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480003",
+   "sub_no": "",
+   "name": "Stehleuchte",
+   "acq_date": null,
+   "method": null,
+   "label": "480003 Stehleuchte",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "ahk_open": 58500,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 58500,
+    "kum_afa_open": 58500,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 58500,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "585,00",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "585,00",
+    "kum_afa_open": "585,00",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "585,00",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A44",
+    "row": 44,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C44"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D44"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E44"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F44"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G44"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H44"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I44"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J44"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K44"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L44"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M44"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N44"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480004",
+   "sub_no": "",
+   "name": "Messschieber digital",
+   "acq_date": null,
+   "method": null,
+   "label": "480004 Messschieber digital",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "ahk_open": 68702,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 68702,
+    "kum_afa_open": 68702,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 68702,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "687,02",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "687,02",
+    "kum_afa_open": "687,02",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "687,02",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A45",
+    "row": 45,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C45"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D45"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E45"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F45"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G45"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H45"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I45"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J45"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K45"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L45"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M45"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N45"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480005",
+   "sub_no": "",
+   "name": "Akkuschrauber",
+   "acq_date": null,
+   "method": null,
+   "label": "480005 Akkuschrauber",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 42263,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 42263,
+    "kum_afa_open": 0,
+    "afa_gj": 42263,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 42263,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "422,63",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "422,63",
+    "kum_afa_open": "",
+    "afa_gj": "422,63",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "422,63",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A46",
+    "row": 46,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C46"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D46"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E46"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F46"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G46"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H46"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I46"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J46"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K46"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L46"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M46"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N46"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480006",
+   "sub_no": "",
+   "name": "Messschieber digital",
+   "acq_date": null,
+   "method": null,
+   "label": "480006 Messschieber digital",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 40743,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 40743,
+    "kum_afa_open": 0,
+    "afa_gj": 40743,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 40743,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "407,43",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "407,43",
+    "kum_afa_open": "",
+    "afa_gj": "407,43",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "407,43",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A47",
+    "row": 47,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C47"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D47"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E47"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F47"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G47"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H47"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I47"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J47"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K47"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L47"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M47"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N47"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Geringwertige Wirtschaftsgüter",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "ahk_open": 198378,
+    "zugang": 83006,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 281384,
+    "kum_afa_open": 198378,
+    "afa_gj": 83006,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 281384,
+    "bw_close": 0,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "1.983,78",
+    "zugang": "830,06",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "2.813,84",
+    "kum_afa_open": "1.983,78",
+    "afa_gj": "830,06",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "2.813,84",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A48",
+    "row": 48,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C48"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D48"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E48"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F48"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G48"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H48"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I48"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J48"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K48"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L48"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M48"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N48"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r34",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "120001",
+   "sub_no": "",
+   "name": "AiB Flachschleifmaschine",
+   "acq_date": null,
+   "method": null,
+   "label": "120001 AiB Flachschleifmaschine",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "fields": {
+    "ahk_open": 27359706,
+    "zugang": 4100500,
+    "abgang": 0,
+    "umbuchung": -31460206,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0,
+    "bw_prev": 27359706
+   },
+   "printed": {
+    "ahk_open": "273.597,06",
+    "zugang": "41.005,00",
+    "abgang": "",
+    "umbuchung": "-314.602,06",
+    "ahk_close": "",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "",
+    "bw_close": "",
+    "bw_prev": "273.597,06"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A51",
+    "row": 51,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C51"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D51"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E51"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F51"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G51"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H51"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I51"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J51"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K51"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L51"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M51"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N51"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r35",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "120002",
+   "sub_no": "",
+   "name": "Anlagen im Bau Halle 3",
+   "acq_date": null,
+   "method": null,
+   "label": "120002 Anlagen im Bau Halle 3",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 3164900,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3164900,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_close": 3164900,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "31.649,00",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "31.649,00",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "",
+    "bw_close": "31.649,00",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A52",
+    "row": 52,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C52"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D52"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E52"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F52"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G52"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H52"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I52"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J52"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K52"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L52"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M52"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N52"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r36",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "fields": {
+    "ahk_open": 27359706,
+    "zugang": 7265400,
+    "abgang": 0,
+    "umbuchung": -31460206,
+    "ahk_close": 3164900,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_close": 3164900,
+    "bw_prev": 27359706
+   },
+   "printed": {
+    "ahk_open": "273.597,06",
+    "zugang": "72.654,00",
+    "abgang": "",
+    "umbuchung": "-314.602,06",
+    "ahk_close": "31.649,00",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "kum_afa_close": "",
+    "bw_close": "31.649,00",
+    "bw_prev": "273.597,06"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A53",
+    "row": 53,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C53"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D53"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E53"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F53"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G53"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H53"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I53"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J53"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K53"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L53"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M53"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N53"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r37",
+   "kind": "grand_total",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagevermögen",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "fields": {
+    "ahk_open": 78435916,
+    "zugang": 45696614,
+    "abgang": 1426100,
+    "umbuchung": 0,
+    "ahk_close": 122706430,
+    "kum_afa_open": 35760303,
+    "afa_gj": 5754012,
+    "afa_abgang": 350325,
+    "zuschreibung": 0,
+    "kum_afa_close": 41163990,
+    "bw_close": 81542440,
+    "bw_prev": 42675613
+   },
+   "printed": {
+    "ahk_open": "784.359,16",
+    "zugang": "456.966,14",
+    "abgang": "14.261,00",
+    "umbuchung": "",
+    "ahk_close": "1.227.064,30",
+    "kum_afa_open": "357.603,03",
+    "afa_gj": "57.540,12",
+    "afa_abgang": "3.503,25",
+    "zuschreibung": "",
+    "kum_afa_close": "411.639,90",
+    "bw_close": "815.424,40",
+    "bw_prev": "426.756,13"
+   },
+   "pointer": {
+    "sheet": "Anlagenspiegel",
+    "cell": "A55",
+    "row": 55,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "C55"
+     },
+     "zugang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "D55"
+     },
+     "abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "E55"
+     },
+     "umbuchung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "F55"
+     },
+     "ahk_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "G55"
+     },
+     "kum_afa_open": {
+      "sheet": "Anlagenspiegel",
+      "cell": "H55"
+     },
+     "afa_gj": {
+      "sheet": "Anlagenspiegel",
+      "cell": "I55"
+     },
+     "afa_abgang": {
+      "sheet": "Anlagenspiegel",
+      "cell": "J55"
+     },
+     "zuschreibung": {
+      "sheet": "Anlagenspiegel",
+      "cell": "K55"
+     },
+     "kum_afa_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "L55"
+     },
+     "bw_close": {
+      "sheet": "Anlagenspiegel",
+      "cell": "M55"
+     },
+     "bw_prev": {
+      "sheet": "Anlagenspiegel",
+      "cell": "N55"
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": []
+}

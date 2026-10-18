@@ -1,0 +1,92 @@
+{
+ "doc_id": "f06_sap_asset_gitter_06",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "column_cut_off",
+   "evidence": "44 number(s) run past the page edge and lose characters",
+   "where": [
+    {
+     "page": 2,
+     "printed": "112.043"
+    },
+    {
+     "page": 2,
+     "printed": "15.718"
+    },
+    {
+     "page": 2,
+     "printed": "4.301"
+    },
+    {
+     "page": 2,
+     "printed": "61"
+    },
+    {
+     "page": 2,
+     "printed": "9.166"
+    },
+    {
+     "page": 2,
+     "printed": "1.003"
+    },
+    {
+     "page": 2,
+     "printed": "4.938"
+    },
+    {
+     "page": 2,
+     "printed": "7.530"
+    },
+    {
+     "page": 2,
+     "printed": "551"
+    },
+    {
+     "page": 2,
+     "printed": "12.193"
+    },
+    {
+     "page": 2,
+     "printed": "167.508"
+    },
+    {
+     "page": 4,
+     "printed": "94.167"
+    },
+    {
+     "page": 4,
+     "printed": "2.462"
+    },
+    {
+     "page": 4,
+     "printed": "659"
+    },
+    {
+     "page": 4,
+     "printed": "2.383"
+    },
+    {
+     "page": 4,
+     "printed": "2.051"
+    },
+    {
+     "page": 4,
+     "printed": "1.181"
+    },
+    {
+     "page": 4,
+     "printed": "3.747"
+    },
+    {
+     "page": 4,
+     "printed": "106.653"
+    },
+    {
+     "page": 5,
+     "printed": "79.973"
+    }
+   ]
+  }
+ ]
+}

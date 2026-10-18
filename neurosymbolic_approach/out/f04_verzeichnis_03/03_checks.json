@@ -1,0 +1,963 @@
+{
+ "doc_id": "f04_verzeichnis_03",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Anlageverzeichnis",
+   "period_end": "2024-12-31",
+   "unit": "EUR",
+   "mapping": {
+    "Anlageverzeichnis:4": "ahk_close",
+    "Anlageverzeichnis:8": "bw_close"
+   },
+   "mapping_headers": {
+    "Anlageverzeichnis:4": "AHK EUR",
+    "Anlageverzeichnis:8": "Buchwert EUR"
+   },
+   "field_support": {
+    "Anlageverzeichnis:4": "header",
+    "Anlageverzeichnis:8": "header"
+   },
+   "transfer_imbalance": null,
+   "totals_direction": "top-down",
+   "transfer_fixes": {},
+   "hypotheses": [
+    {
+     "score": 1.1,
+     "lexicon": 1.1,
+     "laws": 0,
+     "passed": 0,
+     "failed": 0,
+     "mapping": {
+      "Anlageverzeichnis:4": "ahk_close",
+      "Anlageverzeichnis:8": "bw_close"
+     }
+    },
+    {
+     "score": 1.0,
+     "lexicon": 1.0,
+     "laws": 0,
+     "passed": 0,
+     "failed": 0,
+     "mapping": {
+      "Anlageverzeichnis:4": "ahk_close",
+      "Anlageverzeichnis:8": "bw_prev"
+     }
+    },
+    {
+     "score": 1.0,
+     "lexicon": 1.0,
+     "laws": 0,
+     "passed": 0,
+     "failed": 0,
+     "mapping": {
+      "Anlageverzeichnis:4": "ahk_open",
+      "Anlageverzeichnis:8": "bw_close"
+     }
+    },
+    {
+     "score": 0.9,
+     "lexicon": 0.9,
+     "laws": 0,
+     "passed": 0,
+     "failed": 0,
+     "mapping": {
+      "Anlageverzeichnis:4": "ahk_open",
+      "Anlageverzeichnis:8": "bw_prev"
+     }
+    }
+   ],
+   "laws_checked": [],
+   "fields_without_law": [
+    "ahk_close",
+    "bw_close"
+   ],
+   "row_law_checks": {
+    "checked": 0,
+    "passed": 0,
+    "pass_rate": null
+   },
+   "gate": "ok",
+   "row_kinds": {
+    "asset": 82,
+    "subtotal": 13
+   },
+   "non_tying": [],
+   "rows": {
+    "r1": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r2": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r3": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r4": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r5": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r6": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r7": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r8": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r9": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r10": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5",
+      "r6",
+      "r7",
+      "r8",
+      "r9"
+     ],
+     "closes_all": true,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r11": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r12": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r11"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r13": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r14": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r15": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r16": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r17": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r13",
+      "r14",
+      "r15",
+      "r16"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r18": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r19": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r20": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r21": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r22": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r23": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r24": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r25": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r26": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r27": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r28": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r18",
+      "r19",
+      "r20",
+      "r21",
+      "r22",
+      "r23",
+      "r24",
+      "r25",
+      "r26",
+      "r27"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r29": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r30": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r31": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r32": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r33": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r34": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r35": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r36": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r37": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r38": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r29",
+      "r30",
+      "r31",
+      "r32",
+      "r33",
+      "r34",
+      "r35",
+      "r36",
+      "r37"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r39": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r40": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r41": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r42": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r43": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r44": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r45": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r46": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r47": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r48": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r39",
+      "r40",
+      "r41",
+      "r42",
+      "r43",
+      "r44",
+      "r45",
+      "r46",
+      "r47"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r49": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r50": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r51": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r52": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r53": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r54": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r55": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r56": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r57": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r58": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r49",
+      "r50",
+      "r51",
+      "r52",
+      "r53",
+      "r54",
+      "r55",
+      "r56",
+      "r57"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r59": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r60": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r61": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r62": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r63": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r64": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r65": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r66": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r67": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r68": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r69": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r59",
+      "r60",
+      "r61",
+      "r62",
+      "r63",
+      "r64",
+      "r65",
+      "r66",
+      "r67",
+      "r68"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r70": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r71": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r72": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r73": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r74": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r75": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r76": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r70",
+      "r71",
+      "r72",
+      "r73",
+      "r74",
+      "r75"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r77": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r78": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r79": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r80": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r81": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r82": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r83": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r78",
+      "r79",
+      "r80",
+      "r81",
+      "r82"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r84": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r85": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r86": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r87": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r88": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r89": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r90": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r91": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r84",
+      "r85",
+      "r86",
+      "r87",
+      "r88",
+      "r89",
+      "r90"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r92": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r93": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r92"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    },
+    "r94": {
+     "kind": "asset",
+     "level": 0,
+     "sums": [],
+     "why": "leaf row",
+     "flags": {},
+     "laws": []
+    },
+    "r95": {
+     "kind": "subtotal",
+     "level": 1,
+     "sums": [
+      "r94"
+     ],
+     "closes_all": false,
+     "why": "label says total; equals the sum of the rows above",
+     "flags": {},
+     "laws": []
+    }
+   }
+  }
+ ],
+ "completeness": {
+  "unassigned_amounts": 0,
+  "examples": []
+ }
+}

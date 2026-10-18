@@ -1,0 +1,7550 @@
+[
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "ahk_open",
+  "value": 4041497,
+  "printed": "40.414,97",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "ahk_close",
+  "value": 4041497,
+  "printed": "40.414,97",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "kum_afa_open",
+  "value": 4041397,
+  "printed": "40.413,97",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "kum_afa_close",
+  "value": 4041397,
+  "printed": "40.413,97",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27001",
+  "sub_no": "",
+  "label": "27001 Office-Lizenzen Typ S146",
+  "field": "bw_prev",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "ahk_open",
+  "value": 1248773,
+  "printed": "12.487,73",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "ahk_close",
+  "value": 1248773,
+  "printed": "12.487,73",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "kum_afa_open",
+  "value": 1248673,
+  "printed": "12.486,73",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "kum_afa_close",
+  "value": 1248673,
+  "printed": "12.486,73",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r2",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27002",
+  "sub_no": "",
+  "label": "27002 ERP-Lizenz Halle 4",
+  "field": "bw_prev",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "ahk_open",
+  "value": 5850849,
+  "printed": "58.508,49",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "ahk_close",
+  "value": 5850849,
+  "printed": "58.508,49",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "kum_afa_open",
+  "value": 5850749,
+  "printed": "58.507,49",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "kum_afa_close",
+  "value": 5850749,
+  "printed": "58.507,49",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r3",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27003",
+  "sub_no": "",
+  "label": "27003 Zeiterfassung Software",
+  "field": "bw_prev",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "ahk_open",
+  "value": 1619780,
+  "printed": "16.197,80",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "ahk_close",
+  "value": 1619780,
+  "printed": "16.197,80",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "kum_afa_open",
+  "value": 1619680,
+  "printed": "16.196,80",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "kum_afa_close",
+  "value": 1619680,
+  "printed": "16.196,80",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27004",
+  "sub_no": "",
+  "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+  "field": "bw_prev",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N11"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "ahk_open",
+  "value": 597500,
+  "printed": "5.975,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "abgang",
+  "value": 597500,
+  "printed": "5.975,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "ahk_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "kum_afa_open",
+  "value": 159333,
+  "printed": "1.593,33",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "afa_gj",
+  "value": 29875,
+  "printed": "298,75",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "afa_abgang",
+  "value": 189208,
+  "printed": "1.892,08",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r5",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27005",
+  "sub_no": "",
+  "label": "27005 CAD-Software Lizenz Nr. 5",
+  "field": "bw_prev",
+  "value": 438167,
+  "printed": "4.381,67",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N12"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "ahk_open",
+  "value": 828600,
+  "printed": "8.286,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "abgang",
+  "value": 828600,
+  "printed": "8.286,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "ahk_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "kum_afa_open",
+  "value": 92067,
+  "printed": "920,67",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "afa_gj",
+  "value": 69050,
+  "printed": "690,50",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "afa_abgang",
+  "value": 161117,
+  "printed": "1.611,17",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r6",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "27006",
+  "sub_no": "",
+  "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+  "field": "bw_prev",
+  "value": 736533,
+  "printed": "7.365,33",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "ahk_open",
+  "value": 14186999,
+  "printed": "141.869,99",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "abgang",
+  "value": 1426100,
+  "printed": "14.261,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "ahk_close",
+  "value": 12760899,
+  "printed": "127.608,99",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "kum_afa_open",
+  "value": 13011899,
+  "printed": "130.118,99",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "afa_gj",
+  "value": 98925,
+  "printed": "989,25",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "afa_abgang",
+  "value": 350325,
+  "printed": "3.503,25",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "kum_afa_close",
+  "value": 12760499,
+  "printed": "127.604,99",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "bw_close",
+  "value": 400,
+  "printed": "4,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r7",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "bw_prev",
+  "value": 1175100,
+  "printed": "11.751,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "ahk_open",
+  "value": 4339900,
+  "printed": "43.399,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "ahk_close",
+  "value": 4339900,
+  "printed": "43.399,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "kum_afa_open",
+  "value": 4339800,
+  "printed": "43.398,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "kum_afa_close",
+  "value": 4339800,
+  "printed": "43.398,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r8",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210001",
+  "sub_no": "",
+  "label": "210001 Bandsäge Typ K481",
+  "field": "bw_prev",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N17"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "ahk_open",
+  "value": 1297700,
+  "printed": "12.977,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "ahk_close",
+  "value": 1297700,
+  "printed": "12.977,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "kum_afa_open",
+  "value": 407611,
+  "printed": "4.076,11",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "afa_gj",
+  "value": 99823,
+  "printed": "998,23",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "kum_afa_close",
+  "value": 507434,
+  "printed": "5.074,34",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "bw_close",
+  "value": 790266,
+  "printed": "7.902,66",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r9",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210002",
+  "sub_no": "",
+  "label": "210002 Teilewaschanlage",
+  "field": "bw_prev",
+  "value": 890089,
+  "printed": "8.900,89",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "ahk_open",
+  "value": 4515861,
+  "printed": "45.158,61",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "ahk_close",
+  "value": 4515861,
+  "printed": "45.158,61",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "kum_afa_open",
+  "value": 376322,
+  "printed": "3.763,22",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "afa_gj",
+  "value": 301057,
+  "printed": "3.010,57",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "kum_afa_close",
+  "value": 677379,
+  "printed": "6.773,79",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "bw_close",
+  "value": 3838482,
+  "printed": "38.384,82",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210003",
+  "sub_no": "",
+  "label": "210003 CNC-Drehmaschine Halle 4",
+  "field": "bw_prev",
+  "value": 4139539,
+  "printed": "41.395,39",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "zugang",
+  "value": 1942596,
+  "printed": "19.425,96",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "ahk_close",
+  "value": 1942596,
+  "printed": "19.425,96",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "afa_gj",
+  "value": 129506,
+  "printed": "1.295,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "kum_afa_close",
+  "value": 129506,
+  "printed": "1.295,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "bw_close",
+  "value": 1813090,
+  "printed": "18.130,90",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r11",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210004",
+  "sub_no": "",
+  "label": "210004 CNC-Fräszentrum 5-Achs",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "zugang",
+  "value": 28548189,
+  "printed": "285.481,89",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "ahk_close",
+  "value": 28548189,
+  "printed": "285.481,89",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "afa_gj",
+  "value": 1486885,
+  "printed": "14.868,85",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "kum_afa_close",
+  "value": 1486885,
+  "printed": "14.868,85",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "bw_close",
+  "value": 27061304,
+  "printed": "270.613,04",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r12",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210005",
+  "sub_no": "",
+  "label": "210005 Spritzgießmaschine Nr. 13",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N21"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "zugang",
+  "value": 2332010,
+  "printed": "23.320,10",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "ahk_close",
+  "value": 2332010,
+  "printed": "23.320,10",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "afa_gj",
+  "value": 77734,
+  "printed": "777,34",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "kum_afa_close",
+  "value": 77734,
+  "printed": "777,34",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "bw_close",
+  "value": 2254276,
+  "printed": "22.542,76",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210006",
+  "sub_no": "",
+  "label": "210006 Flachschleifmaschine Halle 1",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N22"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "umbuchung",
+  "value": 31460206,
+  "printed": "314.602,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "ahk_close",
+  "value": 31460206,
+  "printed": "314.602,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "afa_gj",
+  "value": 655421,
+  "printed": "6.554,21",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "kum_afa_close",
+  "value": 655421,
+  "printed": "6.554,21",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "bw_close",
+  "value": 30804785,
+  "printed": "308.047,85",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r14",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "210007",
+  "sub_no": "",
+  "label": "210007 Flachschleifmaschine",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "ahk_open",
+  "value": 10153461,
+  "printed": "101.534,61",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "zugang",
+  "value": 32822795,
+  "printed": "328.227,95",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "umbuchung",
+  "value": 31460206,
+  "printed": "314.602,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "ahk_close",
+  "value": 74436462,
+  "printed": "744.364,62",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "kum_afa_open",
+  "value": 5123733,
+  "printed": "51.237,33",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "afa_gj",
+  "value": 2750426,
+  "printed": "27.504,26",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "kum_afa_close",
+  "value": 7874159,
+  "printed": "78.741,59",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "bw_close",
+  "value": 66562303,
+  "printed": "665.623,03",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "bw_prev",
+  "value": 5029728,
+  "printed": "50.297,28",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "ahk_open",
+  "value": 1849161,
+  "printed": "18.491,61",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "ahk_close",
+  "value": 1849161,
+  "printed": "18.491,61",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "kum_afa_open",
+  "value": 1849061,
+  "printed": "18.490,61",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "kum_afa_close",
+  "value": 1849061,
+  "printed": "18.490,61",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320001",
+  "sub_no": "",
+  "label": "320001 Pkw Kompaktklasse Typ T708",
+  "field": "bw_prev",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N27"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "ahk_open",
+  "value": 5370900,
+  "printed": "53.709,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "ahk_close",
+  "value": 5370900,
+  "printed": "53.709,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "kum_afa_open",
+  "value": 5370800,
+  "printed": "53.708,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "kum_afa_close",
+  "value": 5370800,
+  "printed": "53.708,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320002",
+  "sub_no": "",
+  "label": "320002 Kleintransporter",
+  "field": "bw_prev",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "ahk_open",
+  "value": 5475508,
+  "printed": "54.755,08",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "ahk_close",
+  "value": 5475508,
+  "printed": "54.755,08",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "kum_afa_open",
+  "value": 4943167,
+  "printed": "49.431,67",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "afa_gj",
+  "value": 532241,
+  "printed": "5.322,41",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "kum_afa_close",
+  "value": 5475408,
+  "printed": "54.754,08",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r18",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320003",
+  "sub_no": "",
+  "label": "320003 Pkw Kombi Diesel Nr. 9",
+  "field": "bw_prev",
+  "value": 532341,
+  "printed": "5.323,41",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "ahk_open",
+  "value": 5043621,
+  "printed": "50.436,21",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "ahk_close",
+  "value": 5043621,
+  "printed": "50.436,21",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "kum_afa_open",
+  "value": 3012163,
+  "printed": "30.121,63",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "afa_gj",
+  "value": 840603,
+  "printed": "8.406,03",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "kum_afa_close",
+  "value": 3852766,
+  "printed": "38.527,66",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "bw_close",
+  "value": 1190855,
+  "printed": "11.908,55",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r19",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320004",
+  "sub_no": "",
+  "label": "320004 Pkw Kompaktklasse",
+  "field": "bw_prev",
+  "value": 2031458,
+  "printed": "20.314,58",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "ahk_open",
+  "value": 6088900,
+  "printed": "60.889,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "ahk_close",
+  "value": 6088900,
+  "printed": "60.889,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "kum_afa_open",
+  "value": 591976,
+  "printed": "5.919,76",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "afa_gj",
+  "value": 1014817,
+  "printed": "10.148,17",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "kum_afa_close",
+  "value": 1606793,
+  "printed": "16.067,93",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "bw_close",
+  "value": 4482107,
+  "printed": "44.821,07",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320005",
+  "sub_no": "",
+  "label": "320005 Pkw Kombi Diesel Nr. 35",
+  "field": "bw_prev",
+  "value": 5496924,
+  "printed": "54.969,24",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N31"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "zugang",
+  "value": 5525413,
+  "printed": "55.254,13",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "ahk_close",
+  "value": 5525413,
+  "printed": "55.254,13",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "afa_gj",
+  "value": 230226,
+  "printed": "2.302,26",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "kum_afa_close",
+  "value": 230226,
+  "printed": "2.302,26",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "bw_close",
+  "value": 5295187,
+  "printed": "52.951,87",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r21",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "320006",
+  "sub_no": "",
+  "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N32"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "ahk_open",
+  "value": 23828090,
+  "printed": "238.280,90",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "zugang",
+  "value": 5525413,
+  "printed": "55.254,13",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "ahk_close",
+  "value": 29353503,
+  "printed": "293.535,03",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "kum_afa_open",
+  "value": 15767167,
+  "printed": "157.671,67",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "afa_gj",
+  "value": 2617887,
+  "printed": "26.178,87",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "kum_afa_close",
+  "value": 18385054,
+  "printed": "183.850,54",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "bw_close",
+  "value": 10968449,
+  "printed": "109.684,49",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "bw_prev",
+  "value": 8060923,
+  "printed": "80.609,23",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "ahk_open",
+  "value": 60300,
+  "printed": "603,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "ahk_close",
+  "value": 60300,
+  "printed": "603,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "kum_afa_open",
+  "value": 60200,
+  "printed": "602,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "kum_afa_close",
+  "value": 60200,
+  "printed": "602,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "bw_close",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420001",
+  "sub_no": "",
+  "label": "420001 Aktenschrank",
+  "field": "bw_prev",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "ahk_open",
+  "value": 2237286,
+  "printed": "22.372,86",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "ahk_close",
+  "value": 2237286,
+  "printed": "22.372,86",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "kum_afa_open",
+  "value": 1448499,
+  "printed": "14.484,99",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "afa_gj",
+  "value": 172099,
+  "printed": "1.720,99",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "kum_afa_close",
+  "value": 1620598,
+  "printed": "16.205,98",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "bw_close",
+  "value": 616688,
+  "printed": "6.166,88",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r24",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420002",
+  "sub_no": "",
+  "label": "420002 Bürostuhl ergonomisch",
+  "field": "bw_prev",
+  "value": 788787,
+  "printed": "7.887,87",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N37"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "ahk_open",
+  "value": 411696,
+  "printed": "4.116,96",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "ahk_close",
+  "value": 411696,
+  "printed": "4.116,96",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "kum_afa_open",
+  "value": 150427,
+  "printed": "1.504,27",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "afa_gj",
+  "value": 31669,
+  "printed": "316,69",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "kum_afa_close",
+  "value": 182096,
+  "printed": "1.820,96",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "bw_close",
+  "value": 229600,
+  "printed": "2.296,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "420003",
+  "sub_no": "",
+  "label": "420003 Rollcontainer Typ F29",
+  "field": "bw_prev",
+  "value": 261269,
+  "printed": "2.612,69",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N38"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "ahk_open",
+  "value": 2709282,
+  "printed": "27.092,82",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "ahk_close",
+  "value": 2709282,
+  "printed": "27.092,82",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "kum_afa_open",
+  "value": 1659126,
+  "printed": "16.591,26",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "afa_gj",
+  "value": 203768,
+  "printed": "2.037,68",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "kum_afa_close",
+  "value": 1862894,
+  "printed": "18.628,94",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "bw_close",
+  "value": 846388,
+  "printed": "8.463,88",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "bw_prev",
+  "value": 1050156,
+  "printed": "10.501,56",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "ahk_open",
+  "value": 44576,
+  "printed": "445,76",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "ahk_close",
+  "value": 44576,
+  "printed": "445,76",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "kum_afa_open",
+  "value": 44576,
+  "printed": "445,76",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "kum_afa_close",
+  "value": 44576,
+  "printed": "445,76",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r27",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480001",
+  "sub_no": "",
+  "label": "480001 Aktenvernichter",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N42"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "ahk_open",
+  "value": 26600,
+  "printed": "266,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "ahk_close",
+  "value": 26600,
+  "printed": "266,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "kum_afa_open",
+  "value": 26600,
+  "printed": "266,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "kum_afa_close",
+  "value": 26600,
+  "printed": "266,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480002",
+  "sub_no": "",
+  "label": "480002 Stehleuchte",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N43"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "ahk_open",
+  "value": 58500,
+  "printed": "585,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "ahk_close",
+  "value": 58500,
+  "printed": "585,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "kum_afa_open",
+  "value": 58500,
+  "printed": "585,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "kum_afa_close",
+  "value": 58500,
+  "printed": "585,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r29",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480003",
+  "sub_no": "",
+  "label": "480003 Stehleuchte",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "ahk_open",
+  "value": 68702,
+  "printed": "687,02",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "zugang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "ahk_close",
+  "value": 68702,
+  "printed": "687,02",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "kum_afa_open",
+  "value": 68702,
+  "printed": "687,02",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "kum_afa_close",
+  "value": 68702,
+  "printed": "687,02",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r30",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480004",
+  "sub_no": "",
+  "label": "480004 Messschieber digital",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "zugang",
+  "value": 42263,
+  "printed": "422,63",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "ahk_close",
+  "value": 42263,
+  "printed": "422,63",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "afa_gj",
+  "value": 42263,
+  "printed": "422,63",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "kum_afa_close",
+  "value": 42263,
+  "printed": "422,63",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480005",
+  "sub_no": "",
+  "label": "480005 Akkuschrauber",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N46"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "zugang",
+  "value": 40743,
+  "printed": "407,43",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "ahk_close",
+  "value": 40743,
+  "printed": "407,43",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "afa_gj",
+  "value": 40743,
+  "printed": "407,43",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "kum_afa_close",
+  "value": 40743,
+  "printed": "407,43",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r32",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "480006",
+  "sub_no": "",
+  "label": "480006 Messschieber digital",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "ahk_open",
+  "value": 198378,
+  "printed": "1.983,78",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "zugang",
+  "value": 83006,
+  "printed": "830,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "ahk_close",
+  "value": 281384,
+  "printed": "2.813,84",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "kum_afa_open",
+  "value": 198378,
+  "printed": "1.983,78",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "afa_gj",
+  "value": 83006,
+  "printed": "830,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "kum_afa_close",
+  "value": 281384,
+  "printed": "2.813,84",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Geringwertige Wirtschaftsgüter",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "ahk_open",
+  "value": 27359706,
+  "printed": "273.597,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "zugang",
+  "value": 4100500,
+  "printed": "41.005,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "umbuchung",
+  "value": -31460206,
+  "printed": "-314.602,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "ahk_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r34",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120001",
+  "sub_no": "",
+  "label": "120001 AiB Flachschleifmaschine",
+  "field": "bw_prev",
+  "value": 27359706,
+  "printed": "273.597,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N51"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "ahk_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "zugang",
+  "value": 3164900,
+  "printed": "31.649,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "ahk_close",
+  "value": 3164900,
+  "printed": "31.649,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "bw_close",
+  "value": 3164900,
+  "printed": "31.649,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r35",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": "120002",
+  "sub_no": "",
+  "label": "120002 Anlagen im Bau Halle 3",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "ahk_open",
+  "value": 27359706,
+  "printed": "273.597,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "zugang",
+  "value": 7265400,
+  "printed": "72.654,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "umbuchung",
+  "value": -31460206,
+  "printed": "-314.602,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "ahk_close",
+  "value": 3164900,
+  "printed": "31.649,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "kum_afa_open",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "afa_abgang",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "bw_close",
+  "value": 3164900,
+  "printed": "31.649,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r36",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "bw_prev",
+  "value": 27359706,
+  "printed": "273.597,06",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "ahk_open",
+  "value": 78435916,
+  "printed": "784.359,16",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "C55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "zugang",
+  "value": 45696614,
+  "printed": "456.966,14",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "D55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "abgang",
+  "value": 1426100,
+  "printed": "14.261,00",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "E55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "F55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "ahk_close",
+  "value": 122706430,
+  "printed": "1.227.064,30",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "G55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "kum_afa_open",
+  "value": 35760303,
+  "printed": "357.603,03",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "H55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "afa_gj",
+  "value": 5754012,
+  "printed": "57.540,12",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "I55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "afa_abgang",
+  "value": 350325,
+  "printed": "3.503,25",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "J55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "K55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "kum_afa_close",
+  "value": 41163990,
+  "printed": "411.639,90",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "L55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "bw_close",
+  "value": 81542440,
+  "printed": "815.424,40",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "M55"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f00_demo_01",
+  "row_id": "r37",
+  "kind": "grand_total",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagevermögen",
+  "field": "bw_prev",
+  "value": 42675613,
+  "printed": "426.756,13",
+  "pointer": {
+   "sheet": "Anlagenspiegel",
+   "cell": "N55"
+  },
+  "flag": null
+ }
+]

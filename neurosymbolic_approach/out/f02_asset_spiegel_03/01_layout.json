@@ -1,0 +1,2334 @@
+{
+ "doc_id": "f02_asset_spiegel_03",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Anlagespiegel",
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagespiegel:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "Anschaff.-/ Herstellungs- kosten (hist.) EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagespiegel:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "Zugänge, Geschäftsjahr (+)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagespiegel:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "Abgänge / Minderungen Geschäftsjahr (-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagespiegel:10",
+     "anchor": null,
+     "span": null,
+     "col": 10,
+     "header": "Umbuchungen Geschäftsjahr (+/-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagespiegel:11",
+     "anchor": null,
+     "span": null,
+     "col": 11,
+     "header": "Zuschreibungen Geschäftsjahr (+)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagespiegel:12",
+     "anchor": null,
+     "span": null,
+     "col": 12,
+     "header": "Abschreibungen Geschäftsjahr EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagespiegel:13",
+     "anchor": null,
+     "span": null,
+     "col": 13,
+     "header": "Buchwert Vorjahr EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagespiegel:14",
+     "anchor": null,
+     "span": null,
+     "col": 14,
+     "header": "Abschreibungen (kumuliert) (-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagespiegel:15",
+     "anchor": null,
+     "span": null,
+     "col": 15,
+     "header": "Buchwert 31.12. EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "asset_no": 1,
+    "name": 2,
+    "acq_date": 3,
+    "method": 4
+   },
+   "header_lines": [
+    "Inventar- Nummer | Inventar- Bezeichnung | Anschaff. Datum | AfA Art | ND | Anschaff.-/ Herstellungs- kosten (hist.) | Zugänge, Geschäftsjahr | davon aktivierte Zinsen Fremdkapital | Abgänge / Minderungen Geschäftsjahr | Umbuchungen Geschäftsjahr | Zuschreibungen Geschäftsjahr | Abschreibungen Geschäftsjahr | Buchwert Vorjahr | Abschreibungen (kumuliert) | Buchwert 31.12.",
+    "EUR | (+)EUR | (+)EUR | (-)EUR | (+/-)EUR | (+)EUR | EUR | EUR | (-)EUR | EUR",
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 9,
+   "kind_guess": "asset",
+   "label": "77 CAD-Software Lizenz (gebraucht) lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 10,
+   "kind_guess": "asset",
+   "label": "83 Finanzbuchhaltung Software Halle 5 lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 11,
+   "kind_guess": "asset",
+   "label": "84 CAD-Software Lizenz lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 12,
+   "kind_guess": "asset",
+   "label": "87 Zeiterfassung Software lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 13,
+   "kind_guess": "asset",
+   "label": "90 Warenwirtschaft Modul Lager lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 14,
+   "kind_guess": "asset",
+   "label": "93 CAD-Software Lizenz lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 15,
+   "kind_guess": "asset",
+   "label": "100 ERP-Lizenz Typ A198 lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 16,
+   "kind_guess": "asset",
+   "label": "119 ERP-Lizenz lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "119a ERP-Lizenz Nachrüstung lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "168 Finanzbuchhaltung Software lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 19,
+   "kind_guess": "asset",
+   "label": "170 CAD-Software Lizenz Typ K224 lin",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 20,
+   "kind_guess": "total",
+   "label": "Summe 0027    EDV-Software",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 21,
+   "kind_guess": "total",
+   "label": "Summe EDV-Software",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 22,
+   "kind_guess": "total",
+   "label": "Summe 0. Immaterielle Vermögensgegenstände",
+   "context": [
+    "Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Vornensiek Feinwerktechnik KG",
+    "0027    EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 26,
+   "kind_guess": "asset",
+   "label": "54 Erweiterungsfläche k",
+   "context": [
+    "1. Grund und Boden",
+    "Grund und Boden",
+    "0085    Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 27,
+   "kind_guess": "total",
+   "label": "Summe 0085    Grund und Boden",
+   "context": [
+    "1. Grund und Boden",
+    "Grund und Boden",
+    "0085    Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 28,
+   "kind_guess": "total",
+   "label": "Summe Grund und Boden",
+   "context": [
+    "1. Grund und Boden",
+    "Grund und Boden",
+    "0085    Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 29,
+   "kind_guess": "total",
+   "label": "Summe 1. Grund und Boden",
+   "context": [
+    "1. Grund und Boden",
+    "Grund und Boden",
+    "0085    Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 33,
+   "kind_guess": "asset",
+   "label": "31 Lagerhalle geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 34,
+   "kind_guess": "asset",
+   "label": "31a Lagerhalle Erweiterung geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 35,
+   "kind_guess": "asset",
+   "label": "56 Lagerhalle geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 36,
+   "kind_guess": "asset",
+   "label": "56a Lagerhalle Erweiterung geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 37,
+   "kind_guess": "asset",
+   "label": "97 Werkstattgebäude geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 38,
+   "kind_guess": "asset",
+   "label": "97a Werkstattgebäude Zusatzmodul geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 39,
+   "kind_guess": "asset",
+   "label": "108 Anbau Sozialtrakt geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 40,
+   "kind_guess": "asset",
+   "label": "108a Anbau Sozialtrakt Nachrüstung geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 41,
+   "kind_guess": "asset",
+   "label": "112 Anbau Sozialtrakt geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 42,
+   "kind_guess": "asset",
+   "label": "125 Werkstattgebäude geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 43,
+   "kind_guess": "asset",
+   "label": "125a Werkstattgebäude Zusatzmodul geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 44,
+   "kind_guess": "asset",
+   "label": "127 Lagerhalle geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 45,
+   "kind_guess": "asset",
+   "label": "127a Lagerhalle Nachrüstung geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 46,
+   "kind_guess": "asset",
+   "label": "128 Werkstattgebäude geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 47,
+   "kind_guess": "asset",
+   "label": "154 Anbau Sozialtrakt geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 48,
+   "kind_guess": "asset",
+   "label": "216 Produktionshalle geb",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 49,
+   "kind_guess": "total",
+   "label": "Summe 0100    Fabrikbauten",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 50,
+   "kind_guess": "total",
+   "label": "Summe Fabrikbauten",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 51,
+   "kind_guess": "total",
+   "label": "Summe 2. Betriebsgebäude",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100    Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 55,
+   "kind_guess": "asset",
+   "label": "34 Verpackungsmaschine lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 56,
+   "kind_guess": "asset",
+   "label": "36 3D-Koordinatenmessmaschine lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 57,
+   "kind_guess": "asset",
+   "label": "36a 3D-Koordinatenmessmaschine Nachrüstung lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 58,
+   "kind_guess": "asset",
+   "label": "81 Bandsäge Nr. 24 lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 59,
+   "kind_guess": "asset",
+   "label": "169 Bandsäge Nr. 26 lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 60,
+   "kind_guess": "asset",
+   "label": "174 Hydraulikpresse lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 61,
+   "kind_guess": "asset",
+   "label": "175 Bandsäge Typ B617 lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 62,
+   "kind_guess": "asset",
+   "label": "179 Abkantpresse Typ R546 lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 63,
+   "kind_guess": "asset",
+   "label": "182 Abkantpresse lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 64,
+   "kind_guess": "asset",
+   "label": "189 Spritzgießmaschine Typ X891 lin",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 65,
+   "kind_guess": "total",
+   "label": "Summe 0210    Maschinen",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 66,
+   "kind_guess": "total",
+   "label": "Summe Maschinen",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 67,
+   "kind_guess": "total",
+   "label": "Summe 3. Maschinenpark",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210    Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 71,
+   "kind_guess": "asset",
+   "label": "80 Photovoltaikanlage Dach Nr. 33 lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 72,
+   "kind_guess": "asset",
+   "label": "86 Notstromaggregat (gebraucht) lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 73,
+   "kind_guess": "asset",
+   "label": "94 Absauganlage (gebraucht) lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 74,
+   "kind_guess": "asset",
+   "label": "107 Druckluftnetz Halle 3 lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 75,
+   "kind_guess": "asset",
+   "label": "107a Druckluftnetz Halle 3 Zusatzmodul lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 76,
+   "kind_guess": "asset",
+   "label": "121 Brückenkran 5t lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 77,
+   "kind_guess": "asset",
+   "label": "121a Brückenkran 5t Erweiterung lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 78,
+   "kind_guess": "asset",
+   "label": "171 Kälteanlage Halle 1 lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 79,
+   "kind_guess": "asset",
+   "label": "207 Photovoltaikanlage Dach lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 80,
+   "kind_guess": "asset",
+   "label": "214 Kälteanlage lin",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 81,
+   "kind_guess": "total",
+   "label": "Summe 0240    Technische Anlagen",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r62",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 82,
+   "kind_guess": "total",
+   "label": "Summe Technische Anlagen Kto. 0240",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r63",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 83,
+   "kind_guess": "total",
+   "label": "Summe 4. Betriebstechnik",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240    Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r64",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 87,
+   "kind_guess": "asset",
+   "label": "42 Pkw Elektro Halle 3 lin",
+   "context": [
+    "5. Fuhrpark",
+    "Pkw",
+    "0320    Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r65",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 88,
+   "kind_guess": "asset",
+   "label": "65 Kleintransporter Halle 3 lin",
+   "context": [
+    "5. Fuhrpark",
+    "Pkw",
+    "0320    Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r66",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 89,
+   "kind_guess": "asset",
+   "label": "65a Kleintransporter Halle 3 Zusatzmodul lin",
+   "context": [
+    "5. Fuhrpark",
+    "Pkw",
+    "0320    Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r67",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 90,
+   "kind_guess": "asset",
+   "label": "92 Pkw Elektro lin",
+   "context": [
+    "5. Fuhrpark",
+    "Pkw",
+    "0320    Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r68",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 91,
+   "kind_guess": "asset",
+   "label": "99 Pkw Kompaktklasse lin",
+   "context": [
+    "5. Fuhrpark",
+    "Pkw",
+    "0320    Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r69",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 92,
+   "kind_guess": "asset",
+   "label": "124 Pkw Kompaktklasse Typ D263 lin",
+   "context": [
+    "5. Fuhrpark",
+    "Pkw",
+    "0320    Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r70",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 93,
+   "kind_guess": "asset",
+   "label": "153 Pkw Elektro lin",
+   "context": [
+    "5. Fuhrpark",
+    "Pkw",
+    "0320    Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r71",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 94,
+   "kind_guess": "total",
+   "label": "Summe 0320    Pkw",
+   "context": [
+    "5. Fuhrpark",
+    "Pkw",
+    "0320    Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r72",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 96,
+   "kind_guess": "asset",
+   "label": "35 Lkw 7,5t Pritsche lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r73",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 97,
+   "kind_guess": "asset",
+   "label": "35a Lkw 7,5t Pritsche Zusatzmodul lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r74",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 98,
+   "kind_guess": "asset",
+   "label": "55 Sattelzugmaschine lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r75",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 99,
+   "kind_guess": "asset",
+   "label": "76 Lkw 7,5t Pritsche Halle 1 lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r76",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 100,
+   "kind_guess": "asset",
+   "label": "91 Lkw 7,5t Pritsche Typ R923 lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r77",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 101,
+   "kind_guess": "asset",
+   "label": "109 Kastenwagen Halle 5 lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r78",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 102,
+   "kind_guess": "asset",
+   "label": "123 Sattelzugmaschine (gebraucht) lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r79",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 103,
+   "kind_guess": "asset",
+   "label": "129 Kastenwagen (gebraucht) lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r80",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 104,
+   "kind_guess": "asset",
+   "label": "132 Kastenwagen Nr. 4 lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r81",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 105,
+   "kind_guess": "asset",
+   "label": "136 Kastenwagen Halle 1 lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r82",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 106,
+   "kind_guess": "asset",
+   "label": "221 Sattelzugmaschine Nr. 2 lin",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r83",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 107,
+   "kind_guess": "total",
+   "label": "Summe 0350    Lkw",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r84",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 108,
+   "kind_guess": "total",
+   "label": "Summe Pkw",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r85",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 109,
+   "kind_guess": "total",
+   "label": "Summe 5. Fuhrpark",
+   "context": [
+    "Pkw",
+    "0320    Pkw",
+    "0350    Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r86",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 113,
+   "kind_guess": "asset",
+   "label": "40 Elektro-Hubwagen lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r87",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 114,
+   "kind_guess": "asset",
+   "label": "40a Elektro-Hubwagen Zusatzmodul lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r88",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 115,
+   "kind_guess": "asset",
+   "label": "52 Palettenregal lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r89",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 116,
+   "kind_guess": "asset",
+   "label": "53 Elektro-Hubwagen (gebraucht) lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r90",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 117,
+   "kind_guess": "asset",
+   "label": "66 Elektro-Hubwagen Halle 3 lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r91",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 118,
+   "kind_guess": "asset",
+   "label": "98 Palettenregal lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r92",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 119,
+   "kind_guess": "asset",
+   "label": "102 Werkbank Nr. 7 lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r93",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 120,
+   "kind_guess": "asset",
+   "label": "102a Werkbank Nr. 7 Erweiterung lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r94",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 121,
+   "kind_guess": "asset",
+   "label": "115 Werkbank lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r95",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 122,
+   "kind_guess": "asset",
+   "label": "117 Schweißgerät Typ T482 lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r96",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 123,
+   "kind_guess": "asset",
+   "label": "178 Palettenregal lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r97",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 124,
+   "kind_guess": "asset",
+   "label": "190 Gabelstapler lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r98",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 125,
+   "kind_guess": "asset",
+   "label": "197 Palettenregal lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r99",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 126,
+   "kind_guess": "asset",
+   "label": "228 Elektro-Hubwagen lin",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r100",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 127,
+   "kind_guess": "total",
+   "label": "Summe 0400    Betriebsausstattung",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r101",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 128,
+   "kind_guess": "total",
+   "label": "Summe Betriebsausstattung",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r102",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 129,
+   "kind_guess": "total",
+   "label": "Summe 6. Werkstatt und Lager",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400    Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r103",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 133,
+   "kind_guess": "asset",
+   "label": "37 Aktenschrank Halle 4 lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r104",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 134,
+   "kind_guess": "asset",
+   "label": "45 Schreibtisch höhenverstellbar (gebraucht) lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r105",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 135,
+   "kind_guess": "asset",
+   "label": "45a Schreibtisch höhenverstellbar (gebraucht) Nachrüstung lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r106",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 136,
+   "kind_guess": "asset",
+   "label": "58 Empfangstheke Halle 1 lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r107",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 137,
+   "kind_guess": "asset",
+   "label": "69 Rollcontainer Halle 4 lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r108",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 138,
+   "kind_guess": "asset",
+   "label": "85 Besprechungstisch lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r109",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 139,
+   "kind_guess": "asset",
+   "label": "110 Regalsystem Archiv Halle 4 lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r110",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 140,
+   "kind_guess": "asset",
+   "label": "130 Empfangstheke lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r111",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 141,
+   "kind_guess": "asset",
+   "label": "130a Empfangstheke Nachrüstung lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r112",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 142,
+   "kind_guess": "asset",
+   "label": "133 Bürostuhl ergonomisch lin",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r113",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 143,
+   "kind_guess": "total",
+   "label": "Summe 0420    Büroeinrichtung",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r114",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 144,
+   "kind_guess": "total",
+   "label": "Summe Büroeinrichtung",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "0420    Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r115",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 147,
+   "kind_guess": "asset",
+   "label": "82 Firewall-Appliance (gebraucht) lin",
+   "context": [
+    "0420    Büroeinrichtung",
+    "EDV-Hardware",
+    "0490    EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r116",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 148,
+   "kind_guess": "asset",
+   "label": "104 Notebook lin",
+   "context": [
+    "0420    Büroeinrichtung",
+    "EDV-Hardware",
+    "0490    EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r117",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 149,
+   "kind_guess": "asset",
+   "label": "165 Server 2HE Nr. 35 lin",
+   "context": [
+    "0420    Büroeinrichtung",
+    "EDV-Hardware",
+    "0490    EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r118",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 150,
+   "kind_guess": "asset",
+   "label": "173 Serverschrank 42HE (gebraucht) lin",
+   "context": [
+    "0420    Büroeinrichtung",
+    "EDV-Hardware",
+    "0490    EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r119",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 151,
+   "kind_guess": "total",
+   "label": "Summe 0490    EDV-Hardware",
+   "context": [
+    "0420    Büroeinrichtung",
+    "EDV-Hardware",
+    "0490    EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r120",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 152,
+   "kind_guess": "total",
+   "label": "Summe EDV-Hardware",
+   "context": [
+    "0420    Büroeinrichtung",
+    "EDV-Hardware",
+    "0490    EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r121",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 153,
+   "kind_guess": "total",
+   "label": "Summe 7. Büro und Verwaltung",
+   "context": [
+    "0420    Büroeinrichtung",
+    "EDV-Hardware",
+    "0490    EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r122",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 156,
+   "kind_guess": "asset",
+   "label": "143 Monitor 27 Zoll sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r123",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 157,
+   "kind_guess": "asset",
+   "label": "161 Werkzeugkoffer sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r124",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 158,
+   "kind_guess": "asset",
+   "label": "164 Werkzeugkoffer sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r125",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 159,
+   "kind_guess": "asset",
+   "label": "180 Aktenvernichter sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r126",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 160,
+   "kind_guess": "asset",
+   "label": "181 Aktenvernichter sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r127",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 161,
+   "kind_guess": "asset",
+   "label": "204 Bürostuhl sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r128",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 162,
+   "kind_guess": "asset",
+   "label": "219 Werkzeugkoffer sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r129",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 163,
+   "kind_guess": "asset",
+   "label": "220 Kaffeevollautomat sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r130",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 164,
+   "kind_guess": "asset",
+   "label": "230 Tablet sb",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r131",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 165,
+   "kind_guess": "total",
+   "label": "Summe GWG",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r132",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 166,
+   "kind_guess": "total",
+   "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+   "context": [
+    "0490    EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r133",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 169,
+   "kind_guess": "asset",
+   "label": "150 AiB Bandsäge Typ B617 k",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r134",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 170,
+   "kind_guess": "total",
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r135",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagespiegel",
+   "row": 171,
+   "kind_guess": "total",
+   "label": "Summe 9. Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {}
+}

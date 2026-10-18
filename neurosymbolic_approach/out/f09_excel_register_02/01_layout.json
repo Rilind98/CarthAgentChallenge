@@ -1,0 +1,1433 @@
+{
+ "doc_id": "f09_excel_register_02",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1
+   ],
+   "sheet": null,
+   "period_end": "2025-09-30",
+   "period_start": "2024-10-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 306.4,
+     "span": [
+      277.67,
+      306.4
+     ],
+     "col": null,
+     "header": "AHK GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 335.03,
+     "span": [
+      310.4,
+      335.03
+     ],
+     "col": null,
+     "header": "Zugang",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 365.29,
+     "span": [
+      339.03,
+      365.29
+     ],
+     "col": null,
+     "header": "Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 397.99,
+     "span": [
+      374.46,
+      397.99
+     ],
+     "col": null,
+     "header": "Umbuchung",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 499.14,
+     "span": [
+      470.41,
+      499.14
+     ],
+     "col": null,
+     "header": "aktuelle AHK",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 533.51,
+     "span": [
+      503.14,
+      533.51
+     ],
+     "col": null,
+     "header": "AfA GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 563.78,
+     "span": [
+      537.51,
+      563.78
+     ],
+     "col": null,
+     "header": "AfA des Jahres",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 596.2,
+     "span": [
+      571.57,
+      596.2
+     ],
+     "col": null,
+     "header": "AfA Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 701.42,
+     "span": [
+      686.37,
+      701.42
+     ],
+     "col": null,
+     "header": "Zuschreibungen",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 735.78,
+     "span": [
+      705.42,
+      735.78
+     ],
+     "col": null,
+     "header": "kumulierte AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "c11",
+     "anchor": 768.52,
+     "span": [
+      739.78,
+      768.52
+     ],
+     "col": null,
+     "header": "Buchwrt GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c12",
+     "anchor": 801.25,
+     "span": [
+      772.52,
+      801.25
+     ],
+     "col": null,
+     "header": "lfd Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anlage Unter- Aktivierung Anlagenbezeichnung Währ-ung AHK GJ-Beg Zugang Abgang Umbuchung Nachaktivg Invest.Förderg aktuelle AfA GJ-Beg AfA des AfA Abgang AfA AfA Zuschreibungen kumulierte Buchwrt lfd",
+    "nummer am AHK Jahres Umbuchung Nachaktivg AfA GJ-Beg Buchwert"
+   ]
+  },
+  {
+   "id": "s2",
+   "pages": [
+    2
+   ],
+   "sheet": null,
+   "period_end": "2025-09-30",
+   "period_start": "2024-10-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 226.2,
+     "span": [
+      197.47,
+      226.2
+     ],
+     "col": null,
+     "header": "AHK GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 254.82,
+     "span": [
+      230.2,
+      254.82
+     ],
+     "col": null,
+     "header": "Zugang",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 285.09,
+     "span": [
+      258.82,
+      285.09
+     ],
+     "col": null,
+     "header": "Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 317.79,
+     "span": [
+      294.26,
+      317.79
+     ],
+     "col": null,
+     "header": "Umbuchung",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 445.15,
+     "span": [
+      416.42,
+      445.15
+     ],
+     "col": null,
+     "header": "SUMME AHK / Zugang / Abgang / Umbuchung",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c6",
+     "anchor": 477.88,
+     "span": [
+      449.15,
+      477.88
+     ],
+     "col": null,
+     "header": "aktuelle AHK",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 546.59,
+     "span": [
+      516.23,
+      546.59
+     ],
+     "col": null,
+     "header": "AfA GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 576.86,
+     "span": [
+      550.59,
+      576.86
+     ],
+     "col": null,
+     "header": "AfA des Jahres",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 609.28,
+     "span": [
+      584.65,
+      609.28
+     ],
+     "col": null,
+     "header": "AfA Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 714.5,
+     "span": [
+      699.45,
+      714.5
+     ],
+     "col": null,
+     "header": "Zuschreibungen",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c11",
+     "anchor": 748.87,
+     "span": [
+      718.5,
+      748.87
+     ],
+     "col": null,
+     "header": "kumulierte AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "c12",
+     "anchor": 781.6,
+     "span": [
+      752.87,
+      781.6
+     ],
+     "col": null,
+     "header": "Buchwrt GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c13",
+     "anchor": 814.33,
+     "span": [
+      785.6,
+      814.33
+     ],
+     "col": null,
+     "header": "lfd Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Buchungskreis Anlagenklasse Bezeichnung Währ-ung AHK GJ-Beg Zugang Abgang Umbuchung Nachaktivg Invest.Förderg SUMME AHK / Zugang / aktuelle Differenz zu AfA GJ-Beg AfA des AfA Abgang AfA AfA Zuschreibungen kumulierte Buchwrt lfd",
+    "Abgang / Umbuchung AHK aktuelle AHK Jahres Umbuchung Nachaktivg AfA GJ-Beg Buchwert"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    79.0,
+    85.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "SUMMEN",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    87.1,
+    93.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "100001001 0 21.11.2016 ERP-Lizenz Typ B144 EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    95.2,
+    101.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "100001002 0 30.04.2021 Finanzbuchhaltung Software EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    103.3,
+    109.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "100001002 1 21.05.2024 Finanzbuchhaltung Software Nachrüstung EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    111.4,
+    117.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "200001001 0 20.11.2000 Erweiterungsfläche EUR 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    119.5,
+    125.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "200001002 0 12.01.2005 Grund und Boden Betriebsgelände EUR 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    127.6,
+    133.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "200001003 0 20.08.2006 Erweiterungsfläche EUR 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    135.7,
+    141.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210001001 0 26.12.1988 Werkstattgebäude EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    143.8,
+    149.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210001001 1 09.09.2018 Werkstattgebäude Zusatzmodul EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    151.9,
+    157.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210001002 0 02.10.2008 Lagerhalle EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    160.0,
+    166.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210001004 0 15.11.2018 Produktionshalle EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    168.1,
+    174.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210001005 0 15.09.2022 Lagerhalle EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    176.2,
+    182.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210001005 1 16.12.2022 Lagerhalle Nachrüstung EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    184.3,
+    190.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "300001001 0 22.09.2008 Flachschleifmaschine EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    192.4,
+    198.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "300001002 0 10.07.2020 Flachschleifmaschine EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    200.5,
+    206.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "300001003 0 26.10.2024 CNC-Fräszentrum 5-Achs EUR 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    208.6,
+    214.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "310001001 0 19.09.2004 Brückenkran 5t EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    216.7,
+    222.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "310001001 1 05.12.2023 Brückenkran 5t Erweiterung EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    224.8,
+    230.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "310001002 0 22.08.2010 Photovoltaikanlage Dach Halle 4 EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    232.9,
+    238.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "400001001 0 30.11.2010 Gabelstapler Nr. 30 EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    241.0,
+    247.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "400001001 1 31.07.2019 Gabelstapler Nr. 30 Erweiterung EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    249.1,
+    255.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "400001002 0 14.01.2015 Gabelstapler EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    257.2,
+    263.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "400001003 0 29.04.2025 Werkbank (gebraucht) EUR 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    265.3,
+    271.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "410001001 0 13.01.2011 Rollcontainer EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    273.4,
+    279.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "410001002 0 13.05.2017 Schrankwand Büro (gebraucht) EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    281.5,
+    287.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "410001003 0 16.04.2022 Regalsystem Archiv Nr. 29 EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    289.6,
+    295.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "420001001 0 05.06.2016 Kleintransporter EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    297.7,
+    303.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "420001002 0 28.05.2021 Pkw Mittelklasse Hybrid EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    305.8,
+    311.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "420001003 0 25.09.2021 Pkw Kompaktklasse EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    313.9,
+    319.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "420001004 0 06.09.2022 Pkw Kombi Diesel Nr. 25 EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    322.0,
+    328.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "420001005 0 01.12.2024 Pkw Kompaktklasse Nr. 18 EUR 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    330.1,
+    336.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "430001001 0 07.02.2013 Lkw 7,5t Pritsche EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    338.2,
+    344.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "430001001 1 18.10.2021 Lkw 7,5t Pritsche Erweiterung EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    346.3,
+    352.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "430001002 0 19.09.2022 Kastenwagen EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    354.4,
+    360.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "430001003 0 25.10.2024 Kastenwagen Typ X330 EUR 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    362.5,
+    368.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "430001004 0 28.03.2025 Kastenwagen EUR 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    370.6,
+    376.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "440001002 0 01.05.2019 NAS-Speicher (gebraucht) EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    378.7,
+    384.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "440001003 0 27.08.2020 Serverschrank 42HE Halle 2 EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    386.8,
+    392.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "440001004 0 02.08.2024 Serverschrank 42HE (gebraucht) EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    394.9,
+    400.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "490001001 0 30.04.2022 Kaffeevollautomat EUR 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    403.0,
+    409.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "490001002 0 06.08.2024 Kaffeevollautomat EUR 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    411.1,
+    417.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "490001003 0 26.06.2025 Akkuschrauber EUR 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    419.2,
+    425.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "500001001 0 14.04.2024 AiB CNC-Fräszentrum 5-Achs EUR 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    427.3,
+    433.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "500001002 0 17.02.2025 Anlagen im Bau Halle 2 EUR 0 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    435.4,
+    441.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "600001001 0 14.07.2022 Anteile Servicegesellschaft EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    443.5,
+    449.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "Buchungskreis 7314 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    451.6,
+    457.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    54.7,
+    60.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 1000 EDV-Software EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    62.8,
+    68.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 2000 Grund und Boden EUR 0 0 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r50",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    70.9,
+    76.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 2100 Fabrikbauten EUR 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r51",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    79.0,
+    85.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 3000 Maschinen EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r52",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    87.1,
+    93.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 3100 Technische Anlagen EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r53",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    95.2,
+    101.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 4000 Betriebsausstattung EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r54",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    103.3,
+    109.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 4100 Büroeinrichtung EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r55",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    111.4,
+    117.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 4200 Pkw EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r56",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    119.5,
+    125.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 4300 Lkw EUR 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r57",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    127.6,
+    133.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 4400 EDV-Hardware EUR 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r58",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    135.7,
+    141.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 4900 GWG EUR 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r59",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    143.8,
+    149.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 5000 Anlagen im Bau EUR 0 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r60",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    151.9,
+    157.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "7314 6000 Beteiligungen EUR 0 0 0 0 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r61",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    160.0,
+    166.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "Buchungskreis 7314 EUR 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r62",
+   "section": "s2",
+   "page": 2,
+   "band": [
+    168.1,
+    174.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "EUR 0 0 0 0 0 0",
+   "context": [],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {
+  "1": "schedule",
+  "2": "schedule"
+ }
+}

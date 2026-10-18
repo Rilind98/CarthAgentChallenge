@@ -1,0 +1,27 @@
+{
+ "doc_id": "f04_verzeichnis_02",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "wrapped_description",
+   "evidence": "3 description(s) continue on the next line",
+   "where": [
+    {
+     "row": "r4",
+     "page": 1,
+     "label": "484 Finanzbuchhaltung Software Typ 18.05.2025 lin 3 X521"
+    },
+    {
+     "row": "r65",
+     "page": 2,
+     "label": "943 Schreibtisch höhenverstellbar 0 25.02.2023 lin 13 28.05.25 (gebraucht)"
+    },
+    {
+     "row": "r84",
+     "page": 3,
+     "label": "3580 Geschäftsanteile 0 13.12.2007 k 0 Genossenschaftsbank"
+    }
+   ]
+  }
+ ]
+}

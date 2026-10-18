@@ -1,0 +1,816 @@
+{
+ "doc_id": "f01_net_spiegel_03",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 292.94,
+     "span": [
+      252.07,
+      292.94
+     ],
+     "col": null,
+     "header": "Buchwert Vorjahr EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 348.94,
+     "span": [
+      308.07,
+      348.94
+     ],
+     "col": null,
+     "header": "Zugänge, Geschäftsjahr (+)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 404.94,
+     "span": [
+      391.32,
+      404.94
+     ],
+     "col": null,
+     "header": "davon",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c4",
+     "anchor": 460.94,
+     "span": [
+      447.32,
+      460.94
+     ],
+     "col": null,
+     "header": "Abgänge / Minderungen Geschäftsjahr (-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 516.94,
+     "span": [
+      481.91,
+      516.94
+     ],
+     "col": null,
+     "header": "Umbuchungen Geschäftsjahr (+/-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 572.94,
+     "span": [
+      559.32,
+      572.94
+     ],
+     "col": null,
+     "header": "Zuschreibungen Geschäftsjahr (+)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 628.94,
+     "span": [
+      593.91,
+      628.94
+     ],
+     "col": null,
+     "header": "Normal-AfA Geschäftsjahr EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 684.94,
+     "span": [
+      671.32,
+      684.94
+     ],
+     "col": null,
+     "header": "Sonder-AfA Geschäftsjahr EUR",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c9",
+     "anchor": 740.94,
+     "span": [
+      700.07,
+      740.94
+     ],
+     "col": null,
+     "header": "Abschreibungen (kumuliert) (-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 796.94,
+     "span": [
+      756.07,
+      796.94
+     ],
+     "col": null,
+     "header": "Buchwert 31.12. EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Bilanzposition Buchwert Zugänge, davon aktivierte Abgänge / Umbuchungen Zuschreibungen Normal-AfA Sonder-AfA Abschreibungen Buchwert",
+    "Vorjahr Geschäftsjahr Zinsen Minderungen Geschäftsjahr Geschäftsjahr Geschäftsjahr Geschäftsjahr (kumuliert) 31.12.",
+    "Fremdkapital Geschäftsjahr",
+    "EUR (+)EUR (+)EUR (-)EUR (+/-)EUR (+)EUR EUR EUR (-)EUR EUR"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    189.45,
+    196.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0027 EDV-Software",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    208.35,
+    215.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe EDV-Software",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    227.25,
+    234.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0. Immaterielle Vermögensgegenstände",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    293.4,
+    300.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0085 Grund und Boden",
+   "context": [
+    "EDV-Software",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    312.3,
+    319.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Grund und Boden",
+   "context": [
+    "EDV-Software",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    331.2,
+    338.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 1. Grund und Boden",
+   "context": [
+    "EDV-Software",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    397.35,
+    404.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0100 Fabrikbauten",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    416.25,
+    423.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Fabrikbauten",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    435.15,
+    442.15
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 2. Betriebsgebäude",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    501.3,
+    508.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0210 Maschinen",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    520.2,
+    527.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Maschinen",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 3. Maschinenpark",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    217.8,
+    224.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0240 Technische Anlagen",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    236.7,
+    243.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Technische Anlagen Kto. 0240",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    255.6,
+    262.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 4. Betriebstechnik",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    321.75,
+    328.75
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0320 Pkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    340.65,
+    347.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0350 Lkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    359.55,
+    366.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Pkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    378.45,
+    385.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 5. Fuhrpark",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0400 Betriebsausstattung",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    463.5,
+    470.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Betriebsausstattung",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    482.4,
+    489.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 6. Werkstatt und Lager",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    161.1,
+    168.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0420 Büroeinrichtung",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    180.0,
+    187.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Büroeinrichtung",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    217.8,
+    224.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0490 EDV-Hardware",
+   "context": [
+    "EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    236.7,
+    243.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe EDV-Hardware",
+   "context": [
+    "EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    255.6,
+    262.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 7. Büro und Verwaltung",
+   "context": [
+    "EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    321.75,
+    328.75
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0480 Geringwertige Wirtschaftsgüter",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    340.65,
+    347.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe GWG",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    359.55,
+    366.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    425.7,
+    432.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0120 Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    463.5,
+    470.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 9. Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 2: repeats the header of section s1",
+  "page 3: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "schedule",
+  "2": "repeats",
+  "3": "repeats"
+ }
+}

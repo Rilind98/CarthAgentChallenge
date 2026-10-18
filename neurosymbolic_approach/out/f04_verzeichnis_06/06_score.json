@@ -1,0 +1,32 @@
+{
+ "values_in_key": 164,
+ "correct": 164,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 164,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": 0.855,
+ "details": [],
+ "detection": {
+  "planted": [
+   "non_tying_subtotal",
+   "wrapped_description"
+  ],
+  "detected": [
+   "non_tying_subtotal",
+   "wrapped_description"
+  ],
+  "hit": [
+   "non_tying_subtotal",
+   "wrapped_description"
+  ],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

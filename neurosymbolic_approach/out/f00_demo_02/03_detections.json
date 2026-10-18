@@ -1,0 +1,15 @@
+{
+ "doc_id": "f00_demo_02",
+ "variant_guess": "perfect",
+ "findings": [
+  {
+   "type": "mapping_unverified",
+   "evidence": "abstain: laws hold on only 24% of checks",
+   "where": [
+    {
+     "section": "s1"
+    }
+   ]
+  }
+ ]
+}

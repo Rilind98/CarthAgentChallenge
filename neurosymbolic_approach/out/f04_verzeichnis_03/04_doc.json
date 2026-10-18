@@ -1,0 +1,3918 @@
+{
+ "meta": {
+  "doc_id": "f04_verzeichnis_03",
+  "source": "../A3-Hackathon-Corpus/f04_verzeichnis/f04_verzeichnis_03.xlsx",
+  "format": "xlsx",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2024-12-31",
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Anlageverzeichnis"
+   }
+  ],
+  "variant_guess": "perfect"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "11",
+   "sub_no": null,
+   "name": "Office-Lizenzen",
+   "acq_date": "2008-12-18",
+   "method": "lin",
+   "label": "11 Office-Lizenzen lin 5",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 1354900,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "13.549,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A13",
+    "row": 13,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D13"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H13"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "43e",
+   "sub_no": null,
+   "name": "CAD-Software Lizenz Nr. 5",
+   "acq_date": "2021-06-04",
+   "method": "lin",
+   "label": "43e CAD-Software Lizenz Nr. 5 lin 5",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 568100,
+    "bw_close": 160962
+   },
+   "printed": {
+    "ahk_close": "5.681,00",
+    "bw_close": "1.609,62"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A14",
+    "row": 14,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D14"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H14"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "46",
+   "sub_no": null,
+   "name": "Finanzbuchhaltung Software",
+   "acq_date": "2023-06-02",
+   "method": "lin",
+   "label": "46 Finanzbuchhaltung Software lin 5",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 1297113,
+    "bw_close": 886361
+   },
+   "printed": {
+    "ahk_close": "12.971,13",
+    "bw_close": "8.863,61"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A15",
+    "row": 15,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D15"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H15"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "60",
+   "sub_no": null,
+   "name": "ERP-Lizenz Halle 4",
+   "acq_date": "2021-01-20",
+   "method": "lin",
+   "label": "60 ERP-Lizenz Halle 4 lin 5",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 536600,
+    "bw_close": 107320
+   },
+   "printed": {
+    "ahk_close": "5.366,00",
+    "bw_close": "1.073,20"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A16",
+    "row": 16,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D16"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H16"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "603",
+   "sub_no": null,
+   "name": "Office-Lizenzen",
+   "acq_date": "2020-07-08",
+   "method": "lin",
+   "label": "603 Office-Lizenzen lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 376300,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "3.763,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A17",
+    "row": 17,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D17"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H17"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "658",
+   "sub_no": null,
+   "name": "CAD-Software Lizenz",
+   "acq_date": "2020-01-23",
+   "method": "lin",
+   "label": "658 CAD-Software Lizenz lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 2803200,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "28.032,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A18",
+    "row": 18,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D18"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H18"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "74",
+   "sub_no": null,
+   "name": "CAD-Software Lizenz",
+   "acq_date": "2015-01-05",
+   "method": "lin",
+   "label": "74 CAD-Software Lizenz lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 450359,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "4.503,59",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A19",
+    "row": 19,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D19"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H19"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "751",
+   "sub_no": null,
+   "name": "Office-Lizenzen (gebraucht)",
+   "acq_date": "2020-10-22",
+   "method": "lin",
+   "label": "751 Office-Lizenzen (gebraucht) lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 1230400,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "12.304,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A20",
+    "row": 20,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D20"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H20"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "805",
+   "sub_no": null,
+   "name": "ERP-Lizenz Halle 4",
+   "acq_date": "2023-09-20",
+   "method": "lin",
+   "label": "805 ERP-Lizenz Halle 4 lin 3",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 3815357,
+    "bw_close": 2119643
+   },
+   "printed": {
+    "ahk_close": "38.153,57",
+    "bw_close": "21.196,43"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A21",
+    "row": 21,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D21"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H21"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Anlageverzeichnis vom 01.01.2024 bis 31.12.2024",
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027"
+   ],
+   "fields": {
+    "ahk_close": 12432329,
+    "bw_close": 3274786
+   },
+   "printed": {
+    "ahk_close": "124.323,29",
+    "bw_close": "32.747,86"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A22",
+    "row": 22,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D22"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H22"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "01",
+   "sub_no": null,
+   "name": "Grund und Boden Betriebsgelände",
+   "acq_date": "2018-01-01",
+   "method": "k",
+   "label": "01 Grund und Boden Betriebsgelände 0 k 0",
+   "context": [
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027",
+    "Konto  085"
+   ],
+   "fields": {
+    "ahk_close": 11577713,
+    "bw_close": 11577713
+   },
+   "printed": {
+    "ahk_close": "115.777,13",
+    "bw_close": "115.777,13"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A25",
+    "row": 25,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D25"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H25"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Anlagegruppe: A. Anlagevermögen",
+    "Konto  027",
+    "Konto  085"
+   ],
+   "fields": {
+    "ahk_close": 11577713,
+    "bw_close": 11577713
+   },
+   "printed": {
+    "ahk_close": "115.777,13",
+    "bw_close": "115.777,13"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A26",
+    "row": 26,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D26"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H26"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "1463A",
+   "sub_no": null,
+   "name": "Werkstattgebäude",
+   "acq_date": "2014-01-03",
+   "method": "geb",
+   "label": "1463A Werkstattgebäude 0 geb 33",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "fields": {
+    "ahk_close": 152149200,
+    "bw_close": 101432800
+   },
+   "printed": {
+    "ahk_close": "1.521.492,00",
+    "bw_close": "1.014.328,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A29",
+    "row": 29,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D29"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H29"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "3107",
+   "sub_no": null,
+   "name": "Anbau Sozialtrakt",
+   "acq_date": "2014-08-26",
+   "method": "geb",
+   "label": "3107 Anbau Sozialtrakt 0 geb 33",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "fields": {
+    "ahk_close": 73520219,
+    "bw_close": 50313079
+   },
+   "printed": {
+    "ahk_close": "735.202,19",
+    "bw_close": "503.130,79"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A30",
+    "row": 30,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D30"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H30"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "797C",
+   "sub_no": null,
+   "name": "Lagerhalle",
+   "acq_date": "2024-04-05",
+   "method": "geb",
+   "label": "797C Lagerhalle 0 geb 33",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "fields": {
+    "ahk_close": 158947819,
+    "bw_close": 155335369
+   },
+   "printed": {
+    "ahk_close": "1.589.478,19",
+    "bw_close": "1.553.353,69"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A31",
+    "row": 31,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D31"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H31"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "8",
+   "sub_no": null,
+   "name": "Produktionshalle",
+   "acq_date": "1987-04-08",
+   "method": "geb",
+   "label": "8 Produktionshalle 0 geb 33",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "fields": {
+    "ahk_close": 142149000,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "1.421.490,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A32",
+    "row": 32,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D32"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H32"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  027",
+    "Konto  085",
+    "Konto  100"
+   ],
+   "fields": {
+    "ahk_close": 526766238,
+    "bw_close": 307081348
+   },
+   "printed": {
+    "ahk_close": "5.267.662,38",
+    "bw_close": "3.070.813,48"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A33",
+    "row": 33,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D33"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H33"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "127",
+   "sub_no": null,
+   "name": "Teilewaschanlage",
+   "acq_date": "2024-01-25",
+   "method": "lin",
+   "label": "127 Teilewaschanlage 0 lin 8",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 8746900,
+    "bw_close": 7653537
+   },
+   "printed": {
+    "ahk_close": "87.469,00",
+    "bw_close": "76.535,37"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A36",
+    "row": 36,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D36"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H36"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "25",
+   "sub_no": null,
+   "name": "3D-Koordinatenmessmaschine (gebraucht)",
+   "acq_date": "2015-03-25",
+   "method": "lin",
+   "label": "25 3D-Koordinatenmessmaschine (gebraucht) 0 lin 15",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 2534876,
+    "bw_close": 873124
+   },
+   "printed": {
+    "ahk_close": "25.348,76",
+    "bw_close": "8.731,24"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A37",
+    "row": 37,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D37"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H37"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "3134",
+   "sub_no": null,
+   "name": "3D-Koordinatenmessmaschine",
+   "acq_date": "2024-03-02",
+   "method": "lin",
+   "label": "3134 3D-Koordinatenmessmaschine 0 lin 10",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 25702972,
+    "bw_close": 23561058
+   },
+   "printed": {
+    "ahk_close": "257.029,72",
+    "bw_close": "235.610,58"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A38",
+    "row": 38,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D38"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H38"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "3327",
+   "sub_no": null,
+   "name": "Ständerbohrmaschine (gebraucht)",
+   "acq_date": "2024-04-04",
+   "method": "lin",
+   "label": "3327 Ständerbohrmaschine (gebraucht) 0 lin 15",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 2604500,
+    "bw_close": 2474275
+   },
+   "printed": {
+    "ahk_close": "26.045,00",
+    "bw_close": "24.742,75"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A39",
+    "row": 39,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D39"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H39"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "37",
+   "sub_no": null,
+   "name": "Bandsäge Typ A635",
+   "acq_date": "2024-03-10",
+   "method": "lin",
+   "label": "37 Bandsäge Typ A635 0 lin 10",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 12050624,
+    "bw_close": 11046405
+   },
+   "printed": {
+    "ahk_close": "120.506,24",
+    "bw_close": "110.464,05"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A40",
+    "row": 40,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D40"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H40"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "455",
+   "sub_no": null,
+   "name": "Abkantpresse (gebraucht)",
+   "acq_date": "2024-09-28",
+   "method": "lin",
+   "label": "455 Abkantpresse (gebraucht) 0 lin 8",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 14699307,
+    "bw_close": 14086836
+   },
+   "printed": {
+    "ahk_close": "146.993,07",
+    "bw_close": "140.868,36"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A41",
+    "row": 41,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D41"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H41"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "71",
+   "sub_no": null,
+   "name": "Verpackungsmaschine Halle 4",
+   "acq_date": "2005-09-16",
+   "method": "lin",
+   "label": "71 Verpackungsmaschine Halle 4 0 lin 15",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 1235200,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "12.352,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A42",
+    "row": 42,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D42"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H42"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "76",
+   "sub_no": null,
+   "name": "Laserschneidanlage",
+   "acq_date": "2022-09-12",
+   "method": "lin",
+   "label": "76 Laserschneidanlage 0 lin 15",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 4503534,
+    "bw_close": 3802984
+   },
+   "printed": {
+    "ahk_close": "45.035,34",
+    "bw_close": "38.029,84"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A43",
+    "row": 43,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D43"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H43"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "842",
+   "sub_no": null,
+   "name": "CNC-Fräszentrum 5-Achs Typ K764",
+   "acq_date": "2020-11-18",
+   "method": "lin",
+   "label": "842 CNC-Fräszentrum 5-Achs Typ K764 0 lin 13",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 3167400,
+    "bw_close": 2152208
+   },
+   "printed": {
+    "ahk_close": "31.674,00",
+    "bw_close": "21.522,08"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A44",
+    "row": 44,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D44"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H44"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "925",
+   "sub_no": null,
+   "name": "Laserschneidanlage (gebraucht)",
+   "acq_date": "2013-07-10",
+   "method": "lin",
+   "label": "925 Laserschneidanlage (gebraucht) 0 lin 10",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 1413600,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "14.136,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A45",
+    "row": 45,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D45"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H45"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  085",
+    "Konto  100",
+    "Konto  210"
+   ],
+   "fields": {
+    "ahk_close": 76658913,
+    "bw_close": 65650627
+   },
+   "printed": {
+    "ahk_close": "766.589,13",
+    "bw_close": "656.506,27"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A46",
+    "row": 46,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D46"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H46"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "1337",
+   "sub_no": null,
+   "name": "Lüftungsanlage Halle Typ M494",
+   "acq_date": "2017-11-22",
+   "method": "lin",
+   "label": "1337 Lüftungsanlage Halle Typ M494 lin 15",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 1161300,
+    "bw_close": 606457
+   },
+   "printed": {
+    "ahk_close": "11.613,00",
+    "bw_close": "6.064,57"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A49",
+    "row": 49,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D49"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H49"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "1796",
+   "sub_no": null,
+   "name": "Photovoltaikanlage Dach Typ M615",
+   "acq_date": "2013-11-14",
+   "method": "lin",
+   "label": "1796 Photovoltaikanlage Dach Typ M615 lin 20",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 7804747,
+    "bw_close": 3447097
+   },
+   "printed": {
+    "ahk_close": "78.047,47",
+    "bw_close": "34.470,97"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A50",
+    "row": 50,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D50"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H50"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "233e",
+   "sub_no": null,
+   "name": "Druckluftnetz Halle 2",
+   "acq_date": "2024-11-22",
+   "method": "lin",
+   "label": "233e Druckluftnetz Halle 2 lin 15",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 18940975,
+    "bw_close": 18730520
+   },
+   "printed": {
+    "ahk_close": "189.409,75",
+    "bw_close": "187.305,20"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A51",
+    "row": 51,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D51"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H51"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "28",
+   "sub_no": null,
+   "name": "Lüftungsanlage Halle (gebraucht)",
+   "acq_date": "2024-02-14",
+   "method": "lin",
+   "label": "28 Lüftungsanlage Halle (gebraucht) lin 10",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 3878700,
+    "bw_close": 3523152
+   },
+   "printed": {
+    "ahk_close": "38.787,00",
+    "bw_close": "35.231,52"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A52",
+    "row": 52,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D52"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H52"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "4835",
+   "sub_no": null,
+   "name": "Kälteanlage (gebraucht)",
+   "acq_date": "2021-10-05",
+   "method": "lin",
+   "label": "4835 Kälteanlage (gebraucht) lin 20",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 13072814,
+    "bw_close": 10948482
+   },
+   "printed": {
+    "ahk_close": "130.728,14",
+    "bw_close": "109.484,82"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A53",
+    "row": 53,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D53"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H53"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r34",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "488",
+   "sub_no": null,
+   "name": "Brückenkran 5t",
+   "acq_date": "2013-01-16",
+   "method": "lin",
+   "label": "488 Brückenkran 5t lin 20",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 2967027,
+    "bw_close": 1186811
+   },
+   "printed": {
+    "ahk_close": "29.670,27",
+    "bw_close": "11.868,11"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A54",
+    "row": 54,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D54"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H54"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r35",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "552",
+   "sub_no": null,
+   "name": "Absauganlage",
+   "acq_date": "2024-05-11",
+   "method": "lin",
+   "label": "552 Absauganlage lin 20",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 6162109,
+    "bw_close": 5956705
+   },
+   "printed": {
+    "ahk_close": "61.621,09",
+    "bw_close": "59.567,05"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A55",
+    "row": 55,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D55"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H55"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r36",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "558",
+   "sub_no": null,
+   "name": "Photovoltaikanlage Dach",
+   "acq_date": "2010-01-15",
+   "method": "lin",
+   "label": "558 Photovoltaikanlage Dach lin 10",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 7283550,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "72.835,50",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A56",
+    "row": 56,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D56"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H56"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r37",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "78",
+   "sub_no": null,
+   "name": "Absauganlage",
+   "acq_date": "2020-06-13",
+   "method": "lin",
+   "label": "78 Absauganlage lin 10",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 7357343,
+    "bw_close": 3985227
+   },
+   "printed": {
+    "ahk_close": "73.573,43",
+    "bw_close": "39.852,27"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A57",
+    "row": 57,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D57"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H57"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r38",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  100",
+    "Konto  210",
+    "Konto  240"
+   ],
+   "fields": {
+    "ahk_close": 68628565,
+    "bw_close": 48384551
+   },
+   "printed": {
+    "ahk_close": "686.285,65",
+    "bw_close": "483.845,51"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A58",
+    "row": 58,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D58"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H58"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r39",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "239",
+   "sub_no": null,
+   "name": "Pkw Mittelklasse Hybrid",
+   "acq_date": "2016-11-17",
+   "method": "lin",
+   "label": "239 Pkw Mittelklasse Hybrid lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 4745129,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "47.451,29",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A61",
+    "row": 61,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D61"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H61"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r40",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2396",
+   "sub_no": null,
+   "name": "Pkw Kombi Diesel Halle 1",
+   "acq_date": "2024-03-11",
+   "method": "lin",
+   "label": "2396 Pkw Kombi Diesel Halle 1 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 2657800,
+    "bw_close": 2288661
+   },
+   "printed": {
+    "ahk_close": "26.578,00",
+    "bw_close": "22.886,61"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A62",
+    "row": 62,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D62"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H62"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r41",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "281",
+   "sub_no": null,
+   "name": "Kleintransporter Halle 4",
+   "acq_date": "2024-03-31",
+   "method": "lin",
+   "label": "281 Kleintransporter Halle 4 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 2683371,
+    "bw_close": 2310681
+   },
+   "printed": {
+    "ahk_close": "26.833,71",
+    "bw_close": "23.106,81"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A63",
+    "row": 63,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D63"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H63"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r42",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "294",
+   "sub_no": null,
+   "name": "Pkw Elektro Halle 5",
+   "acq_date": "2024-04-18",
+   "method": "lin",
+   "label": "294 Pkw Elektro Halle 5 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 4299902,
+    "bw_close": 3762414
+   },
+   "printed": {
+    "ahk_close": "42.999,02",
+    "bw_close": "37.624,14"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A64",
+    "row": 64,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D64"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H64"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r43",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "313",
+   "sub_no": null,
+   "name": "Kleintransporter Halle 2",
+   "acq_date": "2016-01-01",
+   "method": "lin",
+   "label": "313 Kleintransporter Halle 2 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 2979200,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "29.792,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A65",
+    "row": 65,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D65"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H65"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r44",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "3851",
+   "sub_no": null,
+   "name": "Pkw Elektro Halle 2",
+   "acq_date": "2024-04-10",
+   "method": "lin",
+   "label": "3851 Pkw Elektro Halle 2 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 4445300,
+    "bw_close": 3889637
+   },
+   "printed": {
+    "ahk_close": "44.453,00",
+    "bw_close": "38.896,37"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A66",
+    "row": 66,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D66"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H66"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r45",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "612",
+   "sub_no": null,
+   "name": "Pkw Mittelklasse Hybrid Typ S928",
+   "acq_date": "2024-01-10",
+   "method": "lin",
+   "label": "612 Pkw Mittelklasse Hybrid Typ S928 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 2064996,
+    "bw_close": 1720830
+   },
+   "printed": {
+    "ahk_close": "20.649,96",
+    "bw_close": "17.208,30"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A67",
+    "row": 67,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D67"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H67"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r46",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "670",
+   "sub_no": null,
+   "name": "Kleintransporter",
+   "acq_date": "2024-03-30",
+   "method": "lin",
+   "label": "670 Kleintransporter lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 4406722,
+    "bw_close": 3794677
+   },
+   "printed": {
+    "ahk_close": "44.067,22",
+    "bw_close": "37.946,77"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A68",
+    "row": 68,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D68"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H68"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r47",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "7",
+   "sub_no": null,
+   "name": "Pkw Elektro Halle 4",
+   "acq_date": "2022-06-13",
+   "method": "lin",
+   "label": "7 Pkw Elektro Halle 4 lin 6",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 2148600,
+    "bw_close": 1223508
+   },
+   "printed": {
+    "ahk_close": "21.486,00",
+    "bw_close": "12.235,08"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A69",
+    "row": 69,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D69"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H69"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r48",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  210",
+    "Konto  240",
+    "Konto  320"
+   ],
+   "fields": {
+    "ahk_close": 30431020,
+    "bw_close": 18990608
+   },
+   "printed": {
+    "ahk_close": "304.310,20",
+    "bw_close": "189.906,08"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A70",
+    "row": 70,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D70"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H70"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r49",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "1498",
+   "sub_no": null,
+   "name": "Lkw 7,5t Pritsche Typ K774",
+   "acq_date": "2023-10-18",
+   "method": "lin",
+   "label": "1498 Lkw 7,5t Pritsche Typ K774 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 8007485,
+    "bw_close": 6895334
+   },
+   "printed": {
+    "ahk_close": "80.074,85",
+    "bw_close": "68.953,34"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A73",
+    "row": 73,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D73"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H73"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r50",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2889",
+   "sub_no": null,
+   "name": "Kastenwagen Typ D42",
+   "acq_date": "2010-03-27",
+   "method": "lin",
+   "label": "2889 Kastenwagen Typ D42 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 12233100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "122.331,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A74",
+    "row": 74,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D74"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H74"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r51",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "403",
+   "sub_no": null,
+   "name": "Sattelzugmaschine (gebraucht)",
+   "acq_date": "2024-04-07",
+   "method": "lin",
+   "label": "403 Sattelzugmaschine (gebraucht) 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 3845153,
+    "bw_close": 3524724
+   },
+   "printed": {
+    "ahk_close": "38.451,53",
+    "bw_close": "35.247,24"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A75",
+    "row": 75,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D75"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H75"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r52",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "448",
+   "sub_no": null,
+   "name": "Kastenwagen Halle 5",
+   "acq_date": "2024-09-22",
+   "method": "lin",
+   "label": "448 Kastenwagen Halle 5 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 7474675,
+    "bw_close": 7197835
+   },
+   "printed": {
+    "ahk_close": "74.746,75",
+    "bw_close": "71.978,35"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A76",
+    "row": 76,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D76"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H76"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r53",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "4523",
+   "sub_no": null,
+   "name": "Sattelzugmaschine Nr. 26",
+   "acq_date": "2015-12-29",
+   "method": "lin",
+   "label": "4523 Sattelzugmaschine Nr. 26 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 13394500,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "133.945,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A77",
+    "row": 77,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D77"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H77"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r54",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "519",
+   "sub_no": null,
+   "name": "Sattelzugmaschine",
+   "acq_date": "2024-09-28",
+   "method": "lin",
+   "label": "519 Sattelzugmaschine 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 3030200,
+    "bw_close": 2917970
+   },
+   "printed": {
+    "ahk_close": "30.302,00",
+    "bw_close": "29.179,70"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A78",
+    "row": 78,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D78"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H78"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r55",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "760b",
+   "sub_no": null,
+   "name": "Sattelzugmaschine Halle 5",
+   "acq_date": "2023-07-08",
+   "method": "lin",
+   "label": "760b Sattelzugmaschine Halle 5 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 10400192,
+    "bw_close": 8666827
+   },
+   "printed": {
+    "ahk_close": "104.001,92",
+    "bw_close": "86.668,27"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A79",
+    "row": 79,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D79"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H79"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r56",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "80",
+   "sub_no": null,
+   "name": "Lkw 7,5t Pritsche",
+   "acq_date": "2019-01-22",
+   "method": "lin",
+   "label": "80 Lkw 7,5t Pritsche 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 5274452,
+    "bw_close": 1758151
+   },
+   "printed": {
+    "ahk_close": "52.744,52",
+    "bw_close": "17.581,51"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A80",
+    "row": 80,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D80"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H80"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r57",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "88",
+   "sub_no": null,
+   "name": "Kastenwagen Halle 2",
+   "acq_date": "2012-04-07",
+   "method": "lin",
+   "label": "88 Kastenwagen Halle 2 0 lin 9",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 4311845,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "43.118,45",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A81",
+    "row": 81,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D81"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H81"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r58",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  240",
+    "Konto  320",
+    "Konto  350"
+   ],
+   "fields": {
+    "ahk_close": 67971602,
+    "bw_close": 30961141
+   },
+   "printed": {
+    "ahk_close": "679.716,02",
+    "bw_close": "309.611,41"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A82",
+    "row": 82,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D82"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H82"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r59",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "318",
+   "sub_no": null,
+   "name": "Gabelstapler",
+   "acq_date": "2008-04-29",
+   "method": "lin",
+   "label": "318 Gabelstapler lin 10",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 367400,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "3.674,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A85",
+    "row": 85,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D85"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H85"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r60",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "32a",
+   "sub_no": null,
+   "name": "Werkbank Halle 1",
+   "acq_date": "2024-11-20",
+   "method": "lin",
+   "label": "32a Werkbank Halle 1 lin 5",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 795857,
+    "bw_close": 769328
+   },
+   "printed": {
+    "ahk_close": "7.958,57",
+    "bw_close": "7.693,28"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A86",
+    "row": 86,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D86"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H86"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r61",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "4570",
+   "sub_no": null,
+   "name": "Schweißgerät",
+   "acq_date": "2012-06-09",
+   "method": "lin",
+   "label": "4570 Schweißgerät lin 10",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 230073,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "2.300,73",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A87",
+    "row": 87,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D87"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H87"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r62",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "531",
+   "sub_no": null,
+   "name": "Gabelstapler Halle 4",
+   "acq_date": "2024-09-22",
+   "method": "lin",
+   "label": "531 Gabelstapler Halle 4 lin 5",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 169694,
+    "bw_close": 158381
+   },
+   "printed": {
+    "ahk_close": "1.696,94",
+    "bw_close": "1.583,81"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A88",
+    "row": 88,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D88"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H88"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r63",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "617",
+   "sub_no": null,
+   "name": "Elektro-Hubwagen (gebraucht)",
+   "acq_date": "2018-01-14",
+   "method": "lin",
+   "label": "617 Elektro-Hubwagen (gebraucht) lin 10",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 99100,
+    "bw_close": 29730
+   },
+   "printed": {
+    "ahk_close": "991,00",
+    "bw_close": "297,30"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A89",
+    "row": 89,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D89"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H89"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r64",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "631",
+   "sub_no": null,
+   "name": "Hochdruckreiniger Typ A254",
+   "acq_date": "2024-06-18",
+   "method": "lin",
+   "label": "631 Hochdruckreiniger Typ A254 lin 10",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 1345900,
+    "bw_close": 1267389
+   },
+   "printed": {
+    "ahk_close": "13.459,00",
+    "bw_close": "12.673,89"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A90",
+    "row": 90,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D90"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H90"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r65",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "85",
+   "sub_no": null,
+   "name": "Palettenregal Nr. 26",
+   "acq_date": "2014-11-30",
+   "method": "lin",
+   "label": "85 Palettenregal Nr. 26 lin 8",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 578961,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "5.789,61",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A91",
+    "row": 91,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D91"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H91"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r66",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "86",
+   "sub_no": null,
+   "name": "Werkbank Typ M522",
+   "acq_date": "2009-06-12",
+   "method": "lin",
+   "label": "86 Werkbank Typ M522 lin 5",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 1218700,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "12.187,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A92",
+    "row": 92,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D92"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H92"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r67",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "99",
+   "sub_no": null,
+   "name": "Hochdruckreiniger",
+   "acq_date": "2014-05-10",
+   "method": "lin",
+   "label": "99 Hochdruckreiniger lin 8",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 765220,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "7.652,20",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A93",
+    "row": 93,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D93"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H93"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r68",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "992",
+   "sub_no": null,
+   "name": "Werkbank (gebraucht)",
+   "acq_date": "2019-11-29",
+   "method": "lin",
+   "label": "992 Werkbank (gebraucht) lin 5",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 3617900,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "36.179,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A94",
+    "row": 94,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D94"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H94"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r69",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  320",
+    "Konto  350",
+    "Konto  400"
+   ],
+   "fields": {
+    "ahk_close": 9188805,
+    "bw_close": 2225428
+   },
+   "printed": {
+    "ahk_close": "91.888,05",
+    "bw_close": "22.254,28"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A95",
+    "row": 95,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D95"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H95"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r70",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "18f",
+   "sub_no": null,
+   "name": "Rollcontainer Typ T629",
+   "acq_date": "2015-05-07",
+   "method": "lin",
+   "label": "18f Rollcontainer Typ T629 lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "fields": {
+    "ahk_close": 836119,
+    "bw_close": 214389
+   },
+   "printed": {
+    "ahk_close": "8.361,19",
+    "bw_close": "2.143,89"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A98",
+    "row": 98,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D98"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H98"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r71",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "192",
+   "sub_no": null,
+   "name": "Rollcontainer",
+   "acq_date": "2008-07-17",
+   "method": "lin",
+   "label": "192 Rollcontainer lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "fields": {
+    "ahk_close": 461800,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "4.618,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A99",
+    "row": 99,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D99"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H99"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r72",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "3822",
+   "sub_no": null,
+   "name": "Besprechungstisch",
+   "acq_date": "2020-05-11",
+   "method": "lin",
+   "label": "3822 Besprechungstisch lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "fields": {
+    "ahk_close": 829600,
+    "bw_close": 531795
+   },
+   "printed": {
+    "ahk_close": "8.296,00",
+    "bw_close": "5.317,95"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A100",
+    "row": 100,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D100"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H100"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r73",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "49",
+   "sub_no": null,
+   "name": "Regalsystem Archiv",
+   "acq_date": "2016-05-01",
+   "method": "lin",
+   "label": "49 Regalsystem Archiv lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "fields": {
+    "ahk_close": 694764,
+    "bw_close": 231588
+   },
+   "printed": {
+    "ahk_close": "6.947,64",
+    "bw_close": "2.315,88"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A101",
+    "row": 101,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D101"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H101"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r74",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "555",
+   "sub_no": null,
+   "name": "Rollcontainer",
+   "acq_date": "2024-04-06",
+   "method": "lin",
+   "label": "555 Rollcontainer lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "fields": {
+    "ahk_close": 501015,
+    "bw_close": 472110
+   },
+   "printed": {
+    "ahk_close": "5.010,15",
+    "bw_close": "4.721,10"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A102",
+    "row": 102,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D102"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H102"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r75",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "768",
+   "sub_no": null,
+   "name": "Aktenschrank (gebraucht)",
+   "acq_date": "2024-08-08",
+   "method": "lin",
+   "label": "768 Aktenschrank (gebraucht) lin 13",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "fields": {
+    "ahk_close": 339233,
+    "bw_close": 328360
+   },
+   "printed": {
+    "ahk_close": "3.392,33",
+    "bw_close": "3.283,60"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A103",
+    "row": 103,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D103"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H103"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r76",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  350",
+    "Konto  400",
+    "Konto  420"
+   ],
+   "fields": {
+    "ahk_close": 3662531,
+    "bw_close": 1778342
+   },
+   "printed": {
+    "ahk_close": "36.625,31",
+    "bw_close": "17.783,42"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A104",
+    "row": 104,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D104"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H104"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r77",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "1109",
+   "sub_no": null,
+   "name": "Laserdrucker",
+   "acq_date": "2021-12-27",
+   "method": "sb",
+   "label": "1109 Laserdrucker 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "fields": {
+    "ahk_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A107",
+    "row": 107,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D107"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H107"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r78",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "1966",
+   "sub_no": null,
+   "name": "Stehleuchte",
+   "acq_date": "2020-06-14",
+   "method": "sb",
+   "label": "1966 Stehleuchte 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "fields": {
+    "ahk_close": 46000,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "460,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A108",
+    "row": 108,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D108"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H108"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r79",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "29",
+   "sub_no": null,
+   "name": "Aktenvernichter",
+   "acq_date": "2023-10-05",
+   "method": "sb",
+   "label": "29 Aktenvernichter 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "fields": {
+    "ahk_close": 44368,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "443,68",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A109",
+    "row": 109,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D109"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H109"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r80",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "315",
+   "sub_no": null,
+   "name": "Messschieber digital",
+   "acq_date": "2022-01-08",
+   "method": "sb",
+   "label": "315 Messschieber digital 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "fields": {
+    "ahk_close": 63300,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "633,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A110",
+    "row": 110,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D110"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H110"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r81",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "3663C",
+   "sub_no": null,
+   "name": "Werkzeugkoffer",
+   "acq_date": "2023-07-10",
+   "method": "sb",
+   "label": "3663C Werkzeugkoffer 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "fields": {
+    "ahk_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A111",
+    "row": 111,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D111"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H111"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r82",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "379",
+   "sub_no": null,
+   "name": "Laserdrucker",
+   "acq_date": "2024-02-23",
+   "method": "sb",
+   "label": "379 Laserdrucker 0 sb 1",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "fields": {
+    "ahk_close": 36800,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "368,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A112",
+    "row": 112,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D112"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H112"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r83",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  400",
+    "Konto  420",
+    "Konto  480"
+   ],
+   "fields": {
+    "ahk_close": 190468,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "1.904,68",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A113",
+    "row": 113,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D113"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H113"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r84",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "245",
+   "sub_no": null,
+   "name": "Workstation CAD Nr. 7",
+   "acq_date": "2012-07-28",
+   "method": "lin",
+   "label": "245 Workstation CAD Nr. 7 0 lin 5",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "fields": {
+    "ahk_close": 94599,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "945,99",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A116",
+    "row": 116,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D116"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H116"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r85",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2708",
+   "sub_no": null,
+   "name": "Server 2HE Nr. 25",
+   "acq_date": "2024-07-17",
+   "method": "lin",
+   "label": "2708 Server 2HE Nr. 25 0 lin 5",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "fields": {
+    "ahk_close": 210746,
+    "bw_close": 189671
+   },
+   "printed": {
+    "ahk_close": "2.107,46",
+    "bw_close": "1.896,71"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A117",
+    "row": 117,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D117"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H117"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r86",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "325",
+   "sub_no": null,
+   "name": "Serverschrank 42HE Halle 3",
+   "acq_date": "2019-09-18",
+   "method": "lin",
+   "label": "325 Serverschrank 42HE Halle 3 0 lin 3",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "fields": {
+    "ahk_close": 1542600,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "15.426,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A118",
+    "row": 118,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D118"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H118"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r87",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "4084",
+   "sub_no": null,
+   "name": "Notebook Halle 1",
+   "acq_date": "2013-05-24",
+   "method": "lin",
+   "label": "4084 Notebook Halle 1 0 lin 5",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "fields": {
+    "ahk_close": 232226,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "2.322,26",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A119",
+    "row": 119,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D119"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H119"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r88",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "4996",
+   "sub_no": null,
+   "name": "Firewall-Appliance Nr. 33",
+   "acq_date": "2021-05-14",
+   "method": "lin",
+   "label": "4996 Firewall-Appliance Nr. 33 0 lin 3",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "fields": {
+    "ahk_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A120",
+    "row": 120,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D120"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H120"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r89",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "6",
+   "sub_no": null,
+   "name": "Serverschrank 42HE",
+   "acq_date": "2012-07-10",
+   "method": "lin",
+   "label": "6 Serverschrank 42HE 0 lin 5",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "fields": {
+    "ahk_close": 2252585,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_close": "22.525,85",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A121",
+    "row": 121,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D121"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H121"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r90",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "862",
+   "sub_no": null,
+   "name": "Server 2HE (gebraucht)",
+   "acq_date": "2024-03-21",
+   "method": "lin",
+   "label": "862 Server 2HE (gebraucht) 0 lin 3",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "fields": {
+    "ahk_close": 76474,
+    "bw_close": 55231
+   },
+   "printed": {
+    "ahk_close": "764,74",
+    "bw_close": "552,31"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A122",
+    "row": 122,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D122"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H122"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r91",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  420",
+    "Konto  480",
+    "Konto  490"
+   ],
+   "fields": {
+    "ahk_close": 4409230,
+    "bw_close": 245302
+   },
+   "printed": {
+    "ahk_close": "44.092,30",
+    "bw_close": "2.453,02"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A123",
+    "row": 123,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D123"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H123"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r92",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2827",
+   "sub_no": null,
+   "name": "AiB Abkantpresse (gebraucht)",
+   "acq_date": "2023-09-15",
+   "method": "k",
+   "label": "2827 AiB Abkantpresse (gebraucht) k 0",
+   "context": [
+    "Konto  480",
+    "Konto  490",
+    "Konto  120"
+   ],
+   "fields": {
+    "ahk_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A126",
+    "row": 126,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D126"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H126"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r93",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  480",
+    "Konto  490",
+    "Konto  120"
+   ],
+   "fields": {
+    "ahk_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A127",
+    "row": 127,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D127"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H127"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r94",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "4172",
+   "sub_no": null,
+   "name": "Anteile Servicegesellschaft",
+   "acq_date": "1999-06-21",
+   "method": "k",
+   "label": "4172 Anteile Servicegesellschaft k 0",
+   "context": [
+    "Konto  490",
+    "Konto  120",
+    "Konto  510"
+   ],
+   "fields": {
+    "ahk_close": 7915800,
+    "bw_close": 6728430
+   },
+   "printed": {
+    "ahk_close": "79.158,00",
+    "bw_close": "67.284,30"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A130",
+    "row": 130,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D130"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H130"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r95",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe",
+   "context": [
+    "Konto  490",
+    "Konto  120",
+    "Konto  510"
+   ],
+   "fields": {
+    "ahk_close": 7915800,
+    "bw_close": 6728430
+   },
+   "printed": {
+    "ahk_close": "79.158,00",
+    "bw_close": "67.284,30"
+   },
+   "pointer": {
+    "sheet": "Anlageverzeichnis",
+    "cell": "A131",
+    "row": 131,
+    "fields": {
+     "ahk_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "D131"
+     },
+     "bw_close": {
+      "sheet": "Anlageverzeichnis",
+      "cell": "H131"
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": []
+}

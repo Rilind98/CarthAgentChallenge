@@ -1,0 +1,417 @@
+{
+ "doc_id": "f07_sap_class_summary_02",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Abschreibungen",
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Abschreibungen:4",
+     "anchor": null,
+     "span": null,
+     "col": 4,
+     "header": "kum AnschWert",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.55,
+       "kum -> close?"
+      ],
+      [
+       "ahk_open",
+       0.45,
+       "kum -> open?"
+      ]
+     ]
+    },
+    {
+     "id": "Abschreibungen:5",
+     "anchor": null,
+     "span": null,
+     "col": 5,
+     "header": "Bew AnschWert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bew_ahk",
+       1.0,
+       "net column 'Bew AnschWert'"
+      ]
+     ]
+    },
+    {
+     "id": "Abschreibungen:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "kum AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "kum -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "kum -> open?"
+      ]
+     ]
+    },
+    {
+     "id": "Abschreibungen:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "gep AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "Abschreibungen:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "Bew Wertber",
+     "group_header": "",
+     "candidates": [
+      [
+       "bew_wb",
+       1.0,
+       "net column 'Bew Wertber'"
+      ]
+     ]
+    },
+    {
+     "id": "Abschreibungen:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "Ende-Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "Abschreibungen:10",
+     "anchor": null,
+     "span": null,
+     "col": 10,
+     "header": "Beg-Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "position": 1,
+    "name": 2,
+    "class": 3
+   },
+   "header_lines": [
+    "BilPos | Bezeichnung | Klasse | kum AnschWert | Bew AnschWert | kum AfA | gep AfA | Bew Wertber | Ende-Buchwert | Beg-Buchwert | Währg"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 5,
+   "kind_guess": "asset",
+   "label": "2101200 EDV-Software 1000 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 6,
+   "kind_guess": "total",
+   "label": "*2101200 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 7,
+   "kind_guess": "asset",
+   "label": "2102100 Grund und Boden 2000 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 8,
+   "kind_guess": "asset",
+   "label": "2102100 Fabrikbauten 2100 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 9,
+   "kind_guess": "total",
+   "label": "*2102100 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 10,
+   "kind_guess": "asset",
+   "label": "2102200 Maschinen 3000 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 11,
+   "kind_guess": "asset",
+   "label": "2102200 Technische Anlagen 3100 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 12,
+   "kind_guess": "total",
+   "label": "*2102200 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 13,
+   "kind_guess": "asset",
+   "label": "2102300 Pkw 4200 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 14,
+   "kind_guess": "asset",
+   "label": "2102300 Lkw 4300 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 15,
+   "kind_guess": "asset",
+   "label": "2102300 Betriebsausstattung 4000 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 16,
+   "kind_guess": "asset",
+   "label": "2102300 Büroeinrichtung 4100 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "2102300 Geringwertige Wirtsc 4900 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "2102300 EDV-Hardware 4400 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 19,
+   "kind_guess": "total",
+   "label": "*2102300 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 20,
+   "kind_guess": "asset",
+   "label": "2102400 Anlagen im Bau 5000 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 21,
+   "kind_guess": "asset",
+   "label": "2102400 Anzahlungen auf Anla 5100 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Abschreibungen",
+   "row": 22,
+   "kind_guess": "total",
+   "label": "*2102400 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Abschreibungen - Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "sheet Selektion: no schedule header, skipped"
+ ],
+ "page_status": {}
+}

@@ -1,0 +1,3582 @@
+{
+ "doc_id": "f08_excel_spiegel_2y_06",
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2.",
+    "sub_no": "",
+    "name": "Entgeltlich erworbene Konzessionen und Lizenzen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C10"
+     ],
+     "text": "125.359,16",
+     "cents": 12535916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C10"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D10"
+     ],
+     "text": "109.472,00",
+     "cents": 10947200,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D10"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H10"
+     ],
+     "text": "234.831,16",
+     "cents": 23483116,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H10"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J10"
+     ],
+     "text": "125.355,16",
+     "cents": 12535516,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J10"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [
+      "Tabelle1!K10"
+     ],
+     "text": "12.771,73",
+     "cents": 1277173,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K10"
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M10"
+     ],
+     "text": "138.126,89",
+     "cents": 13812689,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M10"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O10"
+     ],
+     "text": "96.704,27",
+     "cents": 9670427,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O10"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P10"
+     ],
+     "text": "4,00",
+     "cents": 400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P10"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A10",
+    "row": 10
+   }
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C11"
+     ],
+     "text": "125.359,16",
+     "cents": 12535916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C11"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D11"
+     ],
+     "text": "109.472,00",
+     "cents": 10947200,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D11"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [
+      "Tabelle1!E11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E11"
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [
+      "Tabelle1!F11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F11"
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H11"
+     ],
+     "text": "234.831,16",
+     "cents": 23483116,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H11"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J11"
+     ],
+     "text": "125.355,16",
+     "cents": 12535516,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J11"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [
+      "Tabelle1!K11"
+     ],
+     "text": "12.771,73",
+     "cents": 1277173,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K11"
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [
+      "Tabelle1!L11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L11"
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M11"
+     ],
+     "text": "138.126,89",
+     "cents": 13812689,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M11"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O11"
+     ],
+     "text": "96.704,27",
+     "cents": 9670427,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O11"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P11"
+     ],
+     "text": "4,00",
+     "cents": 400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P11"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A11",
+    "row": 11
+   }
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "year": 2025,
+   "identity": {
+    "asset_no": "1.",
+    "sub_no": "",
+    "name": "Grundstücke, grundstücksgleiche Rechte und Bauten",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C15"
+     ],
+     "text": "130.695,10",
+     "cents": 13069510,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C15"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H15"
+     ],
+     "text": "130.695,10",
+     "cents": 13069510,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H15"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M15"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O15"
+     ],
+     "text": "130.695,10",
+     "cents": 13069510,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O15"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P15"
+     ],
+     "text": "130.695,10",
+     "cents": 13069510,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P15"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A15",
+    "row": 15
+   }
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "2. Technische Anlagen und Maschinen",
+   "year": 2025,
+   "identity": {
+    "asset_no": "2.",
+    "sub_no": "",
+    "name": "Technische Anlagen und Maschinen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C16"
+     ],
+     "text": "401.013,36",
+     "cents": 40101336,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C16"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D16"
+     ],
+     "text": "189.305,26",
+     "cents": 18930526,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D16"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [
+      "Tabelle1!F16"
+     ],
+     "text": "323.040,00",
+     "cents": 32304000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F16"
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H16"
+     ],
+     "text": "913.358,62",
+     "cents": 91335862,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H16"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J16"
+     ],
+     "text": "356.129,02",
+     "cents": 35612902,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J16"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [
+      "Tabelle1!K16"
+     ],
+     "text": "67.971,88",
+     "cents": 6797188,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K16"
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M16"
+     ],
+     "text": "424.100,90",
+     "cents": 42410090,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M16"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O16"
+     ],
+     "text": "489.257,72",
+     "cents": 48925772,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O16"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P16"
+     ],
+     "text": "44.884,34",
+     "cents": 4488434,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P16"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A16",
+    "row": 16
+   }
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "year": 2025,
+   "identity": {
+    "asset_no": "3.",
+    "sub_no": "",
+    "name": "Andere Anlagen, Betriebs- und Geschäftsausstattung",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C17"
+     ],
+     "text": "235.107,26",
+     "cents": 23510726,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C17"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D17"
+     ],
+     "text": "26.244,02",
+     "cents": 2624402,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D17"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [
+      "Tabelle1!E17"
+     ],
+     "text": "32.435,69",
+     "cents": 3243569,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E17"
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H17"
+     ],
+     "text": "228.915,59",
+     "cents": 22891559,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H17"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J17"
+     ],
+     "text": "155.970,04",
+     "cents": 15597004,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J17"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [
+      "Tabelle1!K17"
+     ],
+     "text": "14.971,31",
+     "cents": 1497131,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K17"
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [
+      "Tabelle1!L17"
+     ],
+     "text": "32.434,69",
+     "cents": 3243469,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L17"
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M17"
+     ],
+     "text": "138.506,66",
+     "cents": 13850666,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M17"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O17"
+     ],
+     "text": "90.408,93",
+     "cents": 9040893,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O17"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P17"
+     ],
+     "text": "79.137,22",
+     "cents": 7913722,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P17"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A17",
+    "row": 17
+   }
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "year": 2025,
+   "identity": {
+    "asset_no": "4.",
+    "sub_no": "",
+    "name": "Geleistete Anzahlungen und Anlagen im Bau",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C18"
+     ],
+     "text": "284.281,00",
+     "cents": 28428100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C18"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D18"
+     ],
+     "text": "253.519,05",
+     "cents": 25351905,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D18"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [
+      "Tabelle1!F18"
+     ],
+     "text": "-323.040,00",
+     "cents": -32304000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F18"
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H18"
+     ],
+     "text": "214.760,05",
+     "cents": 21476005,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H18"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M18"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O18"
+     ],
+     "text": "214.760,05",
+     "cents": 21476005,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O18"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P18"
+     ],
+     "text": "284.281,00",
+     "cents": 28428100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P18"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A18",
+    "row": 18
+   }
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C19"
+     ],
+     "text": "1.051.096,72",
+     "cents": 105109672,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C19"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D19"
+     ],
+     "text": "469.068,33",
+     "cents": 46906833,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D19"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [
+      "Tabelle1!E19"
+     ],
+     "text": "32.435,69",
+     "cents": 3243569,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E19"
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [
+      "Tabelle1!F19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F19"
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H19"
+     ],
+     "text": "1.487.729,36",
+     "cents": 148772936,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H19"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J19"
+     ],
+     "text": "521.899,06",
+     "cents": 52189906,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J19"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [
+      "Tabelle1!K19"
+     ],
+     "text": "82.943,19",
+     "cents": 8294319,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K19"
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [
+      "Tabelle1!L19"
+     ],
+     "text": "32.434,69",
+     "cents": 3243469,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L19"
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M19"
+     ],
+     "text": "562.607,56",
+     "cents": 56260756,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M19"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O19"
+     ],
+     "text": "925.121,80",
+     "cents": 92512180,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O19"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P19"
+     ],
+     "text": "538.997,66",
+     "cents": 53899766,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P19"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A19",
+    "row": 19
+   }
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "3. Beteiligungen",
+   "year": 2025,
+   "identity": {
+    "asset_no": "3.",
+    "sub_no": "",
+    "name": "Beteiligungen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C23"
+     ],
+     "text": "202.617,14",
+     "cents": 20261714,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C23"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H23"
+     ],
+     "text": "202.617,14",
+     "cents": 20261714,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H23"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J23"
+     ],
+     "text": "48.075,94",
+     "cents": 4807594,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J23"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M23"
+     ],
+     "text": "48.075,94",
+     "cents": 4807594,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M23"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O23"
+     ],
+     "text": "154.541,20",
+     "cents": 15454120,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O23"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P23"
+     ],
+     "text": "154.541,20",
+     "cents": 15454120,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P23"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A23",
+    "row": 23
+   }
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C24"
+     ],
+     "text": "202.617,14",
+     "cents": 20261714,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C24"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D24"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [
+      "Tabelle1!E24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E24"
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [
+      "Tabelle1!F24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F24"
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H24"
+     ],
+     "text": "202.617,14",
+     "cents": 20261714,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H24"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J24"
+     ],
+     "text": "48.075,94",
+     "cents": 4807594,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J24"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [
+      "Tabelle1!K24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K24"
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [
+      "Tabelle1!L24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L24"
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M24"
+     ],
+     "text": "48.075,94",
+     "cents": 4807594,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M24"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O24"
+     ],
+     "text": "154.541,20",
+     "cents": 15454120,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O24"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P24"
+     ],
+     "text": "154.541,20",
+     "cents": 15454120,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P24"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A24",
+    "row": 24
+   }
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C26"
+     ],
+     "text": "1.379.073,02",
+     "cents": 137907302,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C26"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D26"
+     ],
+     "text": "578.540,33",
+     "cents": 57854033,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D26"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [
+      "Tabelle1!E26"
+     ],
+     "text": "32.435,69",
+     "cents": 3243569,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E26"
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [
+      "Tabelle1!F26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F26"
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [
+      "Tabelle1!H26"
+     ],
+     "text": "1.925.177,66",
+     "cents": 192517766,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H26"
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J26"
+     ],
+     "text": "695.330,16",
+     "cents": 69533016,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J26"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [
+      "Tabelle1!K26"
+     ],
+     "text": "95.714,92",
+     "cents": 9571492,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K26"
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [
+      "Tabelle1!L26"
+     ],
+     "text": "32.434,69",
+     "cents": 3243469,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L26"
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [
+      "Tabelle1!M26"
+     ],
+     "text": "748.810,39",
+     "cents": 74881039,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M26"
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [
+      "Tabelle1!O26"
+     ],
+     "text": "1.176.367,27",
+     "cents": 117636727,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O26"
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [
+      "Tabelle1!P26"
+     ],
+     "text": "693.542,86",
+     "cents": 69354286,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P26"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A26",
+    "row": 26
+   }
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "AHK 01.07.2024 lt. Anlagengitter Vorjahr (AV 2)",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "AHK 01.07.2024 lt. Anlagengitter Vorjahr (AV 2)",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [
+      "Tabelle1!C30"
+     ],
+     "text": "1.379.072,99",
+     "cents": 137907299,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C30"
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A30",
+    "row": 30
+   }
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "kum. Abschreibungen 01.07.2024 lt. Anlagengitter Vorjahr (AV 2)",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "kum. Abschreibungen 01.07.2024 lt. Anlagengitter Vorjahr (AV 2)",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [
+      "Tabelle1!J31"
+     ],
+     "text": "695.330,16",
+     "cents": 69533016,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J31"
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A31",
+    "row": 31
+   }
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "Zugänge lt. Anlagegitter",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "Zugänge lt. Anlagegitter",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [
+      "Tabelle1!D34"
+     ],
+     "text": "577.841,33",
+     "cents": 57784133,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D34"
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A34",
+    "row": 34
+   }
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "Abgänge lt. Anlagegitter",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "Abgänge lt. Anlagegitter",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [
+      "Tabelle1!E35"
+     ],
+     "text": "32.435,69",
+     "cents": 3243569,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E35"
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A35",
+    "row": 35
+   }
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "Abschreibungen lt. Anlagegitter",
+   "year": 2025,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "Abschreibungen lt. Anlagegitter",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle1:3": {
+     "column": "Tabelle1:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:4": {
+     "column": "Tabelle1:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:5": {
+     "column": "Tabelle1:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:6": {
+     "column": "Tabelle1:6",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:8": {
+     "column": "Tabelle1:8",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:10": {
+     "column": "Tabelle1:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:11": {
+     "column": "Tabelle1:11",
+     "tokens": [
+      "Tabelle1!K36"
+     ],
+     "text": "95.714,92",
+     "cents": 9571492,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K36"
+    },
+    "Tabelle1:12": {
+     "column": "Tabelle1:12",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:13": {
+     "column": "Tabelle1:13",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:15": {
+     "column": "Tabelle1:15",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle1:16": {
+     "column": "Tabelle1:16",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle1",
+    "cell": "A36",
+    "row": 36
+   }
+  },
+  {
+   "id": "r16",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B10"
+     ],
+     "text": "125.359,16",
+     "cents": 12535916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B10"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G10"
+     ],
+     "text": "125.359,16",
+     "cents": 12535916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G10"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [
+      "Tabelle2!I10"
+     ],
+     "text": "125.355,16",
+     "cents": 12535516,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I10"
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L10"
+     ],
+     "text": "125.355,16",
+     "cents": 12535516,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L10"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N10"
+     ],
+     "text": "4,00",
+     "cents": 400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N10"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O10"
+     ],
+     "text": "4,00",
+     "cents": 400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O10"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A10",
+    "row": 10
+   }
+  },
+  {
+   "id": "r17",
+   "section": "s2",
+   "kind_guess": "total",
+   "label": "",
+   "year": 2024,
+   "identity": {},
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B11"
+     ],
+     "text": "125.359,16",
+     "cents": 12535916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B11"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [
+      "Tabelle2!C11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C11"
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [
+      "Tabelle2!D11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D11"
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [
+      "Tabelle2!E11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E11"
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G11"
+     ],
+     "text": "125.359,16",
+     "cents": 12535916,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G11"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [
+      "Tabelle2!I11"
+     ],
+     "text": "125.355,16",
+     "cents": 12535516,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I11"
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [
+      "Tabelle2!J11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J11"
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [
+      "Tabelle2!K11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K11"
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L11"
+     ],
+     "text": "125.355,16",
+     "cents": 12535516,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L11"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N11"
+     ],
+     "text": "4,00",
+     "cents": 400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N11"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O11"
+     ],
+     "text": "4,00",
+     "cents": 400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O11"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A11",
+    "row": 11
+   }
+  },
+  {
+   "id": "r18",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B15"
+     ],
+     "text": "130.695,10",
+     "cents": 13069510,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B15"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G15"
+     ],
+     "text": "130.695,10",
+     "cents": 13069510,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G15"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L15"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N15"
+     ],
+     "text": "130.695,10",
+     "cents": 13069510,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N15"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O15"
+     ],
+     "text": "130.695,10",
+     "cents": 13069510,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O15"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A15",
+    "row": 15
+   }
+  },
+  {
+   "id": "r19",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "2. Technische Anlagen und Maschinen",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "2. Technische Anlagen und Maschinen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B16"
+     ],
+     "text": "401.013,36",
+     "cents": 40101336,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B16"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G16"
+     ],
+     "text": "401.013,36",
+     "cents": 40101336,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G16"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [
+      "Tabelle2!I16"
+     ],
+     "text": "317.657,58",
+     "cents": 31765758,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I16"
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [
+      "Tabelle2!J16"
+     ],
+     "text": "38.471,44",
+     "cents": 3847144,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J16"
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L16"
+     ],
+     "text": "356.129,02",
+     "cents": 35612902,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L16"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N16"
+     ],
+     "text": "44.884,34",
+     "cents": 4488434,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N16"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O16"
+     ],
+     "text": "83.355,78",
+     "cents": 8335578,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O16"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A16",
+    "row": 16
+   }
+  },
+  {
+   "id": "r20",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B17"
+     ],
+     "text": "154.597,26",
+     "cents": 15459726,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B17"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [
+      "Tabelle2!C17"
+     ],
+     "text": "80.510,00",
+     "cents": 8051000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C17"
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G17"
+     ],
+     "text": "235.107,26",
+     "cents": 23510726,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G17"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [
+      "Tabelle2!I17"
+     ],
+     "text": "149.503,66",
+     "cents": 14950366,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I17"
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [
+      "Tabelle2!J17"
+     ],
+     "text": "6.466,38",
+     "cents": 646638,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J17"
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L17"
+     ],
+     "text": "155.970,04",
+     "cents": 15597004,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L17"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N17"
+     ],
+     "text": "79.137,22",
+     "cents": 7913722,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N17"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O17"
+     ],
+     "text": "5.093,60",
+     "cents": 509360,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O17"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A17",
+    "row": 17
+   }
+  },
+  {
+   "id": "r21",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "4. Geleistete Anzahlungen und Anlagen im Bau",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [
+      "Tabelle2!C18"
+     ],
+     "text": "284.281,00",
+     "cents": 28428100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C18"
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G18"
+     ],
+     "text": "284.281,00",
+     "cents": 28428100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G18"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L18"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N18"
+     ],
+     "text": "284.281,00",
+     "cents": 28428100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N18"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O18"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A18",
+    "row": 18
+   }
+  },
+  {
+   "id": "r22",
+   "section": "s2",
+   "kind_guess": "total",
+   "label": "",
+   "year": 2024,
+   "identity": {},
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B19"
+     ],
+     "text": "686.305,72",
+     "cents": 68630572,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B19"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [
+      "Tabelle2!C19"
+     ],
+     "text": "364.791,00",
+     "cents": 36479100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C19"
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [
+      "Tabelle2!D19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D19"
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [
+      "Tabelle2!E19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E19"
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G19"
+     ],
+     "text": "1.051.096,72",
+     "cents": 105109672,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G19"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [
+      "Tabelle2!I19"
+     ],
+     "text": "467.161,24",
+     "cents": 46716124,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I19"
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [
+      "Tabelle2!J19"
+     ],
+     "text": "44.937,82",
+     "cents": 4493782,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J19"
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [
+      "Tabelle2!K19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K19"
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L19"
+     ],
+     "text": "512.099,06",
+     "cents": 51209906,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L19"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N19"
+     ],
+     "text": "538.997,66",
+     "cents": 53899766,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N19"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O19"
+     ],
+     "text": "219.144,48",
+     "cents": 21914448,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O19"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A19",
+    "row": 19
+   }
+  },
+  {
+   "id": "r23",
+   "section": "s2",
+   "kind_guess": "asset",
+   "label": "3. Beteiligungen",
+   "year": 2024,
+   "identity": {
+    "asset_no": null,
+    "sub_no": null,
+    "name": "3. Beteiligungen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B23"
+     ],
+     "text": "202.617,14",
+     "cents": 20261714,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B23"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G23"
+     ],
+     "text": "202.617,14",
+     "cents": 20261714,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G23"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [
+      "Tabelle2!I23"
+     ],
+     "text": "48.075,94",
+     "cents": 4807594,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I23"
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [],
+     "text": "",
+     "cents": 0,
+     "status": "empty",
+     "glued": false,
+     "box": null,
+     "cell": null
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L23"
+     ],
+     "text": "48.075,94",
+     "cents": 4807594,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L23"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N23"
+     ],
+     "text": "154.541,20",
+     "cents": 15454120,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N23"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O23"
+     ],
+     "text": "154.541,20",
+     "cents": 15454120,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O23"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A23",
+    "row": 23
+   }
+  },
+  {
+   "id": "r24",
+   "section": "s2",
+   "kind_guess": "total",
+   "label": "",
+   "year": 2024,
+   "identity": {},
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B24"
+     ],
+     "text": "202.617,14",
+     "cents": 20261714,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B24"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [
+      "Tabelle2!C24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C24"
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [
+      "Tabelle2!D24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D24"
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [
+      "Tabelle2!E24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E24"
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G24"
+     ],
+     "text": "202.617,14",
+     "cents": 20261714,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G24"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [
+      "Tabelle2!I24"
+     ],
+     "text": "48.075,94",
+     "cents": 4807594,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I24"
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [
+      "Tabelle2!J24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J24"
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [
+      "Tabelle2!K24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K24"
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L24"
+     ],
+     "text": "48.075,94",
+     "cents": 4807594,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L24"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N24"
+     ],
+     "text": "154.541,20",
+     "cents": 15454120,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N24"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O24"
+     ],
+     "text": "154.541,20",
+     "cents": 15454120,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O24"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A24",
+    "row": 24
+   }
+  },
+  {
+   "id": "r25",
+   "section": "s2",
+   "kind_guess": "total",
+   "label": "",
+   "year": 2024,
+   "identity": {},
+   "cells": {
+    "Tabelle2:2": {
+     "column": "Tabelle2:2",
+     "tokens": [
+      "Tabelle2!B26"
+     ],
+     "text": "1.014.282,02",
+     "cents": 101428202,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "B26"
+    },
+    "Tabelle2:3": {
+     "column": "Tabelle2:3",
+     "tokens": [
+      "Tabelle2!C26"
+     ],
+     "text": "364.791,00",
+     "cents": 36479100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "C26"
+    },
+    "Tabelle2:4": {
+     "column": "Tabelle2:4",
+     "tokens": [
+      "Tabelle2!D26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "D26"
+    },
+    "Tabelle2:5": {
+     "column": "Tabelle2:5",
+     "tokens": [
+      "Tabelle2!E26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E26"
+    },
+    "Tabelle2:7": {
+     "column": "Tabelle2:7",
+     "tokens": [
+      "Tabelle2!G26"
+     ],
+     "text": "1.379.073,02",
+     "cents": 137907302,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G26"
+    },
+    "Tabelle2:9": {
+     "column": "Tabelle2:9",
+     "tokens": [
+      "Tabelle2!I26"
+     ],
+     "text": "640.592,34",
+     "cents": 64059234,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I26"
+    },
+    "Tabelle2:10": {
+     "column": "Tabelle2:10",
+     "tokens": [
+      "Tabelle2!J26"
+     ],
+     "text": "44.937,82",
+     "cents": 4493782,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J26"
+    },
+    "Tabelle2:11": {
+     "column": "Tabelle2:11",
+     "tokens": [
+      "Tabelle2!K26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K26"
+    },
+    "Tabelle2:12": {
+     "column": "Tabelle2:12",
+     "tokens": [
+      "Tabelle2!L26"
+     ],
+     "text": "685.530,16",
+     "cents": 68553016,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L26"
+    },
+    "Tabelle2:14": {
+     "column": "Tabelle2:14",
+     "tokens": [
+      "Tabelle2!N26"
+     ],
+     "text": "693.542,86",
+     "cents": 69354286,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N26"
+    },
+    "Tabelle2:15": {
+     "column": "Tabelle2:15",
+     "tokens": [
+      "Tabelle2!O26"
+     ],
+     "text": "373.689,68",
+     "cents": 37368968,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O26"
+    }
+   },
+   "pointer": {
+    "sheet": "Tabelle2",
+    "cell": "A26",
+    "row": 26
+   }
+  }
+ ]
+}

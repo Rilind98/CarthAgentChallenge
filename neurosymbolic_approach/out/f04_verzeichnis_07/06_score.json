@@ -1,0 +1,35 @@
+{
+ "values_in_key": 186,
+ "correct": 186,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 186,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": 0.838,
+ "details": [],
+ "detection": {
+  "planted": [
+   "header_only_on_first_page",
+   "noise_page_unrelated"
+  ],
+  "detected": [
+   "header_only_on_first_page",
+   "noise_page_unrelated",
+   "wrapped_description"
+  ],
+  "hit": [
+   "header_only_on_first_page",
+   "noise_page_unrelated"
+  ],
+  "missed": [],
+  "false_alarm": [
+   "wrapped_description"
+  ],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

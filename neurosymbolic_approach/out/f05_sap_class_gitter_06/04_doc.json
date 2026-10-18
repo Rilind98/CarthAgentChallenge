@@ -1,0 +1,56 @@
+{
+ "meta": {
+  "doc_id": "f05_sap_class_gitter_06",
+  "source": "../A3-Hackathon-Corpus/f05_sap_class_gitter/f05_sap_class_gitter_06.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "sections": [],
+  "variant_guess": "unknown"
+ },
+ "rows": [],
+ "detections": [
+  {
+   "type": "noise_page_unrelated",
+   "evidence": "page has amounts but no schedule header and does not continue one",
+   "where": [
+    {
+     "page": 2
+    }
+   ]
+  },
+  {
+   "type": "noise_page_unrelated",
+   "evidence": "page has amounts but no schedule header and does not continue one",
+   "where": [
+    {
+     "page": 3
+    }
+   ]
+  },
+  {
+   "type": "noise_page_unrelated",
+   "evidence": "page has amounts but no schedule header and does not continue one",
+   "where": [
+    {
+     "page": 4
+    }
+   ]
+  },
+  {
+   "type": "noise_page_unrelated",
+   "evidence": "page has amounts but no schedule header and does not continue one",
+   "where": [
+    {
+     "page": 5
+    }
+   ]
+  },
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+   "where": []
+  }
+ ]
+}

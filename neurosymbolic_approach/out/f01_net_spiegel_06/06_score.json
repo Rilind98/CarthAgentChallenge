@@ -1,0 +1,32 @@
+{
+ "values_in_key": 264,
+ "correct": 264,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 264,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": null,
+ "details": [],
+ "detection": {
+  "planted": [
+   "glued_numbers",
+   "noise_page_cover"
+  ],
+  "detected": [
+   "glued_numbers",
+   "noise_page_cover"
+  ],
+  "hit": [
+   "glued_numbers",
+   "noise_page_cover"
+  ],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

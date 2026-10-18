@@ -1,0 +1,4490 @@
+[
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0027    EDV-Software",
+  "field": "bw_prev",
+  "value": 932359,
+  "printed": "9.323,59",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0027    EDV-Software",
+  "field": "zugang",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0027    EDV-Software",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0027    EDV-Software",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0027    EDV-Software",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0027    EDV-Software",
+  "field": "afa_gj",
+  "value": 784376,
+  "printed": "7.843,76",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0027    EDV-Software",
+  "field": "kum_afa_close",
+  "value": 11799916,
+  "printed": "117.999,16",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r1",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0027    EDV-Software",
+  "field": "bw_close",
+  "value": 147983,
+  "printed": "1.479,83",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K8"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "bw_prev",
+  "value": 932359,
+  "printed": "9.323,59",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "zugang",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "afa_gj",
+  "value": 784376,
+  "printed": "7.843,76",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "kum_afa_close",
+  "value": 11799916,
+  "printed": "117.999,16",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r2",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Software",
+  "field": "bw_close",
+  "value": 147983,
+  "printed": "1.479,83",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K9"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r3",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 0. Immaterielle Vermögensgegenstände",
+  "field": "bw_prev",
+  "value": 932359,
+  "printed": "9.323,59",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r3",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 0. Immaterielle Vermögensgegenstände",
+  "field": "zugang",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r3",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 0. Immaterielle Vermögensgegenstände",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r3",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 0. Immaterielle Vermögensgegenstände",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r3",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 0. Immaterielle Vermögensgegenstände",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r3",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 0. Immaterielle Vermögensgegenstände",
+  "field": "afa_gj",
+  "value": 784376,
+  "printed": "7.843,76",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r3",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 0. Immaterielle Vermögensgegenstände",
+  "field": "kum_afa_close",
+  "value": 11799916,
+  "printed": "117.999,16",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r3",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 0. Immaterielle Vermögensgegenstände",
+  "field": "bw_close",
+  "value": 147983,
+  "printed": "1.479,83",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K10"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0085    Grund und Boden",
+  "field": "bw_prev",
+  "value": 23732925,
+  "printed": "237.329,25",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0085    Grund und Boden",
+  "field": "zugang",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0085    Grund und Boden",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0085    Grund und Boden",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0085    Grund und Boden",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0085    Grund und Boden",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0085    Grund und Boden",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r4",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0085    Grund und Boden",
+  "field": "bw_close",
+  "value": 23732925,
+  "printed": "237.329,25",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K13"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Grund und Boden",
+  "field": "bw_prev",
+  "value": 23732925,
+  "printed": "237.329,25",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Grund und Boden",
+  "field": "zugang",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Grund und Boden",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Grund und Boden",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Grund und Boden",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Grund und Boden",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Grund und Boden",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r5",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Grund und Boden",
+  "field": "bw_close",
+  "value": 23732925,
+  "printed": "237.329,25",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K14"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r6",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 1. Grund und Boden",
+  "field": "bw_prev",
+  "value": 23732925,
+  "printed": "237.329,25",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r6",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 1. Grund und Boden",
+  "field": "zugang",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r6",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 1. Grund und Boden",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r6",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 1. Grund und Boden",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r6",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 1. Grund und Boden",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r6",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 1. Grund und Boden",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r6",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 1. Grund und Boden",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r6",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 1. Grund und Boden",
+  "field": "bw_close",
+  "value": 23732925,
+  "printed": "237.329,25",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K15"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0100    Fabrikbauten",
+  "field": "bw_prev",
+  "value": 186646500,
+  "printed": "1.866.465,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0100    Fabrikbauten",
+  "field": "zugang",
+  "value": 492512688,
+  "printed": "4.925.126,88",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0100    Fabrikbauten",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0100    Fabrikbauten",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0100    Fabrikbauten",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0100    Fabrikbauten",
+  "field": "afa_gj",
+  "value": 14318301,
+  "printed": "143.183,01",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0100    Fabrikbauten",
+  "field": "kum_afa_close",
+  "value": 100583484,
+  "printed": "1.005.834,84",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r7",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0100    Fabrikbauten",
+  "field": "bw_close",
+  "value": 664840887,
+  "printed": "6.648.408,87",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K18"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Fabrikbauten",
+  "field": "bw_prev",
+  "value": 186646500,
+  "printed": "1.866.465,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Fabrikbauten",
+  "field": "zugang",
+  "value": 492512688,
+  "printed": "4.925.126,88",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Fabrikbauten",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Fabrikbauten",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Fabrikbauten",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Fabrikbauten",
+  "field": "afa_gj",
+  "value": 14318301,
+  "printed": "143.183,01",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Fabrikbauten",
+  "field": "kum_afa_close",
+  "value": 100583484,
+  "printed": "1.005.834,84",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r8",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Fabrikbauten",
+  "field": "bw_close",
+  "value": 664840887,
+  "printed": "6.648.408,87",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K19"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r9",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 2. Betriebsgebäude",
+  "field": "bw_prev",
+  "value": 186646500,
+  "printed": "1.866.465,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r9",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 2. Betriebsgebäude",
+  "field": "zugang",
+  "value": 492512688,
+  "printed": "4.925.126,88",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r9",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 2. Betriebsgebäude",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r9",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 2. Betriebsgebäude",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r9",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 2. Betriebsgebäude",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r9",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 2. Betriebsgebäude",
+  "field": "afa_gj",
+  "value": 14318301,
+  "printed": "143.183,01",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r9",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 2. Betriebsgebäude",
+  "field": "kum_afa_close",
+  "value": 100583484,
+  "printed": "1.005.834,84",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r9",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 2. Betriebsgebäude",
+  "field": "bw_close",
+  "value": 664840887,
+  "printed": "6.648.408,87",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K20"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0210    Maschinen",
+  "field": "bw_prev",
+  "value": 8603619,
+  "printed": "86.036,19",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0210    Maschinen",
+  "field": "zugang",
+  "value": 24294300,
+  "printed": "242.943,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0210    Maschinen",
+  "field": "abgang_bw",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0210    Maschinen",
+  "field": "umbuchung",
+  "value": 45654824,
+  "printed": "456.548,24",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0210    Maschinen",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0210    Maschinen",
+  "field": "afa_gj",
+  "value": 4955099,
+  "printed": "49.550,99",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0210    Maschinen",
+  "field": "kum_afa_close",
+  "value": 28868057,
+  "printed": "288.680,57",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r10",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0210    Maschinen",
+  "field": "bw_close",
+  "value": 73597544,
+  "printed": "735.975,44",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K23"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r11",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "bw_prev",
+  "value": 8603619,
+  "printed": "86.036,19",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r11",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "zugang",
+  "value": 24294300,
+  "printed": "242.943,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r11",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "abgang_bw",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r11",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "umbuchung",
+  "value": 45654824,
+  "printed": "456.548,24",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r11",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r11",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "afa_gj",
+  "value": 4955099,
+  "printed": "49.550,99",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r11",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "kum_afa_close",
+  "value": 28868057,
+  "printed": "288.680,57",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r11",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Maschinen",
+  "field": "bw_close",
+  "value": 73597544,
+  "printed": "735.975,44",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K24"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r12",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 3. Maschinenpark",
+  "field": "bw_prev",
+  "value": 8603619,
+  "printed": "86.036,19",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B25"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r12",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 3. Maschinenpark",
+  "field": "zugang",
+  "value": 24294300,
+  "printed": "242.943,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C25"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r12",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 3. Maschinenpark",
+  "field": "abgang_bw",
+  "value": 100,
+  "printed": "1,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E25"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r12",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 3. Maschinenpark",
+  "field": "umbuchung",
+  "value": 45654824,
+  "printed": "456.548,24",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F25"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r12",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 3. Maschinenpark",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G25"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r12",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 3. Maschinenpark",
+  "field": "afa_gj",
+  "value": 4955099,
+  "printed": "49.550,99",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H25"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r12",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 3. Maschinenpark",
+  "field": "kum_afa_close",
+  "value": 28868057,
+  "printed": "288.680,57",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J25"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r12",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 3. Maschinenpark",
+  "field": "bw_close",
+  "value": 73597544,
+  "printed": "735.975,44",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K25"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0240    Technische Anlagen",
+  "field": "bw_prev",
+  "value": 58484498,
+  "printed": "584.844,98",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0240    Technische Anlagen",
+  "field": "zugang",
+  "value": 1073300,
+  "printed": "10.733,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0240    Technische Anlagen",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0240    Technische Anlagen",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0240    Technische Anlagen",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0240    Technische Anlagen",
+  "field": "afa_gj",
+  "value": 4435988,
+  "printed": "44.359,88",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0240    Technische Anlagen",
+  "field": "kum_afa_close",
+  "value": 28572905,
+  "printed": "285.729,05",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r13",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0240    Technische Anlagen",
+  "field": "bw_close",
+  "value": 55121810,
+  "printed": "551.218,10",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K28"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r14",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Technische Anlagen Kto. 0240",
+  "field": "bw_prev",
+  "value": 58484498,
+  "printed": "584.844,98",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r14",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Technische Anlagen Kto. 0240",
+  "field": "zugang",
+  "value": 1073300,
+  "printed": "10.733,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r14",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Technische Anlagen Kto. 0240",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r14",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Technische Anlagen Kto. 0240",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r14",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Technische Anlagen Kto. 0240",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r14",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Technische Anlagen Kto. 0240",
+  "field": "afa_gj",
+  "value": 4435988,
+  "printed": "44.359,88",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r14",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Technische Anlagen Kto. 0240",
+  "field": "kum_afa_close",
+  "value": 28572905,
+  "printed": "285.729,05",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r14",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Technische Anlagen Kto. 0240",
+  "field": "bw_close",
+  "value": 55121810,
+  "printed": "551.218,10",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K29"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 4. Betriebstechnik",
+  "field": "bw_prev",
+  "value": 58484498,
+  "printed": "584.844,98",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 4. Betriebstechnik",
+  "field": "zugang",
+  "value": 1073300,
+  "printed": "10.733,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 4. Betriebstechnik",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 4. Betriebstechnik",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 4. Betriebstechnik",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 4. Betriebstechnik",
+  "field": "afa_gj",
+  "value": 4435988,
+  "printed": "44.359,88",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 4. Betriebstechnik",
+  "field": "kum_afa_close",
+  "value": 28572905,
+  "printed": "285.729,05",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r15",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 4. Betriebstechnik",
+  "field": "bw_close",
+  "value": 55121810,
+  "printed": "551.218,10",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K30"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0320    Pkw",
+  "field": "bw_prev",
+  "value": 101675,
+  "printed": "1.016,75",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0320    Pkw",
+  "field": "zugang",
+  "value": 1817923,
+  "printed": "18.179,23",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0320    Pkw",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0320    Pkw",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0320    Pkw",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0320    Pkw",
+  "field": "afa_gj",
+  "value": 177122,
+  "printed": "1.771,22",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0320    Pkw",
+  "field": "kum_afa_close",
+  "value": 8225796,
+  "printed": "82.257,96",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r16",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0320    Pkw",
+  "field": "bw_close",
+  "value": 1742476,
+  "printed": "17.424,76",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K33"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0350    Lkw",
+  "field": "bw_prev",
+  "value": 9071317,
+  "printed": "90.713,17",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B34"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0350    Lkw",
+  "field": "zugang",
+  "value": 3838200,
+  "printed": "38.382,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C34"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0350    Lkw",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E34"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0350    Lkw",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F34"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0350    Lkw",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G34"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0350    Lkw",
+  "field": "afa_gj",
+  "value": 2254734,
+  "printed": "22.547,34",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H34"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0350    Lkw",
+  "field": "kum_afa_close",
+  "value": 19525867,
+  "printed": "195.258,67",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J34"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r17",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0350    Lkw",
+  "field": "bw_close",
+  "value": 10654783,
+  "printed": "106.547,83",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K34"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "bw_prev",
+  "value": 9172992,
+  "printed": "91.729,92",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B35"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "zugang",
+  "value": 5656123,
+  "printed": "56.561,23",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C35"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E35"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F35"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G35"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "afa_gj",
+  "value": 2431856,
+  "printed": "24.318,56",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H35"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "kum_afa_close",
+  "value": 27751663,
+  "printed": "277.516,63",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J35"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r18",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Pkw",
+  "field": "bw_close",
+  "value": 12397259,
+  "printed": "123.972,59",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K35"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r19",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 5. Fuhrpark",
+  "field": "bw_prev",
+  "value": 9172992,
+  "printed": "91.729,92",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r19",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 5. Fuhrpark",
+  "field": "zugang",
+  "value": 5656123,
+  "printed": "56.561,23",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r19",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 5. Fuhrpark",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r19",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 5. Fuhrpark",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r19",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 5. Fuhrpark",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r19",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 5. Fuhrpark",
+  "field": "afa_gj",
+  "value": 2431856,
+  "printed": "24.318,56",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r19",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 5. Fuhrpark",
+  "field": "kum_afa_close",
+  "value": 27751663,
+  "printed": "277.516,63",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r19",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 5. Fuhrpark",
+  "field": "bw_close",
+  "value": 12397259,
+  "printed": "123.972,59",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K36"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0400    Betriebsausstattung",
+  "field": "bw_prev",
+  "value": 4967840,
+  "printed": "49.678,40",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0400    Betriebsausstattung",
+  "field": "zugang",
+  "value": 1198700,
+  "printed": "11.987,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0400    Betriebsausstattung",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0400    Betriebsausstattung",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0400    Betriebsausstattung",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0400    Betriebsausstattung",
+  "field": "afa_gj",
+  "value": 1077219,
+  "printed": "10.772,19",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0400    Betriebsausstattung",
+  "field": "kum_afa_close",
+  "value": 4420918,
+  "printed": "44.209,18",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r20",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0400    Betriebsausstattung",
+  "field": "bw_close",
+  "value": 5089321,
+  "printed": "50.893,21",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K39"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r21",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Betriebsausstattung",
+  "field": "bw_prev",
+  "value": 4967840,
+  "printed": "49.678,40",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B40"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r21",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Betriebsausstattung",
+  "field": "zugang",
+  "value": 1198700,
+  "printed": "11.987,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C40"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r21",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Betriebsausstattung",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E40"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r21",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Betriebsausstattung",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F40"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r21",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Betriebsausstattung",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G40"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r21",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Betriebsausstattung",
+  "field": "afa_gj",
+  "value": 1077219,
+  "printed": "10.772,19",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H40"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r21",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Betriebsausstattung",
+  "field": "kum_afa_close",
+  "value": 4420918,
+  "printed": "44.209,18",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J40"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r21",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Betriebsausstattung",
+  "field": "bw_close",
+  "value": 5089321,
+  "printed": "50.893,21",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K40"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 6. Werkstatt und Lager",
+  "field": "bw_prev",
+  "value": 4967840,
+  "printed": "49.678,40",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B41"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 6. Werkstatt und Lager",
+  "field": "zugang",
+  "value": 1198700,
+  "printed": "11.987,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C41"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 6. Werkstatt und Lager",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E41"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 6. Werkstatt und Lager",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F41"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 6. Werkstatt und Lager",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G41"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 6. Werkstatt und Lager",
+  "field": "afa_gj",
+  "value": 1077219,
+  "printed": "10.772,19",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H41"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 6. Werkstatt und Lager",
+  "field": "kum_afa_close",
+  "value": 4420918,
+  "printed": "44.209,18",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J41"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r22",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 6. Werkstatt und Lager",
+  "field": "bw_close",
+  "value": 5089321,
+  "printed": "50.893,21",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K41"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0420    Büroeinrichtung",
+  "field": "bw_prev",
+  "value": 1066816,
+  "printed": "10.668,16",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0420    Büroeinrichtung",
+  "field": "zugang",
+  "value": 629340,
+  "printed": "6.293,40",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0420    Büroeinrichtung",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0420    Büroeinrichtung",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0420    Büroeinrichtung",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0420    Büroeinrichtung",
+  "field": "afa_gj",
+  "value": 239068,
+  "printed": "2.390,68",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0420    Büroeinrichtung",
+  "field": "kum_afa_close",
+  "value": 1786034,
+  "printed": "17.860,34",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r23",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0420    Büroeinrichtung",
+  "field": "bw_close",
+  "value": 1457088,
+  "printed": "14.570,88",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K44"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r24",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "bw_prev",
+  "value": 1066816,
+  "printed": "10.668,16",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r24",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "zugang",
+  "value": 629340,
+  "printed": "6.293,40",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r24",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r24",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r24",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r24",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "afa_gj",
+  "value": 239068,
+  "printed": "2.390,68",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r24",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "kum_afa_close",
+  "value": 1786034,
+  "printed": "17.860,34",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r24",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Büroeinrichtung",
+  "field": "bw_close",
+  "value": 1457088,
+  "printed": "14.570,88",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K45"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0490    EDV-Hardware",
+  "field": "bw_prev",
+  "value": 2489880,
+  "printed": "24.898,80",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0490    EDV-Hardware",
+  "field": "zugang",
+  "value": 2579366,
+  "printed": "25.793,66",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0490    EDV-Hardware",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0490    EDV-Hardware",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0490    EDV-Hardware",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0490    EDV-Hardware",
+  "field": "afa_gj",
+  "value": 1412598,
+  "printed": "14.125,98",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0490    EDV-Hardware",
+  "field": "kum_afa_close",
+  "value": 8565078,
+  "printed": "85.650,78",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r25",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0490    EDV-Hardware",
+  "field": "bw_close",
+  "value": 3656648,
+  "printed": "36.566,48",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K47"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Hardware",
+  "field": "bw_prev",
+  "value": 2489880,
+  "printed": "24.898,80",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Hardware",
+  "field": "zugang",
+  "value": 2579366,
+  "printed": "25.793,66",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Hardware",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Hardware",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Hardware",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Hardware",
+  "field": "afa_gj",
+  "value": 1412598,
+  "printed": "14.125,98",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Hardware",
+  "field": "kum_afa_close",
+  "value": 8565078,
+  "printed": "85.650,78",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r26",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe EDV-Hardware",
+  "field": "bw_close",
+  "value": 3656648,
+  "printed": "36.566,48",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K48"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r27",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 7. Büro und Verwaltung",
+  "field": "bw_prev",
+  "value": 3556696,
+  "printed": "35.566,96",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B49"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r27",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 7. Büro und Verwaltung",
+  "field": "zugang",
+  "value": 3208706,
+  "printed": "32.087,06",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C49"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r27",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 7. Büro und Verwaltung",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E49"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r27",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 7. Büro und Verwaltung",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F49"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r27",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 7. Büro und Verwaltung",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G49"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r27",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 7. Büro und Verwaltung",
+  "field": "afa_gj",
+  "value": 1651666,
+  "printed": "16.516,66",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H49"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r27",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 7. Büro und Verwaltung",
+  "field": "kum_afa_close",
+  "value": 10351112,
+  "printed": "103.511,12",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J49"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r27",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 7. Büro und Verwaltung",
+  "field": "bw_close",
+  "value": 5113736,
+  "printed": "51.137,36",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K49"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0480    Geringwertige Wirtschaftsgüter",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0480    Geringwertige Wirtschaftsgüter",
+  "field": "zugang",
+  "value": 129700,
+  "printed": "1.297,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0480    Geringwertige Wirtschaftsgüter",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0480    Geringwertige Wirtschaftsgüter",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0480    Geringwertige Wirtschaftsgüter",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0480    Geringwertige Wirtschaftsgüter",
+  "field": "afa_gj",
+  "value": 129700,
+  "printed": "1.297,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0480    Geringwertige Wirtschaftsgüter",
+  "field": "kum_afa_close",
+  "value": 255418,
+  "printed": "2.554,18",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r28",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0480    Geringwertige Wirtschaftsgüter",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K52"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r29",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe GWG",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r29",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe GWG",
+  "field": "zugang",
+  "value": 129700,
+  "printed": "1.297,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r29",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe GWG",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r29",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe GWG",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r29",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe GWG",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r29",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe GWG",
+  "field": "afa_gj",
+  "value": 129700,
+  "printed": "1.297,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r29",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe GWG",
+  "field": "kum_afa_close",
+  "value": 255418,
+  "printed": "2.554,18",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r29",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe GWG",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K53"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r30",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+  "field": "bw_prev",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B54"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r30",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+  "field": "zugang",
+  "value": 129700,
+  "printed": "1.297,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C54"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r30",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E54"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r30",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+  "field": "umbuchung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F54"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r30",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G54"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r30",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+  "field": "afa_gj",
+  "value": 129700,
+  "printed": "1.297,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H54"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r30",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+  "field": "kum_afa_close",
+  "value": 255418,
+  "printed": "2.554,18",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J54"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r30",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K54"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0120    Anlagen im Bau",
+  "field": "bw_prev",
+  "value": 29420837,
+  "printed": "294.208,37",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B57"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0120    Anlagen im Bau",
+  "field": "zugang",
+  "value": 16233987,
+  "printed": "162.339,87",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C57"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0120    Anlagen im Bau",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E57"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0120    Anlagen im Bau",
+  "field": "umbuchung",
+  "value": -45654824,
+  "printed": "-456.548,24",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F57"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0120    Anlagen im Bau",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G57"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0120    Anlagen im Bau",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H57"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0120    Anlagen im Bau",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J57"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r31",
+  "kind": "asset",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "0120    Anlagen im Bau",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K57"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r32",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "bw_prev",
+  "value": 29420837,
+  "printed": "294.208,37",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B58"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r32",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "zugang",
+  "value": 16233987,
+  "printed": "162.339,87",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C58"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r32",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E58"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r32",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "umbuchung",
+  "value": -45654824,
+  "printed": "-456.548,24",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F58"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r32",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G58"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r32",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H58"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r32",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J58"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r32",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe Anlagen im Bau",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K58"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 9. Anlagen im Bau",
+  "field": "bw_prev",
+  "value": 29420837,
+  "printed": "294.208,37",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "B59"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 9. Anlagen im Bau",
+  "field": "zugang",
+  "value": 16233987,
+  "printed": "162.339,87",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "C59"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 9. Anlagen im Bau",
+  "field": "abgang_bw",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "E59"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 9. Anlagen im Bau",
+  "field": "umbuchung",
+  "value": -45654824,
+  "printed": "-456.548,24",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "F59"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 9. Anlagen im Bau",
+  "field": "zuschreibung",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "G59"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 9. Anlagen im Bau",
+  "field": "afa_gj",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "H59"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 9. Anlagen im Bau",
+  "field": "kum_afa_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "J59"
+  },
+  "flag": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "row_id": "r33",
+  "kind": "subtotal",
+  "year": 2025,
+  "asset_no": null,
+  "sub_no": null,
+  "label": "Summe 9. Anlagen im Bau",
+  "field": "bw_close",
+  "value": 0,
+  "printed": "0,00",
+  "pointer": {
+   "sheet": "Netto-Anlagespiegel",
+   "cell": "K59"
+  },
+  "flag": null
+ }
+]

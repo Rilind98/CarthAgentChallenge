@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/run.py", line 93, in main
+    r = run_one(p, a.output)
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/run.py", line 62, in run_one
+    report, decisions = verify(tk, lay, ex)
+                        ~~~~~~^^^^^^^^^^^^^
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/pipeline/verify.py", line 115, in verify
+    mapping, alternatives = select_mapping(sec, rows)
+                            ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/pipeline/verify.py", line 78, in select_mapping
+    return select_mapping(sec2, rows)
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/pipeline/verify.py", line 78, in select_mapping
+    return select_mapping(sec2, rows)
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/pipeline/verify.py", line 78, in select_mapping
+    return select_mapping(sec2, rows)
+  [Previous line repeated 990 more times]
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/pipeline/verify.py", line 76, in select_mapping
+    sec2 = sec.model_copy(update={"columns": [c if i != weakest else c.model_copy(update={"candidates": []})
+                                                                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/.venv/lib/python3.14/site-packages/pydantic/main.py", line 454, in model_copy
+    copied = self.__deepcopy__() if deep else self.__copy__()
+                                              ~~~~~~~~~~~~~^^
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/.venv/lib/python3.14/site-packages/pydantic/main.py", line 1038, in __copy__
+    _object_setattr(m, '__dict__', copy(self.__dict__))
+                                   ~~~~^^^^^^^^^^^^^^^
+RecursionError: maximum recursion depth exceeded

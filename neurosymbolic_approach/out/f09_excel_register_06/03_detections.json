@@ -1,0 +1,92 @@
+{
+ "doc_id": "f09_excel_register_06",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "numbers_as_text",
+   "evidence": "552 amount cell(s) hold text, not numbers",
+   "where": [
+    {
+     "cell": "Sheet1!F14",
+     "printed": "2.210,24"
+    },
+    {
+     "cell": "Sheet1!G14",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!H14",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!I14",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!L14",
+     "printed": "2.210,24"
+    },
+    {
+     "cell": "Sheet1!M14",
+     "printed": "2.209,24-"
+    },
+    {
+     "cell": "Sheet1!N14",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!O14",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!R14",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!S14",
+     "printed": "2.209,24-"
+    },
+    {
+     "cell": "Sheet1!T14",
+     "printed": "1,00"
+    },
+    {
+     "cell": "Sheet1!U14",
+     "printed": "1,00"
+    },
+    {
+     "cell": "Sheet1!F15",
+     "printed": "34.072,00"
+    },
+    {
+     "cell": "Sheet1!G15",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!H15",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!I15",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!L15",
+     "printed": "34.072,00"
+    },
+    {
+     "cell": "Sheet1!M15",
+     "printed": "34.071,00-"
+    },
+    {
+     "cell": "Sheet1!N15",
+     "printed": "0,00"
+    },
+    {
+     "cell": "Sheet1!O15",
+     "printed": "0,00"
+    }
+   ]
+  }
+ ]
+}

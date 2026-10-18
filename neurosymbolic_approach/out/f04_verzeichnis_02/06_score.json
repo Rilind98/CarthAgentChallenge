@@ -1,0 +1,27 @@
+{
+ "values_in_key": 170,
+ "correct": 170,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 170,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": 0.833,
+ "details": [],
+ "detection": {
+  "planted": [],
+  "detected": [
+   "wrapped_description"
+  ],
+  "hit": [],
+  "missed": [],
+  "false_alarm": [
+   "wrapped_description"
+  ],
+  "readable": true,
+  "variant_key": "perfect",
+  "variant_guess": "problem"
+ }
+}

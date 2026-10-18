@@ -1,0 +1,1526 @@
+{
+ "doc_id": "f06_sap_asset_gitter_02",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Anlagengitter",
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Anlagengitter:9",
+     "anchor": null,
+     "span": null,
+     "col": 9,
+     "header": "AHK GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:10",
+     "anchor": null,
+     "span": null,
+     "col": 10,
+     "header": "AfA GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:11",
+     "anchor": null,
+     "span": null,
+     "col": 11,
+     "header": "Buchwert GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:12",
+     "anchor": null,
+     "span": null,
+     "col": 12,
+     "header": "Zugang",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:13",
+     "anchor": null,
+     "span": null,
+     "col": 13,
+     "header": "AfA des Jahres",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:14",
+     "anchor": null,
+     "span": null,
+     "col": 14,
+     "header": "Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:15",
+     "anchor": null,
+     "span": null,
+     "col": 15,
+     "header": "AfA Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:16",
+     "anchor": null,
+     "span": null,
+     "col": 16,
+     "header": "Umbuchung",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:17",
+     "anchor": null,
+     "span": null,
+     "col": 17,
+     "header": "lfd Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:18",
+     "anchor": null,
+     "span": null,
+     "col": 18,
+     "header": "aktuelle AHK",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "Anlagengitter:19",
+     "anchor": null,
+     "span": null,
+     "col": 19,
+     "header": "kumulierte AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "position": 1,
+    "account": 2,
+    "class": 3,
+    "asset_no": 4,
+    "sub_no": 5,
+    "name": 6,
+    "acq_date": 8
+   },
+   "header_lines": [
+    "Bilanzposition | Bestandskonto | Anlagenklasse | Anlage | UNr. | Anlagenbezeichnung | Währg | Aktivdatum | AHK GJ-Beg | AfA GJ-Beg | Buchwert GJ-Beg | Zugang | AfA des Jahres | Abgang | AfA Abgang | Umbuchung | lfd Buchwert | aktuelle AHK | kumulierte AfA"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 5,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 8 0 ERP-Lizenz Nr. 21 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 6,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 8 1 ERP-Lizenz Nr. 21 Erweiterung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 7,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 23 0 CAD-Software Lizenz EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 8,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 25 0 Office-Lizenzen EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 9,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 34 0 ERP-Lizenz Typ D140 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 10,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 39 0 Finanzbuchhaltung Software Nr. 18 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 11,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 39 1 Finanzbuchhaltung Software Nr. 18 Nachrüstung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 12,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 44 0 Finanzbuchhaltung Software Nr. 39 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 13,
+   "kind_guess": "asset",
+   "label": "2101200 0027 1000 64 0 Finanzbuchhaltung Software (gebraucht) EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 14,
+   "kind_guess": "total",
+   "label": "*Klasse 1000 EDV-Software EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 15,
+   "kind_guess": "asset",
+   "label": "2102100 0085 2000 4 0 Grund und Boden Betriebsgelände EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 16,
+   "kind_guess": "total",
+   "label": "*Klasse 2000 Grund und Boden EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 17,
+   "kind_guess": "asset",
+   "label": "2102100 0100 2100 1 0 Lagerhalle EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "2102100 0100 2100 17 0 Werkstattgebäude EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 19,
+   "kind_guess": "asset",
+   "label": "2102100 0100 2100 26 0 431-108170 Anbau Sozialtrakt EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 20,
+   "kind_guess": "asset",
+   "label": "2102100 0100 2100 36 0 Werkstattgebäude EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 21,
+   "kind_guess": "asset",
+   "label": "2102100 0100 2100 38 0 Lagerhalle EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 22,
+   "kind_guess": "asset",
+   "label": "2102100 0100 2100 40 0 Anbau Sozialtrakt EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 23,
+   "kind_guess": "asset",
+   "label": "2102100 0100 2100 63 0 Lagerhalle EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 24,
+   "kind_guess": "asset",
+   "label": "2102100 0100 2100 68 0 Anbau Sozialtrakt EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 25,
+   "kind_guess": "total",
+   "label": "*Klasse 2100 Fabrikbauten EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 26,
+   "kind_guess": "asset",
+   "label": "2102200 0210 3000 3 0 Laserschneidanlage Typ S768 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 27,
+   "kind_guess": "asset",
+   "label": "2102200 0210 3000 3 1 Laserschneidanlage Typ S768 Nachrüstung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 28,
+   "kind_guess": "asset",
+   "label": "2102200 0210 3000 10 0 168-312531 CNC-Fräszentrum 5-Achs EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 29,
+   "kind_guess": "asset",
+   "label": "2102200 0210 3000 48 0 880-375360 Bandsäge (gebraucht) EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 30,
+   "kind_guess": "asset",
+   "label": "2102200 0210 3000 59 0 3D-Koordinatenmessmaschine EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 31,
+   "kind_guess": "asset",
+   "label": "2102200 0210 3000 62 0 CNC-Drehmaschine Halle 2 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 32,
+   "kind_guess": "asset",
+   "label": "2102200 0210 3000 67 0 628-643866 Flachschleifmaschine EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 33,
+   "kind_guess": "total",
+   "label": "*Klasse 3000 Maschinen EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 34,
+   "kind_guess": "asset",
+   "label": "2102200 0240 3100 2 0 Lüftungsanlage Halle EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 35,
+   "kind_guess": "asset",
+   "label": "2102200 0240 3100 13 0 Kälteanlage (gebraucht) EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 36,
+   "kind_guess": "asset",
+   "label": "2102200 0240 3100 21 0 Photovoltaikanlage Dach EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 37,
+   "kind_guess": "asset",
+   "label": "2102200 0240 3100 21 1 735-127370 Photovoltaikanlage Dach Erweiterung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 38,
+   "kind_guess": "asset",
+   "label": "2102200 0240 3100 27 0 Druckluftnetz EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 39,
+   "kind_guess": "asset",
+   "label": "2102200 0240 3100 27 1 Druckluftnetz Zusatzmodul EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 40,
+   "kind_guess": "total",
+   "label": "*Klasse 3100 Technische Anlagen EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 41,
+   "kind_guess": "asset",
+   "label": "2102300 0320 4200 9 0 Pkw Kombi Diesel Typ B656 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 42,
+   "kind_guess": "asset",
+   "label": "2102300 0320 4200 12 0 371-753481 Pkw Kombi Diesel Nr. 39 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 43,
+   "kind_guess": "asset",
+   "label": "2102300 0320 4200 20 0 Pkw Kombi Diesel Halle 3 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 44,
+   "kind_guess": "asset",
+   "label": "2102300 0320 4200 24 0 Pkw Elektro EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 45,
+   "kind_guess": "asset",
+   "label": "2102300 0320 4200 58 0 Pkw Kombi Diesel Typ X148 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 46,
+   "kind_guess": "total",
+   "label": "*Klasse 4200 Pkw EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 47,
+   "kind_guess": "asset",
+   "label": "2102300 0350 4300 5 0 Tandemanhänger Halle 2 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 48,
+   "kind_guess": "asset",
+   "label": "2102300 0350 4300 6 0 Kastenwagen Nr. 27 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 49,
+   "kind_guess": "asset",
+   "label": "2102300 0350 4300 6 1 807-445128 Kastenwagen Nr. 27 Nachrüstung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 50,
+   "kind_guess": "asset",
+   "label": "2102300 0350 4300 19 0 355-233635 Kastenwagen Halle 5 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 51,
+   "kind_guess": "asset",
+   "label": "2102300 0350 4300 32 0 538-119473 Sattelzugmaschine (gebraucht) EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 52,
+   "kind_guess": "asset",
+   "label": "2102300 0350 4300 43 0 Kastenwagen EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 53,
+   "kind_guess": "asset",
+   "label": "2102300 0350 4300 57 0 196-915100 Kastenwagen EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 54,
+   "kind_guess": "asset",
+   "label": "2102300 0350 4300 61 0 Kastenwagen Nr. 34 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 55,
+   "kind_guess": "total",
+   "label": "*Klasse 4300 Lkw EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 56,
+   "kind_guess": "asset",
+   "label": "2102300 0400 4000 7 0 940-462942 Schweißgerät Typ D915 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 57,
+   "kind_guess": "asset",
+   "label": "2102300 0400 4000 16 0 Werkbank Typ K936 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 58,
+   "kind_guess": "asset",
+   "label": "2102300 0400 4000 33 0 935-355822 Werkbank Halle 4 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 59,
+   "kind_guess": "asset",
+   "label": "2102300 0400 4000 37 0 Werkbank (gebraucht) EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 60,
+   "kind_guess": "asset",
+   "label": "2102300 0400 4000 37 1 Werkbank (gebraucht) Nachrüstung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 61,
+   "kind_guess": "asset",
+   "label": "2102300 0400 4000 47 0 Werkbank EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 62,
+   "kind_guess": "asset",
+   "label": "2102300 0400 4000 66 0 Palettenregal Halle 5 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 63,
+   "kind_guess": "total",
+   "label": "*Klasse 4000 Betriebsausstattung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 64,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 11 0 Aktenschrank EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 65,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 11 1 Aktenschrank Nachrüstung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r62",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 66,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 15 0 Regalsystem Archiv EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r63",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 67,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 22 0 Regalsystem Archiv Nr. 36 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r64",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 68,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 30 0 197-369798 Schreibtisch höhenverstellbar Halle 2 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r65",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 69,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 31 0 Rollcontainer EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r66",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 70,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 31 1 Rollcontainer Zusatzmodul EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r67",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 71,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 46 0 Regalsystem Archiv EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r68",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 72,
+   "kind_guess": "asset",
+   "label": "2102300 0420 4100 46 1 635-871269 Regalsystem Archiv Erweiterung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r69",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 73,
+   "kind_guess": "total",
+   "label": "*Klasse 4100 Büroeinrichtung EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r70",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 74,
+   "kind_guess": "asset",
+   "label": "2102300 0480 4900 50 0 244-448052 Bürostuhl EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r71",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 75,
+   "kind_guess": "asset",
+   "label": "2102300 0480 4900 52 0 Messschieber digital EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r72",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 76,
+   "kind_guess": "asset",
+   "label": "2102300 0480 4900 55 0 Stehleuchte EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r73",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 77,
+   "kind_guess": "asset",
+   "label": "2102300 0480 4900 56 0 Messschieber digital EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r74",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 78,
+   "kind_guess": "total",
+   "label": "*Klasse 4900 Geringwertige Wirtschaftsgüter EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r75",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 79,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 14 0 NAS-Speicher Typ F423 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r76",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 80,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 28 0 Server 2HE Nr. 29 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r77",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 81,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 35 0 NAS-Speicher Halle 2 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r78",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 82,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 41 0 358-136330 Notebook Halle 2 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r79",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 83,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 42 0 Server 2HE EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r80",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 84,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 42 1 Server 2HE Zusatzmodul EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r81",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 85,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 45 0 Serverschrank 42HE EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r82",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 86,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 49 0 Server 2HE EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r83",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 87,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 53 0 695-533530 Firewall-Appliance EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r84",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 88,
+   "kind_guess": "asset",
+   "label": "2102300 0490 4400 65 0 Netzwerk-Switch 48 Port (gebraucht) EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r85",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 89,
+   "kind_guess": "total",
+   "label": "*Klasse 4400 EDV-Hardware EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r86",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 90,
+   "kind_guess": "asset",
+   "label": "2102400 0120 5000 54 0 AiB CNC-Drehmaschine Halle 2 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r87",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 91,
+   "kind_guess": "asset",
+   "label": "2102400 0120 5000 60 0 Anlagen im Bau Halle 2 EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r88",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Anlagengitter",
+   "row": 92,
+   "kind_guess": "total",
+   "label": "*Klasse 5000 Anlagen im Bau EUR",
+   "context": [
+    "Berichtsdatum: 31.12.2025   Anlagengitter gebuchte AfA  Bereich 01 Handelsbilanz",
+    "Erstellungsdatum: 26.04.2026   Gitter HGB §268 Abs.2 - 13 Spalten (breit, unvollständig)"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "sheet Selektion: no schedule header, skipped"
+ ],
+ "page_status": {}
+}

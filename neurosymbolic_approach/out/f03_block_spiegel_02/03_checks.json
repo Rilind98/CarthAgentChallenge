@@ -1,0 +1,70 @@
+{
+ "doc_id": "f03_block_spiegel_02",
+ "abstain": "multi-line records (one asset/class = several rows): block reader not built yet",
+ "sections": [],
+ "completeness": {
+  "unassigned_amounts": 498,
+  "examples": [
+   {
+    "token": "Kontenübersicht!E9",
+    "text": "94.351,33"
+   },
+   {
+    "token": "Kontenübersicht!I9",
+    "text": "94.351,33"
+   },
+   {
+    "token": "Kontenübersicht!E10",
+    "text": "89.909,59"
+   },
+   {
+    "token": "Kontenübersicht!F10",
+    "text": "2.263,36"
+   },
+   {
+    "token": "Kontenübersicht!I10",
+    "text": "92.172,95"
+   },
+   {
+    "token": "Kontenübersicht!E11",
+    "text": "4.441,74"
+   },
+   {
+    "token": "Kontenübersicht!H11",
+    "text": "2.263,36"
+   },
+   {
+    "token": "Kontenübersicht!I11",
+    "text": "2.178,38"
+   },
+   {
+    "token": "Kontenübersicht!E13",
+    "text": "441.292,00"
+   },
+   {
+    "token": "Kontenübersicht!I13",
+    "text": "441.292,00"
+   },
+   {
+    "token": "Kontenübersicht!E14",
+    "text": "0,00"
+   },
+   {
+    "token": "Kontenübersicht!I14",
+    "text": "0,00"
+   },
+   {
+    "token": "Kontenübersicht!E15",
+    "text": "441.292,00"
+   },
+   {
+    "token": "Kontenübersicht!I15",
+    "text": "441.292,00"
+   },
+   {
+    "token": "Kontenübersicht!E17",
+    "text": "95.991,00"
+   }
+  ]
+ }
+}

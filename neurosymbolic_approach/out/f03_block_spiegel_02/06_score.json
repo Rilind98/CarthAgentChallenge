@@ -1,0 +1,1161 @@
+{
+ "values_in_key": 819,
+ "correct": 0,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 819,
+ "extra": 0,
+ "spurious": 0,
+ "score": 0,
+ "kind_accuracy": null,
+ "asset_id_accuracy": null,
+ "details": [
+  {
+   "key_row": "1000",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Kontenübersicht",
+    "cell": "A9",
+    "cells": {
+     "ahk_open": "E9",
+     "ahk_close": "I9",
+     "kum_afa_open": "E10",
+     "afa_gj": "F10",
+     "kum_afa_close": "I10",
+     "bw_prev": "E11",
+     "bw_close": "I11"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "2000",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Kontenübersicht",
+    "cell": "A13",
+    "cells": {
+     "ahk_open": "E13",
+     "ahk_close": "I13",
+     "kum_afa_open": "E14",
+     "kum_afa_close": "I14",
+     "bw_prev": "E15",
+     "bw_close": "I15"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "3000",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Kontenübersicht",
+    "cell": "A17",
+    "cells": {
+     "ahk_open": "E17",
+     "zugang": "F17",
+     "umbuchung": "G17",
+     "ahk_close": "I17",
+     "kum_afa_open": "E18",
+     "afa_gj": "F18",
+     "kum_afa_close": "I18",
+     "bw_prev": "E19",
+     "bw_close": "I19"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "4200",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Kontenübersicht",
+    "cell": "A21",
+    "cells": {
+     "ahk_open": "E21",
+     "zugang": "F21",
+     "ahk_close": "I21",
+     "kum_afa_open": "E22",
+     "afa_gj": "F22",
+     "kum_afa_close": "I22",
+     "bw_prev": "E23",
+     "bw_close": "I23"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "4100",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Kontenübersicht",
+    "cell": "A25",
+    "cells": {
+     "ahk_open": "E25",
+     "ahk_close": "I25",
+     "kum_afa_open": "E26",
+     "afa_gj": "F26",
+     "kum_afa_close": "I26",
+     "bw_prev": "E27",
+     "bw_close": "I27"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "4900",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Kontenübersicht",
+    "cell": "A29",
+    "cells": {
+     "ahk_open": "E29",
+     "zugang": "F29",
+     "ahk_close": "I29",
+     "abgang": "F30",
+     "kum_afa_open": "E31",
+     "afa_gj": "F31",
+     "kum_afa_close": "I31",
+     "afa_abgang": "F32",
+     "bw_prev": "E33",
+     "bw_close": "I33"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "5000",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Kontenübersicht",
+    "cell": "A35",
+    "cells": {
+     "ahk_open": "E35",
+     "zugang": "F35",
+     "ahk_close": "I35",
+     "umbuchung": "G36",
+     "kum_afa_open": "E37",
+     "kum_afa_close": "I37",
+     "bw_prev": "E38",
+     "bw_close": "I38"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": null,
+   "kind": "grand_total",
+   "pointer": {
+    "sheet": "Kontenübersicht",
+    "cell": "A41",
+    "cells": {
+     "ahk_open": "E41",
+     "zugang": "F41",
+     "ahk_close": "I41",
+     "abgang": "F42",
+     "kum_afa_open": "E43",
+     "afa_gj": "F43",
+     "kum_afa_close": "I43",
+     "afa_abgang": "F44",
+     "bw_prev": "E45",
+     "bw_close": "I45"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027001",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A11",
+    "cells": {
+     "ahk_open": "E11",
+     "ahk_close": "I11",
+     "kum_afa_open": "E12",
+     "kum_afa_close": "I12",
+     "bw_prev": "E13",
+     "bw_close": "I13"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027002",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A15",
+    "cells": {
+     "ahk_open": "E15",
+     "ahk_close": "I15",
+     "kum_afa_open": "E16",
+     "kum_afa_close": "I16",
+     "bw_prev": "E17",
+     "bw_close": "I17"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027003",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A19",
+    "cells": {
+     "ahk_open": "E19",
+     "ahk_close": "I19",
+     "kum_afa_open": "E20",
+     "kum_afa_close": "I20",
+     "bw_prev": "E21",
+     "bw_close": "I21"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027004",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A23",
+    "cells": {
+     "ahk_open": "E23",
+     "ahk_close": "I23",
+     "kum_afa_open": "E24",
+     "kum_afa_close": "I24",
+     "bw_prev": "E25",
+     "bw_close": "I25"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027005",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A27",
+    "cells": {
+     "ahk_open": "E27",
+     "ahk_close": "I27",
+     "kum_afa_open": "E28",
+     "kum_afa_close": "I28",
+     "bw_prev": "E29",
+     "bw_close": "I29"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027006",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A31",
+    "cells": {
+     "ahk_open": "E31",
+     "ahk_close": "I31",
+     "kum_afa_open": "E32",
+     "kum_afa_close": "I32",
+     "bw_prev": "E33",
+     "bw_close": "I33"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027007",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A35",
+    "cells": {
+     "ahk_open": "E35",
+     "ahk_close": "I35",
+     "kum_afa_open": "E36",
+     "kum_afa_close": "I36",
+     "bw_prev": "E37",
+     "bw_close": "I37"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027008",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A39",
+    "cells": {
+     "ahk_open": "E39",
+     "ahk_close": "I39",
+     "kum_afa_open": "E40",
+     "kum_afa_close": "I40",
+     "bw_prev": "E41",
+     "bw_close": "I41"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027009",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A43",
+    "cells": {
+     "ahk_open": "E43",
+     "ahk_close": "I43",
+     "kum_afa_open": "E44",
+     "afa_gj": "F44",
+     "kum_afa_close": "I44",
+     "bw_prev": "E45",
+     "bw_close": "I45"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "027010",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A47",
+    "cells": {
+     "ahk_open": "E47",
+     "ahk_close": "I47",
+     "kum_afa_open": "E48",
+     "afa_gj": "F48",
+     "kum_afa_close": "I48",
+     "bw_prev": "E49",
+     "bw_close": "I49"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "1000",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A51",
+    "cells": {
+     "ahk_open": "E51",
+     "ahk_close": "I51",
+     "kum_afa_open": "E52",
+     "afa_gj": "F52",
+     "kum_afa_close": "I52",
+     "bw_prev": "E53",
+     "bw_close": "I53"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "085001",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A57",
+    "cells": {
+     "ahk_open": "E57",
+     "ahk_close": "I57",
+     "kum_afa_open": "E58",
+     "kum_afa_close": "I58",
+     "bw_prev": "E59",
+     "bw_close": "I59"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "085002",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A61",
+    "cells": {
+     "ahk_open": "E61",
+     "ahk_close": "I61",
+     "kum_afa_open": "E62",
+     "kum_afa_close": "I62",
+     "bw_prev": "E63",
+     "bw_close": "I63"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "085003",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A65",
+    "cells": {
+     "ahk_open": "E65",
+     "ahk_close": "I65",
+     "kum_afa_open": "E66",
+     "kum_afa_close": "I66",
+     "bw_prev": "E67",
+     "bw_close": "I67"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "2000",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A69",
+    "cells": {
+     "ahk_open": "E69",
+     "ahk_close": "I69",
+     "kum_afa_open": "E70",
+     "kum_afa_close": "I70",
+     "bw_prev": "E71",
+     "bw_close": "I71"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "210001",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A75",
+    "cells": {
+     "ahk_open": "E75",
+     "ahk_close": "I75",
+     "kum_afa_open": "E76",
+     "kum_afa_close": "I76",
+     "bw_prev": "E77",
+     "bw_close": "I77"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "210002",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A79",
+    "cells": {
+     "ahk_open": "E79",
+     "ahk_close": "I79",
+     "kum_afa_open": "E80",
+     "kum_afa_close": "I80",
+     "bw_prev": "E81",
+     "bw_close": "I81"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "210003",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A83",
+    "cells": {
+     "ahk_open": "E83",
+     "ahk_close": "I83",
+     "kum_afa_open": "E84",
+     "afa_gj": "F84",
+     "kum_afa_close": "I84",
+     "bw_prev": "E85",
+     "bw_close": "I85"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "210004",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A87",
+    "cells": {
+     "ahk_open": "E87",
+     "zugang": "F87",
+     "ahk_close": "I87",
+     "kum_afa_open": "E88",
+     "afa_gj": "F88",
+     "kum_afa_close": "I88",
+     "bw_prev": "E89",
+     "bw_close": "I89"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "210005",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A91",
+    "cells": {
+     "ahk_open": "E91",
+     "umbuchung": "G91",
+     "ahk_close": "I91",
+     "kum_afa_open": "E92",
+     "afa_gj": "F92",
+     "kum_afa_close": "I92",
+     "bw_prev": "E93",
+     "bw_close": "I93"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "3000",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A95",
+    "cells": {
+     "ahk_open": "E95",
+     "zugang": "F95",
+     "umbuchung": "G95",
+     "ahk_close": "I95",
+     "kum_afa_open": "E96",
+     "afa_gj": "F96",
+     "kum_afa_close": "I96",
+     "bw_prev": "E97",
+     "bw_close": "I97"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320002",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A101",
+    "cells": {
+     "ahk_open": "E101",
+     "ahk_close": "I101",
+     "kum_afa_open": "E102",
+     "kum_afa_close": "I102",
+     "bw_prev": "E103",
+     "bw_close": "I103"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320003",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A105",
+    "cells": {
+     "ahk_open": "E105",
+     "ahk_close": "I105",
+     "kum_afa_open": "E106",
+     "kum_afa_close": "I106",
+     "bw_prev": "E107",
+     "bw_close": "I107"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320004",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A109",
+    "cells": {
+     "ahk_open": "E109",
+     "ahk_close": "I109",
+     "kum_afa_open": "E110",
+     "kum_afa_close": "I110",
+     "bw_prev": "E111",
+     "bw_close": "I111"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320006",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A113",
+    "cells": {
+     "ahk_open": "E113",
+     "ahk_close": "I113",
+     "kum_afa_open": "E114",
+     "afa_gj": "F114",
+     "kum_afa_close": "I114",
+     "bw_prev": "E115",
+     "bw_close": "I115"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320007",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A117",
+    "cells": {
+     "ahk_open": "E117",
+     "ahk_close": "I117",
+     "kum_afa_open": "E118",
+     "afa_gj": "F118",
+     "kum_afa_close": "I118",
+     "bw_prev": "E119",
+     "bw_close": "I119"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320008",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A121",
+    "cells": {
+     "ahk_open": "E121",
+     "ahk_close": "I121",
+     "kum_afa_open": "E122",
+     "afa_gj": "F122",
+     "kum_afa_close": "I122",
+     "bw_prev": "E123",
+     "bw_close": "I123"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320009",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A125",
+    "cells": {
+     "ahk_open": "E125",
+     "zugang": "F125",
+     "ahk_close": "I125",
+     "kum_afa_open": "E126",
+     "afa_gj": "F126",
+     "kum_afa_close": "I126",
+     "bw_prev": "E127",
+     "bw_close": "I127"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320010",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A129",
+    "cells": {
+     "ahk_open": "E129",
+     "zugang": "F129",
+     "ahk_close": "I129",
+     "kum_afa_open": "E130",
+     "afa_gj": "F130",
+     "kum_afa_close": "I130",
+     "bw_prev": "E131",
+     "bw_close": "I131"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320011",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A133",
+    "cells": {
+     "ahk_open": "E133",
+     "zugang": "F133",
+     "ahk_close": "I133",
+     "kum_afa_open": "E134",
+     "afa_gj": "F134",
+     "kum_afa_close": "I134",
+     "bw_prev": "E135",
+     "bw_close": "I135"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "320012",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A137",
+    "cells": {
+     "ahk_open": "E137",
+     "zugang": "F137",
+     "ahk_close": "I137",
+     "kum_afa_open": "E138",
+     "afa_gj": "F138",
+     "kum_afa_close": "I138",
+     "bw_prev": "E139",
+     "bw_close": "I139"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "4200",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A141",
+    "cells": {
+     "ahk_open": "E141",
+     "zugang": "F141",
+     "ahk_close": "I141",
+     "kum_afa_open": "E142",
+     "afa_gj": "F142",
+     "kum_afa_close": "I142",
+     "bw_prev": "E143",
+     "bw_close": "I143"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "420001",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A147",
+    "cells": {
+     "ahk_open": "E147",
+     "ahk_close": "I147",
+     "kum_afa_open": "E148",
+     "kum_afa_close": "I148",
+     "bw_prev": "E149",
+     "bw_close": "I149"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "420002",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A151",
+    "cells": {
+     "ahk_open": "E151",
+     "ahk_close": "I151",
+     "kum_afa_open": "E152",
+     "afa_gj": "F152",
+     "kum_afa_close": "I152",
+     "bw_prev": "E153",
+     "bw_close": "I153"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "420004",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A155",
+    "cells": {
+     "ahk_open": "E155",
+     "ahk_close": "I155",
+     "kum_afa_open": "E156",
+     "afa_gj": "F156",
+     "kum_afa_close": "I156",
+     "bw_prev": "E157",
+     "bw_close": "I157"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "420006",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A159",
+    "cells": {
+     "ahk_open": "E159",
+     "ahk_close": "I159",
+     "kum_afa_open": "E160",
+     "afa_gj": "F160",
+     "kum_afa_close": "I160",
+     "bw_prev": "E161",
+     "bw_close": "I161"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "420007",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A163",
+    "cells": {
+     "ahk_open": "E163",
+     "ahk_close": "I163",
+     "kum_afa_open": "E164",
+     "afa_gj": "F164",
+     "kum_afa_close": "I164",
+     "bw_prev": "E165",
+     "bw_close": "I165"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "420008",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A167",
+    "cells": {
+     "ahk_open": "E167",
+     "ahk_close": "I167",
+     "kum_afa_open": "E168",
+     "afa_gj": "F168",
+     "kum_afa_close": "I168",
+     "bw_prev": "E169",
+     "bw_close": "I169"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "420009",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A171",
+    "cells": {
+     "ahk_open": "E171",
+     "ahk_close": "I171",
+     "kum_afa_open": "E172",
+     "afa_gj": "F172",
+     "kum_afa_close": "I172",
+     "bw_prev": "E173",
+     "bw_close": "I173"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "420010",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A175",
+    "cells": {
+     "ahk_open": "E175",
+     "ahk_close": "I175",
+     "kum_afa_open": "E176",
+     "afa_gj": "F176",
+     "kum_afa_close": "I176",
+     "bw_prev": "E177",
+     "bw_close": "I177"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "4100",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A179",
+    "cells": {
+     "ahk_open": "E179",
+     "ahk_close": "I179",
+     "kum_afa_open": "E180",
+     "afa_gj": "F180",
+     "kum_afa_close": "I180",
+     "bw_prev": "E181",
+     "bw_close": "I181"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480001",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A185",
+    "cells": {
+     "ahk_open": "E185",
+     "ahk_close": "I185",
+     "kum_afa_open": "E186",
+     "kum_afa_close": "I186",
+     "bw_prev": "E187",
+     "bw_close": "I187"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480002",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A189",
+    "cells": {
+     "ahk_open": "E189",
+     "ahk_close": "I189",
+     "kum_afa_open": "E190",
+     "kum_afa_close": "I190",
+     "bw_prev": "E191",
+     "bw_close": "I191"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480003",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A193",
+    "cells": {
+     "ahk_open": "E193",
+     "ahk_close": "I193",
+     "kum_afa_open": "E194",
+     "kum_afa_close": "I194",
+     "bw_prev": "E195",
+     "bw_close": "I195"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480004",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A197",
+    "cells": {
+     "ahk_open": "E197",
+     "ahk_close": "I197",
+     "kum_afa_open": "E198",
+     "kum_afa_close": "I198",
+     "bw_prev": "E199",
+     "bw_close": "I199"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480005",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A201",
+    "cells": {
+     "ahk_open": "E201",
+     "ahk_close": "I201",
+     "kum_afa_open": "E202",
+     "kum_afa_close": "I202",
+     "bw_prev": "E203",
+     "bw_close": "I203"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480006",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A205",
+    "cells": {
+     "ahk_open": "E205",
+     "ahk_close": "I205",
+     "abgang": "F206",
+     "kum_afa_open": "E207",
+     "kum_afa_close": "I207",
+     "afa_abgang": "F208",
+     "bw_prev": "E209",
+     "bw_close": "I209"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480007",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A211",
+    "cells": {
+     "ahk_open": "E211",
+     "ahk_close": "I211",
+     "kum_afa_open": "E212",
+     "kum_afa_close": "I212",
+     "bw_prev": "E213",
+     "bw_close": "I213"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480008",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A215",
+    "cells": {
+     "ahk_open": "E215",
+     "ahk_close": "I215",
+     "kum_afa_open": "E216",
+     "kum_afa_close": "I216",
+     "bw_prev": "E217",
+     "bw_close": "I217"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480009",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A219",
+    "cells": {
+     "ahk_open": "E219",
+     "ahk_close": "I219",
+     "kum_afa_open": "E220",
+     "kum_afa_close": "I220",
+     "bw_prev": "E221",
+     "bw_close": "I221"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "480010",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A223",
+    "cells": {
+     "ahk_open": "E223",
+     "zugang": "F223",
+     "ahk_close": "I223",
+     "kum_afa_open": "E224",
+     "afa_gj": "F224",
+     "kum_afa_close": "I224",
+     "bw_prev": "E225",
+     "bw_close": "I225"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  },
+  {
+   "key_row": "4900",
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A227",
+    "cells": {
+     "ahk_open": "E227",
+     "zugang": "F227",
+     "ahk_close": "I227",
+     "abgang": "F228",
+     "kum_afa_open": "E229",
+     "afa_gj": "F229",
+     "kum_afa_close": "I229",
+     "afa_abgang": "F230",
+     "bw_prev": "E231",
+     "bw_close": "I231"
+    }
+   },
+   "outcome": "row not found",
+   "values": 13
+  }
+ ],
+ "detection": {
+  "planted": [],
+  "detected": [],
+  "hit": [],
+  "missed": [],
+  "false_alarm": [],
+  "readable": false,
+  "variant_key": "perfect",
+  "variant_guess": "unknown"
+ }
+}

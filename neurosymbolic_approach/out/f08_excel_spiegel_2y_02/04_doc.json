@@ -1,0 +1,3191 @@
+{
+ "meta": {
+  "doc_id": "f08_excel_spiegel_2y_02",
+  "source": "../A3-Hackathon-Corpus/f08_excel_spiegel_2y/f08_excel_spiegel_2y_02.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-06-30",
+    "unit": "EUR",
+    "pages": [
+     1
+    ],
+    "sheet": null
+   },
+   {
+    "id": "s2",
+    "period_end": "2024-06-30",
+    "unit": "EUR",
+    "pages": [
+     2
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "problem"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2.",
+   "sub_no": "",
+   "name": "Entgeltlich erworbene Konzessionen und Lizenzen",
+   "acq_date": null,
+   "method": null,
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "fields": {
+    "ahk_open": 3222417,
+    "zugang": 336535,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3558952,
+    "kum_afa_open": 3222117,
+    "afa_gj": 50480,
+    "afa_abgang": 0,
+    "kum_afa_close": 3272597,
+    "bw_close": 286355,
+    "bw_prev": 300
+   },
+   "printed": {
+    "ahk_open": "32.224,17",
+    "zugang": "3.365,35",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "35.589,52",
+    "kum_afa_open": "32.221,17",
+    "afa_gj": "504,80",
+    "afa_abgang": "",
+    "kum_afa_close": "32.725,97",
+    "bw_close": "2.863,55",
+    "bw_prev": "3,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     65.29,
+     108.56,
+     776.6,
+     115.06
+    ],
+    "frame_band": [
+     108.56,
+     115.06
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       258.7,
+       108.56,
+       287.61,
+       115.06
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       299.84,
+       108.56,
+       325.14,
+       115.06
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       330.14,
+       108.56,
+       359.05,
+       115.06
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       374.86,
+       108.56,
+       409.55,
+       115.06
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       428.58,
+       108.56,
+       457.5,
+       115.06
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       471.11,
+       108.56,
+       500.02,
+       115.06
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       514.06,
+       108.56,
+       533.93,
+       115.06
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       538.93,
+       108.56,
+       567.85,
+       115.06
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       576.46,
+       108.56,
+       605.37,
+       115.06
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       628.02,
+       108.56,
+       653.32,
+       115.06
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       678.2,
+       108.56,
+       690.85,
+       115.06
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "fields": {
+    "ahk_open": 3222417,
+    "zugang": 336535,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3558952,
+    "kum_afa_open": 3222117,
+    "afa_gj": 50480,
+    "afa_abgang": 0,
+    "kum_afa_close": 3272597,
+    "bw_close": 286355,
+    "bw_prev": 300
+   },
+   "printed": {
+    "ahk_open": "32.224,17",
+    "zugang": "3.365,35",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "35.589,52",
+    "kum_afa_open": "32.221,17",
+    "afa_gj": "504,80",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "32.725,97",
+    "bw_close": "2.863,55",
+    "bw_prev": "3,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     258.7,
+     117.33,
+     776.6,
+     123.83
+    ],
+    "frame_band": [
+     117.33,
+     123.83
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       258.7,
+       117.33,
+       287.61,
+       123.83
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       299.84,
+       117.33,
+       325.14,
+       123.83
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       346.4,
+       117.33,
+       359.05,
+       123.83
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       396.9,
+       117.33,
+       409.55,
+       123.83
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       428.58,
+       117.33,
+       457.5,
+       123.83
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       471.11,
+       117.33,
+       500.02,
+       123.83
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       514.06,
+       117.33,
+       533.93,
+       123.83
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       555.2,
+       117.33,
+       567.85,
+       123.83
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       576.46,
+       117.33,
+       605.37,
+       123.83
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       628.02,
+       117.33,
+       653.32,
+       123.83
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       678.2,
+       117.33,
+       690.85,
+       123.83
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "1.",
+   "sub_no": "",
+   "name": "Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "acq_date": null,
+   "method": null,
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 17410903,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 17410903,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 0,
+    "bw_close": 17410903,
+    "bw_prev": 17410903
+   },
+   "printed": {
+    "ahk_open": "174.109,03",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "174.109,03",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "0,00",
+    "bw_close": "174.109,03",
+    "bw_prev": "174.109,03"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     65.29,
+     152.43,
+     776.6,
+     158.93
+    ],
+    "frame_band": [
+     152.43,
+     158.93
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       255.09,
+       152.43,
+       287.61,
+       158.93
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       292.61,
+       152.43,
+       325.14,
+       158.93
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       330.14,
+       152.43,
+       359.05,
+       158.93
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       374.86,
+       152.43,
+       409.55,
+       158.93
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       424.97,
+       152.43,
+       457.5,
+       158.93
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       467.5,
+       152.43,
+       500.02,
+       158.93
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       505.02,
+       152.43,
+       533.93,
+       158.93
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       538.93,
+       152.43,
+       567.85,
+       158.93
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       592.72,
+       152.43,
+       605.37,
+       158.93
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       620.79,
+       152.43,
+       653.32,
+       158.93
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       658.32,
+       152.43,
+       690.85,
+       158.93
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "2.",
+   "sub_no": "",
+   "name": "Technische Anlagen und Maschinen",
+   "acq_date": null,
+   "method": null,
+   "label": "2. Technische Anlagen und Maschinen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 29442200,
+    "zugang": 40567646,
+    "abgang": 0,
+    "umbuchung": 30659684,
+    "ahk_close": 100669530,
+    "kum_afa_open": 26770300,
+    "afa_gj": 6317582,
+    "afa_abgang": 0,
+    "kum_afa_close": 33087882,
+    "bw_close": 67581648,
+    "bw_prev": 2671900
+   },
+   "printed": {
+    "ahk_open": "294.422,00",
+    "zugang": "405.676,46",
+    "abgang": "",
+    "umbuchung": "306.596,84",
+    "ahk_close": "1.006.695,30",
+    "kum_afa_open": "267.703,00",
+    "afa_gj": "63.175,82",
+    "afa_abgang": "",
+    "kum_afa_close": "330.878,82",
+    "bw_close": "675.816,48",
+    "bw_prev": "26.719,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     65.29,
+     161.21,
+     776.6,
+     167.71
+    ],
+    "frame_band": [
+     161.21,
+     167.71
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       255.09,
+       161.21,
+       287.61,
+       167.71
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       292.61,
+       161.21,
+       325.14,
+       167.71
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       330.14,
+       161.21,
+       359.05,
+       167.71
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       377.02,
+       161.21,
+       409.55,
+       167.71
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       419.55,
+       161.21,
+       457.5,
+       167.71
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       467.5,
+       161.21,
+       500.02,
+       167.71
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       505.02,
+       161.21,
+       533.93,
+       167.71
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       538.93,
+       161.21,
+       567.85,
+       167.71
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       572.85,
+       161.21,
+       605.37,
+       167.71
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       620.79,
+       161.21,
+       653.32,
+       167.71
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       661.93,
+       161.21,
+       690.85,
+       167.71
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "3.",
+   "sub_no": "",
+   "name": "Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "acq_date": null,
+   "method": null,
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 21538267,
+    "zugang": 7736260,
+    "abgang": 5314200,
+    "umbuchung": 0,
+    "ahk_close": 23960327,
+    "kum_afa_open": 17010468,
+    "afa_gj": 1604668,
+    "afa_abgang": 4280883,
+    "kum_afa_close": 14334253,
+    "bw_close": 9626074,
+    "bw_prev": 4527799
+   },
+   "printed": {
+    "ahk_open": "215.382,67",
+    "zugang": "77.362,60",
+    "abgang": "53.142,00",
+    "umbuchung": "",
+    "ahk_close": "239.603,27",
+    "kum_afa_open": "170.104,68",
+    "afa_gj": "16.046,68",
+    "afa_abgang": "42.808,83",
+    "kum_afa_close": "143.342,53",
+    "bw_close": "96.260,74",
+    "bw_prev": "45.277,99"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     65.29,
+     169.98,
+     776.6,
+     176.48
+    ],
+    "frame_band": [
+     169.98,
+     176.48
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       255.09,
+       169.98,
+       287.61,
+       176.48
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       296.23,
+       169.98,
+       325.14,
+       176.48
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       330.14,
+       169.98,
+       359.05,
+       176.48
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       374.86,
+       169.98,
+       409.55,
+       176.48
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       424.97,
+       169.98,
+       457.5,
+       176.48
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       467.5,
+       169.98,
+       500.02,
+       176.48
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       505.02,
+       169.98,
+       533.93,
+       176.48
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       538.93,
+       169.98,
+       567.85,
+       176.48
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       572.85,
+       169.98,
+       605.37,
+       176.48
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       624.41,
+       169.98,
+       653.32,
+       176.48
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       661.93,
+       169.98,
+       690.85,
+       176.48
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "4.",
+   "sub_no": "",
+   "name": "Geleistete Anzahlungen und Anlagen im Bau",
+   "acq_date": null,
+   "method": null,
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 25691517,
+    "zugang": 7854167,
+    "abgang": 0,
+    "umbuchung": -30659684,
+    "ahk_close": 2886000,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 0,
+    "bw_close": 2886000,
+    "bw_prev": 25691517
+   },
+   "printed": {
+    "ahk_open": "256.915,17",
+    "zugang": "78.541,67",
+    "abgang": "",
+    "umbuchung": "-306.596,84",
+    "ahk_close": "28.860,00",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "0,00",
+    "bw_close": "28.860,00",
+    "bw_prev": "256.915,17"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     65.29,
+     178.76,
+     776.6,
+     185.26
+    ],
+    "frame_band": [
+     178.76,
+     185.26
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       255.09,
+       178.76,
+       287.61,
+       185.26
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       296.23,
+       178.76,
+       325.14,
+       185.26
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       330.14,
+       178.76,
+       359.05,
+       185.26
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       374.86,
+       178.76,
+       409.55,
+       185.26
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       428.58,
+       178.76,
+       457.5,
+       185.26
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       467.5,
+       178.76,
+       500.02,
+       185.26
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       505.02,
+       178.76,
+       533.93,
+       185.26
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       538.93,
+       178.76,
+       567.85,
+       185.26
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       592.72,
+       178.76,
+       605.37,
+       185.26
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       624.41,
+       178.76,
+       653.32,
+       185.26
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       658.32,
+       178.76,
+       690.85,
+       185.26
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 94082887,
+    "zugang": 56158073,
+    "abgang": 5314200,
+    "umbuchung": 0,
+    "ahk_close": 144926760,
+    "kum_afa_open": 43780768,
+    "afa_gj": 7922250,
+    "afa_abgang": 4280883,
+    "kum_afa_close": 47422135,
+    "bw_close": 97504625,
+    "bw_prev": 50302119
+   },
+   "printed": {
+    "ahk_open": "940.828,87",
+    "zugang": "561.580,73",
+    "abgang": "53.142,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.449.267,60",
+    "kum_afa_open": "437.807,68",
+    "afa_gj": "79.222,50",
+    "afa_abgang": "42.808,83",
+    "kum_afa_close": "474.221,35",
+    "bw_close": "975.046,25",
+    "bw_prev": "503.021,19"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     255.09,
+     187.53,
+     776.6,
+     194.03
+    ],
+    "frame_band": [
+     187.53,
+     194.03
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       255.09,
+       187.53,
+       287.61,
+       194.03
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       292.61,
+       187.53,
+       325.14,
+       194.03
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       330.14,
+       187.53,
+       359.05,
+       194.03
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       396.9,
+       187.53,
+       409.55,
+       194.03
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       419.55,
+       187.53,
+       457.5,
+       194.03
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       467.5,
+       187.53,
+       500.02,
+       194.03
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       505.02,
+       187.53,
+       533.93,
+       194.03
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       538.93,
+       187.53,
+       567.85,
+       194.03
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       572.85,
+       187.53,
+       605.37,
+       194.03
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       620.79,
+       187.53,
+       653.32,
+       194.03
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       658.32,
+       187.53,
+       690.85,
+       194.03
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "3.",
+   "sub_no": "",
+   "name": "Beteiligungen",
+   "acq_date": null,
+   "method": null,
+   "label": "3. Beteiligungen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 19834246,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 19834246,
+    "kum_afa_open": 213310,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 213310,
+    "bw_close": 19620936,
+    "bw_prev": 19620936
+   },
+   "printed": {
+    "ahk_open": "198.342,46",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "198.342,46",
+    "kum_afa_open": "2.133,10",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "2.133,10",
+    "bw_close": "196.209,36",
+    "bw_prev": "196.209,36"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     65.29,
+     222.63,
+     776.6,
+     229.13
+    ],
+    "frame_band": [
+     222.63,
+     229.13
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       255.09,
+       222.63,
+       287.61,
+       229.13
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       292.61,
+       222.63,
+       325.14,
+       229.13
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       330.14,
+       222.63,
+       359.05,
+       229.13
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       374.86,
+       222.63,
+       409.55,
+       229.13
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       424.97,
+       222.63,
+       457.5,
+       229.13
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       474.72,
+       222.63,
+       500.02,
+       229.13
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       505.02,
+       222.63,
+       533.93,
+       229.13
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       538.93,
+       222.63,
+       567.85,
+       229.13
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       580.07,
+       222.63,
+       605.37,
+       229.13
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       620.79,
+       222.63,
+       653.32,
+       229.13
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       658.32,
+       222.63,
+       690.85,
+       229.13
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 19834246,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 19834246,
+    "kum_afa_open": 213310,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 213310,
+    "bw_close": 19620936,
+    "bw_prev": 19620936
+   },
+   "printed": {
+    "ahk_open": "198.342,46",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "198.342,46",
+    "kum_afa_open": "2.133,10",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "2.133,10",
+    "bw_close": "196.209,36",
+    "bw_prev": "196.209,36"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     255.09,
+     231.41,
+     776.6,
+     237.91
+    ],
+    "frame_band": [
+     231.41,
+     237.91
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       255.09,
+       231.41,
+       287.61,
+       237.91
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       312.49,
+       231.41,
+       325.14,
+       237.91
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       346.4,
+       231.41,
+       359.05,
+       237.91
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       396.9,
+       231.41,
+       409.55,
+       237.91
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       424.97,
+       231.41,
+       457.5,
+       237.91
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       474.72,
+       231.41,
+       500.02,
+       237.91
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       521.29,
+       231.41,
+       533.93,
+       237.91
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       555.2,
+       231.41,
+       567.85,
+       237.91
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       580.07,
+       231.41,
+       605.37,
+       237.91
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       620.79,
+       231.41,
+       653.32,
+       237.91
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       658.32,
+       231.41,
+       690.85,
+       237.91
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "grand_total",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 117139550,
+    "zugang": 56494608,
+    "abgang": 5314200,
+    "umbuchung": 0,
+    "ahk_close": 168319958,
+    "kum_afa_open": 47216195,
+    "afa_gj": 7972730,
+    "afa_abgang": 4280883,
+    "kum_afa_close": 50908042,
+    "bw_close": 117411916,
+    "bw_prev": 69923355
+   },
+   "printed": {
+    "ahk_open": "1.171.395,50",
+    "zugang": "564.946,08",
+    "abgang": "53.142,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.683.199,58",
+    "kum_afa_open": "472.161,95",
+    "afa_gj": "79.727,30",
+    "afa_abgang": "42.808,83",
+    "kum_afa_close": "509.080,42",
+    "bw_close": "1.174.119,16",
+    "bw_prev": "699.233,55"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     249.66,
+     248.96,
+     776.6,
+     255.46
+    ],
+    "frame_band": [
+     248.96,
+     255.46
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       249.66,
+       248.96,
+       287.61,
+       255.46
+      ]
+     },
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       292.61,
+       248.96,
+       325.14,
+       255.46
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       330.14,
+       248.96,
+       359.05,
+       255.46
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       396.9,
+       248.96,
+       409.55,
+       255.46
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       419.55,
+       248.96,
+       457.5,
+       255.46
+      ]
+     },
+     "kum_afa_open": {
+      "page": 1,
+      "bbox": [
+       467.5,
+       248.96,
+       500.02,
+       255.46
+      ]
+     },
+     "afa_gj": {
+      "page": 1,
+      "bbox": [
+       505.02,
+       248.96,
+       533.93,
+       255.46
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       538.93,
+       248.96,
+       567.85,
+       255.46
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       572.85,
+       248.96,
+       605.37,
+       255.46
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       615.37,
+       248.96,
+       653.32,
+       255.46
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       658.32,
+       248.96,
+       690.85,
+       255.46
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2.",
+   "sub_no": "",
+   "name": "Entgeltlich erworbene Konzessionen und Lizenzen",
+   "acq_date": null,
+   "method": null,
+   "label": "2. Entgeltlich erworbene Konzessionen und Lizenzen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "fields": {
+    "ahk_open": 3222417,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3222417,
+    "kum_afa_open": 3222117,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 3222117,
+    "bw_close": 300,
+    "bw_prev": 300
+   },
+   "printed": {
+    "ahk_open": "32.224,17",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "32.224,17",
+    "kum_afa_open": "32.221,17",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "32.221,17",
+    "bw_close": "3,00",
+    "bw_prev": "3,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     75.05,
+     108.56,
+     766.84,
+     115.06
+    ],
+    "frame_band": [
+     108.56,
+     115.06
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       258.04,
+       108.56,
+       286.95,
+       115.06
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       291.95,
+       108.56,
+       324.48,
+       115.06
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       108.56,
+       357.28,
+       115.06
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       108.56,
+       407.78,
+       115.06
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       426.82,
+       108.56,
+       455.73,
+       115.06
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       469.35,
+       108.56,
+       498.26,
+       115.06
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       503.26,
+       108.56,
+       532.17,
+       115.06
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       108.56,
+       564.98,
+       115.06
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       573.59,
+       108.56,
+       602.5,
+       115.06
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       632.38,
+       108.56,
+       645.03,
+       115.06
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       669.91,
+       108.56,
+       682.55,
+       115.06
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände"
+   ],
+   "fields": {
+    "ahk_open": 3222417,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3222417,
+    "kum_afa_open": 3222117,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 3222117,
+    "bw_close": 300,
+    "bw_prev": 300
+   },
+   "printed": {
+    "ahk_open": "32.224,17",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "32.224,17",
+    "kum_afa_open": "32.221,17",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "32.221,17",
+    "bw_close": "3,00",
+    "bw_prev": "3,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     258.04,
+     117.33,
+     766.84,
+     123.83
+    ],
+    "frame_band": [
+     117.33,
+     123.83
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       258.04,
+       117.33,
+       286.95,
+       123.83
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       311.83,
+       117.33,
+       324.48,
+       123.83
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       117.33,
+       357.28,
+       123.83
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       117.33,
+       407.78,
+       123.83
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       426.82,
+       117.33,
+       455.73,
+       123.83
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       469.35,
+       117.33,
+       498.26,
+       123.83
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       519.52,
+       117.33,
+       532.17,
+       123.83
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       117.33,
+       564.98,
+       123.83
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       573.59,
+       117.33,
+       602.5,
+       123.83
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       632.38,
+       117.33,
+       645.03,
+       123.83
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       669.91,
+       117.33,
+       682.55,
+       123.83
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "1.",
+   "sub_no": "",
+   "name": "Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "acq_date": null,
+   "method": null,
+   "label": "1. Grundstücke, grundstücksgleiche Rechte und Bauten",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 17410903,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 17410903,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 0,
+    "bw_close": 17410903,
+    "bw_prev": 17410903
+   },
+   "printed": {
+    "ahk_open": "174.109,03",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "174.109,03",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "0,00",
+    "bw_close": "174.109,03",
+    "bw_prev": "174.109,03"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     75.05,
+     152.43,
+     766.84,
+     158.93
+    ],
+    "frame_band": [
+     152.43,
+     158.93
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.43,
+       152.43,
+       286.95,
+       158.93
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       291.95,
+       152.43,
+       324.48,
+       158.93
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       152.43,
+       357.28,
+       158.93
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       152.43,
+       407.78,
+       158.93
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       423.21,
+       152.43,
+       455.73,
+       158.93
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       465.73,
+       152.43,
+       498.26,
+       158.93
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       503.26,
+       152.43,
+       532.17,
+       158.93
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       152.43,
+       564.98,
+       158.93
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       589.85,
+       152.43,
+       602.5,
+       158.93
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       612.5,
+       152.43,
+       645.03,
+       158.93
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       650.03,
+       152.43,
+       682.55,
+       158.93
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "2.",
+   "sub_no": "",
+   "name": "Technische Anlagen und Maschinen",
+   "acq_date": null,
+   "method": null,
+   "label": "2. Technische Anlagen und Maschinen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 29442200,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 29442200,
+    "kum_afa_open": 23201955,
+    "afa_gj": 3568345,
+    "afa_abgang": 0,
+    "kum_afa_close": 26770300,
+    "bw_close": 2671900,
+    "bw_prev": 6240245
+   },
+   "printed": {
+    "ahk_open": "294.422,00",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "294.422,00",
+    "kum_afa_open": "232.019,55",
+    "afa_gj": "35.683,45",
+    "afa_abgang": "",
+    "kum_afa_close": "267.703,00",
+    "bw_close": "26.719,00",
+    "bw_prev": "62.402,45"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     75.05,
+     161.21,
+     766.84,
+     167.71
+    ],
+    "frame_band": [
+     161.21,
+     167.71
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.43,
+       161.21,
+       286.95,
+       167.71
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       291.95,
+       161.21,
+       324.48,
+       167.71
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       161.21,
+       357.28,
+       167.71
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       161.21,
+       407.78,
+       167.71
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       423.21,
+       161.21,
+       455.73,
+       167.71
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       465.73,
+       161.21,
+       498.26,
+       167.71
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       503.26,
+       161.21,
+       532.17,
+       167.71
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       161.21,
+       564.98,
+       167.71
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       569.98,
+       161.21,
+       602.5,
+       167.71
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       616.12,
+       161.21,
+       645.03,
+       167.71
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       653.64,
+       161.21,
+       682.55,
+       167.71
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "3.",
+   "sub_no": "",
+   "name": "Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "acq_date": null,
+   "method": null,
+   "label": "3. Andere Anlagen, Betriebs- und Geschäftsausstattung",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 21538267,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 21538267,
+    "kum_afa_open": 15595409,
+    "afa_gj": 1415059,
+    "afa_abgang": 0,
+    "kum_afa_close": 17010468,
+    "bw_close": 4527799,
+    "bw_prev": 5942858
+   },
+   "printed": {
+    "ahk_open": "215.382,67",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "215.382,67",
+    "kum_afa_open": "155.954,09",
+    "afa_gj": "14.150,59",
+    "afa_abgang": "",
+    "kum_afa_close": "170.104,68",
+    "bw_close": "45.277,99",
+    "bw_prev": "59.428,58"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     75.05,
+     169.98,
+     766.84,
+     176.48
+    ],
+    "frame_band": [
+     169.98,
+     176.48
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.43,
+       169.98,
+       286.95,
+       176.48
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       291.95,
+       169.98,
+       324.48,
+       176.48
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       169.98,
+       357.28,
+       176.48
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       169.98,
+       407.78,
+       176.48
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       423.21,
+       169.98,
+       455.73,
+       176.48
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       465.73,
+       169.98,
+       498.26,
+       176.48
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       503.26,
+       169.98,
+       532.17,
+       176.48
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       169.98,
+       564.98,
+       176.48
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       569.98,
+       169.98,
+       602.5,
+       176.48
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       616.12,
+       169.98,
+       645.03,
+       176.48
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       653.64,
+       169.98,
+       682.55,
+       176.48
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "4.",
+   "sub_no": "",
+   "name": "Geleistete Anzahlungen und Anlagen im Bau",
+   "acq_date": null,
+   "method": null,
+   "label": "4. Geleistete Anzahlungen und Anlagen im Bau",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 25691517,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 25691517,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 0,
+    "bw_close": 25691517,
+    "bw_prev": 0
+   },
+   "printed": {
+    "ahk_open": "",
+    "zugang": "256.915,17",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "256.915,17",
+    "kum_afa_open": "",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "0,00",
+    "bw_close": "256.915,17",
+    "bw_prev": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     75.05,
+     178.76,
+     766.84,
+     185.26
+    ],
+    "frame_band": [
+     178.76,
+     185.26
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.43,
+       178.76,
+       286.95,
+       185.26
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       291.95,
+       178.76,
+       324.48,
+       185.26
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       178.76,
+       357.28,
+       185.26
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       178.76,
+       407.78,
+       185.26
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       423.21,
+       178.76,
+       455.73,
+       185.26
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       465.73,
+       178.76,
+       498.26,
+       185.26
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       503.26,
+       178.76,
+       532.17,
+       185.26
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       178.76,
+       564.98,
+       185.26
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       589.85,
+       178.76,
+       602.5,
+       185.26
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       612.5,
+       178.76,
+       645.03,
+       185.26
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       669.91,
+       178.76,
+       682.55,
+       185.26
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen"
+   ],
+   "fields": {
+    "ahk_open": 68391370,
+    "zugang": 25691517,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 94082887,
+    "kum_afa_open": 38797364,
+    "afa_gj": 4983404,
+    "afa_abgang": 0,
+    "kum_afa_close": 43780768,
+    "bw_close": 50302119,
+    "bw_prev": 29594006
+   },
+   "printed": {
+    "ahk_open": "683.913,70",
+    "zugang": "256.915,17",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "940.828,87",
+    "kum_afa_open": "387.973,64",
+    "afa_gj": "49.834,04",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "437.807,68",
+    "bw_close": "503.021,19",
+    "bw_prev": "295.940,06"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     254.43,
+     187.53,
+     766.84,
+     194.03
+    ],
+    "frame_band": [
+     187.53,
+     194.03
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.43,
+       187.53,
+       286.95,
+       194.03
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       291.95,
+       187.53,
+       324.48,
+       194.03
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       187.53,
+       357.28,
+       194.03
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       187.53,
+       407.78,
+       194.03
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       423.21,
+       187.53,
+       455.73,
+       194.03
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       465.73,
+       187.53,
+       498.26,
+       194.03
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       503.26,
+       187.53,
+       532.17,
+       194.03
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       187.53,
+       564.98,
+       194.03
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       569.98,
+       187.53,
+       602.5,
+       194.03
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       612.5,
+       187.53,
+       645.03,
+       194.03
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       650.03,
+       187.53,
+       682.55,
+       194.03
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "asset",
+   "level": 0,
+   "year": 2024,
+   "asset_no": "3.",
+   "sub_no": "",
+   "name": "Beteiligungen",
+   "acq_date": null,
+   "method": null,
+   "label": "3. Beteiligungen",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 19834246,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 19834246,
+    "kum_afa_open": 213310,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 213310,
+    "bw_close": 19620936,
+    "bw_prev": 19620936
+   },
+   "printed": {
+    "ahk_open": "198.342,46",
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_close": "198.342,46",
+    "kum_afa_open": "2.133,10",
+    "afa_gj": "",
+    "afa_abgang": "",
+    "kum_afa_close": "2.133,10",
+    "bw_close": "196.209,36",
+    "bw_prev": "196.209,36"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     75.05,
+     222.63,
+     766.84,
+     229.13
+    ],
+    "frame_band": [
+     222.63,
+     229.13
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.43,
+       222.63,
+       286.95,
+       229.13
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       291.95,
+       222.63,
+       324.48,
+       229.13
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       222.63,
+       357.28,
+       229.13
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       222.63,
+       407.78,
+       229.13
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       423.21,
+       222.63,
+       455.73,
+       229.13
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       472.96,
+       222.63,
+       498.26,
+       229.13
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       503.26,
+       222.63,
+       532.17,
+       229.13
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       222.63,
+       564.98,
+       229.13
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       577.2,
+       222.63,
+       602.5,
+       229.13
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       612.5,
+       222.63,
+       645.03,
+       229.13
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       650.03,
+       222.63,
+       682.55,
+       229.13
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 19834246,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 19834246,
+    "kum_afa_open": 213310,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "kum_afa_close": 213310,
+    "bw_close": 19620936,
+    "bw_prev": 19620936
+   },
+   "printed": {
+    "ahk_open": "198.342,46",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "198.342,46",
+    "kum_afa_open": "2.133,10",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "2.133,10",
+    "bw_close": "196.209,36",
+    "bw_prev": "196.209,36"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     254.43,
+     231.41,
+     766.84,
+     237.91
+    ],
+    "frame_band": [
+     231.41,
+     237.91
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.43,
+       231.41,
+       286.95,
+       237.91
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       311.83,
+       231.41,
+       324.48,
+       237.91
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       231.41,
+       357.28,
+       237.91
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       231.41,
+       407.78,
+       237.91
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       423.21,
+       231.41,
+       455.73,
+       237.91
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       472.96,
+       231.41,
+       498.26,
+       237.91
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       519.52,
+       231.41,
+       532.17,
+       237.91
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       231.41,
+       564.98,
+       237.91
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       577.2,
+       231.41,
+       602.5,
+       237.91
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       612.5,
+       231.41,
+       645.03,
+       237.91
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       650.03,
+       231.41,
+       682.55,
+       237.91
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "grand_total",
+   "level": 2,
+   "year": 2024,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "I. Immaterielle Vermögensgegenstände",
+    "II. Sachanlagen",
+    "III. Finanzanlagen"
+   ],
+   "fields": {
+    "ahk_open": 91448033,
+    "zugang": 25691517,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 117139550,
+    "kum_afa_open": 42232791,
+    "afa_gj": 4983404,
+    "afa_abgang": 0,
+    "kum_afa_close": 47216195,
+    "bw_close": 69923355,
+    "bw_prev": 49215242
+   },
+   "printed": {
+    "ahk_open": "914.480,33",
+    "zugang": "256.915,17",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.171.395,50",
+    "kum_afa_open": "422.327,91",
+    "afa_gj": "49.834,04",
+    "afa_abgang": "0,00",
+    "kum_afa_close": "472.161,95",
+    "bw_close": "699.233,55",
+    "bw_prev": "492.152,42"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     254.43,
+     248.96,
+     766.84,
+     255.46
+    ],
+    "frame_band": [
+     248.96,
+     255.46
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       254.43,
+       248.96,
+       286.95,
+       255.46
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       291.95,
+       248.96,
+       324.48,
+       255.46
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       344.64,
+       248.96,
+       357.28,
+       255.46
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       395.14,
+       248.96,
+       407.78,
+       255.46
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       417.78,
+       248.96,
+       455.73,
+       255.46
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       465.73,
+       248.96,
+       498.26,
+       255.46
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       503.26,
+       248.96,
+       532.17,
+       255.46
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       552.33,
+       248.96,
+       564.98,
+       255.46
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       569.98,
+       248.96,
+       602.5,
+       255.46
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       612.5,
+       248.96,
+       645.03,
+       255.46
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       650.03,
+       248.96,
+       682.55,
+       255.46
+      ]
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": [
+  {
+   "type": "multi_year",
+   "evidence": "sections for 2024, 2025",
+   "where": [
+    {
+     "section": "s1",
+     "period_end": "2025-06-30"
+    },
+    {
+     "section": "s2",
+     "period_end": "2024-06-30"
+    }
+   ]
+  }
+ ]
+}

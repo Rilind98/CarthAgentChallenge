@@ -1,0 +1,32 @@
+{
+ "values_in_key": 220,
+ "correct": 220,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 220,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": null,
+ "details": [],
+ "detection": {
+  "planted": [
+   "hidden_column",
+   "multi_year"
+  ],
+  "detected": [
+   "hidden_column",
+   "multi_year"
+  ],
+  "hit": [
+   "hidden_column",
+   "multi_year"
+  ],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

@@ -1,0 +1,2561 @@
+{
+ "meta": {
+  "doc_id": "f01_net_spiegel_07",
+  "source": "../A3-Hackathon-Corpus/f01_net_spiegel/f01_net_spiegel_07.xlsx",
+  "format": "xlsx",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Netto-Anlagespiegel"
+   }
+  ],
+  "variant_guess": "perfect"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0027    EDV-Software",
+   "acq_date": null,
+   "method": null,
+   "label": "0027    EDV-Software",
+   "context": [
+    "Netto-Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Gorenholt Druckerei GmbH & Co. KG"
+   ],
+   "fields": {
+    "bw_prev": 932359,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 784376,
+    "kum_afa_close": 11799916,
+    "bw_close": 147983
+   },
+   "printed": {
+    "bw_prev": "9.323,59",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "7.843,76",
+    "kum_afa_close": "117.999,16",
+    "bw_close": "1.479,83"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A8",
+    "row": 8,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B8"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C8"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E8"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F8"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G8"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H8"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J8"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K8"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe EDV-Software",
+   "context": [
+    "Netto-Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Gorenholt Druckerei GmbH & Co. KG"
+   ],
+   "fields": {
+    "bw_prev": 932359,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 784376,
+    "kum_afa_close": 11799916,
+    "bw_close": 147983
+   },
+   "printed": {
+    "bw_prev": "9.323,59",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "7.843,76",
+    "kum_afa_close": "117.999,16",
+    "bw_close": "1.479,83"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A9",
+    "row": 9,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B9"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C9"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E9"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F9"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G9"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H9"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J9"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K9"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 0. Immaterielle Vermögensgegenstände",
+   "context": [
+    "Netto-Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Gorenholt Druckerei GmbH & Co. KG"
+   ],
+   "fields": {
+    "bw_prev": 932359,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 784376,
+    "kum_afa_close": 11799916,
+    "bw_close": 147983
+   },
+   "printed": {
+    "bw_prev": "9.323,59",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "7.843,76",
+    "kum_afa_close": "117.999,16",
+    "bw_close": "1.479,83"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A10",
+    "row": 10,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B10"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C10"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E10"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F10"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G10"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H10"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J10"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K10"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0085    Grund und Boden",
+   "acq_date": null,
+   "method": null,
+   "label": "0085    Grund und Boden",
+   "context": [
+    "Gorenholt Druckerei GmbH & Co. KG",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "fields": {
+    "bw_prev": 23732925,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 23732925
+   },
+   "printed": {
+    "bw_prev": "237.329,25",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "237.329,25"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A13",
+    "row": 13,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B13"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C13"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E13"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F13"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G13"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H13"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J13"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K13"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Grund und Boden",
+   "context": [
+    "Gorenholt Druckerei GmbH & Co. KG",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "fields": {
+    "bw_prev": 23732925,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 23732925
+   },
+   "printed": {
+    "bw_prev": "237.329,25",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "237.329,25"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A14",
+    "row": 14,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B14"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C14"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E14"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F14"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G14"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H14"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J14"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K14"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 1. Grund und Boden",
+   "context": [
+    "Gorenholt Druckerei GmbH & Co. KG",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "fields": {
+    "bw_prev": 23732925,
+    "zugang": 0,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 23732925
+   },
+   "printed": {
+    "bw_prev": "237.329,25",
+    "zugang": "0,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "237.329,25"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A15",
+    "row": 15,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B15"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C15"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E15"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F15"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G15"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H15"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J15"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K15"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0100    Fabrikbauten",
+   "acq_date": null,
+   "method": null,
+   "label": "0100    Fabrikbauten",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "fields": {
+    "bw_prev": 186646500,
+    "zugang": 492512688,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 14318301,
+    "kum_afa_close": 100583484,
+    "bw_close": 664840887
+   },
+   "printed": {
+    "bw_prev": "1.866.465,00",
+    "zugang": "4.925.126,88",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "143.183,01",
+    "kum_afa_close": "1.005.834,84",
+    "bw_close": "6.648.408,87"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A18",
+    "row": 18,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B18"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C18"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E18"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F18"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G18"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H18"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J18"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K18"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Fabrikbauten",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "fields": {
+    "bw_prev": 186646500,
+    "zugang": 492512688,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 14318301,
+    "kum_afa_close": 100583484,
+    "bw_close": 664840887
+   },
+   "printed": {
+    "bw_prev": "1.866.465,00",
+    "zugang": "4.925.126,88",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "143.183,01",
+    "kum_afa_close": "1.005.834,84",
+    "bw_close": "6.648.408,87"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A19",
+    "row": 19,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B19"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C19"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E19"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F19"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G19"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H19"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J19"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K19"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 2. Betriebsgebäude",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "fields": {
+    "bw_prev": 186646500,
+    "zugang": 492512688,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 14318301,
+    "kum_afa_close": 100583484,
+    "bw_close": 664840887
+   },
+   "printed": {
+    "bw_prev": "1.866.465,00",
+    "zugang": "4.925.126,88",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "143.183,01",
+    "kum_afa_close": "1.005.834,84",
+    "bw_close": "6.648.408,87"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A20",
+    "row": 20,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B20"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C20"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E20"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F20"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G20"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H20"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J20"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K20"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0210    Maschinen",
+   "acq_date": null,
+   "method": null,
+   "label": "0210    Maschinen",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "fields": {
+    "bw_prev": 8603619,
+    "zugang": 24294300,
+    "abgang_bw": 100,
+    "umbuchung": 45654824,
+    "zuschreibung": 0,
+    "afa_gj": 4955099,
+    "kum_afa_close": 28868057,
+    "bw_close": 73597544
+   },
+   "printed": {
+    "bw_prev": "86.036,19",
+    "zugang": "242.943,00",
+    "abgang_bw": "1,00",
+    "umbuchung": "456.548,24",
+    "zuschreibung": "0,00",
+    "afa_gj": "49.550,99",
+    "kum_afa_close": "288.680,57",
+    "bw_close": "735.975,44"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A23",
+    "row": 23,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B23"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C23"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E23"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F23"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G23"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H23"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J23"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K23"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Maschinen",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "fields": {
+    "bw_prev": 8603619,
+    "zugang": 24294300,
+    "abgang_bw": 100,
+    "umbuchung": 45654824,
+    "zuschreibung": 0,
+    "afa_gj": 4955099,
+    "kum_afa_close": 28868057,
+    "bw_close": 73597544
+   },
+   "printed": {
+    "bw_prev": "86.036,19",
+    "zugang": "242.943,00",
+    "abgang_bw": "1,00",
+    "umbuchung": "456.548,24",
+    "zuschreibung": "0,00",
+    "afa_gj": "49.550,99",
+    "kum_afa_close": "288.680,57",
+    "bw_close": "735.975,44"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A24",
+    "row": 24,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B24"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C24"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E24"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F24"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G24"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H24"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J24"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K24"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 3. Maschinenpark",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "fields": {
+    "bw_prev": 8603619,
+    "zugang": 24294300,
+    "abgang_bw": 100,
+    "umbuchung": 45654824,
+    "zuschreibung": 0,
+    "afa_gj": 4955099,
+    "kum_afa_close": 28868057,
+    "bw_close": 73597544
+   },
+   "printed": {
+    "bw_prev": "86.036,19",
+    "zugang": "242.943,00",
+    "abgang_bw": "1,00",
+    "umbuchung": "456.548,24",
+    "zuschreibung": "0,00",
+    "afa_gj": "49.550,99",
+    "kum_afa_close": "288.680,57",
+    "bw_close": "735.975,44"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A25",
+    "row": 25,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B25"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C25"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E25"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F25"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G25"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H25"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J25"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K25"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0240    Technische Anlagen",
+   "acq_date": null,
+   "method": null,
+   "label": "0240    Technische Anlagen",
+   "context": [
+    "Maschinen",
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "fields": {
+    "bw_prev": 58484498,
+    "zugang": 1073300,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 4435988,
+    "kum_afa_close": 28572905,
+    "bw_close": 55121810
+   },
+   "printed": {
+    "bw_prev": "584.844,98",
+    "zugang": "10.733,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "44.359,88",
+    "kum_afa_close": "285.729,05",
+    "bw_close": "551.218,10"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A28",
+    "row": 28,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B28"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C28"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E28"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F28"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G28"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H28"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J28"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K28"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Technische Anlagen Kto. 0240",
+   "context": [
+    "Maschinen",
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "fields": {
+    "bw_prev": 58484498,
+    "zugang": 1073300,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 4435988,
+    "kum_afa_close": 28572905,
+    "bw_close": 55121810
+   },
+   "printed": {
+    "bw_prev": "584.844,98",
+    "zugang": "10.733,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "44.359,88",
+    "kum_afa_close": "285.729,05",
+    "bw_close": "551.218,10"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A29",
+    "row": 29,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B29"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C29"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E29"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F29"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G29"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H29"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J29"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K29"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 4. Betriebstechnik",
+   "context": [
+    "Maschinen",
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "fields": {
+    "bw_prev": 58484498,
+    "zugang": 1073300,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 4435988,
+    "kum_afa_close": 28572905,
+    "bw_close": 55121810
+   },
+   "printed": {
+    "bw_prev": "584.844,98",
+    "zugang": "10.733,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "44.359,88",
+    "kum_afa_close": "285.729,05",
+    "bw_close": "551.218,10"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A30",
+    "row": 30,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B30"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C30"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E30"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F30"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G30"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H30"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J30"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K30"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0320    Pkw",
+   "acq_date": null,
+   "method": null,
+   "label": "0320    Pkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "fields": {
+    "bw_prev": 101675,
+    "zugang": 1817923,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 177122,
+    "kum_afa_close": 8225796,
+    "bw_close": 1742476
+   },
+   "printed": {
+    "bw_prev": "1.016,75",
+    "zugang": "18.179,23",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "1.771,22",
+    "kum_afa_close": "82.257,96",
+    "bw_close": "17.424,76"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A33",
+    "row": 33,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B33"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C33"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E33"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F33"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G33"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H33"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J33"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K33"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0350    Lkw",
+   "acq_date": null,
+   "method": null,
+   "label": "0350    Lkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "fields": {
+    "bw_prev": 9071317,
+    "zugang": 3838200,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 2254734,
+    "kum_afa_close": 19525867,
+    "bw_close": 10654783
+   },
+   "printed": {
+    "bw_prev": "90.713,17",
+    "zugang": "38.382,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "22.547,34",
+    "kum_afa_close": "195.258,67",
+    "bw_close": "106.547,83"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A34",
+    "row": 34,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B34"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C34"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E34"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F34"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G34"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H34"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J34"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K34"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Pkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "fields": {
+    "bw_prev": 9172992,
+    "zugang": 5656123,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 2431856,
+    "kum_afa_close": 27751663,
+    "bw_close": 12397259
+   },
+   "printed": {
+    "bw_prev": "91.729,92",
+    "zugang": "56.561,23",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "24.318,56",
+    "kum_afa_close": "277.516,63",
+    "bw_close": "123.972,59"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A35",
+    "row": 35,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B35"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C35"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E35"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F35"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G35"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H35"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J35"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K35"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 5. Fuhrpark",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "fields": {
+    "bw_prev": 9172992,
+    "zugang": 5656123,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 2431856,
+    "kum_afa_close": 27751663,
+    "bw_close": 12397259
+   },
+   "printed": {
+    "bw_prev": "91.729,92",
+    "zugang": "56.561,23",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "24.318,56",
+    "kum_afa_close": "277.516,63",
+    "bw_close": "123.972,59"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A36",
+    "row": 36,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B36"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C36"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E36"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F36"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G36"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H36"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J36"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K36"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0400    Betriebsausstattung",
+   "acq_date": null,
+   "method": null,
+   "label": "0400    Betriebsausstattung",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "fields": {
+    "bw_prev": 4967840,
+    "zugang": 1198700,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 1077219,
+    "kum_afa_close": 4420918,
+    "bw_close": 5089321
+   },
+   "printed": {
+    "bw_prev": "49.678,40",
+    "zugang": "11.987,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "10.772,19",
+    "kum_afa_close": "44.209,18",
+    "bw_close": "50.893,21"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A39",
+    "row": 39,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B39"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C39"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E39"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F39"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G39"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H39"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J39"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K39"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Betriebsausstattung",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "fields": {
+    "bw_prev": 4967840,
+    "zugang": 1198700,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 1077219,
+    "kum_afa_close": 4420918,
+    "bw_close": 5089321
+   },
+   "printed": {
+    "bw_prev": "49.678,40",
+    "zugang": "11.987,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "10.772,19",
+    "kum_afa_close": "44.209,18",
+    "bw_close": "50.893,21"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A40",
+    "row": 40,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B40"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C40"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E40"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F40"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G40"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H40"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J40"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K40"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 6. Werkstatt und Lager",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "fields": {
+    "bw_prev": 4967840,
+    "zugang": 1198700,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 1077219,
+    "kum_afa_close": 4420918,
+    "bw_close": 5089321
+   },
+   "printed": {
+    "bw_prev": "49.678,40",
+    "zugang": "11.987,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "10.772,19",
+    "kum_afa_close": "44.209,18",
+    "bw_close": "50.893,21"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A41",
+    "row": 41,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B41"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C41"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E41"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F41"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G41"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H41"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J41"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K41"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0420    Büroeinrichtung",
+   "acq_date": null,
+   "method": null,
+   "label": "0420    Büroeinrichtung",
+   "context": [
+    "Betriebsausstattung",
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung"
+   ],
+   "fields": {
+    "bw_prev": 1066816,
+    "zugang": 629340,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 239068,
+    "kum_afa_close": 1786034,
+    "bw_close": 1457088
+   },
+   "printed": {
+    "bw_prev": "10.668,16",
+    "zugang": "6.293,40",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "2.390,68",
+    "kum_afa_close": "17.860,34",
+    "bw_close": "14.570,88"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A44",
+    "row": 44,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B44"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C44"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E44"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F44"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G44"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H44"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J44"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K44"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Büroeinrichtung",
+   "context": [
+    "Betriebsausstattung",
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung"
+   ],
+   "fields": {
+    "bw_prev": 1066816,
+    "zugang": 629340,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 239068,
+    "kum_afa_close": 1786034,
+    "bw_close": 1457088
+   },
+   "printed": {
+    "bw_prev": "10.668,16",
+    "zugang": "6.293,40",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "2.390,68",
+    "kum_afa_close": "17.860,34",
+    "bw_close": "14.570,88"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A45",
+    "row": 45,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B45"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C45"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E45"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F45"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G45"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H45"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J45"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K45"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0490    EDV-Hardware",
+   "acq_date": null,
+   "method": null,
+   "label": "0490    EDV-Hardware",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "fields": {
+    "bw_prev": 2489880,
+    "zugang": 2579366,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 1412598,
+    "kum_afa_close": 8565078,
+    "bw_close": 3656648
+   },
+   "printed": {
+    "bw_prev": "24.898,80",
+    "zugang": "25.793,66",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "14.125,98",
+    "kum_afa_close": "85.650,78",
+    "bw_close": "36.566,48"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A47",
+    "row": 47,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B47"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C47"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E47"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F47"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G47"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H47"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J47"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K47"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe EDV-Hardware",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "fields": {
+    "bw_prev": 2489880,
+    "zugang": 2579366,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 1412598,
+    "kum_afa_close": 8565078,
+    "bw_close": 3656648
+   },
+   "printed": {
+    "bw_prev": "24.898,80",
+    "zugang": "25.793,66",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "14.125,98",
+    "kum_afa_close": "85.650,78",
+    "bw_close": "36.566,48"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A48",
+    "row": 48,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B48"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C48"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E48"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F48"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G48"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H48"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J48"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K48"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 7. Büro und Verwaltung",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "fields": {
+    "bw_prev": 3556696,
+    "zugang": 3208706,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 1651666,
+    "kum_afa_close": 10351112,
+    "bw_close": 5113736
+   },
+   "printed": {
+    "bw_prev": "35.566,96",
+    "zugang": "32.087,06",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "16.516,66",
+    "kum_afa_close": "103.511,12",
+    "bw_close": "51.137,36"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A49",
+    "row": 49,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B49"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C49"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E49"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F49"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G49"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H49"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J49"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K49"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0480    Geringwertige Wirtschaftsgüter",
+   "acq_date": null,
+   "method": null,
+   "label": "0480    Geringwertige Wirtschaftsgüter",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "fields": {
+    "bw_prev": 0,
+    "zugang": 129700,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 129700,
+    "kum_afa_close": 255418,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "0,00",
+    "zugang": "1.297,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "1.297,00",
+    "kum_afa_close": "2.554,18",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A52",
+    "row": 52,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B52"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C52"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E52"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F52"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G52"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H52"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J52"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K52"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe GWG",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "fields": {
+    "bw_prev": 0,
+    "zugang": 129700,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 129700,
+    "kum_afa_close": 255418,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "0,00",
+    "zugang": "1.297,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "1.297,00",
+    "kum_afa_close": "2.554,18",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A53",
+    "row": 53,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B53"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C53"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E53"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F53"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G53"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H53"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J53"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K53"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "fields": {
+    "bw_prev": 0,
+    "zugang": 129700,
+    "abgang_bw": 0,
+    "umbuchung": 0,
+    "zuschreibung": 0,
+    "afa_gj": 129700,
+    "kum_afa_close": 255418,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "0,00",
+    "zugang": "1.297,00",
+    "abgang_bw": "0,00",
+    "umbuchung": "0,00",
+    "zuschreibung": "0,00",
+    "afa_gj": "1.297,00",
+    "kum_afa_close": "2.554,18",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A54",
+    "row": 54,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B54"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C54"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E54"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F54"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G54"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H54"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J54"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K54"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "0120    Anlagen im Bau",
+   "acq_date": null,
+   "method": null,
+   "label": "0120    Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "fields": {
+    "bw_prev": 29420837,
+    "zugang": 16233987,
+    "abgang_bw": 0,
+    "umbuchung": -45654824,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "294.208,37",
+    "zugang": "162.339,87",
+    "abgang_bw": "0,00",
+    "umbuchung": "-456.548,24",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A57",
+    "row": 57,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B57"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C57"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E57"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F57"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G57"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H57"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J57"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K57"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "fields": {
+    "bw_prev": 29420837,
+    "zugang": 16233987,
+    "abgang_bw": 0,
+    "umbuchung": -45654824,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "294.208,37",
+    "zugang": "162.339,87",
+    "abgang_bw": "0,00",
+    "umbuchung": "-456.548,24",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A58",
+    "row": 58,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B58"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C58"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E58"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F58"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G58"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H58"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J58"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K58"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe 9. Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "fields": {
+    "bw_prev": 29420837,
+    "zugang": 16233987,
+    "abgang_bw": 0,
+    "umbuchung": -45654824,
+    "zuschreibung": 0,
+    "afa_gj": 0,
+    "kum_afa_close": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "bw_prev": "294.208,37",
+    "zugang": "162.339,87",
+    "abgang_bw": "0,00",
+    "umbuchung": "-456.548,24",
+    "zuschreibung": "0,00",
+    "afa_gj": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "sheet": "Netto-Anlagespiegel",
+    "cell": "A59",
+    "row": 59,
+    "fields": {
+     "bw_prev": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "B59"
+     },
+     "zugang": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "C59"
+     },
+     "abgang_bw": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "E59"
+     },
+     "umbuchung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "F59"
+     },
+     "zuschreibung": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "G59"
+     },
+     "afa_gj": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "H59"
+     },
+     "kum_afa_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "J59"
+     },
+     "bw_close": {
+      "sheet": "Netto-Anlagespiegel",
+      "cell": "K59"
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": []
+}

@@ -1,0 +1,5891 @@
+{
+ "meta": {
+  "doc_id": "f00_demo_02",
+  "source": "../A3-Hackathon-Corpus/f00_demo/f00_demo_02.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [
+     1,
+     2
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "perfect"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27001",
+   "sub_no": "",
+   "name": "Office-Lizenzen Typ S146",
+   "acq_date": null,
+   "method": null,
+   "label": "27001 Office-Lizenzen Typ S146",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "40.413,97",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "40.413,97",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     104.38,
+     808.94,
+     111.38
+    ],
+    "frame_band": [
+     104.38,
+     111.38
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       104.38,
+       298.94,
+       111.38
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       104.38,
+       349.94,
+       111.38
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       104.38,
+       400.94,
+       111.38
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       104.38,
+       502.94,
+       111.38
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       104.38,
+       553.94,
+       111.38
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       104.38,
+       604.94,
+       111.38
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       104.38,
+       655.94,
+       111.38
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       104.38,
+       706.94,
+       111.38
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       104.38,
+       757.94,
+       111.38
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       795.32,
+       104.38,
+       808.94,
+       111.38
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r2",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27002",
+   "sub_no": "",
+   "name": "ERP-Lizenz Halle 4",
+   "acq_date": null,
+   "method": null,
+   "label": "27002 ERP-Lizenz Halle 4",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "12.486,73",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "12.486,73",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     113.83,
+     808.94,
+     120.83
+    ],
+    "frame_band": [
+     113.83,
+     120.83
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       113.83,
+       298.94,
+       120.83
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       113.83,
+       349.94,
+       120.83
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       113.83,
+       400.94,
+       120.83
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       113.83,
+       502.94,
+       120.83
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       113.83,
+       553.94,
+       120.83
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       113.83,
+       604.94,
+       120.83
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       113.83,
+       655.94,
+       120.83
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       113.83,
+       706.94,
+       120.83
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       113.83,
+       757.94,
+       120.83
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       795.32,
+       113.83,
+       808.94,
+       120.83
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27003",
+   "sub_no": "",
+   "name": "Zeiterfassung Software",
+   "acq_date": null,
+   "method": null,
+   "label": "27003 Zeiterfassung Software",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "58.507,49",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "58.507,49",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     123.28,
+     808.94,
+     130.28
+    ],
+    "frame_band": [
+     123.28,
+     130.28
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       123.28,
+       298.94,
+       130.28
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       123.28,
+       349.94,
+       130.28
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       123.28,
+       400.94,
+       130.28
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       123.28,
+       502.94,
+       130.28
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       123.28,
+       553.94,
+       130.28
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       123.28,
+       604.94,
+       130.28
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       123.28,
+       655.94,
+       130.28
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       123.28,
+       706.94,
+       130.28
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       123.28,
+       757.94,
+       130.28
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       795.32,
+       123.28,
+       808.94,
+       130.28
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27004",
+   "sub_no": "",
+   "name": "Warenwirtschaft Modul Lager Halle 2",
+   "acq_date": null,
+   "method": null,
+   "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "16.196,80",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "16.196,80",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     132.73,
+     808.94,
+     139.73
+    ],
+    "frame_band": [
+     132.73,
+     139.73
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       132.73,
+       298.94,
+       139.73
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       132.73,
+       349.94,
+       139.73
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       132.73,
+       400.94,
+       139.73
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       132.73,
+       502.94,
+       139.73
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       132.73,
+       553.94,
+       139.73
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       132.73,
+       604.94,
+       139.73
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       132.73,
+       655.94,
+       139.73
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       132.73,
+       706.94,
+       139.73
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       132.73,
+       757.94,
+       139.73
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       795.32,
+       132.73,
+       808.94,
+       139.73
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r5",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27005",
+   "sub_no": "",
+   "name": "CAD-Software Lizenz Nr. 5",
+   "acq_date": null,
+   "method": null,
+   "label": "27005 CAD-Software Lizenz Nr. 5",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "5.975,00",
+    "umbuchung": "",
+    "ahk_open": "1.593,33",
+    "kum_afa_close": "298,75",
+    "afa_abgang": "1.892,08",
+    "zuschreibung": "",
+    "ahk_close": "",
+    "bw_close": "",
+    "bw_prev": "4.381,67"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     142.18,
+     808.94,
+     149.18
+    ],
+    "frame_band": [
+     142.18,
+     149.18
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       142.18,
+       298.94,
+       149.18
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       322.7,
+       142.18,
+       349.94,
+       149.18
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       142.18,
+       400.94,
+       149.18
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       475.7,
+       142.18,
+       502.94,
+       149.18
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       142.18,
+       553.94,
+       149.18
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       142.18,
+       604.94,
+       149.18
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       142.18,
+       655.94,
+       149.18
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       671.92,
+       142.18,
+       706.94,
+       149.18
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       142.18,
+       757.94,
+       149.18
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       781.7,
+       142.18,
+       808.94,
+       149.18
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "27006",
+   "sub_no": "",
+   "name": "Warenwirtschaft Modul Lager Typ X934",
+   "acq_date": null,
+   "method": null,
+   "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "8.286,00",
+    "umbuchung": "",
+    "ahk_open": "920,67",
+    "kum_afa_close": "690,50",
+    "afa_abgang": "1.611,17",
+    "zuschreibung": "",
+    "ahk_close": "",
+    "bw_close": "",
+    "bw_prev": "7.365,33"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     151.63,
+     808.94,
+     158.63
+    ],
+    "frame_band": [
+     151.63,
+     158.63
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       151.63,
+       298.94,
+       158.63
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       322.7,
+       151.63,
+       349.94,
+       158.63
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       151.63,
+       400.94,
+       158.63
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       481.54,
+       151.63,
+       502.94,
+       158.63
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       151.63,
+       553.94,
+       158.63
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       151.63,
+       604.94,
+       158.63
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       151.63,
+       655.94,
+       158.63
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       671.92,
+       151.63,
+       706.94,
+       158.63
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       151.63,
+       757.94,
+       158.63
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       781.7,
+       151.63,
+       808.94,
+       158.63
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r7",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe EDV-Software",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "14.261,00",
+    "umbuchung": "",
+    "ahk_open": "130.118,99",
+    "kum_afa_close": "989,25",
+    "afa_abgang": "3.503,25",
+    "zuschreibung": "",
+    "ahk_close": "127.604,99",
+    "bw_close": "4,00",
+    "bw_prev": "11.751,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.94,
+     161.08,
+     808.94,
+     168.08
+    ],
+    "frame_band": [
+     161.08,
+     168.08
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       161.08,
+       298.94,
+       168.08
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       161.08,
+       349.94,
+       168.08
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       161.08,
+       400.94,
+       168.08
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       161.08,
+       502.94,
+       168.08
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       161.08,
+       553.94,
+       168.08
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       161.08,
+       604.94,
+       168.08
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       161.08,
+       655.94,
+       168.08
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       671.92,
+       161.08,
+       706.94,
+       168.08
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       161.08,
+       757.94,
+       168.08
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       777.81,
+       161.08,
+       808.94,
+       168.08
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r8",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210001",
+   "sub_no": "",
+   "name": "Bandsäge Typ K481",
+   "acq_date": null,
+   "method": null,
+   "label": "210001 Bandsäge Typ K481",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "43.398,00",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "43.398,00",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     189.43,
+     808.94,
+     196.43
+    ],
+    "frame_band": [
+     189.43,
+     196.43
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       189.43,
+       298.94,
+       196.43
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       189.43,
+       349.94,
+       196.43
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       189.43,
+       400.94,
+       196.43
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       189.43,
+       502.94,
+       196.43
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       189.43,
+       553.94,
+       196.43
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       189.43,
+       604.94,
+       196.43
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       189.43,
+       655.94,
+       196.43
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       189.43,
+       706.94,
+       196.43
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       189.43,
+       757.94,
+       196.43
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       795.32,
+       189.43,
+       808.94,
+       196.43
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r9",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210002",
+   "sub_no": "",
+   "name": "Teilewaschanlage",
+   "acq_date": null,
+   "method": null,
+   "label": "210002 Teilewaschanlage",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "4.076,11",
+    "kum_afa_close": "998,23",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "5.074,34",
+    "bw_close": "7.902,66",
+    "bw_prev": "8.900,89"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     198.88,
+     808.94,
+     205.88
+    ],
+    "frame_band": [
+     198.88,
+     205.88
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       198.88,
+       298.94,
+       205.88
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       198.88,
+       349.94,
+       205.88
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       198.88,
+       400.94,
+       205.88
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       475.7,
+       198.88,
+       502.94,
+       205.88
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       198.88,
+       553.94,
+       205.88
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       198.88,
+       604.94,
+       205.88
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       198.88,
+       655.94,
+       205.88
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       679.7,
+       198.88,
+       706.94,
+       205.88
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       730.7,
+       198.88,
+       757.94,
+       205.88
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       781.7,
+       198.88,
+       808.94,
+       205.88
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r10",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210003",
+   "sub_no": "",
+   "name": "CNC-Drehmaschine Halle 4",
+   "acq_date": null,
+   "method": null,
+   "label": "210003 CNC-Drehmaschine Halle 4",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "3.763,22",
+    "kum_afa_close": "3.010,57",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "6.773,79",
+    "bw_close": "38.384,82",
+    "bw_prev": "41.395,39"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     208.33,
+     808.94,
+     215.33
+    ],
+    "frame_band": [
+     208.33,
+     215.33
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       208.33,
+       298.94,
+       215.33
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       208.33,
+       349.94,
+       215.33
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       208.33,
+       400.94,
+       215.33
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       475.7,
+       208.33,
+       502.94,
+       215.33
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       526.7,
+       208.33,
+       553.94,
+       215.33
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       208.33,
+       604.94,
+       215.33
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       208.33,
+       655.94,
+       215.33
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       679.7,
+       208.33,
+       706.94,
+       215.33
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       726.81,
+       208.33,
+       757.94,
+       215.33
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       777.81,
+       208.33,
+       808.94,
+       215.33
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210004",
+   "sub_no": "",
+   "name": "CNC-Fräszentrum 5-Achs",
+   "acq_date": null,
+   "method": null,
+   "label": "210004 CNC-Fräszentrum 5-Achs",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "19.425,96",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "",
+    "kum_afa_close": "1.295,06",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "1.295,06",
+    "bw_close": "18.130,90",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     217.78,
+     757.94,
+     224.78
+    ],
+    "frame_band": [
+     217.78,
+     224.78
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       267.81,
+       217.78,
+       298.94,
+       224.78
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       217.78,
+       349.94,
+       224.78
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       217.78,
+       400.94,
+       224.78
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       217.78,
+       502.94,
+       224.78
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       526.7,
+       217.78,
+       553.94,
+       224.78
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       217.78,
+       604.94,
+       224.78
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       217.78,
+       655.94,
+       224.78
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       679.7,
+       217.78,
+       706.94,
+       224.78
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       726.81,
+       217.78,
+       757.94,
+       224.78
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       217.78,
+       808.94,
+       224.78
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r12",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210005",
+   "sub_no": "",
+   "name": "Spritzgießmaschine Nr. 13",
+   "acq_date": null,
+   "method": null,
+   "label": "210005 Spritzgießmaschine Nr. 13",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "285.481,89",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "",
+    "kum_afa_close": "14.868,85",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "14.868,85",
+    "bw_close": "270.613,04",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     227.23,
+     757.94,
+     234.23
+    ],
+    "frame_band": [
+     227.23,
+     234.23
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       227.23,
+       298.94,
+       234.23
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       227.23,
+       349.94,
+       234.23
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       227.23,
+       400.94,
+       234.23
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       227.23,
+       502.94,
+       234.23
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       227.23,
+       553.94,
+       234.23
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       227.23,
+       604.94,
+       234.23
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       227.23,
+       655.94,
+       234.23
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       227.23,
+       706.94,
+       234.23
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       227.23,
+       757.94,
+       234.23
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       227.23,
+       808.94,
+       234.23
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210006",
+   "sub_no": "",
+   "name": "Flachschleifmaschine Halle 1",
+   "acq_date": null,
+   "method": null,
+   "label": "210006 Flachschleifmaschine Halle 1",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "23.320,10",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "",
+    "kum_afa_close": "777,34",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "777,34",
+    "bw_close": "22.542,76",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     236.68,
+     757.94,
+     243.68
+    ],
+    "frame_band": [
+     236.68,
+     243.68
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       267.81,
+       236.68,
+       298.94,
+       243.68
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       236.68,
+       349.94,
+       243.68
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       236.68,
+       400.94,
+       243.68
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       236.68,
+       502.94,
+       243.68
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       236.68,
+       553.94,
+       243.68
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       236.68,
+       604.94,
+       243.68
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       236.68,
+       655.94,
+       243.68
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       685.54,
+       236.68,
+       706.94,
+       243.68
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       726.81,
+       236.68,
+       757.94,
+       243.68
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       236.68,
+       808.94,
+       243.68
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "210007",
+   "sub_no": "",
+   "name": "Flachschleifmaschine",
+   "acq_date": null,
+   "method": null,
+   "label": "210007 Flachschleifmaschine",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "314.602,06",
+    "ahk_open": "",
+    "kum_afa_close": "6.554,21",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "6.554,21",
+    "bw_close": "308.047,85",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     246.13,
+     757.94,
+     253.13
+    ],
+    "frame_band": [
+     246.13,
+     253.13
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       246.13,
+       298.94,
+       253.13
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       246.13,
+       349.94,
+       253.13
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       365.92,
+       246.13,
+       400.94,
+       253.13
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       246.13,
+       502.94,
+       253.13
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       526.7,
+       246.13,
+       553.94,
+       253.13
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       246.13,
+       604.94,
+       253.13
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       246.13,
+       655.94,
+       253.13
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       679.7,
+       246.13,
+       706.94,
+       253.13
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       246.13,
+       757.94,
+       253.13
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       246.13,
+       808.94,
+       253.13
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r15",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Maschinen",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "328.227,95",
+    "abgang": "",
+    "umbuchung": "314.602,06",
+    "ahk_open": "51.237,33",
+    "kum_afa_close": "27.504,26",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "78.741,59",
+    "bw_close": "665.623,03",
+    "bw_prev": "50.297,28"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.94,
+     255.58,
+     808.94,
+     262.58
+    ],
+    "frame_band": [
+     255.58,
+     262.58
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       255.58,
+       298.94,
+       262.58
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       255.58,
+       349.94,
+       262.58
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       365.92,
+       255.58,
+       400.94,
+       262.58
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       255.58,
+       502.94,
+       262.58
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       255.58,
+       553.94,
+       262.58
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       255.58,
+       604.94,
+       262.58
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       255.58,
+       655.94,
+       262.58
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       255.58,
+       706.94,
+       262.58
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       255.58,
+       757.94,
+       262.58
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       777.81,
+       255.58,
+       808.94,
+       262.58
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320001",
+   "sub_no": "",
+   "name": "Pkw Kompaktklasse Typ T708",
+   "acq_date": null,
+   "method": null,
+   "label": "320001 Pkw Kompaktklasse Typ T708",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "18.490,61",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "18.490,61",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     283.93,
+     808.94,
+     290.93
+    ],
+    "frame_band": [
+     283.93,
+     290.93
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       283.93,
+       298.94,
+       290.93
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       283.93,
+       349.94,
+       290.93
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       283.93,
+       400.94,
+       290.93
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       283.93,
+       502.94,
+       290.93
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       283.93,
+       553.94,
+       290.93
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       283.93,
+       604.94,
+       290.93
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       283.93,
+       655.94,
+       290.93
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       283.93,
+       706.94,
+       290.93
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       283.93,
+       757.94,
+       290.93
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       795.32,
+       283.93,
+       808.94,
+       290.93
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r17",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320002",
+   "sub_no": "",
+   "name": "Kleintransporter",
+   "acq_date": null,
+   "method": null,
+   "label": "320002 Kleintransporter",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "53.708,00",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "53.708,00",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     293.38,
+     808.94,
+     300.38
+    ],
+    "frame_band": [
+     293.38,
+     300.38
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       293.38,
+       298.94,
+       300.38
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       293.38,
+       349.94,
+       300.38
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       293.38,
+       400.94,
+       300.38
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       293.38,
+       502.94,
+       300.38
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       293.38,
+       553.94,
+       300.38
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       293.38,
+       604.94,
+       300.38
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       293.38,
+       655.94,
+       300.38
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       293.38,
+       706.94,
+       300.38
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       293.38,
+       757.94,
+       300.38
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       795.32,
+       293.38,
+       808.94,
+       300.38
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r18",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320003",
+   "sub_no": "",
+   "name": "Pkw Kombi Diesel Nr. 9",
+   "acq_date": null,
+   "method": null,
+   "label": "320003 Pkw Kombi Diesel Nr. 9",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "49.431,67",
+    "kum_afa_close": "5.322,41",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "54.754,08",
+    "bw_close": "1,00",
+    "bw_prev": "5.323,41"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     302.83,
+     808.94,
+     309.83
+    ],
+    "frame_band": [
+     302.83,
+     309.83
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       302.83,
+       298.94,
+       309.83
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       302.83,
+       349.94,
+       309.83
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       302.83,
+       400.94,
+       309.83
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       302.83,
+       502.94,
+       309.83
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       526.7,
+       302.83,
+       553.94,
+       309.83
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       302.83,
+       604.94,
+       309.83
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       302.83,
+       655.94,
+       309.83
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       302.83,
+       706.94,
+       309.83
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       302.83,
+       757.94,
+       309.83
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       781.7,
+       302.83,
+       808.94,
+       309.83
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r19",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320004",
+   "sub_no": "",
+   "name": "Pkw Kompaktklasse",
+   "acq_date": null,
+   "method": null,
+   "label": "320004 Pkw Kompaktklasse",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "30.121,63",
+    "kum_afa_close": "8.406,03",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "38.527,66",
+    "bw_close": "11.908,55",
+    "bw_prev": "20.314,58"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     312.28,
+     808.94,
+     319.28
+    ],
+    "frame_band": [
+     312.28,
+     319.28
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       312.28,
+       298.94,
+       319.28
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       312.28,
+       349.94,
+       319.28
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       312.28,
+       400.94,
+       319.28
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       312.28,
+       502.94,
+       319.28
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       526.7,
+       312.28,
+       553.94,
+       319.28
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       312.28,
+       604.94,
+       319.28
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       312.28,
+       655.94,
+       319.28
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       312.28,
+       706.94,
+       319.28
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       726.81,
+       312.28,
+       757.94,
+       319.28
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       777.81,
+       312.28,
+       808.94,
+       319.28
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320005",
+   "sub_no": "",
+   "name": "Pkw Kombi Diesel Nr. 35",
+   "acq_date": null,
+   "method": null,
+   "label": "320005 Pkw Kombi Diesel Nr. 35",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "5.919,76",
+    "kum_afa_close": "10.148,17",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "16.067,93",
+    "bw_close": "44.821,07",
+    "bw_prev": "54.969,24"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     321.73,
+     808.94,
+     328.73
+    ],
+    "frame_band": [
+     321.73,
+     328.73
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       321.73,
+       298.94,
+       328.73
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       321.73,
+       349.94,
+       328.73
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       321.73,
+       400.94,
+       328.73
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       475.7,
+       321.73,
+       502.94,
+       328.73
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       321.73,
+       553.94,
+       328.73
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       321.73,
+       604.94,
+       328.73
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       321.73,
+       655.94,
+       328.73
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       321.73,
+       706.94,
+       328.73
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       726.81,
+       321.73,
+       757.94,
+       328.73
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       777.81,
+       321.73,
+       808.94,
+       328.73
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r21",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "320006",
+   "sub_no": "",
+   "name": "Pkw Mittelklasse Hybrid Nr. 7",
+   "acq_date": null,
+   "method": null,
+   "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "55.254,13",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "",
+    "kum_afa_close": "2.302,26",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "2.302,26",
+    "bw_close": "52.951,87",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     331.18,
+     757.94,
+     338.18
+    ],
+    "frame_band": [
+     331.18,
+     338.18
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       267.81,
+       331.18,
+       298.94,
+       338.18
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       331.18,
+       349.94,
+       338.18
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       331.18,
+       400.94,
+       338.18
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       331.18,
+       502.94,
+       338.18
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       526.7,
+       331.18,
+       553.94,
+       338.18
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       331.18,
+       604.94,
+       338.18
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       331.18,
+       655.94,
+       338.18
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       679.7,
+       331.18,
+       706.94,
+       338.18
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       726.81,
+       331.18,
+       757.94,
+       338.18
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       331.18,
+       808.94,
+       338.18
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r22",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Pkw",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "55.254,13",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "157.671,67",
+    "kum_afa_close": "26.178,87",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "183.850,54",
+    "bw_close": "109.684,49",
+    "bw_prev": "80.609,23"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.94,
+     340.63,
+     808.94,
+     347.63
+    ],
+    "frame_band": [
+     340.63,
+     347.63
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       267.81,
+       340.63,
+       298.94,
+       347.63
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       340.63,
+       349.94,
+       347.63
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       340.63,
+       400.94,
+       347.63
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       340.63,
+       502.94,
+       347.63
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       340.63,
+       553.94,
+       347.63
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       340.63,
+       604.94,
+       347.63
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       340.63,
+       655.94,
+       347.63
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       671.92,
+       340.63,
+       706.94,
+       347.63
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       340.63,
+       757.94,
+       347.63
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       777.81,
+       340.63,
+       808.94,
+       347.63
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420001",
+   "sub_no": "",
+   "name": "Aktenschrank",
+   "acq_date": null,
+   "method": null,
+   "label": "420001 Aktenschrank",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "602,00",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "602,00",
+    "bw_close": "1,00",
+    "bw_prev": "1,00"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     368.98,
+     808.94,
+     375.98
+    ],
+    "frame_band": [
+     368.98,
+     375.98
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       368.98,
+       298.94,
+       375.98
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       368.98,
+       349.94,
+       375.98
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       368.98,
+       400.94,
+       375.98
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       481.54,
+       368.98,
+       502.94,
+       375.98
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       368.98,
+       553.94,
+       375.98
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       368.98,
+       604.94,
+       375.98
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       368.98,
+       655.94,
+       375.98
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       685.54,
+       368.98,
+       706.94,
+       375.98
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       744.32,
+       368.98,
+       757.94,
+       375.98
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       795.32,
+       368.98,
+       808.94,
+       375.98
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r24",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420002",
+   "sub_no": "",
+   "name": "Bürostuhl ergonomisch",
+   "acq_date": null,
+   "method": null,
+   "label": "420002 Bürostuhl ergonomisch",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "14.484,99",
+    "kum_afa_close": "1.720,99",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "16.205,98",
+    "bw_close": "6.166,88",
+    "bw_prev": "7.887,87"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     378.43,
+     808.94,
+     385.43
+    ],
+    "frame_band": [
+     378.43,
+     385.43
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       378.43,
+       298.94,
+       385.43
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       378.43,
+       349.94,
+       385.43
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       378.43,
+       400.94,
+       385.43
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       378.43,
+       502.94,
+       385.43
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       526.7,
+       378.43,
+       553.94,
+       385.43
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       378.43,
+       604.94,
+       385.43
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       378.43,
+       655.94,
+       385.43
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       378.43,
+       706.94,
+       385.43
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       730.7,
+       378.43,
+       757.94,
+       385.43
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       781.7,
+       378.43,
+       808.94,
+       385.43
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r25",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "420003",
+   "sub_no": "",
+   "name": "Rollcontainer Typ F29",
+   "acq_date": null,
+   "method": null,
+   "label": "420003 Rollcontainer Typ F29",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "1.504,27",
+    "kum_afa_close": "316,69",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "1.820,96",
+    "bw_close": "2.296,00",
+    "bw_prev": "2.612,69"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     387.88,
+     808.94,
+     394.88
+    ],
+    "frame_band": [
+     387.88,
+     394.88
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       387.88,
+       298.94,
+       394.88
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       387.88,
+       349.94,
+       394.88
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       387.88,
+       400.94,
+       394.88
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       475.7,
+       387.88,
+       502.94,
+       394.88
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       387.88,
+       553.94,
+       394.88
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       387.88,
+       604.94,
+       394.88
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       387.88,
+       655.94,
+       394.88
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       679.7,
+       387.88,
+       706.94,
+       394.88
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       730.7,
+       387.88,
+       757.94,
+       394.88
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       781.7,
+       387.88,
+       808.94,
+       394.88
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r26",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Büroeinrichtung",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "16.591,26",
+    "kum_afa_close": "2.037,68",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "18.628,94",
+    "bw_close": "8.463,88",
+    "bw_prev": "10.501,56"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.94,
+     397.33,
+     808.94,
+     404.33
+    ],
+    "frame_band": [
+     397.33,
+     404.33
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       397.33,
+       298.94,
+       404.33
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       397.33,
+       349.94,
+       404.33
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       397.33,
+       400.94,
+       404.33
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       471.81,
+       397.33,
+       502.94,
+       404.33
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       526.7,
+       397.33,
+       553.94,
+       404.33
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       397.33,
+       604.94,
+       404.33
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       397.33,
+       655.94,
+       404.33
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       675.81,
+       397.33,
+       706.94,
+       404.33
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       730.7,
+       397.33,
+       757.94,
+       404.33
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       777.81,
+       397.33,
+       808.94,
+       404.33
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r27",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480001",
+   "sub_no": "",
+   "name": "Aktenvernichter",
+   "acq_date": null,
+   "method": null,
+   "label": "480001 Aktenvernichter",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "445,76",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "445,76",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     425.68,
+     706.94,
+     432.68
+    ],
+    "frame_band": [
+     425.68,
+     432.68
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       425.68,
+       298.94,
+       432.68
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       425.68,
+       349.94,
+       432.68
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       425.68,
+       400.94,
+       432.68
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       481.54,
+       425.68,
+       502.94,
+       432.68
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       425.68,
+       553.94,
+       432.68
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       425.68,
+       604.94,
+       432.68
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       425.68,
+       655.94,
+       432.68
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       685.54,
+       425.68,
+       706.94,
+       432.68
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       425.68,
+       757.94,
+       432.68
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       425.68,
+       808.94,
+       432.68
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r28",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480002",
+   "sub_no": "",
+   "name": "Stehleuchte",
+   "acq_date": null,
+   "method": null,
+   "label": "480002 Stehleuchte",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "266,00",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "266,00",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     435.13,
+     706.94,
+     442.13
+    ],
+    "frame_band": [
+     435.13,
+     442.13
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       435.13,
+       298.94,
+       442.13
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       435.13,
+       349.94,
+       442.13
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       435.13,
+       400.94,
+       442.13
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       481.54,
+       435.13,
+       502.94,
+       442.13
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       435.13,
+       553.94,
+       442.13
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       435.13,
+       604.94,
+       442.13
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       435.13,
+       655.94,
+       442.13
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       685.54,
+       435.13,
+       706.94,
+       442.13
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       435.13,
+       757.94,
+       442.13
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       435.13,
+       808.94,
+       442.13
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r29",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480003",
+   "sub_no": "",
+   "name": "Stehleuchte",
+   "acq_date": null,
+   "method": null,
+   "label": "480003 Stehleuchte",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "585,00",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "585,00",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     444.58,
+     706.94,
+     451.58
+    ],
+    "frame_band": [
+     444.58,
+     451.58
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       444.58,
+       298.94,
+       451.58
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       444.58,
+       349.94,
+       451.58
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       444.58,
+       400.94,
+       451.58
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       481.54,
+       444.58,
+       502.94,
+       451.58
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       444.58,
+       553.94,
+       451.58
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       444.58,
+       604.94,
+       451.58
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       444.58,
+       655.94,
+       451.58
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       685.54,
+       444.58,
+       706.94,
+       451.58
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       444.58,
+       757.94,
+       451.58
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       444.58,
+       808.94,
+       451.58
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r30",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480004",
+   "sub_no": "",
+   "name": "Messschieber digital",
+   "acq_date": null,
+   "method": null,
+   "label": "480004 Messschieber digital",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "687,02",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "687,02",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     454.03,
+     706.94,
+     461.03
+    ],
+    "frame_band": [
+     454.03,
+     461.03
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       263.92,
+       454.03,
+       298.94,
+       461.03
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       454.03,
+       349.94,
+       461.03
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       454.03,
+       400.94,
+       461.03
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       481.54,
+       454.03,
+       502.94,
+       461.03
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       454.03,
+       553.94,
+       461.03
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       454.03,
+       604.94,
+       461.03
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       454.03,
+       655.94,
+       461.03
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       685.54,
+       454.03,
+       706.94,
+       461.03
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       454.03,
+       757.94,
+       461.03
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       454.03,
+       808.94,
+       461.03
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480005",
+   "sub_no": "",
+   "name": "Akkuschrauber",
+   "acq_date": null,
+   "method": null,
+   "label": "480005 Akkuschrauber",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "422,63",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "",
+    "kum_afa_close": "422,63",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "422,63",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     463.48,
+     706.94,
+     470.48
+    ],
+    "frame_band": [
+     463.48,
+     470.48
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       277.54,
+       463.48,
+       298.94,
+       470.48
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       463.48,
+       349.94,
+       470.48
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       463.48,
+       400.94,
+       470.48
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       463.48,
+       502.94,
+       470.48
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       463.48,
+       553.94,
+       470.48
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       463.48,
+       604.94,
+       470.48
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       463.48,
+       655.94,
+       470.48
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       685.54,
+       463.48,
+       706.94,
+       470.48
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       463.48,
+       757.94,
+       470.48
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       463.48,
+       808.94,
+       470.48
+      ]
+     }
+    }
+   },
+   "flags": {
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r32",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "480006",
+   "sub_no": "",
+   "name": "Messschieber digital",
+   "acq_date": null,
+   "method": null,
+   "label": "480006 Messschieber digital",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "407,43",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "",
+    "kum_afa_close": "407,43",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "407,43",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     472.93,
+     706.94,
+     479.93
+    ],
+    "frame_band": [
+     472.93,
+     479.93
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       277.54,
+       472.93,
+       298.94,
+       479.93
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       472.93,
+       349.94,
+       479.93
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       472.93,
+       400.94,
+       479.93
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       472.93,
+       502.94,
+       479.93
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       472.93,
+       553.94,
+       479.93
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       472.93,
+       604.94,
+       479.93
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       472.93,
+       655.94,
+       479.93
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       685.54,
+       472.93,
+       706.94,
+       479.93
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       472.93,
+       757.94,
+       479.93
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       472.93,
+       808.94,
+       479.93
+      ]
+     }
+    }
+   },
+   "flags": {
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r33",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Geringwertige Wirtschaftsgüter",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "830,06",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "1.983,78",
+    "kum_afa_close": "830,06",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "2.813,84",
+    "bw_close": "",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.94,
+     482.38,
+     706.94,
+     489.38
+    ],
+    "frame_band": [
+     482.38,
+     489.38
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       277.54,
+       482.38,
+       298.94,
+       489.38
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       482.38,
+       349.94,
+       489.38
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       482.38,
+       400.94,
+       489.38
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       475.7,
+       482.38,
+       502.94,
+       489.38
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       532.54,
+       482.38,
+       553.94,
+       489.38
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       482.38,
+       604.94,
+       489.38
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       482.38,
+       655.94,
+       489.38
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       679.7,
+       482.38,
+       706.94,
+       489.38
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       482.38,
+       757.94,
+       489.38
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       482.38,
+       808.94,
+       489.38
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r34",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "120001",
+   "sub_no": "",
+   "name": "AiB Flachschleifmaschine",
+   "acq_date": null,
+   "method": null,
+   "label": "120001 AiB Flachschleifmaschine",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "41.005,00",
+    "abgang": "",
+    "umbuchung": "-314.602,06",
+    "ahk_open": "",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "",
+    "bw_close": "",
+    "bw_prev": "273.597,06"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     510.73,
+     808.94,
+     517.73
+    ],
+    "frame_band": [
+     510.73,
+     517.73
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       267.81,
+       510.73,
+       298.94,
+       517.73
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       510.73,
+       349.94,
+       517.73
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       510.73,
+       400.94,
+       517.73
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       510.73,
+       502.94,
+       517.73
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       510.73,
+       553.94,
+       517.73
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       510.73,
+       604.94,
+       517.73
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       510.73,
+       655.94,
+       517.73
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       671.92,
+       510.73,
+       706.94,
+       517.73
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       722.92,
+       510.73,
+       757.94,
+       517.73
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       510.73,
+       808.94,
+       517.73
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r35",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "120002",
+   "sub_no": "",
+   "name": "Anlagen im Bau Halle 3",
+   "acq_date": null,
+   "method": null,
+   "label": "120002 Anlagen im Bau Halle 3",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "31.649,00",
+    "abgang": "",
+    "umbuchung": "",
+    "ahk_open": "",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "",
+    "bw_close": "31.649,00",
+    "bw_prev": ""
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     32.94,
+     520.18,
+     757.94,
+     527.18
+    ],
+    "frame_band": [
+     520.18,
+     527.18
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       267.81,
+       520.18,
+       298.94,
+       527.18
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       520.18,
+       349.94,
+       527.18
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       520.18,
+       400.94,
+       527.18
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       520.18,
+       502.94,
+       527.18
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       520.18,
+       553.94,
+       527.18
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       520.18,
+       604.94,
+       527.18
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       520.18,
+       655.94,
+       527.18
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       671.92,
+       520.18,
+       706.94,
+       527.18
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       726.81,
+       520.18,
+       757.94,
+       527.18
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       520.18,
+       808.94,
+       527.18
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r36",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "72.654,00",
+    "abgang": "",
+    "umbuchung": "-314.602,06",
+    "ahk_open": "",
+    "kum_afa_close": "",
+    "afa_abgang": "",
+    "zuschreibung": "",
+    "ahk_close": "",
+    "bw_close": "31.649,00",
+    "bw_prev": "273.597,06"
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.94,
+     529.63,
+     808.94,
+     536.63
+    ],
+    "frame_band": [
+     529.63,
+     536.63
+    ],
+    "fields": {
+     "zugang": {
+      "page": 1,
+      "bbox": [
+       267.81,
+       529.63,
+       298.94,
+       536.63
+      ]
+     },
+     "abgang": {
+      "page": 1,
+      "bbox": [
+       318.81,
+       529.63,
+       349.94,
+       536.63
+      ]
+     },
+     "umbuchung": {
+      "page": 1,
+      "bbox": [
+       363.59,
+       529.63,
+       400.94,
+       536.63
+      ]
+     },
+     "ahk_open": {
+      "page": 1,
+      "bbox": [
+       467.92,
+       529.63,
+       502.94,
+       536.63
+      ]
+     },
+     "kum_afa_close": {
+      "page": 1,
+      "bbox": [
+       522.81,
+       529.63,
+       553.94,
+       536.63
+      ]
+     },
+     "afa_abgang": {
+      "page": 1,
+      "bbox": [
+       577.7,
+       529.63,
+       604.94,
+       536.63
+      ]
+     },
+     "zuschreibung": {
+      "page": 1,
+      "bbox": [
+       620.55,
+       529.63,
+       655.94,
+       536.63
+      ]
+     },
+     "ahk_close": {
+      "page": 1,
+      "bbox": [
+       671.92,
+       529.63,
+       706.94,
+       536.63
+      ]
+     },
+     "bw_close": {
+      "page": 1,
+      "bbox": [
+       726.81,
+       529.63,
+       757.94,
+       536.63
+      ]
+     },
+     "bw_prev": {
+      "page": 1,
+      "bbox": [
+       773.92,
+       529.63,
+       808.94,
+       536.63
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  },
+  {
+   "id": "r37",
+   "kind": "grand_total",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Summe Anlagevermögen",
+   "context": [],
+   "fields": {
+    "zugang": null,
+    "abgang": null,
+    "umbuchung": null,
+    "ahk_open": null,
+    "kum_afa_close": null,
+    "afa_abgang": null,
+    "zuschreibung": null,
+    "ahk_close": null,
+    "bw_close": null,
+    "bw_prev": null
+   },
+   "printed": {
+    "zugang": "456.966,14",
+    "abgang": "14.261,00",
+    "umbuchung": "",
+    "ahk_open": "357.603,03",
+    "kum_afa_close": "57.540,12",
+    "afa_abgang": "3.503,25",
+    "zuschreibung": "",
+    "ahk_close": "411.639,90",
+    "bw_close": "815.424,40",
+    "bw_prev": "426.756,13"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.94,
+     104.38,
+     808.94,
+     111.38
+    ],
+    "frame_band": [
+     104.38,
+     111.38
+    ],
+    "fields": {
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       263.92,
+       104.38,
+       298.94,
+       111.38
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       318.81,
+       104.38,
+       349.94,
+       111.38
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       363.59,
+       104.38,
+       400.94,
+       111.38
+      ]
+     },
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       467.92,
+       104.38,
+       502.94,
+       111.38
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       522.81,
+       104.38,
+       553.94,
+       111.38
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       577.7,
+       104.38,
+       604.94,
+       111.38
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       620.55,
+       104.38,
+       655.94,
+       111.38
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       671.92,
+       104.38,
+       706.94,
+       111.38
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       722.92,
+       104.38,
+       757.94,
+       111.38
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       773.92,
+       104.38,
+       808.94,
+       111.38
+      ]
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0; -ahk_close +kum_afa_close +bw_close = 0",
+    "zugang": "mapping_unverified",
+    "abgang": "mapping_unverified",
+    "umbuchung": "mapping_unverified",
+    "ahk_open": "mapping_unverified",
+    "kum_afa_close": "mapping_unverified",
+    "afa_abgang": "mapping_unverified",
+    "zuschreibung": "mapping_unverified",
+    "ahk_close": "mapping_unverified",
+    "bw_close": "mapping_unverified",
+    "bw_prev": "mapping_unverified"
+   }
+  }
+ ],
+ "detections": [
+  {
+   "type": "mapping_unverified",
+   "evidence": "abstain: laws hold on only 24% of checks",
+   "where": [
+    {
+     "section": "s1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5966 @@
+{
+ "meta": {
+  "doc_id": "f05_sap_class_gitter_08",
+  "source": "../A3-Hackathon-Corpus/f05_sap_class_gitter/f05_sap_class_gitter_08.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [
+     2,
+     3
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "perfect"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2101200 0027 1000 EDV-Software",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2101200 0027 1000 EDV-Software EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 9730418,
+    "zugang": 11488488,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 21218906,
+    "kum_afa_open": 9729918,
+    "afa_gj": 957374,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 10687292,
+    "bw_prev": 500,
+    "bw_close": 10531614
+   },
+   "printed": {
+    "ahk_open": "97.304,18",
+    "zugang": "114.884,88",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "212.189,06",
+    "kum_afa_open": "97.299,18-",
+    "afa_gj": "9.573,74-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "106.872,92-",
+    "bw_prev": "5,00",
+    "bw_close": "105.316,14"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     47.96,
+     811.58,
+     53.56
+    ],
+    "frame_band": [
+     47.96,
+     53.56
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       47.96,
+       233.14,
+       53.56
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       47.96,
+       284.14,
+       53.56
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       47.96,
+       335.14,
+       53.56
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       47.96,
+       386.14,
+       53.56
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       47.96,
+       437.14,
+       53.56
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       47.96,
+       491.5,
+       53.56
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       512.26,
+       47.96,
+       542.5,
+       53.56
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       47.96,
+       590.14,
+       53.56
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       47.96,
+       641.14,
+       53.56
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       47.96,
+       695.5,
+       53.56
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       729.7,
+       47.96,
+       743.14,
+       53.56
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       47.96,
+       794.14,
+       53.56
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r2",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2101200 0027 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 9730418,
+    "zugang": 11488488,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 21218906,
+    "kum_afa_open": 9729918,
+    "afa_gj": 957374,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 10687292,
+    "bw_prev": 500,
+    "bw_close": 10531614
+   },
+   "printed": {
+    "ahk_open": "97.304,18",
+    "zugang": "114.884,88",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "212.189,06",
+    "kum_afa_open": "97.299,18-",
+    "afa_gj": "9.573,74-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "106.872,92-",
+    "bw_prev": "5,00",
+    "bw_close": "105.316,14"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     55.13,
+     811.58,
+     60.73
+    ],
+    "frame_band": [
+     55.13,
+     60.73
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       55.13,
+       233.14,
+       60.73
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       55.13,
+       284.14,
+       60.73
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       55.13,
+       335.14,
+       60.73
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       55.13,
+       386.14,
+       60.73
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       55.13,
+       437.14,
+       60.73
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       55.13,
+       491.5,
+       60.73
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       512.26,
+       55.13,
+       542.5,
+       60.73
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       55.13,
+       590.14,
+       60.73
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       55.13,
+       641.14,
+       60.73
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       55.13,
+       695.5,
+       60.73
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       729.7,
+       55.13,
+       743.14,
+       60.73
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       55.13,
+       794.14,
+       60.73
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2101200 Summe Bilanzposition EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 9730418,
+    "zugang": 11488488,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 21218906,
+    "kum_afa_open": 9729918,
+    "afa_gj": 957374,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 10687292,
+    "bw_prev": 500,
+    "bw_close": 10531614
+   },
+   "printed": {
+    "ahk_open": "97.304,18",
+    "zugang": "114.884,88",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "212.189,06",
+    "kum_afa_open": "97.299,18-",
+    "afa_gj": "9.573,74-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "106.872,92-",
+    "bw_prev": "5,00",
+    "bw_close": "105.316,14"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     62.41,
+     811.58,
+     68.01
+    ],
+    "frame_band": [
+     62.41,
+     68.01
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       62.41,
+       233.14,
+       68.01
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       62.41,
+       284.14,
+       68.01
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       62.41,
+       335.14,
+       68.01
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       62.41,
+       386.14,
+       68.01
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       62.41,
+       437.14,
+       68.01
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       62.41,
+       491.5,
+       68.01
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       512.26,
+       62.41,
+       542.5,
+       68.01
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       62.41,
+       590.14,
+       68.01
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       62.41,
+       641.14,
+       68.01
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       62.41,
+       695.5,
+       68.01
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       729.7,
+       62.41,
+       743.14,
+       68.01
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       62.41,
+       794.14,
+       68.01
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102100 0085 2000 Grund und Boden",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102100 0085 2000 Grund und Boden EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 28750294,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 28750294,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 28750294,
+    "bw_close": 28750294
+   },
+   "printed": {
+    "ahk_open": "287.502,94",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "287.502,94",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_prev": "287.502,94",
+    "bw_close": "287.502,94"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     69.8,
+     811.58,
+     75.4
+    ],
+    "frame_band": [
+     69.8,
+     75.4
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       69.8,
+       233.14,
+       75.4
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       69.8,
+       284.14,
+       75.4
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       69.8,
+       335.14,
+       75.4
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       69.8,
+       386.14,
+       75.4
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       69.8,
+       437.14,
+       75.4
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       474.7,
+       69.8,
+       488.14,
+       75.4
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       525.7,
+       69.8,
+       539.14,
+       75.4
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       69.8,
+       590.14,
+       75.4
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       69.8,
+       641.14,
+       75.4
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       678.7,
+       69.8,
+       692.14,
+       75.4
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       709.53,
+       69.8,
+       743.14,
+       75.4
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       69.8,
+       794.14,
+       75.4
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102100 0085 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 28750294,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 28750294,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 28750294,
+    "bw_close": 28750294
+   },
+   "printed": {
+    "ahk_open": "287.502,94",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "287.502,94",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_prev": "287.502,94",
+    "bw_close": "287.502,94"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     76.97,
+     811.58,
+     82.57
+    ],
+    "frame_band": [
+     76.97,
+     82.57
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       76.97,
+       233.14,
+       82.57
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       76.97,
+       284.14,
+       82.57
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       76.97,
+       335.14,
+       82.57
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       76.97,
+       386.14,
+       82.57
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       76.97,
+       437.14,
+       82.57
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       474.7,
+       76.97,
+       488.14,
+       82.57
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       525.7,
+       76.97,
+       539.14,
+       82.57
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       76.97,
+       590.14,
+       82.57
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       76.97,
+       641.14,
+       82.57
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       678.7,
+       76.97,
+       692.14,
+       82.57
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       709.53,
+       76.97,
+       743.14,
+       82.57
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       76.97,
+       794.14,
+       82.57
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102100 0100 2100 Fabrikbauten",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102100 0100 2100 Fabrikbauten EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 350659249,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 350659249,
+    "kum_afa_open": 172766154,
+    "afa_gj": 6536015,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 179302169,
+    "bw_prev": 177893095,
+    "bw_close": 171357080
+   },
+   "printed": {
+    "ahk_open": "3.506.592,49",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "3.506.592,49",
+    "kum_afa_open": "1.727.661,54-",
+    "afa_gj": "65.360,15-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "1.793.021,69-",
+    "bw_prev": "1.778.930,95",
+    "bw_close": "1.713.570,80"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     84.25,
+     811.58,
+     89.85
+    ],
+    "frame_band": [
+     84.25,
+     89.85
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       192.81,
+       84.25,
+       233.14,
+       89.85
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       84.25,
+       284.14,
+       89.85
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       84.25,
+       335.14,
+       89.85
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       84.25,
+       386.14,
+       89.85
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       396.81,
+       84.25,
+       437.14,
+       89.85
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       447.81,
+       84.25,
+       491.5,
+       89.85
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       84.25,
+       542.5,
+       89.85
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       84.25,
+       590.14,
+       89.85
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       84.25,
+       641.14,
+       89.85
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       651.81,
+       84.25,
+       695.5,
+       89.85
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       702.81,
+       84.25,
+       743.14,
+       89.85
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       753.81,
+       84.25,
+       794.14,
+       89.85
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102100 0100 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 350659249,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 350659249,
+    "kum_afa_open": 172766154,
+    "afa_gj": 6536015,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 179302169,
+    "bw_prev": 177893095,
+    "bw_close": 171357080
+   },
+   "printed": {
+    "ahk_open": "3.506.592,49",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "3.506.592,49",
+    "kum_afa_open": "1.727.661,54-",
+    "afa_gj": "65.360,15-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "1.793.021,69-",
+    "bw_prev": "1.778.930,95",
+    "bw_close": "1.713.570,80"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     91.53,
+     811.58,
+     97.13
+    ],
+    "frame_band": [
+     91.53,
+     97.13
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       192.81,
+       91.53,
+       233.14,
+       97.13
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       91.53,
+       284.14,
+       97.13
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       91.53,
+       335.14,
+       97.13
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       91.53,
+       386.14,
+       97.13
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       396.81,
+       91.53,
+       437.14,
+       97.13
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       447.81,
+       91.53,
+       491.5,
+       97.13
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       91.53,
+       542.5,
+       97.13
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       91.53,
+       590.14,
+       97.13
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       91.53,
+       641.14,
+       97.13
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       651.81,
+       91.53,
+       695.5,
+       97.13
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       702.81,
+       91.53,
+       743.14,
+       97.13
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       753.81,
+       91.53,
+       794.14,
+       97.13
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102100 Summe Bilanzposition EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 379409543,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 379409543,
+    "kum_afa_open": 172766154,
+    "afa_gj": 6536015,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 179302169,
+    "bw_prev": 206643389,
+    "bw_close": 200107374
+   },
+   "printed": {
+    "ahk_open": "3.794.095,43",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "3.794.095,43",
+    "kum_afa_open": "1.727.661,54-",
+    "afa_gj": "65.360,15-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "1.793.021,69-",
+    "bw_prev": "2.066.433,89",
+    "bw_close": "2.001.073,74"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     98.81,
+     811.58,
+     104.41
+    ],
+    "frame_band": [
+     98.81,
+     104.41
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       192.81,
+       98.81,
+       233.14,
+       104.41
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       98.81,
+       284.14,
+       104.41
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       98.81,
+       335.14,
+       104.41
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       98.81,
+       386.14,
+       104.41
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       396.81,
+       98.81,
+       437.14,
+       104.41
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       447.81,
+       98.81,
+       491.5,
+       104.41
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       98.81,
+       542.5,
+       104.41
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       98.81,
+       590.14,
+       104.41
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       98.81,
+       641.14,
+       104.41
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       651.81,
+       98.81,
+       695.5,
+       104.41
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       702.81,
+       98.81,
+       743.14,
+       104.41
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       753.81,
+       98.81,
+       794.14,
+       104.41
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102200 0210 3000 Maschinen",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102200 0210 3000 Maschinen EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 19930213,
+    "zugang": 22981800,
+    "abgang": 0,
+    "umbuchung": 10161430,
+    "ahk_close": 53073443,
+    "kum_afa_open": 13475552,
+    "afa_gj": 1339705,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 14815257,
+    "bw_prev": 6454661,
+    "bw_close": 38258186
+   },
+   "printed": {
+    "ahk_open": "199.302,13",
+    "zugang": "229.818,00",
+    "abgang": "0,00",
+    "umbuchung": "101.614,30",
+    "ahk_close": "530.734,43",
+    "kum_afa_open": "134.755,52-",
+    "afa_gj": "13.397,05-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "148.152,57-",
+    "bw_prev": "64.546,61",
+    "bw_close": "382.581,86"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     106.2,
+     811.58,
+     111.8
+    ],
+    "frame_band": [
+     106.2,
+     111.8
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       106.2,
+       233.14,
+       111.8
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       106.2,
+       284.14,
+       111.8
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       106.2,
+       335.14,
+       111.8
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       352.53,
+       106.2,
+       386.14,
+       111.8
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       106.2,
+       437.14,
+       111.8
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       106.2,
+       491.5,
+       111.8
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       106.2,
+       542.5,
+       111.8
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       106.2,
+       590.14,
+       111.8
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       106.2,
+       641.14,
+       111.8
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       106.2,
+       695.5,
+       111.8
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       712.89,
+       106.2,
+       743.14,
+       111.8
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       106.2,
+       794.14,
+       111.8
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102200 0210 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 19930213,
+    "zugang": 22981800,
+    "abgang": 0,
+    "umbuchung": 10161430,
+    "ahk_close": 53073443,
+    "kum_afa_open": 13475552,
+    "afa_gj": 1339705,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 14815257,
+    "bw_prev": 6454661,
+    "bw_close": 38258186
+   },
+   "printed": {
+    "ahk_open": "199.302,13",
+    "zugang": "229.818,00",
+    "abgang": "0,00",
+    "umbuchung": "101.614,30",
+    "ahk_close": "530.734,43",
+    "kum_afa_open": "134.755,52-",
+    "afa_gj": "13.397,05-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "148.152,57-",
+    "bw_prev": "64.546,61",
+    "bw_close": "382.581,86"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     113.37,
+     811.58,
+     118.97
+    ],
+    "frame_band": [
+     113.37,
+     118.97
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       113.37,
+       233.14,
+       118.97
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       113.37,
+       284.14,
+       118.97
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       113.37,
+       335.14,
+       118.97
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       352.53,
+       113.37,
+       386.14,
+       118.97
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       113.37,
+       437.14,
+       118.97
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       113.37,
+       491.5,
+       118.97
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       113.37,
+       542.5,
+       118.97
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       113.37,
+       590.14,
+       118.97
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       113.37,
+       641.14,
+       118.97
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       113.37,
+       695.5,
+       118.97
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       712.89,
+       113.37,
+       743.14,
+       118.97
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       113.37,
+       794.14,
+       118.97
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102200 0240 3100 Technische Anlagen",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102200 0240 3100 Technische Anlagen EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 81424995,
+    "zugang": 31021742,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 112446737,
+    "kum_afa_open": 64202433,
+    "afa_gj": 3484629,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 67687062,
+    "bw_prev": 17222562,
+    "bw_close": 44759675
+   },
+   "printed": {
+    "ahk_open": "814.249,95",
+    "zugang": "310.217,42",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.124.467,37",
+    "kum_afa_open": "642.024,33-",
+    "afa_gj": "34.846,29-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "676.870,62-",
+    "bw_prev": "172.225,62",
+    "bw_close": "447.596,75"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     120.65,
+     811.58,
+     126.25
+    ],
+    "frame_band": [
+     120.65,
+     126.25
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       120.65,
+       233.14,
+       126.25
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       120.65,
+       284.14,
+       126.25
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       120.65,
+       335.14,
+       126.25
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       120.65,
+       386.14,
+       126.25
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       396.81,
+       120.65,
+       437.14,
+       126.25
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       120.65,
+       491.5,
+       126.25
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       120.65,
+       542.5,
+       126.25
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       120.65,
+       590.14,
+       126.25
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       120.65,
+       641.14,
+       126.25
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       120.65,
+       695.5,
+       126.25
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       709.53,
+       120.65,
+       743.14,
+       126.25
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       120.65,
+       794.14,
+       126.25
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102200 0240 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 81424995,
+    "zugang": 31021742,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 112446737,
+    "kum_afa_open": 64202433,
+    "afa_gj": 3484629,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 67687062,
+    "bw_prev": 17222562,
+    "bw_close": 44759675
+   },
+   "printed": {
+    "ahk_open": "814.249,95",
+    "zugang": "310.217,42",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "1.124.467,37",
+    "kum_afa_open": "642.024,33-",
+    "afa_gj": "34.846,29-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "676.870,62-",
+    "bw_prev": "172.225,62",
+    "bw_close": "447.596,75"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     127.93,
+     811.58,
+     133.53
+    ],
+    "frame_band": [
+     127.93,
+     133.53
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       127.93,
+       233.14,
+       133.53
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       127.93,
+       284.14,
+       133.53
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       127.93,
+       335.14,
+       133.53
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       127.93,
+       386.14,
+       133.53
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       396.81,
+       127.93,
+       437.14,
+       133.53
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       127.93,
+       491.5,
+       133.53
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       127.93,
+       542.5,
+       133.53
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       127.93,
+       590.14,
+       133.53
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       127.93,
+       641.14,
+       133.53
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       127.93,
+       695.5,
+       133.53
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       709.53,
+       127.93,
+       743.14,
+       133.53
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       127.93,
+       794.14,
+       133.53
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102200 Summe Bilanzposition EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 101355208,
+    "zugang": 54003542,
+    "abgang": 0,
+    "umbuchung": 10161430,
+    "ahk_close": 165520180,
+    "kum_afa_open": 77677985,
+    "afa_gj": 4824334,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 82502319,
+    "bw_prev": 23677223,
+    "bw_close": 83017861
+   },
+   "printed": {
+    "ahk_open": "1.013.552,08",
+    "zugang": "540.035,42",
+    "abgang": "0,00",
+    "umbuchung": "101.614,30",
+    "ahk_close": "1.655.201,80",
+    "kum_afa_open": "776.779,85-",
+    "afa_gj": "48.243,34-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "825.023,19-",
+    "bw_prev": "236.772,23",
+    "bw_close": "830.178,61"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     135.21,
+     811.58,
+     140.81
+    ],
+    "frame_band": [
+     135.21,
+     140.81
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       192.81,
+       135.21,
+       233.14,
+       140.81
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       135.21,
+       284.14,
+       140.81
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       135.21,
+       335.14,
+       140.81
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       352.53,
+       135.21,
+       386.14,
+       140.81
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       396.81,
+       135.21,
+       437.14,
+       140.81
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       135.21,
+       491.5,
+       140.81
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       135.21,
+       542.5,
+       140.81
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       135.21,
+       590.14,
+       140.81
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       135.21,
+       641.14,
+       140.81
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       135.21,
+       695.5,
+       140.81
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       709.53,
+       135.21,
+       743.14,
+       140.81
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       135.21,
+       794.14,
+       140.81
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102300 0320 4200 Pkw",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0320 4200 Pkw EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 18651335,
+    "zugang": 6327184,
+    "abgang": 4717500,
+    "umbuchung": 0,
+    "ahk_close": 20261019,
+    "kum_afa_open": 17023776,
+    "afa_gj": 1712728,
+    "afa_abgang": 4717400,
+    "zuschreibung": 0,
+    "kum_afa_close": 14019104,
+    "bw_prev": 1627559,
+    "bw_close": 6241915
+   },
+   "printed": {
+    "ahk_open": "186.513,35",
+    "zugang": "63.271,84",
+    "abgang": "47.175,00-",
+    "umbuchung": "0,00",
+    "ahk_close": "202.610,19",
+    "kum_afa_open": "170.237,76-",
+    "afa_gj": "17.127,28-",
+    "afa_abgang": "47.174,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "140.191,04-",
+    "bw_prev": "16.275,59",
+    "bw_close": "62.419,15"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     142.6,
+     811.58,
+     148.2
+    ],
+    "frame_band": [
+     142.6,
+     148.2
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       142.6,
+       233.14,
+       148.2
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       253.89,
+       142.6,
+       284.14,
+       148.2
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       304.89,
+       142.6,
+       338.5,
+       148.2
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       142.6,
+       386.14,
+       148.2
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       142.6,
+       437.14,
+       148.2
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       142.6,
+       491.5,
+       148.2
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       142.6,
+       542.5,
+       148.2
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       559.89,
+       142.6,
+       590.14,
+       148.2
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       142.6,
+       641.14,
+       148.2
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       142.6,
+       695.5,
+       148.2
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       712.89,
+       142.6,
+       743.14,
+       148.2
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       763.89,
+       142.6,
+       794.14,
+       148.2
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0320 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 18651335,
+    "zugang": 6327184,
+    "abgang": 4717500,
+    "umbuchung": 0,
+    "ahk_close": 20261019,
+    "kum_afa_open": 17023776,
+    "afa_gj": 1712728,
+    "afa_abgang": 4717400,
+    "zuschreibung": 0,
+    "kum_afa_close": 14019104,
+    "bw_prev": 1627559,
+    "bw_close": 6241915
+   },
+   "printed": {
+    "ahk_open": "186.513,35",
+    "zugang": "63.271,84",
+    "abgang": "47.175,00-",
+    "umbuchung": "0,00",
+    "ahk_close": "202.610,19",
+    "kum_afa_open": "170.237,76-",
+    "afa_gj": "17.127,28-",
+    "afa_abgang": "47.174,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "140.191,04-",
+    "bw_prev": "16.275,59",
+    "bw_close": "62.419,15"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     149.77,
+     811.58,
+     155.37
+    ],
+    "frame_band": [
+     149.77,
+     155.37
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       149.77,
+       233.14,
+       155.37
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       253.89,
+       149.77,
+       284.14,
+       155.37
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       304.89,
+       149.77,
+       338.5,
+       155.37
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       149.77,
+       386.14,
+       155.37
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       149.77,
+       437.14,
+       155.37
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       149.77,
+       491.5,
+       155.37
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       149.77,
+       542.5,
+       155.37
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       559.89,
+       149.77,
+       590.14,
+       155.37
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       149.77,
+       641.14,
+       155.37
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       149.77,
+       695.5,
+       155.37
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       712.89,
+       149.77,
+       743.14,
+       155.37
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       763.89,
+       149.77,
+       794.14,
+       155.37
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102300 0350 4300 Lkw",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0350 4300 Lkw EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 41138660,
+    "zugang": 13832180,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 54970840,
+    "kum_afa_open": 24738067,
+    "afa_gj": 3969908,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 28707975,
+    "bw_prev": 16400593,
+    "bw_close": 26262865
+   },
+   "printed": {
+    "ahk_open": "411.386,60",
+    "zugang": "138.321,80",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "549.708,40",
+    "kum_afa_open": "247.380,67-",
+    "afa_gj": "39.699,08-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "287.079,75-",
+    "bw_prev": "164.005,93",
+    "bw_close": "262.628,65"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     157.05,
+     811.58,
+     162.65
+    ],
+    "frame_band": [
+     157.05,
+     162.65
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       157.05,
+       233.14,
+       162.65
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       157.05,
+       284.14,
+       162.65
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       157.05,
+       335.14,
+       162.65
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       157.05,
+       386.14,
+       162.65
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       157.05,
+       437.14,
+       162.65
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       157.05,
+       491.5,
+       162.65
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       157.05,
+       542.5,
+       162.65
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       157.05,
+       590.14,
+       162.65
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       157.05,
+       641.14,
+       162.65
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       157.05,
+       695.5,
+       162.65
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       709.53,
+       157.05,
+       743.14,
+       162.65
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       157.05,
+       794.14,
+       162.65
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0350 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 41138660,
+    "zugang": 13832180,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 54970840,
+    "kum_afa_open": 24738067,
+    "afa_gj": 3969908,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 28707975,
+    "bw_prev": 16400593,
+    "bw_close": 26262865
+   },
+   "printed": {
+    "ahk_open": "411.386,60",
+    "zugang": "138.321,80",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "549.708,40",
+    "kum_afa_open": "247.380,67-",
+    "afa_gj": "39.699,08-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "287.079,75-",
+    "bw_prev": "164.005,93",
+    "bw_close": "262.628,65"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     164.33,
+     811.58,
+     169.93
+    ],
+    "frame_band": [
+     164.33,
+     169.93
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       164.33,
+       233.14,
+       169.93
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       164.33,
+       284.14,
+       169.93
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       164.33,
+       335.14,
+       169.93
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       164.33,
+       386.14,
+       169.93
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       164.33,
+       437.14,
+       169.93
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       164.33,
+       491.5,
+       169.93
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       164.33,
+       542.5,
+       169.93
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       164.33,
+       590.14,
+       169.93
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       164.33,
+       641.14,
+       169.93
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       164.33,
+       695.5,
+       169.93
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       709.53,
+       164.33,
+       743.14,
+       169.93
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       164.33,
+       794.14,
+       169.93
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102300 0400 4000 Betriebsausstattung",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0400 4000 Betriebsausstattung EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 5424265,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5424265,
+    "kum_afa_open": 5127466,
+    "afa_gj": 45454,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5172920,
+    "bw_prev": 296799,
+    "bw_close": 251345
+   },
+   "printed": {
+    "ahk_open": "54.242,65",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "54.242,65",
+    "kum_afa_open": "51.274,66-",
+    "afa_gj": "454,54-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "51.729,20-",
+    "bw_prev": "2.967,99",
+    "bw_close": "2.513,45"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     171.61,
+     811.58,
+     177.21
+    ],
+    "frame_band": [
+     171.61,
+     177.21
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       171.61,
+       233.14,
+       177.21
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       171.61,
+       284.14,
+       177.21
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       171.61,
+       335.14,
+       177.21
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       171.61,
+       386.14,
+       177.21
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       406.89,
+       171.61,
+       437.14,
+       177.21
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       171.61,
+       491.5,
+       177.21
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       518.98,
+       171.61,
+       542.5,
+       177.21
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       171.61,
+       590.14,
+       177.21
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       171.61,
+       641.14,
+       177.21
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       661.89,
+       171.61,
+       695.5,
+       177.21
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       716.26,
+       171.61,
+       743.14,
+       177.21
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       767.26,
+       171.61,
+       794.14,
+       177.21
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0400 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 5424265,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5424265,
+    "kum_afa_open": 5127466,
+    "afa_gj": 45454,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5172920,
+    "bw_prev": 296799,
+    "bw_close": 251345
+   },
+   "printed": {
+    "ahk_open": "54.242,65",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "54.242,65",
+    "kum_afa_open": "51.274,66-",
+    "afa_gj": "454,54-",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "51.729,20-",
+    "bw_prev": "2.967,99",
+    "bw_close": "2.513,45"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     178.89,
+     811.58,
+     184.49
+    ],
+    "frame_band": [
+     178.89,
+     184.49
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       178.89,
+       233.14,
+       184.49
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       178.89,
+       284.14,
+       184.49
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       321.7,
+       178.89,
+       335.14,
+       184.49
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       178.89,
+       386.14,
+       184.49
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       406.89,
+       178.89,
+       437.14,
+       184.49
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       178.89,
+       491.5,
+       184.49
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       518.98,
+       178.89,
+       542.5,
+       184.49
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       576.7,
+       178.89,
+       590.14,
+       184.49
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       178.89,
+       641.14,
+       184.49
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       661.89,
+       178.89,
+       695.5,
+       184.49
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       716.26,
+       178.89,
+       743.14,
+       184.49
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       767.26,
+       178.89,
+       794.14,
+       184.49
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102300 0420 4100 Büroeinrichtung",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0420 4100 Büroeinrichtung EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 1931781,
+    "zugang": 1442350,
+    "abgang": 596645,
+    "umbuchung": 0,
+    "ahk_close": 2777486,
+    "kum_afa_open": 1082989,
+    "afa_gj": 62109,
+    "afa_abgang": 59540,
+    "zuschreibung": 0,
+    "kum_afa_close": 1085558,
+    "bw_prev": 848792,
+    "bw_close": 1691928
+   },
+   "printed": {
+    "ahk_open": "19.317,81",
+    "zugang": "14.423,50",
+    "abgang": "5.966,45-",
+    "umbuchung": "0,00",
+    "ahk_close": "27.774,86",
+    "kum_afa_open": "10.829,89-",
+    "afa_gj": "621,09-",
+    "afa_abgang": "595,40",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "10.855,58-",
+    "bw_prev": "8.487,92",
+    "bw_close": "16.919,28"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     186.17,
+     811.58,
+     191.77
+    ],
+    "frame_band": [
+     186.17,
+     191.77
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       186.17,
+       233.14,
+       191.77
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       253.89,
+       186.17,
+       284.14,
+       191.77
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       308.26,
+       186.17,
+       338.5,
+       191.77
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       186.17,
+       386.14,
+       191.77
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       406.89,
+       186.17,
+       437.14,
+       191.77
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       186.17,
+       491.5,
+       191.77
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       518.98,
+       186.17,
+       542.5,
+       191.77
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       569.98,
+       186.17,
+       590.14,
+       191.77
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       186.17,
+       641.14,
+       191.77
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       661.89,
+       186.17,
+       695.5,
+       191.77
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       716.26,
+       186.17,
+       743.14,
+       191.77
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       763.89,
+       186.17,
+       794.14,
+       191.77
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0420 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 1931781,
+    "zugang": 1442350,
+    "abgang": 596645,
+    "umbuchung": 0,
+    "ahk_close": 2777486,
+    "kum_afa_open": 1082989,
+    "afa_gj": 62109,
+    "afa_abgang": 59540,
+    "zuschreibung": 0,
+    "kum_afa_close": 1085558,
+    "bw_prev": 848792,
+    "bw_close": 1691928
+   },
+   "printed": {
+    "ahk_open": "19.317,81",
+    "zugang": "14.423,50",
+    "abgang": "5.966,45-",
+    "umbuchung": "0,00",
+    "ahk_close": "27.774,86",
+    "kum_afa_open": "10.829,89-",
+    "afa_gj": "621,09-",
+    "afa_abgang": "595,40",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "10.855,58-",
+    "bw_prev": "8.487,92",
+    "bw_close": "16.919,28"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     193.45,
+     811.58,
+     199.05
+    ],
+    "frame_band": [
+     193.45,
+     199.05
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       193.45,
+       233.14,
+       199.05
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       253.89,
+       193.45,
+       284.14,
+       199.05
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       308.26,
+       193.45,
+       338.5,
+       199.05
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       193.45,
+       386.14,
+       199.05
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       406.89,
+       193.45,
+       437.14,
+       199.05
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       193.45,
+       491.5,
+       199.05
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       518.98,
+       193.45,
+       542.5,
+       199.05
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       569.98,
+       193.45,
+       590.14,
+       199.05
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       193.45,
+       641.14,
+       199.05
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       661.89,
+       193.45,
+       695.5,
+       199.05
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       716.26,
+       193.45,
+       743.14,
+       199.05
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       763.89,
+       193.45,
+       794.14,
+       199.05
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102300 0480 4900 Geringwertige Wirtscha",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0480 4900 Geringwertige Wirtscha EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 213335,
+    "zugang": 137345,
+    "abgang": 44363,
+    "umbuchung": 0,
+    "ahk_close": 306317,
+    "kum_afa_open": 213335,
+    "afa_gj": 137345,
+    "afa_abgang": 44363,
+    "zuschreibung": 0,
+    "kum_afa_close": 306317,
+    "bw_prev": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "2.133,35",
+    "zugang": "1.373,45",
+    "abgang": "443,63-",
+    "umbuchung": "0,00",
+    "ahk_close": "3.063,17",
+    "kum_afa_open": "2.133,35-",
+    "afa_gj": "1.373,45-",
+    "afa_abgang": "443,63",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "3.063,17-",
+    "bw_prev": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     200.73,
+     811.58,
+     206.33
+    ],
+    "frame_band": [
+     200.73,
+     206.33
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       206.26,
+       200.73,
+       233.14,
+       206.33
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       257.26,
+       200.73,
+       284.14,
+       206.33
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       314.98,
+       200.73,
+       338.5,
+       206.33
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       200.73,
+       386.14,
+       206.33
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       410.26,
+       200.73,
+       437.14,
+       206.33
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       461.26,
+       200.73,
+       491.5,
+       206.33
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       512.26,
+       200.73,
+       542.5,
+       206.33
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       569.98,
+       200.73,
+       590.14,
+       206.33
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       200.73,
+       641.14,
+       206.33
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       665.26,
+       200.73,
+       695.5,
+       206.33
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       729.7,
+       200.73,
+       743.14,
+       206.33
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       780.7,
+       200.73,
+       794.14,
+       206.33
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0480 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 213335,
+    "zugang": 137345,
+    "abgang": 44363,
+    "umbuchung": 0,
+    "ahk_close": 306317,
+    "kum_afa_open": 213335,
+    "afa_gj": 137345,
+    "afa_abgang": 44363,
+    "zuschreibung": 0,
+    "kum_afa_close": 306317,
+    "bw_prev": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "2.133,35",
+    "zugang": "1.373,45",
+    "abgang": "443,63-",
+    "umbuchung": "0,00",
+    "ahk_close": "3.063,17",
+    "kum_afa_open": "2.133,35-",
+    "afa_gj": "1.373,45-",
+    "afa_abgang": "443,63",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "3.063,17-",
+    "bw_prev": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     208.01,
+     811.58,
+     213.61
+    ],
+    "frame_band": [
+     208.01,
+     213.61
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       206.26,
+       208.01,
+       233.14,
+       213.61
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       257.26,
+       208.01,
+       284.14,
+       213.61
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       314.98,
+       208.01,
+       338.5,
+       213.61
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       208.01,
+       386.14,
+       213.61
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       410.26,
+       208.01,
+       437.14,
+       213.61
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       461.26,
+       208.01,
+       491.5,
+       213.61
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       512.26,
+       208.01,
+       542.5,
+       213.61
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       569.98,
+       208.01,
+       590.14,
+       213.61
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       208.01,
+       641.14,
+       213.61
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       665.26,
+       208.01,
+       695.5,
+       213.61
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       729.7,
+       208.01,
+       743.14,
+       213.61
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       780.7,
+       208.01,
+       794.14,
+       213.61
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102300 0490 4400 EDV-Hardware",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0490 4400 EDV-Hardware EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 2924190,
+    "zugang": 0,
+    "abgang": 184285,
+    "umbuchung": 0,
+    "ahk_close": 2739905,
+    "kum_afa_open": 2923890,
+    "afa_gj": 0,
+    "afa_abgang": 184185,
+    "zuschreibung": 0,
+    "kum_afa_close": 2739705,
+    "bw_prev": 300,
+    "bw_close": 200
+   },
+   "printed": {
+    "ahk_open": "29.241,90",
+    "zugang": "0,00",
+    "abgang": "1.842,85-",
+    "umbuchung": "0,00",
+    "ahk_close": "27.399,05",
+    "kum_afa_open": "29.238,90-",
+    "afa_gj": "0,00",
+    "afa_abgang": "1.841,85",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "27.397,05-",
+    "bw_prev": "3,00",
+    "bw_close": "2,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     215.29,
+     811.58,
+     220.89
+    ],
+    "frame_band": [
+     215.29,
+     220.89
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       215.29,
+       233.14,
+       220.89
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       215.29,
+       284.14,
+       220.89
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       308.26,
+       215.29,
+       338.5,
+       220.89
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       215.29,
+       386.14,
+       220.89
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       406.89,
+       215.29,
+       437.14,
+       220.89
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       215.29,
+       491.5,
+       220.89
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       525.7,
+       215.29,
+       539.14,
+       220.89
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       563.26,
+       215.29,
+       590.14,
+       220.89
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       215.29,
+       641.14,
+       220.89
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       661.89,
+       215.29,
+       695.5,
+       220.89
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       729.7,
+       215.29,
+       743.14,
+       220.89
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       780.7,
+       215.29,
+       794.14,
+       220.89
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 0490 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 2924190,
+    "zugang": 0,
+    "abgang": 184285,
+    "umbuchung": 0,
+    "ahk_close": 2739905,
+    "kum_afa_open": 2923890,
+    "afa_gj": 0,
+    "afa_abgang": 184185,
+    "zuschreibung": 0,
+    "kum_afa_close": 2739705,
+    "bw_prev": 300,
+    "bw_close": 200
+   },
+   "printed": {
+    "ahk_open": "29.241,90",
+    "zugang": "0,00",
+    "abgang": "1.842,85-",
+    "umbuchung": "0,00",
+    "ahk_close": "27.399,05",
+    "kum_afa_open": "29.238,90-",
+    "afa_gj": "0,00",
+    "afa_abgang": "1.841,85",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "27.397,05-",
+    "bw_prev": "3,00",
+    "bw_close": "2,00"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     222.57,
+     811.58,
+     228.17
+    ],
+    "frame_band": [
+     222.57,
+     228.17
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       202.89,
+       222.57,
+       233.14,
+       228.17
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       270.7,
+       222.57,
+       284.14,
+       228.17
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       308.26,
+       222.57,
+       338.5,
+       228.17
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       222.57,
+       386.14,
+       228.17
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       406.89,
+       222.57,
+       437.14,
+       228.17
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       457.89,
+       222.57,
+       491.5,
+       228.17
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       525.7,
+       222.57,
+       539.14,
+       228.17
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       563.26,
+       222.57,
+       590.14,
+       228.17
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       222.57,
+       641.14,
+       228.17
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       661.89,
+       222.57,
+       695.5,
+       228.17
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       729.7,
+       222.57,
+       743.14,
+       228.17
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       780.7,
+       222.57,
+       794.14,
+       228.17
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102300 Summe Bilanzposition EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 70283566,
+    "zugang": 21739059,
+    "abgang": 5542793,
+    "umbuchung": 0,
+    "ahk_close": 86479832,
+    "kum_afa_open": 51109523,
+    "afa_gj": 5927544,
+    "afa_abgang": 5005488,
+    "zuschreibung": 0,
+    "kum_afa_close": 52031579,
+    "bw_prev": 19174043,
+    "bw_close": 34448253
+   },
+   "printed": {
+    "ahk_open": "702.835,66",
+    "zugang": "217.390,59",
+    "abgang": "55.427,93-",
+    "umbuchung": "0,00",
+    "ahk_close": "864.798,32",
+    "kum_afa_open": "511.095,23-",
+    "afa_gj": "59.275,44-",
+    "afa_abgang": "50.054,88",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "520.315,79-",
+    "bw_prev": "191.740,43",
+    "bw_close": "344.482,53"
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     229.85,
+     811.58,
+     235.45
+    ],
+    "frame_band": [
+     229.85,
+     235.45
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 2,
+      "bbox": [
+       199.53,
+       229.85,
+       233.14,
+       235.45
+      ]
+     },
+     "zugang": {
+      "page": 2,
+      "bbox": [
+       250.53,
+       229.85,
+       284.14,
+       235.45
+      ]
+     },
+     "abgang": {
+      "page": 2,
+      "bbox": [
+       304.89,
+       229.85,
+       338.5,
+       235.45
+      ]
+     },
+     "umbuchung": {
+      "page": 2,
+      "bbox": [
+       372.7,
+       229.85,
+       386.14,
+       235.45
+      ]
+     },
+     "ahk_close": {
+      "page": 2,
+      "bbox": [
+       403.53,
+       229.85,
+       437.14,
+       235.45
+      ]
+     },
+     "kum_afa_open": {
+      "page": 2,
+      "bbox": [
+       454.53,
+       229.85,
+       491.5,
+       235.45
+      ]
+     },
+     "afa_gj": {
+      "page": 2,
+      "bbox": [
+       508.89,
+       229.85,
+       542.5,
+       235.45
+      ]
+     },
+     "afa_abgang": {
+      "page": 2,
+      "bbox": [
+       559.89,
+       229.85,
+       590.14,
+       235.45
+      ]
+     },
+     "zuschreibung": {
+      "page": 2,
+      "bbox": [
+       627.7,
+       229.85,
+       641.14,
+       235.45
+      ]
+     },
+     "kum_afa_close": {
+      "page": 2,
+      "bbox": [
+       658.53,
+       229.85,
+       695.5,
+       235.45
+      ]
+     },
+     "bw_prev": {
+      "page": 2,
+      "bbox": [
+       709.53,
+       229.85,
+       743.14,
+       235.45
+      ]
+     },
+     "bw_close": {
+      "page": 2,
+      "bbox": [
+       760.53,
+       229.85,
+       794.14,
+       235.45
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102400 0120 5000 Anlagen im Bau",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102400 0120 5000 Anlagen im Bau EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 5559114,
+    "zugang": 4602316,
+    "abgang": 0,
+    "umbuchung": -10161430,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 5559114,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "55.591,14",
+    "zugang": "46.023,16",
+    "abgang": "0,00",
+    "umbuchung": "101.614,30-",
+    "ahk_close": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_prev": "55.591,14",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     47.96,
+     811.58,
+     53.56
+    ],
+    "frame_band": [
+     47.96,
+     53.56
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       202.89,
+       47.96,
+       233.14,
+       53.56
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       253.89,
+       47.96,
+       284.14,
+       53.56
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       47.96,
+       335.14,
+       53.56
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       352.53,
+       47.96,
+       389.5,
+       53.56
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       423.7,
+       47.96,
+       437.14,
+       53.56
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       474.7,
+       47.96,
+       488.14,
+       53.56
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       525.7,
+       47.96,
+       539.14,
+       53.56
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       576.7,
+       47.96,
+       590.14,
+       53.56
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       627.7,
+       47.96,
+       641.14,
+       53.56
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       678.7,
+       47.96,
+       692.14,
+       53.56
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       712.89,
+       47.96,
+       743.14,
+       53.56
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       780.7,
+       47.96,
+       794.14,
+       53.56
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102400 0120 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 5559114,
+    "zugang": 4602316,
+    "abgang": 0,
+    "umbuchung": -10161430,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 5559114,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "55.591,14",
+    "zugang": "46.023,16",
+    "abgang": "0,00",
+    "umbuchung": "101.614,30-",
+    "ahk_close": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_prev": "55.591,14",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     55.13,
+     811.58,
+     60.73
+    ],
+    "frame_band": [
+     55.13,
+     60.73
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       202.89,
+       55.13,
+       233.14,
+       60.73
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       253.89,
+       55.13,
+       284.14,
+       60.73
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       55.13,
+       335.14,
+       60.73
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       352.53,
+       55.13,
+       389.5,
+       60.73
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       423.7,
+       55.13,
+       437.14,
+       60.73
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       474.7,
+       55.13,
+       488.14,
+       60.73
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       525.7,
+       55.13,
+       539.14,
+       60.73
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       576.7,
+       55.13,
+       590.14,
+       60.73
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       627.7,
+       55.13,
+       641.14,
+       60.73
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       678.7,
+       55.13,
+       692.14,
+       60.73
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       712.89,
+       55.13,
+       743.14,
+       60.73
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       780.7,
+       55.13,
+       794.14,
+       60.73
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2102400 0129 5100 Anzahlungen auf Anlage",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102400 0129 5100 Anzahlungen auf Anlage EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "0,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_prev": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     62.41,
+     811.58,
+     68.01
+    ],
+    "frame_band": [
+     62.41,
+     68.01
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       219.7,
+       62.41,
+       233.14,
+       68.01
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       270.7,
+       62.41,
+       284.14,
+       68.01
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       62.41,
+       335.14,
+       68.01
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       372.7,
+       62.41,
+       386.14,
+       68.01
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       423.7,
+       62.41,
+       437.14,
+       68.01
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       474.7,
+       62.41,
+       488.14,
+       68.01
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       525.7,
+       62.41,
+       539.14,
+       68.01
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       576.7,
+       62.41,
+       590.14,
+       68.01
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       627.7,
+       62.41,
+       641.14,
+       68.01
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       678.7,
+       62.41,
+       692.14,
+       68.01
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       729.7,
+       62.41,
+       743.14,
+       68.01
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       780.7,
+       62.41,
+       794.14,
+       68.01
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102400 0129 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "0,00",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_prev": "0,00",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     69.69,
+     811.58,
+     75.29
+    ],
+    "frame_band": [
+     69.69,
+     75.29
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       219.7,
+       69.69,
+       233.14,
+       75.29
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       270.7,
+       69.69,
+       284.14,
+       75.29
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       69.69,
+       335.14,
+       75.29
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       372.7,
+       69.69,
+       386.14,
+       75.29
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       423.7,
+       69.69,
+       437.14,
+       75.29
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       474.7,
+       69.69,
+       488.14,
+       75.29
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       525.7,
+       69.69,
+       539.14,
+       75.29
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       576.7,
+       69.69,
+       590.14,
+       75.29
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       627.7,
+       69.69,
+       641.14,
+       75.29
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       678.7,
+       69.69,
+       692.14,
+       75.29
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       729.7,
+       69.69,
+       743.14,
+       75.29
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       780.7,
+       69.69,
+       794.14,
+       75.29
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r31",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2102400 Summe Bilanzposition EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 5559114,
+    "zugang": 4602316,
+    "abgang": 0,
+    "umbuchung": -10161430,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 5559114,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "55.591,14",
+    "zugang": "46.023,16",
+    "abgang": "0,00",
+    "umbuchung": "101.614,30-",
+    "ahk_close": "0,00",
+    "kum_afa_open": "0,00",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "0,00",
+    "kum_afa_close": "0,00",
+    "bw_prev": "55.591,14",
+    "bw_close": "0,00"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     76.97,
+     811.58,
+     82.57
+    ],
+    "frame_band": [
+     76.97,
+     82.57
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       202.89,
+       76.97,
+       233.14,
+       82.57
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       253.89,
+       76.97,
+       284.14,
+       82.57
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       76.97,
+       335.14,
+       82.57
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       352.53,
+       76.97,
+       389.5,
+       82.57
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       423.7,
+       76.97,
+       437.14,
+       82.57
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       474.7,
+       76.97,
+       488.14,
+       82.57
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       525.7,
+       76.97,
+       539.14,
+       82.57
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       576.7,
+       76.97,
+       590.14,
+       82.57
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       627.7,
+       76.97,
+       641.14,
+       82.57
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       678.7,
+       76.97,
+       692.14,
+       82.57
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       712.89,
+       76.97,
+       743.14,
+       82.57
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       780.7,
+       76.97,
+       794.14,
+       82.57
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "asset",
+   "level": 0,
+   "year": 2025,
+   "asset_no": "5200",
+   "sub_no": "",
+   "name": "2103300 0510 6000 Beteiligungen",
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2103300 0510 6000 Beteiligungen EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 1740479,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1740479,
+    "kum_afa_open": 443914,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 221957,
+    "kum_afa_close": 221957,
+    "bw_prev": 1296565,
+    "bw_close": 1518522
+   },
+   "printed": {
+    "ahk_open": "17.404,79",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "17.404,79",
+    "kum_afa_open": "4.439,14-",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "2.219,57",
+    "kum_afa_close": "2.219,57-",
+    "bw_prev": "12.965,65",
+    "bw_close": "15.185,22"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     84.36,
+     811.58,
+     89.96
+    ],
+    "frame_band": [
+     84.36,
+     89.96
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       202.89,
+       84.36,
+       233.14,
+       89.96
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       270.7,
+       84.36,
+       284.14,
+       89.96
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       84.36,
+       335.14,
+       89.96
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       372.7,
+       84.36,
+       386.14,
+       89.96
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       406.89,
+       84.36,
+       437.14,
+       89.96
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       461.26,
+       84.36,
+       491.5,
+       89.96
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       525.7,
+       84.36,
+       539.14,
+       89.96
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       576.7,
+       84.36,
+       590.14,
+       89.96
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       614.26,
+       84.36,
+       641.14,
+       89.96
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       665.26,
+       84.36,
+       695.5,
+       89.96
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       712.89,
+       84.36,
+       743.14,
+       89.96
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       763.89,
+       84.36,
+       794.14,
+       89.96
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "subtotal",
+   "level": 1,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2103300 0510 Summe Bestandskonto EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 1740479,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1740479,
+    "kum_afa_open": 443914,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 221957,
+    "kum_afa_close": 221957,
+    "bw_prev": 1296565,
+    "bw_close": 1518522
+   },
+   "printed": {
+    "ahk_open": "17.404,79",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "17.404,79",
+    "kum_afa_open": "4.439,14-",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "2.219,57",
+    "kum_afa_close": "2.219,57-",
+    "bw_prev": "12.965,65",
+    "bw_close": "15.185,22"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     91.53,
+     811.58,
+     97.13
+    ],
+    "frame_band": [
+     91.53,
+     97.13
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       202.89,
+       91.53,
+       233.14,
+       97.13
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       270.7,
+       91.53,
+       284.14,
+       97.13
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       91.53,
+       335.14,
+       97.13
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       372.7,
+       91.53,
+       386.14,
+       97.13
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       406.89,
+       91.53,
+       437.14,
+       97.13
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       461.26,
+       91.53,
+       491.5,
+       97.13
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       525.7,
+       91.53,
+       539.14,
+       97.13
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       576.7,
+       91.53,
+       590.14,
+       97.13
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       614.26,
+       91.53,
+       641.14,
+       97.13
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       665.26,
+       91.53,
+       695.5,
+       97.13
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       712.89,
+       91.53,
+       743.14,
+       97.13
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       763.89,
+       91.53,
+       794.14,
+       97.13
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r34",
+   "kind": "subtotal",
+   "level": 2,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 2103300 Summe Bilanzposition EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 1740479,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1740479,
+    "kum_afa_open": 443914,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 221957,
+    "kum_afa_close": 221957,
+    "bw_prev": 1296565,
+    "bw_close": 1518522
+   },
+   "printed": {
+    "ahk_open": "17.404,79",
+    "zugang": "0,00",
+    "abgang": "0,00",
+    "umbuchung": "0,00",
+    "ahk_close": "17.404,79",
+    "kum_afa_open": "4.439,14-",
+    "afa_gj": "0,00",
+    "afa_abgang": "0,00",
+    "zuschreibung": "2.219,57",
+    "kum_afa_close": "2.219,57-",
+    "bw_prev": "12.965,65",
+    "bw_close": "15.185,22"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     98.81,
+     811.58,
+     104.41
+    ],
+    "frame_band": [
+     98.81,
+     104.41
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       202.89,
+       98.81,
+       233.14,
+       104.41
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       270.7,
+       98.81,
+       284.14,
+       104.41
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       321.7,
+       98.81,
+       335.14,
+       104.41
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       372.7,
+       98.81,
+       386.14,
+       104.41
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       406.89,
+       98.81,
+       437.14,
+       104.41
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       461.26,
+       98.81,
+       491.5,
+       104.41
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       525.7,
+       98.81,
+       539.14,
+       104.41
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       576.7,
+       98.81,
+       590.14,
+       104.41
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       614.26,
+       98.81,
+       641.14,
+       104.41
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       665.26,
+       98.81,
+       695.5,
+       104.41
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       712.89,
+       98.81,
+       743.14,
+       104.41
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       763.89,
+       98.81,
+       794.14,
+       104.41
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r35",
+   "kind": "grand_total",
+   "level": 3,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 Summe Geschäftsbereich EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 568078328,
+    "zugang": 91833405,
+    "abgang": 5542793,
+    "umbuchung": 0,
+    "ahk_close": 654368940,
+    "kum_afa_open": 311727494,
+    "afa_gj": 18245267,
+    "afa_abgang": 5005488,
+    "zuschreibung": 221957,
+    "kum_afa_close": 324745316,
+    "bw_prev": 256350834,
+    "bw_close": 329623624
+   },
+   "printed": {
+    "ahk_open": "5.680.783,28",
+    "zugang": "918.334,05",
+    "abgang": "55.427,93-",
+    "umbuchung": "0,00",
+    "ahk_close": "6.543.689,40",
+    "kum_afa_open": "3.117.274,94-",
+    "afa_gj": "182.452,67-",
+    "afa_abgang": "50.054,88",
+    "zuschreibung": "2.219,57",
+    "kum_afa_close": "3.247.453,16-",
+    "bw_prev": "2.563.508,34",
+    "bw_close": "3.296.236,24"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     106.09,
+     811.58,
+     111.69
+    ],
+    "frame_band": [
+     106.09,
+     111.69
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       192.81,
+       106.09,
+       233.14,
+       111.69
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       250.53,
+       106.09,
+       284.14,
+       111.69
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       304.89,
+       106.09,
+       338.5,
+       111.69
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       372.7,
+       106.09,
+       386.14,
+       111.69
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       396.81,
+       106.09,
+       437.14,
+       111.69
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       447.81,
+       106.09,
+       491.5,
+       111.69
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       505.53,
+       106.09,
+       542.5,
+       111.69
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       559.89,
+       106.09,
+       590.14,
+       111.69
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       614.26,
+       106.09,
+       641.14,
+       111.69
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       651.81,
+       106.09,
+       695.5,
+       111.69
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       702.81,
+       106.09,
+       743.14,
+       111.69
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       753.81,
+       106.09,
+       794.14,
+       111.69
+      ]
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r36",
+   "kind": "grand_total",
+   "level": 4,
+   "year": 2025,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "5200 Summe Buchungskreis EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 568078328,
+    "zugang": 91833405,
+    "abgang": 5542793,
+    "umbuchung": 0,
+    "ahk_close": 654368940,
+    "kum_afa_open": 311727494,
+    "afa_gj": 18245267,
+    "afa_abgang": 5005488,
+    "zuschreibung": 221957,
+    "kum_afa_close": 324745316,
+    "bw_prev": 256350834,
+    "bw_close": 329623624
+   },
+   "printed": {
+    "ahk_open": "5.680.783,28",
+    "zugang": "918.334,05",
+    "abgang": "55.427,93-",
+    "umbuchung": "0,00",
+    "ahk_close": "6.543.689,40",
+    "kum_afa_open": "3.117.274,94-",
+    "afa_gj": "182.452,67-",
+    "afa_abgang": "50.054,88",
+    "zuschreibung": "2.219,57",
+    "kum_afa_close": "3.247.453,16-",
+    "bw_prev": "2.563.508,34",
+    "bw_close": "3.296.236,24"
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     113.37,
+     811.58,
+     118.97
+    ],
+    "frame_band": [
+     113.37,
+     118.97
+    ],
+    "fields": {
+     "ahk_open": {
+      "page": 3,
+      "bbox": [
+       192.81,
+       113.37,
+       233.14,
+       118.97
+      ]
+     },
+     "zugang": {
+      "page": 3,
+      "bbox": [
+       250.53,
+       113.37,
+       284.14,
+       118.97
+      ]
+     },
+     "abgang": {
+      "page": 3,
+      "bbox": [
+       304.89,
+       113.37,
+       338.5,
+       118.97
+      ]
+     },
+     "umbuchung": {
+      "page": 3,
+      "bbox": [
+       372.7,
+       113.37,
+       386.14,
+       118.97
+      ]
+     },
+     "ahk_close": {
+      "page": 3,
+      "bbox": [
+       396.81,
+       113.37,
+       437.14,
+       118.97
+      ]
+     },
+     "kum_afa_open": {
+      "page": 3,
+      "bbox": [
+       447.81,
+       113.37,
+       491.5,
+       118.97
+      ]
+     },
+     "afa_gj": {
+      "page": 3,
+      "bbox": [
+       505.53,
+       113.37,
+       542.5,
+       118.97
+      ]
+     },
+     "afa_abgang": {
+      "page": 3,
+      "bbox": [
+       559.89,
+       113.37,
+       590.14,
+       118.97
+      ]
+     },
+     "zuschreibung": {
+      "page": 3,
+      "bbox": [
+       614.26,
+       113.37,
+       641.14,
+       118.97
+      ]
+     },
+     "kum_afa_close": {
+      "page": 3,
+      "bbox": [
+       651.81,
+       113.37,
+       695.5,
+       118.97
+      ]
+     },
+     "bw_prev": {
+      "page": 3,
+      "bbox": [
+       702.81,
+       113.37,
+       743.14,
+       118.97
+      ]
+     },
+     "bw_close": {
+      "page": 3,
+      "bbox": [
+       753.81,
+       113.37,
+       794.14,
+       118.97
+      ]
+     }
+    }
+   },
+   "flags": {}
+  }
+ ],
+ "detections": []
+}

@@ -1,0 +1,444 @@
+{
+ "values_in_key": 444,
+ "correct": 0,
+ "wrong": 0,
+ "blank": 444,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 0,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": 1.0,
+ "details": [
+  {
+   "row": "r1",
+   "field": "kum_afa_open",
+   "key": 4041397,
+   "ours": "field not output",
+   "printed": "40.413,97"
+  },
+  {
+   "row": "r1",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r2",
+   "field": "kum_afa_open",
+   "key": 1248673,
+   "ours": "field not output",
+   "printed": "12.486,73"
+  },
+  {
+   "row": "r2",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r3",
+   "field": "kum_afa_open",
+   "key": 5850749,
+   "ours": "field not output",
+   "printed": "58.507,49"
+  },
+  {
+   "row": "r3",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r4",
+   "field": "kum_afa_open",
+   "key": 1619680,
+   "ours": "field not output",
+   "printed": "16.196,80"
+  },
+  {
+   "row": "r4",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r5",
+   "field": "kum_afa_open",
+   "key": 159333,
+   "ours": "field not output",
+   "printed": "1.593,33"
+  },
+  {
+   "row": "r5",
+   "field": "afa_gj",
+   "key": 29875,
+   "ours": "field not output",
+   "printed": "298,75"
+  },
+  {
+   "row": "r6",
+   "field": "kum_afa_open",
+   "key": 92067,
+   "ours": "field not output",
+   "printed": "920,67"
+  },
+  {
+   "row": "r6",
+   "field": "afa_gj",
+   "key": 69050,
+   "ours": "field not output",
+   "printed": "690,50"
+  },
+  {
+   "row": "r7",
+   "field": "kum_afa_open",
+   "key": 13011899,
+   "ours": "field not output",
+   "printed": "130.118,99"
+  },
+  {
+   "row": "r7",
+   "field": "afa_gj",
+   "key": 98925,
+   "ours": "field not output",
+   "printed": "989,25"
+  },
+  {
+   "row": "r8",
+   "field": "kum_afa_open",
+   "key": 4339800,
+   "ours": "field not output",
+   "printed": "43.398,00"
+  },
+  {
+   "row": "r8",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r9",
+   "field": "kum_afa_open",
+   "key": 407611,
+   "ours": "field not output",
+   "printed": "4.076,11"
+  },
+  {
+   "row": "r9",
+   "field": "afa_gj",
+   "key": 99823,
+   "ours": "field not output",
+   "printed": "998,23"
+  },
+  {
+   "row": "r10",
+   "field": "kum_afa_open",
+   "key": 376322,
+   "ours": "field not output",
+   "printed": "3.763,22"
+  },
+  {
+   "row": "r10",
+   "field": "afa_gj",
+   "key": 301057,
+   "ours": "field not output",
+   "printed": "3.010,57"
+  },
+  {
+   "row": "r11",
+   "field": "kum_afa_open",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r11",
+   "field": "afa_gj",
+   "key": 129506,
+   "ours": "field not output",
+   "printed": "1.295,06"
+  },
+  {
+   "row": "r12",
+   "field": "kum_afa_open",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r12",
+   "field": "afa_gj",
+   "key": 1486885,
+   "ours": "field not output",
+   "printed": "14.868,85"
+  },
+  {
+   "row": "r13",
+   "field": "kum_afa_open",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r13",
+   "field": "afa_gj",
+   "key": 77734,
+   "ours": "field not output",
+   "printed": "777,34"
+  },
+  {
+   "row": "r14",
+   "field": "kum_afa_open",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r14",
+   "field": "afa_gj",
+   "key": 655421,
+   "ours": "field not output",
+   "printed": "6.554,21"
+  },
+  {
+   "row": "r15",
+   "field": "kum_afa_open",
+   "key": 5123733,
+   "ours": "field not output",
+   "printed": "51.237,33"
+  },
+  {
+   "row": "r15",
+   "field": "afa_gj",
+   "key": 2750426,
+   "ours": "field not output",
+   "printed": "27.504,26"
+  },
+  {
+   "row": "r16",
+   "field": "kum_afa_open",
+   "key": 1849061,
+   "ours": "field not output",
+   "printed": "18.490,61"
+  },
+  {
+   "row": "r16",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r17",
+   "field": "kum_afa_open",
+   "key": 5370800,
+   "ours": "field not output",
+   "printed": "53.708,00"
+  },
+  {
+   "row": "r17",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r18",
+   "field": "kum_afa_open",
+   "key": 4943167,
+   "ours": "field not output",
+   "printed": "49.431,67"
+  },
+  {
+   "row": "r18",
+   "field": "afa_gj",
+   "key": 532241,
+   "ours": "field not output",
+   "printed": "5.322,41"
+  },
+  {
+   "row": "r19",
+   "field": "kum_afa_open",
+   "key": 3012163,
+   "ours": "field not output",
+   "printed": "30.121,63"
+  },
+  {
+   "row": "r19",
+   "field": "afa_gj",
+   "key": 840603,
+   "ours": "field not output",
+   "printed": "8.406,03"
+  },
+  {
+   "row": "r20",
+   "field": "kum_afa_open",
+   "key": 591976,
+   "ours": "field not output",
+   "printed": "5.919,76"
+  },
+  {
+   "row": "r20",
+   "field": "afa_gj",
+   "key": 1014817,
+   "ours": "field not output",
+   "printed": "10.148,17"
+  },
+  {
+   "row": "r21",
+   "field": "kum_afa_open",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r21",
+   "field": "afa_gj",
+   "key": 230226,
+   "ours": "field not output",
+   "printed": "2.302,26"
+  },
+  {
+   "row": "r22",
+   "field": "kum_afa_open",
+   "key": 15767167,
+   "ours": "field not output",
+   "printed": "157.671,67"
+  },
+  {
+   "row": "r22",
+   "field": "afa_gj",
+   "key": 2617887,
+   "ours": "field not output",
+   "printed": "26.178,87"
+  },
+  {
+   "row": "r23",
+   "field": "kum_afa_open",
+   "key": 60200,
+   "ours": "field not output",
+   "printed": "602,00"
+  },
+  {
+   "row": "r23",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r24",
+   "field": "kum_afa_open",
+   "key": 1448499,
+   "ours": "field not output",
+   "printed": "14.484,99"
+  },
+  {
+   "row": "r24",
+   "field": "afa_gj",
+   "key": 172099,
+   "ours": "field not output",
+   "printed": "1.720,99"
+  },
+  {
+   "row": "r25",
+   "field": "kum_afa_open",
+   "key": 150427,
+   "ours": "field not output",
+   "printed": "1.504,27"
+  },
+  {
+   "row": "r25",
+   "field": "afa_gj",
+   "key": 31669,
+   "ours": "field not output",
+   "printed": "316,69"
+  },
+  {
+   "row": "r26",
+   "field": "kum_afa_open",
+   "key": 1659126,
+   "ours": "field not output",
+   "printed": "16.591,26"
+  },
+  {
+   "row": "r26",
+   "field": "afa_gj",
+   "key": 203768,
+   "ours": "field not output",
+   "printed": "2.037,68"
+  },
+  {
+   "row": "r27",
+   "field": "kum_afa_open",
+   "key": 44576,
+   "ours": "field not output",
+   "printed": "445,76"
+  },
+  {
+   "row": "r27",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r28",
+   "field": "kum_afa_open",
+   "key": 26600,
+   "ours": "field not output",
+   "printed": "266,00"
+  },
+  {
+   "row": "r28",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r29",
+   "field": "kum_afa_open",
+   "key": 58500,
+   "ours": "field not output",
+   "printed": "585,00"
+  },
+  {
+   "row": "r29",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  },
+  {
+   "row": "r30",
+   "field": "kum_afa_open",
+   "key": 68702,
+   "ours": "field not output",
+   "printed": "687,02"
+  },
+  {
+   "row": "r30",
+   "field": "afa_gj",
+   "key": 0,
+   "ours": "field not output",
+   "printed": ""
+  }
+ ],
+ "detection": {
+  "planted": [],
+  "detected": [],
+  "hit": [],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "perfect",
+  "variant_guess": "perfect"
+ }
+}

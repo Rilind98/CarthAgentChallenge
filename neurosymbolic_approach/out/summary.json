@@ -1,0 +1,3298 @@
+[
+ {
+  "doc_id": "f00_demo_01",
+  "family": "f00_demo",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 37,
+  "values": 444,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f00_demo_01/Arbeitsversion_f00_demo_01.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 36,
+   "grand_total_row": true,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.02,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 444,
+  "correct": 444,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 444,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f00_demo_02",
+  "family": "f00_demo",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 37,
+  "values": 0,
+  "blank": 444,
+  "gates": [
+   "abstain: laws hold on only 24% of checks"
+  ],
+  "arbeitsversion": {
+   "file": "out/f00_demo_02/Arbeitsversion_f00_demo_02.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 36,
+   "grand_total_row": true,
+   "open_points": 371,
+   "year": 2025
+  },
+  "seconds": 1.11,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 444,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f00_demo_03",
+  "family": "f00_demo",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f00_demo_03/Arbeitsversion_f00_demo_03.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 0.97,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 444,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 444,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f00_demo_04",
+  "family": "f00_demo",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 37,
+  "values": 0,
+  "blank": 444,
+  "gates": [
+   "abstain: laws hold on only 24% of checks"
+  ],
+  "arbeitsversion": {
+   "file": "out/f00_demo_04/Arbeitsversion_f00_demo_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 36,
+   "grand_total_row": true,
+   "open_points": 372,
+   "year": 2025
+  },
+  "seconds": 1.13,
+  "detection": {
+   "planted": [
+    "glued_numbers",
+    "non_tying_subtotal"
+   ],
+   "detected": [
+    "glued_numbers"
+   ],
+   "hit": [
+    "glued_numbers"
+   ],
+   "missed": [
+    "non_tying_subtotal"
+   ],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 444,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f01_net_spiegel_01",
+  "family": "f01_net_spiegel",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f01_net_spiegel_01/Arbeitsversion_f01_net_spiegel_01.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.0,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 264,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 264,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_02",
+  "family": "f01_net_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 33,
+  "values": 264,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f01_net_spiegel_02/Arbeitsversion_f01_net_spiegel_02.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 33,
+   "grand_total_row": false,
+   "open_points": 6,
+   "year": 2025
+  },
+  "seconds": 1.12,
+  "detection": {
+   "planted": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "detected": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "hit": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 264,
+  "correct": 264,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 264,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_03",
+  "family": "f01_net_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 33,
+  "values": 264,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f01_net_spiegel_03/Arbeitsversion_f01_net_spiegel_03.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 33,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": 2025
+  },
+  "seconds": 1.19,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 264,
+  "correct": 264,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 264,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_04",
+  "family": "f01_net_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 23,
+  "values": 184,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f01_net_spiegel_04/Arbeitsversion_f01_net_spiegel_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 22,
+   "grand_total_row": true,
+   "open_points": 1,
+   "year": 2025
+  },
+  "seconds": 1.07,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "layout-mutation",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 184,
+  "correct": 184,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 184,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_05",
+  "family": "f01_net_spiegel",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f01_net_spiegel_05/Arbeitsversion_f01_net_spiegel_05.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 2.81,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 264,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 264,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_06",
+  "family": "f01_net_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 33,
+  "values": 264,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f01_net_spiegel_06/Arbeitsversion_f01_net_spiegel_06.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 33,
+   "grand_total_row": false,
+   "open_points": 3,
+   "year": 2025
+  },
+  "seconds": 1.13,
+  "detection": {
+   "planted": [
+    "glued_numbers",
+    "noise_page_cover"
+   ],
+   "detected": [
+    "glued_numbers",
+    "noise_page_cover"
+   ],
+   "hit": [
+    "glued_numbers",
+    "noise_page_cover"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 264,
+  "correct": 264,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 264,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_07",
+  "family": "f01_net_spiegel",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 33,
+  "values": 264,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f01_net_spiegel_07/Arbeitsversion_f01_net_spiegel_07.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 33,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": 2025
+  },
+  "seconds": 1.03,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 264,
+  "correct": 264,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 264,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f01_net_spiegel_08",
+  "family": "f01_net_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 66,
+  "values": 528,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f01_net_spiegel_08/Arbeitsversion_f01_net_spiegel_08.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 33,
+   "grand_total_row": false,
+   "open_points": 3,
+   "year": 2025
+  },
+  "seconds": 1.3,
+  "detection": {
+   "planted": [
+    "multi_year"
+   ],
+   "detected": [
+    "multi_year"
+   ],
+   "hit": [
+    "multi_year"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 528,
+  "correct": 528,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 528,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f02_asset_spiegel_01",
+  "family": "f02_asset_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 112,
+  "values": 1008,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f02_asset_spiegel_01/Arbeitsversion_f02_asset_spiegel_01.xlsx",
+   "anlagenverzeichnis_rows": 81,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 31,
+   "grand_total_row": false,
+   "open_points": 14,
+   "year": 2025
+  },
+  "seconds": 1.53,
+  "detection": {
+   "planted": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "detected": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "hit": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 1008,
+  "correct": 1008,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 1008,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f02_asset_spiegel_02",
+  "family": "f02_asset_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 137,
+  "values": 1233,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f02_asset_spiegel_02/Arbeitsversion_f02_asset_spiegel_02.xlsx",
+   "anlagenverzeichnis_rows": 106,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 31,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.58,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 1233,
+  "correct": 1233,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 1233,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f02_asset_spiegel_03",
+  "family": "f02_asset_spiegel",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 135,
+  "values": 1215,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f02_asset_spiegel_03/Arbeitsversion_f02_asset_spiegel_03.xlsx",
+   "anlagenverzeichnis_rows": 104,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 31,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.16,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 1215,
+  "correct": 1215,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 1215,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 0.846
+ },
+ {
+  "doc_id": "f02_asset_spiegel_04",
+  "family": "f02_asset_spiegel",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f02_asset_spiegel_04/Arbeitsversion_f02_asset_spiegel_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 6.65,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 1107,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 1107,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f02_asset_spiegel_05",
+  "family": "f02_asset_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 121,
+  "values": 1089,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f02_asset_spiegel_05/Arbeitsversion_f02_asset_spiegel_05.xlsx",
+   "anlagenverzeichnis_rows": 108,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 12,
+   "grand_total_row": true,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.42,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "layout-mutation",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 1089,
+  "correct": 1089,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 1089,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 0.0
+ },
+ {
+  "doc_id": "f02_asset_spiegel_06",
+  "family": "f02_asset_spiegel",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f02_asset_spiegel_06/Arbeitsversion_f02_asset_spiegel_06.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 0.96,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 1215,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 1215,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f02_asset_spiegel_07",
+  "family": "f02_asset_spiegel",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 139,
+  "values": 1251,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f02_asset_spiegel_07/Arbeitsversion_f02_asset_spiegel_07.xlsx",
+   "anlagenverzeichnis_rows": 108,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 31,
+   "grand_total_row": false,
+   "open_points": 4,
+   "year": 2025
+  },
+  "seconds": 1.58,
+  "detection": {
+   "planted": [
+    "glued_numbers",
+    "noise_page_blank",
+    "non_tying_subtotal"
+   ],
+   "detected": [
+    "glued_numbers",
+    "noise_page_blank",
+    "non_tying_subtotal"
+   ],
+   "hit": [
+    "glued_numbers",
+    "noise_page_blank",
+    "non_tying_subtotal"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 1251,
+  "correct": 1251,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 1251,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 0.981
+ },
+ {
+  "doc_id": "f03_block_spiegel_01",
+  "family": "f03_block_spiegel",
+  "format": "pdf",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f03_block_spiegel_01/Arbeitsversion_f03_block_spiegel_01.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.23,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "pdf",
+  "values_in_key": 793,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 793,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f03_block_spiegel_02",
+  "family": "f03_block_spiegel",
+  "format": "xlsx",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several rows): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f03_block_spiegel_02/Arbeitsversion_f03_block_spiegel_02.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.04,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 819,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 819,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f03_block_spiegel_03",
+  "family": "f03_block_spiegel",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f03_block_spiegel_03/Arbeitsversion_f03_block_spiegel_03.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.0,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 767,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 767,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f03_block_spiegel_04",
+  "family": "f03_block_spiegel",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f03_block_spiegel_04/Arbeitsversion_f03_block_spiegel_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 4.37,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 910,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 910,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f03_block_spiegel_05",
+  "family": "f03_block_spiegel",
+  "format": "pdf",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f03_block_spiegel_05/Arbeitsversion_f03_block_spiegel_05.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 2,
+   "year": null
+  },
+  "seconds": 1.22,
+  "detection": {
+   "planted": [
+    "glued_numbers",
+    "non_tying_subtotal"
+   ],
+   "detected": [
+    "glued_numbers"
+   ],
+   "hit": [
+    "glued_numbers"
+   ],
+   "missed": [
+    "non_tying_subtotal"
+   ],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "problem",
+   "variant_guess": "unknown"
+  },
+  "key_format": "pdf",
+  "values_in_key": 650,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 650,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f03_block_spiegel_06",
+  "family": "f03_block_spiegel",
+  "format": "pdf",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f03_block_spiegel_06/Arbeitsversion_f03_block_spiegel_06.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 3,
+   "year": null
+  },
+  "seconds": 1.23,
+  "detection": {
+   "planted": [
+    "header_only_on_first_page",
+    "noise_page_cover"
+   ],
+   "detected": [
+    "header_only_on_first_page",
+    "noise_page_cover"
+   ],
+   "hit": [
+    "header_only_on_first_page",
+    "noise_page_cover"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "problem",
+   "variant_guess": "unknown"
+  },
+  "key_format": "pdf",
+  "values_in_key": 936,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 936,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f03_block_spiegel_07",
+  "family": "f03_block_spiegel",
+  "format": "pdf",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f03_block_spiegel_07/Arbeitsversion_f03_block_spiegel_07.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.21,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "layout-mutation",
+   "variant_guess": "unknown"
+  },
+  "key_format": "pdf",
+  "values_in_key": 767,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 767,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f04_verzeichnis_01",
+  "family": "f04_verzeichnis",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 84,
+  "values": 168,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f04_verzeichnis_01/Arbeitsversion_f04_verzeichnis_01.xlsx",
+   "anlagenverzeichnis_rows": 71,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 13,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": 2025
+  },
+  "seconds": 1.18,
+  "detection": {
+   "planted": [],
+   "detected": [
+    "wrapped_description"
+   ],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [
+    "wrapped_description"
+   ],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 168,
+  "correct": 168,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 168,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 0.873
+ },
+ {
+  "doc_id": "f04_verzeichnis_02",
+  "family": "f04_verzeichnis",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 85,
+  "values": 170,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f04_verzeichnis_02/Arbeitsversion_f04_verzeichnis_02.xlsx",
+   "anlagenverzeichnis_rows": 72,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 13,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": 2025
+  },
+  "seconds": 1.17,
+  "detection": {
+   "planted": [],
+   "detected": [
+    "wrapped_description"
+   ],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [
+    "wrapped_description"
+   ],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 170,
+  "correct": 170,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 170,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 0.833
+ },
+ {
+  "doc_id": "f04_verzeichnis_03",
+  "family": "f04_verzeichnis",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 95,
+  "values": 190,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f04_verzeichnis_03/Arbeitsversion_f04_verzeichnis_03.xlsx",
+   "anlagenverzeichnis_rows": 82,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 13,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2024
+  },
+  "seconds": 1.04,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 190,
+  "correct": 190,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 190,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f04_verzeichnis_04",
+  "family": "f04_verzeichnis",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f04_verzeichnis_04/Arbeitsversion_f04_verzeichnis_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.02,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 154,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 154,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f04_verzeichnis_05",
+  "family": "f04_verzeichnis",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f04_verzeichnis_05/Arbeitsversion_f04_verzeichnis_05.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 2.35,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 170,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 170,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f04_verzeichnis_06",
+  "family": "f04_verzeichnis",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 82,
+  "values": 164,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f04_verzeichnis_06/Arbeitsversion_f04_verzeichnis_06.xlsx",
+   "anlagenverzeichnis_rows": 69,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 13,
+   "grand_total_row": false,
+   "open_points": 3,
+   "year": 2025
+  },
+  "seconds": 1.32,
+  "detection": {
+   "planted": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "detected": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "hit": [
+    "non_tying_subtotal",
+    "wrapped_description"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 164,
+  "correct": 164,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 164,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 0.855
+ },
+ {
+  "doc_id": "f04_verzeichnis_07",
+  "family": "f04_verzeichnis",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 93,
+  "values": 186,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f04_verzeichnis_07/Arbeitsversion_f04_verzeichnis_07.xlsx",
+   "anlagenverzeichnis_rows": 80,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 13,
+   "grand_total_row": false,
+   "open_points": 3,
+   "year": 2024
+  },
+  "seconds": 1.15,
+  "detection": {
+   "planted": [
+    "header_only_on_first_page",
+    "noise_page_unrelated"
+   ],
+   "detected": [
+    "header_only_on_first_page",
+    "noise_page_unrelated",
+    "wrapped_description"
+   ],
+   "hit": [
+    "header_only_on_first_page",
+    "noise_page_unrelated"
+   ],
+   "missed": [],
+   "false_alarm": [
+    "wrapped_description"
+   ],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 186,
+  "correct": 186,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 186,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 0.838
+ },
+ {
+  "doc_id": "f04_verzeichnis_08",
+  "family": "f04_verzeichnis",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 82,
+  "values": 164,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f04_verzeichnis_08/Arbeitsversion_f04_verzeichnis_08.xlsx",
+   "anlagenverzeichnis_rows": 69,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 13,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.17,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "layout-mutation",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 164,
+  "correct": 164,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 164,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 0.826
+ },
+ {
+  "doc_id": "f05_sap_class_gitter_01",
+  "family": "f05_sap_class_gitter",
+  "format": "pdf",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f05_sap_class_gitter_01/Arbeitsversion_f05_sap_class_gitter_01.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.19,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "pdf",
+  "values_in_key": 396,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 396,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f05_sap_class_gitter_02",
+  "family": "f05_sap_class_gitter",
+  "format": "xlsx",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several rows): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f05_sap_class_gitter_02/Arbeitsversion_f05_sap_class_gitter_02.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.0,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 396,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 396,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f05_sap_class_gitter_03",
+  "family": "f05_sap_class_gitter",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f05_sap_class_gitter_03/Arbeitsversion_f05_sap_class_gitter_03.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.04,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 360,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 360,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f05_sap_class_gitter_04",
+  "family": "f05_sap_class_gitter",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f05_sap_class_gitter_04/Arbeitsversion_f05_sap_class_gitter_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 4.7,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 432,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 432,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f05_sap_class_gitter_05",
+  "family": "f05_sap_class_gitter",
+  "format": "pdf",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f05_sap_class_gitter_05/Arbeitsversion_f05_sap_class_gitter_05.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 2,
+   "year": null
+  },
+  "seconds": 1.12,
+  "detection": {
+   "planted": [
+    "column_cut_off"
+   ],
+   "detected": [
+    "column_cut_off"
+   ],
+   "hit": [
+    "column_cut_off"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "problem",
+   "variant_guess": "unknown"
+  },
+  "key_format": "pdf",
+  "values_in_key": 408,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 408,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f05_sap_class_gitter_06",
+  "family": "f05_sap_class_gitter",
+  "format": "pdf",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f05_sap_class_gitter_06/Arbeitsversion_f05_sap_class_gitter_06.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 5,
+   "year": null
+  },
+  "seconds": 1.11,
+  "detection": {
+   "planted": [
+    "non_tying_subtotal",
+    "teur_rounding"
+   ],
+   "detected": [
+    "noise_page_unrelated"
+   ],
+   "hit": [],
+   "missed": [
+    "non_tying_subtotal",
+    "teur_rounding"
+   ],
+   "false_alarm": [
+    "noise_page_unrelated"
+   ],
+   "readable": false,
+   "variant_key": "problem",
+   "variant_guess": "unknown"
+  },
+  "key_format": "pdf",
+  "values_in_key": 384,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 384,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f05_sap_class_gitter_07",
+  "family": "f05_sap_class_gitter",
+  "format": "pdf",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f05_sap_class_gitter_07/Arbeitsversion_f05_sap_class_gitter_07.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 4,
+   "year": null
+  },
+  "seconds": 1.1,
+  "detection": {
+   "planted": [
+    "glued_numbers",
+    "header_only_on_first_page",
+    "noise_page_blank"
+   ],
+   "detected": [
+    "glued_numbers",
+    "header_only_on_first_page",
+    "noise_page_blank"
+   ],
+   "hit": [
+    "glued_numbers",
+    "header_only_on_first_page",
+    "noise_page_blank"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "problem",
+   "variant_guess": "unknown"
+  },
+  "key_format": "pdf",
+  "values_in_key": 396,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 396,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f05_sap_class_gitter_08",
+  "family": "f05_sap_class_gitter",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 36,
+  "values": 432,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f05_sap_class_gitter_08/Arbeitsversion_f05_sap_class_gitter_08.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 34,
+   "grand_total_row": true,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.23,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "layout-mutation",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 432,
+  "correct": 432,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 432,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f06_sap_asset_gitter_01",
+  "family": "f06_sap_asset_gitter",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f06_sap_asset_gitter_01/Arbeitsversion_f06_sap_asset_gitter_01.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 7.33,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 968,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 968,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f06_sap_asset_gitter_02",
+  "family": "f06_sap_asset_gitter",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 88,
+  "values": 968,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f06_sap_asset_gitter_02/Arbeitsversion_f06_sap_asset_gitter_02.xlsx",
+   "anlagenverzeichnis_rows": 76,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 12,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.08,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 968,
+  "correct": 968,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 968,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f06_sap_asset_gitter_03",
+  "family": "f06_sap_asset_gitter",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f06_sap_asset_gitter_03/Arbeitsversion_f06_sap_asset_gitter_03.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.02,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 550,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 550,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f06_sap_asset_gitter_04",
+  "family": "f06_sap_asset_gitter",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 67,
+  "values": 737,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f06_sap_asset_gitter_04/Arbeitsversion_f06_sap_asset_gitter_04.xlsx",
+   "anlagenverzeichnis_rows": 57,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 8,
+   "grand_total_row": false,
+   "open_points": 4,
+   "year": 2025
+  },
+  "seconds": 1.47,
+  "detection": {
+   "planted": [
+    "carry_over",
+    "glued_numbers",
+    "non_tying_subtotal"
+   ],
+   "detected": [
+    "carry_over",
+    "glued_numbers",
+    "non_tying_subtotal"
+   ],
+   "hit": [
+    "carry_over",
+    "glued_numbers",
+    "non_tying_subtotal"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 737,
+  "correct": 737,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 737,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f06_sap_asset_gitter_05",
+  "family": "f06_sap_asset_gitter",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f06_sap_asset_gitter_05/Arbeitsversion_f06_sap_asset_gitter_05.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 3.67,
+  "detection": {
+   "planted": [
+    "header_only_on_first_page",
+    "noise_page_unrelated"
+   ],
+   "detected": [],
+   "hit": [],
+   "missed": [
+    "header_only_on_first_page",
+    "noise_page_unrelated"
+   ],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "problem",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 627,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 627,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f06_sap_asset_gitter_06",
+  "family": "f06_sap_asset_gitter",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 49,
+  "values": 490,
+  "blank": 49,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f06_sap_asset_gitter_06/Arbeitsversion_f06_sap_asset_gitter_06.xlsx",
+   "anlagenverzeichnis_rows": 42,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 7,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": 2025
+  },
+  "seconds": 1.29,
+  "detection": {
+   "planted": [
+    "column_cut_off"
+   ],
+   "detected": [
+    "column_cut_off"
+   ],
+   "hit": [
+    "column_cut_off"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 539,
+  "correct": 490,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 490,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f06_sap_asset_gitter_07",
+  "family": "f06_sap_asset_gitter",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 63,
+  "values": 693,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f06_sap_asset_gitter_07/Arbeitsversion_f06_sap_asset_gitter_07.xlsx",
+   "anlagenverzeichnis_rows": 53,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 10,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.36,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "layout-mutation",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 693,
+  "correct": 693,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 693,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f07_sap_class_summary_01",
+  "family": "f07_sap_class_summary",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 18,
+  "values": 126,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f07_sap_class_summary_01/Arbeitsversion_f07_sap_class_summary_01.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 18,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.05,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 126,
+  "correct": 126,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 126,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_02",
+  "family": "f07_sap_class_summary",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 18,
+  "values": 126,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f07_sap_class_summary_02/Arbeitsversion_f07_sap_class_summary_02.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 18,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.03,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 126,
+  "correct": 126,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 126,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_03",
+  "family": "f07_sap_class_summary",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f07_sap_class_summary_03/Arbeitsversion_f07_sap_class_summary_03.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.02,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 140,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 140,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_04",
+  "family": "f07_sap_class_summary",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f07_sap_class_summary_04/Arbeitsversion_f07_sap_class_summary_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.91,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 133,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 133,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_05",
+  "family": "f07_sap_class_summary",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 40,
+  "values": 280,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f07_sap_class_summary_05/Arbeitsversion_f07_sap_class_summary_05.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 20,
+   "grand_total_row": false,
+   "open_points": 4,
+   "year": 2025
+  },
+  "seconds": 1.15,
+  "detection": {
+   "planted": [
+    "multi_year",
+    "non_tying_subtotal"
+   ],
+   "detected": [
+    "multi_year",
+    "non_tying_subtotal"
+   ],
+   "hit": [
+    "multi_year",
+    "non_tying_subtotal"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 280,
+  "correct": 280,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 280,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_06",
+  "family": "f07_sap_class_summary",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 18,
+  "values": 122,
+  "blank": 4,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f07_sap_class_summary_06/Arbeitsversion_f07_sap_class_summary_06.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 18,
+   "grand_total_row": false,
+   "open_points": 9,
+   "year": 2025
+  },
+  "seconds": 1.05,
+  "detection": {
+   "planted": [
+    "glued_numbers",
+    "noise_page_cover",
+    "teur_rounding"
+   ],
+   "detected": [
+    "glued_numbers",
+    "noise_page_cover",
+    "non_tying_subtotal",
+    "teur_rounding"
+   ],
+   "hit": [
+    "glued_numbers",
+    "noise_page_cover",
+    "teur_rounding"
+   ],
+   "missed": [],
+   "false_alarm": [
+    "non_tying_subtotal"
+   ],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 126,
+  "correct": 122,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 122,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f07_sap_class_summary_07",
+  "family": "f07_sap_class_summary",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 20,
+  "values": 140,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f07_sap_class_summary_07/Arbeitsversion_f07_sap_class_summary_07.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 20,
+   "grand_total_row": false,
+   "open_points": 0,
+   "year": 2024
+  },
+  "seconds": 1.1,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "layout-mutation",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 140,
+  "correct": 140,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 140,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f08_excel_spiegel_2y_01",
+  "family": "f08_excel_spiegel_2y",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 20,
+  "values": 220,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f08_excel_spiegel_2y_01/Arbeitsversion_f08_excel_spiegel_2y_01.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Bilanzposition",
+   "gitter_rows": 9,
+   "grand_total_row": true,
+   "open_points": 2,
+   "year": 2025
+  },
+  "seconds": 1.03,
+  "detection": {
+   "planted": [
+    "multi_year"
+   ],
+   "detected": [
+    "multi_year"
+   ],
+   "hit": [
+    "multi_year"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "problem"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 220,
+  "correct": 220,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 220,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f08_excel_spiegel_2y_02",
+  "family": "f08_excel_spiegel_2y",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 20,
+  "values": 220,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f08_excel_spiegel_2y_02/Arbeitsversion_f08_excel_spiegel_2y_02.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Bilanzposition",
+   "gitter_rows": 9,
+   "grand_total_row": true,
+   "open_points": 2,
+   "year": 2025
+  },
+  "seconds": 1.1,
+  "detection": {
+   "planted": [
+    "multi_year"
+   ],
+   "detected": [
+    "multi_year"
+   ],
+   "hit": [
+    "multi_year"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "problem"
+  },
+  "key_format": "pdf",
+  "values_in_key": 220,
+  "correct": 220,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 220,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f08_excel_spiegel_2y_03",
+  "family": "f08_excel_spiegel_2y",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f08_excel_spiegel_2y_03/Arbeitsversion_f08_excel_spiegel_2y_03.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.02,
+  "detection": {
+   "planted": [
+    "multi_year"
+   ],
+   "detected": [],
+   "hit": [],
+   "missed": [
+    "multi_year"
+   ],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 220,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 220,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f08_excel_spiegel_2y_04",
+  "family": "f08_excel_spiegel_2y",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f08_excel_spiegel_2y_04/Arbeitsversion_f08_excel_spiegel_2y_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.86,
+  "detection": {
+   "planted": [
+    "multi_year"
+   ],
+   "detected": [],
+   "hit": [],
+   "missed": [
+    "multi_year"
+   ],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 220,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 220,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f08_excel_spiegel_2y_05",
+  "family": "f08_excel_spiegel_2y",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 20,
+  "values": 220,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f08_excel_spiegel_2y_05/Arbeitsversion_f08_excel_spiegel_2y_05.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Bilanzposition",
+   "gitter_rows": 9,
+   "grand_total_row": true,
+   "open_points": 3,
+   "year": 2025
+  },
+  "seconds": 1.05,
+  "detection": {
+   "planted": [
+    "multi_year",
+    "numbers_as_text"
+   ],
+   "detected": [
+    "multi_year",
+    "numbers_as_text"
+   ],
+   "hit": [
+    "multi_year",
+    "numbers_as_text"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 220,
+  "correct": 220,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 220,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f08_excel_spiegel_2y_06",
+  "family": "f08_excel_spiegel_2y",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 20,
+  "values": 220,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f08_excel_spiegel_2y_06/Arbeitsversion_f08_excel_spiegel_2y_06.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Bilanzposition",
+   "gitter_rows": 9,
+   "grand_total_row": true,
+   "open_points": 4,
+   "year": 2025
+  },
+  "seconds": 1.0,
+  "detection": {
+   "planted": [
+    "multi_year",
+    "non_tying_subtotal"
+   ],
+   "detected": [
+    "multi_year",
+    "non_tying_subtotal"
+   ],
+   "hit": [
+    "multi_year",
+    "non_tying_subtotal"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 220,
+  "correct": 220,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 220,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f08_excel_spiegel_2y_07",
+  "family": "f08_excel_spiegel_2y",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 20,
+  "values": 220,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f08_excel_spiegel_2y_07/Arbeitsversion_f08_excel_spiegel_2y_07.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Bilanzposition",
+   "gitter_rows": 9,
+   "grand_total_row": true,
+   "open_points": 3,
+   "year": 2025
+  },
+  "seconds": 1.05,
+  "detection": {
+   "planted": [
+    "hidden_column",
+    "multi_year"
+   ],
+   "detected": [
+    "hidden_column",
+    "multi_year"
+   ],
+   "hit": [
+    "hidden_column",
+    "multi_year"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 220,
+  "correct": 220,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 220,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f08_excel_spiegel_2y_08",
+  "family": "f08_excel_spiegel_2y",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 20,
+  "values": 220,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f08_excel_spiegel_2y_08/Arbeitsversion_f08_excel_spiegel_2y_08.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Bilanzposition",
+   "gitter_rows": 10,
+   "grand_total_row": false,
+   "open_points": 2,
+   "year": 2025
+  },
+  "seconds": 1.05,
+  "detection": {
+   "planted": [
+    "multi_year"
+   ],
+   "detected": [
+    "multi_year"
+   ],
+   "hit": [
+    "multi_year"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "layout-mutation",
+   "variant_guess": "problem"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 220,
+  "correct": 220,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 220,
+  "kind_accuracy": 0.9,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f09_excel_register_01",
+  "family": "f09_excel_register",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 74,
+  "values": 888,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f09_excel_register_01/Arbeitsversion_f09_excel_register_01.xlsx",
+   "anlagenverzeichnis_rows": 69,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": true,
+   "open_points": 0,
+   "year": null
+  },
+  "seconds": 1.09,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 888,
+  "correct": 888,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 888,
+  "kind_accuracy": 0.824,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f09_excel_register_02",
+  "family": "f09_excel_register",
+  "format": "pdf",
+  "mode": "line",
+  "abstain": null,
+  "rows": 62,
+  "values": 744,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f09_excel_register_02/Arbeitsversion_f09_excel_register_02.xlsx",
+   "anlagenverzeichnis_rows": 57,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": true,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.31,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "perfect",
+   "variant_guess": "perfect"
+  },
+  "key_format": "pdf",
+  "values_in_key": 744,
+  "correct": 744,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 744,
+  "kind_accuracy": 0.79,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f09_excel_register_03",
+  "family": "f09_excel_register",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f09_excel_register_03/Arbeitsversion_f09_excel_register_03.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.0,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "scan",
+  "values_in_key": 900,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 900,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f09_excel_register_04",
+  "family": "f09_excel_register",
+  "format": "image-pdf",
+  "mode": "none",
+  "abstain": "no text layer: needs OCR (not wired in yet)",
+  "rows": 0,
+  "values": 0,
+  "blank": 0,
+  "gates": [],
+  "arbeitsversion": {
+   "file": "out/f09_excel_register_04/Arbeitsversion_f09_excel_register_04.xlsx",
+   "anlagenverzeichnis_rows": 0,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": false,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 3.94,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": false,
+   "variant_key": "perfect",
+   "variant_guess": "unknown"
+  },
+  "key_format": "outline",
+  "values_in_key": 756,
+  "correct": 0,
+  "wrong": 0,
+  "missed": 756,
+  "extra": 0,
+  "spurious": 0,
+  "score": 0,
+  "kind_accuracy": null,
+  "asset_id_accuracy": null
+ },
+ {
+  "doc_id": "f09_excel_register_05",
+  "family": "f09_excel_register",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 66,
+  "values": 785,
+  "blank": 7,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f09_excel_register_05/Arbeitsversion_f09_excel_register_05.xlsx",
+   "anlagenverzeichnis_rows": 61,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": true,
+   "open_points": 6,
+   "year": null
+  },
+  "seconds": 1.12,
+  "detection": {
+   "planted": [
+    "transfer_breaks_cost_law"
+   ],
+   "detected": [
+    "transfer_breaks_cost_law"
+   ],
+   "hit": [
+    "transfer_breaks_cost_law"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 792,
+  "correct": 785,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 785,
+  "kind_accuracy": 0.803,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f09_excel_register_06",
+  "family": "f09_excel_register",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 46,
+  "values": 552,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f09_excel_register_06/Arbeitsversion_f09_excel_register_06.xlsx",
+   "anlagenverzeichnis_rows": 44,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": true,
+   "open_points": 1,
+   "year": 2025
+  },
+  "seconds": 1.09,
+  "detection": {
+   "planted": [
+    "numbers_as_text"
+   ],
+   "detected": [
+    "numbers_as_text"
+   ],
+   "hit": [
+    "numbers_as_text"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 552,
+  "correct": 552,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 552,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f09_excel_register_07",
+  "family": "f09_excel_register",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 59,
+  "values": 708,
+  "blank": 0,
+  "gates": [
+   "ok",
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f09_excel_register_07/Arbeitsversion_f09_excel_register_07.xlsx",
+   "anlagenverzeichnis_rows": 54,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 0,
+   "grand_total_row": true,
+   "open_points": 1,
+   "year": null
+  },
+  "seconds": 1.08,
+  "detection": {
+   "planted": [
+    "unrelated_table"
+   ],
+   "detected": [
+    "unrelated_table"
+   ],
+   "hit": [
+    "unrelated_table"
+   ],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "problem",
+   "variant_guess": "problem"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 708,
+  "correct": 708,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 708,
+  "kind_accuracy": 0.78,
+  "asset_id_accuracy": 1.0
+ },
+ {
+  "doc_id": "f09_excel_register_08",
+  "family": "f09_excel_register",
+  "format": "xlsx",
+  "mode": "line",
+  "abstain": null,
+  "rows": 61,
+  "values": 732,
+  "blank": 0,
+  "gates": [
+   "ok"
+  ],
+  "arbeitsversion": {
+   "file": "out/f09_excel_register_08/Arbeitsversion_f09_excel_register_08.xlsx",
+   "anlagenverzeichnis_rows": 47,
+   "gitter_sheet": "Gitter nach Anlagenklasse",
+   "gitter_rows": 13,
+   "grand_total_row": true,
+   "open_points": 0,
+   "year": 2025
+  },
+  "seconds": 1.07,
+  "detection": {
+   "planted": [],
+   "detected": [],
+   "hit": [],
+   "missed": [],
+   "false_alarm": [],
+   "readable": true,
+   "variant_key": "layout-mutation",
+   "variant_guess": "perfect"
+  },
+  "key_format": "xlsx",
+  "values_in_key": 732,
+  "correct": 732,
+  "wrong": 0,
+  "missed": 0,
+  "extra": 0,
+  "spurious": 0,
+  "score": 732,
+  "kind_accuracy": 1.0,
+  "asset_id_accuracy": 1.0
+ }
+]

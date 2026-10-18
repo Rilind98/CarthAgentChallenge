@@ -1,0 +1,2571 @@
+{
+ "doc_id": "f02_asset_spiegel_02",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 319.94,
+     "span": [
+      288.8,
+      319.94
+     ],
+     "col": null,
+     "header": "Anschaff.-/ Herstellungs- kosten (hist.) EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 374.94,
+     "span": [
+      343.8,
+      374.94
+     ],
+     "col": null,
+     "header": "Zugänge, Geschäftsjahr (+)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 429.94,
+     "span": [
+      416.32,
+      429.94
+     ],
+     "col": null,
+     "header": "davon",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c4",
+     "anchor": 484.94,
+     "span": [
+      471.32,
+      484.94
+     ],
+     "col": null,
+     "header": "Abgänge / Minderungen Geschäftsjahr (-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 539.94,
+     "span": [
+      526.32,
+      539.94
+     ],
+     "col": null,
+     "header": "Umbuchungen Geschäftsjahr (+/-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 594.94,
+     "span": [
+      581.32,
+      594.94
+     ],
+     "col": null,
+     "header": "Zuschreibungen Geschäftsjahr (+)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 649.94,
+     "span": [
+      622.7,
+      649.94
+     ],
+     "col": null,
+     "header": "Abschreibungen Geschäftsjahr EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 704.94,
+     "span": [
+      683.53,
+      704.94
+     ],
+     "col": null,
+     "header": "Buchwert Vorjahr EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 759.94,
+     "span": [
+      728.8,
+      759.94
+     ],
+     "col": null,
+     "header": "Abschreibungen (kumuliert) (-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 814.94,
+     "span": [
+      783.8,
+      814.94
+     ],
+     "col": null,
+     "header": "Buchwert 31.12. EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Inventar- Inventar- Anschaff.AfA ND Anschaff.-/ Zugänge, davon aktivierte Abgänge / Umbuchungen ZuschreibungenAbschreibungen Buchwert Abschreibungen Buchwert",
+    "Nummer Bezeichnung Datum Art Herstellungs- Geschäftsjahr Zinsen Minderungen Geschäftsjahr Geschäftsjahr Geschäftsjahr Vorjahr (kumuliert) 31.12.",
+    "kosten (hist.) Fremdkapital Geschäftsjahr",
+    "EUR (+)EUR (+)EUR (-)EUR (+/-)EUR (+)EUR EUR EUR (-)EUR EUR"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    208.35,
+    215.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "66Zeiterfassung Software Halle 1 21.05.14 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    227.25,
+    234.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "94Office-Lizenzen Halle 4 22.02.16 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    246.15,
+    253.15
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "94aOffice-Lizenzen Halle 4 Zusatzmodul 23.08.21 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    265.05,
+    272.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "106Finanzbuchhaltung Software 25.04.18 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    283.95,
+    290.95
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "106aFinanzbuchhaltung Software Erweiterung 28.03.22 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    302.85,
+    309.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "139ERP-Lizenz 03.03.20 lin 5",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    321.75,
+    328.75
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "146Finanzbuchhaltung Software Halle 2 18.03.20 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    340.65,
+    347.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "182CAD-Software Lizenz Halle 4 10.09.21 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    359.55,
+    366.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "229Zeiterfassung Software 16.02.25 lin 5",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    378.45,
+    385.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "236Office-Lizenzen Typ F20 19.04.25 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    397.35,
+    404.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "252CAD-Software Lizenz 14.10.25 lin 3",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    416.25,
+    423.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0027 EDV-Software",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    435.15,
+    442.15
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe EDV-Software",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    454.05,
+    461.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0. Immaterielle Vermögensgegenstände",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software",
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "28Erweiterungsfläche 24.03.03 k 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    170.55,
+    177.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "31Grundstück Gewerbegebiet 18.08.06 k 0",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    189.45,
+    196.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0085 Grund und Boden",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    208.35,
+    215.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Grund und Boden",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    227.25,
+    234.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 1. Grund und Boden",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    312.3,
+    319.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "21Anbau Sozialtrakt 12.12.88 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    331.2,
+    338.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "79Lagerhalle 25.03.15 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    350.1,
+    357.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "99Anbau Sozialtrakt 19.01.17 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    369.0,
+    376.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "99aAnbau Sozialtrakt Erweiterung 22.06.25 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    387.9,
+    394.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "104Lagerhalle 10.09.17 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    406.8,
+    413.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "107Anbau Sozialtrakt 06.05.18 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    425.7,
+    432.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "107aAnbau Sozialtrakt Zusatzmodul 27.12.23 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "117Werkstattgebäude 20.09.18 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    463.5,
+    470.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "117aWerkstattgebäude Erweiterung 21.01.21 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    482.4,
+    489.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "138Lagerhalle 29.11.19 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    501.3,
+    508.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "138aLagerhalle Erweiterung 05.11.24 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    520.2,
+    527.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "168Produktionshalle 13.04.21 geb 33",
+   "context": [
+    "2. Betriebsgebäude",
+    "Fabrikbauten",
+    "0100 Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "189Produktionshalle 24.01.23 geb 33",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    170.55,
+    177.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "193Werkstattgebäude 19.06.23 geb 33",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    189.45,
+    196.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "245Lagerhalle 11.07.25 geb 33",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    208.35,
+    215.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "262Anbau Sozialtrakt 27.12.25 geb 33",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    227.25,
+    234.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0100 Fabrikbauten",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    246.15,
+    253.15
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Fabrikbauten",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    265.05,
+    272.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 2. Betriebsgebäude",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    350.1,
+    357.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "36Abkantpresse Typ R973 26.03.09 lin 13",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    369.0,
+    376.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "38CNC-Drehmaschine (gebraucht) 04.03.10 lin 13",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    387.9,
+    394.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "39Schweißroboter Nr. 5 06.07.10 lin 13",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    406.8,
+    413.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "109CNC-Drehmaschine 26.05.18 lin 8",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    425.7,
+    432.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "162Laserschneidanlage Halle 5 05.12.20 lin 13",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "166Schweißroboter Halle 2 21.02.21 lin 8",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    463.5,
+    470.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "201Teilewaschanlage (gebraucht) 01.09.23 lin 8",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    482.4,
+    489.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "244Schraubenkompressor (gebraucht) 04.07.25 lin 15",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    501.3,
+    508.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "249Bandsäge (gebraucht) 14.10.25 lin 10",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    520.2,
+    527.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0210 Maschinen",
+   "context": [
+    "3. Maschinenpark",
+    "Maschinen",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Maschinen",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    170.55,
+    177.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 3. Maschinenpark",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    255.6,
+    262.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "30Kälteanlage 29.01.06 lin 15",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    274.5,
+    281.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "35Lüftungsanlage Halle 18.02.09 lin 10",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    293.4,
+    300.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "50Photovoltaikanlage Dach Typ X605 04.12.11 lin 15",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    312.3,
+    319.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "80Notstromaggregat 21.08.15 lin 15",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    331.2,
+    338.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "86Notstromaggregat Halle 4 21.10.15 lin 10",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    350.1,
+    357.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "118Absauganlage Halle 1 29.11.18 lin 10",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    369.0,
+    376.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "188Brückenkran 5t 21.08.22 lin 15",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    387.9,
+    394.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "232Absauganlage 04.03.25 lin 10",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    406.8,
+    413.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "233Notstromaggregat Typ B214 12.03.25 lin 15",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    425.7,
+    432.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0240 Technische Anlagen",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Technische Anlagen Kto. 0240",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r62",
+   "section": "s1",
+   "page": 4,
+   "band": [
+    463.5,
+    470.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 4. Betriebstechnik",
+   "context": [
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240",
+    "0240 Technische Anlagen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r63",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    161.1,
+    168.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "65Kleintransporter Typ F485 26.04.14 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r64",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    180.0,
+    187.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "65aKleintransporter Typ F485 Erweiterung 06.01.23 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r65",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    198.9,
+    205.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "91Pkw Mittelklasse Hybrid (gebraucht) 02.02.16 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r66",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    217.8,
+    224.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "95Pkw Elektro 08.04.16 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r67",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    236.7,
+    243.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "102Kleintransporter Typ F419 30.07.17 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r68",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    255.6,
+    262.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "129Pkw Mittelklasse Hybrid (gebraucht) 19.03.19 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r69",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    274.5,
+    281.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "161Kleintransporter (gebraucht) 28.10.20 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r70",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    293.4,
+    300.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "161aKleintransporter (gebraucht) Nachrüstung 29.01.21 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r71",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    312.3,
+    319.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "175Kleintransporter 02.07.21 lin 6",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r72",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    331.2,
+    338.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0320 Pkw",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r73",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    369.0,
+    376.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "32Kastenwagen Typ K556 05.03.08 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r74",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    387.9,
+    394.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "34Sattelzugmaschine 20.06.08 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r75",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    406.8,
+    413.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "57Lkw 7,5t Pritsche Halle 4 10.04.13 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r76",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    425.7,
+    432.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "64Sattelzugmaschine 19.12.13 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r77",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "75Sattelzugmaschine Typ M422 14.10.14 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r78",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    463.5,
+    470.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "83Tandemanhänger Nr. 30 21.09.15 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r79",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    482.4,
+    489.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "137Lkw 7,5t Pritsche 02.06.19 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r80",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    501.3,
+    508.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "160Sattelzugmaschine 27.06.20 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r81",
+   "section": "s1",
+   "page": 5,
+   "band": [
+    520.2,
+    527.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "163Kastenwagen 17.01.21 lin 9",
+   "context": [
+    "0350 Lkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r82",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "184Sattelzugmaschine 04.12.21 lin 9",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r83",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    170.55,
+    177.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "186Kastenwagen Nr. 2 10.05.22 lin 9",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r84",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    189.45,
+    196.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0350 Lkw",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r85",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    208.35,
+    215.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Pkw",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r86",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    227.25,
+    234.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 5. Fuhrpark",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r87",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    312.3,
+    319.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "88Hochdruckreiniger Halle 1 21.12.15 lin 8",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r88",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    331.2,
+    338.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "98Elektro-Hubwagen Typ B333 07.11.16 lin 8",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r89",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    350.1,
+    357.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "101Palettenregal Typ X824 13.05.17 lin 8",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r90",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    369.0,
+    376.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "185Palettenregal Halle 2 13.01.22 lin 8",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r91",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    387.9,
+    394.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "237Hochdruckreiniger Nr. 9 14.05.25 lin 5",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r92",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    406.8,
+    413.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "263Hochdruckreiniger Typ A192 28.12.25 lin 5",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r93",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    425.7,
+    432.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0400 Betriebsausstattung",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r94",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Betriebsausstattung",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r95",
+   "section": "s1",
+   "page": 6,
+   "band": [
+    463.5,
+    470.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 6. Werkstatt und Lager",
+   "context": [
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung",
+    "0400 Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r96",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    161.1,
+    168.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "41Regalsystem Archiv (gebraucht) 07.08.10 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r97",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    180.0,
+    187.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "42Empfangstheke Typ X283 02.03.11 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r98",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    198.9,
+    205.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "42aEmpfangstheke Typ X283 Nachrüstung 19.05.12 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r99",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    217.8,
+    224.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "103Schreibtisch höhenverstellbar Halle 3 22.08.17 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r100",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    236.7,
+    243.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "105Empfangstheke (gebraucht) 01.02.18 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r101",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    255.6,
+    262.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "121Besprechungstisch 08.12.18 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r102",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    274.5,
+    281.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "122Aktenschrank Halle 2 31.12.18 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r103",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    293.4,
+    300.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "130Schreibtisch höhenverstellbar 23.04.19 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r104",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    312.3,
+    319.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "130aSchreibtisch höhenverstellbar Nachrüstung 18.05.25 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r105",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    331.2,
+    338.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "153Rollcontainer Nr. 2 18.05.20 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r106",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    350.1,
+    357.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "183Aktenschrank Nr. 20 08.11.21 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r107",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    369.0,
+    376.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210Empfangstheke 31.08.24 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r108",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    387.9,
+    394.9
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "225Aktenschrank 15.01.25 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r109",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    406.8,
+    413.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "226Schrankwand Büro Halle 2 29.01.25 lin 13",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r110",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    425.7,
+    432.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0420 Büroeinrichtung",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r111",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Büroeinrichtung",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r112",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    501.3,
+    508.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "49NAS-Speicher Nr. 5 15.10.11 lin 5",
+   "context": [
+    "EDV-Hardware",
+    "0490 EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r113",
+   "section": "s1",
+   "page": 7,
+   "band": [
+    520.2,
+    527.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "68Server 2HE 11.09.14 lin 3",
+   "context": [
+    "EDV-Hardware",
+    "0490 EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r114",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "76Server 2HE 27.02.15 lin 5",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r115",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    170.55,
+    177.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "76aServer 2HE Zusatzmodul 28.05.22 lin 5",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r116",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    189.45,
+    196.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "96NAS-Speicher Nr. 2 30.06.16 lin 5",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r117",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    208.35,
+    215.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "116Workstation CAD 24.07.18 lin 5",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r118",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    227.25,
+    234.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "167Notebook 21.03.21 lin 5",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r119",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    246.15,
+    253.15
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "167aNotebook Nachrüstung 28.02.25 lin 5",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r120",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    265.05,
+    272.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "217Serverschrank 42HE Nr. 33 06.10.24 lin 3",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r121",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    283.95,
+    290.95
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "228Notebook 07.02.25 lin 5",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r122",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    302.85,
+    309.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "248Workstation CAD (gebraucht) 28.07.25 lin 5",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r123",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    321.75,
+    328.75
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 0490 EDV-Hardware",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r124",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    340.65,
+    347.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe EDV-Hardware",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r125",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    359.55,
+    366.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 7. Büro und Verwaltung",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r126",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    425.7,
+    432.7
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "190Laserdrucker 12.03.23 sb 1",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r127",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    444.6,
+    451.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "195Werkzeugkoffer 23.06.23 sb 1",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r128",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    463.5,
+    470.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "196Kaffeevollautomat 29.07.23 sb 1",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r129",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    482.4,
+    489.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "199Bürostuhl 25.08.23 sb 1",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r130",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    501.3,
+    508.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "202Messschieber digital 24.12.23 sb 1",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r131",
+   "section": "s1",
+   "page": 8,
+   "band": [
+    520.2,
+    527.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "224Stehleuchte 23.12.24 sb 1",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r132",
+   "section": "s1",
+   "page": 9,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "255Messschieber digital 21.12.25 sb 1",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r133",
+   "section": "s1",
+   "page": 9,
+   "band": [
+    170.55,
+    177.55
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe GWG",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r134",
+   "section": "s1",
+   "page": 9,
+   "band": [
+    189.45,
+    196.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r135",
+   "section": "s1",
+   "page": 9,
+   "band": [
+    255.6,
+    262.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "209AiB Bandsäge (gebraucht) 20.06.24 k 0",
+   "context": [
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r136",
+   "section": "s1",
+   "page": 9,
+   "band": [
+    274.5,
+    281.5
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r137",
+   "section": "s1",
+   "page": 9,
+   "band": [
+    293.4,
+    300.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe 9. Anlagen im Bau",
+   "context": [
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 2: repeats the header of section s1",
+  "page 3: repeats the header of section s1",
+  "page 4: repeats the header of section s1",
+  "page 5: repeats the header of section s1",
+  "page 6: repeats the header of section s1",
+  "page 7: repeats the header of section s1",
+  "page 8: repeats the header of section s1",
+  "page 9: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "schedule",
+  "2": "repeats",
+  "3": "repeats",
+  "4": "repeats",
+  "5": "repeats",
+  "6": "repeats",
+  "7": "repeats",
+  "8": "repeats",
+  "9": "repeats"
+ }
+}

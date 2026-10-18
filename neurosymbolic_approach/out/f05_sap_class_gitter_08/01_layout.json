@@ -1,0 +1,797 @@
+{
+ "doc_id": "f05_sap_class_gitter_08",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    2,
+    3
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 233.14,
+     "span": [
+      192.81,
+      233.14
+     ],
+     "col": null,
+     "header": "AHK GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       1.0,
+       "AHK x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 284.14,
+     "span": [
+      250.53,
+      284.14
+     ],
+     "col": null,
+     "header": "Zugang",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 335.14,
+     "span": [
+      304.89,
+      338.5
+     ],
+     "col": null,
+     "header": "Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 386.14,
+     "span": [
+      352.53,
+      386.14
+     ],
+     "col": null,
+     "header": "Umbuchung",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 437.14,
+     "span": [
+      396.81,
+      437.14
+     ],
+     "col": null,
+     "header": "aktuelle AHK",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       1.0,
+       "AHK x close"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 488.14,
+     "span": [
+      447.81,
+      491.5
+     ],
+     "col": null,
+     "header": "AfA GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_open",
+       1.0,
+       "AFA x open"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 539.14,
+     "span": [
+      508.89,
+      542.5
+     ],
+     "col": null,
+     "header": "AfA des Jahres",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 590.14,
+     "span": [
+      559.89,
+      590.14
+     ],
+     "col": null,
+     "header": "AfA Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 641.14,
+     "span": [
+      627.7,
+      641.14
+     ],
+     "col": null,
+     "header": "Zuschreibung",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 692.14,
+     "span": [
+      651.81,
+      695.5
+     ],
+     "col": null,
+     "header": "kumulierte AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "c11",
+     "anchor": 743.14,
+     "span": [
+      702.81,
+      743.14
+     ],
+     "col": null,
+     "header": "Buchwrt GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c12",
+     "anchor": 794.14,
+     "span": [
+      753.81,
+      794.14
+     ],
+     "col": null,
+     "header": "lfd Buchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "BuKr BilPos Konto KlasseBezeichnung AHK GJ-Beg Zugang Abgang Umbuchung aktuelle AHK AfA GJ-Beg AfA des Jahres AfA Abgang Zuschreibung kumulierte AfA Buchwrt GJ-Beg lfd Buchwert Währg"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    47.96,
+    53.56
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2101200 0027 1000 EDV-Software EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    55.13,
+    60.73
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2101200 0027 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    62.41,
+    68.01
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2101200 Summe Bilanzposition EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    69.8,
+    75.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102100 0085 2000 Grund und Boden EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    76.97,
+    82.57
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102100 0085 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    84.25,
+    89.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102100 0100 2100 Fabrikbauten EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    91.53,
+    97.13
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102100 0100 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    98.81,
+    104.41
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102100 Summe Bilanzposition EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    106.2,
+    111.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102200 0210 3000 Maschinen EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    113.37,
+    118.97
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102200 0210 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    120.65,
+    126.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102200 0240 3100 Technische Anlagen EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    127.93,
+    133.53
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102200 0240 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    135.21,
+    140.81
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102200 Summe Bilanzposition EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    142.6,
+    148.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102300 0320 4200 Pkw EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    149.77,
+    155.37
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102300 0320 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    157.05,
+    162.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102300 0350 4300 Lkw EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    164.33,
+    169.93
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102300 0350 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    171.61,
+    177.21
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102300 0400 4000 Betriebsausstattung EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    178.89,
+    184.49
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102300 0400 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    186.17,
+    191.77
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102300 0420 4100 Büroeinrichtung EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    193.45,
+    199.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102300 0420 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    200.73,
+    206.33
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102300 0480 4900 Geringwertige Wirtscha EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    208.01,
+    213.61
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102300 0480 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    215.29,
+    220.89
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102300 0490 4400 EDV-Hardware EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    222.57,
+    228.17
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102300 0490 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    229.85,
+    235.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102300 Summe Bilanzposition EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    47.96,
+    53.56
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102400 0120 5000 Anlagen im Bau EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    55.13,
+    60.73
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102400 0120 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    62.41,
+    68.01
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2102400 0129 5100 Anzahlungen auf Anlage EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    69.69,
+    75.29
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102400 0129 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    76.97,
+    82.57
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2102400 Summe Bilanzposition EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    84.36,
+    89.96
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "5200 2103300 0510 6000 Beteiligungen EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    91.53,
+    97.13
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2103300 0510 Summe Bestandskonto EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    98.81,
+    104.41
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 2103300 Summe Bilanzposition EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    106.09,
+    111.69
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 Summe Geschäftsbereich EUR",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": 3,
+   "band": [
+    113.37,
+    118.97
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "5200 Summe Buchungskreis EUR",
+   "context": [],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 1: no amounts, skipped",
+  "page 3: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "no_amounts",
+  "2": "schedule",
+  "3": "repeats"
+ }
+}

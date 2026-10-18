@@ -1,0 +1,979 @@
+{
+ "doc_id": "f00_demo_04",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1,
+    2
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 247.94,
+     "span": [
+      212.92,
+      247.94
+     ],
+     "col": null,
+     "header": "01.01.2025",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 298.94,
+     "span": [
+      263.92,
+      298.94
+     ],
+     "col": null,
+     "header": "Zugänge",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "AHK x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 349.94,
+     "span": [
+      318.81,
+      349.94
+     ],
+     "col": null,
+     "header": "Abgänge",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "AHK x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 400.94,
+     "span": [
+      363.59,
+      400.94
+     ],
+     "col": null,
+     "header": "Umbuchungen",
+     "group_header": "Anschaffungs- und Herstellungskosten",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "AHK x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 451.94,
+     "span": [
+      416.92,
+      451.94
+     ],
+     "col": null,
+     "header": "31.12.2025",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 502.94,
+     "span": [
+      467.92,
+      502.94
+     ],
+     "col": null,
+     "header": "01.01.2025",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 553.94,
+     "span": [
+      522.81,
+      553.94
+     ],
+     "col": null,
+     "header": "Kumulierte Geschäftsjahr",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 604.94,
+     "span": [
+      577.7,
+      604.94
+     ],
+     "col": null,
+     "header": "Abschreibungen Abgänge",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_abgang",
+       1.0,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c9",
+     "anchor": 655.94,
+     "span": [
+      620.55,
+      655.94
+     ],
+     "col": null,
+     "header": "Zuschreib.",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c10",
+     "anchor": 706.94,
+     "span": [
+      671.92,
+      706.94
+     ],
+     "col": null,
+     "header": "31.12.2025",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    },
+    {
+     "id": "c11",
+     "anchor": 757.94,
+     "span": [
+      722.92,
+      757.94
+     ],
+     "col": null,
+     "header": "31.12.2025",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "c12",
+     "anchor": 808.94,
+     "span": [
+      773.92,
+      808.94
+     ],
+     "col": null,
+     "header": "31.12.2024",
+     "group_header": "Buchwerte",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Anschaffungs- und Herstellungskosten Kumulierte Abschreibungen Buchwerte",
+    "Anl.-Nr. Bezeichnung 01.01.2025 Zugänge Abgänge Umbuchungen 31.12.2025 01.01.2025 Geschäftsjahr Abgänge Zuschreib. 31.12.2025 31.12.2025 31.12.2024"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    104.38,
+    111.38
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "27001 Office-Lizenzen Typ S146",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    113.83,
+    120.83
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "27002 ERP-Lizenz Halle 4",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    123.28,
+    130.28
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "27003 Zeiterfassung Software",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    132.73,
+    139.73
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "27004 Warenwirtschaft Modul Lager Halle 2",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    142.18,
+    149.18
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "27005 CAD-Software Lizenz Nr. 5",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    151.63,
+    158.63
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "27006 Warenwirtschaft Modul Lager Typ X934",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    161.08,
+    168.08
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe EDV-Software",
+   "context": [
+    "0027 EDV-Software"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    189.43,
+    196.43
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210001 Bandsäge Typ K481",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    198.88,
+    205.88
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210002 Teilewaschanlage",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    208.33,
+    215.33
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210003 CNC-Drehmaschine Halle 4",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    217.78,
+    224.78
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210004 CNC-Fräszentrum 5-Achs",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    227.23,
+    234.23
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210005 Spritzgießmaschine Nr. 13",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    236.68,
+    243.68
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210006 Flachschleifmaschine Halle 1",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    246.13,
+    253.13
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "210007 Flachschleifmaschine",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    255.58,
+    262.58
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Maschinen",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    283.93,
+    290.93
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "320001 Pkw Kompaktklasse Typ T708",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    293.38,
+    300.38
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "320002 Kleintransporter",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    302.83,
+    309.83
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "320003 Pkw Kombi Diesel Nr. 9",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    312.28,
+    319.28
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "320004 Pkw Kompaktklasse",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    321.73,
+    328.73
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "320005 Pkw Kombi Diesel Nr. 35",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    331.18,
+    338.18
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "320006 Pkw Mittelklasse Hybrid Nr. 7",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    340.63,
+    347.63
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Pkw",
+   "context": [
+    "0027 EDV-Software",
+    "0210 Maschinen",
+    "0320 Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    368.98,
+    375.98
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "420001 Aktenschrank",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    378.43,
+    385.43
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "420002 Bürostuhl ergonomisch",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    387.88,
+    394.88
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "420003 Rollcontainer Typ F29",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    397.33,
+    404.33
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Büroeinrichtung",
+   "context": [
+    "0210 Maschinen",
+    "0320 Pkw",
+    "0420 Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    425.68,
+    432.68
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "480001 Aktenvernichter",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    435.13,
+    442.13
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "480002 Stehleuchte",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    444.58,
+    451.58
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "480003 Stehleuchte",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    454.03,
+    461.03
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "480004 Messschieber digital",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    463.48,
+    470.48
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "480005 Akkuschrauber",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    472.93,
+    479.93
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "480006 Messschieber digital",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    482.38,
+    489.38
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Geringwertige Wirtschaftsgüter",
+   "context": [
+    "0320 Pkw",
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    510.73,
+    517.73
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "120001 AiB Flachschleifmaschine",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    520.18,
+    527.18
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "120002 Anlagen im Bau Halle 3",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    529.63,
+    536.63
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "0420 Büroeinrichtung",
+    "0480 Geringwertige Wirtschaftsgüter",
+    "0120 Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    104.38,
+    111.38
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Summe Anlagevermögen",
+   "context": [],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 1: blank column(s) found from the header: ['Zuschreib.']",
+  "page 2: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "schedule",
+  "2": "repeats"
+ }
+}

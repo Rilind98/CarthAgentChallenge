@@ -1,0 +1,8261 @@
+{
+ "doc_id": "f05_sap_class_gitter_08",
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2101200 0027 1000 EDV-Software EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2101200 0027 1000 EDV-Software",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w49"
+     ],
+     "text": "97.304,18",
+     "cents": 9730418,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      47.96,
+      233.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w50"
+     ],
+     "text": "114.884,88",
+     "cents": 11488488,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      47.96,
+      284.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w51"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      47.96,
+      335.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      47.96,
+      386.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w53"
+     ],
+     "text": "212.189,06",
+     "cents": 21218906,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      47.96,
+      437.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w54"
+     ],
+     "text": "97.299,18-",
+     "cents": -9729918,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      47.96,
+      491.5,
+      53.56
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w55"
+     ],
+     "text": "9.573,74-",
+     "cents": -957374,
+     "status": "value",
+     "glued": false,
+     "box": [
+      512.26,
+      47.96,
+      542.5,
+      53.56
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      47.96,
+      590.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      47.96,
+      641.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w58"
+     ],
+     "text": "106.872,92-",
+     "cents": -10687292,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      47.96,
+      695.5,
+      53.56
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w59"
+     ],
+     "text": "5,00",
+     "cents": 500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      47.96,
+      743.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w60"
+     ],
+     "text": "105.316,14",
+     "cents": 10531614,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      47.96,
+      794.14,
+      53.56
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     47.96,
+     811.58,
+     53.56
+    ],
+    "frame_band": [
+     47.96,
+     53.56
+    ]
+   }
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2101200 0027 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w67"
+     ],
+     "text": "97.304,18",
+     "cents": 9730418,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      55.13,
+      233.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w68"
+     ],
+     "text": "114.884,88",
+     "cents": 11488488,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      55.13,
+      284.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w69"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      55.13,
+      335.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w70"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      55.13,
+      386.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w71"
+     ],
+     "text": "212.189,06",
+     "cents": 21218906,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      55.13,
+      437.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w72"
+     ],
+     "text": "97.299,18-",
+     "cents": -9729918,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      55.13,
+      491.5,
+      60.73
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w73"
+     ],
+     "text": "9.573,74-",
+     "cents": -957374,
+     "status": "value",
+     "glued": false,
+     "box": [
+      512.26,
+      55.13,
+      542.5,
+      60.73
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w74"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      55.13,
+      590.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w75"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      55.13,
+      641.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w76"
+     ],
+     "text": "106.872,92-",
+     "cents": -10687292,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      55.13,
+      695.5,
+      60.73
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w77"
+     ],
+     "text": "5,00",
+     "cents": 500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      55.13,
+      743.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w78"
+     ],
+     "text": "105.316,14",
+     "cents": 10531614,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      55.13,
+      794.14,
+      60.73
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     55.13,
+     811.58,
+     60.73
+    ],
+    "frame_band": [
+     55.13,
+     60.73
+    ]
+   }
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2101200 Summe Bilanzposition EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w84"
+     ],
+     "text": "97.304,18",
+     "cents": 9730418,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      62.41,
+      233.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w85"
+     ],
+     "text": "114.884,88",
+     "cents": 11488488,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      62.41,
+      284.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w86"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      62.41,
+      335.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w87"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      62.41,
+      386.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w88"
+     ],
+     "text": "212.189,06",
+     "cents": 21218906,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      62.41,
+      437.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w89"
+     ],
+     "text": "97.299,18-",
+     "cents": -9729918,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      62.41,
+      491.5,
+      68.01
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w90"
+     ],
+     "text": "9.573,74-",
+     "cents": -957374,
+     "status": "value",
+     "glued": false,
+     "box": [
+      512.26,
+      62.41,
+      542.5,
+      68.01
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w91"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      62.41,
+      590.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w92"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      62.41,
+      641.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w93"
+     ],
+     "text": "106.872,92-",
+     "cents": -10687292,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      62.41,
+      695.5,
+      68.01
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w94"
+     ],
+     "text": "5,00",
+     "cents": 500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      62.41,
+      743.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w95"
+     ],
+     "text": "105.316,14",
+     "cents": 10531614,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      62.41,
+      794.14,
+      68.01
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     62.41,
+     811.58,
+     68.01
+    ],
+    "frame_band": [
+     62.41,
+     68.01
+    ]
+   }
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102100 0085 2000 Grund und Boden EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102100 0085 2000 Grund und Boden",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w104"
+     ],
+     "text": "287.502,94",
+     "cents": 28750294,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      69.8,
+      233.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w105"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      69.8,
+      284.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w106"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      69.8,
+      335.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w107"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      69.8,
+      386.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w108"
+     ],
+     "text": "287.502,94",
+     "cents": 28750294,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      69.8,
+      437.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w109"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      474.7,
+      69.8,
+      488.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w110"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      69.8,
+      539.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w111"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      69.8,
+      590.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w112"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      69.8,
+      641.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w113"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      678.7,
+      69.8,
+      692.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w114"
+     ],
+     "text": "287.502,94",
+     "cents": 28750294,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.53,
+      69.8,
+      743.14,
+      75.4
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w115"
+     ],
+     "text": "287.502,94",
+     "cents": 28750294,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      69.8,
+      794.14,
+      75.4
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     69.8,
+     811.58,
+     75.4
+    ],
+    "frame_band": [
+     69.8,
+     75.4
+    ]
+   }
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102100 0085 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w122"
+     ],
+     "text": "287.502,94",
+     "cents": 28750294,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      76.97,
+      233.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w123"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      76.97,
+      284.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w124"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      76.97,
+      335.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w125"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      76.97,
+      386.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w126"
+     ],
+     "text": "287.502,94",
+     "cents": 28750294,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      76.97,
+      437.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w127"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      474.7,
+      76.97,
+      488.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w128"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      76.97,
+      539.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w129"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      76.97,
+      590.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w130"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      76.97,
+      641.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w131"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      678.7,
+      76.97,
+      692.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w132"
+     ],
+     "text": "287.502,94",
+     "cents": 28750294,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.53,
+      76.97,
+      743.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w133"
+     ],
+     "text": "287.502,94",
+     "cents": 28750294,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      76.97,
+      794.14,
+      82.57
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     76.97,
+     811.58,
+     82.57
+    ],
+    "frame_band": [
+     76.97,
+     82.57
+    ]
+   }
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102100 0100 2100 Fabrikbauten EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102100 0100 2100 Fabrikbauten",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w140"
+     ],
+     "text": "3.506.592,49",
+     "cents": 350659249,
+     "status": "value",
+     "glued": false,
+     "box": [
+      192.81,
+      84.25,
+      233.14,
+      89.85
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w141"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      84.25,
+      284.14,
+      89.85
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w142"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      84.25,
+      335.14,
+      89.85
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w143"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      84.25,
+      386.14,
+      89.85
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w144"
+     ],
+     "text": "3.506.592,49",
+     "cents": 350659249,
+     "status": "value",
+     "glued": false,
+     "box": [
+      396.81,
+      84.25,
+      437.14,
+      89.85
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w145"
+     ],
+     "text": "1.727.661,54-",
+     "cents": -172766154,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.81,
+      84.25,
+      491.5,
+      89.85
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w146"
+     ],
+     "text": "65.360,15-",
+     "cents": -6536015,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      84.25,
+      542.5,
+      89.85
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w147"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      84.25,
+      590.14,
+      89.85
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w148"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      84.25,
+      641.14,
+      89.85
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w149"
+     ],
+     "text": "1.793.021,69-",
+     "cents": -179302169,
+     "status": "value",
+     "glued": false,
+     "box": [
+      651.81,
+      84.25,
+      695.5,
+      89.85
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w150"
+     ],
+     "text": "1.778.930,95",
+     "cents": 177893095,
+     "status": "value",
+     "glued": false,
+     "box": [
+      702.81,
+      84.25,
+      743.14,
+      89.85
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w151"
+     ],
+     "text": "1.713.570,80",
+     "cents": 171357080,
+     "status": "value",
+     "glued": false,
+     "box": [
+      753.81,
+      84.25,
+      794.14,
+      89.85
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     84.25,
+     811.58,
+     89.85
+    ],
+    "frame_band": [
+     84.25,
+     89.85
+    ]
+   }
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102100 0100 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w158"
+     ],
+     "text": "3.506.592,49",
+     "cents": 350659249,
+     "status": "value",
+     "glued": false,
+     "box": [
+      192.81,
+      91.53,
+      233.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w159"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      91.53,
+      284.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w160"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      91.53,
+      335.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w161"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      91.53,
+      386.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w162"
+     ],
+     "text": "3.506.592,49",
+     "cents": 350659249,
+     "status": "value",
+     "glued": false,
+     "box": [
+      396.81,
+      91.53,
+      437.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w163"
+     ],
+     "text": "1.727.661,54-",
+     "cents": -172766154,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.81,
+      91.53,
+      491.5,
+      97.13
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w164"
+     ],
+     "text": "65.360,15-",
+     "cents": -6536015,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      91.53,
+      542.5,
+      97.13
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w165"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      91.53,
+      590.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w166"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      91.53,
+      641.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w167"
+     ],
+     "text": "1.793.021,69-",
+     "cents": -179302169,
+     "status": "value",
+     "glued": false,
+     "box": [
+      651.81,
+      91.53,
+      695.5,
+      97.13
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w168"
+     ],
+     "text": "1.778.930,95",
+     "cents": 177893095,
+     "status": "value",
+     "glued": false,
+     "box": [
+      702.81,
+      91.53,
+      743.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w169"
+     ],
+     "text": "1.713.570,80",
+     "cents": 171357080,
+     "status": "value",
+     "glued": false,
+     "box": [
+      753.81,
+      91.53,
+      794.14,
+      97.13
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     91.53,
+     811.58,
+     97.13
+    ],
+    "frame_band": [
+     91.53,
+     97.13
+    ]
+   }
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102100 Summe Bilanzposition EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w175"
+     ],
+     "text": "3.794.095,43",
+     "cents": 379409543,
+     "status": "value",
+     "glued": false,
+     "box": [
+      192.81,
+      98.81,
+      233.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w176"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      98.81,
+      284.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w177"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      98.81,
+      335.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w178"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      98.81,
+      386.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w179"
+     ],
+     "text": "3.794.095,43",
+     "cents": 379409543,
+     "status": "value",
+     "glued": false,
+     "box": [
+      396.81,
+      98.81,
+      437.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w180"
+     ],
+     "text": "1.727.661,54-",
+     "cents": -172766154,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.81,
+      98.81,
+      491.5,
+      104.41
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w181"
+     ],
+     "text": "65.360,15-",
+     "cents": -6536015,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      98.81,
+      542.5,
+      104.41
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w182"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      98.81,
+      590.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w183"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      98.81,
+      641.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w184"
+     ],
+     "text": "1.793.021,69-",
+     "cents": -179302169,
+     "status": "value",
+     "glued": false,
+     "box": [
+      651.81,
+      98.81,
+      695.5,
+      104.41
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w185"
+     ],
+     "text": "2.066.433,89",
+     "cents": 206643389,
+     "status": "value",
+     "glued": false,
+     "box": [
+      702.81,
+      98.81,
+      743.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w186"
+     ],
+     "text": "2.001.073,74",
+     "cents": 200107374,
+     "status": "value",
+     "glued": false,
+     "box": [
+      753.81,
+      98.81,
+      794.14,
+      104.41
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     98.81,
+     811.58,
+     104.41
+    ],
+    "frame_band": [
+     98.81,
+     104.41
+    ]
+   }
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102200 0210 3000 Maschinen EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102200 0210 3000 Maschinen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w193"
+     ],
+     "text": "199.302,13",
+     "cents": 19930213,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      106.2,
+      233.14,
+      111.8
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w194"
+     ],
+     "text": "229.818,00",
+     "cents": 22981800,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      106.2,
+      284.14,
+      111.8
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w195"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      106.2,
+      335.14,
+      111.8
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w196"
+     ],
+     "text": "101.614,30",
+     "cents": 10161430,
+     "status": "value",
+     "glued": false,
+     "box": [
+      352.53,
+      106.2,
+      386.14,
+      111.8
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w197"
+     ],
+     "text": "530.734,43",
+     "cents": 53073443,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      106.2,
+      437.14,
+      111.8
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w198"
+     ],
+     "text": "134.755,52-",
+     "cents": -13475552,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      106.2,
+      491.5,
+      111.8
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w199"
+     ],
+     "text": "13.397,05-",
+     "cents": -1339705,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      106.2,
+      542.5,
+      111.8
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w200"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      106.2,
+      590.14,
+      111.8
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w201"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      106.2,
+      641.14,
+      111.8
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w202"
+     ],
+     "text": "148.152,57-",
+     "cents": -14815257,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      106.2,
+      695.5,
+      111.8
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w203"
+     ],
+     "text": "64.546,61",
+     "cents": 6454661,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      106.2,
+      743.14,
+      111.8
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w204"
+     ],
+     "text": "382.581,86",
+     "cents": 38258186,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      106.2,
+      794.14,
+      111.8
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     106.2,
+     811.58,
+     111.8
+    ],
+    "frame_band": [
+     106.2,
+     111.8
+    ]
+   }
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102200 0210 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w211"
+     ],
+     "text": "199.302,13",
+     "cents": 19930213,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      113.37,
+      233.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w212"
+     ],
+     "text": "229.818,00",
+     "cents": 22981800,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      113.37,
+      284.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w213"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      113.37,
+      335.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w214"
+     ],
+     "text": "101.614,30",
+     "cents": 10161430,
+     "status": "value",
+     "glued": false,
+     "box": [
+      352.53,
+      113.37,
+      386.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w215"
+     ],
+     "text": "530.734,43",
+     "cents": 53073443,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      113.37,
+      437.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w216"
+     ],
+     "text": "134.755,52-",
+     "cents": -13475552,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      113.37,
+      491.5,
+      118.97
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w217"
+     ],
+     "text": "13.397,05-",
+     "cents": -1339705,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      113.37,
+      542.5,
+      118.97
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w218"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      113.37,
+      590.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w219"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      113.37,
+      641.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w220"
+     ],
+     "text": "148.152,57-",
+     "cents": -14815257,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      113.37,
+      695.5,
+      118.97
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w221"
+     ],
+     "text": "64.546,61",
+     "cents": 6454661,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      113.37,
+      743.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w222"
+     ],
+     "text": "382.581,86",
+     "cents": 38258186,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      113.37,
+      794.14,
+      118.97
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     113.37,
+     811.58,
+     118.97
+    ],
+    "frame_band": [
+     113.37,
+     118.97
+    ]
+   }
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102200 0240 3100 Technische Anlagen EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102200 0240 3100 Technische Anlagen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w230"
+     ],
+     "text": "814.249,95",
+     "cents": 81424995,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      120.65,
+      233.14,
+      126.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w231"
+     ],
+     "text": "310.217,42",
+     "cents": 31021742,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      120.65,
+      284.14,
+      126.25
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w232"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      120.65,
+      335.14,
+      126.25
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w233"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      120.65,
+      386.14,
+      126.25
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w234"
+     ],
+     "text": "1.124.467,37",
+     "cents": 112446737,
+     "status": "value",
+     "glued": false,
+     "box": [
+      396.81,
+      120.65,
+      437.14,
+      126.25
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w235"
+     ],
+     "text": "642.024,33-",
+     "cents": -64202433,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      120.65,
+      491.5,
+      126.25
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w236"
+     ],
+     "text": "34.846,29-",
+     "cents": -3484629,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      120.65,
+      542.5,
+      126.25
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w237"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      120.65,
+      590.14,
+      126.25
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w238"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      120.65,
+      641.14,
+      126.25
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w239"
+     ],
+     "text": "676.870,62-",
+     "cents": -67687062,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      120.65,
+      695.5,
+      126.25
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w240"
+     ],
+     "text": "172.225,62",
+     "cents": 17222562,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.53,
+      120.65,
+      743.14,
+      126.25
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w241"
+     ],
+     "text": "447.596,75",
+     "cents": 44759675,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      120.65,
+      794.14,
+      126.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     120.65,
+     811.58,
+     126.25
+    ],
+    "frame_band": [
+     120.65,
+     126.25
+    ]
+   }
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102200 0240 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w248"
+     ],
+     "text": "814.249,95",
+     "cents": 81424995,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      127.93,
+      233.14,
+      133.53
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w249"
+     ],
+     "text": "310.217,42",
+     "cents": 31021742,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      127.93,
+      284.14,
+      133.53
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w250"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      127.93,
+      335.14,
+      133.53
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w251"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      127.93,
+      386.14,
+      133.53
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w252"
+     ],
+     "text": "1.124.467,37",
+     "cents": 112446737,
+     "status": "value",
+     "glued": false,
+     "box": [
+      396.81,
+      127.93,
+      437.14,
+      133.53
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w253"
+     ],
+     "text": "642.024,33-",
+     "cents": -64202433,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      127.93,
+      491.5,
+      133.53
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w254"
+     ],
+     "text": "34.846,29-",
+     "cents": -3484629,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      127.93,
+      542.5,
+      133.53
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w255"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      127.93,
+      590.14,
+      133.53
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w256"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      127.93,
+      641.14,
+      133.53
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w257"
+     ],
+     "text": "676.870,62-",
+     "cents": -67687062,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      127.93,
+      695.5,
+      133.53
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w258"
+     ],
+     "text": "172.225,62",
+     "cents": 17222562,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.53,
+      127.93,
+      743.14,
+      133.53
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w259"
+     ],
+     "text": "447.596,75",
+     "cents": 44759675,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      127.93,
+      794.14,
+      133.53
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     127.93,
+     811.58,
+     133.53
+    ],
+    "frame_band": [
+     127.93,
+     133.53
+    ]
+   }
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102200 Summe Bilanzposition EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w265"
+     ],
+     "text": "1.013.552,08",
+     "cents": 101355208,
+     "status": "value",
+     "glued": false,
+     "box": [
+      192.81,
+      135.21,
+      233.14,
+      140.81
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w266"
+     ],
+     "text": "540.035,42",
+     "cents": 54003542,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      135.21,
+      284.14,
+      140.81
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w267"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      135.21,
+      335.14,
+      140.81
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w268"
+     ],
+     "text": "101.614,30",
+     "cents": 10161430,
+     "status": "value",
+     "glued": false,
+     "box": [
+      352.53,
+      135.21,
+      386.14,
+      140.81
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w269"
+     ],
+     "text": "1.655.201,80",
+     "cents": 165520180,
+     "status": "value",
+     "glued": false,
+     "box": [
+      396.81,
+      135.21,
+      437.14,
+      140.81
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w270"
+     ],
+     "text": "776.779,85-",
+     "cents": -77677985,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      135.21,
+      491.5,
+      140.81
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w271"
+     ],
+     "text": "48.243,34-",
+     "cents": -4824334,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      135.21,
+      542.5,
+      140.81
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w272"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      135.21,
+      590.14,
+      140.81
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w273"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      135.21,
+      641.14,
+      140.81
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w274"
+     ],
+     "text": "825.023,19-",
+     "cents": -82502319,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      135.21,
+      695.5,
+      140.81
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w275"
+     ],
+     "text": "236.772,23",
+     "cents": 23677223,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.53,
+      135.21,
+      743.14,
+      140.81
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w276"
+     ],
+     "text": "830.178,61",
+     "cents": 83017861,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      135.21,
+      794.14,
+      140.81
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     135.21,
+     811.58,
+     140.81
+    ],
+    "frame_band": [
+     135.21,
+     140.81
+    ]
+   }
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102300 0320 4200 Pkw EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102300 0320 4200 Pkw",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w283"
+     ],
+     "text": "186.513,35",
+     "cents": 18651335,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      142.6,
+      233.14,
+      148.2
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w284"
+     ],
+     "text": "63.271,84",
+     "cents": 6327184,
+     "status": "value",
+     "glued": false,
+     "box": [
+      253.89,
+      142.6,
+      284.14,
+      148.2
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w285"
+     ],
+     "text": "47.175,00-",
+     "cents": -4717500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.89,
+      142.6,
+      338.5,
+      148.2
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w286"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      142.6,
+      386.14,
+      148.2
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w287"
+     ],
+     "text": "202.610,19",
+     "cents": 20261019,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      142.6,
+      437.14,
+      148.2
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w288"
+     ],
+     "text": "170.237,76-",
+     "cents": -17023776,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      142.6,
+      491.5,
+      148.2
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w289"
+     ],
+     "text": "17.127,28-",
+     "cents": -1712728,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      142.6,
+      542.5,
+      148.2
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w290"
+     ],
+     "text": "47.174,00",
+     "cents": 4717400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.89,
+      142.6,
+      590.14,
+      148.2
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w291"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      142.6,
+      641.14,
+      148.2
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w292"
+     ],
+     "text": "140.191,04-",
+     "cents": -14019104,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      142.6,
+      695.5,
+      148.2
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w293"
+     ],
+     "text": "16.275,59",
+     "cents": 1627559,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      142.6,
+      743.14,
+      148.2
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w294"
+     ],
+     "text": "62.419,15",
+     "cents": 6241915,
+     "status": "value",
+     "glued": false,
+     "box": [
+      763.89,
+      142.6,
+      794.14,
+      148.2
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     142.6,
+     811.58,
+     148.2
+    ],
+    "frame_band": [
+     142.6,
+     148.2
+    ]
+   }
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102300 0320 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w301"
+     ],
+     "text": "186.513,35",
+     "cents": 18651335,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      149.77,
+      233.14,
+      155.37
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w302"
+     ],
+     "text": "63.271,84",
+     "cents": 6327184,
+     "status": "value",
+     "glued": false,
+     "box": [
+      253.89,
+      149.77,
+      284.14,
+      155.37
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w303"
+     ],
+     "text": "47.175,00-",
+     "cents": -4717500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.89,
+      149.77,
+      338.5,
+      155.37
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w304"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      149.77,
+      386.14,
+      155.37
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w305"
+     ],
+     "text": "202.610,19",
+     "cents": 20261019,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      149.77,
+      437.14,
+      155.37
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w306"
+     ],
+     "text": "170.237,76-",
+     "cents": -17023776,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      149.77,
+      491.5,
+      155.37
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w307"
+     ],
+     "text": "17.127,28-",
+     "cents": -1712728,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      149.77,
+      542.5,
+      155.37
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w308"
+     ],
+     "text": "47.174,00",
+     "cents": 4717400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.89,
+      149.77,
+      590.14,
+      155.37
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w309"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      149.77,
+      641.14,
+      155.37
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w310"
+     ],
+     "text": "140.191,04-",
+     "cents": -14019104,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      149.77,
+      695.5,
+      155.37
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w311"
+     ],
+     "text": "16.275,59",
+     "cents": 1627559,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      149.77,
+      743.14,
+      155.37
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w312"
+     ],
+     "text": "62.419,15",
+     "cents": 6241915,
+     "status": "value",
+     "glued": false,
+     "box": [
+      763.89,
+      149.77,
+      794.14,
+      155.37
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     149.77,
+     811.58,
+     155.37
+    ],
+    "frame_band": [
+     149.77,
+     155.37
+    ]
+   }
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102300 0350 4300 Lkw EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102300 0350 4300 Lkw",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w319"
+     ],
+     "text": "411.386,60",
+     "cents": 41138660,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      157.05,
+      233.14,
+      162.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w320"
+     ],
+     "text": "138.321,80",
+     "cents": 13832180,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      157.05,
+      284.14,
+      162.65
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w321"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      157.05,
+      335.14,
+      162.65
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w322"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      157.05,
+      386.14,
+      162.65
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w323"
+     ],
+     "text": "549.708,40",
+     "cents": 54970840,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      157.05,
+      437.14,
+      162.65
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w324"
+     ],
+     "text": "247.380,67-",
+     "cents": -24738067,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      157.05,
+      491.5,
+      162.65
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w325"
+     ],
+     "text": "39.699,08-",
+     "cents": -3969908,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      157.05,
+      542.5,
+      162.65
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w326"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      157.05,
+      590.14,
+      162.65
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w327"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      157.05,
+      641.14,
+      162.65
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w328"
+     ],
+     "text": "287.079,75-",
+     "cents": -28707975,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      157.05,
+      695.5,
+      162.65
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w329"
+     ],
+     "text": "164.005,93",
+     "cents": 16400593,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.53,
+      157.05,
+      743.14,
+      162.65
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w330"
+     ],
+     "text": "262.628,65",
+     "cents": 26262865,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      157.05,
+      794.14,
+      162.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     157.05,
+     811.58,
+     162.65
+    ],
+    "frame_band": [
+     157.05,
+     162.65
+    ]
+   }
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102300 0350 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w337"
+     ],
+     "text": "411.386,60",
+     "cents": 41138660,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      164.33,
+      233.14,
+      169.93
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w338"
+     ],
+     "text": "138.321,80",
+     "cents": 13832180,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      164.33,
+      284.14,
+      169.93
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w339"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      164.33,
+      335.14,
+      169.93
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w340"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      164.33,
+      386.14,
+      169.93
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w341"
+     ],
+     "text": "549.708,40",
+     "cents": 54970840,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      164.33,
+      437.14,
+      169.93
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w342"
+     ],
+     "text": "247.380,67-",
+     "cents": -24738067,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      164.33,
+      491.5,
+      169.93
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w343"
+     ],
+     "text": "39.699,08-",
+     "cents": -3969908,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      164.33,
+      542.5,
+      169.93
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w344"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      164.33,
+      590.14,
+      169.93
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w345"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      164.33,
+      641.14,
+      169.93
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w346"
+     ],
+     "text": "287.079,75-",
+     "cents": -28707975,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      164.33,
+      695.5,
+      169.93
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w347"
+     ],
+     "text": "164.005,93",
+     "cents": 16400593,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.53,
+      164.33,
+      743.14,
+      169.93
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w348"
+     ],
+     "text": "262.628,65",
+     "cents": 26262865,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      164.33,
+      794.14,
+      169.93
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     164.33,
+     811.58,
+     169.93
+    ],
+    "frame_band": [
+     164.33,
+     169.93
+    ]
+   }
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102300 0400 4000 Betriebsausstattung EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102300 0400 4000 Betriebsausstattung",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w355"
+     ],
+     "text": "54.242,65",
+     "cents": 5424265,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      171.61,
+      233.14,
+      177.21
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w356"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      171.61,
+      284.14,
+      177.21
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w357"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      171.61,
+      335.14,
+      177.21
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w358"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      171.61,
+      386.14,
+      177.21
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w359"
+     ],
+     "text": "54.242,65",
+     "cents": 5424265,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      171.61,
+      437.14,
+      177.21
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w360"
+     ],
+     "text": "51.274,66-",
+     "cents": -5127466,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      171.61,
+      491.5,
+      177.21
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w361"
+     ],
+     "text": "454,54-",
+     "cents": -45454,
+     "status": "value",
+     "glued": false,
+     "box": [
+      518.98,
+      171.61,
+      542.5,
+      177.21
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w362"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      171.61,
+      590.14,
+      177.21
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w363"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      171.61,
+      641.14,
+      177.21
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w364"
+     ],
+     "text": "51.729,20-",
+     "cents": -5172920,
+     "status": "value",
+     "glued": false,
+     "box": [
+      661.89,
+      171.61,
+      695.5,
+      177.21
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w365"
+     ],
+     "text": "2.967,99",
+     "cents": 296799,
+     "status": "value",
+     "glued": false,
+     "box": [
+      716.26,
+      171.61,
+      743.14,
+      177.21
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w366"
+     ],
+     "text": "2.513,45",
+     "cents": 251345,
+     "status": "value",
+     "glued": false,
+     "box": [
+      767.26,
+      171.61,
+      794.14,
+      177.21
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     171.61,
+     811.58,
+     177.21
+    ],
+    "frame_band": [
+     171.61,
+     177.21
+    ]
+   }
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102300 0400 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w373"
+     ],
+     "text": "54.242,65",
+     "cents": 5424265,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      178.89,
+      233.14,
+      184.49
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w374"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      178.89,
+      284.14,
+      184.49
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w375"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      178.89,
+      335.14,
+      184.49
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w376"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      178.89,
+      386.14,
+      184.49
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w377"
+     ],
+     "text": "54.242,65",
+     "cents": 5424265,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      178.89,
+      437.14,
+      184.49
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w378"
+     ],
+     "text": "51.274,66-",
+     "cents": -5127466,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      178.89,
+      491.5,
+      184.49
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w379"
+     ],
+     "text": "454,54-",
+     "cents": -45454,
+     "status": "value",
+     "glued": false,
+     "box": [
+      518.98,
+      178.89,
+      542.5,
+      184.49
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w380"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      178.89,
+      590.14,
+      184.49
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w381"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      178.89,
+      641.14,
+      184.49
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w382"
+     ],
+     "text": "51.729,20-",
+     "cents": -5172920,
+     "status": "value",
+     "glued": false,
+     "box": [
+      661.89,
+      178.89,
+      695.5,
+      184.49
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w383"
+     ],
+     "text": "2.967,99",
+     "cents": 296799,
+     "status": "value",
+     "glued": false,
+     "box": [
+      716.26,
+      178.89,
+      743.14,
+      184.49
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w384"
+     ],
+     "text": "2.513,45",
+     "cents": 251345,
+     "status": "value",
+     "glued": false,
+     "box": [
+      767.26,
+      178.89,
+      794.14,
+      184.49
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     178.89,
+     811.58,
+     184.49
+    ],
+    "frame_band": [
+     178.89,
+     184.49
+    ]
+   }
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102300 0420 4100 Büroeinrichtung EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102300 0420 4100 Büroeinrichtung",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w391"
+     ],
+     "text": "19.317,81",
+     "cents": 1931781,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      186.17,
+      233.14,
+      191.77
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w392"
+     ],
+     "text": "14.423,50",
+     "cents": 1442350,
+     "status": "value",
+     "glued": false,
+     "box": [
+      253.89,
+      186.17,
+      284.14,
+      191.77
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w393"
+     ],
+     "text": "5.966,45-",
+     "cents": -596645,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.26,
+      186.17,
+      338.5,
+      191.77
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w394"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      186.17,
+      386.14,
+      191.77
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w395"
+     ],
+     "text": "27.774,86",
+     "cents": 2777486,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      186.17,
+      437.14,
+      191.77
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w396"
+     ],
+     "text": "10.829,89-",
+     "cents": -1082989,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      186.17,
+      491.5,
+      191.77
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w397"
+     ],
+     "text": "621,09-",
+     "cents": -62109,
+     "status": "value",
+     "glued": false,
+     "box": [
+      518.98,
+      186.17,
+      542.5,
+      191.77
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w398"
+     ],
+     "text": "595,40",
+     "cents": 59540,
+     "status": "value",
+     "glued": false,
+     "box": [
+      569.98,
+      186.17,
+      590.14,
+      191.77
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w399"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      186.17,
+      641.14,
+      191.77
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w400"
+     ],
+     "text": "10.855,58-",
+     "cents": -1085558,
+     "status": "value",
+     "glued": false,
+     "box": [
+      661.89,
+      186.17,
+      695.5,
+      191.77
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w401"
+     ],
+     "text": "8.487,92",
+     "cents": 848792,
+     "status": "value",
+     "glued": false,
+     "box": [
+      716.26,
+      186.17,
+      743.14,
+      191.77
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w402"
+     ],
+     "text": "16.919,28",
+     "cents": 1691928,
+     "status": "value",
+     "glued": false,
+     "box": [
+      763.89,
+      186.17,
+      794.14,
+      191.77
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     186.17,
+     811.58,
+     191.77
+    ],
+    "frame_band": [
+     186.17,
+     191.77
+    ]
+   }
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102300 0420 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w409"
+     ],
+     "text": "19.317,81",
+     "cents": 1931781,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      193.45,
+      233.14,
+      199.05
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w410"
+     ],
+     "text": "14.423,50",
+     "cents": 1442350,
+     "status": "value",
+     "glued": false,
+     "box": [
+      253.89,
+      193.45,
+      284.14,
+      199.05
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w411"
+     ],
+     "text": "5.966,45-",
+     "cents": -596645,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.26,
+      193.45,
+      338.5,
+      199.05
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w412"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      193.45,
+      386.14,
+      199.05
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w413"
+     ],
+     "text": "27.774,86",
+     "cents": 2777486,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      193.45,
+      437.14,
+      199.05
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w414"
+     ],
+     "text": "10.829,89-",
+     "cents": -1082989,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      193.45,
+      491.5,
+      199.05
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w415"
+     ],
+     "text": "621,09-",
+     "cents": -62109,
+     "status": "value",
+     "glued": false,
+     "box": [
+      518.98,
+      193.45,
+      542.5,
+      199.05
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w416"
+     ],
+     "text": "595,40",
+     "cents": 59540,
+     "status": "value",
+     "glued": false,
+     "box": [
+      569.98,
+      193.45,
+      590.14,
+      199.05
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w417"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      193.45,
+      641.14,
+      199.05
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w418"
+     ],
+     "text": "10.855,58-",
+     "cents": -1085558,
+     "status": "value",
+     "glued": false,
+     "box": [
+      661.89,
+      193.45,
+      695.5,
+      199.05
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w419"
+     ],
+     "text": "8.487,92",
+     "cents": 848792,
+     "status": "value",
+     "glued": false,
+     "box": [
+      716.26,
+      193.45,
+      743.14,
+      199.05
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w420"
+     ],
+     "text": "16.919,28",
+     "cents": 1691928,
+     "status": "value",
+     "glued": false,
+     "box": [
+      763.89,
+      193.45,
+      794.14,
+      199.05
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     193.45,
+     811.58,
+     199.05
+    ],
+    "frame_band": [
+     193.45,
+     199.05
+    ]
+   }
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102300 0480 4900 Geringwertige Wirtscha EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102300 0480 4900 Geringwertige Wirtscha",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w428"
+     ],
+     "text": "2.133,35",
+     "cents": 213335,
+     "status": "value",
+     "glued": false,
+     "box": [
+      206.26,
+      200.73,
+      233.14,
+      206.33
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w429"
+     ],
+     "text": "1.373,45",
+     "cents": 137345,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.26,
+      200.73,
+      284.14,
+      206.33
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w430"
+     ],
+     "text": "443,63-",
+     "cents": -44363,
+     "status": "value",
+     "glued": false,
+     "box": [
+      314.98,
+      200.73,
+      338.5,
+      206.33
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w431"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      200.73,
+      386.14,
+      206.33
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w432"
+     ],
+     "text": "3.063,17",
+     "cents": 306317,
+     "status": "value",
+     "glued": false,
+     "box": [
+      410.26,
+      200.73,
+      437.14,
+      206.33
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w433"
+     ],
+     "text": "2.133,35-",
+     "cents": -213335,
+     "status": "value",
+     "glued": false,
+     "box": [
+      461.26,
+      200.73,
+      491.5,
+      206.33
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w434"
+     ],
+     "text": "1.373,45-",
+     "cents": -137345,
+     "status": "value",
+     "glued": false,
+     "box": [
+      512.26,
+      200.73,
+      542.5,
+      206.33
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w435"
+     ],
+     "text": "443,63",
+     "cents": 44363,
+     "status": "value",
+     "glued": false,
+     "box": [
+      569.98,
+      200.73,
+      590.14,
+      206.33
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w436"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      200.73,
+      641.14,
+      206.33
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w437"
+     ],
+     "text": "3.063,17-",
+     "cents": -306317,
+     "status": "value",
+     "glued": false,
+     "box": [
+      665.26,
+      200.73,
+      695.5,
+      206.33
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w438"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      200.73,
+      743.14,
+      206.33
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w439"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      200.73,
+      794.14,
+      206.33
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     200.73,
+     811.58,
+     206.33
+    ],
+    "frame_band": [
+     200.73,
+     206.33
+    ]
+   }
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102300 0480 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w446"
+     ],
+     "text": "2.133,35",
+     "cents": 213335,
+     "status": "value",
+     "glued": false,
+     "box": [
+      206.26,
+      208.01,
+      233.14,
+      213.61
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w447"
+     ],
+     "text": "1.373,45",
+     "cents": 137345,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.26,
+      208.01,
+      284.14,
+      213.61
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w448"
+     ],
+     "text": "443,63-",
+     "cents": -44363,
+     "status": "value",
+     "glued": false,
+     "box": [
+      314.98,
+      208.01,
+      338.5,
+      213.61
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w449"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      208.01,
+      386.14,
+      213.61
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w450"
+     ],
+     "text": "3.063,17",
+     "cents": 306317,
+     "status": "value",
+     "glued": false,
+     "box": [
+      410.26,
+      208.01,
+      437.14,
+      213.61
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w451"
+     ],
+     "text": "2.133,35-",
+     "cents": -213335,
+     "status": "value",
+     "glued": false,
+     "box": [
+      461.26,
+      208.01,
+      491.5,
+      213.61
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w452"
+     ],
+     "text": "1.373,45-",
+     "cents": -137345,
+     "status": "value",
+     "glued": false,
+     "box": [
+      512.26,
+      208.01,
+      542.5,
+      213.61
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w453"
+     ],
+     "text": "443,63",
+     "cents": 44363,
+     "status": "value",
+     "glued": false,
+     "box": [
+      569.98,
+      208.01,
+      590.14,
+      213.61
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w454"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      208.01,
+      641.14,
+      213.61
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w455"
+     ],
+     "text": "3.063,17-",
+     "cents": -306317,
+     "status": "value",
+     "glued": false,
+     "box": [
+      665.26,
+      208.01,
+      695.5,
+      213.61
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w456"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      208.01,
+      743.14,
+      213.61
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w457"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      208.01,
+      794.14,
+      213.61
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     208.01,
+     811.58,
+     213.61
+    ],
+    "frame_band": [
+     208.01,
+     213.61
+    ]
+   }
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102300 0490 4400 EDV-Hardware EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102300 0490 4400 EDV-Hardware",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w464"
+     ],
+     "text": "29.241,90",
+     "cents": 2924190,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      215.29,
+      233.14,
+      220.89
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w465"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      215.29,
+      284.14,
+      220.89
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w466"
+     ],
+     "text": "1.842,85-",
+     "cents": -184285,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.26,
+      215.29,
+      338.5,
+      220.89
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w467"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      215.29,
+      386.14,
+      220.89
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w468"
+     ],
+     "text": "27.399,05",
+     "cents": 2739905,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      215.29,
+      437.14,
+      220.89
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w469"
+     ],
+     "text": "29.238,90-",
+     "cents": -2923890,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      215.29,
+      491.5,
+      220.89
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w470"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      215.29,
+      539.14,
+      220.89
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w471"
+     ],
+     "text": "1.841,85",
+     "cents": 184185,
+     "status": "value",
+     "glued": false,
+     "box": [
+      563.26,
+      215.29,
+      590.14,
+      220.89
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w472"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      215.29,
+      641.14,
+      220.89
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w473"
+     ],
+     "text": "27.397,05-",
+     "cents": -2739705,
+     "status": "value",
+     "glued": false,
+     "box": [
+      661.89,
+      215.29,
+      695.5,
+      220.89
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w474"
+     ],
+     "text": "3,00",
+     "cents": 300,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      215.29,
+      743.14,
+      220.89
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w475"
+     ],
+     "text": "2,00",
+     "cents": 200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      215.29,
+      794.14,
+      220.89
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     215.29,
+     811.58,
+     220.89
+    ],
+    "frame_band": [
+     215.29,
+     220.89
+    ]
+   }
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102300 0490 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w482"
+     ],
+     "text": "29.241,90",
+     "cents": 2924190,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      222.57,
+      233.14,
+      228.17
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w483"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      222.57,
+      284.14,
+      228.17
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w484"
+     ],
+     "text": "1.842,85-",
+     "cents": -184285,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.26,
+      222.57,
+      338.5,
+      228.17
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w485"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      222.57,
+      386.14,
+      228.17
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w486"
+     ],
+     "text": "27.399,05",
+     "cents": 2739905,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      222.57,
+      437.14,
+      228.17
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w487"
+     ],
+     "text": "29.238,90-",
+     "cents": -2923890,
+     "status": "value",
+     "glued": false,
+     "box": [
+      457.89,
+      222.57,
+      491.5,
+      228.17
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w488"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      222.57,
+      539.14,
+      228.17
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w489"
+     ],
+     "text": "1.841,85",
+     "cents": 184185,
+     "status": "value",
+     "glued": false,
+     "box": [
+      563.26,
+      222.57,
+      590.14,
+      228.17
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w490"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      222.57,
+      641.14,
+      228.17
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w491"
+     ],
+     "text": "27.397,05-",
+     "cents": -2739705,
+     "status": "value",
+     "glued": false,
+     "box": [
+      661.89,
+      222.57,
+      695.5,
+      228.17
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w492"
+     ],
+     "text": "3,00",
+     "cents": 300,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      222.57,
+      743.14,
+      228.17
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w493"
+     ],
+     "text": "2,00",
+     "cents": 200,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      222.57,
+      794.14,
+      228.17
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     222.57,
+     811.58,
+     228.17
+    ],
+    "frame_band": [
+     222.57,
+     228.17
+    ]
+   }
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102300 Summe Bilanzposition EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w499"
+     ],
+     "text": "702.835,66",
+     "cents": 70283566,
+     "status": "value",
+     "glued": false,
+     "box": [
+      199.53,
+      229.85,
+      233.14,
+      235.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w500"
+     ],
+     "text": "217.390,59",
+     "cents": 21739059,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      229.85,
+      284.14,
+      235.45
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w501"
+     ],
+     "text": "55.427,93-",
+     "cents": -5542793,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.89,
+      229.85,
+      338.5,
+      235.45
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w502"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      229.85,
+      386.14,
+      235.45
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w503"
+     ],
+     "text": "864.798,32",
+     "cents": 86479832,
+     "status": "value",
+     "glued": false,
+     "box": [
+      403.53,
+      229.85,
+      437.14,
+      235.45
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w504"
+     ],
+     "text": "511.095,23-",
+     "cents": -51109523,
+     "status": "value",
+     "glued": false,
+     "box": [
+      454.53,
+      229.85,
+      491.5,
+      235.45
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w505"
+     ],
+     "text": "59.275,44-",
+     "cents": -5927544,
+     "status": "value",
+     "glued": false,
+     "box": [
+      508.89,
+      229.85,
+      542.5,
+      235.45
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w506"
+     ],
+     "text": "50.054,88",
+     "cents": 5005488,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.89,
+      229.85,
+      590.14,
+      235.45
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w507"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      229.85,
+      641.14,
+      235.45
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w508"
+     ],
+     "text": "520.315,79-",
+     "cents": -52031579,
+     "status": "value",
+     "glued": false,
+     "box": [
+      658.53,
+      229.85,
+      695.5,
+      235.45
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p2w509"
+     ],
+     "text": "191.740,43",
+     "cents": 19174043,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.53,
+      229.85,
+      743.14,
+      235.45
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p2w510"
+     ],
+     "text": "344.482,53",
+     "cents": 34448253,
+     "status": "value",
+     "glued": false,
+     "box": [
+      760.53,
+      229.85,
+      794.14,
+      235.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     25.5,
+     229.85,
+     811.58,
+     235.45
+    ],
+    "frame_band": [
+     229.85,
+     235.45
+    ]
+   }
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102400 0120 5000 Anlagen im Bau EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102400 0120 5000 Anlagen im Bau",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w51"
+     ],
+     "text": "55.591,14",
+     "cents": 5559114,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      47.96,
+      233.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w52"
+     ],
+     "text": "46.023,16",
+     "cents": 4602316,
+     "status": "value",
+     "glued": false,
+     "box": [
+      253.89,
+      47.96,
+      284.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      47.96,
+      335.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w54"
+     ],
+     "text": "101.614,30-",
+     "cents": -10161430,
+     "status": "value",
+     "glued": false,
+     "box": [
+      352.53,
+      47.96,
+      389.5,
+      53.56
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      423.7,
+      47.96,
+      437.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      474.7,
+      47.96,
+      488.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      47.96,
+      539.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      47.96,
+      590.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      47.96,
+      641.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      678.7,
+      47.96,
+      692.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w61"
+     ],
+     "text": "55.591,14",
+     "cents": 5559114,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      47.96,
+      743.14,
+      53.56
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w62"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      47.96,
+      794.14,
+      53.56
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     47.96,
+     811.58,
+     53.56
+    ],
+    "frame_band": [
+     47.96,
+     53.56
+    ]
+   }
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102400 0120 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w69"
+     ],
+     "text": "55.591,14",
+     "cents": 5559114,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      55.13,
+      233.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w70"
+     ],
+     "text": "46.023,16",
+     "cents": 4602316,
+     "status": "value",
+     "glued": false,
+     "box": [
+      253.89,
+      55.13,
+      284.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w71"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      55.13,
+      335.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w72"
+     ],
+     "text": "101.614,30-",
+     "cents": -10161430,
+     "status": "value",
+     "glued": false,
+     "box": [
+      352.53,
+      55.13,
+      389.5,
+      60.73
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w73"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      423.7,
+      55.13,
+      437.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w74"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      474.7,
+      55.13,
+      488.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w75"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      55.13,
+      539.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w76"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      55.13,
+      590.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w77"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      55.13,
+      641.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w78"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      678.7,
+      55.13,
+      692.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w79"
+     ],
+     "text": "55.591,14",
+     "cents": 5559114,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      55.13,
+      743.14,
+      60.73
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w80"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      55.13,
+      794.14,
+      60.73
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     55.13,
+     811.58,
+     60.73
+    ],
+    "frame_band": [
+     55.13,
+     60.73
+    ]
+   }
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2102400 0129 5100 Anzahlungen auf Anlage EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2102400 0129 5100 Anzahlungen auf Anlage",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w89"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      219.7,
+      62.41,
+      233.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w90"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      62.41,
+      284.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w91"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      62.41,
+      335.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w92"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      62.41,
+      386.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w93"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      423.7,
+      62.41,
+      437.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w94"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      474.7,
+      62.41,
+      488.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w95"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      62.41,
+      539.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w96"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      62.41,
+      590.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w97"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      62.41,
+      641.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w98"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      678.7,
+      62.41,
+      692.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w99"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      62.41,
+      743.14,
+      68.01
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w100"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      62.41,
+      794.14,
+      68.01
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     62.41,
+     811.58,
+     68.01
+    ],
+    "frame_band": [
+     62.41,
+     68.01
+    ]
+   }
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102400 0129 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w107"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      219.7,
+      69.69,
+      233.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w108"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      69.69,
+      284.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w109"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      69.69,
+      335.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w110"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      69.69,
+      386.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w111"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      423.7,
+      69.69,
+      437.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w112"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      474.7,
+      69.69,
+      488.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w113"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      69.69,
+      539.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w114"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      69.69,
+      590.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w115"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      69.69,
+      641.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w116"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      678.7,
+      69.69,
+      692.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w117"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      729.7,
+      69.69,
+      743.14,
+      75.29
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w118"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      69.69,
+      794.14,
+      75.29
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     69.69,
+     811.58,
+     75.29
+    ],
+    "frame_band": [
+     69.69,
+     75.29
+    ]
+   }
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2102400 Summe Bilanzposition EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w124"
+     ],
+     "text": "55.591,14",
+     "cents": 5559114,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      76.97,
+      233.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w125"
+     ],
+     "text": "46.023,16",
+     "cents": 4602316,
+     "status": "value",
+     "glued": false,
+     "box": [
+      253.89,
+      76.97,
+      284.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w126"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      76.97,
+      335.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w127"
+     ],
+     "text": "101.614,30-",
+     "cents": -10161430,
+     "status": "value",
+     "glued": false,
+     "box": [
+      352.53,
+      76.97,
+      389.5,
+      82.57
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w128"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      423.7,
+      76.97,
+      437.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w129"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      474.7,
+      76.97,
+      488.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w130"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      76.97,
+      539.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w131"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      76.97,
+      590.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w132"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      627.7,
+      76.97,
+      641.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w133"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      678.7,
+      76.97,
+      692.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w134"
+     ],
+     "text": "55.591,14",
+     "cents": 5559114,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      76.97,
+      743.14,
+      82.57
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w135"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      780.7,
+      76.97,
+      794.14,
+      82.57
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     76.97,
+     811.58,
+     82.57
+    ],
+    "frame_band": [
+     76.97,
+     82.57
+    ]
+   }
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "5200 2103300 0510 6000 Beteiligungen EUR",
+   "year": 2025,
+   "identity": {
+    "asset_no": "5200",
+    "sub_no": "",
+    "name": "2103300 0510 6000 Beteiligungen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w142"
+     ],
+     "text": "17.404,79",
+     "cents": 1740479,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      84.36,
+      233.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w143"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      84.36,
+      284.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w144"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      84.36,
+      335.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w145"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      84.36,
+      386.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w146"
+     ],
+     "text": "17.404,79",
+     "cents": 1740479,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      84.36,
+      437.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w147"
+     ],
+     "text": "4.439,14-",
+     "cents": -443914,
+     "status": "value",
+     "glued": false,
+     "box": [
+      461.26,
+      84.36,
+      491.5,
+      89.96
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w148"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      84.36,
+      539.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w149"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      84.36,
+      590.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w150"
+     ],
+     "text": "2.219,57",
+     "cents": 221957,
+     "status": "value",
+     "glued": false,
+     "box": [
+      614.26,
+      84.36,
+      641.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w151"
+     ],
+     "text": "2.219,57-",
+     "cents": -221957,
+     "status": "value",
+     "glued": false,
+     "box": [
+      665.26,
+      84.36,
+      695.5,
+      89.96
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w152"
+     ],
+     "text": "12.965,65",
+     "cents": 1296565,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      84.36,
+      743.14,
+      89.96
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w153"
+     ],
+     "text": "15.185,22",
+     "cents": 1518522,
+     "status": "value",
+     "glued": false,
+     "box": [
+      763.89,
+      84.36,
+      794.14,
+      89.96
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     84.36,
+     811.58,
+     89.96
+    ],
+    "frame_band": [
+     84.36,
+     89.96
+    ]
+   }
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2103300 0510 Summe Bestandskonto EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w160"
+     ],
+     "text": "17.404,79",
+     "cents": 1740479,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      91.53,
+      233.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w161"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      91.53,
+      284.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w162"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      91.53,
+      335.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w163"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      91.53,
+      386.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w164"
+     ],
+     "text": "17.404,79",
+     "cents": 1740479,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      91.53,
+      437.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w165"
+     ],
+     "text": "4.439,14-",
+     "cents": -443914,
+     "status": "value",
+     "glued": false,
+     "box": [
+      461.26,
+      91.53,
+      491.5,
+      97.13
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w166"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      91.53,
+      539.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w167"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      91.53,
+      590.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w168"
+     ],
+     "text": "2.219,57",
+     "cents": 221957,
+     "status": "value",
+     "glued": false,
+     "box": [
+      614.26,
+      91.53,
+      641.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w169"
+     ],
+     "text": "2.219,57-",
+     "cents": -221957,
+     "status": "value",
+     "glued": false,
+     "box": [
+      665.26,
+      91.53,
+      695.5,
+      97.13
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w170"
+     ],
+     "text": "12.965,65",
+     "cents": 1296565,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      91.53,
+      743.14,
+      97.13
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w171"
+     ],
+     "text": "15.185,22",
+     "cents": 1518522,
+     "status": "value",
+     "glued": false,
+     "box": [
+      763.89,
+      91.53,
+      794.14,
+      97.13
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     91.53,
+     811.58,
+     97.13
+    ],
+    "frame_band": [
+     91.53,
+     97.13
+    ]
+   }
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 2103300 Summe Bilanzposition EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w177"
+     ],
+     "text": "17.404,79",
+     "cents": 1740479,
+     "status": "value",
+     "glued": false,
+     "box": [
+      202.89,
+      98.81,
+      233.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w178"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      270.7,
+      98.81,
+      284.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w179"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      98.81,
+      335.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w180"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      98.81,
+      386.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w181"
+     ],
+     "text": "17.404,79",
+     "cents": 1740479,
+     "status": "value",
+     "glued": false,
+     "box": [
+      406.89,
+      98.81,
+      437.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w182"
+     ],
+     "text": "4.439,14-",
+     "cents": -443914,
+     "status": "value",
+     "glued": false,
+     "box": [
+      461.26,
+      98.81,
+      491.5,
+      104.41
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w183"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      525.7,
+      98.81,
+      539.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w184"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      576.7,
+      98.81,
+      590.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w185"
+     ],
+     "text": "2.219,57",
+     "cents": 221957,
+     "status": "value",
+     "glued": false,
+     "box": [
+      614.26,
+      98.81,
+      641.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w186"
+     ],
+     "text": "2.219,57-",
+     "cents": -221957,
+     "status": "value",
+     "glued": false,
+     "box": [
+      665.26,
+      98.81,
+      695.5,
+      104.41
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w187"
+     ],
+     "text": "12.965,65",
+     "cents": 1296565,
+     "status": "value",
+     "glued": false,
+     "box": [
+      712.89,
+      98.81,
+      743.14,
+      104.41
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w188"
+     ],
+     "text": "15.185,22",
+     "cents": 1518522,
+     "status": "value",
+     "glued": false,
+     "box": [
+      763.89,
+      98.81,
+      794.14,
+      104.41
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     98.81,
+     811.58,
+     104.41
+    ],
+    "frame_band": [
+     98.81,
+     104.41
+    ]
+   }
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 Summe Geschäftsbereich EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w193"
+     ],
+     "text": "5.680.783,28",
+     "cents": 568078328,
+     "status": "value",
+     "glued": false,
+     "box": [
+      192.81,
+      106.09,
+      233.14,
+      111.69
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w194"
+     ],
+     "text": "918.334,05",
+     "cents": 91833405,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      106.09,
+      284.14,
+      111.69
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w195"
+     ],
+     "text": "55.427,93-",
+     "cents": -5542793,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.89,
+      106.09,
+      338.5,
+      111.69
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w196"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      106.09,
+      386.14,
+      111.69
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w197"
+     ],
+     "text": "6.543.689,40",
+     "cents": 654368940,
+     "status": "value",
+     "glued": false,
+     "box": [
+      396.81,
+      106.09,
+      437.14,
+      111.69
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w198"
+     ],
+     "text": "3.117.274,94-",
+     "cents": -311727494,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.81,
+      106.09,
+      491.5,
+      111.69
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w199"
+     ],
+     "text": "182.452,67-",
+     "cents": -18245267,
+     "status": "value",
+     "glued": false,
+     "box": [
+      505.53,
+      106.09,
+      542.5,
+      111.69
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w200"
+     ],
+     "text": "50.054,88",
+     "cents": 5005488,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.89,
+      106.09,
+      590.14,
+      111.69
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w201"
+     ],
+     "text": "2.219,57",
+     "cents": 221957,
+     "status": "value",
+     "glued": false,
+     "box": [
+      614.26,
+      106.09,
+      641.14,
+      111.69
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w202"
+     ],
+     "text": "3.247.453,16-",
+     "cents": -324745316,
+     "status": "value",
+     "glued": false,
+     "box": [
+      651.81,
+      106.09,
+      695.5,
+      111.69
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w203"
+     ],
+     "text": "2.563.508,34",
+     "cents": 256350834,
+     "status": "value",
+     "glued": false,
+     "box": [
+      702.81,
+      106.09,
+      743.14,
+      111.69
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w204"
+     ],
+     "text": "3.296.236,24",
+     "cents": 329623624,
+     "status": "value",
+     "glued": false,
+     "box": [
+      753.81,
+      106.09,
+      794.14,
+      111.69
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     106.09,
+     811.58,
+     111.69
+    ],
+    "frame_band": [
+     106.09,
+     111.69
+    ]
+   }
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "5200 Summe Buchungskreis EUR",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w209"
+     ],
+     "text": "5.680.783,28",
+     "cents": 568078328,
+     "status": "value",
+     "glued": false,
+     "box": [
+      192.81,
+      113.37,
+      233.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w210"
+     ],
+     "text": "918.334,05",
+     "cents": 91833405,
+     "status": "value",
+     "glued": false,
+     "box": [
+      250.53,
+      113.37,
+      284.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w211"
+     ],
+     "text": "55.427,93-",
+     "cents": -5542793,
+     "status": "value",
+     "glued": false,
+     "box": [
+      304.89,
+      113.37,
+      338.5,
+      118.97
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w212"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      372.7,
+      113.37,
+      386.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w213"
+     ],
+     "text": "6.543.689,40",
+     "cents": 654368940,
+     "status": "value",
+     "glued": false,
+     "box": [
+      396.81,
+      113.37,
+      437.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w214"
+     ],
+     "text": "3.117.274,94-",
+     "cents": -311727494,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.81,
+      113.37,
+      491.5,
+      118.97
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w215"
+     ],
+     "text": "182.452,67-",
+     "cents": -18245267,
+     "status": "value",
+     "glued": false,
+     "box": [
+      505.53,
+      113.37,
+      542.5,
+      118.97
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w216"
+     ],
+     "text": "50.054,88",
+     "cents": 5005488,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.89,
+      113.37,
+      590.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w217"
+     ],
+     "text": "2.219,57",
+     "cents": 221957,
+     "status": "value",
+     "glued": false,
+     "box": [
+      614.26,
+      113.37,
+      641.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w218"
+     ],
+     "text": "3.247.453,16-",
+     "cents": -324745316,
+     "status": "value",
+     "glued": false,
+     "box": [
+      651.81,
+      113.37,
+      695.5,
+      118.97
+     ],
+     "cell": null
+    },
+    "c11": {
+     "column": "c11",
+     "tokens": [
+      "p3w219"
+     ],
+     "text": "2.563.508,34",
+     "cents": 256350834,
+     "status": "value",
+     "glued": false,
+     "box": [
+      702.81,
+      113.37,
+      743.14,
+      118.97
+     ],
+     "cell": null
+    },
+    "c12": {
+     "column": "c12",
+     "tokens": [
+      "p3w220"
+     ],
+     "text": "3.296.236,24",
+     "cents": 329623624,
+     "status": "value",
+     "glued": false,
+     "box": [
+      753.81,
+      113.37,
+      794.14,
+      118.97
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     25.5,
+     113.37,
+     811.58,
+     118.97
+    ],
+    "frame_band": [
+     113.37,
+     118.97
+    ]
+   }
+  }
+ ]
+}

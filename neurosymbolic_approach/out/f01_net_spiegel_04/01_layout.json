@@ -1,0 +1,592 @@
+{
+ "doc_id": "f01_net_spiegel_04",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1,
+    2
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 243.64,
+     "span": [
+      210.12,
+      243.64
+     ],
+     "col": null,
+     "header": "Restbuchwert 01.01.2025",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 289.64,
+     "span": [
+      260.91,
+      289.64
+     ],
+     "col": null,
+     "header": "Zugang",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 335.64,
+     "span": [
+      306.91,
+      335.64
+     ],
+     "col": null,
+     "header": "Umbuchung",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 379.02,
+     "span": [
+      368.55,
+      381.64
+     ],
+     "col": null,
+     "header": "Abgang zum Restbuchwert",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang_bw",
+       1.0,
+       "BW x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 426.04,
+     "span": [
+      388.09,
+      426.04
+     ],
+     "col": null,
+     "header": "Zuschreibung",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 470.89,
+     "span": [
+      446.19,
+      473.64
+     ],
+     "col": null,
+     "header": "Abschreibung lfd. Jahr",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 519.64,
+     "span": [
+      486.12,
+      519.64
+     ],
+     "col": null,
+     "header": "Restbuchwert 31.12.2025",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    },
+    {
+     "id": "c8",
+     "anchor": 565.64,
+     "span": [
+      532.12,
+      565.64
+     ],
+     "col": null,
+     "header": "kumulierte Abschreibung",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Konto / Bezeichnung Restbuchwert Zugang Umbuchung Abgang zum Zuschreibung Abschreibung Restbuchwert kumulierte",
+    "01.01.2025 Restbuchwert lfd. Jahr 31.12.2025 Abschreibung"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    104.4,
+    111.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0027 EDV-Software",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    113.85,
+    120.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Immaterielle Vermögensgegenstände",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    142.2,
+    149.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0085 Grund und Boden",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "1. Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Grund und Boden",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "1. Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    180.0,
+    187.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0100 Fabrikbauten",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "1. Grund und Boden",
+    "2. Betriebsgebäude"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    189.45,
+    196.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Betriebsgebäude",
+   "context": [
+    "0. Immaterielle Vermögensgegenstände",
+    "1. Grund und Boden",
+    "2. Betriebsgebäude"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    217.8,
+    224.8
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0210 Maschinen",
+   "context": [
+    "1. Grund und Boden",
+    "2. Betriebsgebäude",
+    "3. Maschinenpark"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    227.25,
+    234.25
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Maschinenpark",
+   "context": [
+    "1. Grund und Boden",
+    "2. Betriebsgebäude",
+    "3. Maschinenpark"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    255.6,
+    262.6
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0240 Technische Anlagen",
+   "context": [
+    "2. Betriebsgebäude",
+    "3. Maschinenpark",
+    "4. Betriebstechnik"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    265.05,
+    272.05
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Betriebstechnik",
+   "context": [
+    "2. Betriebsgebäude",
+    "3. Maschinenpark",
+    "4. Betriebstechnik"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    293.4,
+    300.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0320 Pkw",
+   "context": [
+    "3. Maschinenpark",
+    "4. Betriebstechnik",
+    "5. Fuhrpark"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    302.85,
+    309.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0350 Lkw",
+   "context": [
+    "3. Maschinenpark",
+    "4. Betriebstechnik",
+    "5. Fuhrpark"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    312.3,
+    319.3
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Fuhrpark",
+   "context": [
+    "3. Maschinenpark",
+    "4. Betriebstechnik",
+    "5. Fuhrpark"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    340.65,
+    347.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0400 Betriebsausstattung",
+   "context": [
+    "4. Betriebstechnik",
+    "5. Fuhrpark",
+    "6. Werkstatt und Lager"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": 1,
+   "band": [
+    350.1,
+    357.1
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Werkstatt und Lager",
+   "context": [
+    "4. Betriebstechnik",
+    "5. Fuhrpark",
+    "6. Werkstatt und Lager"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    94.95,
+    101.95
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0420 Büroeinrichtung",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    104.4,
+    111.4
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0490 EDV-Hardware",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    113.85,
+    120.85
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Büro und Verwaltung",
+   "context": [],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    142.2,
+    149.2
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0480 Geringwertige Wirtschaftsgüter",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    151.65,
+    158.65
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Geringwertige Wirtschaftsgüter",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    180.0,
+    187.0
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "asset",
+   "label": "0120 Anlagen im Bau",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "9. Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    189.45,
+    196.45
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Zwischensumme Anlagen im Bau",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "9. Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": 2,
+   "band": [
+    208.35,
+    215.35
+   ],
+   "sheet": null,
+   "row": null,
+   "kind_guess": "total",
+   "label": "Anlagevermögen gesamt",
+   "context": [
+    "8. Geringwertige Wirtschaftsgüter",
+    "9. Anlagen im Bau"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [
+  "page 1: blank column(s) found from the header: ['Zuschreibung']",
+  "page 2: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "schedule",
+  "2": "repeats"
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "doc_id": "f05_sap_class_gitter_05",
+ "proposer": "heuristic-v0",
+ "mode": "block",
+ "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 89.92,
+     "span": [
+      40.95,
+      94.0
+     ],
+     "col": null,
+     "header": "BuKr GsBe AHK GJ-Beg AfA GJ-Beg Buchwrt GJ-Beg",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.333,
+       "AHK x open"
+      ],
+      [
+       "kum_afa_open",
+       0.333,
+       "AFA x open"
+      ],
+      [
+       "bw_prev",
+       0.333,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 155.92,
+     "span": [
+      106.95,
+      160.0
+     ],
+     "col": null,
+     "header": "Bilanz Pos Zugang AfA des Jahres",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x add"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 221.92,
+     "span": [
+      205.6,
+      221.92
+     ],
+     "col": null,
+     "header": "Best Kto AHK Abgang AfA Abgang",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       0.5,
+       "AHK x disposal"
+      ],
+      [
+       "afa_abgang",
+       0.5,
+       "AFA x disposal"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 287.92,
+     "span": [
+      247.11,
+      287.92
+     ],
+     "col": null,
+     "header": "Umbuchung Umbuchung",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 353.92,
+     "span": [
+      337.6,
+      353.92
+     ],
+     "col": null,
+     "header": "AfA",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       0.55,
+       "AFA without role -> close?"
+      ],
+      [
+       "kum_afa_open",
+       0.45,
+       "AFA without role -> open?"
+      ],
+      [
+       "afa_gj",
+       0.3,
+       "AFA without role"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 419.92,
+     "span": [
+      403.6,
+      419.92
+     ],
+     "col": null,
+     "header": "Invest. Förderg Zuschreibungen",
+     "group_header": "",
+     "candidates": []
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "BuKr GsBe BilanzPos BestKtoAHK Klasse Währg",
+    "AHK GJ-Beg Zugang Abgang Umbuchung Nachaktivg Invest.Förderg aktuelle",
+    "AfA GJ-Beg AfA des Jahres AfA Abgang AfA Umbuchung AfA Nachaktivg Zuschreibungen kumulierte",
+    "Buchwrt GJ-Beg lfd Buch"
+   ]
+  }
+ ],
+ "rows": [],
+ "notes": [
+  "page 1: no amounts, skipped",
+  "page 2: 30 of 30 amount lines carry no label (identity printed on another line)",
+  "page 3: 30 of 30 amount lines carry no label (identity printed on another line)",
+  "page 3: repeats the header of section s1",
+  "page 4: 30 of 30 amount lines carry no label (identity printed on another line)",
+  "page 4: repeats the header of section s1",
+  "page 5: 12 of 12 amount lines carry no label (identity printed on another line)",
+  "page 5: repeats the header of section s1"
+ ],
+ "page_status": {
+  "1": "no_amounts",
+  "2": "schedule",
+  "3": "repeats",
+  "4": "repeats",
+  "5": "repeats"
+ }
+}

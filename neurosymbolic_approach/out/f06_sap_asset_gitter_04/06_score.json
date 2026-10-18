@@ -1,0 +1,35 @@
+{
+ "values_in_key": 737,
+ "correct": 737,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 0,
+ "extra": 0,
+ "spurious": 0,
+ "score": 737,
+ "kind_accuracy": 1.0,
+ "asset_id_accuracy": 1.0,
+ "details": [],
+ "detection": {
+  "planted": [
+   "carry_over",
+   "glued_numbers",
+   "non_tying_subtotal"
+  ],
+  "detected": [
+   "carry_over",
+   "glued_numbers",
+   "non_tying_subtotal"
+  ],
+  "hit": [
+   "carry_over",
+   "glued_numbers",
+   "non_tying_subtotal"
+  ],
+  "missed": [],
+  "false_alarm": [],
+  "readable": true,
+  "variant_key": "problem",
+  "variant_guess": "problem"
+ }
+}

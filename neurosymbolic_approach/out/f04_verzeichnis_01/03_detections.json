@@ -1,0 +1,22 @@
+{
+ "doc_id": "f04_verzeichnis_01",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "wrapped_description",
+   "evidence": "2 description(s) continue on the next line",
+   "where": [
+    {
+     "row": "r63",
+     "page": 2,
+     "label": "345 Schreibtisch höhenverstellbar 0 27.05.2010 lin 13 (gebraucht)"
+    },
+    {
+     "row": "r64",
+     "page": 2,
+     "label": "38B Konferenzstühle (8 Stück) 0 09.08.2014 lin 13 (gebraucht)"
+    }
+   ]
+  }
+ ]
+}

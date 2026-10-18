@@ -1,0 +1,33 @@
+{
+ "doc_id": "f01_net_spiegel_06",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "glued_numbers",
+   "evidence": "3 printed string(s) hold two amounts; 0 row(s) where the laws suggest two amounts were read as one",
+   "where": [
+    {
+     "page": 2,
+     "printed": "0,0029.341,34"
+    },
+    {
+     "page": 3,
+     "printed": "61.497,6217.779,33"
+    },
+    {
+     "page": 4,
+     "printed": "0,000,00"
+    }
+   ]
+  },
+  {
+   "type": "noise_page_cover",
+   "evidence": "page has text but no amounts (51 words)",
+   "where": [
+    {
+     "page": 1
+    }
+   ]
+  }
+ ]
+}

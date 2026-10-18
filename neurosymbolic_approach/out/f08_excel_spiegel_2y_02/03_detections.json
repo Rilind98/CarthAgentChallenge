@@ -1,0 +1,20 @@
+{
+ "doc_id": "f08_excel_spiegel_2y_02",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "multi_year",
+   "evidence": "sections for 2024, 2025",
+   "where": [
+    {
+     "section": "s1",
+     "period_end": "2025-06-30"
+    },
+    {
+     "section": "s2",
+     "period_end": "2024-06-30"
+    }
+   ]
+  }
+ ]
+}

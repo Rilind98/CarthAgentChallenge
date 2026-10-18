@@ -1,0 +1,6446 @@
+{
+ "doc_id": "f01_net_spiegel_03",
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0027 EDV-Software",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0027",
+    "sub_no": "",
+    "name": "EDV-Software",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w51"
+     ],
+     "text": "124,01",
+     "cents": 12401,
+     "status": "value",
+     "glued": false,
+     "box": [
+      271.53,
+      189.45,
+      292.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w52"
+     ],
+     "text": "20.491,36",
+     "cents": 2049136,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      189.45,
+      348.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      189.45,
+      404.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      189.45,
+      460.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      189.45,
+      516.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      189.45,
+      572.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w57"
+     ],
+     "text": "4.588,21",
+     "cents": 458821,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      189.45,
+      628.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      189.45,
+      684.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w59"
+     ],
+     "text": "52.804,03",
+     "cents": 5280403,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      189.45,
+      740.94,
+      196.45
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w60"
+     ],
+     "text": "16.027,16",
+     "cents": 1602716,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      189.45,
+      796.94,
+      196.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.28,
+     189.45,
+     796.94,
+     196.45
+    ],
+    "frame_band": [
+     189.45,
+     196.45
+    ]
+   }
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe EDV-Software",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w63"
+     ],
+     "text": "124,01",
+     "cents": 12401,
+     "status": "value",
+     "glued": false,
+     "box": [
+      271.53,
+      208.35,
+      292.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w64"
+     ],
+     "text": "20.491,36",
+     "cents": 2049136,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      208.35,
+      348.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w65"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      208.35,
+      404.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w66"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      208.35,
+      460.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w67"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      208.35,
+      516.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w68"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      208.35,
+      572.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w69"
+     ],
+     "text": "4.588,21",
+     "cents": 458821,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      208.35,
+      628.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w70"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      208.35,
+      684.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w71"
+     ],
+     "text": "52.804,03",
+     "cents": 5280403,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      208.35,
+      740.94,
+      215.35
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w72"
+     ],
+     "text": "16.027,16",
+     "cents": 1602716,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      208.35,
+      796.94,
+      215.35
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     54.67,
+     208.35,
+     796.94,
+     215.35
+    ],
+    "frame_band": [
+     208.35,
+     215.35
+    ]
+   }
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 0. Immaterielle Vermögensgegenstände",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w77"
+     ],
+     "text": "124,01",
+     "cents": 12401,
+     "status": "value",
+     "glued": false,
+     "box": [
+      271.53,
+      227.25,
+      292.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w78"
+     ],
+     "text": "20.491,36",
+     "cents": 2049136,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      227.25,
+      348.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w79"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      227.25,
+      404.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w80"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      227.25,
+      460.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w81"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      227.25,
+      516.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w82"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      227.25,
+      572.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w83"
+     ],
+     "text": "4.588,21",
+     "cents": 458821,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      227.25,
+      628.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w84"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      227.25,
+      684.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w85"
+     ],
+     "text": "52.804,03",
+     "cents": 5280403,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      227.25,
+      740.94,
+      234.25
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w86"
+     ],
+     "text": "16.027,16",
+     "cents": 1602716,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      227.25,
+      796.94,
+      234.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     44.94,
+     227.25,
+     796.94,
+     234.25
+    ],
+    "frame_band": [
+     227.25,
+     234.25
+    ]
+   }
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0085 Grund und Boden",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0085",
+    "sub_no": "",
+    "name": "Grund und Boden",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w98"
+     ],
+     "text": "608.498,39",
+     "cents": 60849839,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      293.4,
+      292.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w99"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      335.32,
+      293.4,
+      348.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w100"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      293.4,
+      404.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w101"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      293.4,
+      460.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w102"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      293.4,
+      516.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w103"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      293.4,
+      572.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w104"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      615.32,
+      293.4,
+      628.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w105"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      293.4,
+      684.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w106"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      727.32,
+      293.4,
+      740.94,
+      300.4
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w107"
+     ],
+     "text": "608.498,39",
+     "cents": 60849839,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      293.4,
+      796.94,
+      300.4
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.28,
+     293.4,
+     796.94,
+     300.4
+    ],
+    "frame_band": [
+     293.4,
+     300.4
+    ]
+   }
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Grund und Boden",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w112"
+     ],
+     "text": "608.498,39",
+     "cents": 60849839,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      312.3,
+      292.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w113"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      335.32,
+      312.3,
+      348.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w114"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      312.3,
+      404.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w115"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      312.3,
+      460.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w116"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      312.3,
+      516.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w117"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      312.3,
+      572.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w118"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      615.32,
+      312.3,
+      628.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w119"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      312.3,
+      684.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w120"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      727.32,
+      312.3,
+      740.94,
+      319.3
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w121"
+     ],
+     "text": "608.498,39",
+     "cents": 60849839,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      312.3,
+      796.94,
+      319.3
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     54.67,
+     312.3,
+     796.94,
+     319.3
+    ],
+    "frame_band": [
+     312.3,
+     319.3
+    ]
+   }
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 1. Grund und Boden",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w127"
+     ],
+     "text": "608.498,39",
+     "cents": 60849839,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      331.2,
+      292.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w128"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      335.32,
+      331.2,
+      348.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w129"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      331.2,
+      404.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w130"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      331.2,
+      460.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w131"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      331.2,
+      516.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w132"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      331.2,
+      572.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w133"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      615.32,
+      331.2,
+      628.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w134"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      331.2,
+      684.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w135"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      727.32,
+      331.2,
+      740.94,
+      338.2
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w136"
+     ],
+     "text": "608.498,39",
+     "cents": 60849839,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      331.2,
+      796.94,
+      338.2
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     44.94,
+     331.2,
+     796.94,
+     338.2
+    ],
+    "frame_band": [
+     331.2,
+     338.2
+    ]
+   }
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0100 Fabrikbauten",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0100",
+    "sub_no": "",
+    "name": "Fabrikbauten",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w142"
+     ],
+     "text": "6.053.721,11",
+     "cents": 605372111,
+     "status": "value",
+     "glued": false,
+     "box": [
+      252.07,
+      397.35,
+      292.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w143"
+     ],
+     "text": "1.308.404,76",
+     "cents": 130840476,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.07,
+      397.35,
+      348.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w144"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      397.35,
+      404.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w145"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      397.35,
+      460.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w146"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      397.35,
+      516.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w147"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      397.35,
+      572.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w148"
+     ],
+     "text": "244.593,20",
+     "cents": 24459320,
+     "status": "value",
+     "glued": false,
+     "box": [
+      593.91,
+      397.35,
+      628.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w149"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      397.35,
+      684.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w150"
+     ],
+     "text": "2.609.092,90",
+     "cents": 260909290,
+     "status": "value",
+     "glued": false,
+     "box": [
+      700.07,
+      397.35,
+      740.94,
+      404.35
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w151"
+     ],
+     "text": "7.117.532,67",
+     "cents": 711753267,
+     "status": "value",
+     "glued": false,
+     "box": [
+      756.07,
+      397.35,
+      796.94,
+      404.35
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.28,
+     397.35,
+     796.94,
+     404.35
+    ],
+    "frame_band": [
+     397.35,
+     404.35
+    ]
+   }
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Fabrikbauten",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w154"
+     ],
+     "text": "6.053.721,11",
+     "cents": 605372111,
+     "status": "value",
+     "glued": false,
+     "box": [
+      252.07,
+      416.25,
+      292.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w155"
+     ],
+     "text": "1.308.404,76",
+     "cents": 130840476,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.07,
+      416.25,
+      348.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w156"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      416.25,
+      404.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w157"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      416.25,
+      460.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w158"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      416.25,
+      516.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w159"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      416.25,
+      572.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w160"
+     ],
+     "text": "244.593,20",
+     "cents": 24459320,
+     "status": "value",
+     "glued": false,
+     "box": [
+      593.91,
+      416.25,
+      628.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w161"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      416.25,
+      684.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w162"
+     ],
+     "text": "2.609.092,90",
+     "cents": 260909290,
+     "status": "value",
+     "glued": false,
+     "box": [
+      700.07,
+      416.25,
+      740.94,
+      423.25
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w163"
+     ],
+     "text": "7.117.532,67",
+     "cents": 711753267,
+     "status": "value",
+     "glued": false,
+     "box": [
+      756.07,
+      416.25,
+      796.94,
+      423.25
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     54.67,
+     416.25,
+     796.94,
+     423.25
+    ],
+    "frame_band": [
+     416.25,
+     423.25
+    ]
+   }
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 2. Betriebsgebäude",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w167"
+     ],
+     "text": "6.053.721,11",
+     "cents": 605372111,
+     "status": "value",
+     "glued": false,
+     "box": [
+      252.07,
+      435.15,
+      292.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w168"
+     ],
+     "text": "1.308.404,76",
+     "cents": 130840476,
+     "status": "value",
+     "glued": false,
+     "box": [
+      308.07,
+      435.15,
+      348.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w169"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      435.15,
+      404.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w170"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      435.15,
+      460.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w171"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      435.15,
+      516.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w172"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      435.15,
+      572.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w173"
+     ],
+     "text": "244.593,20",
+     "cents": 24459320,
+     "status": "value",
+     "glued": false,
+     "box": [
+      593.91,
+      435.15,
+      628.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w174"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      435.15,
+      684.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w175"
+     ],
+     "text": "2.609.092,90",
+     "cents": 260909290,
+     "status": "value",
+     "glued": false,
+     "box": [
+      700.07,
+      435.15,
+      740.94,
+      442.15
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w176"
+     ],
+     "text": "7.117.532,67",
+     "cents": 711753267,
+     "status": "value",
+     "glued": false,
+     "box": [
+      756.07,
+      435.15,
+      796.94,
+      442.15
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     44.94,
+     435.15,
+     796.94,
+     442.15
+    ],
+    "frame_band": [
+     435.15,
+     442.15
+    ]
+   }
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0210 Maschinen",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0210",
+    "sub_no": "",
+    "name": "Maschinen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w182"
+     ],
+     "text": "133.132,25",
+     "cents": 13313225,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      501.3,
+      292.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w183"
+     ],
+     "text": "22.761,00",
+     "cents": 2276100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      501.3,
+      348.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w184"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      501.3,
+      404.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w185"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      501.3,
+      460.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w186"
+     ],
+     "text": "232.303,03",
+     "cents": 23230303,
+     "status": "value",
+     "glued": false,
+     "box": [
+      481.91,
+      501.3,
+      516.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w187"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      501.3,
+      572.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w188"
+     ],
+     "text": "41.261,22",
+     "cents": 4126122,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      501.3,
+      628.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w189"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      501.3,
+      684.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w190"
+     ],
+     "text": "231.645,50",
+     "cents": 23164550,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      501.3,
+      740.94,
+      508.3
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w191"
+     ],
+     "text": "346.934,06",
+     "cents": 34693406,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      501.3,
+      796.94,
+      508.3
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     68.28,
+     501.3,
+     796.94,
+     508.3
+    ],
+    "frame_band": [
+     501.3,
+     508.3
+    ]
+   }
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Maschinen",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p1w194"
+     ],
+     "text": "133.132,25",
+     "cents": 13313225,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      520.2,
+      292.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p1w195"
+     ],
+     "text": "22.761,00",
+     "cents": 2276100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      520.2,
+      348.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p1w196"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      520.2,
+      404.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p1w197"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      520.2,
+      460.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p1w198"
+     ],
+     "text": "232.303,03",
+     "cents": 23230303,
+     "status": "value",
+     "glued": false,
+     "box": [
+      481.91,
+      520.2,
+      516.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p1w199"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      520.2,
+      572.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p1w200"
+     ],
+     "text": "41.261,22",
+     "cents": 4126122,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      520.2,
+      628.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p1w201"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      520.2,
+      684.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p1w202"
+     ],
+     "text": "231.645,50",
+     "cents": 23164550,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      520.2,
+      740.94,
+      527.2
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p1w203"
+     ],
+     "text": "346.934,06",
+     "cents": 34693406,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      520.2,
+      796.94,
+      527.2
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 1,
+    "bbox": [
+     54.67,
+     520.2,
+     796.94,
+     527.2
+    ],
+    "frame_band": [
+     520.2,
+     527.2
+    ]
+   }
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 3. Maschinenpark",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w48"
+     ],
+     "text": "133.132,25",
+     "cents": 13313225,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      151.65,
+      292.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w49"
+     ],
+     "text": "22.761,00",
+     "cents": 2276100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      151.65,
+      348.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w50"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      151.65,
+      404.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w51"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      151.65,
+      460.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w52"
+     ],
+     "text": "232.303,03",
+     "cents": 23230303,
+     "status": "value",
+     "glued": false,
+     "box": [
+      481.91,
+      151.65,
+      516.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      151.65,
+      572.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w54"
+     ],
+     "text": "41.261,22",
+     "cents": 4126122,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      151.65,
+      628.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      151.65,
+      684.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w56"
+     ],
+     "text": "231.645,50",
+     "cents": 23164550,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      151.65,
+      740.94,
+      158.65
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w57"
+     ],
+     "text": "346.934,06",
+     "cents": 34693406,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      151.65,
+      796.94,
+      158.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     44.94,
+     151.65,
+     796.94,
+     158.65
+    ],
+    "frame_band": [
+     151.65,
+     158.65
+    ]
+   }
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0240 Technische Anlagen",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0240",
+    "sub_no": "",
+    "name": "Technische Anlagen",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w67"
+     ],
+     "text": "151.972,92",
+     "cents": 15197292,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      217.8,
+      292.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w68"
+     ],
+     "text": "69.524,00",
+     "cents": 6952400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      217.8,
+      348.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w69"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      217.8,
+      404.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w70"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      217.8,
+      460.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w71"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      217.8,
+      516.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w72"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      217.8,
+      572.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w73"
+     ],
+     "text": "27.070,58",
+     "cents": 2707058,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      217.8,
+      628.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w74"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      217.8,
+      684.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w75"
+     ],
+     "text": "187.346,09",
+     "cents": 18734609,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      217.8,
+      740.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w76"
+     ],
+     "text": "194.426,34",
+     "cents": 19442634,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      217.8,
+      796.94,
+      224.8
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.28,
+     217.8,
+     796.94,
+     224.8
+    ],
+    "frame_band": [
+     217.8,
+     224.8
+    ]
+   }
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Technische Anlagen Kto. 0240",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w82"
+     ],
+     "text": "151.972,92",
+     "cents": 15197292,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      236.7,
+      292.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w83"
+     ],
+     "text": "69.524,00",
+     "cents": 6952400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      236.7,
+      348.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w84"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      236.7,
+      404.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w85"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      236.7,
+      460.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w86"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      236.7,
+      516.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w87"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      236.7,
+      572.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w88"
+     ],
+     "text": "27.070,58",
+     "cents": 2707058,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      236.7,
+      628.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w89"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      236.7,
+      684.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w90"
+     ],
+     "text": "187.346,09",
+     "cents": 18734609,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      236.7,
+      740.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w91"
+     ],
+     "text": "194.426,34",
+     "cents": 19442634,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      236.7,
+      796.94,
+      243.7
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     54.67,
+     236.7,
+     796.94,
+     243.7
+    ],
+    "frame_band": [
+     236.7,
+     243.7
+    ]
+   }
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 4. Betriebstechnik",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w95"
+     ],
+     "text": "151.972,92",
+     "cents": 15197292,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      255.6,
+      292.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w96"
+     ],
+     "text": "69.524,00",
+     "cents": 6952400,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      255.6,
+      348.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w97"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      255.6,
+      404.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w98"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      255.6,
+      460.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w99"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      255.6,
+      516.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w100"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      255.6,
+      572.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w101"
+     ],
+     "text": "27.070,58",
+     "cents": 2707058,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      255.6,
+      628.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w102"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      255.6,
+      684.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w103"
+     ],
+     "text": "187.346,09",
+     "cents": 18734609,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      255.6,
+      740.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w104"
+     ],
+     "text": "194.426,34",
+     "cents": 19442634,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      255.6,
+      796.94,
+      262.6
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     44.94,
+     255.6,
+     796.94,
+     262.6
+    ],
+    "frame_band": [
+     255.6,
+     262.6
+    ]
+   }
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0320 Pkw",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0320",
+    "sub_no": "",
+    "name": "Pkw",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w110"
+     ],
+     "text": "24.747,29",
+     "cents": 2474729,
+     "status": "value",
+     "glued": false,
+     "box": [
+      261.8,
+      321.75,
+      292.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w111"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      335.32,
+      321.75,
+      348.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w112"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      321.75,
+      404.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w113"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      321.75,
+      460.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w114"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      321.75,
+      516.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w115"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      321.75,
+      572.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w116"
+     ],
+     "text": "11.911,47",
+     "cents": 1191147,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      321.75,
+      628.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w117"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      321.75,
+      684.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w118"
+     ],
+     "text": "302.472,66",
+     "cents": 30247266,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      321.75,
+      740.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w119"
+     ],
+     "text": "12.835,82",
+     "cents": 1283582,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      321.75,
+      796.94,
+      328.75
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.28,
+     321.75,
+     796.94,
+     328.75
+    ],
+    "frame_band": [
+     321.75,
+     328.75
+    ]
+   }
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0350 Lkw",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0350",
+    "sub_no": "",
+    "name": "Lkw",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w122"
+     ],
+     "text": "168.352,25",
+     "cents": 16835225,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      340.65,
+      292.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w123"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      335.32,
+      340.65,
+      348.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w124"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      340.65,
+      404.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w125"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      340.65,
+      460.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w126"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      340.65,
+      516.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w127"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      340.65,
+      572.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w128"
+     ],
+     "text": "32.261,91",
+     "cents": 3226191,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      340.65,
+      628.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w129"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      340.65,
+      684.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w130"
+     ],
+     "text": "447.602,08",
+     "cents": 44760208,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      340.65,
+      740.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w131"
+     ],
+     "text": "136.090,34",
+     "cents": 13609034,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      340.65,
+      796.94,
+      347.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.28,
+     340.65,
+     796.94,
+     347.65
+    ],
+    "frame_band": [
+     340.65,
+     347.65
+    ]
+   }
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Pkw",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w134"
+     ],
+     "text": "193.099,54",
+     "cents": 19309954,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      359.55,
+      292.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w135"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      335.32,
+      359.55,
+      348.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w136"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      359.55,
+      404.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w137"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      359.55,
+      460.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w138"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      359.55,
+      516.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w139"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      359.55,
+      572.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w140"
+     ],
+     "text": "44.173,38",
+     "cents": 4417338,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      359.55,
+      628.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w141"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      359.55,
+      684.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w142"
+     ],
+     "text": "750.074,74",
+     "cents": 75007474,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      359.55,
+      740.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w143"
+     ],
+     "text": "148.926,16",
+     "cents": 14892616,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      359.55,
+      796.94,
+      366.55
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     54.67,
+     359.55,
+     796.94,
+     366.55
+    ],
+    "frame_band": [
+     359.55,
+     366.55
+    ]
+   }
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 5. Fuhrpark",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w147"
+     ],
+     "text": "193.099,54",
+     "cents": 19309954,
+     "status": "value",
+     "glued": false,
+     "box": [
+      257.91,
+      378.45,
+      292.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w148"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      335.32,
+      378.45,
+      348.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w149"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      378.45,
+      404.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w150"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      378.45,
+      460.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w151"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      378.45,
+      516.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w152"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      378.45,
+      572.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w153"
+     ],
+     "text": "44.173,38",
+     "cents": 4417338,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      378.45,
+      628.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w154"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      378.45,
+      684.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w155"
+     ],
+     "text": "750.074,74",
+     "cents": 75007474,
+     "status": "value",
+     "glued": false,
+     "box": [
+      705.91,
+      378.45,
+      740.94,
+      385.45
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w156"
+     ],
+     "text": "148.926,16",
+     "cents": 14892616,
+     "status": "value",
+     "glued": false,
+     "box": [
+      761.91,
+      378.45,
+      796.94,
+      385.45
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     44.94,
+     378.45,
+     796.94,
+     385.45
+    ],
+    "frame_band": [
+     378.45,
+     385.45
+    ]
+   }
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0400 Betriebsausstattung",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0400",
+    "sub_no": "",
+    "name": "Betriebsausstattung",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w164"
+     ],
+     "text": "3.860,98",
+     "cents": 386098,
+     "status": "value",
+     "glued": false,
+     "box": [
+      265.7,
+      444.6,
+      292.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w165"
+     ],
+     "text": "8.090,30",
+     "cents": 809030,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      444.6,
+      348.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w166"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      444.6,
+      404.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w167"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      444.6,
+      460.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w168"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      444.6,
+      516.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w169"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      444.6,
+      572.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w170"
+     ],
+     "text": "2.846,82",
+     "cents": 284682,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      444.6,
+      628.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w171"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      444.6,
+      684.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w172"
+     ],
+     "text": "53.193,57",
+     "cents": 5319357,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      444.6,
+      740.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w173"
+     ],
+     "text": "9.104,46",
+     "cents": 910446,
+     "status": "value",
+     "glued": false,
+     "box": [
+      769.7,
+      444.6,
+      796.94,
+      451.6
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     68.28,
+     444.6,
+     796.94,
+     451.6
+    ],
+    "frame_band": [
+     444.6,
+     451.6
+    ]
+   }
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Betriebsausstattung",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w176"
+     ],
+     "text": "3.860,98",
+     "cents": 386098,
+     "status": "value",
+     "glued": false,
+     "box": [
+      265.7,
+      463.5,
+      292.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w177"
+     ],
+     "text": "8.090,30",
+     "cents": 809030,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      463.5,
+      348.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w178"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      463.5,
+      404.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w179"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      463.5,
+      460.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w180"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      463.5,
+      516.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w181"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      463.5,
+      572.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w182"
+     ],
+     "text": "2.846,82",
+     "cents": 284682,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      463.5,
+      628.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w183"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      463.5,
+      684.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w184"
+     ],
+     "text": "53.193,57",
+     "cents": 5319357,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      463.5,
+      740.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w185"
+     ],
+     "text": "9.104,46",
+     "cents": 910446,
+     "status": "value",
+     "glued": false,
+     "box": [
+      769.7,
+      463.5,
+      796.94,
+      470.5
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     54.67,
+     463.5,
+     796.94,
+     470.5
+    ],
+    "frame_band": [
+     463.5,
+     470.5
+    ]
+   }
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 6. Werkstatt und Lager",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p2w191"
+     ],
+     "text": "3.860,98",
+     "cents": 386098,
+     "status": "value",
+     "glued": false,
+     "box": [
+      265.7,
+      482.4,
+      292.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p2w192"
+     ],
+     "text": "8.090,30",
+     "cents": 809030,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      482.4,
+      348.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p2w193"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      482.4,
+      404.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p2w194"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      482.4,
+      460.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p2w195"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      482.4,
+      516.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p2w196"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      482.4,
+      572.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p2w197"
+     ],
+     "text": "2.846,82",
+     "cents": 284682,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      482.4,
+      628.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p2w198"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      482.4,
+      684.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p2w199"
+     ],
+     "text": "53.193,57",
+     "cents": 5319357,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      482.4,
+      740.94,
+      489.4
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p2w200"
+     ],
+     "text": "9.104,46",
+     "cents": 910446,
+     "status": "value",
+     "glued": false,
+     "box": [
+      769.7,
+      482.4,
+      796.94,
+      489.4
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 2,
+    "bbox": [
+     44.94,
+     482.4,
+     796.94,
+     489.4
+    ],
+    "frame_band": [
+     482.4,
+     489.4
+    ]
+   }
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0420 Büroeinrichtung",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0420",
+    "sub_no": "",
+    "name": "Büroeinrichtung",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w47"
+     ],
+     "text": "10.146,49",
+     "cents": 1014649,
+     "status": "value",
+     "glued": false,
+     "box": [
+      261.8,
+      161.1,
+      292.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w48"
+     ],
+     "text": "8.146,07",
+     "cents": 814607,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      161.1,
+      348.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w49"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      161.1,
+      404.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w50"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      161.1,
+      460.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w51"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      161.1,
+      516.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      161.1,
+      572.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w53"
+     ],
+     "text": "1.904,53",
+     "cents": 190453,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      161.1,
+      628.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      161.1,
+      684.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w55"
+     ],
+     "text": "10.510,44",
+     "cents": 1051044,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      161.1,
+      740.94,
+      168.1
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w56"
+     ],
+     "text": "16.388,03",
+     "cents": 1638803,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      161.1,
+      796.94,
+      168.1
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     68.28,
+     161.1,
+     796.94,
+     168.1
+    ],
+    "frame_band": [
+     161.1,
+     168.1
+    ]
+   }
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Büroeinrichtung",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w59"
+     ],
+     "text": "10.146,49",
+     "cents": 1014649,
+     "status": "value",
+     "glued": false,
+     "box": [
+      261.8,
+      180.0,
+      292.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w60"
+     ],
+     "text": "8.146,07",
+     "cents": 814607,
+     "status": "value",
+     "glued": false,
+     "box": [
+      321.7,
+      180.0,
+      348.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      180.0,
+      404.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w62"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      180.0,
+      460.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      180.0,
+      516.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w64"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      180.0,
+      572.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w65"
+     ],
+     "text": "1.904,53",
+     "cents": 190453,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      180.0,
+      628.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w66"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      180.0,
+      684.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w67"
+     ],
+     "text": "10.510,44",
+     "cents": 1051044,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      180.0,
+      740.94,
+      187.0
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w68"
+     ],
+     "text": "16.388,03",
+     "cents": 1638803,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      180.0,
+      796.94,
+      187.0
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     54.67,
+     180.0,
+     796.94,
+     187.0
+    ],
+    "frame_band": [
+     180.0,
+     187.0
+    ]
+   }
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0490 EDV-Hardware",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0490",
+    "sub_no": "",
+    "name": "EDV-Hardware",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w72"
+     ],
+     "text": "4.144,91",
+     "cents": 414491,
+     "status": "value",
+     "glued": false,
+     "box": [
+      265.7,
+      217.8,
+      292.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w73"
+     ],
+     "text": "45.185,78",
+     "cents": 4518578,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      217.8,
+      348.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w74"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      217.8,
+      404.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w75"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      217.8,
+      460.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w76"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      217.8,
+      516.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w77"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      217.8,
+      572.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w78"
+     ],
+     "text": "9.495,68",
+     "cents": 949568,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      217.8,
+      628.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w79"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      217.8,
+      684.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w80"
+     ],
+     "text": "51.746,58",
+     "cents": 5174658,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      217.8,
+      740.94,
+      224.8
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w81"
+     ],
+     "text": "39.835,01",
+     "cents": 3983501,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      217.8,
+      796.94,
+      224.8
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     68.28,
+     217.8,
+     796.94,
+     224.8
+    ],
+    "frame_band": [
+     217.8,
+     224.8
+    ]
+   }
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe EDV-Hardware",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w84"
+     ],
+     "text": "4.144,91",
+     "cents": 414491,
+     "status": "value",
+     "glued": false,
+     "box": [
+      265.7,
+      236.7,
+      292.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w85"
+     ],
+     "text": "45.185,78",
+     "cents": 4518578,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      236.7,
+      348.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w86"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      236.7,
+      404.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w87"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      236.7,
+      460.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w88"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      236.7,
+      516.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w89"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      236.7,
+      572.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w90"
+     ],
+     "text": "9.495,68",
+     "cents": 949568,
+     "status": "value",
+     "glued": false,
+     "box": [
+      601.7,
+      236.7,
+      628.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w91"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      236.7,
+      684.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w92"
+     ],
+     "text": "51.746,58",
+     "cents": 5174658,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      236.7,
+      740.94,
+      243.7
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w93"
+     ],
+     "text": "39.835,01",
+     "cents": 3983501,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      236.7,
+      796.94,
+      243.7
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     54.67,
+     236.7,
+     796.94,
+     243.7
+    ],
+    "frame_band": [
+     236.7,
+     243.7
+    ]
+   }
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 7. Büro und Verwaltung",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w99"
+     ],
+     "text": "14.291,40",
+     "cents": 1429140,
+     "status": "value",
+     "glued": false,
+     "box": [
+      261.8,
+      255.6,
+      292.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w100"
+     ],
+     "text": "53.331,85",
+     "cents": 5333185,
+     "status": "value",
+     "glued": false,
+     "box": [
+      317.8,
+      255.6,
+      348.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w101"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      255.6,
+      404.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w102"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      255.6,
+      460.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w103"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      255.6,
+      516.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w104"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      255.6,
+      572.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w105"
+     ],
+     "text": "11.400,21",
+     "cents": 1140021,
+     "status": "value",
+     "glued": false,
+     "box": [
+      597.8,
+      255.6,
+      628.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w106"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      255.6,
+      684.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w107"
+     ],
+     "text": "62.257,02",
+     "cents": 6225702,
+     "status": "value",
+     "glued": false,
+     "box": [
+      709.8,
+      255.6,
+      740.94,
+      262.6
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w108"
+     ],
+     "text": "56.223,04",
+     "cents": 5622304,
+     "status": "value",
+     "glued": false,
+     "box": [
+      765.8,
+      255.6,
+      796.94,
+      262.6
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     44.94,
+     255.6,
+     796.94,
+     262.6
+    ],
+    "frame_band": [
+     255.6,
+     262.6
+    ]
+   }
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0480 Geringwertige Wirtschaftsgüter",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0480",
+    "sub_no": "",
+    "name": "Geringwertige Wirtschaftsgüter",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w116"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      279.32,
+      321.75,
+      292.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w117"
+     ],
+     "text": "393,56",
+     "cents": 39356,
+     "status": "value",
+     "glued": false,
+     "box": [
+      327.53,
+      321.75,
+      348.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w118"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      321.75,
+      404.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w119"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      321.75,
+      460.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w120"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      321.75,
+      516.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w121"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      321.75,
+      572.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w122"
+     ],
+     "text": "393,56",
+     "cents": 39356,
+     "status": "value",
+     "glued": false,
+     "box": [
+      607.53,
+      321.75,
+      628.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w123"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      321.75,
+      684.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w124"
+     ],
+     "text": "3.277,39",
+     "cents": 327739,
+     "status": "value",
+     "glued": false,
+     "box": [
+      713.7,
+      321.75,
+      740.94,
+      328.75
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w125"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      783.32,
+      321.75,
+      796.94,
+      328.75
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     68.28,
+     321.75,
+     796.94,
+     328.75
+    ],
+    "frame_band": [
+     321.75,
+     328.75
+    ]
+   }
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe GWG",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w128"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      279.32,
+      340.65,
+      292.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w129"
+     ],
+     "text": "393,56",
+     "cents": 39356,
+     "status": "value",
+     "glued": false,
+     "box": [
+      327.53,
+      340.65,
+      348.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w130"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      340.65,
+      404.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w131"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      340.65,
+      460.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w132"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      340.65,
+      516.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w133"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      340.65,
+      572.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w134"
+     ],
+     "text": "393,56",
+     "cents": 39356,
+     "status": "value",
+     "glued": false,
+     "box": [
+      607.53,
+      340.65,
+      628.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w135"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      340.65,
+      684.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w136"
+     ],
+     "text": "3.277,39",
+     "cents": 327739,
+     "status": "value",
+     "glued": false,
+     "box": [
+      713.7,
+      340.65,
+      740.94,
+      347.65
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w137"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      783.32,
+      340.65,
+      796.94,
+      347.65
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     54.67,
+     340.65,
+     796.94,
+     347.65
+    ],
+    "frame_band": [
+     340.65,
+     347.65
+    ]
+   }
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w142"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      279.32,
+      359.55,
+      292.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w143"
+     ],
+     "text": "393,56",
+     "cents": 39356,
+     "status": "value",
+     "glued": false,
+     "box": [
+      327.53,
+      359.55,
+      348.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w144"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      359.55,
+      404.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w145"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      359.55,
+      460.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w146"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      503.32,
+      359.55,
+      516.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w147"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      359.55,
+      572.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w148"
+     ],
+     "text": "393,56",
+     "cents": 39356,
+     "status": "value",
+     "glued": false,
+     "box": [
+      607.53,
+      359.55,
+      628.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w149"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      359.55,
+      684.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w150"
+     ],
+     "text": "3.277,39",
+     "cents": 327739,
+     "status": "value",
+     "glued": false,
+     "box": [
+      713.7,
+      359.55,
+      740.94,
+      366.55
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w151"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      783.32,
+      359.55,
+      796.94,
+      366.55
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     44.94,
+     359.55,
+     796.94,
+     366.55
+    ],
+    "frame_band": [
+     359.55,
+     366.55
+    ]
+   }
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "0120 Anlagen im Bau",
+   "year": 2025,
+   "identity": {
+    "asset_no": "0120",
+    "sub_no": "",
+    "name": "Anlagen im Bau",
+    "acq_date": null,
+    "method": null
+   },
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w163"
+     ],
+     "text": "82.508,03",
+     "cents": 8250803,
+     "status": "value",
+     "glued": false,
+     "box": [
+      261.8,
+      425.7,
+      292.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w164"
+     ],
+     "text": "149.795,00",
+     "cents": 14979500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      313.91,
+      425.7,
+      348.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w165"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      425.7,
+      404.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w166"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      425.7,
+      460.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w167"
+     ],
+     "text": "-232.303,03",
+     "cents": -23230303,
+     "status": "value",
+     "glued": false,
+     "box": [
+      479.58,
+      425.7,
+      516.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w168"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      425.7,
+      572.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w169"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      615.32,
+      425.7,
+      628.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w170"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      425.7,
+      684.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w171"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      727.32,
+      425.7,
+      740.94,
+      432.7
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w172"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      783.32,
+      425.7,
+      796.94,
+      432.7
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     68.28,
+     425.7,
+     796.94,
+     432.7
+    ],
+    "frame_band": [
+     425.7,
+     432.7
+    ]
+   }
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagen im Bau",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w177"
+     ],
+     "text": "82.508,03",
+     "cents": 8250803,
+     "status": "value",
+     "glued": false,
+     "box": [
+      261.8,
+      444.6,
+      292.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w178"
+     ],
+     "text": "149.795,00",
+     "cents": 14979500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      313.91,
+      444.6,
+      348.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w179"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      444.6,
+      404.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w180"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      444.6,
+      460.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w181"
+     ],
+     "text": "-232.303,03",
+     "cents": -23230303,
+     "status": "value",
+     "glued": false,
+     "box": [
+      479.58,
+      444.6,
+      516.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w182"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      444.6,
+      572.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w183"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      615.32,
+      444.6,
+      628.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w184"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      444.6,
+      684.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w185"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      727.32,
+      444.6,
+      740.94,
+      451.6
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w186"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      783.32,
+      444.6,
+      796.94,
+      451.6
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     54.67,
+     444.6,
+     796.94,
+     451.6
+    ],
+    "frame_band": [
+     444.6,
+     451.6
+    ]
+   }
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe 9. Anlagen im Bau",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "c1": {
+     "column": "c1",
+     "tokens": [
+      "p3w192"
+     ],
+     "text": "82.508,03",
+     "cents": 8250803,
+     "status": "value",
+     "glued": false,
+     "box": [
+      261.8,
+      463.5,
+      292.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c2": {
+     "column": "c2",
+     "tokens": [
+      "p3w193"
+     ],
+     "text": "149.795,00",
+     "cents": 14979500,
+     "status": "value",
+     "glued": false,
+     "box": [
+      313.91,
+      463.5,
+      348.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c3": {
+     "column": "c3",
+     "tokens": [
+      "p3w194"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      391.32,
+      463.5,
+      404.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c4": {
+     "column": "c4",
+     "tokens": [
+      "p3w195"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      447.32,
+      463.5,
+      460.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c5": {
+     "column": "c5",
+     "tokens": [
+      "p3w196"
+     ],
+     "text": "-232.303,03",
+     "cents": -23230303,
+     "status": "value",
+     "glued": false,
+     "box": [
+      479.58,
+      463.5,
+      516.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c6": {
+     "column": "c6",
+     "tokens": [
+      "p3w197"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      559.32,
+      463.5,
+      572.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c7": {
+     "column": "c7",
+     "tokens": [
+      "p3w198"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      615.32,
+      463.5,
+      628.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c8": {
+     "column": "c8",
+     "tokens": [
+      "p3w199"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      671.32,
+      463.5,
+      684.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c9": {
+     "column": "c9",
+     "tokens": [
+      "p3w200"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      727.32,
+      463.5,
+      740.94,
+      470.5
+     ],
+     "cell": null
+    },
+    "c10": {
+     "column": "c10",
+     "tokens": [
+      "p3w201"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": [
+      783.32,
+      463.5,
+      796.94,
+      470.5
+     ],
+     "cell": null
+    }
+   },
+   "pointer": {
+    "page": 3,
+    "bbox": [
+     44.94,
+     463.5,
+     796.94,
+     470.5
+    ],
+    "frame_band": [
+     463.5,
+     470.5
+    ]
+   }
+  }
+ ]
+}

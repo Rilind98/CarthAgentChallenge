@@ -1,0 +1,81 @@
+{
+ "doc_id": "f06_sap_asset_gitter_04",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "glued_numbers",
+   "evidence": "2 printed string(s) hold two amounts; 0 row(s) where the laws suggest two amounts were read as one",
+   "where": [
+    {
+     "page": 5,
+     "printed": "0,000,00"
+    },
+    {
+     "page": 8,
+     "printed": "8.421,128.530,49"
+    }
+   ]
+  },
+  {
+   "type": "carry_over",
+   "evidence": "2 carry-over line(s) repeat a running sum",
+   "where": [
+    {
+     "row": "r8",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       119.22,
+       21.5,
+       124.82,
+       728.5
+      ],
+      "frame_band": [
+       119.22,
+       124.82
+      ]
+     }
+    },
+    {
+     "row": "r9",
+     "pointer": {
+      "page": 3,
+      "bbox": [
+       68.26,
+       21.5,
+       73.86,
+       728.5
+      ],
+      "frame_band": [
+       68.26,
+       73.86
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "1 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r29",
+     "field": "kum_afa_close",
+     "pointer": {
+      "page": 5,
+      "bbox": [
+       170.18,
+       21.5,
+       175.78,
+       769.5
+      ],
+      "frame_band": [
+       170.18,
+       175.78
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

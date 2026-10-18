@@ -1,0 +1,366 @@
+{
+ "doc_id": "f03_block_spiegel_01",
+ "proposer": "heuristic-v0",
+ "mode": "block",
+ "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [
+    1,
+    2
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 463.0,
+     "span": [
+      419.8,
+      463.0
+     ],
+     "col": null,
+     "header": "Arvekahausen Stand zum 01.01.2025 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c2",
+     "anchor": 544.46,
+     "span": [
+      512.62,
+      548.0
+     ],
+     "col": null,
+     "header": "Zugang Abgang- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 548.0,
+     "span": [
+      510.97,
+      548.0
+     ],
+     "col": null,
+     "header": "",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c4",
+     "anchor": 626.46,
+     "span": [
+      594.62,
+      630.0
+     ],
+     "col": null,
+     "header": "Umbuchung EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 630.0,
+     "span": [
+      597.08,
+      630.0
+     ],
+     "col": null,
+     "header": "",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c6",
+     "anchor": 714.0,
+     "span": [
+      681.08,
+      714.0
+     ],
+     "col": null,
+     "header": "Abschreibung Zuschreibung- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "AFA x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c7",
+     "anchor": 800.0,
+     "span": [
+      756.8,
+      800.0
+     ],
+     "col": null,
+     "header": "Stand zum 31.12.2025 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Arvekahausen",
+    "Bezeichnung Entwicklung Stand zum Zugang Abschreibung Stand zum",
+    "der 01.01.2025 Abgang- Umbuchung Zuschreibung- 31.12.2025",
+    "EUR EUR EUR EUR EUR"
+   ]
+  },
+  {
+   "id": "s2",
+   "pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "sheet": null,
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "c1",
+     "anchor": 327.03,
+     "span": [
+      308.51,
+      327.03
+     ],
+     "col": null,
+     "header": "",
+     "group_header": "",
+     "candidates": []
+    },
+    {
+     "id": "c2",
+     "anchor": 463.0,
+     "span": [
+      425.97,
+      463.0
+     ],
+     "col": null,
+     "header": "Arvekahausen Stand zum 01.01.2025 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_open",
+       0.3,
+       "open without group"
+      ],
+      [
+       "bw_prev",
+       0.3,
+       "open without group"
+      ],
+      [
+       "kum_afa_open",
+       0.3,
+       "open without group"
+      ]
+     ]
+    },
+    {
+     "id": "c3",
+     "anchor": 548.0,
+     "span": [
+      525.37,
+      548.0
+     ],
+     "col": null,
+     "header": "Zugang Abgang- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "c4",
+     "anchor": 630.0,
+     "span": [
+      590.11,
+      630.0
+     ],
+     "col": null,
+     "header": "Umbuchung EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "c5",
+     "anchor": 714.0,
+     "span": [
+      691.37,
+      714.0
+     ],
+     "col": null,
+     "header": "Abschreibung Zuschreibung- EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "AFA x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "c6",
+     "anchor": 800.0,
+     "span": [
+      762.97,
+      800.0
+     ],
+     "col": null,
+     "header": "Stand zum 31.12.2025 EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "ahk_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "bw_close",
+       0.3,
+       "close without group"
+      ],
+      [
+       "kum_afa_close",
+       0.3,
+       "close without group"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {},
+   "header_lines": [
+    "Arvekahausen",
+    "Bezeichnung Datum Entw. Stand zum Zugang Abschreibung Stand zum",
+    "AfA-Art der 01.01.2025 Abgang- Umbuchung Zuschreibung- 31.12.2025",
+    "ND % EUR EUR EUR EUR EUR"
+   ]
+  }
+ ],
+ "rows": [],
+ "notes": [
+  "page 1: 21 of 26 amount lines name their value type (AFA, AHK, BW)",
+  "page 2: 6 of 11 amount lines name their value type (AFA, AHK, BW)",
+  "page 2: repeats the header of section s1",
+  "page 3: 24 of 24 amount lines name their value type (AFA, AHK, BW)",
+  "page 3: blank column(s) found from the header: ['Umbuchung EUR']",
+  "page 4: 9 of 9 amount lines name their value type (AFA, AHK, BW)",
+  "page 4: repeats the header of section s2",
+  "page 5: 12 of 12 amount lines name their value type (AFA, AHK, BW)",
+  "page 5: repeats the header of section s2",
+  "page 6: 21 of 24 amount lines name their value type (AFA, AHK, BW)",
+  "page 6: repeats the header of section s2",
+  "page 7: 9 of 12 amount lines name their value type (AFA, AHK, BW)",
+  "page 7: repeats the header of section s2",
+  "page 8: 24 of 24 amount lines name their value type (AFA, AHK, BW)",
+  "page 8: repeats the header of section s2",
+  "page 9: 6 of 6 amount lines name their value type (AFA, AHK, BW)",
+  "page 9: repeats the header of section s2",
+  "page 10: 18 of 18 amount lines name their value type (AFA, AHK, BW)",
+  "page 10: repeats the header of section s2",
+  "page 11: 15 of 15 amount lines name their value type (AFA, AHK, BW)",
+  "page 11: repeats the header of section s2",
+  "page 12: 6 of 10 amount lines name their value type (AFA, AHK, BW)",
+  "page 12: repeats the header of section s2",
+  "page 13: 12 of 19 amount lines name their value type (AFA, AHK, BW)",
+  "page 13: repeats the header of section s2"
+ ],
+ "page_status": {
+  "1": "schedule",
+  "2": "repeats",
+  "3": "schedule",
+  "4": "repeats",
+  "5": "repeats",
+  "6": "repeats",
+  "7": "repeats",
+  "8": "repeats",
+  "9": "repeats",
+  "10": "repeats",
+  "11": "repeats",
+  "12": "repeats",
+  "13": "repeats"
+ }
+}

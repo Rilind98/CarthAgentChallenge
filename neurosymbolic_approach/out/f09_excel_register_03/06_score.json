@@ -1,0 +1,984 @@
+{
+ "values_in_key": 900,
+ "correct": 0,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 900,
+ "extra": 0,
+ "spurious": 0,
+ "score": 0,
+ "kind_accuracy": null,
+ "asset_id_accuracy": null,
+ "details": [
+  {
+   "key_row": null,
+   "kind": "grand_total",
+   "pointer": {
+    "page": 1,
+    "line": 6,
+    "bbox": [
+     34.3,
+     78.9,
+     807.6,
+     85.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "100001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 7,
+    "bbox": [
+     34.3,
+     87.0,
+     807.6,
+     93.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "100001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 8,
+    "bbox": [
+     34.3,
+     95.1,
+     807.6,
+     101.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "100001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 9,
+    "bbox": [
+     34.3,
+     103.2,
+     807.6,
+     109.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "100001005",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 10,
+    "bbox": [
+     34.3,
+     111.3,
+     807.6,
+     117.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "200001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 11,
+    "bbox": [
+     34.3,
+     119.4,
+     807.6,
+     125.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "200001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 12,
+    "bbox": [
+     34.3,
+     127.5,
+     807.6,
+     133.8
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "200001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 13,
+    "bbox": [
+     34.3,
+     135.6,
+     807.6,
+     141.9
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "210001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 14,
+    "bbox": [
+     34.3,
+     143.7,
+     807.6,
+     150.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "210001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 15,
+    "bbox": [
+     34.3,
+     151.8,
+     807.6,
+     158.1
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "210001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 16,
+    "bbox": [
+     34.3,
+     159.9,
+     807.6,
+     166.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "210001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 17,
+    "bbox": [
+     34.3,
+     168.0,
+     807.6,
+     174.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "210001004",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 18,
+    "bbox": [
+     34.3,
+     176.1,
+     807.6,
+     182.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "210001005",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 19,
+    "bbox": [
+     34.3,
+     184.2,
+     807.6,
+     190.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "300001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 20,
+    "bbox": [
+     34.3,
+     192.3,
+     807.6,
+     198.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "300001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 21,
+    "bbox": [
+     34.3,
+     200.4,
+     807.6,
+     206.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "300001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 22,
+    "bbox": [
+     34.3,
+     208.5,
+     807.6,
+     214.8
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "300001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 23,
+    "bbox": [
+     34.3,
+     216.6,
+     807.6,
+     222.9
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "300001004",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 24,
+    "bbox": [
+     34.3,
+     224.7,
+     807.6,
+     231.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "300001005",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 25,
+    "bbox": [
+     34.3,
+     232.8,
+     807.6,
+     239.1
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "300001006",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 26,
+    "bbox": [
+     34.3,
+     240.9,
+     807.6,
+     247.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "310001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 27,
+    "bbox": [
+     34.3,
+     249.0,
+     807.6,
+     255.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "310001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 28,
+    "bbox": [
+     34.3,
+     257.1,
+     807.6,
+     263.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "310001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 29,
+    "bbox": [
+     34.3,
+     265.2,
+     807.6,
+     271.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "310001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 30,
+    "bbox": [
+     34.3,
+     273.3,
+     807.6,
+     279.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "400001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 31,
+    "bbox": [
+     34.3,
+     281.4,
+     807.6,
+     287.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "400001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 32,
+    "bbox": [
+     34.3,
+     289.5,
+     807.6,
+     295.8
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "400001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 33,
+    "bbox": [
+     34.3,
+     297.6,
+     807.6,
+     303.9
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "400001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 34,
+    "bbox": [
+     34.3,
+     305.7,
+     807.6,
+     312.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "400001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 35,
+    "bbox": [
+     34.3,
+     313.8,
+     807.6,
+     320.1
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "400001004",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 36,
+    "bbox": [
+     34.3,
+     321.9,
+     807.6,
+     328.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "400001005",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 37,
+    "bbox": [
+     34.3,
+     330.0,
+     807.6,
+     336.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "410001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 38,
+    "bbox": [
+     34.3,
+     338.1,
+     807.6,
+     344.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "410001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 39,
+    "bbox": [
+     34.3,
+     346.2,
+     807.6,
+     352.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "410001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 40,
+    "bbox": [
+     34.3,
+     354.3,
+     807.6,
+     360.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "420001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 41,
+    "bbox": [
+     34.3,
+     362.4,
+     807.6,
+     368.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "420001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 42,
+    "bbox": [
+     34.3,
+     370.5,
+     807.6,
+     376.8
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "420001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 43,
+    "bbox": [
+     34.3,
+     378.6,
+     807.6,
+     384.9
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "420001004",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 44,
+    "bbox": [
+     34.3,
+     386.7,
+     807.6,
+     393.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "420001005",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 45,
+    "bbox": [
+     34.3,
+     394.8,
+     807.6,
+     401.1
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "430001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 46,
+    "bbox": [
+     34.3,
+     402.9,
+     807.6,
+     409.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "430001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 47,
+    "bbox": [
+     34.3,
+     411.0,
+     807.6,
+     417.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "430001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 48,
+    "bbox": [
+     34.3,
+     419.1,
+     807.6,
+     425.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "430001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 49,
+    "bbox": [
+     34.3,
+     427.2,
+     807.6,
+     433.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "430001004",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 50,
+    "bbox": [
+     34.3,
+     435.3,
+     807.6,
+     441.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "430001005",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 51,
+    "bbox": [
+     34.3,
+     443.4,
+     807.6,
+     449.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "440001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 52,
+    "bbox": [
+     34.3,
+     451.5,
+     807.6,
+     457.8
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "440001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 53,
+    "bbox": [
+     34.3,
+     459.6,
+     807.6,
+     465.9
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "440001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 54,
+    "bbox": [
+     34.3,
+     467.7,
+     807.6,
+     474.0
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "440001004",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 55,
+    "bbox": [
+     34.3,
+     475.8,
+     807.6,
+     482.1
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "440001005",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 56,
+    "bbox": [
+     34.3,
+     483.9,
+     807.6,
+     490.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "490001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 57,
+    "bbox": [
+     34.3,
+     492.0,
+     807.6,
+     498.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "490001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 58,
+    "bbox": [
+     34.3,
+     500.1,
+     807.6,
+     506.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "490001003",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 59,
+    "bbox": [
+     34.3,
+     508.2,
+     807.6,
+     514.5
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "490001004",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 60,
+    "bbox": [
+     34.3,
+     516.3,
+     807.6,
+     522.6
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "500001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 61,
+    "bbox": [
+     34.3,
+     524.4,
+     807.6,
+     530.7
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "600001001",
+   "kind": "asset",
+   "pointer": {
+    "page": 1,
+    "line": 62,
+    "bbox": [
+     34.3,
+     532.5,
+     807.6,
+     538.8
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "600001002",
+   "kind": "asset",
+   "pointer": {
+    "page": 2,
+    "line": 6,
+    "bbox": [
+     34.3,
+     78.9,
+     807.6,
+     85.2
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "grand_total",
+   "pointer": {
+    "page": 2,
+    "line": 7,
+    "bbox": [
+     34.3,
+     87.0,
+     807.6,
+     93.3
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "grand_total",
+   "pointer": {
+    "page": 2,
+    "line": 8,
+    "bbox": [
+     34.3,
+     95.1,
+     807.6,
+     101.4
+    ]
+   },
+   "outcome": "row not found",
+   "values": 12
+  }
+ ],
+ "detection": {
+  "planted": [],
+  "detected": [],
+  "hit": [],
+  "missed": [],
+  "false_alarm": [],
+  "readable": false,
+  "variant_key": "perfect",
+  "variant_guess": "unknown"
+ }
+}

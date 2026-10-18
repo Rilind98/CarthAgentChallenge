@@ -1,0 +1,64 @@
+{
+ "doc_id": "f09_excel_register_07",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "unrelated_table",
+   "evidence": "13 rows with several amounts below the grand total",
+   "where": [
+    {
+     "row": "r51",
+     "label": "1000 EDV-Software"
+    },
+    {
+     "row": "r52",
+     "label": "2000 Grund und Boden"
+    },
+    {
+     "row": "r53",
+     "label": "2100 Fabrikbauten"
+    },
+    {
+     "row": "r54",
+     "label": "3000 Maschinen"
+    },
+    {
+     "row": "r55",
+     "label": "3100 Technische Anlagen"
+    },
+    {
+     "row": "r56",
+     "label": "4000 Betriebsausstattung"
+    },
+    {
+     "row": "r57",
+     "label": "4100 Büroeinrichtung"
+    },
+    {
+     "row": "r58",
+     "label": "4200 Pkw"
+    },
+    {
+     "row": "r59",
+     "label": "4300 Lkw"
+    },
+    {
+     "row": "r60",
+     "label": "4400 EDV-Hardware"
+    },
+    {
+     "row": "r61",
+     "label": "4900 Geringwertige Wirtschaftsgüter"
+    },
+    {
+     "row": "r62",
+     "label": "5000 Anlagen im Bau"
+    },
+    {
+     "row": "r63",
+     "label": "6000 Beteiligungen"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "meta": {
+  "doc_id": "f05_sap_class_gitter_05",
+  "source": "../A3-Hackathon-Corpus/f05_sap_class_gitter/f05_sap_class_gitter_05.pdf",
+  "format": "pdf",
+  "proposer": "heuristic-v0",
+  "mode": "block",
+  "abstain": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": "2025-12-31",
+    "unit": "EUR",
+    "pages": [
+     2,
+     3,
+     4,
+     5
+    ],
+    "sheet": null
+   }
+  ],
+  "variant_guess": "unknown"
+ },
+ "rows": [],
+ "detections": [
+  {
+   "type": "column_cut_off",
+   "evidence": "102 number(s) run past the page edge and lose characters",
+   "where": [
+    {
+     "page": 2,
+     "printed": "71.777"
+    },
+    {
+     "page": 2,
+     "printed": "63.877"
+    },
+    {
+     "page": 2,
+     "printed": "7.899"
+    },
+    {
+     "page": 2,
+     "printed": "71.777"
+    },
+    {
+     "page": 2,
+     "printed": "63.877"
+    },
+    {
+     "page": 2,
+     "printed": "7.899"
+    },
+    {
+     "page": 2,
+     "printed": "71.777"
+    },
+    {
+     "page": 2,
+     "printed": "63.877"
+    },
+    {
+     "page": 2,
+     "printed": "7.899"
+    },
+    {
+     "page": 2,
+     "printed": "55.540"
+    },
+    {
+     "page": 2,
+     "printed": "0"
+    },
+    {
+     "page": 2,
+     "printed": "55.540"
+    },
+    {
+     "page": 2,
+     "printed": "55.540"
+    },
+    {
+     "page": 2,
+     "printed": "0"
+    },
+    {
+     "page": 2,
+     "printed": "55.540"
+    },
+    {
+     "page": 2,
+     "printed": "7.518.254"
+    },
+    {
+     "page": 2,
+     "printed": "3.134.114"
+    },
+    {
+     "page": 2,
+     "printed": "4.384.140"
+    },
+    {
+     "page": 2,
+     "printed": "7.518.254"
+    },
+    {
+     "page": 2,
+     "printed": "3.134.114"
+    }
+   ]
+  },
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several printed lines): block reader not built yet",
+   "where": []
+  }
+ ]
+}

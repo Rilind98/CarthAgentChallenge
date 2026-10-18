@@ -1,0 +1,11 @@
+{
+ "doc_id": "f05_sap_class_gitter_02",
+ "variant_guess": "unknown",
+ "findings": [
+  {
+   "type": "not_read",
+   "evidence": "multi-line records (one asset/class = several rows): block reader not built yet",
+   "where": []
+  }
+ ]
+}

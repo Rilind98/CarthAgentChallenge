@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/run.py", line 93, in main
+    r = run_one(p, a.output)
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/run.py", line 62, in run_one
+    report, decisions = verify(tk, lay, ex)
+                        ~~~~~~^^^^^^^^^^^^^
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/pipeline/verify.py", line 109, in verify
+    mapping, alternatives = select_mapping(sec, rows)
+                            ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/youssefnawar/Desktop/ElabHackathon/agent/pipeline/verify.py", line 74, in select_mapping
+    return results[0]["mapping"], results[:4]
+           ~~~~~~~^^^
+IndexError: list index out of range

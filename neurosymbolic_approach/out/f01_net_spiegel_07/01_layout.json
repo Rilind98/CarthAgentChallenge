@@ -1,0 +1,682 @@
+{
+ "doc_id": "f01_net_spiegel_07",
+ "proposer": "heuristic-v0",
+ "mode": "line",
+ "abstain": null,
+ "sections": [
+  {
+   "id": "s1",
+   "pages": [],
+   "sheet": "Netto-Anlagespiegel",
+   "period_end": "2025-12-31",
+   "period_start": "2025-01-01",
+   "unit": "EUR",
+   "columns": [
+    {
+     "id": "Netto-Anlagespiegel:2",
+     "anchor": null,
+     "span": null,
+     "col": 2,
+     "header": "Buchwert Vorjahr EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_prev",
+       1.0,
+       "BW x open"
+      ]
+     ]
+    },
+    {
+     "id": "Netto-Anlagespiegel:3",
+     "anchor": null,
+     "span": null,
+     "col": 3,
+     "header": "Zugänge, Geschäftsjahr (+)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zugang",
+       1.0,
+       "- x add"
+      ]
+     ]
+    },
+    {
+     "id": "Netto-Anlagespiegel:5",
+     "anchor": null,
+     "span": null,
+     "col": 5,
+     "header": "Abgänge / Minderungen Geschäftsjahr (-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "abgang",
+       1.0,
+       "- x disposal"
+      ],
+      [
+       "abgang_bw",
+       0.5,
+       "disposal without group: at cost or at book value"
+      ]
+     ]
+    },
+    {
+     "id": "Netto-Anlagespiegel:6",
+     "anchor": null,
+     "span": null,
+     "col": 6,
+     "header": "Umbuchungen Geschäftsjahr (+/-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "umbuchung",
+       1.0,
+       "- x transfer"
+      ]
+     ]
+    },
+    {
+     "id": "Netto-Anlagespiegel:7",
+     "anchor": null,
+     "span": null,
+     "col": 7,
+     "header": "Zuschreibungen Geschäftsjahr (+)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "zuschreibung",
+       1.0,
+       "- x writeup"
+      ]
+     ]
+    },
+    {
+     "id": "Netto-Anlagespiegel:8",
+     "anchor": null,
+     "span": null,
+     "col": 8,
+     "header": "Normal-AfA Geschäftsjahr EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "afa_gj",
+       1.0,
+       "AFA x year"
+      ]
+     ]
+    },
+    {
+     "id": "Netto-Anlagespiegel:10",
+     "anchor": null,
+     "span": null,
+     "col": 10,
+     "header": "Abschreibungen (kumuliert) (-)EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "kum_afa_close",
+       1.0,
+       "AFA x close"
+      ]
+     ]
+    },
+    {
+     "id": "Netto-Anlagespiegel:11",
+     "anchor": null,
+     "span": null,
+     "col": 11,
+     "header": "Buchwert 31.12. EUR",
+     "group_header": "",
+     "candidates": [
+      [
+       "bw_close",
+       1.0,
+       "BW x close"
+      ]
+     ]
+    }
+   ],
+   "id_columns": {
+    "position": 1,
+    "acq_date": 4
+   },
+   "header_lines": [
+    "Bilanzposition | Buchwert Vorjahr | Zugänge, Geschäftsjahr | davon aktivierte Zinsen Fremdkapital | Abgänge / Minderungen Geschäftsjahr | Umbuchungen Geschäftsjahr | Zuschreibungen Geschäftsjahr | Normal-AfA Geschäftsjahr | Sonder-AfA Geschäftsjahr | Abschreibungen (kumuliert) | Buchwert 31.12.",
+    "EUR | (+)EUR | (+)EUR | (-)EUR | (+/-)EUR | (+)EUR | EUR | EUR | (-)EUR | EUR",
+    "0. Immaterielle Vermögensgegenstände",
+    "EDV-Software"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 8,
+   "kind_guess": "asset",
+   "label": "0027    EDV-Software",
+   "context": [
+    "Netto-Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Gorenholt Druckerei GmbH & Co. KG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 9,
+   "kind_guess": "total",
+   "label": "Summe EDV-Software",
+   "context": [
+    "Netto-Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Gorenholt Druckerei GmbH & Co. KG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 10,
+   "kind_guess": "total",
+   "label": "Summe 0. Immaterielle Vermögensgegenstände",
+   "context": [
+    "Netto-Anlagespiegel 31.12.2025 steuerrechtlich",
+    "Gorenholt Druckerei GmbH & Co. KG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 13,
+   "kind_guess": "asset",
+   "label": "0085    Grund und Boden",
+   "context": [
+    "Gorenholt Druckerei GmbH & Co. KG",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 14,
+   "kind_guess": "total",
+   "label": "Summe Grund und Boden",
+   "context": [
+    "Gorenholt Druckerei GmbH & Co. KG",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 15,
+   "kind_guess": "total",
+   "label": "Summe 1. Grund und Boden",
+   "context": [
+    "Gorenholt Druckerei GmbH & Co. KG",
+    "1. Grund und Boden",
+    "Grund und Boden"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 18,
+   "kind_guess": "asset",
+   "label": "0100    Fabrikbauten",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 19,
+   "kind_guess": "total",
+   "label": "Summe Fabrikbauten",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 20,
+   "kind_guess": "total",
+   "label": "Summe 2. Betriebsgebäude",
+   "context": [
+    "Grund und Boden",
+    "2. Betriebsgebäude",
+    "Fabrikbauten"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 23,
+   "kind_guess": "asset",
+   "label": "0210    Maschinen",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 24,
+   "kind_guess": "total",
+   "label": "Summe Maschinen",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 25,
+   "kind_guess": "total",
+   "label": "Summe 3. Maschinenpark",
+   "context": [
+    "Fabrikbauten",
+    "3. Maschinenpark",
+    "Maschinen"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 28,
+   "kind_guess": "asset",
+   "label": "0240    Technische Anlagen",
+   "context": [
+    "Maschinen",
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 29,
+   "kind_guess": "total",
+   "label": "Summe Technische Anlagen Kto. 0240",
+   "context": [
+    "Maschinen",
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 30,
+   "kind_guess": "total",
+   "label": "Summe 4. Betriebstechnik",
+   "context": [
+    "Maschinen",
+    "4. Betriebstechnik",
+    "Technische Anlagen Kto. 0240"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 33,
+   "kind_guess": "asset",
+   "label": "0320    Pkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 34,
+   "kind_guess": "asset",
+   "label": "0350    Lkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 35,
+   "kind_guess": "total",
+   "label": "Summe Pkw",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 36,
+   "kind_guess": "total",
+   "label": "Summe 5. Fuhrpark",
+   "context": [
+    "Technische Anlagen Kto. 0240",
+    "5. Fuhrpark",
+    "Pkw"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 39,
+   "kind_guess": "asset",
+   "label": "0400    Betriebsausstattung",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 40,
+   "kind_guess": "total",
+   "label": "Summe Betriebsausstattung",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 41,
+   "kind_guess": "total",
+   "label": "Summe 6. Werkstatt und Lager",
+   "context": [
+    "Pkw",
+    "6. Werkstatt und Lager",
+    "Betriebsausstattung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 44,
+   "kind_guess": "asset",
+   "label": "0420    Büroeinrichtung",
+   "context": [
+    "Betriebsausstattung",
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 45,
+   "kind_guess": "total",
+   "label": "Summe Büroeinrichtung",
+   "context": [
+    "Betriebsausstattung",
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 47,
+   "kind_guess": "asset",
+   "label": "0490    EDV-Hardware",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 48,
+   "kind_guess": "total",
+   "label": "Summe EDV-Hardware",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 49,
+   "kind_guess": "total",
+   "label": "Summe 7. Büro und Verwaltung",
+   "context": [
+    "7. Büro und Verwaltung",
+    "Büroeinrichtung",
+    "EDV-Hardware"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 52,
+   "kind_guess": "asset",
+   "label": "0480    Geringwertige Wirtschaftsgüter",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 53,
+   "kind_guess": "total",
+   "label": "Summe GWG",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 54,
+   "kind_guess": "total",
+   "label": "Summe 8. Geringwertige Wirtschaftsgüter",
+   "context": [
+    "EDV-Hardware",
+    "8. Geringwertige Wirtschaftsgüter",
+    "GWG"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 57,
+   "kind_guess": "asset",
+   "label": "0120    Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 58,
+   "kind_guess": "total",
+   "label": "Summe Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "page": null,
+   "band": null,
+   "sheet": "Netto-Anlagespiegel",
+   "row": 59,
+   "kind_guess": "total",
+   "label": "Summe 9. Anlagen im Bau",
+   "context": [
+    "GWG",
+    "9. Anlagen im Bau",
+    "Anlagen im Bau"
+   ],
+   "wrapped": false
+  }
+ ],
+ "notes": [],
+ "page_status": {}
+}

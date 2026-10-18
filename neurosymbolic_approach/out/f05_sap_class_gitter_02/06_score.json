@@ -1,0 +1,816 @@
+{
+ "values_in_key": 396,
+ "correct": 0,
+ "wrong": 0,
+ "blank": 0,
+ "missed": 396,
+ "extra": 0,
+ "spurious": 0,
+ "score": 0,
+ "kind_accuracy": null,
+ "asset_id_accuracy": null,
+ "details": [
+  {
+   "key_row": "1000",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A19",
+    "cells": {
+     "ahk_open": "B20",
+     "zugang": "C20",
+     "abgang": "D20",
+     "umbuchung": "E20",
+     "ahk_close": "H20",
+     "kum_afa_open": "B21",
+     "afa_gj": "C21",
+     "afa_abgang": "D21",
+     "zuschreibung": "G21",
+     "kum_afa_close": "H21",
+     "bw_prev": "B22",
+     "bw_close": "H22"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A24",
+    "cells": {
+     "ahk_open": "B25",
+     "zugang": "C25",
+     "abgang": "D25",
+     "umbuchung": "E25",
+     "ahk_close": "H25",
+     "kum_afa_open": "B26",
+     "afa_gj": "C26",
+     "afa_abgang": "D26",
+     "zuschreibung": "G26",
+     "kum_afa_close": "H26",
+     "bw_prev": "B27",
+     "bw_close": "H27"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.I.2",
+   "kind": "position_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A29",
+    "cells": {
+     "ahk_open": "B30",
+     "zugang": "C30",
+     "abgang": "D30",
+     "umbuchung": "E30",
+     "ahk_close": "H30",
+     "kum_afa_open": "B31",
+     "afa_gj": "C31",
+     "afa_abgang": "D31",
+     "zuschreibung": "G31",
+     "kum_afa_close": "H31",
+     "bw_prev": "B32",
+     "bw_close": "H32"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "2000",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A34",
+    "cells": {
+     "ahk_open": "B35",
+     "zugang": "C35",
+     "abgang": "D35",
+     "umbuchung": "E35",
+     "ahk_close": "H35",
+     "kum_afa_open": "B36",
+     "afa_gj": "C36",
+     "afa_abgang": "D36",
+     "zuschreibung": "G36",
+     "kum_afa_close": "H36",
+     "bw_prev": "B37",
+     "bw_close": "H37"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A39",
+    "cells": {
+     "ahk_open": "B40",
+     "zugang": "C40",
+     "abgang": "D40",
+     "umbuchung": "E40",
+     "ahk_close": "H40",
+     "kum_afa_open": "B41",
+     "afa_gj": "C41",
+     "afa_abgang": "D41",
+     "zuschreibung": "G41",
+     "kum_afa_close": "H41",
+     "bw_prev": "B42",
+     "bw_close": "H42"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "2100",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A44",
+    "cells": {
+     "ahk_open": "B45",
+     "zugang": "C45",
+     "abgang": "D45",
+     "umbuchung": "E45",
+     "ahk_close": "H45",
+     "kum_afa_open": "B46",
+     "afa_gj": "C46",
+     "afa_abgang": "D46",
+     "zuschreibung": "G46",
+     "kum_afa_close": "H46",
+     "bw_prev": "B47",
+     "bw_close": "H47"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A49",
+    "cells": {
+     "ahk_open": "B50",
+     "zugang": "C50",
+     "abgang": "D50",
+     "umbuchung": "E50",
+     "ahk_close": "H50",
+     "kum_afa_open": "B51",
+     "afa_gj": "C51",
+     "afa_abgang": "D51",
+     "zuschreibung": "G51",
+     "kum_afa_close": "H51",
+     "bw_prev": "B52",
+     "bw_close": "H52"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.II.1",
+   "kind": "position_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A54",
+    "cells": {
+     "ahk_open": "B55",
+     "zugang": "C55",
+     "abgang": "D55",
+     "umbuchung": "E55",
+     "ahk_close": "H55",
+     "kum_afa_open": "B56",
+     "afa_gj": "C56",
+     "afa_abgang": "D56",
+     "zuschreibung": "G56",
+     "kum_afa_close": "H56",
+     "bw_prev": "B57",
+     "bw_close": "H57"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "3000",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A59",
+    "cells": {
+     "ahk_open": "B60",
+     "zugang": "C60",
+     "abgang": "D60",
+     "umbuchung": "E60",
+     "ahk_close": "H60",
+     "kum_afa_open": "B61",
+     "afa_gj": "C61",
+     "afa_abgang": "D61",
+     "zuschreibung": "G61",
+     "kum_afa_close": "H61",
+     "bw_prev": "B62",
+     "bw_close": "H62"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A64",
+    "cells": {
+     "ahk_open": "B65",
+     "zugang": "C65",
+     "abgang": "D65",
+     "umbuchung": "E65",
+     "ahk_close": "H65",
+     "kum_afa_open": "B66",
+     "afa_gj": "C66",
+     "afa_abgang": "D66",
+     "zuschreibung": "G66",
+     "kum_afa_close": "H66",
+     "bw_prev": "B67",
+     "bw_close": "H67"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "3100",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A69",
+    "cells": {
+     "ahk_open": "B70",
+     "zugang": "C70",
+     "abgang": "D70",
+     "umbuchung": "E70",
+     "ahk_close": "H70",
+     "kum_afa_open": "B71",
+     "afa_gj": "C71",
+     "afa_abgang": "D71",
+     "zuschreibung": "G71",
+     "kum_afa_close": "H71",
+     "bw_prev": "B72",
+     "bw_close": "H72"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A74",
+    "cells": {
+     "ahk_open": "B75",
+     "zugang": "C75",
+     "abgang": "D75",
+     "umbuchung": "E75",
+     "ahk_close": "H75",
+     "kum_afa_open": "B76",
+     "afa_gj": "C76",
+     "afa_abgang": "D76",
+     "zuschreibung": "G76",
+     "kum_afa_close": "H76",
+     "bw_prev": "B77",
+     "bw_close": "H77"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.II.2",
+   "kind": "position_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A79",
+    "cells": {
+     "ahk_open": "B80",
+     "zugang": "C80",
+     "abgang": "D80",
+     "umbuchung": "E80",
+     "ahk_close": "H80",
+     "kum_afa_open": "B81",
+     "afa_gj": "C81",
+     "afa_abgang": "D81",
+     "zuschreibung": "G81",
+     "kum_afa_close": "H81",
+     "bw_prev": "B82",
+     "bw_close": "H82"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4200",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A84",
+    "cells": {
+     "ahk_open": "B85",
+     "zugang": "C85",
+     "abgang": "D85",
+     "umbuchung": "E85",
+     "ahk_close": "H85",
+     "kum_afa_open": "B86",
+     "afa_gj": "C86",
+     "afa_abgang": "D86",
+     "zuschreibung": "G86",
+     "kum_afa_close": "H86",
+     "bw_prev": "B87",
+     "bw_close": "H87"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A89",
+    "cells": {
+     "ahk_open": "B90",
+     "zugang": "C90",
+     "abgang": "D90",
+     "umbuchung": "E90",
+     "ahk_close": "H90",
+     "kum_afa_open": "B91",
+     "afa_gj": "C91",
+     "afa_abgang": "D91",
+     "zuschreibung": "G91",
+     "kum_afa_close": "H91",
+     "bw_prev": "B92",
+     "bw_close": "H92"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4300",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A94",
+    "cells": {
+     "ahk_open": "B95",
+     "zugang": "C95",
+     "abgang": "D95",
+     "umbuchung": "E95",
+     "ahk_close": "H95",
+     "kum_afa_open": "B96",
+     "afa_gj": "C96",
+     "afa_abgang": "D96",
+     "zuschreibung": "G96",
+     "kum_afa_close": "H96",
+     "bw_prev": "B97",
+     "bw_close": "H97"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A99",
+    "cells": {
+     "ahk_open": "B100",
+     "zugang": "C100",
+     "abgang": "D100",
+     "umbuchung": "E100",
+     "ahk_close": "H100",
+     "kum_afa_open": "B101",
+     "afa_gj": "C101",
+     "afa_abgang": "D101",
+     "zuschreibung": "G101",
+     "kum_afa_close": "H101",
+     "bw_prev": "B102",
+     "bw_close": "H102"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4000",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A104",
+    "cells": {
+     "ahk_open": "B105",
+     "zugang": "C105",
+     "abgang": "D105",
+     "umbuchung": "E105",
+     "ahk_close": "H105",
+     "kum_afa_open": "B106",
+     "afa_gj": "C106",
+     "afa_abgang": "D106",
+     "zuschreibung": "G106",
+     "kum_afa_close": "H106",
+     "bw_prev": "B107",
+     "bw_close": "H107"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A109",
+    "cells": {
+     "ahk_open": "B110",
+     "zugang": "C110",
+     "abgang": "D110",
+     "umbuchung": "E110",
+     "ahk_close": "H110",
+     "kum_afa_open": "B111",
+     "afa_gj": "C111",
+     "afa_abgang": "D111",
+     "zuschreibung": "G111",
+     "kum_afa_close": "H111",
+     "bw_prev": "B112",
+     "bw_close": "H112"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4100",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A114",
+    "cells": {
+     "ahk_open": "B115",
+     "zugang": "C115",
+     "abgang": "D115",
+     "umbuchung": "E115",
+     "ahk_close": "H115",
+     "kum_afa_open": "B116",
+     "afa_gj": "C116",
+     "afa_abgang": "D116",
+     "zuschreibung": "G116",
+     "kum_afa_close": "H116",
+     "bw_prev": "B117",
+     "bw_close": "H117"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A119",
+    "cells": {
+     "ahk_open": "B120",
+     "zugang": "C120",
+     "abgang": "D120",
+     "umbuchung": "E120",
+     "ahk_close": "H120",
+     "kum_afa_open": "B121",
+     "afa_gj": "C121",
+     "afa_abgang": "D121",
+     "zuschreibung": "G121",
+     "kum_afa_close": "H121",
+     "bw_prev": "B122",
+     "bw_close": "H122"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4900",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A124",
+    "cells": {
+     "ahk_open": "B125",
+     "zugang": "C125",
+     "abgang": "D125",
+     "umbuchung": "E125",
+     "ahk_close": "H125",
+     "kum_afa_open": "B126",
+     "afa_gj": "C126",
+     "afa_abgang": "D126",
+     "zuschreibung": "G126",
+     "kum_afa_close": "H126",
+     "bw_prev": "B127",
+     "bw_close": "H127"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A129",
+    "cells": {
+     "ahk_open": "B130",
+     "zugang": "C130",
+     "abgang": "D130",
+     "umbuchung": "E130",
+     "ahk_close": "H130",
+     "kum_afa_open": "B131",
+     "afa_gj": "C131",
+     "afa_abgang": "D131",
+     "zuschreibung": "G131",
+     "kum_afa_close": "H131",
+     "bw_prev": "B132",
+     "bw_close": "H132"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "4400",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A134",
+    "cells": {
+     "ahk_open": "B135",
+     "zugang": "C135",
+     "abgang": "D135",
+     "umbuchung": "E135",
+     "ahk_close": "H135",
+     "kum_afa_open": "B136",
+     "afa_gj": "C136",
+     "afa_abgang": "D136",
+     "zuschreibung": "G136",
+     "kum_afa_close": "H136",
+     "bw_prev": "B137",
+     "bw_close": "H137"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A139",
+    "cells": {
+     "ahk_open": "B140",
+     "zugang": "C140",
+     "abgang": "D140",
+     "umbuchung": "E140",
+     "ahk_close": "H140",
+     "kum_afa_open": "B141",
+     "afa_gj": "C141",
+     "afa_abgang": "D141",
+     "zuschreibung": "G141",
+     "kum_afa_close": "H141",
+     "bw_prev": "B142",
+     "bw_close": "H142"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.II.3",
+   "kind": "position_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A144",
+    "cells": {
+     "ahk_open": "B145",
+     "zugang": "C145",
+     "abgang": "D145",
+     "umbuchung": "E145",
+     "ahk_close": "H145",
+     "kum_afa_open": "B146",
+     "afa_gj": "C146",
+     "afa_abgang": "D146",
+     "zuschreibung": "G146",
+     "kum_afa_close": "H146",
+     "bw_prev": "B147",
+     "bw_close": "H147"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "5000",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A149",
+    "cells": {
+     "ahk_open": "B150",
+     "zugang": "C150",
+     "abgang": "D150",
+     "umbuchung": "E150",
+     "ahk_close": "H150",
+     "kum_afa_open": "B151",
+     "afa_gj": "C151",
+     "afa_abgang": "D151",
+     "zuschreibung": "G151",
+     "kum_afa_close": "H151",
+     "bw_prev": "B152",
+     "bw_close": "H152"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A154",
+    "cells": {
+     "ahk_open": "B155",
+     "zugang": "C155",
+     "abgang": "D155",
+     "umbuchung": "E155",
+     "ahk_close": "H155",
+     "kum_afa_open": "B156",
+     "afa_gj": "C156",
+     "afa_abgang": "D156",
+     "zuschreibung": "G156",
+     "kum_afa_close": "H156",
+     "bw_prev": "B157",
+     "bw_close": "H157"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "5100",
+   "kind": "asset",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A159",
+    "cells": {
+     "ahk_open": "B160",
+     "zugang": "C160",
+     "abgang": "D160",
+     "umbuchung": "E160",
+     "ahk_close": "H160",
+     "kum_afa_open": "B161",
+     "afa_gj": "C161",
+     "afa_abgang": "D161",
+     "zuschreibung": "G161",
+     "kum_afa_close": "H161",
+     "bw_prev": "B162",
+     "bw_close": "H162"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "account_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A164",
+    "cells": {
+     "ahk_open": "B165",
+     "zugang": "C165",
+     "abgang": "D165",
+     "umbuchung": "E165",
+     "ahk_close": "H165",
+     "kum_afa_open": "B166",
+     "afa_gj": "C166",
+     "afa_abgang": "D166",
+     "zuschreibung": "G166",
+     "kum_afa_close": "H166",
+     "bw_prev": "B167",
+     "bw_close": "H167"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": "A.II.4",
+   "kind": "position_subtotal",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A169",
+    "cells": {
+     "ahk_open": "B170",
+     "zugang": "C170",
+     "abgang": "D170",
+     "umbuchung": "E170",
+     "ahk_close": "H170",
+     "kum_afa_open": "B171",
+     "afa_gj": "C171",
+     "afa_abgang": "D171",
+     "zuschreibung": "G171",
+     "kum_afa_close": "H171",
+     "bw_prev": "B172",
+     "bw_close": "H172"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "grand_total",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A174",
+    "cells": {
+     "ahk_open": "B175",
+     "zugang": "C175",
+     "abgang": "D175",
+     "umbuchung": "E175",
+     "ahk_close": "H175",
+     "kum_afa_open": "B176",
+     "afa_gj": "C176",
+     "afa_abgang": "D176",
+     "zuschreibung": "G176",
+     "kum_afa_close": "H176",
+     "bw_prev": "B177",
+     "bw_close": "H177"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  },
+  {
+   "key_row": null,
+   "kind": "grand_total",
+   "pointer": {
+    "sheet": "Anlagengitter",
+    "cell": "A179",
+    "cells": {
+     "ahk_open": "B180",
+     "zugang": "C180",
+     "abgang": "D180",
+     "umbuchung": "E180",
+     "ahk_close": "H180",
+     "kum_afa_open": "B181",
+     "afa_gj": "C181",
+     "afa_abgang": "D181",
+     "zuschreibung": "G181",
+     "kum_afa_close": "H181",
+     "bw_prev": "B182",
+     "bw_close": "H182"
+    }
+   },
+   "outcome": "row not found",
+   "values": 12
+  }
+ ],
+ "detection": {
+  "planted": [],
+  "detected": [],
+  "hit": [],
+  "missed": [],
+  "false_alarm": [],
+  "readable": false,
+  "variant_key": "perfect",
+  "variant_guess": "unknown"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "doc_id": "f01_net_spiegel_02",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "wrapped_description",
+   "evidence": "3 description(s) continue on the next line",
+   "where": [
+    {
+     "row": "r7",
+     "page": 1,
+     "label": "0100 Fabrikbauten"
+    },
+    {
+     "row": "r16",
+     "page": 2,
+     "label": "0320 Pkw"
+    },
+    {
+     "row": "r28",
+     "page": 3,
+     "label": "0480 Geringwertige Wirtschaftsgüter"
+    }
+   ]
+  },
+  {
+   "type": "non_tying_subtotal",
+   "evidence": "3 printed total value(s) differ from the sum of their rows",
+   "where": [
+    {
+     "row": "r19",
+     "field": "afa_gj",
+     "pointer": {
+      "page": 2,
+      "bbox": [
+       44.94,
+       397.35,
+       796.94,
+       404.35
+      ],
+      "frame_band": [
+       397.35,
+       404.35
+      ]
+     }
+    },
+    {
+     "row": "r30",
+     "field": "zugang",
+     "pointer": {
+      "page": 3,
+      "bbox": [
+       44.94,
+       387.9,
+       796.94,
+       394.9
+      ],
+      "frame_band": [
+       387.9,
+       394.9
+      ]
+     }
+    },
+    {
+     "row": "r33",
+     "field": "zugang",
+     "pointer": {
+      "page": 3,
+      "bbox": [
+       44.94,
+       491.85,
+       796.94,
+       498.85
+      ],
+      "frame_band": [
+       491.85,
+       498.85
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

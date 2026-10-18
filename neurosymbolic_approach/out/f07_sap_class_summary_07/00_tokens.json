@@ -1,0 +1,7213 @@
+{
+ "doc_id": "f07_sap_class_summary_07",
+ "format": "pdf",
+ "number_style": "de",
+ "pages": [
+  {
+   "page": 1,
+   "width": 791.0,
+   "height": 595.0,
+   "direction": "ltr",
+   "chars": 2030
+  }
+ ],
+ "sheets": [],
+ "tokens": [
+  {
+   "id": "p1w0",
+   "text": "1",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    765.02,
+    28.1,
+    770.0,
+    36.4
+   ],
+   "frame": [
+    765.02,
+    28.1,
+    770.0,
+    36.4
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w1",
+   "text": "Berichtsdatum:",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    35.94,
+    17.31,
+    105.66,
+    25.61
+   ],
+   "frame": [
+    35.94,
+    17.31,
+    105.66,
+    25.61
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w2",
+   "text": "31.12.2024",
+   "kind": "date",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    110.64,
+    17.31,
+    160.44,
+    25.61
+   ],
+   "frame": [
+    110.64,
+    17.31,
+    160.44,
+    25.61
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w3",
+   "text": "Abschreibungen",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    175.38,
+    17.31,
+    245.1,
+    25.61
+   ],
+   "frame": [
+    175.38,
+    17.31,
+    245.1,
+    25.61
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w4",
+   "text": "-",
+   "kind": "dash",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    250.08,
+    17.31,
+    255.06,
+    25.61
+   ],
+   "frame": [
+    250.08,
+    17.31,
+    255.06,
+    25.61
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w5",
+   "text": "Bereich",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    260.04,
+    17.31,
+    294.9,
+    25.61
+   ],
+   "frame": [
+    260.04,
+    17.31,
+    294.9,
+    25.61
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w6",
+   "text": "01",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    299.88,
+    17.31,
+    309.84,
+    25.61
+   ],
+   "frame": [
+    299.88,
+    17.31,
+    309.84,
+    25.61
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w7",
+   "text": "Handelsbilanz",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    314.82,
+    17.31,
+    379.56,
+    25.61
+   ],
+   "frame": [
+    314.82,
+    17.31,
+    379.56,
+    25.61
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w8",
+   "text": "Erstellungsdatum:",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    21.0,
+    28.1,
+    105.66,
+    36.4
+   ],
+   "frame": [
+    21.0,
+    28.1,
+    105.66,
+    36.4
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w9",
+   "text": "11.04.2025",
+   "kind": "date",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    110.64,
+    28.1,
+    160.44,
+    36.4
+   ],
+   "frame": [
+    110.64,
+    28.1,
+    160.44,
+    36.4
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w10",
+   "text": "Klasse",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    48.6,
+    52.88,
+    56.9
+   ],
+   "frame": [
+    23.0,
+    48.6,
+    52.88,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w11",
+   "text": "Klassenbezeichnung",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    48.6,
+    146.64,
+    56.9
+   ],
+   "frame": [
+    57.0,
+    48.6,
+    146.64,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w12",
+   "text": "Bil.-Pos.",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    48.6,
+    208.82,
+    56.9
+   ],
+   "frame": [
+    164.0,
+    48.6,
+    208.82,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w13",
+   "text": "AHK",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    234.2,
+    48.6,
+    249.14,
+    56.9
+   ],
+   "frame": [
+    234.2,
+    48.6,
+    249.14,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w14",
+   "text": "Beginn",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    254.12,
+    48.6,
+    284.0,
+    56.9
+   ],
+   "frame": [
+    254.12,
+    48.6,
+    284.0,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w15",
+   "text": "Bewegung",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    300.24,
+    48.6,
+    340.08,
+    56.9
+   ],
+   "frame": [
+    300.24,
+    48.6,
+    340.08,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w16",
+   "text": "AHK",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    345.06,
+    48.6,
+    360.0,
+    56.9
+   ],
+   "frame": [
+    345.06,
+    48.6,
+    360.0,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w17",
+   "text": "AfA",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    371.26,
+    48.6,
+    386.2,
+    56.9
+   ],
+   "frame": [
+    371.26,
+    48.6,
+    386.2,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w18",
+   "text": "kum.",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    391.18,
+    48.6,
+    411.1,
+    56.9
+   ],
+   "frame": [
+    391.18,
+    48.6,
+    411.1,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w19",
+   "text": "Beg.",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    416.08,
+    48.6,
+    436.0,
+    56.9
+   ],
+   "frame": [
+    416.08,
+    48.6,
+    436.0,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w20",
+   "text": "AfA",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    457.22,
+    48.6,
+    472.16,
+    56.9
+   ],
+   "frame": [
+    457.22,
+    48.6,
+    472.16,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w21",
+   "text": "geplant",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    477.14,
+    48.6,
+    512.0,
+    56.9
+   ],
+   "frame": [
+    477.14,
+    48.6,
+    512.0,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w22",
+   "text": "Bewegung",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    533.22,
+    48.6,
+    573.06,
+    56.9
+   ],
+   "frame": [
+    533.22,
+    48.6,
+    573.06,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w23",
+   "text": "WB",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    578.04,
+    48.6,
+    588.0,
+    56.9
+   ],
+   "frame": [
+    578.04,
+    48.6,
+    588.0,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w24",
+   "text": "Buchwert",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    599.26,
+    48.6,
+    639.1,
+    56.9
+   ],
+   "frame": [
+    599.26,
+    48.6,
+    639.1,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w25",
+   "text": "Beg.",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    644.08,
+    48.6,
+    664.0,
+    56.9
+   ],
+   "frame": [
+    644.08,
+    48.6,
+    664.0,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w26",
+   "text": "Buchwert",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    675.26,
+    48.6,
+    715.1,
+    56.9
+   ],
+   "frame": [
+    675.26,
+    48.6,
+    715.1,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w27",
+   "text": "Ende",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    720.08,
+    48.6,
+    740.0,
+    56.9
+   ],
+   "frame": [
+    720.08,
+    48.6,
+    740.0,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w28",
+   "text": "Whrg",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    48.6,
+    763.92,
+    56.9
+   ],
+   "frame": [
+    744.0,
+    48.6,
+    763.92,
+    56.9
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w29",
+   "text": "1000",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    59.39,
+    42.92,
+    67.69
+   ],
+   "frame": [
+    23.0,
+    59.39,
+    42.92,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w30",
+   "text": "EDV-Software",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    59.39,
+    116.76,
+    67.69
+   ],
+   "frame": [
+    57.0,
+    59.39,
+    116.76,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w31",
+   "text": "2101200",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    59.39,
+    198.86,
+    67.69
+   ],
+   "frame": [
+    164.0,
+    59.39,
+    198.86,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w32",
+   "text": "30.538,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    234.2,
+    59.39,
+    279.02,
+    67.69
+   ],
+   "frame": [
+    234.2,
+    59.39,
+    279.02,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w33",
+   "text": "34.623,18",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    310.2,
+    59.39,
+    355.02,
+    67.69
+   ],
+   "frame": [
+    310.2,
+    59.39,
+    355.02,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w34",
+   "text": "(28.255,58)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    381.22,
+    59.39,
+    436.0,
+    67.69
+   ],
+   "frame": [
+    381.22,
+    59.39,
+    436.0,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w35",
+   "text": "(6.127,44)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    462.2,
+    59.39,
+    512.0,
+    67.69
+   ],
+   "frame": [
+    462.2,
+    59.39,
+    512.0,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w36",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    59.39,
+    583.02,
+    67.69
+   ],
+   "frame": [
+    563.1,
+    59.39,
+    583.02,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w37",
+   "text": "2.282,42",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    619.18,
+    59.39,
+    659.02,
+    67.69
+   ],
+   "frame": [
+    619.18,
+    59.39,
+    659.02,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w38",
+   "text": "30.778,16",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    690.2,
+    59.39,
+    735.02,
+    67.69
+   ],
+   "frame": [
+    690.2,
+    59.39,
+    735.02,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w39",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    59.39,
+    758.94,
+    67.69
+   ],
+   "frame": [
+    744.0,
+    59.39,
+    758.94,
+    67.69
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w40",
+   "text": "Summe",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    70.18,
+    81.9,
+    78.48
+   ],
+   "frame": [
+    57.0,
+    70.18,
+    81.9,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w41",
+   "text": "2101200",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    86.88,
+    70.18,
+    121.74,
+    78.48
+   ],
+   "frame": [
+    86.88,
+    70.18,
+    121.74,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w42",
+   "text": "2101200",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    70.18,
+    198.86,
+    78.48
+   ],
+   "frame": [
+    164.0,
+    70.18,
+    198.86,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w43",
+   "text": "30.538,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    234.2,
+    70.18,
+    279.02,
+    78.48
+   ],
+   "frame": [
+    234.2,
+    70.18,
+    279.02,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w44",
+   "text": "34.623,18",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    310.2,
+    70.18,
+    355.02,
+    78.48
+   ],
+   "frame": [
+    310.2,
+    70.18,
+    355.02,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w45",
+   "text": "(28.255,58)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    381.22,
+    70.18,
+    436.0,
+    78.48
+   ],
+   "frame": [
+    381.22,
+    70.18,
+    436.0,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w46",
+   "text": "(6.127,44)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    462.2,
+    70.18,
+    512.0,
+    78.48
+   ],
+   "frame": [
+    462.2,
+    70.18,
+    512.0,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w47",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    70.18,
+    583.02,
+    78.48
+   ],
+   "frame": [
+    563.1,
+    70.18,
+    583.02,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w48",
+   "text": "2.282,42",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    619.18,
+    70.18,
+    659.02,
+    78.48
+   ],
+   "frame": [
+    619.18,
+    70.18,
+    659.02,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w49",
+   "text": "30.778,16",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    690.2,
+    70.18,
+    735.02,
+    78.48
+   ],
+   "frame": [
+    690.2,
+    70.18,
+    735.02,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w50",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    70.18,
+    758.94,
+    78.48
+   ],
+   "frame": [
+    744.0,
+    70.18,
+    758.94,
+    78.48
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w51",
+   "text": "2000",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    80.97,
+    42.92,
+    89.27
+   ],
+   "frame": [
+    23.0,
+    80.97,
+    42.92,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w52",
+   "text": "Grund",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    80.97,
+    81.9,
+    89.27
+   ],
+   "frame": [
+    57.0,
+    80.97,
+    81.9,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w53",
+   "text": "und",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    86.88,
+    80.97,
+    101.82,
+    89.27
+   ],
+   "frame": [
+    86.88,
+    80.97,
+    101.82,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w54",
+   "text": "Boden",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    106.8,
+    80.97,
+    131.7,
+    89.27
+   ],
+   "frame": [
+    106.8,
+    80.97,
+    131.7,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w55",
+   "text": "2102100",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    80.97,
+    198.86,
+    89.27
+   ],
+   "frame": [
+    164.0,
+    80.97,
+    198.86,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w56",
+   "text": "715.867,07",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    229.22,
+    80.97,
+    279.02,
+    89.27
+   ],
+   "frame": [
+    229.22,
+    80.97,
+    279.02,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w57",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    335.1,
+    80.97,
+    355.02,
+    89.27
+   ],
+   "frame": [
+    335.1,
+    80.97,
+    355.02,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w58",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    411.1,
+    80.97,
+    431.02,
+    89.27
+   ],
+   "frame": [
+    411.1,
+    80.97,
+    431.02,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w59",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    487.1,
+    80.97,
+    507.02,
+    89.27
+   ],
+   "frame": [
+    487.1,
+    80.97,
+    507.02,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w60",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    80.97,
+    583.02,
+    89.27
+   ],
+   "frame": [
+    563.1,
+    80.97,
+    583.02,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w61",
+   "text": "715.867,07",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    609.22,
+    80.97,
+    659.02,
+    89.27
+   ],
+   "frame": [
+    609.22,
+    80.97,
+    659.02,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w62",
+   "text": "715.867,07",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    685.22,
+    80.97,
+    735.02,
+    89.27
+   ],
+   "frame": [
+    685.22,
+    80.97,
+    735.02,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w63",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    80.97,
+    758.94,
+    89.27
+   ],
+   "frame": [
+    744.0,
+    80.97,
+    758.94,
+    89.27
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w64",
+   "text": "2100",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    91.76,
+    42.92,
+    100.06
+   ],
+   "frame": [
+    23.0,
+    91.76,
+    42.92,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w65",
+   "text": "Fabrikbauten",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    91.76,
+    116.76,
+    100.06
+   ],
+   "frame": [
+    57.0,
+    91.76,
+    116.76,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w66",
+   "text": "2102100",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    91.76,
+    198.86,
+    100.06
+   ],
+   "frame": [
+    164.0,
+    91.76,
+    198.86,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w67",
+   "text": "6.234.950,90",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    219.26,
+    91.76,
+    279.02,
+    100.06
+   ],
+   "frame": [
+    219.26,
+    91.76,
+    279.02,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w68",
+   "text": "12.061,48",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    310.2,
+    91.76,
+    355.02,
+    100.06
+   ],
+   "frame": [
+    310.2,
+    91.76,
+    355.02,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w69",
+   "text": "(3.152.279,89)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    366.28,
+    91.76,
+    436.0,
+    100.06
+   ],
+   "frame": [
+    366.28,
+    91.76,
+    436.0,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w70",
+   "text": "(132.918,11)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    452.24,
+    91.76,
+    512.0,
+    100.06
+   ],
+   "frame": [
+    452.24,
+    91.76,
+    512.0,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w71",
+   "text": "139.835,68",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    533.22,
+    91.76,
+    583.02,
+    100.06
+   ],
+   "frame": [
+    533.22,
+    91.76,
+    583.02,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w72",
+   "text": "3.082.671,01",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    599.26,
+    91.76,
+    659.02,
+    100.06
+   ],
+   "frame": [
+    599.26,
+    91.76,
+    659.02,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w73",
+   "text": "3.101.650,06",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    675.26,
+    91.76,
+    735.02,
+    100.06
+   ],
+   "frame": [
+    675.26,
+    91.76,
+    735.02,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w74",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    91.76,
+    758.94,
+    100.06
+   ],
+   "frame": [
+    744.0,
+    91.76,
+    758.94,
+    100.06
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w75",
+   "text": "Summe",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    102.55,
+    81.9,
+    110.85
+   ],
+   "frame": [
+    57.0,
+    102.55,
+    81.9,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w76",
+   "text": "2102100",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    86.88,
+    102.55,
+    121.74,
+    110.85
+   ],
+   "frame": [
+    86.88,
+    102.55,
+    121.74,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w77",
+   "text": "2102100",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    102.55,
+    198.86,
+    110.85
+   ],
+   "frame": [
+    164.0,
+    102.55,
+    198.86,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w78",
+   "text": "6.950.817,97",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    219.26,
+    102.55,
+    279.02,
+    110.85
+   ],
+   "frame": [
+    219.26,
+    102.55,
+    279.02,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w79",
+   "text": "12.061,48",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    310.2,
+    102.55,
+    355.02,
+    110.85
+   ],
+   "frame": [
+    310.2,
+    102.55,
+    355.02,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w80",
+   "text": "(3.152.279,89)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    366.28,
+    102.55,
+    436.0,
+    110.85
+   ],
+   "frame": [
+    366.28,
+    102.55,
+    436.0,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w81",
+   "text": "(132.918,11)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    452.24,
+    102.55,
+    512.0,
+    110.85
+   ],
+   "frame": [
+    452.24,
+    102.55,
+    512.0,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w82",
+   "text": "139.835,68",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    533.22,
+    102.55,
+    583.02,
+    110.85
+   ],
+   "frame": [
+    533.22,
+    102.55,
+    583.02,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w83",
+   "text": "3.798.538,08",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    599.26,
+    102.55,
+    659.02,
+    110.85
+   ],
+   "frame": [
+    599.26,
+    102.55,
+    659.02,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w84",
+   "text": "3.817.517,13",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    675.26,
+    102.55,
+    735.02,
+    110.85
+   ],
+   "frame": [
+    675.26,
+    102.55,
+    735.02,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w85",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    102.55,
+    758.94,
+    110.85
+   ],
+   "frame": [
+    744.0,
+    102.55,
+    758.94,
+    110.85
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w86",
+   "text": "3000",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    113.34,
+    42.92,
+    121.64
+   ],
+   "frame": [
+    23.0,
+    113.34,
+    42.92,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w87",
+   "text": "Maschinen",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    113.34,
+    101.82,
+    121.64
+   ],
+   "frame": [
+    57.0,
+    113.34,
+    101.82,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w88",
+   "text": "2102200",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    113.34,
+    198.86,
+    121.64
+   ],
+   "frame": [
+    164.0,
+    113.34,
+    198.86,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w89",
+   "text": "787.856,85",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    229.22,
+    113.34,
+    279.02,
+    121.64
+   ],
+   "frame": [
+    229.22,
+    113.34,
+    279.02,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w90",
+   "text": "402.607,68",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    305.22,
+    113.34,
+    355.02,
+    121.64
+   ],
+   "frame": [
+    305.22,
+    113.34,
+    355.02,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w91",
+   "text": "(551.752,72)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    376.24,
+    113.34,
+    436.0,
+    121.64
+   ],
+   "frame": [
+    376.24,
+    113.34,
+    436.0,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w92",
+   "text": "(61.383,52)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    457.22,
+    113.34,
+    512.0,
+    121.64
+   ],
+   "frame": [
+    457.22,
+    113.34,
+    512.0,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w93",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    113.34,
+    583.02,
+    121.64
+   ],
+   "frame": [
+    563.1,
+    113.34,
+    583.02,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w94",
+   "text": "236.104,13",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    609.22,
+    113.34,
+    659.02,
+    121.64
+   ],
+   "frame": [
+    609.22,
+    113.34,
+    659.02,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w95",
+   "text": "577.328,29",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    685.22,
+    113.34,
+    735.02,
+    121.64
+   ],
+   "frame": [
+    685.22,
+    113.34,
+    735.02,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w96",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    113.34,
+    758.94,
+    121.64
+   ],
+   "frame": [
+    744.0,
+    113.34,
+    758.94,
+    121.64
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w97",
+   "text": "3100",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    124.13,
+    42.92,
+    132.43
+   ],
+   "frame": [
+    23.0,
+    124.13,
+    42.92,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w98",
+   "text": "Technische",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    124.13,
+    106.8,
+    132.43
+   ],
+   "frame": [
+    57.0,
+    124.13,
+    106.8,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w99",
+   "text": "Anlagen",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    111.78,
+    124.13,
+    146.64,
+    132.43
+   ],
+   "frame": [
+    111.78,
+    124.13,
+    146.64,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w100",
+   "text": "2102200",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    124.13,
+    198.86,
+    132.43
+   ],
+   "frame": [
+    164.0,
+    124.13,
+    198.86,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w101",
+   "text": "461.194,63",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    229.22,
+    124.13,
+    279.02,
+    132.43
+   ],
+   "frame": [
+    229.22,
+    124.13,
+    279.02,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w102",
+   "text": "391.715,40",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    305.22,
+    124.13,
+    355.02,
+    132.43
+   ],
+   "frame": [
+    305.22,
+    124.13,
+    355.02,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w103",
+   "text": "(165.278,21)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    376.24,
+    124.13,
+    436.0,
+    132.43
+   ],
+   "frame": [
+    376.24,
+    124.13,
+    436.0,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w104",
+   "text": "(36.779,68)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    457.22,
+    124.13,
+    512.0,
+    132.43
+   ],
+   "frame": [
+    457.22,
+    124.13,
+    512.0,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w105",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    124.13,
+    583.02,
+    132.43
+   ],
+   "frame": [
+    563.1,
+    124.13,
+    583.02,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w106",
+   "text": "295.916,42",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    609.22,
+    124.13,
+    659.02,
+    132.43
+   ],
+   "frame": [
+    609.22,
+    124.13,
+    659.02,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w107",
+   "text": "650.852,14",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    685.22,
+    124.13,
+    735.02,
+    132.43
+   ],
+   "frame": [
+    685.22,
+    124.13,
+    735.02,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w108",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    124.13,
+    758.94,
+    132.43
+   ],
+   "frame": [
+    744.0,
+    124.13,
+    758.94,
+    132.43
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w109",
+   "text": "Summe",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    134.92,
+    81.9,
+    143.22
+   ],
+   "frame": [
+    57.0,
+    134.92,
+    81.9,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w110",
+   "text": "2102200",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    86.88,
+    134.92,
+    121.74,
+    143.22
+   ],
+   "frame": [
+    86.88,
+    134.92,
+    121.74,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w111",
+   "text": "2102200",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    134.92,
+    198.86,
+    143.22
+   ],
+   "frame": [
+    164.0,
+    134.92,
+    198.86,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w112",
+   "text": "1.249.051,48",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    219.26,
+    134.92,
+    279.02,
+    143.22
+   ],
+   "frame": [
+    219.26,
+    134.92,
+    279.02,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w113",
+   "text": "794.323,08",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    305.22,
+    134.92,
+    355.02,
+    143.22
+   ],
+   "frame": [
+    305.22,
+    134.92,
+    355.02,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w114",
+   "text": "(717.030,93)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    376.24,
+    134.92,
+    436.0,
+    143.22
+   ],
+   "frame": [
+    376.24,
+    134.92,
+    436.0,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w115",
+   "text": "(98.163,20)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    457.22,
+    134.92,
+    512.0,
+    143.22
+   ],
+   "frame": [
+    457.22,
+    134.92,
+    512.0,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w116",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    134.92,
+    583.02,
+    143.22
+   ],
+   "frame": [
+    563.1,
+    134.92,
+    583.02,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w117",
+   "text": "532.020,55",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    609.22,
+    134.92,
+    659.02,
+    143.22
+   ],
+   "frame": [
+    609.22,
+    134.92,
+    659.02,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w118",
+   "text": "1.228.180,43",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    675.26,
+    134.92,
+    735.02,
+    143.22
+   ],
+   "frame": [
+    675.26,
+    134.92,
+    735.02,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w119",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    134.92,
+    758.94,
+    143.22
+   ],
+   "frame": [
+    744.0,
+    134.92,
+    758.94,
+    143.22
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w120",
+   "text": "4200",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    145.71,
+    42.92,
+    154.01
+   ],
+   "frame": [
+    23.0,
+    145.71,
+    42.92,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w121",
+   "text": "Pkw",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    145.71,
+    71.94,
+    154.01
+   ],
+   "frame": [
+    57.0,
+    145.71,
+    71.94,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w122",
+   "text": "2102300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    145.71,
+    198.86,
+    154.01
+   ],
+   "frame": [
+    164.0,
+    145.71,
+    198.86,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w123",
+   "text": "97.287,54",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    234.2,
+    145.71,
+    279.02,
+    154.01
+   ],
+   "frame": [
+    234.2,
+    145.71,
+    279.02,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w124",
+   "text": "21.565,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    310.2,
+    145.71,
+    355.02,
+    154.01
+   ],
+   "frame": [
+    310.2,
+    145.71,
+    355.02,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w125",
+   "text": "(68.091,03)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    381.22,
+    145.71,
+    436.0,
+    154.01
+   ],
+   "frame": [
+    381.22,
+    145.71,
+    436.0,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w126",
+   "text": "(6.369,01)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    462.2,
+    145.71,
+    512.0,
+    154.01
+   ],
+   "frame": [
+    462.2,
+    145.71,
+    512.0,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w127",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    145.71,
+    583.02,
+    154.01
+   ],
+   "frame": [
+    563.1,
+    145.71,
+    583.02,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w128",
+   "text": "29.196,51",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    614.2,
+    145.71,
+    659.02,
+    154.01
+   ],
+   "frame": [
+    614.2,
+    145.71,
+    659.02,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w129",
+   "text": "44.392,50",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    690.2,
+    145.71,
+    735.02,
+    154.01
+   ],
+   "frame": [
+    690.2,
+    145.71,
+    735.02,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w130",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    145.71,
+    758.94,
+    154.01
+   ],
+   "frame": [
+    744.0,
+    145.71,
+    758.94,
+    154.01
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w131",
+   "text": "4300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    156.5,
+    42.92,
+    164.8
+   ],
+   "frame": [
+    23.0,
+    156.5,
+    42.92,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w132",
+   "text": "Lkw",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    156.5,
+    71.94,
+    164.8
+   ],
+   "frame": [
+    57.0,
+    156.5,
+    71.94,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w133",
+   "text": "2102300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    156.5,
+    198.86,
+    164.8
+   ],
+   "frame": [
+    164.0,
+    156.5,
+    198.86,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w134",
+   "text": "396.326,11",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    229.22,
+    156.5,
+    279.02,
+    164.8
+   ],
+   "frame": [
+    229.22,
+    156.5,
+    279.02,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w135",
+   "text": "149.222,76",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    305.22,
+    156.5,
+    355.02,
+    164.8
+   ],
+   "frame": [
+    305.22,
+    156.5,
+    355.02,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w136",
+   "text": "(342.635,07)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    376.24,
+    156.5,
+    436.0,
+    164.8
+   ],
+   "frame": [
+    376.24,
+    156.5,
+    436.0,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w137",
+   "text": "(30.336,11)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    457.22,
+    156.5,
+    512.0,
+    164.8
+   ],
+   "frame": [
+    457.22,
+    156.5,
+    512.0,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w138",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    156.5,
+    583.02,
+    164.8
+   ],
+   "frame": [
+    563.1,
+    156.5,
+    583.02,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w139",
+   "text": "53.691,04",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    614.2,
+    156.5,
+    659.02,
+    164.8
+   ],
+   "frame": [
+    614.2,
+    156.5,
+    659.02,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w140",
+   "text": "172.577,69",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    685.22,
+    156.5,
+    735.02,
+    164.8
+   ],
+   "frame": [
+    685.22,
+    156.5,
+    735.02,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w141",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    156.5,
+    758.94,
+    164.8
+   ],
+   "frame": [
+    744.0,
+    156.5,
+    758.94,
+    164.8
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w142",
+   "text": "4000",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    167.29,
+    42.92,
+    175.59
+   ],
+   "frame": [
+    23.0,
+    167.29,
+    42.92,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w143",
+   "text": "Betriebsausstattung",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    167.29,
+    151.62,
+    175.59
+   ],
+   "frame": [
+    57.0,
+    167.29,
+    151.62,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w144",
+   "text": "2102300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    167.29,
+    198.86,
+    175.59
+   ],
+   "frame": [
+    164.0,
+    167.29,
+    198.86,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w145",
+   "text": "107.496,50",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    229.22,
+    167.29,
+    279.02,
+    175.59
+   ],
+   "frame": [
+    229.22,
+    167.29,
+    279.02,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w146",
+   "text": "22.127,84",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    310.2,
+    167.29,
+    355.02,
+    175.59
+   ],
+   "frame": [
+    310.2,
+    167.29,
+    355.02,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w147",
+   "text": "(100.037,53)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    376.24,
+    167.29,
+    436.0,
+    175.59
+   ],
+   "frame": [
+    376.24,
+    167.29,
+    436.0,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w148",
+   "text": "(5.978,85)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    462.2,
+    167.29,
+    512.0,
+    175.59
+   ],
+   "frame": [
+    462.2,
+    167.29,
+    512.0,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w149",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    167.29,
+    583.02,
+    175.59
+   ],
+   "frame": [
+    563.1,
+    167.29,
+    583.02,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w150",
+   "text": "7.458,97",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    619.18,
+    167.29,
+    659.02,
+    175.59
+   ],
+   "frame": [
+    619.18,
+    167.29,
+    659.02,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w151",
+   "text": "23.607,96",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    690.2,
+    167.29,
+    735.02,
+    175.59
+   ],
+   "frame": [
+    690.2,
+    167.29,
+    735.02,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w152",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    167.29,
+    758.94,
+    175.59
+   ],
+   "frame": [
+    744.0,
+    167.29,
+    758.94,
+    175.59
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w153",
+   "text": "4100",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    178.08,
+    42.92,
+    186.38
+   ],
+   "frame": [
+    23.0,
+    178.08,
+    42.92,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w154",
+   "text": "Büroeinrichtung",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    178.08,
+    131.7,
+    186.38
+   ],
+   "frame": [
+    57.0,
+    178.08,
+    131.7,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w155",
+   "text": "2102300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    178.08,
+    198.86,
+    186.38
+   ],
+   "frame": [
+    164.0,
+    178.08,
+    198.86,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w156",
+   "text": "18.932,03",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    234.2,
+    178.08,
+    279.02,
+    186.38
+   ],
+   "frame": [
+    234.2,
+    178.08,
+    279.02,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w157",
+   "text": "4.544,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    315.18,
+    178.08,
+    355.02,
+    186.38
+   ],
+   "frame": [
+    315.18,
+    178.08,
+    355.02,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w158",
+   "text": "(18.617,34)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    381.22,
+    178.08,
+    436.0,
+    186.38
+   ],
+   "frame": [
+    381.22,
+    178.08,
+    436.0,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w159",
+   "text": "(333,90)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    472.16,
+    178.08,
+    512.0,
+    186.38
+   ],
+   "frame": [
+    472.16,
+    178.08,
+    512.0,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w160",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    178.08,
+    583.02,
+    186.38
+   ],
+   "frame": [
+    563.1,
+    178.08,
+    583.02,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w161",
+   "text": "314,69",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    629.14,
+    178.08,
+    659.02,
+    186.38
+   ],
+   "frame": [
+    629.14,
+    178.08,
+    659.02,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w162",
+   "text": "4.524,79",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    695.18,
+    178.08,
+    735.02,
+    186.38
+   ],
+   "frame": [
+    695.18,
+    178.08,
+    735.02,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w163",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    178.08,
+    758.94,
+    186.38
+   ],
+   "frame": [
+    744.0,
+    178.08,
+    758.94,
+    186.38
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w164",
+   "text": "4900",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    188.87,
+    42.92,
+    197.17
+   ],
+   "frame": [
+    23.0,
+    188.87,
+    42.92,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w165",
+   "text": "Geringwertige",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    188.87,
+    121.74,
+    197.17
+   ],
+   "frame": [
+    57.0,
+    188.87,
+    121.74,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w166",
+   "text": "Wirtsc",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    126.72,
+    188.87,
+    156.6,
+    197.17
+   ],
+   "frame": [
+    126.72,
+    188.87,
+    156.6,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w167",
+   "text": "2102300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    188.87,
+    198.86,
+    197.17
+   ],
+   "frame": [
+    164.0,
+    188.87,
+    198.86,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w168",
+   "text": "1.850,13",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    239.18,
+    188.87,
+    279.02,
+    197.17
+   ],
+   "frame": [
+    239.18,
+    188.87,
+    279.02,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w169",
+   "text": "1.260,56",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    315.18,
+    188.87,
+    355.02,
+    197.17
+   ],
+   "frame": [
+    315.18,
+    188.87,
+    355.02,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w170",
+   "text": "(1.850,13)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    386.2,
+    188.87,
+    436.0,
+    197.17
+   ],
+   "frame": [
+    386.2,
+    188.87,
+    436.0,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w171",
+   "text": "(1.260,56)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    462.2,
+    188.87,
+    512.0,
+    197.17
+   ],
+   "frame": [
+    462.2,
+    188.87,
+    512.0,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w172",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    188.87,
+    583.02,
+    197.17
+   ],
+   "frame": [
+    563.1,
+    188.87,
+    583.02,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w173",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    639.1,
+    188.87,
+    659.02,
+    197.17
+   ],
+   "frame": [
+    639.1,
+    188.87,
+    659.02,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w174",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    715.1,
+    188.87,
+    735.02,
+    197.17
+   ],
+   "frame": [
+    715.1,
+    188.87,
+    735.02,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w175",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    188.87,
+    758.94,
+    197.17
+   ],
+   "frame": [
+    744.0,
+    188.87,
+    758.94,
+    197.17
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w176",
+   "text": "4400",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    199.66,
+    42.92,
+    207.96
+   ],
+   "frame": [
+    23.0,
+    199.66,
+    42.92,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w177",
+   "text": "EDV-Hardware",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    199.66,
+    116.76,
+    207.96
+   ],
+   "frame": [
+    57.0,
+    199.66,
+    116.76,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w178",
+   "text": "2102300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    199.66,
+    198.86,
+    207.96
+   ],
+   "frame": [
+    164.0,
+    199.66,
+    198.86,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w179",
+   "text": "48.620,62",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    234.2,
+    199.66,
+    279.02,
+    207.96
+   ],
+   "frame": [
+    234.2,
+    199.66,
+    279.02,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w180",
+   "text": "9.931,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    315.18,
+    199.66,
+    355.02,
+    207.96
+   ],
+   "frame": [
+    315.18,
+    199.66,
+    355.02,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w181",
+   "text": "(47.245,47)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    381.22,
+    199.66,
+    436.0,
+    207.96
+   ],
+   "frame": [
+    381.22,
+    199.66,
+    436.0,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w182",
+   "text": "(2.201,73)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    462.2,
+    199.66,
+    512.0,
+    207.96
+   ],
+   "frame": [
+    462.2,
+    199.66,
+    512.0,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w183",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    199.66,
+    583.02,
+    207.96
+   ],
+   "frame": [
+    563.1,
+    199.66,
+    583.02,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w184",
+   "text": "1.375,15",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    619.18,
+    199.66,
+    659.02,
+    207.96
+   ],
+   "frame": [
+    619.18,
+    199.66,
+    659.02,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w185",
+   "text": "9.104,42",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    695.18,
+    199.66,
+    735.02,
+    207.96
+   ],
+   "frame": [
+    695.18,
+    199.66,
+    735.02,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w186",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    199.66,
+    758.94,
+    207.96
+   ],
+   "frame": [
+    744.0,
+    199.66,
+    758.94,
+    207.96
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w187",
+   "text": "Summe",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    210.45,
+    81.9,
+    218.75
+   ],
+   "frame": [
+    57.0,
+    210.45,
+    81.9,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w188",
+   "text": "2102300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    86.88,
+    210.45,
+    121.74,
+    218.75
+   ],
+   "frame": [
+    86.88,
+    210.45,
+    121.74,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w189",
+   "text": "2102300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    210.45,
+    198.86,
+    218.75
+   ],
+   "frame": [
+    164.0,
+    210.45,
+    198.86,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w190",
+   "text": "670.512,93",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    229.22,
+    210.45,
+    279.02,
+    218.75
+   ],
+   "frame": [
+    229.22,
+    210.45,
+    279.02,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w191",
+   "text": "208.651,16",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    305.22,
+    210.45,
+    355.02,
+    218.75
+   ],
+   "frame": [
+    305.22,
+    210.45,
+    355.02,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w192",
+   "text": "(578.476,57)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    376.24,
+    210.45,
+    436.0,
+    218.75
+   ],
+   "frame": [
+    376.24,
+    210.45,
+    436.0,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w193",
+   "text": "(46.480,16)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    457.22,
+    210.45,
+    512.0,
+    218.75
+   ],
+   "frame": [
+    457.22,
+    210.45,
+    512.0,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w194",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    210.45,
+    583.02,
+    218.75
+   ],
+   "frame": [
+    563.1,
+    210.45,
+    583.02,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w195",
+   "text": "92.036,36",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    614.2,
+    210.45,
+    659.02,
+    218.75
+   ],
+   "frame": [
+    614.2,
+    210.45,
+    659.02,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w196",
+   "text": "254.207,36",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    685.22,
+    210.45,
+    735.02,
+    218.75
+   ],
+   "frame": [
+    685.22,
+    210.45,
+    735.02,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w197",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    210.45,
+    758.94,
+    218.75
+   ],
+   "frame": [
+    744.0,
+    210.45,
+    758.94,
+    218.75
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w198",
+   "text": "5000",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    221.24,
+    42.92,
+    229.54
+   ],
+   "frame": [
+    23.0,
+    221.24,
+    42.92,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w199",
+   "text": "Anlagen",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    221.24,
+    91.86,
+    229.54
+   ],
+   "frame": [
+    57.0,
+    221.24,
+    91.86,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w200",
+   "text": "im",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    96.84,
+    221.24,
+    106.8,
+    229.54
+   ],
+   "frame": [
+    96.84,
+    221.24,
+    106.8,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w201",
+   "text": "Bau",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    111.78,
+    221.24,
+    126.72,
+    229.54
+   ],
+   "frame": [
+    111.78,
+    221.24,
+    126.72,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w202",
+   "text": "2102400",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    221.24,
+    198.86,
+    229.54
+   ],
+   "frame": [
+    164.0,
+    221.24,
+    198.86,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w203",
+   "text": "22.385,65",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    234.2,
+    221.24,
+    279.02,
+    229.54
+   ],
+   "frame": [
+    234.2,
+    221.24,
+    279.02,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w204",
+   "text": "(22.385,65)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    305.22,
+    221.24,
+    360.0,
+    229.54
+   ],
+   "frame": [
+    305.22,
+    221.24,
+    360.0,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w205",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    411.1,
+    221.24,
+    431.02,
+    229.54
+   ],
+   "frame": [
+    411.1,
+    221.24,
+    431.02,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w206",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    487.1,
+    221.24,
+    507.02,
+    229.54
+   ],
+   "frame": [
+    487.1,
+    221.24,
+    507.02,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w207",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    221.24,
+    583.02,
+    229.54
+   ],
+   "frame": [
+    563.1,
+    221.24,
+    583.02,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w208",
+   "text": "22.385,65",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    614.2,
+    221.24,
+    659.02,
+    229.54
+   ],
+   "frame": [
+    614.2,
+    221.24,
+    659.02,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w209",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    715.1,
+    221.24,
+    735.02,
+    229.54
+   ],
+   "frame": [
+    715.1,
+    221.24,
+    735.02,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w210",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    221.24,
+    758.94,
+    229.54
+   ],
+   "frame": [
+    744.0,
+    221.24,
+    758.94,
+    229.54
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w211",
+   "text": "5100",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    232.03,
+    42.92,
+    240.33
+   ],
+   "frame": [
+    23.0,
+    232.03,
+    42.92,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w212",
+   "text": "Anzahlungen",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    232.03,
+    111.78,
+    240.33
+   ],
+   "frame": [
+    57.0,
+    232.03,
+    111.78,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w213",
+   "text": "auf",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    116.76,
+    232.03,
+    131.7,
+    240.33
+   ],
+   "frame": [
+    116.76,
+    232.03,
+    131.7,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w214",
+   "text": "Anla",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    136.68,
+    232.03,
+    156.6,
+    240.33
+   ],
+   "frame": [
+    136.68,
+    232.03,
+    156.6,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w215",
+   "text": "2102400",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    232.03,
+    198.86,
+    240.33
+   ],
+   "frame": [
+    164.0,
+    232.03,
+    198.86,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w216",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    259.1,
+    232.03,
+    279.02,
+    240.33
+   ],
+   "frame": [
+    259.1,
+    232.03,
+    279.02,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w217",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    335.1,
+    232.03,
+    355.02,
+    240.33
+   ],
+   "frame": [
+    335.1,
+    232.03,
+    355.02,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w218",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    411.1,
+    232.03,
+    431.02,
+    240.33
+   ],
+   "frame": [
+    411.1,
+    232.03,
+    431.02,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w219",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    487.1,
+    232.03,
+    507.02,
+    240.33
+   ],
+   "frame": [
+    487.1,
+    232.03,
+    507.02,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w220",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    232.03,
+    583.02,
+    240.33
+   ],
+   "frame": [
+    563.1,
+    232.03,
+    583.02,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w221",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    639.1,
+    232.03,
+    659.02,
+    240.33
+   ],
+   "frame": [
+    639.1,
+    232.03,
+    659.02,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w222",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    715.1,
+    232.03,
+    735.02,
+    240.33
+   ],
+   "frame": [
+    715.1,
+    232.03,
+    735.02,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w223",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    232.03,
+    758.94,
+    240.33
+   ],
+   "frame": [
+    744.0,
+    232.03,
+    758.94,
+    240.33
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w224",
+   "text": "Summe",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    242.82,
+    81.9,
+    251.12
+   ],
+   "frame": [
+    57.0,
+    242.82,
+    81.9,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w225",
+   "text": "2102400",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    86.88,
+    242.82,
+    121.74,
+    251.12
+   ],
+   "frame": [
+    86.88,
+    242.82,
+    121.74,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w226",
+   "text": "2102400",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    242.82,
+    198.86,
+    251.12
+   ],
+   "frame": [
+    164.0,
+    242.82,
+    198.86,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w227",
+   "text": "22.385,65",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    234.2,
+    242.82,
+    279.02,
+    251.12
+   ],
+   "frame": [
+    234.2,
+    242.82,
+    279.02,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w228",
+   "text": "(22.385,65)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    305.22,
+    242.82,
+    360.0,
+    251.12
+   ],
+   "frame": [
+    305.22,
+    242.82,
+    360.0,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w229",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    411.1,
+    242.82,
+    431.02,
+    251.12
+   ],
+   "frame": [
+    411.1,
+    242.82,
+    431.02,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w230",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    487.1,
+    242.82,
+    507.02,
+    251.12
+   ],
+   "frame": [
+    487.1,
+    242.82,
+    507.02,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w231",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    563.1,
+    242.82,
+    583.02,
+    251.12
+   ],
+   "frame": [
+    563.1,
+    242.82,
+    583.02,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w232",
+   "text": "22.385,65",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    614.2,
+    242.82,
+    659.02,
+    251.12
+   ],
+   "frame": [
+    614.2,
+    242.82,
+    659.02,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w233",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    715.1,
+    242.82,
+    735.02,
+    251.12
+   ],
+   "frame": [
+    715.1,
+    242.82,
+    735.02,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w234",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    242.82,
+    758.94,
+    251.12
+   ],
+   "frame": [
+    744.0,
+    242.82,
+    758.94,
+    251.12
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w235",
+   "text": "6000",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    23.0,
+    253.61,
+    42.92,
+    261.91
+   ],
+   "frame": [
+    23.0,
+    253.61,
+    42.92,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w236",
+   "text": "Beteiligungen",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    253.61,
+    121.74,
+    261.91
+   ],
+   "frame": [
+    57.0,
+    253.61,
+    121.74,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w237",
+   "text": "2103300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    253.61,
+    198.86,
+    261.91
+   ],
+   "frame": [
+    164.0,
+    253.61,
+    198.86,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w238",
+   "text": "251.135,40",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    229.22,
+    253.61,
+    279.02,
+    261.91
+   ],
+   "frame": [
+    229.22,
+    253.61,
+    279.02,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w239",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    335.1,
+    253.61,
+    355.02,
+    261.91
+   ],
+   "frame": [
+    335.1,
+    253.61,
+    355.02,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w240",
+   "text": "(55.434,42)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    381.22,
+    253.61,
+    436.0,
+    261.91
+   ],
+   "frame": [
+    381.22,
+    253.61,
+    436.0,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w241",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    487.1,
+    253.61,
+    507.02,
+    261.91
+   ],
+   "frame": [
+    487.1,
+    253.61,
+    507.02,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w242",
+   "text": "27.717,21",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    538.2,
+    253.61,
+    583.02,
+    261.91
+   ],
+   "frame": [
+    538.2,
+    253.61,
+    583.02,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w243",
+   "text": "195.700,98",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    609.22,
+    253.61,
+    659.02,
+    261.91
+   ],
+   "frame": [
+    609.22,
+    253.61,
+    659.02,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w244",
+   "text": "223.418,19",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    685.22,
+    253.61,
+    735.02,
+    261.91
+   ],
+   "frame": [
+    685.22,
+    253.61,
+    735.02,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w245",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    253.61,
+    758.94,
+    261.91
+   ],
+   "frame": [
+    744.0,
+    253.61,
+    758.94,
+    261.91
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w246",
+   "text": "Summe",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    57.0,
+    264.4,
+    81.9,
+    272.7
+   ],
+   "frame": [
+    57.0,
+    264.4,
+    81.9,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w247",
+   "text": "2103300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    86.88,
+    264.4,
+    121.74,
+    272.7
+   ],
+   "frame": [
+    86.88,
+    264.4,
+    121.74,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w248",
+   "text": "2103300",
+   "kind": "int",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    164.0,
+    264.4,
+    198.86,
+    272.7
+   ],
+   "frame": [
+    164.0,
+    264.4,
+    198.86,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w249",
+   "text": "251.135,40",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    229.22,
+    264.4,
+    279.02,
+    272.7
+   ],
+   "frame": [
+    229.22,
+    264.4,
+    279.02,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w250",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    335.1,
+    264.4,
+    355.02,
+    272.7
+   ],
+   "frame": [
+    335.1,
+    264.4,
+    355.02,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w251",
+   "text": "(55.434,42)",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    381.22,
+    264.4,
+    436.0,
+    272.7
+   ],
+   "frame": [
+    381.22,
+    264.4,
+    436.0,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w252",
+   "text": "0,00",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    487.1,
+    264.4,
+    507.02,
+    272.7
+   ],
+   "frame": [
+    487.1,
+    264.4,
+    507.02,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w253",
+   "text": "27.717,21",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    538.2,
+    264.4,
+    583.02,
+    272.7
+   ],
+   "frame": [
+    538.2,
+    264.4,
+    583.02,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w254",
+   "text": "195.700,98",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    609.22,
+    264.4,
+    659.02,
+    272.7
+   ],
+   "frame": [
+    609.22,
+    264.4,
+    659.02,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w255",
+   "text": "223.418,19",
+   "kind": "amount",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    685.22,
+    264.4,
+    735.02,
+    272.7
+   ],
+   "frame": [
+    685.22,
+    264.4,
+    735.02,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  },
+  {
+   "id": "p1w256",
+   "text": "EUR",
+   "kind": "text",
+   "source": "pdf-text",
+   "conf": 1.0,
+   "page": 1,
+   "bbox": [
+    744.0,
+    264.4,
+    758.94,
+    272.7
+   ],
+   "frame": [
+    744.0,
+    264.4,
+    758.94,
+    272.7
+   ],
+   "sheet": null,
+   "row": null,
+   "col": null,
+   "number": null,
+   "merged_cols": null,
+   "hidden": false,
+   "hidden_col": false,
+   "glued_from": null
+  }
+ ]
+}

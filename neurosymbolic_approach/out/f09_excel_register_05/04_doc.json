@@ -1,0 +1,6676 @@
+{
+ "meta": {
+  "doc_id": "f09_excel_register_05",
+  "source": "../A3-Hackathon-Corpus/f09_excel_register/f09_excel_register_05.xlsx",
+  "format": "xlsx",
+  "proposer": "heuristic-v0",
+  "mode": "line",
+  "abstain": null,
+  "sections": [
+   {
+    "id": "s1",
+    "period_end": null,
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Sheet1"
+   },
+   {
+    "id": "s2",
+    "period_end": null,
+    "unit": "EUR",
+    "pages": [],
+    "sheet": "Sheet2"
+   }
+  ],
+  "variant_guess": "problem"
+ },
+ "rows": [
+  {
+   "id": "r1",
+   "kind": "grand_total",
+   "level": 1,
+   "year": null,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "SUMMEN",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 440717949,
+    "zugang": 46799701,
+    "abgang": 17954300,
+    "umbuchung": null,
+    "ahk_close": 469563350,
+    "kum_afa_open": 274097475,
+    "afa_gj": 11167665,
+    "afa_abgang": 6882482,
+    "zuschreibung": 30840,
+    "kum_afa_close": 278351818,
+    "bw_prev": 166620474,
+    "bw_close": 191211532
+   },
+   "printed": {
+    "ahk_open": "4.407.179,49",
+    "zugang": "467.997,01",
+    "abgang": "-179.543,00",
+    "umbuchung": "-287.247,04",
+    "ahk_close": "4.695.633,50",
+    "kum_afa_open": "-2.740.974,75",
+    "afa_gj": "-111.676,65",
+    "afa_abgang": "68.824,82",
+    "zuschreibung": "308,40",
+    "kum_afa_close": "-2.783.518,18",
+    "bw_prev": "1.666.204,74",
+    "bw_close": "1.912.115,32"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A9",
+    "row": 9,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F9"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G9"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H9"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I9"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L9"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M9"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N9"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O9"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R9"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S9"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T9"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U9"
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "umbuchung": "transfer_incomplete"
+   }
+  },
+  {
+   "id": "r2",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "100001001",
+   "sub_no": "0",
+   "name": "Zeiterfassung Software",
+   "acq_date": "2012-11-25",
+   "method": null,
+   "label": "100001001 0 Zeiterfassung Software EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 10985199,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 10985199,
+    "kum_afa_open": 10985099,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 10985099,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "109.851,99",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "109.851,99",
+    "kum_afa_open": "-109.850,99",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-109.850,99",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A14",
+    "row": 14,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F14"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G14"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H14"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I14"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L14"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M14"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N14"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O14"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R14"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S14"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T14"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U14"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r3",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "100001002",
+   "sub_no": "0",
+   "name": "CAD-Software Lizenz Nr. 23",
+   "acq_date": "2015-07-22",
+   "method": null,
+   "label": "100001002 0 CAD-Software Lizenz Nr. 23 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 11241760,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 11241760,
+    "kum_afa_open": 11241660,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 11241660,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "112.417,60",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "112.417,60",
+    "kum_afa_open": "-112.416,60",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-112.416,60",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A15",
+    "row": 15,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F15"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G15"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H15"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I15"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L15"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M15"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N15"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O15"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R15"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S15"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T15"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U15"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r4",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "100001002",
+   "sub_no": "1",
+   "name": "CAD-Software Lizenz Nr. 23 Nachrüstung",
+   "acq_date": "2020-08-10",
+   "method": null,
+   "label": "100001002 1 CAD-Software Lizenz Nr. 23 Nachrüstung EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 1228540,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1228540,
+    "kum_afa_open": 962356,
+    "afa_gj": 245708,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1208064,
+    "bw_prev": 266184,
+    "bw_close": 20476
+   },
+   "printed": {
+    "ahk_open": "12.285,40",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "12.285,40",
+    "kum_afa_open": "-9.623,56",
+    "afa_gj": "-2.457,08",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-12.080,64",
+    "bw_prev": "2.661,84",
+    "bw_close": "204,76"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A16",
+    "row": 16,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F16"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G16"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H16"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I16"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L16"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M16"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N16"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O16"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R16"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S16"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T16"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U16"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r5",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "100001003",
+   "sub_no": "0",
+   "name": "Finanzbuchhaltung Software",
+   "acq_date": "2019-10-03",
+   "method": null,
+   "label": "100001003 0 Finanzbuchhaltung Software EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 387193,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 387193,
+    "kum_afa_open": 387093,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 387093,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "3.871,93",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "3.871,93",
+    "kum_afa_open": "-3.870,93",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-3.870,93",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A17",
+    "row": 17,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F17"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G17"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H17"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I17"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L17"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M17"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N17"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O17"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R17"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S17"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T17"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U17"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r6",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "100001004",
+   "sub_no": "0",
+   "name": "Office-Lizenzen",
+   "acq_date": "2024-10-02",
+   "method": null,
+   "label": "100001004 0 Office-Lizenzen EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 172500,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 172500,
+    "kum_afa_open": 0,
+    "afa_gj": 43125,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 43125,
+    "bw_prev": 0,
+    "bw_close": 129375
+   },
+   "printed": {
+    "ahk_open": "0",
+    "zugang": "1.725,00",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "1.725,00",
+    "kum_afa_open": "0",
+    "afa_gj": "-431,25",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-431,25",
+    "bw_prev": "0",
+    "bw_close": "1.293,75"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A18",
+    "row": 18,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F18"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G18"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H18"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I18"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L18"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M18"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N18"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O18"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R18"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S18"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T18"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U18"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r7",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "200001001",
+   "sub_no": "0",
+   "name": "Grund und Boden Betriebsgelände",
+   "acq_date": "2001-10-03",
+   "method": null,
+   "label": "200001001 0 Grund und Boden Betriebsgelände EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 5692619,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5692619,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 5692619,
+    "bw_close": 5692619
+   },
+   "printed": {
+    "ahk_open": "56.926,19",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "56.926,19",
+    "kum_afa_open": "0",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "0",
+    "bw_prev": "56.926,19",
+    "bw_close": "56.926,19"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A19",
+    "row": 19,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F19"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G19"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H19"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I19"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L19"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M19"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N19"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O19"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R19"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S19"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T19"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U19"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r8",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "200001002",
+   "sub_no": "0",
+   "name": "Erweiterungsfläche",
+   "acq_date": "2005-06-17",
+   "method": null,
+   "label": "200001002 0 Erweiterungsfläche EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 7568100,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 7568100,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 7568100,
+    "bw_close": 7568100
+   },
+   "printed": {
+    "ahk_open": "75.681,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "75.681,00",
+    "kum_afa_open": "0",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "0",
+    "bw_prev": "75.681,00",
+    "bw_close": "75.681,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A20",
+    "row": 20,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F20"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G20"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H20"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I20"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L20"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M20"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N20"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O20"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R20"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S20"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T20"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U20"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r9",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "210001001",
+   "sub_no": "0",
+   "name": "Produktionshalle",
+   "acq_date": "1990-04-14",
+   "method": null,
+   "label": "210001001 0 Produktionshalle EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 160594700,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 160594700,
+    "kum_afa_open": 160594600,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 160594600,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "1.605.947,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "1.605.947,00",
+    "kum_afa_open": "-1.605.946,00",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-1.605.946,00",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A21",
+    "row": 21,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F21"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G21"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H21"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I21"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L21"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M21"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N21"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O21"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R21"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S21"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T21"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U21"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r10",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "210001002",
+   "sub_no": "0",
+   "name": "Anbau Sozialtrakt",
+   "acq_date": "2017-01-29",
+   "method": null,
+   "label": "210001002 0 Anbau Sozialtrakt EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 23267600,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 23267600,
+    "kum_afa_open": 5288091,
+    "afa_gj": 705079,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5993170,
+    "bw_prev": 17979509,
+    "bw_close": 17274430
+   },
+   "printed": {
+    "ahk_open": "232.676,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "232.676,00",
+    "kum_afa_open": "-52.880,91",
+    "afa_gj": "-7.050,79",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-59.931,70",
+    "bw_prev": "179.795,09",
+    "bw_close": "172.744,30"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A22",
+    "row": 22,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F22"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G22"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H22"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I22"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L22"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M22"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N22"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O22"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R22"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S22"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T22"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U22"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r11",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "210001002",
+   "sub_no": "1",
+   "name": "Anbau Sozialtrakt Erweiterung",
+   "acq_date": "2021-01-24",
+   "method": null,
+   "label": "210001002 1 Anbau Sozialtrakt Erweiterung EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 5224865,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5224865,
+    "kum_afa_open": 554152,
+    "afa_gj": 158330,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 712482,
+    "bw_prev": 4670713,
+    "bw_close": 4512383
+   },
+   "printed": {
+    "ahk_open": "52.248,65",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "52.248,65",
+    "kum_afa_open": "-5.541,52",
+    "afa_gj": "-1.583,30",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-7.124,82",
+    "bw_prev": "46.707,13",
+    "bw_close": "45.123,83"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A23",
+    "row": 23,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F23"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G23"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H23"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I23"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L23"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M23"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N23"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O23"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R23"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S23"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T23"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U23"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r12",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "210001003",
+   "sub_no": "0",
+   "name": "Anbau Sozialtrakt",
+   "acq_date": "2017-10-07",
+   "method": null,
+   "label": "210001003 0 Anbau Sozialtrakt EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 35351038,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 35351038,
+    "kum_afa_open": 7230894,
+    "afa_gj": 1071244,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 8302138,
+    "bw_prev": 28120144,
+    "bw_close": 27048900
+   },
+   "printed": {
+    "ahk_open": "353.510,38",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "353.510,38",
+    "kum_afa_open": "-72.308,94",
+    "afa_gj": "-10.712,44",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-83.021,38",
+    "bw_prev": "281.201,44",
+    "bw_close": "270.489,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A24",
+    "row": 24,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F24"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G24"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H24"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I24"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L24"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M24"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N24"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O24"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R24"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S24"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T24"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U24"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r13",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "210001004",
+   "sub_no": "0",
+   "name": "Lagerhalle",
+   "acq_date": "2022-11-17",
+   "method": null,
+   "label": "210001004 0 Lagerhalle EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 42754900,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 42754900,
+    "kum_afa_open": 2159338,
+    "afa_gj": 1295603,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 3454941,
+    "bw_prev": 40595562,
+    "bw_close": 39299959
+   },
+   "printed": {
+    "ahk_open": "427.549,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "427.549,00",
+    "kum_afa_open": "-21.593,38",
+    "afa_gj": "-12.956,03",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-34.549,41",
+    "bw_prev": "405.955,62",
+    "bw_close": "392.999,59"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A25",
+    "row": 25,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F25"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G25"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H25"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I25"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L25"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M25"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N25"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O25"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R25"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S25"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T25"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U25"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r14",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "300001001",
+   "sub_no": "0",
+   "name": "Bandsäge (gebraucht)",
+   "acq_date": "2012-09-17",
+   "method": null,
+   "label": "300001001 0 Bandsäge (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 1822428,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 1822428,
+    "kum_afa_open": 1822328,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1822328,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "18.224,28",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "18.224,28",
+    "kum_afa_open": "-18.223,28",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-18.223,28",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A26",
+    "row": 26,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F26"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G26"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H26"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I26"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L26"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M26"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N26"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O26"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R26"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S26"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T26"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U26"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r15",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "300001002",
+   "sub_no": "0",
+   "name": "Spritzgießmaschine",
+   "acq_date": "2020-12-30",
+   "method": null,
+   "label": "300001002 0 Spritzgießmaschine EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 18884568,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 18884568,
+    "kum_afa_open": 4511313,
+    "afa_gj": 1258972,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5770285,
+    "bw_prev": 14373255,
+    "bw_close": 13114283
+   },
+   "printed": {
+    "ahk_open": "188.845,68",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "188.845,68",
+    "kum_afa_open": "-45.113,13",
+    "afa_gj": "-12.589,72",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-57.702,85",
+    "bw_prev": "143.732,55",
+    "bw_close": "131.142,83"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A27",
+    "row": 27,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F27"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G27"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H27"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I27"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L27"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M27"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N27"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O27"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R27"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S27"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T27"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U27"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r16",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "300001003",
+   "sub_no": "0",
+   "name": "Bandsäge Nr. 32",
+   "acq_date": "2021-03-21",
+   "method": null,
+   "label": "300001003 0 Bandsäge Nr. 32 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 17954300,
+    "zugang": 0,
+    "abgang": 17954300,
+    "umbuchung": 0,
+    "ahk_close": 0,
+    "kum_afa_open": 5984767,
+    "afa_gj": 897715,
+    "afa_abgang": 6882482,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 11969533,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "179.543,00",
+    "zugang": "0",
+    "abgang": "-179.543,00",
+    "umbuchung": "0",
+    "ahk_close": "0",
+    "kum_afa_open": "-59.847,67",
+    "afa_gj": "-8.977,15",
+    "afa_abgang": "68.824,82",
+    "zuschreibung": "0",
+    "kum_afa_close": "0",
+    "bw_prev": "119.695,33",
+    "bw_close": "0"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A28",
+    "row": 28,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F28"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G28"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H28"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I28"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L28"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M28"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N28"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O28"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R28"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S28"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T28"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U28"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r17",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "300001004",
+   "sub_no": "0",
+   "name": "CNC-Fräszentrum 5-Achs",
+   "acq_date": "2025-01-13",
+   "method": null,
+   "label": "300001004 0 CNC-Fräszentrum 5-Achs EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 18405510,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 18405510,
+    "kum_afa_open": 0,
+    "afa_gj": 920276,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 920276,
+    "bw_prev": 0,
+    "bw_close": 17485234
+   },
+   "printed": {
+    "ahk_open": "0",
+    "zugang": "184.055,10",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "184.055,10",
+    "kum_afa_open": "0",
+    "afa_gj": "-9.202,76",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-9.202,76",
+    "bw_prev": "0",
+    "bw_close": "174.852,34"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A29",
+    "row": 29,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F29"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G29"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H29"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I29"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L29"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M29"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N29"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O29"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R29"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S29"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T29"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U29"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r18",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "300001005",
+   "sub_no": "0",
+   "name": "CNC-Drehmaschine",
+   "acq_date": "2025-02-26",
+   "method": null,
+   "label": "300001005 0 CNC-Drehmaschine EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 3053758,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3053758,
+    "kum_afa_open": 0,
+    "afa_gj": 84827,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 84827,
+    "bw_prev": 0,
+    "bw_close": 2968931
+   },
+   "printed": {
+    "ahk_open": "0",
+    "zugang": "30.537,58",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "30.537,58",
+    "kum_afa_open": "0",
+    "afa_gj": "-848,27",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-848,27",
+    "bw_prev": "0",
+    "bw_close": "29.689,31"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A30",
+    "row": 30,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F30"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G30"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H30"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I30"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L30"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M30"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N30"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O30"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R30"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S30"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T30"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U30"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r19",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "300001006",
+   "sub_no": "0",
+   "name": "CNC-Drehmaschine (gebraucht)",
+   "acq_date": "2025-06-07",
+   "method": null,
+   "label": "300001006 0 CNC-Drehmaschine (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": null,
+    "ahk_close": 28724704,
+    "kum_afa_open": 0,
+    "afa_gj": 159582,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 159582,
+    "bw_prev": 0,
+    "bw_close": 28565122
+   },
+   "printed": {
+    "ahk_open": "0",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "287.247,04",
+    "kum_afa_open": "0",
+    "afa_gj": "-1.595,82",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-1.595,82",
+    "bw_prev": "0",
+    "bw_close": "285.651,22"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A31",
+    "row": 31,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F31"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G31"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H31"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I31"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L31"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M31"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N31"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O31"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R31"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S31"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T31"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U31"
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "umbuchung": "transfer_incomplete"
+   }
+  },
+  {
+   "id": "r20",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "310001001",
+   "sub_no": "0",
+   "name": "Notstromaggregat Nr. 31",
+   "acq_date": "2011-12-11",
+   "method": null,
+   "label": "310001001 0 Notstromaggregat Nr. 31 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 7480255,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 7480255,
+    "kum_afa_open": 7480155,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 7480155,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "74.802,55",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "74.802,55",
+    "kum_afa_open": "-74.801,55",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-74.801,55",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A32",
+    "row": 32,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F32"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G32"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H32"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I32"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L32"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M32"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N32"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O32"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R32"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S32"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T32"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U32"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r21",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "310001002",
+   "sub_no": "0",
+   "name": "Absauganlage (gebraucht)",
+   "acq_date": "2014-07-07",
+   "method": null,
+   "label": "310001002 0 Absauganlage (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 2338929,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2338929,
+    "kum_afa_open": 1559286,
+    "afa_gj": 155929,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 1715215,
+    "bw_prev": 779643,
+    "bw_close": 623714
+   },
+   "printed": {
+    "ahk_open": "23.389,29",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "23.389,29",
+    "kum_afa_open": "-15.592,86",
+    "afa_gj": "-1.559,29",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-17.152,15",
+    "bw_prev": "7.796,43",
+    "bw_close": "6.237,14"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A33",
+    "row": 33,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F33"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G33"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H33"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I33"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L33"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M33"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N33"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O33"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R33"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S33"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T33"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U33"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r22",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "400001001",
+   "sub_no": "0",
+   "name": "Gabelstapler Nr. 20",
+   "acq_date": "2014-12-03",
+   "method": null,
+   "label": "400001001 0 Gabelstapler Nr. 20 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 541806,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 541806,
+    "kum_afa_open": 541706,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 541706,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "5.418,06",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "5.418,06",
+    "kum_afa_open": "-5.417,06",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-5.417,06",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A34",
+    "row": 34,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F34"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G34"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H34"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I34"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L34"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M34"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N34"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O34"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R34"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S34"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T34"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U34"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r23",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "400001001",
+   "sub_no": "1",
+   "name": "Gabelstapler Nr. 20 Zusatzmodul",
+   "acq_date": "2022-07-07",
+   "method": null,
+   "label": "400001001 1 Gabelstapler Nr. 20 Zusatzmodul EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 102722,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 102722,
+    "kum_afa_open": 25681,
+    "afa_gj": 12840,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 38521,
+    "bw_prev": 77041,
+    "bw_close": 64201
+   },
+   "printed": {
+    "ahk_open": "1.027,22",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "1.027,22",
+    "kum_afa_open": "-256,81",
+    "afa_gj": "-128,40",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-385,21",
+    "bw_prev": "770,41",
+    "bw_close": "642,01"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A35",
+    "row": 35,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F35"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G35"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H35"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I35"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L35"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M35"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N35"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O35"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R35"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S35"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T35"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U35"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r24",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "400001002",
+   "sub_no": "0",
+   "name": "Gabelstapler",
+   "acq_date": "2017-01-14",
+   "method": null,
+   "label": "400001002 0 Gabelstapler EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 449900,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 449900,
+    "kum_afa_open": 337425,
+    "afa_gj": 44990,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 382415,
+    "bw_prev": 112475,
+    "bw_close": 67485
+   },
+   "printed": {
+    "ahk_open": "4.499,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "4.499,00",
+    "kum_afa_open": "-3.374,25",
+    "afa_gj": "-449,90",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-3.824,15",
+    "bw_prev": "1.124,75",
+    "bw_close": "674,85"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A36",
+    "row": 36,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F36"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G36"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H36"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I36"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L36"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M36"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N36"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O36"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R36"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S36"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T36"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U36"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r25",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "400001003",
+   "sub_no": "0",
+   "name": "Gabelstapler Typ M364",
+   "acq_date": "2020-02-29",
+   "method": null,
+   "label": "400001003 0 Gabelstapler Typ M364 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 5939974,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5939974,
+    "kum_afa_open": 5246977,
+    "afa_gj": 692897,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 5939874,
+    "bw_prev": 692997,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "59.399,74",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "59.399,74",
+    "kum_afa_open": "-52.469,77",
+    "afa_gj": "-6.928,97",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-59.398,74",
+    "bw_prev": "6.929,97",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A37",
+    "row": 37,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F37"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G37"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H37"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I37"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L37"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M37"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N37"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O37"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R37"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S37"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T37"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U37"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r26",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "400001004",
+   "sub_no": "0",
+   "name": "Gabelstapler",
+   "acq_date": "2024-08-19",
+   "method": null,
+   "label": "400001004 0 Gabelstapler EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 159977,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 159977,
+    "kum_afa_open": 0,
+    "afa_gj": 18331,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 18331,
+    "bw_prev": 0,
+    "bw_close": 141646
+   },
+   "printed": {
+    "ahk_open": "0",
+    "zugang": "1.599,77",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "1.599,77",
+    "kum_afa_open": "0",
+    "afa_gj": "-183,31",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-183,31",
+    "bw_prev": "0",
+    "bw_close": "1.416,46"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A38",
+    "row": 38,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F38"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G38"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H38"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I38"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L38"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M38"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N38"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O38"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R38"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S38"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T38"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U38"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r27",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "410001001",
+   "sub_no": "0",
+   "name": "Aktenschrank",
+   "acq_date": "2009-01-04",
+   "method": null,
+   "label": "410001001 0 Aktenschrank EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 219459,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 219459,
+    "kum_afa_open": 219359,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 219359,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "2.194,59",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "2.194,59",
+    "kum_afa_open": "-2.193,59",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-2.193,59",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A39",
+    "row": 39,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F39"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G39"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H39"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I39"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L39"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M39"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N39"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O39"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R39"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S39"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T39"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U39"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r28",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "410001002",
+   "sub_no": "0",
+   "name": "Regalsystem Archiv",
+   "acq_date": "2018-09-10",
+   "method": null,
+   "label": "410001002 0 Regalsystem Archiv EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 117200,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 117200,
+    "kum_afa_open": 52590,
+    "afa_gj": 9015,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 61605,
+    "bw_prev": 64610,
+    "bw_close": 55595
+   },
+   "printed": {
+    "ahk_open": "1.172,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "1.172,00",
+    "kum_afa_open": "-525,90",
+    "afa_gj": "-90,15",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-616,05",
+    "bw_prev": "646,10",
+    "bw_close": "555,95"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A40",
+    "row": 40,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F40"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G40"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H40"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I40"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L40"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M40"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N40"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O40"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R40"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S40"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T40"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U40"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r29",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "410001003",
+   "sub_no": "0",
+   "name": "Rollcontainer Nr. 30",
+   "acq_date": "2025-01-28",
+   "method": null,
+   "label": "410001003 0 Rollcontainer Nr. 30 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 253178,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 253178,
+    "kum_afa_open": 0,
+    "afa_gj": 9738,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 9738,
+    "bw_prev": 0,
+    "bw_close": 243440
+   },
+   "printed": {
+    "ahk_open": "0",
+    "zugang": "2.531,78",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "2.531,78",
+    "kum_afa_open": "0",
+    "afa_gj": "-97,38",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-97,38",
+    "bw_prev": "0",
+    "bw_close": "2.434,40"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A41",
+    "row": 41,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F41"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G41"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H41"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I41"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L41"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M41"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N41"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O41"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R41"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S41"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T41"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U41"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r30",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "420001001",
+   "sub_no": "0",
+   "name": "Pkw Kompaktklasse (gebraucht)",
+   "acq_date": "2018-04-26",
+   "method": null,
+   "label": "420001001 0 Pkw Kompaktklasse (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 7372051,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 7372051,
+    "kum_afa_open": 7371951,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 7371951,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "73.720,51",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "73.720,51",
+    "kum_afa_open": "-73.719,51",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-73.719,51",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A42",
+    "row": 42,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F42"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G42"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H42"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I42"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L42"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M42"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N42"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O42"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R42"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S42"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T42"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U42"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r31",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "420001002",
+   "sub_no": "0",
+   "name": "Pkw Elektro Nr. 34",
+   "acq_date": "2020-01-16",
+   "method": null,
+   "label": "420001002 0 Pkw Elektro Nr. 34 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 3044589,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3044589,
+    "kum_afa_open": 2283442,
+    "afa_gj": 507431,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 2790873,
+    "bw_prev": 761147,
+    "bw_close": 253716
+   },
+   "printed": {
+    "ahk_open": "30.445,89",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "30.445,89",
+    "kum_afa_open": "-22.834,42",
+    "afa_gj": "-5.074,31",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-27.908,73",
+    "bw_prev": "7.611,47",
+    "bw_close": "2.537,16"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A43",
+    "row": 43,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F43"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G43"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H43"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I43"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L43"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M43"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N43"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O43"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R43"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S43"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T43"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U43"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r32",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "420001003",
+   "sub_no": "0",
+   "name": "Pkw Kombi Diesel Halle 4",
+   "acq_date": "2025-01-05",
+   "method": null,
+   "label": "420001003 0 Pkw Kombi Diesel Halle 4 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 5362978,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 5362978,
+    "kum_afa_open": 0,
+    "afa_gj": 446915,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 446915,
+    "bw_prev": 0,
+    "bw_close": 4916063
+   },
+   "printed": {
+    "ahk_open": "0",
+    "zugang": "53.629,78",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "53.629,78",
+    "kum_afa_open": "0",
+    "afa_gj": "-4.469,15",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-4.469,15",
+    "bw_prev": "0",
+    "bw_close": "49.160,63"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A44",
+    "row": 44,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F44"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G44"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H44"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I44"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L44"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M44"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N44"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O44"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R44"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S44"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T44"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U44"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r33",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "430001001",
+   "sub_no": "0",
+   "name": "Tandemanhänger Nr. 14",
+   "acq_date": "2010-11-27",
+   "method": null,
+   "label": "430001001 0 Tandemanhänger Nr. 14 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 3030200,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3030200,
+    "kum_afa_open": 3030100,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 3030100,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "30.302,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "30.302,00",
+    "kum_afa_open": "-30.301,00",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-30.301,00",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A45",
+    "row": 45,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F45"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G45"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H45"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I45"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L45"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M45"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N45"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O45"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R45"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S45"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T45"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U45"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r34",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "430001002",
+   "sub_no": "0",
+   "name": "Kastenwagen Nr. 20",
+   "acq_date": "2015-04-24",
+   "method": null,
+   "label": "430001002 0 Kastenwagen Nr. 20 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 3843000,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3843000,
+    "kum_afa_open": 3842900,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 3842900,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "38.430,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "38.430,00",
+    "kum_afa_open": "-38.429,00",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-38.429,00",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A46",
+    "row": 46,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F46"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G46"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H46"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I46"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L46"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M46"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N46"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O46"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R46"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S46"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T46"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U46"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r35",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "430001003",
+   "sub_no": "0",
+   "name": "Sattelzugmaschine (gebraucht)",
+   "acq_date": "2015-12-13",
+   "method": null,
+   "label": "430001003 0 Sattelzugmaschine (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 13577617,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 13577617,
+    "kum_afa_open": 12949024,
+    "afa_gj": 628493,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 13577517,
+    "bw_prev": 628593,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "135.776,17",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "135.776,17",
+    "kum_afa_open": "-129.490,24",
+    "afa_gj": "-6.284,93",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-135.775,17",
+    "bw_prev": "6.285,93",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A47",
+    "row": 47,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F47"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G47"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H47"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I47"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L47"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M47"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N47"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O47"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R47"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S47"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T47"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U47"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r36",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "430001003",
+   "sub_no": "1",
+   "name": "Sattelzugmaschine (gebraucht) Erweiterung",
+   "acq_date": "2017-11-25",
+   "method": null,
+   "label": "430001003 1 Sattelzugmaschine (gebraucht) Erweiterung EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 2874862,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2874862,
+    "kum_afa_open": 2129527,
+    "afa_gj": 319430,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 2448957,
+    "bw_prev": 745335,
+    "bw_close": 425905
+   },
+   "printed": {
+    "ahk_open": "28.748,62",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "28.748,62",
+    "kum_afa_open": "-21.295,27",
+    "afa_gj": "-3.194,30",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-24.489,57",
+    "bw_prev": "7.453,35",
+    "bw_close": "4.259,05"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A48",
+    "row": 48,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F48"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G48"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H48"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I48"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L48"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M48"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N48"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O48"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R48"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S48"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T48"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U48"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r37",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "430001004",
+   "sub_no": "0",
+   "name": "Tandemanhänger",
+   "acq_date": "2018-02-02",
+   "method": null,
+   "label": "430001004 0 Tandemanhänger EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 10608500,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 10608500,
+    "kum_afa_open": 7563468,
+    "afa_gj": 1178722,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 8742190,
+    "bw_prev": 3045032,
+    "bw_close": 1866310
+   },
+   "printed": {
+    "ahk_open": "106.085,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "106.085,00",
+    "kum_afa_open": "-75.634,68",
+    "afa_gj": "-11.787,22",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-87.421,90",
+    "bw_prev": "30.450,32",
+    "bw_close": "18.663,10"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A49",
+    "row": 49,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F49"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G49"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H49"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I49"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L49"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M49"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N49"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O49"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R49"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S49"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T49"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U49"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r38",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "430001004",
+   "sub_no": "1",
+   "name": "Tandemanhänger Erweiterung",
+   "acq_date": "2021-05-28",
+   "method": null,
+   "label": "430001004 1 Tandemanhänger Erweiterung EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 2001953,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2001953,
+    "kum_afa_open": 704391,
+    "afa_gj": 222439,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 926830,
+    "bw_prev": 1297562,
+    "bw_close": 1075123
+   },
+   "printed": {
+    "ahk_open": "20.019,53",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "20.019,53",
+    "kum_afa_open": "-7.043,91",
+    "afa_gj": "-2.224,39",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-9.268,30",
+    "bw_prev": "12.975,62",
+    "bw_close": "10.751,23"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A50",
+    "row": 50,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F50"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G50"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H50"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I50"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L50"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M50"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N50"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O50"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R50"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S50"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T50"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U50"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r39",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "440001001",
+   "sub_no": "0",
+   "name": "Notebook (gebraucht)",
+   "acq_date": "2012-03-12",
+   "method": null,
+   "label": "440001001 0 Notebook (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 3831534,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 3831534,
+    "kum_afa_open": 3831434,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 3831434,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "38.315,34",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "38.315,34",
+    "kum_afa_open": "-38.314,34",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-38.314,34",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A51",
+    "row": 51,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F51"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G51"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H51"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I51"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L51"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M51"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N51"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O51"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R51"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S51"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T51"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U51"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r40",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "440001002",
+   "sub_no": "0",
+   "name": "Serverschrank 42HE Typ R633",
+   "acq_date": "2014-10-30",
+   "method": null,
+   "label": "440001002 0 Serverschrank 42HE Typ R633 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 2855219,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 2855219,
+    "kum_afa_open": 2855119,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 2855119,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "28.552,19",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "28.552,19",
+    "kum_afa_open": "-28.551,19",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-28.551,19",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A52",
+    "row": 52,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F52"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G52"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H52"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I52"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L52"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M52"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N52"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O52"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R52"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S52"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T52"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U52"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r41",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "440001003",
+   "sub_no": "0",
+   "name": "NAS-Speicher",
+   "acq_date": "2020-01-15",
+   "method": null,
+   "label": "440001003 0 NAS-Speicher EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 114460,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 114460,
+    "kum_afa_open": 114360,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 114360,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "1.144,60",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "1.144,60",
+    "kum_afa_open": "-1.143,60",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-1.143,60",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A53",
+    "row": 53,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F53"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G53"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H53"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I53"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L53"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M53"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N53"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O53"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R53"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S53"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T53"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U53"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r42",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "440001003",
+   "sub_no": "1",
+   "name": "NAS-Speicher Erweiterung",
+   "acq_date": "2022-03-17",
+   "method": null,
+   "label": "440001003 1 NAS-Speicher Erweiterung EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 8252,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 8252,
+    "kum_afa_open": 6418,
+    "afa_gj": 1734,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 8152,
+    "bw_prev": 1834,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "82,52",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "82,52",
+    "kum_afa_open": "-64,18",
+    "afa_gj": "-17,34",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-81,52",
+    "bw_prev": "18,34",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A54",
+    "row": 54,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F54"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G54"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H54"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I54"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L54"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M54"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N54"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O54"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R54"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S54"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T54"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U54"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r43",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "440001004",
+   "sub_no": "0",
+   "name": "Serverschrank 42HE Halle 1",
+   "acq_date": "2020-10-11",
+   "method": null,
+   "label": "440001004 0 Serverschrank 42HE Halle 1 EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 124611,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 124611,
+    "kum_afa_open": 124511,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 124511,
+    "bw_prev": 100,
+    "bw_close": 100
+   },
+   "printed": {
+    "ahk_open": "1.246,11",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "1.246,11",
+    "kum_afa_open": "-1.245,11",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-1.245,11",
+    "bw_prev": "1,00",
+    "bw_close": "1,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A55",
+    "row": 55,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F55"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G55"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H55"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I55"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L55"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M55"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N55"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O55"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R55"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S55"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T55"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U55"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r44",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "490001001",
+   "sub_no": "0",
+   "name": "Messschieber digital",
+   "acq_date": "2023-07-14",
+   "method": null,
+   "label": "490001001 0 Messschieber digital EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 44280,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 44280,
+    "kum_afa_open": 44280,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 44280,
+    "bw_prev": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "442,80",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "442,80",
+    "kum_afa_open": "-442,80",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-442,80",
+    "bw_prev": "0",
+    "bw_close": "0"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A56",
+    "row": 56,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F56"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G56"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H56"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I56"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L56"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M56"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N56"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O56"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R56"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S56"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T56"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U56"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r45",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "490001002",
+   "sub_no": "0",
+   "name": "Stehleuchte",
+   "acq_date": "2024-12-02",
+   "method": null,
+   "label": "490001002 0 Stehleuchte EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 0,
+    "zugang": 78300,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 78300,
+    "kum_afa_open": 0,
+    "afa_gj": 78300,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 78300,
+    "bw_prev": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "0",
+    "zugang": "783,00",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "783,00",
+    "kum_afa_open": "0",
+    "afa_gj": "-783,00",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-783,00",
+    "bw_prev": "0",
+    "bw_close": "0"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A57",
+    "row": 57,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F57"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G57"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H57"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I57"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L57"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M57"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N57"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O57"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R57"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S57"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T57"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U57"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r46",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "500001001",
+   "sub_no": "0",
+   "name": "AiB CNC-Drehmaschine (gebraucht)",
+   "acq_date": "2024-05-26",
+   "method": null,
+   "label": "500001001 0 AiB CNC-Drehmaschine (gebraucht) EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 9411204,
+    "zugang": 19313500,
+    "abgang": 0,
+    "umbuchung": -28724704,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 9411204,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "94.112,04",
+    "zugang": "193.135,00",
+    "abgang": "0",
+    "umbuchung": "-287.247,04",
+    "ahk_close": "0",
+    "kum_afa_open": "0",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "0",
+    "bw_prev": "94.112,04",
+    "bw_close": "0"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A58",
+    "row": 58,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F58"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G58"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H58"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I58"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L58"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M58"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N58"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O58"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R58"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S58"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T58"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U58"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r47",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "600001001",
+   "sub_no": "0",
+   "name": "Geschäftsanteile Genossenschaftsbank",
+   "acq_date": "2011-10-20",
+   "method": null,
+   "label": "600001001 0 Geschäftsanteile Genossenschaftsbank EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 4177262,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 4177262,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 4177262,
+    "bw_close": 4177262
+   },
+   "printed": {
+    "ahk_open": "41.772,62",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "41.772,62",
+    "kum_afa_open": "0",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "0",
+    "bw_prev": "41.772,62",
+    "bw_close": "41.772,62"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A59",
+    "row": 59,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F59"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G59"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H59"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I59"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L59"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M59"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N59"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O59"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R59"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S59"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T59"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U59"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r48",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "600001002",
+   "sub_no": "0",
+   "name": "Geschäftsanteile Genossenschaftsbank",
+   "acq_date": "2012-02-27",
+   "method": null,
+   "label": "600001002 0 Geschäftsanteile Genossenschaftsbank EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 205600,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 205600,
+    "kum_afa_open": 61680,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 30840,
+    "kum_afa_close": 30840,
+    "bw_prev": 143920,
+    "bw_close": 174760
+   },
+   "printed": {
+    "ahk_open": "2.056,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "2.056,00",
+    "kum_afa_open": "-616,80",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "308,40",
+    "kum_afa_close": "-308,40",
+    "bw_prev": "1.439,20",
+    "bw_close": "1.747,60"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A60",
+    "row": 60,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F60"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G60"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H60"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I60"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L60"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M60"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N60"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O60"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R60"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S60"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T60"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U60"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r49",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "600001003",
+   "sub_no": "0",
+   "name": "Beteiligung Einkaufsgenossenschaft",
+   "acq_date": "2013-01-07",
+   "method": null,
+   "label": "600001003 0 Beteiligung Einkaufsgenossenschaft EUR",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 13444700,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 13444700,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 13444700,
+    "bw_close": 13444700
+   },
+   "printed": {
+    "ahk_open": "134.447,00",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "134.447,00",
+    "kum_afa_open": "0",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "0",
+    "bw_prev": "134.447,00",
+    "bw_close": "134.447,00"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A61",
+    "row": 61,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F61"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G61"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H61"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I61"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L61"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M61"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N61"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O61"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R61"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S61"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T61"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U61"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r50",
+   "kind": "grand_total",
+   "level": 1,
+   "year": null,
+   "asset_no": "Buchungskreis 7335",
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "Buchungskreis 7335",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 440717949,
+    "zugang": 46799701,
+    "abgang": 17954300,
+    "umbuchung": null,
+    "ahk_close": 469563350,
+    "kum_afa_open": 274097475,
+    "afa_gj": 11167665,
+    "afa_abgang": 6882482,
+    "zuschreibung": 30840,
+    "kum_afa_close": 278351818,
+    "bw_prev": 166620474,
+    "bw_close": 191211532
+   },
+   "printed": {
+    "ahk_open": "4.407.179,49",
+    "zugang": "467.997,01",
+    "abgang": "-179.543,00",
+    "umbuchung": "-287.247,04",
+    "ahk_close": "4.695.633,50",
+    "kum_afa_open": "-2.740.974,75",
+    "afa_gj": "-111.676,65",
+    "afa_abgang": "68.824,82",
+    "zuschreibung": "308,40",
+    "kum_afa_close": "-2.783.518,18",
+    "bw_prev": "1.666.204,74",
+    "bw_close": "1.912.115,32"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A62",
+    "row": 62,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F62"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G62"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H62"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I62"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L62"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M62"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N62"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O62"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R62"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S62"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T62"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U62"
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "umbuchung": "transfer_incomplete"
+   }
+  },
+  {
+   "id": "r51",
+   "kind": "grand_total",
+   "level": 2,
+   "year": null,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "",
+   "context": [
+    "Jahresabschluss per 30.06.2025",
+    "BK: 7335"
+   ],
+   "fields": {
+    "ahk_open": 440717949,
+    "zugang": 46799701,
+    "abgang": 17954300,
+    "umbuchung": null,
+    "ahk_close": 469563350,
+    "kum_afa_open": 274097475,
+    "afa_gj": 11167665,
+    "afa_abgang": 6882482,
+    "zuschreibung": 30840,
+    "kum_afa_close": 278351818,
+    "bw_prev": 166620474,
+    "bw_close": 191211532
+   },
+   "printed": {
+    "ahk_open": "4.407.179,49",
+    "zugang": "467.997,01",
+    "abgang": "-179.543,00",
+    "umbuchung": "-287.247,04",
+    "ahk_close": "4.695.633,50",
+    "kum_afa_open": "-2.740.974,75",
+    "afa_gj": "-111.676,65",
+    "afa_abgang": "68.824,82",
+    "zuschreibung": "308,40",
+    "kum_afa_close": "-2.783.518,18",
+    "bw_prev": "1.666.204,74",
+    "bw_close": "1.912.115,32"
+   },
+   "pointer": {
+    "sheet": "Sheet1",
+    "cell": "A63",
+    "row": 63,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet1",
+      "cell": "F63"
+     },
+     "zugang": {
+      "sheet": "Sheet1",
+      "cell": "G63"
+     },
+     "abgang": {
+      "sheet": "Sheet1",
+      "cell": "H63"
+     },
+     "umbuchung": {
+      "sheet": "Sheet1",
+      "cell": "I63"
+     },
+     "ahk_close": {
+      "sheet": "Sheet1",
+      "cell": "L63"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet1",
+      "cell": "M63"
+     },
+     "afa_gj": {
+      "sheet": "Sheet1",
+      "cell": "N63"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet1",
+      "cell": "O63"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet1",
+      "cell": "R63"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet1",
+      "cell": "S63"
+     },
+     "bw_prev": {
+      "sheet": "Sheet1",
+      "cell": "T63"
+     },
+     "bw_close": {
+      "sheet": "Sheet1",
+      "cell": "U63"
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "umbuchung": "transfer_incomplete"
+   }
+  },
+  {
+   "id": "r58",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "EDV-Software",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 1000 EDV-Software EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 23842692,
+    "zugang": 172500,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 24015192,
+    "kum_afa_open": 23576208,
+    "afa_gj": 288833,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 23865041,
+    "bw_prev": 266484,
+    "bw_close": 150151
+   },
+   "printed": {
+    "ahk_open": "238.426,92",
+    "zugang": "1.725,00",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "240.151,92",
+    "kum_afa_open": "-235.762,08",
+    "afa_gj": "-2.888,33",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-238.650,41",
+    "bw_prev": "2.664,84",
+    "bw_close": "1.501,51"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A2",
+    "row": 2,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E2"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F2"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G2"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H2"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L2"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N2"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O2"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P2"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S2"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T2"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U2"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V2"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r59",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Grund und Boden",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 2000 Grund und Boden EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 13260719,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 13260719,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 13260719,
+    "bw_close": 13260719
+   },
+   "printed": {
+    "ahk_open": "132.607,19",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "132.607,19",
+    "kum_afa_open": "0",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "0",
+    "bw_prev": "132.607,19",
+    "bw_close": "132.607,19"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A3",
+    "row": 3,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E3"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F3"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G3"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H3"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L3"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N3"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O3"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P3"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S3"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T3"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U3"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V3"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r60",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Fabrikbauten",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 2100 Fabrikbauten EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 267193103,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 267193103,
+    "kum_afa_open": 175827075,
+    "afa_gj": 3230256,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 179057331,
+    "bw_prev": 91366028,
+    "bw_close": 88135772
+   },
+   "printed": {
+    "ahk_open": "2.671.931,03",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "2.671.931,03",
+    "kum_afa_open": "-1.758.270,75",
+    "afa_gj": "-32.302,56",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-1.790.573,31",
+    "bw_prev": "913.660,28",
+    "bw_close": "881.357,72"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A4",
+    "row": 4,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E4"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F4"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G4"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H4"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L4"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N4"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O4"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P4"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S4"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T4"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U4"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V4"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r61",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Maschinen",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 3000 Maschinen EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 38661296,
+    "zugang": 21459268,
+    "abgang": 17954300,
+    "umbuchung": null,
+    "ahk_close": 70890968,
+    "kum_afa_open": 12318408,
+    "afa_gj": 3321372,
+    "afa_abgang": 6882482,
+    "zuschreibung": 0,
+    "kum_afa_close": 8757298,
+    "bw_prev": 26342888,
+    "bw_close": 62133670
+   },
+   "printed": {
+    "ahk_open": "386.612,96",
+    "zugang": "214.592,68",
+    "abgang": "-179.543,00",
+    "umbuchung": "0",
+    "ahk_close": "708.909,68",
+    "kum_afa_open": "-123.184,08",
+    "afa_gj": "-33.213,72",
+    "afa_abgang": "68.824,82",
+    "zuschreibung": "0",
+    "kum_afa_close": "-87.572,98",
+    "bw_prev": "263.428,88",
+    "bw_close": "621.336,70"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A5",
+    "row": 5,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E5"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F5"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G5"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H5"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L5"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N5"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O5"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P5"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S5"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T5"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U5"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V5"
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "umbuchung": "transfer_incomplete"
+   }
+  },
+  {
+   "id": "r62",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Technische Anlagen",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 3100 Technische Anlagen EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 9819184,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 9819184,
+    "kum_afa_open": 9039441,
+    "afa_gj": 155929,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 9195370,
+    "bw_prev": 779743,
+    "bw_close": 623814
+   },
+   "printed": {
+    "ahk_open": "98.191,84",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "98.191,84",
+    "kum_afa_open": "-90.394,41",
+    "afa_gj": "-1.559,29",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-91.953,70",
+    "bw_prev": "7.797,43",
+    "bw_close": "6.238,14"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A6",
+    "row": 6,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E6"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F6"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G6"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H6"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L6"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N6"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O6"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P6"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S6"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T6"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U6"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V6"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r63",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Betriebsausstattung",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 4000 Betriebsausstattung EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 7034402,
+    "zugang": 159977,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 7194379,
+    "kum_afa_open": 6151789,
+    "afa_gj": 769058,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 6920847,
+    "bw_prev": 882613,
+    "bw_close": 273532
+   },
+   "printed": {
+    "ahk_open": "70.344,02",
+    "zugang": "1.599,77",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "71.943,79",
+    "kum_afa_open": "-61.517,89",
+    "afa_gj": "-7.690,58",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-69.208,47",
+    "bw_prev": "8.826,13",
+    "bw_close": "2.735,32"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A7",
+    "row": 7,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E7"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F7"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G7"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H7"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L7"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N7"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O7"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P7"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S7"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T7"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U7"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V7"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r64",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Büroeinrichtung",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 4100 Büroeinrichtung EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 336659,
+    "zugang": 253178,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 589837,
+    "kum_afa_open": 271949,
+    "afa_gj": 18753,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 290702,
+    "bw_prev": 64710,
+    "bw_close": 299135
+   },
+   "printed": {
+    "ahk_open": "3.366,59",
+    "zugang": "2.531,78",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "5.898,37",
+    "kum_afa_open": "-2.719,49",
+    "afa_gj": "-187,53",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-2.907,02",
+    "bw_prev": "647,10",
+    "bw_close": "2.991,35"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A8",
+    "row": 8,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E8"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F8"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G8"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H8"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L8"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N8"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O8"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P8"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S8"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T8"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U8"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V8"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r65",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Pkw",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 4200 Pkw EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 10416640,
+    "zugang": 5362978,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 15779618,
+    "kum_afa_open": 9655393,
+    "afa_gj": 954346,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 10609739,
+    "bw_prev": 761247,
+    "bw_close": 5169879
+   },
+   "printed": {
+    "ahk_open": "104.166,40",
+    "zugang": "53.629,78",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "157.796,18",
+    "kum_afa_open": "-96.553,93",
+    "afa_gj": "-9.543,46",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-106.097,39",
+    "bw_prev": "7.612,47",
+    "bw_close": "51.698,79"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A9",
+    "row": 9,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E9"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F9"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G9"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H9"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L9"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N9"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O9"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P9"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S9"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T9"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U9"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V9"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r66",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Lkw",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 4300 Lkw EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 35936132,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 35936132,
+    "kum_afa_open": 30219410,
+    "afa_gj": 2349084,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 32568494,
+    "bw_prev": 5716722,
+    "bw_close": 3367638
+   },
+   "printed": {
+    "ahk_open": "359.361,32",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "359.361,32",
+    "kum_afa_open": "-302.194,10",
+    "afa_gj": "-23.490,84",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-325.684,94",
+    "bw_prev": "57.167,22",
+    "bw_close": "33.676,38"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A10",
+    "row": 10,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E10"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F10"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G10"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H10"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L10"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N10"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O10"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P10"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S10"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T10"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U10"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V10"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r67",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "EDV-Hardware",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 4400 EDV-Hardware EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 6934076,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 6934076,
+    "kum_afa_open": 6931842,
+    "afa_gj": 1734,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 6933576,
+    "bw_prev": 2234,
+    "bw_close": 500
+   },
+   "printed": {
+    "ahk_open": "69.340,76",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "69.340,76",
+    "kum_afa_open": "-69.318,42",
+    "afa_gj": "-17,34",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-69.335,76",
+    "bw_prev": "22,34",
+    "bw_close": "5,00"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A11",
+    "row": 11,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E11"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F11"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G11"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H11"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L11"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N11"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O11"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P11"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S11"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T11"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U11"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V11"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r68",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "GWG",
+   "acq_date": null,
+   "method": "GWG",
+   "label": "7335 4900 GWG EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 44280,
+    "zugang": 78300,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 122580,
+    "kum_afa_open": 44280,
+    "afa_gj": 78300,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 122580,
+    "bw_prev": 0,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "442,80",
+    "zugang": "783,00",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "1.225,80",
+    "kum_afa_open": "-442,80",
+    "afa_gj": "-783,00",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "-1.225,80",
+    "bw_prev": "0",
+    "bw_close": "0"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A12",
+    "row": 12,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E12"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F12"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G12"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H12"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L12"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N12"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O12"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P12"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S12"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T12"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U12"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V12"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r69",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Anlagen im Bau",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 5000 Anlagen im Bau EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 9411204,
+    "zugang": 19313500,
+    "abgang": 0,
+    "umbuchung": -28724704,
+    "ahk_close": 0,
+    "kum_afa_open": 0,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 0,
+    "kum_afa_close": 0,
+    "bw_prev": 9411204,
+    "bw_close": 0
+   },
+   "printed": {
+    "ahk_open": "94.112,04",
+    "zugang": "193.135,00",
+    "abgang": "0",
+    "umbuchung": "-287.247,04",
+    "ahk_close": "0",
+    "kum_afa_open": "0",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "0",
+    "kum_afa_close": "0",
+    "bw_prev": "94.112,04",
+    "bw_close": "0"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A13",
+    "row": 13,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E13"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F13"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G13"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H13"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L13"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N13"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O13"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P13"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S13"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T13"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U13"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V13"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r70",
+   "kind": "asset",
+   "level": 0,
+   "year": null,
+   "asset_no": "7335",
+   "sub_no": "",
+   "name": "Beteiligungen",
+   "acq_date": null,
+   "method": null,
+   "label": "7335 6000 Beteiligungen EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 17827562,
+    "zugang": 0,
+    "abgang": 0,
+    "umbuchung": 0,
+    "ahk_close": 17827562,
+    "kum_afa_open": 61680,
+    "afa_gj": 0,
+    "afa_abgang": 0,
+    "zuschreibung": 30840,
+    "kum_afa_close": 30840,
+    "bw_prev": 17765882,
+    "bw_close": 17796722
+   },
+   "printed": {
+    "ahk_open": "178.275,62",
+    "zugang": "0",
+    "abgang": "0",
+    "umbuchung": "0",
+    "ahk_close": "178.275,62",
+    "kum_afa_open": "-616,80",
+    "afa_gj": "0",
+    "afa_abgang": "0",
+    "zuschreibung": "308,40",
+    "kum_afa_close": "-308,40",
+    "bw_prev": "177.658,82",
+    "bw_close": "177.967,22"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A14",
+    "row": 14,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E14"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F14"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G14"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H14"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L14"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N14"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O14"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P14"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S14"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T14"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U14"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V14"
+     }
+    }
+   },
+   "flags": {}
+  },
+  {
+   "id": "r71",
+   "kind": "grand_total",
+   "level": 1,
+   "year": null,
+   "asset_no": null,
+   "sub_no": null,
+   "name": "Buchungskreis 7335",
+   "acq_date": null,
+   "method": null,
+   "label": "Buchungskreis 7335 EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 440717949,
+    "zugang": 46799701,
+    "abgang": 17954300,
+    "umbuchung": null,
+    "ahk_close": 469563350,
+    "kum_afa_open": 274097475,
+    "afa_gj": 11167665,
+    "afa_abgang": 6882482,
+    "zuschreibung": 30840,
+    "kum_afa_close": 278351818,
+    "bw_prev": 166620474,
+    "bw_close": 191211532
+   },
+   "printed": {
+    "ahk_open": "4.407.179,49",
+    "zugang": "467.997,01",
+    "abgang": "-179.543,00",
+    "umbuchung": "-287.247,04",
+    "ahk_close": "4.695.633,50",
+    "kum_afa_open": "-2.740.974,75",
+    "afa_gj": "-111.676,65",
+    "afa_abgang": "68.824,82",
+    "zuschreibung": "308,40",
+    "kum_afa_close": "-2.783.518,18",
+    "bw_prev": "1.666.204,74",
+    "bw_close": "1.912.115,32"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A15",
+    "row": 15,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E15"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F15"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G15"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H15"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L15"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N15"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O15"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P15"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S15"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T15"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U15"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V15"
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "umbuchung": "transfer_incomplete"
+   }
+  },
+  {
+   "id": "r72",
+   "kind": "grand_total",
+   "level": 0,
+   "year": null,
+   "asset_no": null,
+   "sub_no": null,
+   "name": null,
+   "acq_date": null,
+   "method": null,
+   "label": "EUR",
+   "context": [],
+   "fields": {
+    "ahk_open": 440717949,
+    "zugang": 46799701,
+    "abgang": 17954300,
+    "umbuchung": null,
+    "ahk_close": 469563350,
+    "kum_afa_open": 274097475,
+    "afa_gj": 11167665,
+    "afa_abgang": 6882482,
+    "zuschreibung": 30840,
+    "kum_afa_close": 278351818,
+    "bw_prev": 166620474,
+    "bw_close": 191211532
+   },
+   "printed": {
+    "ahk_open": "4.407.179,49",
+    "zugang": "467.997,01",
+    "abgang": "-179.543,00",
+    "umbuchung": "-287.247,04",
+    "ahk_close": "4.695.633,50",
+    "kum_afa_open": "-2.740.974,75",
+    "afa_gj": "-111.676,65",
+    "afa_abgang": "68.824,82",
+    "zuschreibung": "308,40",
+    "kum_afa_close": "-2.783.518,18",
+    "bw_prev": "1.666.204,74",
+    "bw_close": "1.912.115,32"
+   },
+   "pointer": {
+    "sheet": "Sheet2",
+    "cell": "A16",
+    "row": 16,
+    "fields": {
+     "ahk_open": {
+      "sheet": "Sheet2",
+      "cell": "E16"
+     },
+     "zugang": {
+      "sheet": "Sheet2",
+      "cell": "F16"
+     },
+     "abgang": {
+      "sheet": "Sheet2",
+      "cell": "G16"
+     },
+     "umbuchung": {
+      "sheet": "Sheet2",
+      "cell": "H16"
+     },
+     "ahk_close": {
+      "sheet": "Sheet2",
+      "cell": "L16"
+     },
+     "kum_afa_open": {
+      "sheet": "Sheet2",
+      "cell": "N16"
+     },
+     "afa_gj": {
+      "sheet": "Sheet2",
+      "cell": "O16"
+     },
+     "afa_abgang": {
+      "sheet": "Sheet2",
+      "cell": "P16"
+     },
+     "zuschreibung": {
+      "sheet": "Sheet2",
+      "cell": "S16"
+     },
+     "kum_afa_close": {
+      "sheet": "Sheet2",
+      "cell": "T16"
+     },
+     "bw_prev": {
+      "sheet": "Sheet2",
+      "cell": "U16"
+     },
+     "bw_close": {
+      "sheet": "Sheet2",
+      "cell": "V16"
+     }
+    }
+   },
+   "flags": {
+    "*": "law_fail: -ahk_open -zugang +abgang -umbuchung +ahk_close = 0",
+    "umbuchung": "transfer_incomplete"
+   }
+  }
+ ],
+ "detections": [
+  {
+   "type": "transfer_breaks_cost_law",
+   "evidence": "a transfer is missing from a row although its cost at year end includes it",
+   "where": [
+    {
+     "row": "r1",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet1",
+      "cell": "A9",
+      "row": 9
+     }
+    },
+    {
+     "row": "r19",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet1",
+      "cell": "A31",
+      "row": 31
+     }
+    },
+    {
+     "row": "r50",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet1",
+      "cell": "A62",
+      "row": 62
+     }
+    },
+    {
+     "row": "r51",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet1",
+      "cell": "A63",
+      "row": 63
+     }
+    },
+    {
+     "row": "r61",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet2",
+      "cell": "A5",
+      "row": 5
+     }
+    },
+    {
+     "row": "r71",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet2",
+      "cell": "A15",
+      "row": 15
+     }
+    },
+    {
+     "row": "r72",
+     "field": "umbuchung",
+     "pointer": {
+      "sheet": "Sheet2",
+      "cell": "A16",
+      "row": 16
+     }
+    }
+   ]
+  }
+ ]
+}

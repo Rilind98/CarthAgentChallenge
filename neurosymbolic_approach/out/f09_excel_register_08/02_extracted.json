@@ -1,0 +1,9939 @@
+{
+ "doc_id": "f09_excel_register_08",
+ "rows": [
+  {
+   "id": "r1",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "100001001 0 Warenwirtschaft Modul Lager Typ K329",
+   "year": 2025,
+   "identity": {
+    "asset_no": "100001001",
+    "sub_no": "0",
+    "name": "Warenwirtschaft Modul Lager Typ K329",
+    "acq_date": "2005-07-23"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E5"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E5"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F5"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F5"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G5"
+     ],
+     "text": "8.009,04",
+     "cents": 800904,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G5"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H5"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H5"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I5"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I5"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J5"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J5"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K5"
+     ],
+     "text": "8.009,04",
+     "cents": 800904,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K5"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L5"
+     ],
+     "text": "8.008,04",
+     "cents": 800804,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L5"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M5"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M5"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N5"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N5"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O5"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O5"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P5"
+     ],
+     "text": "8.008,04",
+     "cents": 800804,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P5"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A5",
+    "row": 5
+   }
+  },
+  {
+   "id": "r2",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "100001002 0 Finanzbuchhaltung Software",
+   "year": 2025,
+   "identity": {
+    "asset_no": "100001002",
+    "sub_no": "0",
+    "name": "Finanzbuchhaltung Software",
+    "acq_date": "2013-09-21"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E6"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E6"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F6"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F6"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G6"
+     ],
+     "text": "3.796,00",
+     "cents": 379600,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G6"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H6"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H6"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I6"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I6"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J6"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J6"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K6"
+     ],
+     "text": "3.796,00",
+     "cents": 379600,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K6"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L6"
+     ],
+     "text": "3.795,00",
+     "cents": 379500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L6"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M6"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M6"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N6"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N6"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O6"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O6"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P6"
+     ],
+     "text": "3.795,00",
+     "cents": 379500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P6"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A6",
+    "row": 6
+   }
+  },
+  {
+   "id": "r3",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "100001002 1 Finanzbuchhaltung Software Zusatzmodul",
+   "year": 2025,
+   "identity": {
+    "asset_no": "100001002",
+    "sub_no": "1",
+    "name": "Finanzbuchhaltung Software Zusatzmodul",
+    "acq_date": "2024-10-07"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E7"
+     ],
+     "text": "978,26",
+     "cents": 97826,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E7"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F7"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G7"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H7"
+     ],
+     "text": "1.086,96",
+     "cents": 108696,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H7"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I7"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J7"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K7"
+     ],
+     "text": "1.086,96",
+     "cents": 108696,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K7"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L7"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M7"
+     ],
+     "text": "108,70",
+     "cents": 10870,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M7"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N7"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O7"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O7"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P7"
+     ],
+     "text": "108,70",
+     "cents": 10870,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P7"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A7",
+    "row": 7
+   }
+  },
+  {
+   "id": "r4",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "100001003 0 Office-Lizenzen (gebraucht)",
+   "year": 2025,
+   "identity": {
+    "asset_no": "100001003",
+    "sub_no": "0",
+    "name": "Office-Lizenzen (gebraucht)",
+    "acq_date": "2018-02-24"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E8"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E8"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F8"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F8"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G8"
+     ],
+     "text": "3.675,37",
+     "cents": 367537,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G8"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H8"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I8"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J8"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K8"
+     ],
+     "text": "3.675,37",
+     "cents": 367537,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K8"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L8"
+     ],
+     "text": "3.674,37",
+     "cents": 367437,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L8"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M8"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N8"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O8"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O8"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P8"
+     ],
+     "text": "3.674,37",
+     "cents": 367437,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P8"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A8",
+    "row": 8
+   }
+  },
+  {
+   "id": "r5",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "100001004 0 Office-Lizenzen",
+   "year": 2025,
+   "identity": {
+    "asset_no": "100001004",
+    "sub_no": "0",
+    "name": "Office-Lizenzen",
+    "acq_date": "2020-02-15"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E9"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E9"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F9"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F9"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G9"
+     ],
+     "text": "15.103,24",
+     "cents": 1510324,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G9"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H9"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I9"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J9"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K9"
+     ],
+     "text": "15.103,24",
+     "cents": 1510324,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K9"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L9"
+     ],
+     "text": "15.102,24",
+     "cents": 1510224,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L9"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M9"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N9"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O9"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O9"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P9"
+     ],
+     "text": "15.102,24",
+     "cents": 1510224,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P9"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A9",
+    "row": 9
+   }
+  },
+  {
+   "id": "r6",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "100001004 1 Office-Lizenzen Erweiterung",
+   "year": 2025,
+   "identity": {
+    "asset_no": "100001004",
+    "sub_no": "1",
+    "name": "Office-Lizenzen Erweiterung",
+    "acq_date": "2023-06-02"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E10"
+     ],
+     "text": "1.362,60",
+     "cents": 136260,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E10"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F10"
+     ],
+     "text": "2.530,54",
+     "cents": 253054,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F10"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G10"
+     ],
+     "text": "3.503,83",
+     "cents": 350383,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G10"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H10"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I10"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J10"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K10"
+     ],
+     "text": "3.503,83",
+     "cents": 350383,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K10"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L10"
+     ],
+     "text": "973,29",
+     "cents": 97329,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L10"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M10"
+     ],
+     "text": "1.167,94",
+     "cents": 116794,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M10"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N10"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O10"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O10"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P10"
+     ],
+     "text": "2.141,23",
+     "cents": 214123,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P10"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A10",
+    "row": 10
+   }
+  },
+  {
+   "id": "r7",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 1000 EDV-Software",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E11"
+     ],
+     "text": "2.344,86",
+     "cents": 234486,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E11"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F11"
+     ],
+     "text": "2.534,54",
+     "cents": 253454,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F11"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G11"
+     ],
+     "text": "34.087,48",
+     "cents": 3408748,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G11"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H11"
+     ],
+     "text": "1.086,96",
+     "cents": 108696,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H11"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I11"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J11"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K11"
+     ],
+     "text": "35.174,44",
+     "cents": 3517444,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K11"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L11"
+     ],
+     "text": "31.552,94",
+     "cents": 3155294,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L11"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M11"
+     ],
+     "text": "1.276,64",
+     "cents": 127664,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M11"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N11"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O11"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O11"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P11"
+     ],
+     "text": "32.829,58",
+     "cents": 3282958,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P11"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A11",
+    "row": 11
+   }
+  },
+  {
+   "id": "r8",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "200001001 0 Grund und Boden Betriebsgelände",
+   "year": 2025,
+   "identity": {
+    "asset_no": "200001001",
+    "sub_no": "0",
+    "name": "Grund und Boden Betriebsgelände",
+    "acq_date": "2003-08-21"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E12"
+     ],
+     "text": "417.212,00",
+     "cents": 41721200,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E12"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F12"
+     ],
+     "text": "417.212,00",
+     "cents": 41721200,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F12"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G12"
+     ],
+     "text": "417.212,00",
+     "cents": 41721200,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G12"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H12"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H12"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I12"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I12"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J12"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J12"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K12"
+     ],
+     "text": "417.212,00",
+     "cents": 41721200,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K12"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L12"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L12"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M12"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M12"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N12"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N12"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O12"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O12"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P12"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P12"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A12",
+    "row": 12
+   }
+  },
+  {
+   "id": "r9",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "200001002 0 Erweiterungsfläche",
+   "year": 2025,
+   "identity": {
+    "asset_no": "200001002",
+    "sub_no": "0",
+    "name": "Erweiterungsfläche",
+    "acq_date": "2016-07-31"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E13"
+     ],
+     "text": "267.743,00",
+     "cents": 26774300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E13"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F13"
+     ],
+     "text": "267.743,00",
+     "cents": 26774300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F13"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G13"
+     ],
+     "text": "267.743,00",
+     "cents": 26774300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G13"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H13"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I13"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J13"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K13"
+     ],
+     "text": "267.743,00",
+     "cents": 26774300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K13"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L13"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M13"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N13"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O13"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P13"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P13"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A13",
+    "row": 13
+   }
+  },
+  {
+   "id": "r10",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 2000 Grund und Boden",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E14"
+     ],
+     "text": "684.955,00",
+     "cents": 68495500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E14"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F14"
+     ],
+     "text": "684.955,00",
+     "cents": 68495500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F14"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G14"
+     ],
+     "text": "684.955,00",
+     "cents": 68495500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G14"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H14"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I14"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J14"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K14"
+     ],
+     "text": "684.955,00",
+     "cents": 68495500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K14"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L14"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M14"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N14"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O14"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P14"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P14"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A14",
+    "row": 14
+   }
+  },
+  {
+   "id": "r11",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "210001001 0 Anbau Sozialtrakt",
+   "year": 2025,
+   "identity": {
+    "asset_no": "210001001",
+    "sub_no": "0",
+    "name": "Anbau Sozialtrakt",
+    "acq_date": "1987-08-12"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E15"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E15"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F15"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F15"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G15"
+     ],
+     "text": "1.824.034,00",
+     "cents": 182403400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G15"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H15"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I15"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J15"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K15"
+     ],
+     "text": "1.824.034,00",
+     "cents": 182403400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K15"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L15"
+     ],
+     "text": "1.824.033,00",
+     "cents": 182403300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L15"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M15"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N15"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O15"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O15"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P15"
+     ],
+     "text": "1.824.033,00",
+     "cents": 182403300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P15"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A15",
+    "row": 15
+   }
+  },
+  {
+   "id": "r12",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "210001002 0 Lagerhalle",
+   "year": 2025,
+   "identity": {
+    "asset_no": "210001002",
+    "sub_no": "0",
+    "name": "Lagerhalle",
+    "acq_date": "2020-02-23"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E16"
+     ],
+     "text": "585.160,00",
+     "cents": 58516000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E16"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F16"
+     ],
+     "text": "606.183,72",
+     "cents": 60618372,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F16"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G16"
+     ],
+     "text": "693.782,52",
+     "cents": 69378252,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G16"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H16"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H16"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I16"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I16"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J16"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J16"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K16"
+     ],
+     "text": "693.782,52",
+     "cents": 69378252,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K16"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L16"
+     ],
+     "text": "87.598,80",
+     "cents": 8759880,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L16"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M16"
+     ],
+     "text": "21.023,72",
+     "cents": 2102372,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M16"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N16"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N16"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O16"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O16"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P16"
+     ],
+     "text": "108.622,52",
+     "cents": 10862252,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P16"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A16",
+    "row": 16
+   }
+  },
+  {
+   "id": "r13",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "210001004 0 Lagerhalle",
+   "year": 2025,
+   "identity": {
+    "asset_no": "210001004",
+    "sub_no": "0",
+    "name": "Lagerhalle",
+    "acq_date": "2022-02-13"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E17"
+     ],
+     "text": "1.248.308,03",
+     "cents": 124830803,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E17"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F17"
+     ],
+     "text": "1.290.150,76",
+     "cents": 129015076,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F17"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G17"
+     ],
+     "text": "1.380.810,00",
+     "cents": 138081000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G17"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H17"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H17"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I17"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I17"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J17"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J17"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K17"
+     ],
+     "text": "1.380.810,00",
+     "cents": 138081000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K17"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L17"
+     ],
+     "text": "90.659,24",
+     "cents": 9065924,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L17"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M17"
+     ],
+     "text": "41.842,73",
+     "cents": 4184273,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M17"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N17"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N17"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O17"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O17"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P17"
+     ],
+     "text": "132.501,97",
+     "cents": 13250197,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P17"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A17",
+    "row": 17
+   }
+  },
+  {
+   "id": "r14",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "210001005 0 Lagerhalle",
+   "year": 2025,
+   "identity": {
+    "asset_no": "210001005",
+    "sub_no": "0",
+    "name": "Lagerhalle",
+    "acq_date": "2025-01-23"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E18"
+     ],
+     "text": "1.559.309,81",
+     "cents": 155930981,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E18"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F18"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G18"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H18"
+     ],
+     "text": "1.571.212,94",
+     "cents": 157121294,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H18"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I18"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J18"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K18"
+     ],
+     "text": "1.571.212,94",
+     "cents": 157121294,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K18"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L18"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M18"
+     ],
+     "text": "11.903,13",
+     "cents": 1190313,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M18"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N18"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O18"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O18"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P18"
+     ],
+     "text": "11.903,13",
+     "cents": 1190313,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P18"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A18",
+    "row": 18
+   }
+  },
+  {
+   "id": "r15",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 2100 Fabrikbauten",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E19"
+     ],
+     "text": "3.392.778,84",
+     "cents": 339277884,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E19"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F19"
+     ],
+     "text": "1.896.335,48",
+     "cents": 189633548,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F19"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G19"
+     ],
+     "text": "3.898.626,52",
+     "cents": 389862652,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G19"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H19"
+     ],
+     "text": "1.571.212,94",
+     "cents": 157121294,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H19"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I19"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J19"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K19"
+     ],
+     "text": "5.469.839,46",
+     "cents": 546983946,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K19"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L19"
+     ],
+     "text": "2.002.291,04",
+     "cents": 200229104,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L19"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M19"
+     ],
+     "text": "74.769,58",
+     "cents": 7476958,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M19"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N19"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O19"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O19"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P19"
+     ],
+     "text": "2.077.060,62",
+     "cents": 207706062,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P19"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A19",
+    "row": 19
+   }
+  },
+  {
+   "id": "r16",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "300001001 0 Teilewaschanlage",
+   "year": 2025,
+   "identity": {
+    "asset_no": "300001001",
+    "sub_no": "0",
+    "name": "Teilewaschanlage",
+    "acq_date": "2008-05-24"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E20"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E20"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F20"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F20"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G20"
+     ],
+     "text": "8.828,00",
+     "cents": 882800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G20"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H20"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I20"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J20"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K20"
+     ],
+     "text": "8.828,00",
+     "cents": 882800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K20"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L20"
+     ],
+     "text": "8.827,00",
+     "cents": 882700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L20"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M20"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N20"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O20"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O20"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P20"
+     ],
+     "text": "8.827,00",
+     "cents": 882700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P20"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A20",
+    "row": 20
+   }
+  },
+  {
+   "id": "r17",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "300001003 0 Verpackungsmaschine",
+   "year": 2025,
+   "identity": {
+    "asset_no": "300001003",
+    "sub_no": "0",
+    "name": "Verpackungsmaschine",
+    "acq_date": "2024-06-13"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E21"
+     ],
+     "text": "262.565,84",
+     "cents": 26256584,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E21"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F21"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G21"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H21"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I21"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J21"
+     ],
+     "text": "278.010,89",
+     "cents": 27801089,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J21"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K21"
+     ],
+     "text": "278.010,89",
+     "cents": 27801089,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K21"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L21"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M21"
+     ],
+     "text": "15.445,05",
+     "cents": 1544505,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M21"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N21"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O21"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O21"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P21"
+     ],
+     "text": "15.445,05",
+     "cents": 1544505,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P21"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A21",
+    "row": 21
+   }
+  },
+  {
+   "id": "r18",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 3000 Maschinen",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E22"
+     ],
+     "text": "262.566,84",
+     "cents": 26256684,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E22"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F22"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F22"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G22"
+     ],
+     "text": "8.828,00",
+     "cents": 882800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G22"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H22"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H22"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I22"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I22"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J22"
+     ],
+     "text": "278.010,89",
+     "cents": 27801089,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J22"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K22"
+     ],
+     "text": "286.838,89",
+     "cents": 28683889,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K22"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L22"
+     ],
+     "text": "8.827,00",
+     "cents": 882700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L22"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M22"
+     ],
+     "text": "15.445,05",
+     "cents": 1544505,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M22"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N22"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N22"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O22"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O22"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P22"
+     ],
+     "text": "24.272,05",
+     "cents": 2427205,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P22"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A22",
+    "row": 22
+   }
+  },
+  {
+   "id": "r19",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "310001001 0 Kälteanlage (gebraucht)",
+   "year": 2025,
+   "identity": {
+    "asset_no": "310001001",
+    "sub_no": "0",
+    "name": "Kälteanlage (gebraucht)",
+    "acq_date": "2010-12-02"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E23"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E23"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F23"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F23"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G23"
+     ],
+     "text": "15.518,00",
+     "cents": 1551800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G23"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H23"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H23"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I23"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I23"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J23"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J23"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K23"
+     ],
+     "text": "15.518,00",
+     "cents": 1551800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K23"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L23"
+     ],
+     "text": "15.517,00",
+     "cents": 1551700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L23"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M23"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M23"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N23"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N23"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O23"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O23"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P23"
+     ],
+     "text": "15.517,00",
+     "cents": 1551700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P23"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A23",
+    "row": 23
+   }
+  },
+  {
+   "id": "r20",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "310001002 0 Kälteanlage",
+   "year": 2025,
+   "identity": {
+    "asset_no": "310001002",
+    "sub_no": "0",
+    "name": "Kälteanlage",
+    "acq_date": "2014-05-08"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E24"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E24"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F24"
+     ],
+     "text": "2.537,17",
+     "cents": 253717,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F24"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G24"
+     ],
+     "text": "304.461,00",
+     "cents": 30446100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G24"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H24"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I24"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J24"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K24"
+     ],
+     "text": "304.461,00",
+     "cents": 30446100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K24"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L24"
+     ],
+     "text": "301.923,83",
+     "cents": 30192383,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L24"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M24"
+     ],
+     "text": "2.536,17",
+     "cents": 253617,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M24"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N24"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O24"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O24"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P24"
+     ],
+     "text": "304.460,00",
+     "cents": 30446000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P24"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A24",
+    "row": 24
+   }
+  },
+  {
+   "id": "r21",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "310001003 0 Absauganlage Nr. 11",
+   "year": 2025,
+   "identity": {
+    "asset_no": "310001003",
+    "sub_no": "0",
+    "name": "Absauganlage Nr. 11",
+    "acq_date": "2024-05-24"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E25"
+     ],
+     "text": "37.527,39",
+     "cents": 3752739,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E25"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F25"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F25"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G25"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G25"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H25"
+     ],
+     "text": "39.970,00",
+     "cents": 3997000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H25"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I25"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I25"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J25"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J25"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K25"
+     ],
+     "text": "39.970,00",
+     "cents": 3997000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K25"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L25"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L25"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M25"
+     ],
+     "text": "2.442,61",
+     "cents": 244261,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M25"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N25"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N25"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O25"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O25"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P25"
+     ],
+     "text": "2.442,61",
+     "cents": 244261,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P25"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A25",
+    "row": 25
+   }
+  },
+  {
+   "id": "r22",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "310001004 0 Brückenkran 5t Halle 1",
+   "year": 2025,
+   "identity": {
+    "asset_no": "310001004",
+    "sub_no": "0",
+    "name": "Brückenkran 5t Halle 1",
+    "acq_date": "2024-09-05"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E26"
+     ],
+     "text": "229.228,12",
+     "cents": 22922812,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E26"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F26"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G26"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H26"
+     ],
+     "text": "243.428,09",
+     "cents": 24342809,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H26"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I26"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J26"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K26"
+     ],
+     "text": "243.428,09",
+     "cents": 24342809,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K26"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L26"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M26"
+     ],
+     "text": "14.199,97",
+     "cents": 1419997,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M26"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N26"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O26"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O26"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P26"
+     ],
+     "text": "14.199,97",
+     "cents": 1419997,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P26"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A26",
+    "row": 26
+   }
+  },
+  {
+   "id": "r23",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 3100 Technische Anlagen",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E27"
+     ],
+     "text": "266.757,51",
+     "cents": 26675751,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E27"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F27"
+     ],
+     "text": "2.538,17",
+     "cents": 253817,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F27"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G27"
+     ],
+     "text": "319.979,00",
+     "cents": 31997900,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G27"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H27"
+     ],
+     "text": "283.398,09",
+     "cents": 28339809,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H27"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I27"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I27"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J27"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J27"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K27"
+     ],
+     "text": "603.377,09",
+     "cents": 60337709,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K27"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L27"
+     ],
+     "text": "317.440,83",
+     "cents": 31744083,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L27"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M27"
+     ],
+     "text": "19.178,75",
+     "cents": 1917875,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M27"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N27"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N27"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O27"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O27"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P27"
+     ],
+     "text": "336.619,58",
+     "cents": 33661958,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P27"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A27",
+    "row": 27
+   }
+  },
+  {
+   "id": "r24",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "400001001 0 Gabelstapler (gebraucht)",
+   "year": 2025,
+   "identity": {
+    "asset_no": "400001001",
+    "sub_no": "0",
+    "name": "Gabelstapler (gebraucht)",
+    "acq_date": "2012-10-10"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E28"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E28"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F28"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F28"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G28"
+     ],
+     "text": "1.438,00",
+     "cents": 143800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G28"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H28"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I28"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J28"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K28"
+     ],
+     "text": "1.438,00",
+     "cents": 143800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K28"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L28"
+     ],
+     "text": "1.437,00",
+     "cents": 143700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L28"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M28"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N28"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O28"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O28"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P28"
+     ],
+     "text": "1.437,00",
+     "cents": 143700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P28"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A28",
+    "row": 28
+   }
+  },
+  {
+   "id": "r25",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4000 Betriebsausstattung",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E29"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E29"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F29"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F29"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G29"
+     ],
+     "text": "1.438,00",
+     "cents": 143800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G29"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H29"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I29"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J29"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K29"
+     ],
+     "text": "1.438,00",
+     "cents": 143800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K29"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L29"
+     ],
+     "text": "1.437,00",
+     "cents": 143700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L29"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M29"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N29"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O29"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O29"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P29"
+     ],
+     "text": "1.437,00",
+     "cents": 143700,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P29"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A29",
+    "row": 29
+   }
+  },
+  {
+   "id": "r26",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "410001001 0 Aktenschrank",
+   "year": 2025,
+   "identity": {
+    "asset_no": "410001001",
+    "sub_no": "0",
+    "name": "Aktenschrank",
+    "acq_date": "2008-08-30"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E30"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E30"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F30"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F30"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G30"
+     ],
+     "text": "23.439,33",
+     "cents": 2343933,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G30"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H30"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I30"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J30"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K30"
+     ],
+     "text": "23.439,33",
+     "cents": 2343933,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K30"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L30"
+     ],
+     "text": "23.438,33",
+     "cents": 2343833,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L30"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M30"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N30"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O30"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O30"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P30"
+     ],
+     "text": "23.438,33",
+     "cents": 2343833,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P30"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A30",
+    "row": 30
+   }
+  },
+  {
+   "id": "r27",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "410001001 1 Aktenschrank Erweiterung",
+   "year": 2025,
+   "identity": {
+    "asset_no": "410001001",
+    "sub_no": "1",
+    "name": "Aktenschrank Erweiterung",
+    "acq_date": "2019-04-27"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E31"
+     ],
+     "text": "3.225,30",
+     "cents": 322530,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E31"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F31"
+     ],
+     "text": "3.686,06",
+     "cents": 368606,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F31"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G31"
+     ],
+     "text": "5.989,84",
+     "cents": 598984,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G31"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H31"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I31"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J31"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K31"
+     ],
+     "text": "5.989,84",
+     "cents": 598984,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K31"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L31"
+     ],
+     "text": "2.303,78",
+     "cents": 230378,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L31"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M31"
+     ],
+     "text": "460,76",
+     "cents": 46076,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M31"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N31"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O31"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O31"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P31"
+     ],
+     "text": "2.764,54",
+     "cents": 276454,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P31"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A31",
+    "row": 31
+   }
+  },
+  {
+   "id": "r28",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "410001002 0 Schrankwand Büro",
+   "year": 2025,
+   "identity": {
+    "asset_no": "410001002",
+    "sub_no": "0",
+    "name": "Schrankwand Büro",
+    "acq_date": "2009-02-24"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E32"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E32"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F32"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F32"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G32"
+     ],
+     "text": "611,00",
+     "cents": 61100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G32"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H32"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H32"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I32"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I32"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J32"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J32"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K32"
+     ],
+     "text": "611,00",
+     "cents": 61100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K32"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L32"
+     ],
+     "text": "610,00",
+     "cents": 61000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L32"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M32"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M32"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N32"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N32"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O32"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O32"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P32"
+     ],
+     "text": "610,00",
+     "cents": 61000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P32"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A32",
+    "row": 32
+   }
+  },
+  {
+   "id": "r29",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "410001003 0 Bürostuhl ergonomisch Typ A120",
+   "year": 2025,
+   "identity": {
+    "asset_no": "410001003",
+    "sub_no": "0",
+    "name": "Bürostuhl ergonomisch Typ A120",
+    "acq_date": "2010-02-06"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E33"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E33"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F33"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F33"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G33"
+     ],
+     "text": "22.366,00",
+     "cents": 2236600,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G33"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H33"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I33"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J33"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K33"
+     ],
+     "text": "22.366,00",
+     "cents": 2236600,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K33"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L33"
+     ],
+     "text": "22.365,00",
+     "cents": 2236500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L33"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M33"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N33"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O33"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O33"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P33"
+     ],
+     "text": "22.365,00",
+     "cents": 2236500,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P33"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A33",
+    "row": 33
+   }
+  },
+  {
+   "id": "r30",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "410001004 0 Rollcontainer (gebraucht)",
+   "year": 2025,
+   "identity": {
+    "asset_no": "410001004",
+    "sub_no": "0",
+    "name": "Rollcontainer (gebraucht)",
+    "acq_date": "2013-11-21"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E34"
+     ],
+     "text": "1.274,61",
+     "cents": 127461,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E34"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F34"
+     ],
+     "text": "2.079,62",
+     "cents": 207962,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F34"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G34"
+     ],
+     "text": "10.465,19",
+     "cents": 1046519,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G34"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H34"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H34"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I34"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I34"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J34"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J34"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K34"
+     ],
+     "text": "10.465,19",
+     "cents": 1046519,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K34"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L34"
+     ],
+     "text": "8.385,57",
+     "cents": 838557,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L34"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M34"
+     ],
+     "text": "805,01",
+     "cents": 80501,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M34"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N34"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N34"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O34"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O34"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P34"
+     ],
+     "text": "9.190,58",
+     "cents": 919058,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P34"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A34",
+    "row": 34
+   }
+  },
+  {
+   "id": "r31",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "410001005 0 Rollcontainer Halle 4",
+   "year": 2025,
+   "identity": {
+    "asset_no": "410001005",
+    "sub_no": "0",
+    "name": "Rollcontainer Halle 4",
+    "acq_date": "2023-07-24"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E35"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F35"
+     ],
+     "text": "6.319,12",
+     "cents": 631912,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F35"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G35"
+     ],
+     "text": "6.706,00",
+     "cents": 670600,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G35"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H35"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I35"
+     ],
+     "text": "6.706,00",
+     "cents": 670600,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I35"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J35"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K35"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L35"
+     ],
+     "text": "386,88",
+     "cents": 38688,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L35"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M35"
+     ],
+     "text": "300,91",
+     "cents": 30091,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M35"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N35"
+     ],
+     "text": "687,79",
+     "cents": 68779,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N35"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O35"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P35"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P35"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A35",
+    "row": 35
+   }
+  },
+  {
+   "id": "r32",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4100 Büroeinrichtung",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E36"
+     ],
+     "text": "4.502,91",
+     "cents": 450291,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E36"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F36"
+     ],
+     "text": "12.087,80",
+     "cents": 1208780,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F36"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G36"
+     ],
+     "text": "69.577,36",
+     "cents": 6957736,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G36"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H36"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H36"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I36"
+     ],
+     "text": "6.706,00",
+     "cents": 670600,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I36"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J36"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J36"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K36"
+     ],
+     "text": "62.871,36",
+     "cents": 6287136,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K36"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L36"
+     ],
+     "text": "57.489,56",
+     "cents": 5748956,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L36"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M36"
+     ],
+     "text": "1.566,68",
+     "cents": 156668,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M36"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N36"
+     ],
+     "text": "687,79",
+     "cents": 68779,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N36"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O36"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O36"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P36"
+     ],
+     "text": "58.368,45",
+     "cents": 5836845,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P36"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A36",
+    "row": 36
+   }
+  },
+  {
+   "id": "r33",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "420001001 0 Pkw Elektro Halle 3",
+   "year": 2025,
+   "identity": {
+    "asset_no": "420001001",
+    "sub_no": "0",
+    "name": "Pkw Elektro Halle 3",
+    "acq_date": "2015-02-06"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E37"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E37"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F37"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F37"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G37"
+     ],
+     "text": "39.882,97",
+     "cents": 3988297,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G37"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H37"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H37"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I37"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I37"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J37"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J37"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K37"
+     ],
+     "text": "39.882,97",
+     "cents": 3988297,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K37"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L37"
+     ],
+     "text": "39.881,97",
+     "cents": 3988197,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L37"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M37"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M37"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N37"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N37"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O37"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O37"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P37"
+     ],
+     "text": "39.881,97",
+     "cents": 3988197,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P37"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A37",
+    "row": 37
+   }
+  },
+  {
+   "id": "r34",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "420001002 0 Pkw Mittelklasse Hybrid Typ R805",
+   "year": 2025,
+   "identity": {
+    "asset_no": "420001002",
+    "sub_no": "0",
+    "name": "Pkw Mittelklasse Hybrid Typ R805",
+    "acq_date": "2017-11-22"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E38"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E38"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F38"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F38"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G38"
+     ],
+     "text": "51.557,30",
+     "cents": 5155730,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G38"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H38"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H38"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I38"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I38"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J38"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J38"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K38"
+     ],
+     "text": "51.557,30",
+     "cents": 5155730,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K38"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L38"
+     ],
+     "text": "51.556,30",
+     "cents": 5155630,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L38"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M38"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M38"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N38"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N38"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O38"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O38"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P38"
+     ],
+     "text": "51.556,30",
+     "cents": 5155630,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P38"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A38",
+    "row": 38
+   }
+  },
+  {
+   "id": "r35",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "420001002 1 Pkw Mittelklasse Hybrid Typ R805 Erweiterung",
+   "year": 2025,
+   "identity": {
+    "asset_no": "420001002",
+    "sub_no": "1",
+    "name": "Pkw Mittelklasse Hybrid Typ R805 Erweiterung",
+    "acq_date": "2021-10-27"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E39"
+     ],
+     "text": "5.629,47",
+     "cents": 562947,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E39"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F39"
+     ],
+     "text": "7.881,26",
+     "cents": 788126,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F39"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G39"
+     ],
+     "text": "13.510,74",
+     "cents": 1351074,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G39"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H39"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I39"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J39"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K39"
+     ],
+     "text": "13.510,74",
+     "cents": 1351074,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K39"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L39"
+     ],
+     "text": "5.629,48",
+     "cents": 562948,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L39"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M39"
+     ],
+     "text": "2.251,79",
+     "cents": 225179,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M39"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N39"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O39"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O39"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P39"
+     ],
+     "text": "7.881,27",
+     "cents": 788127,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P39"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A39",
+    "row": 39
+   }
+  },
+  {
+   "id": "r36",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "420001003 0 Kleintransporter",
+   "year": 2025,
+   "identity": {
+    "asset_no": "420001003",
+    "sub_no": "0",
+    "name": "Kleintransporter",
+    "acq_date": "2019-11-19"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E40"
+     ],
+     "text": "6.007,80",
+     "cents": 600780,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E40"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F40"
+     ],
+     "text": "16.306,89",
+     "cents": 1630689,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F40"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G40"
+     ],
+     "text": "61.794,52",
+     "cents": 6179452,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G40"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H40"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H40"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I40"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I40"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J40"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J40"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K40"
+     ],
+     "text": "61.794,52",
+     "cents": 6179452,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K40"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L40"
+     ],
+     "text": "45.487,63",
+     "cents": 4548763,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L40"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M40"
+     ],
+     "text": "10.299,09",
+     "cents": 1029909,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M40"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N40"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N40"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O40"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O40"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P40"
+     ],
+     "text": "55.786,72",
+     "cents": 5578672,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P40"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A40",
+    "row": 40
+   }
+  },
+  {
+   "id": "r37",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "420001004 0 Kleintransporter Typ L805",
+   "year": 2025,
+   "identity": {
+    "asset_no": "420001004",
+    "sub_no": "0",
+    "name": "Kleintransporter Typ L805",
+    "acq_date": "2021-05-04"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E41"
+     ],
+     "text": "24.315,97",
+     "cents": 2431597,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E41"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F41"
+     ],
+     "text": "35.987,64",
+     "cents": 3598764,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F41"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G41"
+     ],
+     "text": "70.030,00",
+     "cents": 7003000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G41"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H41"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H41"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I41"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I41"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J41"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J41"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K41"
+     ],
+     "text": "70.030,00",
+     "cents": 7003000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K41"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L41"
+     ],
+     "text": "34.042,36",
+     "cents": 3404236,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L41"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M41"
+     ],
+     "text": "11.671,67",
+     "cents": 1167167,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M41"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N41"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N41"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O41"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O41"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P41"
+     ],
+     "text": "45.714,03",
+     "cents": 4571403,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P41"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A41",
+    "row": 41
+   }
+  },
+  {
+   "id": "r38",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "420001005 0 Pkw Elektro Nr. 12",
+   "year": 2025,
+   "identity": {
+    "asset_no": "420001005",
+    "sub_no": "0",
+    "name": "Pkw Elektro Nr. 12",
+    "acq_date": "2024-03-28"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E42"
+     ],
+     "text": "43.927,78",
+     "cents": 4392778,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E42"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F42"
+     ],
+     "text": "52.862,24",
+     "cents": 5286224,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F42"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G42"
+     ],
+     "text": "53.606,78",
+     "cents": 5360678,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G42"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H42"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H42"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I42"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I42"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J42"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J42"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K42"
+     ],
+     "text": "53.606,78",
+     "cents": 5360678,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K42"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L42"
+     ],
+     "text": "744,54",
+     "cents": 74454,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L42"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M42"
+     ],
+     "text": "8.934,46",
+     "cents": 893446,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M42"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N42"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N42"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O42"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O42"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P42"
+     ],
+     "text": "9.679,00",
+     "cents": 967900,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P42"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A42",
+    "row": 42
+   }
+  },
+  {
+   "id": "r39",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4200 Pkw",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E43"
+     ],
+     "text": "79.883,02",
+     "cents": 7988302,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E43"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F43"
+     ],
+     "text": "113.040,03",
+     "cents": 11304003,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F43"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G43"
+     ],
+     "text": "290.382,31",
+     "cents": 29038231,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G43"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H43"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H43"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I43"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I43"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J43"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J43"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K43"
+     ],
+     "text": "290.382,31",
+     "cents": 29038231,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K43"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L43"
+     ],
+     "text": "177.342,28",
+     "cents": 17734228,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L43"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M43"
+     ],
+     "text": "33.157,01",
+     "cents": 3315701,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M43"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N43"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N43"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O43"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O43"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P43"
+     ],
+     "text": "210.499,29",
+     "cents": 21049929,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P43"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A43",
+    "row": 43
+   }
+  },
+  {
+   "id": "r40",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "430001001 0 Kastenwagen Typ T962",
+   "year": 2025,
+   "identity": {
+    "asset_no": "430001001",
+    "sub_no": "0",
+    "name": "Kastenwagen Typ T962",
+    "acq_date": "2011-05-13"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E44"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E44"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F44"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F44"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G44"
+     ],
+     "text": "167.549,00",
+     "cents": 16754900,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G44"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H44"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I44"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J44"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K44"
+     ],
+     "text": "167.549,00",
+     "cents": 16754900,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K44"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L44"
+     ],
+     "text": "167.548,00",
+     "cents": 16754800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L44"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M44"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N44"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O44"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O44"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P44"
+     ],
+     "text": "167.548,00",
+     "cents": 16754800,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P44"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A44",
+    "row": 44
+   }
+  },
+  {
+   "id": "r41",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "430001002 0 Sattelzugmaschine Nr. 36",
+   "year": 2025,
+   "identity": {
+    "asset_no": "430001002",
+    "sub_no": "0",
+    "name": "Sattelzugmaschine Nr. 36",
+    "acq_date": "2019-04-01"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E45"
+     ],
+     "text": "31.801,33",
+     "cents": 3180133,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E45"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F45"
+     ],
+     "text": "42.401,78",
+     "cents": 4240178,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F45"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G45"
+     ],
+     "text": "95.404,00",
+     "cents": 9540400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G45"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H45"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H45"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I45"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I45"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J45"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J45"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K45"
+     ],
+     "text": "95.404,00",
+     "cents": 9540400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K45"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L45"
+     ],
+     "text": "53.002,22",
+     "cents": 5300222,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L45"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M45"
+     ],
+     "text": "10.600,45",
+     "cents": 1060045,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M45"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N45"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N45"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O45"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O45"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P45"
+     ],
+     "text": "63.602,67",
+     "cents": 6360267,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P45"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A45",
+    "row": 45
+   }
+  },
+  {
+   "id": "r42",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "430001003 0 Sattelzugmaschine",
+   "year": 2025,
+   "identity": {
+    "asset_no": "430001003",
+    "sub_no": "0",
+    "name": "Sattelzugmaschine",
+    "acq_date": "2020-07-09"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E46"
+     ],
+     "text": "14.449,31",
+     "cents": 1444931,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E46"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F46"
+     ],
+     "text": "17.849,15",
+     "cents": 1784915,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F46"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G46"
+     ],
+     "text": "30.598,54",
+     "cents": 3059854,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G46"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H46"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H46"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I46"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I46"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J46"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J46"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K46"
+     ],
+     "text": "30.598,54",
+     "cents": 3059854,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K46"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L46"
+     ],
+     "text": "12.749,39",
+     "cents": 1274939,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L46"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M46"
+     ],
+     "text": "3.399,84",
+     "cents": 339984,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M46"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N46"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N46"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O46"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O46"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P46"
+     ],
+     "text": "16.149,23",
+     "cents": 1614923,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P46"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A46",
+    "row": 46
+   }
+  },
+  {
+   "id": "r43",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "430001004 0 Kastenwagen Nr. 21",
+   "year": 2025,
+   "identity": {
+    "asset_no": "430001004",
+    "sub_no": "0",
+    "name": "Kastenwagen Nr. 21",
+    "acq_date": "2022-04-06"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E47"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F47"
+     ],
+     "text": "47.518,16",
+     "cents": 4751816,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F47"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G47"
+     ],
+     "text": "61.094,78",
+     "cents": 6109478,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G47"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H47"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I47"
+     ],
+     "text": "61.094,78",
+     "cents": 6109478,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I47"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J47"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K47"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L47"
+     ],
+     "text": "13.576,62",
+     "cents": 1357662,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L47"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M47"
+     ],
+     "text": "565,69",
+     "cents": 56569,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M47"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N47"
+     ],
+     "text": "14.142,31",
+     "cents": 1414231,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N47"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O47"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P47"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P47"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A47",
+    "row": 47
+   }
+  },
+  {
+   "id": "r44",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "430001005 0 Kastenwagen Typ K288",
+   "year": 2025,
+   "identity": {
+    "asset_no": "430001005",
+    "sub_no": "0",
+    "name": "Kastenwagen Typ K288",
+    "acq_date": "2024-11-12"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E48"
+     ],
+     "text": "72.997,03",
+     "cents": 7299703,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E48"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F48"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G48"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H48"
+     ],
+     "text": "76.540,57",
+     "cents": 7654057,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H48"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I48"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J48"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K48"
+     ],
+     "text": "76.540,57",
+     "cents": 7654057,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K48"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L48"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M48"
+     ],
+     "text": "3.543,54",
+     "cents": 354354,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M48"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N48"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O48"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O48"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P48"
+     ],
+     "text": "3.543,54",
+     "cents": 354354,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P48"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A48",
+    "row": 48
+   }
+  },
+  {
+   "id": "r45",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4300 Lkw",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E49"
+     ],
+     "text": "119.248,67",
+     "cents": 11924867,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E49"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F49"
+     ],
+     "text": "107.770,09",
+     "cents": 10777009,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F49"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G49"
+     ],
+     "text": "354.646,32",
+     "cents": 35464632,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G49"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H49"
+     ],
+     "text": "76.540,57",
+     "cents": 7654057,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H49"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I49"
+     ],
+     "text": "61.094,78",
+     "cents": 6109478,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I49"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J49"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J49"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K49"
+     ],
+     "text": "370.092,11",
+     "cents": 37009211,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K49"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L49"
+     ],
+     "text": "246.876,23",
+     "cents": 24687623,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L49"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M49"
+     ],
+     "text": "18.109,52",
+     "cents": 1810952,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M49"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N49"
+     ],
+     "text": "14.142,31",
+     "cents": 1414231,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N49"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O49"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O49"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P49"
+     ],
+     "text": "250.843,44",
+     "cents": 25084344,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P49"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A49",
+    "row": 49
+   }
+  },
+  {
+   "id": "r46",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "440001001 0 Server 2HE Nr. 2",
+   "year": 2025,
+   "identity": {
+    "asset_no": "440001001",
+    "sub_no": "0",
+    "name": "Server 2HE Nr. 2",
+    "acq_date": "2009-06-21"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E50"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E50"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F50"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F50"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G50"
+     ],
+     "text": "33.584,00",
+     "cents": 3358400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G50"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H50"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H50"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I50"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I50"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J50"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J50"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K50"
+     ],
+     "text": "33.584,00",
+     "cents": 3358400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K50"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L50"
+     ],
+     "text": "33.583,00",
+     "cents": 3358300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L50"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M50"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M50"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N50"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N50"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O50"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O50"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P50"
+     ],
+     "text": "33.583,00",
+     "cents": 3358300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P50"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A50",
+    "row": 50
+   }
+  },
+  {
+   "id": "r47",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "440001002 0 Server 2HE",
+   "year": 2025,
+   "identity": {
+    "asset_no": "440001002",
+    "sub_no": "0",
+    "name": "Server 2HE",
+    "acq_date": "2014-11-08"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E51"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E51"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F51"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F51"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G51"
+     ],
+     "text": "14.291,00",
+     "cents": 1429100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G51"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H51"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H51"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I51"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I51"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J51"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J51"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K51"
+     ],
+     "text": "14.291,00",
+     "cents": 1429100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K51"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L51"
+     ],
+     "text": "14.290,00",
+     "cents": 1429000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L51"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M51"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M51"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N51"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N51"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O51"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O51"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P51"
+     ],
+     "text": "14.290,00",
+     "cents": 1429000,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P51"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A51",
+    "row": 51
+   }
+  },
+  {
+   "id": "r48",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "440001003 0 Notebook Halle 1",
+   "year": 2025,
+   "identity": {
+    "asset_no": "440001003",
+    "sub_no": "0",
+    "name": "Notebook Halle 1",
+    "acq_date": "2019-01-16"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E52"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E52"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F52"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F52"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G52"
+     ],
+     "text": "644,00",
+     "cents": 64400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G52"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H52"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I52"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J52"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K52"
+     ],
+     "text": "644,00",
+     "cents": 64400,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K52"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L52"
+     ],
+     "text": "643,00",
+     "cents": 64300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L52"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M52"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N52"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O52"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O52"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P52"
+     ],
+     "text": "643,00",
+     "cents": 64300,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P52"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A52",
+    "row": 52
+   }
+  },
+  {
+   "id": "r49",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "440001003 1 Notebook Halle 1 Erweiterung",
+   "year": 2025,
+   "identity": {
+    "asset_no": "440001003",
+    "sub_no": "1",
+    "name": "Notebook Halle 1 Erweiterung",
+    "acq_date": "2021-08-28"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E53"
+     ],
+     "text": "1,00",
+     "cents": 100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E53"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F53"
+     ],
+     "text": "19,14",
+     "cents": 1914,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F53"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G53"
+     ],
+     "text": "172,27",
+     "cents": 17227,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G53"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H53"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I53"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J53"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K53"
+     ],
+     "text": "172,27",
+     "cents": 17227,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K53"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L53"
+     ],
+     "text": "153,13",
+     "cents": 15313,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L53"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M53"
+     ],
+     "text": "18,14",
+     "cents": 1814,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M53"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N53"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O53"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O53"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P53"
+     ],
+     "text": "171,27",
+     "cents": 17127,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P53"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A53",
+    "row": 53
+   }
+  },
+  {
+   "id": "r50",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "440001004 0 Serverschrank 42HE",
+   "year": 2025,
+   "identity": {
+    "asset_no": "440001004",
+    "sub_no": "0",
+    "name": "Serverschrank 42HE",
+    "acq_date": "2021-07-13"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E54"
+     ],
+     "text": "605,25",
+     "cents": 60525,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E54"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F54"
+     ],
+     "text": "1.089,45",
+     "cents": 108945,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F54"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G54"
+     ],
+     "text": "2.421,00",
+     "cents": 242100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G54"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H54"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I54"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J54"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K54"
+     ],
+     "text": "2.421,00",
+     "cents": 242100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K54"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L54"
+     ],
+     "text": "1.331,55",
+     "cents": 133155,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L54"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M54"
+     ],
+     "text": "484,20",
+     "cents": 48420,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M54"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N54"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O54"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O54"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P54"
+     ],
+     "text": "1.815,75",
+     "cents": 181575,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P54"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A54",
+    "row": 54
+   }
+  },
+  {
+   "id": "r51",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4400 EDV-Hardware",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E55"
+     ],
+     "text": "609,25",
+     "cents": 60925,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E55"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F55"
+     ],
+     "text": "1.111,59",
+     "cents": 111159,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F55"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G55"
+     ],
+     "text": "51.112,27",
+     "cents": 5111227,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G55"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H55"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I55"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J55"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K55"
+     ],
+     "text": "51.112,27",
+     "cents": 5111227,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K55"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L55"
+     ],
+     "text": "50.000,68",
+     "cents": 5000068,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L55"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M55"
+     ],
+     "text": "502,34",
+     "cents": 50234,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M55"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N55"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O55"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O55"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P55"
+     ],
+     "text": "50.503,02",
+     "cents": 5050302,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P55"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A55",
+    "row": 55
+   }
+  },
+  {
+   "id": "r52",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "490001002 0 Messschieber digital",
+   "year": 2025,
+   "identity": {
+    "asset_no": "490001002",
+    "sub_no": "0",
+    "name": "Messschieber digital",
+    "acq_date": "2023-09-04"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E56"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F56"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G56"
+     ],
+     "text": "541,00",
+     "cents": 54100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G56"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H56"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I56"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J56"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K56"
+     ],
+     "text": "541,00",
+     "cents": 54100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K56"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L56"
+     ],
+     "text": "541,00",
+     "cents": 54100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L56"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M56"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N56"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O56"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O56"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P56"
+     ],
+     "text": "541,00",
+     "cents": 54100,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P56"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A56",
+    "row": 56
+   }
+  },
+  {
+   "id": "r53",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "490001003 0 Stehleuchte",
+   "year": 2025,
+   "identity": {
+    "asset_no": "490001003",
+    "sub_no": "0",
+    "name": "Stehleuchte",
+    "acq_date": "2024-03-28"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E57"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F57"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G57"
+     ],
+     "text": "578,21",
+     "cents": 57821,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G57"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H57"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I57"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J57"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K57"
+     ],
+     "text": "578,21",
+     "cents": 57821,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K57"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L57"
+     ],
+     "text": "578,21",
+     "cents": 57821,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L57"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M57"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N57"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O57"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O57"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P57"
+     ],
+     "text": "578,21",
+     "cents": 57821,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P57"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A57",
+    "row": 57
+   }
+  },
+  {
+   "id": "r54",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "490001004 0 Laserdrucker",
+   "year": 2025,
+   "identity": {
+    "asset_no": "490001004",
+    "sub_no": "0",
+    "name": "Laserdrucker",
+    "acq_date": "2025-01-31"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E58"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F58"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G58"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H58"
+     ],
+     "text": "374,08",
+     "cents": 37408,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H58"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I58"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J58"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K58"
+     ],
+     "text": "374,08",
+     "cents": 37408,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K58"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L58"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M58"
+     ],
+     "text": "374,08",
+     "cents": 37408,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M58"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N58"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O58"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O58"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P58"
+     ],
+     "text": "374,08",
+     "cents": 37408,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P58"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A58",
+    "row": 58
+   }
+  },
+  {
+   "id": "r55",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 4900 Geringwertige Wirtschaftsgüter",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E59"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F59"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G59"
+     ],
+     "text": "1.119,21",
+     "cents": 111921,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G59"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H59"
+     ],
+     "text": "374,08",
+     "cents": 37408,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H59"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I59"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J59"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K59"
+     ],
+     "text": "1.493,29",
+     "cents": 149329,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K59"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L59"
+     ],
+     "text": "1.119,21",
+     "cents": 111921,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L59"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M59"
+     ],
+     "text": "374,08",
+     "cents": 37408,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M59"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N59"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O59"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O59"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P59"
+     ],
+     "text": "1.493,29",
+     "cents": 149329,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P59"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A59",
+    "row": 59
+   }
+  },
+  {
+   "id": "r56",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "500001001 0 AiB Verpackungsmaschine",
+   "year": 2025,
+   "identity": {
+    "asset_no": "500001001",
+    "sub_no": "0",
+    "name": "AiB Verpackungsmaschine",
+    "acq_date": "2023-07-15"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E60"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F60"
+     ],
+     "text": "40.043,45",
+     "cents": 4004345,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F60"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G60"
+     ],
+     "text": "40.043,45",
+     "cents": 4004345,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G60"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H60"
+     ],
+     "text": "237.967,44",
+     "cents": 23796744,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H60"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I60"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J60"
+     ],
+     "text": "-278.010,89",
+     "cents": -27801089,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J60"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K60"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L60"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M60"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N60"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O60"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P60"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P60"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A60",
+    "row": 60
+   }
+  },
+  {
+   "id": "r57",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 5000 Anlagen im Bau",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E61"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F61"
+     ],
+     "text": "40.043,45",
+     "cents": 4004345,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F61"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G61"
+     ],
+     "text": "40.043,45",
+     "cents": 4004345,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G61"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H61"
+     ],
+     "text": "237.967,44",
+     "cents": 23796744,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H61"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I61"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J61"
+     ],
+     "text": "-278.010,89",
+     "cents": -27801089,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J61"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K61"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L61"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M61"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N61"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O61"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P61"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P61"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A61",
+    "row": 61
+   }
+  },
+  {
+   "id": "r58",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "600001001 0 Anteile Servicegesellschaft",
+   "year": 2025,
+   "identity": {
+    "asset_no": "600001001",
+    "sub_no": "0",
+    "name": "Anteile Servicegesellschaft",
+    "acq_date": "2002-04-28"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E62"
+     ],
+     "text": "2.516,19",
+     "cents": 251619,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E62"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F62"
+     ],
+     "text": "2.072,16",
+     "cents": 207216,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F62"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G62"
+     ],
+     "text": "2.960,22",
+     "cents": 296022,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G62"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H62"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H62"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I62"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I62"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J62"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J62"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K62"
+     ],
+     "text": "2.960,22",
+     "cents": 296022,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K62"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L62"
+     ],
+     "text": "888,06",
+     "cents": 88806,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L62"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M62"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M62"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N62"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N62"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O62"
+     ],
+     "text": "444,03",
+     "cents": 44403,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O62"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P62"
+     ],
+     "text": "444,03",
+     "cents": 44403,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P62"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A62",
+    "row": 62
+   }
+  },
+  {
+   "id": "r59",
+   "section": "s1",
+   "kind_guess": "asset",
+   "label": "600001002 0 Anteile Servicegesellschaft",
+   "year": 2025,
+   "identity": {
+    "asset_no": "600001002",
+    "sub_no": "0",
+    "name": "Anteile Servicegesellschaft",
+    "acq_date": "2016-02-11"
+   },
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E63"
+     ],
+     "text": "2.435,80",
+     "cents": 243580,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E63"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F63"
+     ],
+     "text": "2.435,80",
+     "cents": 243580,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F63"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G63"
+     ],
+     "text": "2.435,80",
+     "cents": 243580,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G63"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H63"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I63"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J63"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K63"
+     ],
+     "text": "2.435,80",
+     "cents": 243580,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K63"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L63"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M63"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N63"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O63"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P63"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P63"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A63",
+    "row": 63
+   }
+  },
+  {
+   "id": "r60",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Summe Anlagenklasse 6000 Beteiligungen",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E64"
+     ],
+     "text": "4.951,99",
+     "cents": 495199,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E64"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F64"
+     ],
+     "text": "4.507,96",
+     "cents": 450796,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F64"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G64"
+     ],
+     "text": "5.396,02",
+     "cents": 539602,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G64"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H64"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H64"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I64"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I64"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J64"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J64"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K64"
+     ],
+     "text": "5.396,02",
+     "cents": 539602,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K64"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L64"
+     ],
+     "text": "888,06",
+     "cents": 88806,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L64"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M64"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M64"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N64"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N64"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O64"
+     ],
+     "text": "444,03",
+     "cents": 44403,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O64"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P64"
+     ],
+     "text": "444,03",
+     "cents": 44403,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P64"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A64",
+    "row": 64
+   }
+  },
+  {
+   "id": "r61",
+   "section": "s1",
+   "kind_guess": "total",
+   "label": "Gesamtsumme",
+   "year": 2025,
+   "identity": {},
+   "cells": {
+    "Anlagen:5": {
+     "column": "Anlagen:5",
+     "tokens": [
+      "Anlagen!E65"
+     ],
+     "text": "4.818.599,89",
+     "cents": 481859989,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "E65"
+    },
+    "Anlagen:6": {
+     "column": "Anlagen:6",
+     "tokens": [
+      "Anlagen!F65"
+     ],
+     "text": "2.864.926,11",
+     "cents": 286492611,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "F65"
+    },
+    "Anlagen:7": {
+     "column": "Anlagen:7",
+     "tokens": [
+      "Anlagen!G65"
+     ],
+     "text": "5.760.190,94",
+     "cents": 576019094,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "G65"
+    },
+    "Anlagen:8": {
+     "column": "Anlagen:8",
+     "tokens": [
+      "Anlagen!H65"
+     ],
+     "text": "2.170.580,08",
+     "cents": 217058008,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "H65"
+    },
+    "Anlagen:9": {
+     "column": "Anlagen:9",
+     "tokens": [
+      "Anlagen!I65"
+     ],
+     "text": "67.800,78",
+     "cents": 6780078,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "I65"
+    },
+    "Anlagen:10": {
+     "column": "Anlagen:10",
+     "tokens": [
+      "Anlagen!J65"
+     ],
+     "text": "0,00",
+     "cents": 0,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "J65"
+    },
+    "Anlagen:11": {
+     "column": "Anlagen:11",
+     "tokens": [
+      "Anlagen!K65"
+     ],
+     "text": "7.862.970,24",
+     "cents": 786297024,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "K65"
+    },
+    "Anlagen:12": {
+     "column": "Anlagen:12",
+     "tokens": [
+      "Anlagen!L65"
+     ],
+     "text": "2.895.264,83",
+     "cents": 289526483,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "L65"
+    },
+    "Anlagen:13": {
+     "column": "Anlagen:13",
+     "tokens": [
+      "Anlagen!M65"
+     ],
+     "text": "164.379,65",
+     "cents": 16437965,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "M65"
+    },
+    "Anlagen:14": {
+     "column": "Anlagen:14",
+     "tokens": [
+      "Anlagen!N65"
+     ],
+     "text": "14.830,10",
+     "cents": 1483010,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "N65"
+    },
+    "Anlagen:15": {
+     "column": "Anlagen:15",
+     "tokens": [
+      "Anlagen!O65"
+     ],
+     "text": "444,03",
+     "cents": 44403,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "O65"
+    },
+    "Anlagen:16": {
+     "column": "Anlagen:16",
+     "tokens": [
+      "Anlagen!P65"
+     ],
+     "text": "3.044.370,35",
+     "cents": 304437035,
+     "status": "value",
+     "glued": false,
+     "box": null,
+     "cell": "P65"
+    }
+   },
+   "pointer": {
+    "sheet": "Anlagen",
+    "cell": "A65",
+    "row": 65
+   }
+  }
+ ]
+}

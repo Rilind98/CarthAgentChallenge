@@ -1,0 +1,46 @@
+{
+ "doc_id": "f04_verzeichnis_07",
+ "variant_guess": "problem",
+ "findings": [
+  {
+   "type": "noise_page_unrelated",
+   "evidence": "page has amounts but no schedule header and does not continue one",
+   "where": [
+    {
+     "page": 3
+    }
+   ]
+  },
+  {
+   "type": "header_only_on_first_page",
+   "evidence": "3 page(s) carry rows but no column header",
+   "where": [
+    {
+     "page": 2
+    },
+    {
+     "page": 4
+    },
+    {
+     "page": 5
+    }
+   ]
+  },
+  {
+   "type": "wrapped_description",
+   "evidence": "2 description(s) continue on the next line",
+   "where": [
+    {
+     "row": "r23",
+     "page": 1,
+     "label": "647a 3D-Koordinatenmessmaschine 14.11.2024 lin 15 (gebraucht)"
+    },
+    {
+     "row": "r24",
+     "page": 1,
+     "label": "683 3D-Koordinatenmessmaschine Halle 03.12.2017 lin 8 3"
+    }
+   ]
+  }
+ ]
+}
