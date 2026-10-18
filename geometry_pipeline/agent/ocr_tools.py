@@ -1,6 +1,5 @@
-"""Command-line tool of the OCR proofreading agent (ocr.review_page): the only command its Bash may run (the
-session allows `./tool *` and reading files in its directory, nothing else). Claude supplies the eyes; the
-arithmetic and every change to the words go through the fixed code here.
+"""Fixed tools of the OpenAI OCR proofreading agent (ocr.review_page).
+The model supplies the eyes; arithmetic and every change to the words go through the code here.
 
 State of one page in DIR: page.png (upright, deskewed), words.json [{id, box (px), text}], layout.json (strips,
 rules, kinds, headers of the page's group, teur, dpi), edits.json (every change, for the audit).

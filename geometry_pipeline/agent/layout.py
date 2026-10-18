@@ -1,4 +1,4 @@
-"""The one model call per document (Claude Code, headless): name the strips and lines of the raw grid. The model never returns an amount.
+"""The one OpenAI model call per document: name the strips and lines of the raw grid. The model never returns an amount.
 
 Input: per group of pages that share the same strips, the strips with the header words above them and sample lines;
 plus the first lines of every page. Output (JSON):
@@ -14,7 +14,6 @@ import os
 import re
 from pathlib import Path
 
-from claude_cli import Session, parse_json
 from grid import PageGrid, fits, merge_strips, strip_index
 
 FIELDS = {
@@ -165,34 +164,8 @@ def describe(grids: list[PageGrid], groups: list[dict], max_lines: int = 40) -> 
 
 
 def decide(grids: list[PageGrid], groups: list[dict], images: list[bytes]) -> dict:
-    text = PROMPT.format(fields="\n".join(f"  {k}: {v}" for k, v in FIELDS.items()), doc=describe(grids, groups))
-    names = [f"page{i + 1}.png" for i in range(len(images[:3]))]
-    if names:
-        text = (f"The images of the first pages are in this directory: {', '.join(names)}. Look at them with the Read "
-                f"tool before you answer.\n\n" + text)
-    else:  # spreadsheet: each page is a sheet, each line a spreadsheet row, the strips its amount columns
-        text = "This document is an Excel workbook: each page below is one sheet, each line one row.\n\n" + text
-    session = Session(dict(zip(names, images)))
-    prompt = text
-    try:
-        for attempt in range(3):
-            answer = session.ask(prompt)
-            try:
-                out = parse_json(answer)
-            except ValueError as e:
-                problems = [f"answer is not valid JSON: {e}"]
-                out = {}
-            else:
-                problems = validate(out, groups) or over_ignored(out, grids) or coverage(out, grids, groups)
-            if not problems:
-                break
-            prompt = "Fix these problems and answer with the full JSON again:\n- " + "\n- ".join(problems)
-    finally:
-        session.close()
-    out["_problems"] = problems
-    out["_groups"] = groups
-    out["_usage"] = session.usage
-    return out
+    from openai_backend import decide as openai_decide
+    return openai_decide(grids, groups, images)
 
 
 def rule_for(line, rules: list[dict], position: int, prev_rule: dict | None) -> dict | None:

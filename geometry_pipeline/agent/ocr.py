@@ -3,16 +3,15 @@
 scan_page (before the layout call): code straightens the page (measured skew undone, quarter turn picked by
 tesseract) and tesseract supplies the words with boxes.
 
-review_page (after the layout call, table pages only): a Claude Code agent proofreads tesseract's words against
-the image. It may only run `./tool ...` (ocr_tools.py: view = crops of the page, check = the row laws in code with
-the value each cell would need, fix / merge / add = corrections) and read files in its directory; every other call
-is denied. Code maps the boxes back to PDF points.
+review_page (after the layout call, table pages only): an OpenAI agent proofreads tesseract's words against
+the image through fixed function calls (ocr_tools.py: view = crops of the page, check = the row laws in code
+with the value each cell would need, fix / merge / add = corrections). Code maps the boxes back to PDF points.
 
 recheck_page (after all pages are proofread): code adds up the columns over the whole document; where a sum row is
 not the sum of its rows, a second short session re-reads the cells one misread digit away from explaining it.
 
-Proofread words are cached under ocr_cache/review/<doc_id>/p<N>.json, so reruns cost nothing.
-OCR_AGENT=0: tesseract alone, no Claude.
+Proofread words are cached under ocr_cache/review_gpt/<doc_id>/p<N>.json, so reruns cost nothing.
+OCR_AGENT=0: tesseract alone, no model calls.
 """
 import json
 import os
@@ -28,13 +27,12 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from check_extraction import amounts, deskew, remove_lines, tesseract_words, unrotate  # noqa: E402
-from claude_cli import Session  # noqa: E402
 from grid import Word  # noqa: E402
 
 DPI = 300
-CACHE = ROOT / "ocr_cache" / "review"
+CACHE = ROOT / "ocr_cache" / "review_gpt"
 TOOLS = Path(__file__).resolve().parent / "ocr_tools.py"
-LIMIT = threading.Semaphore(int(os.environ.get("OCR_JOBS", "6")))  # Claude sessions at once, over all docs
+LIMIT = threading.Semaphore(int(os.environ.get("OCR_JOBS", "6")))  # OpenAI sessions at once, over all docs
 
 PROMPT = """You proofread the OCR of one scanned page of a German fixed-asset schedule (Anlagenspiegel), already
 straightened and upright ({w} x {h} px, {dpi} dpi). The page's words are tesseract's reading, with ids and pixel
@@ -126,20 +124,9 @@ def ids_in(words: list[dict], box: tuple) -> list[int]:
 
 
 def _ask(scan: dict, layout: dict, prompt: str) -> tuple[str, list[dict], list, dict]:
-    """One restricted session on the page: answer, words after it, edits, usage."""
-    files = {"page.png": scan["png"], "words.json": json.dumps(scan["words"]),
-             "layout.json": json.dumps({**layout, "dpi": DPI}),
-             "tool": f'#!/bin/sh\nexec "{ROOT / ".venv/bin/python"}" "{TOOLS}" "$(dirname "$0")" "$@"\n'}
-    session = Session(files, tools="Bash,Read", allow=["Bash(./tool *)", "Read(./**)"])
-    (session.dir / "tool").chmod(0o755)
-    try:
-        with LIMIT:
-            answer = session.ask(prompt)
-        words = json.loads((session.dir / "words.json").read_text())
-        edits = json.loads((session.dir / "edits.json").read_text()) if (session.dir / "edits.json").exists() else []
-    finally:
-        session.close()
-    return answer, words, edits, session.usage
+    """One OpenAI function-calling session: answer, corrected words, edits and usage."""
+    from openai_backend import ask
+    return ask(scan, layout, prompt)
 
 
 def _save(scan: dict) -> None:
@@ -148,7 +135,7 @@ def _save(scan: dict) -> None:
 
 
 def review_page(scan: dict, layout: dict) -> tuple[list[Word], dict]:
-    """Claude proofreads one scanned table page. layout: page, teur, strips, rules, kinds, headers of its group."""
+    """OpenAI proofreads one scanned table page. layout: page, teur, strips, rules, kinds, headers of its group."""
     if scan["record"] or os.environ.get("OCR_AGENT", "1") == "0":
         return to_words(scan["words"]), {"cost_usd": 0.0}
     w, h = scan["size"]

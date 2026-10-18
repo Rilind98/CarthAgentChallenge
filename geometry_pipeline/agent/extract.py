@@ -1,7 +1,7 @@
 """Document -> words with boxes per page, in PDF points of the upright page.
 
 Text PDFs: the text layer. Pages without one (scans, outline glyphs) are read by ocr.py (tesseract here; the
-Claude proofreading of table pages comes later, in run.py). Pages whose text runs vertically (a landscape list turned onto a portrait page) are
+OpenAI proofreading of table pages comes later, in run.py). Pages whose text runs vertically (a landscape list turned onto a portrait page) are
 turned so that lines run left to right; boxes stay in that reading frame and are mapped back for pointers.
 """
 from concurrent.futures import ThreadPoolExecutor
