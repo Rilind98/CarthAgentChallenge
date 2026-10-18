@@ -1,0 +1,133 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "other",
+   "year": 2024
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 4,
+   "role": "other",
+   "year": 2025
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 6,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "bew_ahk",
+      "S2": "kum_afa_open",
+      "S3": "afa_gj",
+      "S4": "bew_wb",
+      "S5": "bw_close",
+      "S6": "bw_prev",
+      "H0": "ignore",
+      "H1": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^\\*",
+   "kind": "position_subtotal"
+  },
+  {
+   "label_regex": "^Berichtsdatum",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Erstellungsdatum",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^BilPos",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    2,
+    3,
+    5,
+    6
+   ],
+   "strips": [
+    [
+     214.3,
+     274.0
+    ],
+    [
+     300.2,
+     355.0
+    ],
+    [
+     376.2,
+     431.0
+    ],
+    [
+     457.2,
+     507.0
+    ],
+    [
+     533.2,
+     578.0
+    ],
+    [
+     594.3,
+     654.0
+    ],
+    [
+     670.3,
+     730.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     175.0,
+     204.87997436523438
+    ],
+    "H1": [
+     739.0,
+     767.0
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 56433,
+  "out": 1217,
+  "cost_usd": 0.3975678
+ }
+}

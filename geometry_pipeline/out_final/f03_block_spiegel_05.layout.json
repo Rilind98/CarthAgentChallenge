@@ -1,0 +1,236 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 6,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 7,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 8,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 9,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 10,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 11,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "ahk",
+     "label_regex": "(Ansch-/Herst-K|\\bAHK)\\s*$",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S2": "ahk_open",
+      "S3": "zugang",
+      "S4": "umbuchung",
+      "S5": "ignore",
+      "S6": "ahk_close"
+     }
+    },
+    {
+     "id": "ahk_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "ahk",
+     "strips": {
+      "S0": "ignore",
+      "S2": "ignore",
+      "S3": "abgang",
+      "S4": "umbuchung",
+      "S5": "ignore",
+      "S6": "ignore"
+     }
+    },
+    {
+     "id": "afa",
+     "label_regex": "(Abschreibung|\\bAbsch)\\s*$",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S2": "kum_afa_open",
+      "S3": "afa_gj",
+      "S4": "ignore",
+      "S5": "zuschreibung",
+      "S6": "kum_afa_close"
+     }
+    },
+    {
+     "id": "afa_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "afa",
+     "strips": {
+      "S0": "ignore",
+      "S2": "ignore",
+      "S3": "afa_abgang",
+      "S4": "ignore",
+      "S5": "zuschreibung",
+      "S6": "ignore"
+     }
+    },
+    {
+     "id": "bw",
+     "label_regex": "(Buchwerte|\\bBW)\\s*$",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S2": "bw_prev",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "bw_close"
+     }
+    },
+    {
+     "id": "bw_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "bw",
+     "strips": {
+      "S0": "ignore",
+      "S2": "ignore",
+      "S3": "abgang_bw",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^(Ansch-/Herst-K|AHK)$",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^\\S.*\\sAnsch-/Herst-K$",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^[^\\d]+\\sAHK$",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Blatt \\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Entwicklung des Anlageverm",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "strips": [
+    [
+     40.0,
+     52.3
+    ],
+    [
+     308.5,
+     331.1
+    ],
+    [
+     419.8,
+     463.0
+    ],
+    [
+     511.0,
+     548.0
+    ],
+    [
+     594.6,
+     630.0
+    ],
+    [
+     681.1,
+     714.0
+    ],
+    [
+     756.8,
+     800.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     336.3770751953125,
+     398.9766845703125
+    ],
+    "H1": [
+     468.4302978515625,
+     480.7127990722656
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 55921,
+  "out": 3280,
+  "cost_usd": 0.437279
+ }
+}

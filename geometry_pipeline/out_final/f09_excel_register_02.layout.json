@@ -1,0 +1,313 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ahk_open",
+      "S5": "zugang",
+      "S6": "abgang",
+      "S7": "umbuchung",
+      "S8": "ignore",
+      "S9": "ignore",
+      "S10": "ahk_close",
+      "S11": "kum_afa_open",
+      "S12": "afa_gj",
+      "S13": "afa_abgang",
+      "S14": "ignore",
+      "S15": "ignore",
+      "S16": "zuschreibung",
+      "S17": "kum_afa_close",
+      "S18": "bw_prev",
+      "S19": "bw_close"
+     }
+    }
+   ]
+  },
+  {
+   "group": 1,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "abgang",
+      "S3": "umbuchung",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "ignore",
+      "S7": "ahk_close",
+      "S8": "ignore",
+      "S9": "kum_afa_open",
+      "S10": "afa_gj",
+      "S11": "afa_abgang",
+      "S12": "ignore",
+      "S13": "ignore",
+      "S14": "zuschreibung",
+      "S15": "kum_afa_close",
+      "S16": "bw_prev",
+      "S17": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^SUMMEN",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Buchungskreis \\d+",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^(EUR)?\\s*$",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^\\d{4} \\d{4} ",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Seite \\d+ von \\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Jahresabschluss per",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^BK:",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1
+   ],
+   "strips": [
+    [
+     92.5,
+     95.2
+    ],
+    [
+     184.2,
+     189.6
+    ],
+    [
+     195.9,
+     198.4
+    ],
+    [
+     199.7,
+     205.2
+    ],
+    [
+     277.7,
+     306.4
+    ],
+    [
+     310.4,
+     335.0
+    ],
+    [
+     339.0,
+     365.3
+    ],
+    [
+     376.1,
+     398.0
+    ],
+    [
+     425.5,
+     428.2
+    ],
+    [
+     463.7,
+     466.4
+    ],
+    [
+     470.4,
+     499.1
+    ],
+    [
+     503.1,
+     533.5
+    ],
+    [
+     537.5,
+     563.8
+    ],
+    [
+     571.6,
+     596.2
+    ],
+    [
+     626.2,
+     628.9
+    ],
+    [
+     656.4,
+     659.1
+    ],
+    [
+     686.4,
+     701.4
+    ],
+    [
+     705.4,
+     735.8
+    ],
+    [
+     739.8,
+     768.5
+    ],
+    [
+     772.5,
+     801.2
+    ]
+   ],
+   "headers": {
+    "H0": [
+     38.64263916015625,
+     62.260650634765625
+    ],
+    "H1": [
+     105.7386474609375,
+     142.9742889404297
+    ],
+    "H2": [
+     249.92880249023438,
+     272.8848571777344
+    ]
+   }
+  },
+  {
+   "pages": [
+    2
+   ],
+   "strips": [
+    [
+     197.5,
+     226.2
+    ],
+    [
+     230.2,
+     254.8
+    ],
+    [
+     258.8,
+     285.1
+    ],
+    [
+     295.9,
+     317.8
+    ],
+    [
+     345.3,
+     348.0
+    ],
+    [
+     383.5,
+     386.2
+    ],
+    [
+     416.4,
+     445.1
+    ],
+    [
+     449.1,
+     477.9
+    ],
+    [
+     509.5,
+     512.2
+    ],
+    [
+     516.2,
+     546.6
+    ],
+    [
+     550.6,
+     576.9
+    ],
+    [
+     584.7,
+     609.3
+    ],
+    [
+     639.2,
+     642.0
+    ],
+    [
+     669.5,
+     672.2
+    ],
+    [
+     699.4,
+     714.5
+    ],
+    [
+     718.5,
+     748.9
+    ],
+    [
+     752.9,
+     781.6
+    ],
+    [
+     785.6,
+     814.3
+    ]
+   ],
+   "headers": {
+    "H0": [
+     169.7270965576172,
+     192.68307495117188
+    ],
+    "H1": [
+     390.21051025390625,
+     412.3487548828125
+    ],
+    "H2": [
+     484.3432922363281,
+     505.39129638671875
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 68277,
+  "out": 1974,
+  "cost_usd": 0.4571136
+ }
+}

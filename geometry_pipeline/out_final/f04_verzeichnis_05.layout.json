@@ -1,0 +1,122 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ahk_close",
+      "S4": "ignore",
+      "S5": "bw_close",
+      "H0": "ignore",
+      "H1": "ignore",
+      "H2": "ignore",
+      "H3": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Summe",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Gesamt|^Total|^Endsumme",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Übertrag",
+   "kind": "carry_over"
+  },
+  {
+   "label_regex": "^Datum:|^Seite|Seite:|^Anlage(n)?verzeichnis|^Anlagegruppe|^Inventar-|^Nummer Bezeichnung",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "strips": [
+    [
+     45.1,
+     57.1
+    ],
+    [
+     166.8,
+     175.9
+    ],
+    [
+     260.2,
+     263.5
+    ],
+    [
+     299.0,
+     341.8
+    ],
+    [
+     408.2,
+     416.2
+    ],
+    [
+     476.6,
+     513.6
+    ]
+   ],
+   "headers": {
+    "H0": [
+     61.199999999999996,
+     90.0
+    ],
+    "H1": [
+     349.44,
+     386.15999999999997
+    ],
+    "H2": [
+     390.0,
+     402.0
+    ],
+    "H3": [
+     519.36,
+     551.76
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 54744,
+  "out": 839,
+  "cost_usd": 0.37826590000000004
+ }
+}

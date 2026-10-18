@@ -1,0 +1,261 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2024
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "ahk",
+     "label_regex": "Ansch-/Herst-K",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "umbuchung",
+      "S3": "ignore",
+      "S4": "ahk_close"
+     }
+    },
+    {
+     "id": "ahk_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "ahk",
+     "strips": {
+      "S0": "ignore",
+      "S1": "abgang",
+      "S2": "umbuchung",
+      "S3": "ignore",
+      "S4": "ignore"
+     }
+    },
+    {
+     "id": "afa",
+     "label_regex": "^Abschreibung",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "kum_afa_open",
+      "S1": "afa_gj",
+      "S2": "ignore",
+      "S3": "zuschreibung",
+      "S4": "kum_afa_close"
+     }
+    },
+    {
+     "id": "afa_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "afa",
+     "strips": {
+      "S0": "ignore",
+      "S1": "afa_abgang",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore"
+     }
+    },
+    {
+     "id": "bw",
+     "label_regex": "^Buchwerte",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "bw_prev",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "bw_close"
+     }
+    },
+    {
+     "id": "bw_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "bw",
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore"
+     }
+    }
+   ]
+  },
+  {
+   "group": 1,
+   "rules": [
+    {
+     "id": "ahk",
+     "label_regex": "\\bAHK$",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "umbuchung",
+      "S3": "ignore",
+      "S4": "ahk_close"
+     }
+    },
+    {
+     "id": "ahk_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "ahk",
+     "strips": {
+      "S0": "ignore",
+      "S1": "abgang",
+      "S2": "umbuchung",
+      "S3": "ignore",
+      "S4": "ignore"
+     }
+    },
+    {
+     "id": "afa",
+     "label_regex": "\\bAbsch$",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "kum_afa_open",
+      "S1": "afa_gj",
+      "S2": "ignore",
+      "S3": "zuschreibung",
+      "S4": "kum_afa_close"
+     }
+    },
+    {
+     "id": "afa_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "afa",
+     "strips": {
+      "S0": "ignore",
+      "S1": "afa_abgang",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore"
+     }
+    },
+    {
+     "id": "bw",
+     "label_regex": "\\bBW$",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "bw_prev",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "bw_close"
+     }
+    },
+    {
+     "id": "bw_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "bw",
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Ansch-/Herst-K",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^\\d{3} \\D.*Ansch-/Herst-K",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^(?!\\d)\\S.*\\sAHK$",
+   "kind": "account_subtotal"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1
+   ],
+   "strips": [
+    [
+     500.0,
+     590.0
+    ],
+    [
+     600.0,
+     690.0
+    ],
+    [
+     700.0,
+     790.0
+    ],
+    [
+     800.0,
+     890.0
+    ],
+    [
+     900.0,
+     990.0
+    ]
+   ],
+   "headers": {}
+  },
+  {
+   "pages": [
+    2
+   ],
+   "strips": [
+    [
+     500.0,
+     590.0
+    ],
+    [
+     600.0,
+     690.0
+    ],
+    [
+     700.0,
+     790.0
+    ],
+    [
+     800.0,
+     890.0
+    ],
+    [
+     900.0,
+     990.0
+    ]
+   ],
+   "headers": {}
+  }
+ ],
+ "_usage": {
+  "in": 9104,
+  "out": 2712,
+  "cost_usd": 0.1147882
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 5,
+   "role": "other",
+   "year": 2025
+  },
+  {
+   "page": 6,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 7,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 8,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 9,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 10,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "ignore",
+      "S7": "ignore",
+      "S8": "ahk_open",
+      "S9": "zugang",
+      "S10": "ignore",
+      "S11": "abgang",
+      "S12": "umbuchung",
+      "S13": "zuschreibung",
+      "S14": "afa_gj",
+      "S15": "bw_prev",
+      "S16": "kum_afa_close",
+      "S17": "bw_close",
+      "H0": "ignore",
+      "H1": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Datum:.*Seite",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^(Gesamtsumme|Summe\\s+(gesamt|Anlagevermögen|Anlagen\\b))",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Summe\\s+\\d+\\.\\s",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Summe\\s+\\d{4}\\b",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Summe\\b",
+   "kind": "position_subtotal"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "strips": [
+    [
+     54.2,
+     60.0
+    ],
+    [
+     106.7,
+     112.9
+    ],
+    [
+     121.1,
+     125.0
+    ],
+    [
+     126.5,
+     127.7
+    ],
+    [
+     129.3,
+     133.2
+    ],
+    [
+     147.9,
+     151.8
+    ],
+    [
+     158.4,
+     166.2
+    ],
+    [
+     257.2,
+     264.9
+    ],
+    [
+     279.1,
+     319.9
+    ],
+    [
+     334.1,
+     374.9
+    ],
+    [
+     416.3,
+     429.9
+    ],
+    [
+     453.8,
+     484.9
+    ],
+    [
+     506.5,
+     539.9
+    ],
+    [
+     581.3,
+     594.9
+    ],
+    [
+     614.9,
+     649.9
+    ],
+    [
+     664.1,
+     704.9
+    ],
+    [
+     719.1,
+     759.9
+    ],
+    [
+     774.1,
+     814.9
+    ]
+   ],
+   "headers": {
+    "H0": [
+     73.64888000488281,
+     87.65587615966797
+    ],
+    "H1": [
+     206.9449005126953,
+     251.38389587402344
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 58961,
+  "out": 1856,
+  "cost_usd": 0.4214235
+ }
+}

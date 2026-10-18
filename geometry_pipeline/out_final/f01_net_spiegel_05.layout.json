@@ -1,0 +1,143 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "bw_prev",
+      "S2": "zugang",
+      "S3": "ignore",
+      "S4": "abgang_bw",
+      "S5": "umbuchung",
+      "S6": "zuschreibung",
+      "S7": "afa_gj",
+      "S8": "ignore",
+      "S9": "kum_afa_close",
+      "S10": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Datum:|Seite:",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Bilanzposition|^Vorjahr|^Fremdkapital|^EUR\\b|Netto-Anlagespiegel|Elektroanlagen KG$",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^(Gesamtsumme|Summe Anlagevermögen|Summe Anlagevermogen|Summe Anlagevermégen|Gesamt|Total)",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Summe\\s+\\d+\\.",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Summe",
+   "kind": "account_subtotal"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "strips": [
+    [
+     72.5,
+     77.5
+    ],
+    [
+     252.5,
+     292.8
+    ],
+    [
+     308.4,
+     348.7
+    ],
+    [
+     391.7,
+     404.6
+    ],
+    [
+     430.3,
+     460.8
+    ],
+    [
+     480.0,
+     516.7
+    ],
+    [
+     559.7,
+     572.6
+    ],
+    [
+     594.5,
+     628.8
+    ],
+    [
+     671.5,
+     684.7
+    ],
+    [
+     706.1,
+     740.9
+    ],
+    [
+     756.2,
+     796.8
+    ]
+   ],
+   "headers": {
+    "H0": [
+     45.12,
+     50.4
+    ],
+    "H1": [
+     95.52,
+     177.12
+    ],
+    "H2": [
+     180.23999999999998,
+     243.84
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 54718,
+  "out": 1347,
+  "cost_usd": 0.38832999999999995
+ }
+}

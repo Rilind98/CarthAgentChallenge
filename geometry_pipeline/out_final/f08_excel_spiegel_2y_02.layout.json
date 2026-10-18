@@ -1,0 +1,231 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2024
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ahk_open",
+      "S2": "zugang",
+      "S3": "abgang",
+      "S4": "umbuchung",
+      "S5": "ahk_close",
+      "S6": "kum_afa_open",
+      "S7": "afa_gj",
+      "S8": "afa_abgang",
+      "S9": "kum_afa_close",
+      "S10": "bw_close",
+      "S11": "bw_prev",
+      "S12": "ignore",
+      "S13": "ignore"
+     }
+    }
+   ]
+  },
+  {
+   "group": 1,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ahk_open",
+      "S2": "zugang",
+      "S3": "abgang",
+      "S4": "umbuchung",
+      "S5": "ahk_close",
+      "S6": "kum_afa_open",
+      "S7": "afa_gj",
+      "S8": "afa_abgang",
+      "S9": "kum_afa_close",
+      "S10": "bw_close",
+      "S11": "bw_prev",
+      "S12": "ignore",
+      "S13": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^$",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Seite \\d+ von \\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Wirtschaftsjahr vom",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1
+   ],
+   "strips": [
+    [
+     65.3,
+     70.7
+    ],
+    [
+     255.1,
+     287.6
+    ],
+    [
+     292.6,
+     325.1
+    ],
+    [
+     330.1,
+     359.0
+    ],
+    [
+     377.0,
+     409.5
+    ],
+    [
+     419.5,
+     457.5
+    ],
+    [
+     467.5,
+     500.0
+    ],
+    [
+     505.0,
+     533.9
+    ],
+    [
+     538.9,
+     567.8
+    ],
+    [
+     572.8,
+     605.4
+    ],
+    [
+     620.8,
+     653.3
+    ],
+    [
+     658.3,
+     690.8
+    ],
+    [
+     711.3,
+     743.8
+    ],
+    [
+     764.0,
+     776.6
+    ]
+   ],
+   "headers": {
+    "H0": [
+     77.51812744140625,
+     220.03262329101562
+    ]
+   }
+  },
+  {
+   "pages": [
+    2
+   ],
+   "strips": [
+    [
+     75.1,
+     80.5
+    ],
+    [
+     254.4,
+     287.0
+    ],
+    [
+     292.0,
+     324.5
+    ],
+    [
+     344.6,
+     357.3
+    ],
+    [
+     395.1,
+     407.8
+    ],
+    [
+     423.2,
+     455.7
+    ],
+    [
+     465.7,
+     498.3
+    ],
+    [
+     503.3,
+     532.2
+    ],
+    [
+     552.3,
+     565.0
+    ],
+    [
+     570.0,
+     602.5
+    ],
+    [
+     612.5,
+     645.0
+    ],
+    [
+     650.0,
+     682.6
+    ],
+    [
+     701.5,
+     734.0
+    ],
+    [
+     754.2,
+     766.8
+    ]
+   ],
+   "headers": {
+    "H0": [
+     120.2126235961914,
+     229.79312133789062
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 58063,
+  "out": 1022,
+  "cost_usd": 0.3957115
+ }
+}

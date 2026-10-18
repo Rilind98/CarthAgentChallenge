@@ -1,0 +1,122 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "bw_prev",
+      "S1": "zugang",
+      "S2": "umbuchung",
+      "S3": "abgang_bw",
+      "H1": "zuschreibung",
+      "S4": "afa_gj",
+      "S5": "bw_close",
+      "S6": "kum_afa_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Zwischensumme",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Anlagevermögen gesamt",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Seite \\d+ von \\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Druckdatum",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Konto / Bezeichnung",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^01\\.01\\.\\d{4}",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlagenspiegel",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2
+   ],
+   "strips": [
+    [
+     210.1,
+     243.6
+    ],
+    [
+     260.9,
+     289.6
+    ],
+    [
+     305.0,
+     335.6
+    ],
+    [
+     368.6,
+     381.6
+    ],
+    [
+     446.2,
+     473.6
+    ],
+    [
+     486.1,
+     519.6
+    ],
+    [
+     532.1,
+     565.6
+    ]
+   ],
+   "headers": {
+    "H0": [
+     150.67684936523438,
+     178.95777893066406
+    ],
+    "H1": [
+     388.0885009765625,
+     426.0423889160156
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 53307,
+  "out": 973,
+  "cost_usd": 0.3749871
+ }
+}

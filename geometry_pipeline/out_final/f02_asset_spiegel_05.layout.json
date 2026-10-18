@@ -1,0 +1,170 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ahk_open",
+      "S6": "zugang",
+      "S7": "abgang",
+      "S8": "umbuchung",
+      "S9": "ahk_close",
+      "S10": "afa_gj",
+      "S11": "kum_afa_close",
+      "S12": "bw_close",
+      "S13": "bw_prev"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Summe Konto",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Summe Anlageverm",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Druckdatum",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Seite \\d+ / \\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Konto Inv\\.-Nr\\.",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^01\\.01\\.\\d{4} 31\\.12\\.",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlagenspiegel Einzelnachweis",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "strips": [
+    [
+     73.4,
+     82.9
+    ],
+    [
+     145.3,
+     150.7
+    ],
+    [
+     152.0,
+     155.2
+    ],
+    [
+     157.7,
+     164.7
+    ],
+    [
+     282.6,
+     288.9
+    ],
+    [
+     339.4,
+     372.9
+    ],
+    [
+     398.2,
+     426.9
+    ],
+    [
+     448.4,
+     480.9
+    ],
+    [
+     502.4,
+     534.9
+    ],
+    [
+     555.4,
+     588.9
+    ],
+    [
+     617.4,
+     642.9
+    ],
+    [
+     663.4,
+     696.9
+    ],
+    [
+     717.4,
+     750.9
+    ],
+    [
+     771.4,
+     804.9
+    ]
+   ],
+   "headers": {
+    "H0": [
+     40.13688278198242,
+     56.71288299560547
+    ],
+    "H1": [
+     86.94487762451172,
+     129.38490295410156
+    ],
+    "H2": [
+     170.95289611816406,
+     273.15185546875
+    ],
+    "H3": [
+     294.5408935546875,
+     318.1378479003906
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 60507,
+  "out": 1040,
+  "cost_usd": 0.4114717
+ }
+}

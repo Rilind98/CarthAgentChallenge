@@ -1,0 +1,174 @@
+{
+ "unit": "TEUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "other",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "ahk",
+     "label_regex": null,
+     "position": 1,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "abgang",
+      "S3": "ignore",
+      "S4": "umbuchung",
+      "S5": "ignore",
+      "S6": "ignore",
+      "S7": "ahk_close"
+     }
+    },
+    {
+     "id": "afa",
+     "label_regex": null,
+     "position": 2,
+     "after": null,
+     "strips": {
+      "S0": "kum_afa_open",
+      "S1": "afa_gj",
+      "S2": "afa_abgang",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "zuschreibung",
+      "S7": "kum_afa_close"
+     }
+    },
+    {
+     "id": "bw",
+     "label_regex": null,
+     "position": 3,
+     "after": null,
+     "strips": {
+      "S0": "bw_prev",
+      "S3": "ignore",
+      "S7": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Berichtsdatum",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Erstellungsdatum",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^BuKr\\b",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^AHK GJ-Beg",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^AfA GJ-Beg",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Buchwrt GJ-Beg",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^\\*{4,}",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^\\*{3}(?!\\*)",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^\\*{2}(?!\\*)",
+   "kind": "position_subtotal"
+  },
+  {
+   "label_regex": "^\\*(?!\\*)",
+   "kind": "account_subtotal"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "strips": [
+    [
+     69.5,
+     94.0
+    ],
+    [
+     143.7,
+     160.0
+    ],
+    [
+     209.7,
+     226.0
+    ],
+    [
+     238.4,
+     246.6
+    ],
+    [
+     275.7,
+     292.0
+    ],
+    [
+     349.8,
+     353.9
+    ],
+    [
+     411.8,
+     419.9
+    ],
+    [
+     465.5,
+     492.0
+    ]
+   ],
+   "headers": {}
+  }
+ ],
+ "_usage": {
+  "in": 102254,
+  "out": 1735,
+  "cost_usd": 0.4156731
+ }
+}

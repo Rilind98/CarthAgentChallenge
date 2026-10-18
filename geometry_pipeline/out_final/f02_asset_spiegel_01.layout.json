@@ -1,0 +1,188 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 6,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 7,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 8,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ahk_open",
+      "S5": "zugang",
+      "S6": "ignore",
+      "S7": "abgang",
+      "S8": "umbuchung",
+      "S9": "zuschreibung",
+      "S10": "afa_gj",
+      "S11": "bw_prev",
+      "S12": "kum_afa_close",
+      "S13": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Datum:",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Seite",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Übertrag",
+   "kind": "carry_over"
+  },
+  {
+   "label_regex": "^(Summe\\s+)?(Anlagevermögen|Gesamt|Gesamtsumme|Endsumme)|^Summe\\s+(Anlagevermögen|gesamt)",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Summe\\s+\\d{4}\\b",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Summe\\s+\\d{1,2}\\.",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Summe",
+   "kind": "position_subtotal"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "strips": [
+    [
+     54.2,
+     60.0
+    ],
+    [
+     121.1,
+     128.9
+    ],
+    [
+     130.0,
+     137.8
+    ],
+    [
+     257.2,
+     264.9
+    ],
+    [
+     279.1,
+     319.9
+    ],
+    [
+     334.1,
+     374.9
+    ],
+    [
+     416.3,
+     429.9
+    ],
+    [
+     453.8,
+     484.9
+    ],
+    [
+     506.5,
+     539.9
+    ],
+    [
+     581.3,
+     594.9
+    ],
+    [
+     614.9,
+     649.9
+    ],
+    [
+     664.1,
+     704.9
+    ],
+    [
+     719.1,
+     759.9
+    ],
+    [
+     774.1,
+     814.9
+    ]
+   ],
+   "headers": {
+    "H0": [
+     206.9449005126953,
+     251.38389587402344
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 58350,
+  "out": 1861,
+  "cost_usd": 0.41902569999999995
+ }
+}

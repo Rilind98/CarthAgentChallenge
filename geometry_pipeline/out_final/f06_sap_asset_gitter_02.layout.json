@@ -1,0 +1,142 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "other",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ahk_open",
+      "S3": "kum_afa_open",
+      "S4": "bw_prev",
+      "S5": "zugang",
+      "S6": "afa_gj",
+      "S7": "abgang",
+      "S8": "afa_abgang",
+      "S9": "umbuchung",
+      "S10": "bw_close",
+      "S11": "ahk_close",
+      "S12": "kum_afa_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^\\*Klasse",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^\\*{2}",
+   "kind": "position_subtotal"
+  },
+  {
+   "label_regex": "^\\*{3,}",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^(Berichtsdatum|Erstellungsdatum|Bilanzposition|Selektionsfeld|Buchungskreis|Bewertungsbereich)",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1
+   ],
+   "strips": [
+    [
+     400.0,
+     490.0
+    ],
+    [
+     500.0,
+     590.0
+    ],
+    [
+     900.0,
+     990.0
+    ],
+    [
+     1000.0,
+     1090.0
+    ],
+    [
+     1100.0,
+     1190.0
+    ],
+    [
+     1200.0,
+     1290.0
+    ],
+    [
+     1300.0,
+     1390.0
+    ],
+    [
+     1400.0,
+     1490.0
+    ],
+    [
+     1500.0,
+     1590.0
+    ],
+    [
+     1600.0,
+     1690.0
+    ],
+    [
+     1700.0,
+     1790.0
+    ],
+    [
+     1800.0,
+     1890.0
+    ],
+    [
+     1900.0,
+     1990.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     600.0,
+     690.0
+    ],
+    "H1": [
+     700.0,
+     790.0
+    ],
+    "H2": [
+     800.0,
+     890.0
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 11645,
+  "out": 431,
+  "cost_usd": 0.0898006
+ }
+}

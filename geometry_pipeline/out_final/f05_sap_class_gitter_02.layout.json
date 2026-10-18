@@ -1,0 +1,123 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "ahk",
+     "label_regex": null,
+     "position": 1,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "abgang",
+      "S3": "umbuchung",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "ahk_close"
+     }
+    },
+    {
+     "id": "afa",
+     "label_regex": null,
+     "position": 2,
+     "after": null,
+     "strips": {
+      "S0": "kum_afa_open",
+      "S1": "afa_gj",
+      "S2": "afa_abgang",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "zuschreibung",
+      "S6": "kum_afa_close"
+     }
+    },
+    {
+     "id": "bw",
+     "label_regex": null,
+     "position": 3,
+     "after": null,
+     "strips": {
+      "S0": "bw_prev",
+      "S6": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^\\*{4,}",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^\\*{3}(?!\\*)",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^\\*{2}(?!\\*)",
+   "kind": "position_subtotal"
+  },
+  {
+   "label_regex": "^\\*(?!\\*)",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^(Sortierkriterien|Buchungskreis|Geschäftsbereich|Bilanzposition|Bestandskonto|Anlagenklasse|Datenstatistik|Übergebene Sätze|Ermittelte Summenzeilen|Berichtsdatum|Erstellungsdatum|BuKr |AHK GJ-Beg|AfA GJ-Beg|Buchwrt GJ-Beg)",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1
+   ],
+   "strips": [
+    [
+     200.0,
+     290.0
+    ],
+    [
+     300.0,
+     390.0
+    ],
+    [
+     400.0,
+     490.0
+    ],
+    [
+     500.0,
+     590.0
+    ],
+    [
+     600.0,
+     690.0
+    ],
+    [
+     700.0,
+     790.0
+    ],
+    [
+     800.0,
+     890.0
+    ]
+   ],
+   "headers": {}
+  }
+ ],
+ "_usage": {
+  "in": 7612,
+  "out": 1206,
+  "cost_usd": 0.0726164
+ }
+}

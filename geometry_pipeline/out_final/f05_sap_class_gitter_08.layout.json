@@ -1,0 +1,147 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "other",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "abgang",
+      "S3": "umbuchung",
+      "S4": "ahk_close",
+      "S5": "kum_afa_open",
+      "S6": "afa_gj",
+      "S7": "afa_abgang",
+      "S8": "zuschreibung",
+      "S9": "kum_afa_close",
+      "S10": "bw_prev",
+      "S11": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "Summe Bestandskonto",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "Summe Bilanzposition",
+   "kind": "position_subtotal"
+  },
+  {
+   "label_regex": "Summe Geschäftsbereich",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "Summe Buchungskreis",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Berichtsdatum|^Erstellungsdatum|^BuKr\\b|Sortierkriterien|Datenstatistik",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    2,
+    3
+   ],
+   "strips": [
+    [
+     192.8,
+     233.1
+    ],
+    [
+     250.5,
+     284.1
+    ],
+    [
+     304.9,
+     338.5
+    ],
+    [
+     352.5,
+     389.5
+    ],
+    [
+     396.8,
+     437.1
+    ],
+    [
+     447.8,
+     491.5
+    ],
+    [
+     505.5,
+     542.5
+    ],
+    [
+     559.9,
+     590.1
+    ],
+    [
+     614.3,
+     641.1
+    ],
+    [
+     651.8,
+     695.5
+    ],
+    [
+     702.8,
+     743.1
+    ],
+    [
+     753.8,
+     794.1
+    ]
+   ],
+   "headers": {
+    "H0": [
+     151.18984985351562,
+     161.2698516845703
+    ],
+    "H1": [
+     164.62985229492188,
+     178.06985473632812
+    ],
+    "H2": [
+     801.5,
+     818.49951171875
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 60153,
+  "out": 1434,
+  "cost_usd": 0.41790700000000003
+ }
+}

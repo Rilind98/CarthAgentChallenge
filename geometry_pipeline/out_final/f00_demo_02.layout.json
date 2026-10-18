@@ -1,0 +1,154 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ahk_open",
+      "S5": "zugang",
+      "S6": "abgang",
+      "S7": "umbuchung",
+      "S8": "ahk_close",
+      "S9": "kum_afa_open",
+      "S10": "afa_gj",
+      "S11": "afa_abgang",
+      "H1": "zuschreibung",
+      "S12": "kum_afa_close",
+      "S13": "bw_close",
+      "S14": "bw_prev"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Summe Anlageverm",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Summe",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Seite \\d+ von \\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Druckdatum",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Wirtschaftsjahr|^Anlagenspiegel zum",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2
+   ],
+   "strips": [
+    [
+     138.6,
+     142.5
+    ],
+    [
+     143.6,
+     146.4
+    ],
+    [
+     149.1,
+     153.0
+    ],
+    [
+     156.1,
+     159.6
+    ],
+    [
+     212.9,
+     247.9
+    ],
+    [
+     263.9,
+     298.9
+    ],
+    [
+     318.8,
+     349.9
+    ],
+    [
+     363.6,
+     400.9
+    ],
+    [
+     411.1,
+     451.9
+    ],
+    [
+     467.9,
+     502.9
+    ],
+    [
+     522.8,
+     553.9
+    ],
+    [
+     577.7,
+     604.9
+    ],
+    [
+     671.9,
+     706.9
+    ],
+    [
+     722.9,
+     757.9
+    ],
+    [
+     773.9,
+     808.9
+    ]
+   ],
+   "headers": {
+    "H0": [
+     86.06488037109375,
+     126.09686279296875
+    ],
+    "H1": [
+     620.5458984375,
+     655.9448852539062
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 56141,
+  "out": 953,
+  "cost_usd": 0.38639660000000003
+ }
+}

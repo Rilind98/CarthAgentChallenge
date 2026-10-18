@@ -1,0 +1,142 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "ignore",
+      "S7": "ahk_close",
+      "S8": "ignore",
+      "S9": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Summe",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Datum:|Seite:",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlageverzeichnis vom",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Inventar-|^Nummer Bezeichnung",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "strips": [
+    [
+     45.0,
+     57.5
+    ],
+    [
+     170.8,
+     175.0
+    ],
+    [
+     184.2,
+     188.4
+    ],
+    [
+     191.3,
+     191.7
+    ],
+    [
+     194.6,
+     200.0
+    ],
+    [
+     201.7,
+     205.9
+    ],
+    [
+     259.8,
+     264.0
+    ],
+    [
+     304.5,
+     342.0
+    ],
+    [
+     408.0,
+     416.3
+    ],
+    [
+     476.5,
+     514.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     61.68899917602539,
+     89.31099700927734
+    ],
+    "H1": [
+     275.1697998046875,
+     297.4097900390625
+    ],
+    "H2": [
+     347.20977783203125,
+     387.24176025390625
+    ],
+    "H3": [
+     390.3580017089844,
+     401.64202880859375
+    ],
+    "H4": [
+     520.1854858398438,
+     552.0
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 56152,
+  "out": 1036,
+  "cost_usd": 0.3933468
+ }
+}

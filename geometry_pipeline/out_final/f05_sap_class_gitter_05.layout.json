@@ -1,0 +1,159 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "other",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "ahk",
+     "label_regex": null,
+     "position": 1,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "abgang",
+      "S3": "umbuchung",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "ahk_close"
+     }
+    },
+    {
+     "id": "afa",
+     "label_regex": null,
+     "position": 2,
+     "after": null,
+     "strips": {
+      "S0": "kum_afa_open",
+      "S1": "afa_gj",
+      "S2": "afa_abgang",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "zuschreibung",
+      "S6": "kum_afa_close"
+     }
+    },
+    {
+     "id": "bw",
+     "label_regex": null,
+     "position": 3,
+     "after": null,
+     "strips": {
+      "S0": "bw_prev",
+      "S6": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^\\*{4,}",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^\\*{3}(?!\\*)",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^\\*{2}(?!\\*)",
+   "kind": "position_subtotal"
+  },
+  {
+   "label_regex": "^\\*(?!\\*)",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^(Berichtsdatum|Erstellungsdatum|BuKr GsBe|AHK GJ-Beg|AfA GJ-Beg|Buchwrt GJ-Beg|Sortierkriterien|Datenstatistik|Übergebene|Ermittelte)",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "strips": [
+    [
+     41.0,
+     94.0
+    ],
+    [
+     107.0,
+     160.0
+    ],
+    [
+     185.2,
+     226.0
+    ],
+    [
+     247.1,
+     292.0
+    ],
+    [
+     337.6,
+     353.9
+    ],
+    [
+     387.3,
+     419.9
+    ],
+    [
+     432.9,
+     473.7
+    ]
+   ],
+   "headers": {
+    "H0": [
+     164.0,
+     180.32000732421875
+    ],
+    "H1": [
+     230.25201416015625,
+     242.4920196533203
+    ],
+    "H2": [
+     300.8706970214844,
+     313.11065673828125
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 57050,
+  "out": 1811,
+  "cost_usd": 0.41259670000000004
+ }
+}

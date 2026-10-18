@@ -1,0 +1,128 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "abgang",
+      "S3": "umbuchung",
+      "S4": "ahk_close",
+      "S5": "kum_afa_open",
+      "S6": "afa_gj",
+      "S7": "afa_abgang",
+      "H0": "zuschreibung",
+      "S8": "kum_afa_close",
+      "S9": "bw_close",
+      "S10": "bw_prev"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Summe",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Wendumark Elektroanlagen",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlagenspiegel zum",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Wirtschaftsjahr",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anschaffungs- und Herstellungskosten",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anl\\.-Nr\\.",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1
+   ],
+   "strips": [
+    [
+     300.0,
+     390.0
+    ],
+    [
+     400.0,
+     490.0
+    ],
+    [
+     500.0,
+     590.0
+    ],
+    [
+     600.0,
+     690.0
+    ],
+    [
+     700.0,
+     790.0
+    ],
+    [
+     800.0,
+     890.0
+    ],
+    [
+     900.0,
+     990.0
+    ],
+    [
+     1000.0,
+     1090.0
+    ],
+    [
+     1200.0,
+     1290.0
+    ],
+    [
+     1300.0,
+     1390.0
+    ],
+    [
+     1400.0,
+     1490.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     1100.0,
+     1190.0
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 8672,
+  "out": 438,
+  "cost_usd": 0.0658395
+ }
+}

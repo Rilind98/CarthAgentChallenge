@@ -1,0 +1,156 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 3,
+   "role": "other",
+   "year": 2024
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2024
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ahk_close",
+      "S6": "ignore",
+      "S7": "bw_close",
+      "H0": "ignore",
+      "H1": "ignore",
+      "H2": "ignore",
+      "H3": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Summe",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Datum:",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Seite",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlage(n)?verzeichnis",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlagegruppe",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Inventar",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Kontennachweis",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "strips": [
+    [
+     45.0,
+     57.5
+    ],
+    [
+     167.9,
+     181.3
+    ],
+    [
+     184.2,
+     188.4
+    ],
+    [
+     213.4,
+     214.6
+    ],
+    [
+     259.8,
+     264.0
+    ],
+    [
+     298.2,
+     342.0
+    ],
+    [
+     408.0,
+     416.3
+    ],
+    [
+     430.0,
+     514.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     70.83000183105469,
+     83.33999633789062
+    ],
+    "H1": [
+     349.0539855957031,
+     386.353759765625
+    ],
+    "H2": [
+     389.7804870605469,
+     402.2194519042969
+    ],
+    "H3": [
+     519.0269775390625,
+     551.8920288085938
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 57144,
+  "out": 1115,
+  "cost_usd": 0.3991456
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ahk_close",
+      "S5": "bw_close",
+      "S6": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Summe",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Datum:|Seite:?\\s*\\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlageverzeichnis",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "strips": [
+    [
+     45.0,
+     57.5
+    ],
+    [
+     151.7,
+     164.6
+    ],
+    [
+     172.5,
+     180.9
+    ],
+    [
+     310.7,
+     319.0
+    ],
+    [
+     383.4,
+     423.0
+    ],
+    [
+     453.4,
+     493.0
+    ],
+    [
+     552.8,
+     557.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     63.13850021362305,
+     72.86149597167969
+    ],
+    "H1": [
+     208.03379821777344,
+     297.4097900390625
+    ],
+    "H2": [
+     323.61151123046875,
+     352.3885192871094
+    ],
+    "H3": [
+     500.635009765625,
+     546.07763671875
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 56435,
+  "out": 814,
+  "cost_usd": 0.3901168
+ }
+}

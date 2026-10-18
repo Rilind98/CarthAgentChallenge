@@ -1,0 +1,208 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "other",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 6,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 7,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 8,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 9,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 10,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ahk_open",
+      "S5": "kum_afa_open",
+      "S6": "bw_prev",
+      "S7": "zugang",
+      "S8": "afa_gj",
+      "S9": "abgang",
+      "S10": "afa_abgang",
+      "S11": "umbuchung",
+      "S12": "bw_close",
+      "S13": "ahk_close",
+      "S14": "kum_afa_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^\\s*Übertrag",
+   "kind": "carry_over"
+  },
+  {
+   "label_regex": "^\\*Klasse",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^\\*{2}(?!\\*)",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^\\*{3}(?!\\*)",
+   "kind": "position_subtotal"
+  },
+  {
+   "label_regex": "^\\*{4,}|^Summe|^Gesamt",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Berichtsdatum|^Erstellungsdatum|^Buchungskreis|^Anlage UNr",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^\\d{4} \\d{7} \\d{4} \\d{4}",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "strips": [
+    [
+     21.5,
+     28.2
+    ],
+    [
+     45.5,
+     48.9
+    ],
+    [
+     116.3,
+     123.0
+    ],
+    [
+     133.1,
+     136.4
+    ],
+    [
+     215.8,
+     256.1
+    ],
+    [
+     266.8,
+     310.5
+    ],
+    [
+     317.8,
+     358.1
+    ],
+    [
+     368.8,
+     409.1
+    ],
+    [
+     429.9,
+     463.5
+    ],
+    [
+     480.9,
+     514.5
+    ],
+    [
+     531.9,
+     562.1
+    ],
+    [
+     579.5,
+     616.5
+    ],
+    [
+     623.8,
+     664.1
+    ],
+    [
+     674.8,
+     715.1
+    ],
+    [
+     725.8,
+     769.5
+    ]
+   ],
+   "headers": {
+    "H0": [
+     71.9000244140625,
+     112.219970703125
+    ],
+    "H1": [
+     147.17999267578125,
+     211.02001953125
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 59910,
+  "out": 1732,
+  "cost_usd": 0.4221632
+ }
+}

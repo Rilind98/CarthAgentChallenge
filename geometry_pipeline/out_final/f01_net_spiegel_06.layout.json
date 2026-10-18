@@ -1,0 +1,144 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "other",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "bw_prev",
+      "S2": "zugang",
+      "S3": "ignore",
+      "S4": "abgang_bw",
+      "S5": "umbuchung",
+      "S6": "zuschreibung",
+      "S7": "afa_gj",
+      "S8": "ignore",
+      "S9": "kum_afa_close",
+      "S10": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^(Gesamtsumme|Summe Anlagevermögen|Summe Anlagespiegel|Gesamt|Total)",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^Summe\\s+\\d+\\.",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Summe",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Übertrag",
+   "kind": "carry_over"
+  },
+  {
+   "label_regex": "^Datum:|Seite:",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    2,
+    3,
+    4
+   ],
+   "strips": [
+    [
+     72.2,
+     78.0
+    ],
+    [
+     252.1,
+     292.9
+    ],
+    [
+     313.9,
+     348.9
+    ],
+    [
+     391.3,
+     404.9
+    ],
+    [
+     429.8,
+     460.9
+    ],
+    [
+     479.6,
+     516.9
+    ],
+    [
+     559.3,
+     572.9
+    ],
+    [
+     597.8,
+     628.9
+    ],
+    [
+     671.3,
+     684.9
+    ],
+    [
+     700.1,
+     740.9
+    ],
+    [
+     756.1,
+     796.9
+    ]
+   ],
+   "headers": {
+    "H0": [
+     44.944881439208984,
+     50.78288269042969
+    ],
+    "H1": [
+     95.52687072753906,
+     244.517822265625
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 56207,
+  "out": 1467,
+  "cost_usd": 0.40222559999999996
+ }
+}

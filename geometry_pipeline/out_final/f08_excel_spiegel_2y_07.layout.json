@@ -1,0 +1,243 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2024
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ahk_open",
+      "S2": "zugang",
+      "S3": "abgang",
+      "S4": "umbuchung",
+      "S5": "ignore",
+      "S6": "ahk_close",
+      "S7": "kum_afa_open",
+      "S8": "afa_gj",
+      "S9": "afa_abgang",
+      "S10": "kum_afa_close",
+      "S11": "bw_close",
+      "S12": "bw_prev",
+      "S13": "ignore",
+      "S14": "ignore",
+      "H0": "ignore"
+     }
+    }
+   ]
+  },
+  {
+   "group": 1,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "abgang",
+      "S3": "umbuchung",
+      "S4": "ahk_close",
+      "S5": "kum_afa_open",
+      "S6": "afa_gj",
+      "S7": "afa_abgang",
+      "S8": "kum_afa_close",
+      "S9": "bw_close",
+      "S10": "bw_prev",
+      "S11": "ignore",
+      "S12": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^$",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Abstimmung",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^AHK \\d{2}\\.\\d{2}\\.\\d{4} lt\\.",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^kum\\. Abschreibungen \\d{2}\\.\\d{2}\\.\\d{4} lt\\.",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "lt\\. Anlagegitter",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Bearbeitungsstand",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Differenz",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1
+   ],
+   "strips": [
+    [
+     100.0,
+     190.0
+    ],
+    [
+     300.0,
+     390.0
+    ],
+    [
+     400.0,
+     490.0
+    ],
+    [
+     500.0,
+     590.0
+    ],
+    [
+     600.0,
+     690.0
+    ],
+    [
+     700.0,
+     790.0
+    ],
+    [
+     800.0,
+     890.0
+    ],
+    [
+     1000.0,
+     1090.0
+    ],
+    [
+     1100.0,
+     1190.0
+    ],
+    [
+     1200.0,
+     1290.0
+    ],
+    [
+     1300.0,
+     1390.0
+    ],
+    [
+     1500.0,
+     1590.0
+    ],
+    [
+     1600.0,
+     1690.0
+    ],
+    [
+     1900.0,
+     1990.0
+    ],
+    [
+     2000.0,
+     2090.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     200.0,
+     290.0
+    ]
+   }
+  },
+  {
+   "pages": [
+    2
+   ],
+   "strips": [
+    [
+     200.0,
+     290.0
+    ],
+    [
+     300.0,
+     390.0
+    ],
+    [
+     400.0,
+     490.0
+    ],
+    [
+     500.0,
+     590.0
+    ],
+    [
+     700.0,
+     790.0
+    ],
+    [
+     900.0,
+     990.0
+    ],
+    [
+     1000.0,
+     1090.0
+    ],
+    [
+     1100.0,
+     1190.0
+    ],
+    [
+     1200.0,
+     1290.0
+    ],
+    [
+     1400.0,
+     1490.0
+    ],
+    [
+     1500.0,
+     1590.0
+    ],
+    [
+     1800.0,
+     1890.0
+    ],
+    [
+     1900.0,
+     1990.0
+    ]
+   ],
+   "headers": {}
+  }
+ ],
+ "_usage": {
+  "in": 10152,
+  "out": 1304,
+  "cost_usd": 0.0951673
+ }
+}

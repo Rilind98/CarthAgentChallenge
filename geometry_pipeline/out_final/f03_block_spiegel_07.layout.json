@@ -1,0 +1,254 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 6,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 7,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 8,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 9,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "ahk",
+     "label_regex": "AK/HK",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ahk_open",
+      "S5": "zugang",
+      "S6": "umbuchung",
+      "S7": "ignore",
+      "S8": "ahk_close"
+     }
+    },
+    {
+     "id": "ahk_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "ahk",
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "abgang",
+      "S6": "umbuchung",
+      "S7": "ignore",
+      "S8": "ignore"
+     }
+    },
+    {
+     "id": "afa",
+     "label_regex": "kum\\.?\\s*AfA",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "kum_afa_open",
+      "S5": "afa_gj",
+      "S6": "ignore",
+      "S7": "ignore",
+      "S8": "kum_afa_close"
+     }
+    },
+    {
+     "id": "afa_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "afa",
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "afa_abgang",
+      "S6": "ignore",
+      "S7": "zuschreibung",
+      "S8": "ignore"
+     }
+    },
+    {
+     "id": "bw",
+     "label_regex": "Restbuchwert|RBW",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "bw_prev",
+      "S5": "ignore",
+      "S6": "ignore",
+      "S7": "ignore",
+      "S8": "bw_close"
+     }
+    },
+    {
+     "id": "bw_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "bw",
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "abgang_bw",
+      "S6": "ignore",
+      "S7": "ignore",
+      "S8": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Blatt\\s*\\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlagenspiegel vom",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Anlagegut\\b",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Handelsrecht",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Übertrag",
+   "kind": "carry_over"
+  },
+  {
+   "label_regex": "^(Summe|Gesamt)",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^AK/HK\\s*$",
+   "kind": "grand_total"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "strips": [
+    [
+     26.0,
+     37.7
+    ],
+    [
+     118.2,
+     119.4
+    ],
+    [
+     147.8,
+     149.0
+    ],
+    [
+     195.5,
+     216.9
+    ],
+    [
+     288.0,
+     323.0
+    ],
+    [
+     350.0,
+     385.0
+    ],
+    [
+     409.6,
+     447.0
+    ],
+    [
+     477.9,
+     509.0
+    ],
+    [
+     530.1,
+     571.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     239.0540008544922,
+     279.4478454589844
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 55850,
+  "out": 2911,
+  "cost_usd": 0.4296744
+ }
+}

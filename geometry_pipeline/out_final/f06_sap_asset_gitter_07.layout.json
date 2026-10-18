@@ -1,0 +1,144 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ahk_open",
+      "S4": "zugang",
+      "S5": "abgang",
+      "S6": "umbuchung",
+      "S7": "ahk_close",
+      "S8": "kum_afa_open",
+      "S9": "afa_gj",
+      "S10": "afa_abgang",
+      "S11": "kum_afa_close",
+      "S12": "bw_prev",
+      "S13": "bw_close"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Summe Klasse",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^(Summe (gesamt|Gesamt|Bereich|Anlagen|total)|Gesamtsumme|Gesamt|Total)",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^(Berichtsdatum|Erstellungsdatum|Anlage UNr)",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1,
+    2
+   ],
+   "strips": [
+    [
+     48.5,
+     55.2
+    ],
+    [
+     72.5,
+     75.9
+    ],
+    [
+     143.6,
+     150.3
+    ],
+    [
+     229.9,
+     263.5
+    ],
+    [
+     280.9,
+     314.5
+    ],
+    [
+     331.9,
+     365.5
+    ],
+    [
+     379.5,
+     416.5
+    ],
+    [
+     433.9,
+     467.5
+    ],
+    [
+     481.5,
+     518.5
+    ],
+    [
+     535.9,
+     569.5
+    ],
+    [
+     590.3,
+     620.5
+    ],
+    [
+     634.5,
+     671.5
+    ],
+    [
+     688.9,
+     722.5
+    ],
+    [
+     739.9,
+     773.5
+    ]
+   ],
+   "headers": {
+    "H0": [
+     86.5,
+     123.46000671386719
+    ],
+    "H1": [
+     174.1800079345703,
+     224.58001708984375
+    ],
+    "H2": [
+     777.5,
+     795.5
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 61471,
+  "out": 1030,
+  "cost_usd": 0.4099712
+ }
+}

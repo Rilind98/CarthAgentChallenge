@@ -1,0 +1,118 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "table",
+   "year": 2025
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "main",
+     "label_regex": null,
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ahk_open",
+      "S1": "zugang",
+      "S2": "abgang",
+      "S3": "umbuchung",
+      "S4": "ahk_close",
+      "S5": "kum_afa_open",
+      "S6": "afa_gj",
+      "S7": "afa_abgang",
+      "S8": "kum_afa_close",
+      "S9": "bw_close",
+      "S10": "bw_prev"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Anlagevermögen gesamt",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "^(I|II|III|IV)\\.\\s",
+   "kind": "class_subtotal"
+  },
+  {
+   "label_regex": "^Anlagenspiegel\\b",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Geschäftsjahr\\s",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Bilanzposten\\b",
+   "kind": "ignore"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    1
+   ],
+   "strips": [
+    [
+     200.0,
+     290.0
+    ],
+    [
+     300.0,
+     390.0
+    ],
+    [
+     400.0,
+     490.0
+    ],
+    [
+     500.0,
+     590.0
+    ],
+    [
+     600.0,
+     690.0
+    ],
+    [
+     700.0,
+     790.0
+    ],
+    [
+     800.0,
+     890.0
+    ],
+    [
+     900.0,
+     990.0
+    ],
+    [
+     1000.0,
+     1090.0
+    ],
+    [
+     1100.0,
+     1190.0
+    ],
+    [
+     1200.0,
+     1290.0
+    ]
+   ],
+   "headers": {}
+  }
+ ],
+ "_usage": {
+  "in": 8437,
+  "out": 592,
+  "cost_usd": 0.0670293
+ }
+}

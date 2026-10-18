@@ -1,0 +1,281 @@
+{
+ "unit": "EUR",
+ "pages": [
+  {
+   "page": 1,
+   "role": "other",
+   "year": 2024
+  },
+  {
+   "page": 2,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 3,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 4,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 5,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 6,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 7,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 8,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 9,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 10,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 11,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 12,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 13,
+   "role": "table",
+   "year": 2024
+  },
+  {
+   "page": 14,
+   "role": "table",
+   "year": 2024
+  }
+ ],
+ "groups": [
+  {
+   "group": 0,
+   "rules": [
+    {
+     "id": "ahk",
+     "label_regex": "^(?!.*(\\bAbsch\\w*|\\bBW|Buchwerte)\\s*$).+",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ahk_open",
+      "S6": "zugang",
+      "S7": "umbuchung",
+      "S8": "ignore",
+      "S9": "ahk_close"
+     }
+    },
+    {
+     "id": "ahk_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "ahk",
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "abgang",
+      "S7": "umbuchung",
+      "S8": "ignore",
+      "S9": "ignore"
+     }
+    },
+    {
+     "id": "afa",
+     "label_regex": "\\bAbsch\\w*\\s*$",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "kum_afa_open",
+      "S6": "afa_gj",
+      "S7": "ignore",
+      "S8": "ignore",
+      "S9": "kum_afa_close"
+     }
+    },
+    {
+     "id": "afa_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "afa",
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "afa_abgang",
+      "S7": "ignore",
+      "S8": "ignore",
+      "S9": "ignore"
+     }
+    },
+    {
+     "id": "bw",
+     "label_regex": "(\\bBW|Buchwerte)\\s*$",
+     "position": null,
+     "after": null,
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "bw_prev",
+      "S6": "ignore",
+      "S7": "ignore",
+      "S8": "ignore",
+      "S9": "bw_close"
+     }
+    },
+    {
+     "id": "bw_neg",
+     "label_regex": "^$",
+     "position": null,
+     "after": "bw",
+     "strips": {
+      "S0": "ignore",
+      "S1": "ignore",
+      "S2": "ignore",
+      "S3": "ignore",
+      "S4": "ignore",
+      "S5": "ignore",
+      "S6": "abgang_bw",
+      "S7": "ignore",
+      "S8": "zuschreibung",
+      "S9": "ignore"
+     }
+    }
+   ]
+  }
+ ],
+ "kinds": [
+  {
+   "label_regex": "^Blatt\\s+\\d+",
+   "kind": "ignore"
+  },
+  {
+   "label_regex": "^Ansch-/Herst-K$",
+   "kind": "grand_total"
+  },
+  {
+   "label_regex": "Ansch-/Herst-K$|^Abschreibung$|^Buchwerte$",
+   "kind": "account_subtotal"
+  },
+  {
+   "label_regex": "^Summe",
+   "kind": "account_subtotal"
+  }
+ ],
+ "_problems": [],
+ "_groups": [
+  {
+   "pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "strips": [
+    [
+     40.0,
+     52.3
+    ],
+    [
+     98.7,
+     107.0
+    ],
+    [
+     138.2,
+     142.3
+    ],
+    [
+     159.2,
+     163.3
+    ],
+    [
+     308.5,
+     331.1
+    ],
+    [
+     419.8,
+     463.0
+    ],
+    [
+     508.5,
+     548.0
+    ],
+    [
+     590.5,
+     630.0
+    ],
+    [
+     677.0,
+     714.0
+    ],
+    [
+     756.8,
+     800.0
+    ]
+   ],
+   "headers": {
+    "H0": [
+     56.45759963989258,
+     92.23660278320312
+    ]
+   }
+  }
+ ],
+ "_usage": {
+  "in": 56845,
+  "out": 4364,
+  "cost_usd": 0.4628056
+ }
+}
