@@ -52,10 +52,13 @@ this full-tuple accuracy or real-client validation.
 The current source is app 0.13.0 / acquisition 13 / structure 8 / semantics 12.
 The implementation owner reports all eight repairs below plus a local footer
 veto are present. Focused checks passed: the five new stacked-table/locator
-acceptance probes, five focused unit probes, and 60 owned unit tests. The full
-suite was interrupted after 155 passes and one failure: a tampered-evidence
-rebuild returned `failed` without the expected integrity diagnostic. This is
-still an open regression; the branch must not be described as green.
+acceptance probes, five focused unit probes, and 60 owned unit tests. The root's
+independent full run completed with 172 passed, 4 skipped and 2 failed in
+102.93 seconds. One failure came from a private OCR fixture-count assumption;
+that test is now isolated to explicit known responses and its focused suite
+passes 25/25. The other is a repeatable tampered-evidence rebuild failure:
+`ValueError:immutable record collision:export`. It needs a production fix;
+the branch must not be described as green.
 
 Source fingerprint at edit freeze:
 `6d34871f4ef761a1ec7b29bb0c2f93a3f25198608c2b0543ff164d6694116feb`.

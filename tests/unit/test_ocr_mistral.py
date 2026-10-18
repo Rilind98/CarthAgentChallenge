@@ -263,16 +263,35 @@ def test_non_placeholder_confidence_mismatch_remains_invalid(
 
 
 def test_saved_real_mistral_responses_replay_read_only():
-    paths = sorted(Path("hackathon-local/mistral-benchmark-v1").glob("*.response.json"))
-    if not paths:
+    response_dir = Path("hackathon-local/mistral-benchmark-v1")
+    paths = tuple(
+        response_dir / name
+        for name in (
+            "f00_demo_03.response.json",
+            "f01_net_spiegel_05.response.json",
+            "f03_block_spiegel_03.response.json",
+            "f07_sap_class_summary_03.response.json",
+        )
+    )
+    if not all(path.is_file() for path in paths):
         pytest.skip("local Mistral benchmark responses are unavailable")
-    assert len(paths) == 4
     for path in paths:
         result = _parse_result(
             _decode_json(path.read_bytes()),
             requested_model=MISTRAL_OCR_QUALITY_MODEL,
         )
         assert result.pages
+
+
+def test_saved_f04_response_retains_strict_duplicate_table_reference_rejection():
+    path = Path("hackathon-local/mistral-benchmark-v1/f04_verzeichnis_01.response.json")
+    if not path.is_file():
+        pytest.skip("local f04 Mistral response is unavailable")
+    with pytest.raises(MistralOCRResponseError, match="invalid_or_duplicate_table_reference"):
+        _parse_result(
+            _decode_json(path.read_bytes()),
+            requested_model=MISTRAL_OCR_QUALITY_MODEL,
+        )
 
 
 def test_optional_polygon_and_missing_geometry_are_preserved_without_fabrication(mistral_server: str, monkeypatch: pytest.MonkeyPatch):
