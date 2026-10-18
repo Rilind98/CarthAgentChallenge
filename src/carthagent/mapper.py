@@ -25,12 +25,20 @@ MEASURE_AXES = tuple(HEADER_GROUPS)
 MOVEMENT_AXES = ("opening", "closing", "prior_closing", "addition", "disposal", "transfer", "depreciation", "planned_depreciation", "extraordinary_depreciation", "writeup", "addition_or_disposal", "depreciation_or_writeup", "unknown")
 DEFAULT_OPENAI_RESPONSES_ENDPOINT = "https://api.openai.com/v1/responses"
 DEFAULT_QUALITY_MODEL = "gpt-6-astra"
+DEFAULT_ANTHROPIC_MESSAGES_ENDPOINT = "https://api.anthropic.com/v1/messages"
+DEFAULT_ANTHROPIC_MODEL = "claude-opus-5-5"
+ANTHROPIC_API_VERSION = "2023-06-01"
+# provider -> (credentialed host, environment variable, header, header template)
+PROVIDER_AUTH = {
+    "openai": ("api.openai.com", "OPENAI_API_KEY", "Authorization", "Bearer {}"),
+    "anthropic": ("api.anthropic.com", "ANTHROPIC_API_KEY", "x-api-key", "{}"),
+}
 MAX_MAPPER_REQUEST_BYTES = 524_288
 MAX_MAPPER_OBSERVATIONS = 2_000
 MAX_MAPPER_REGIONS = 4
 MAX_PROVIDER_MESSAGE_CHARS = 240
 MAX_RETRY_AFTER_SECONDS = 30
-TRANSIENT_HTTP_STATUSES = frozenset({408, 409, 500, 502, 503, 504})
+TRANSIENT_HTTP_STATUSES = frozenset({408, 409, 500, 502, 503, 504, 529})
 TRANSIENT_RATE_LIMIT_CODES = frozenset({"rate_limit_exceeded", "slow_down"})
 NONRETRY_API_CODES = frozenset({"context_length_exceeded", "insufficient_quota", "invalid_api_key"})
 
@@ -43,6 +51,7 @@ class MapperConfig:
     timeout_seconds: int | None = 300
     max_output_tokens: int | None = 32_768
     reasoning_effort: str | None = "max"
+    provider: str = "openai"
 
 
 class MapperValidationError(ValueError):
@@ -66,13 +75,29 @@ class OpenAICompatibleMapper:
         self.last_http_attempts = 0
 
     @property
+    def anthropic(self) -> bool:
+        if self.config.provider not in PROVIDER_AUTH:
+            raise MapperValidationError(f"unknown mapper provider: {self.config.provider}")
+        return self.config.provider == "anthropic"
+
+    @property
+    def endpoint(self) -> str:
+        if self.anthropic and self.config.endpoint == DEFAULT_OPENAI_RESPONSES_ENDPOINT:
+            return DEFAULT_ANTHROPIC_MESSAGES_ENDPOINT
+        return self.config.endpoint
+
+    @property
     def model(self) -> str | None:
+        if self.anthropic:
+            return self.config.model or os.environ.get("ANTHROPIC_MODEL") or DEFAULT_ANTHROPIC_MODEL
         return self.config.model or os.environ.get("OPENAI_MODEL") or DEFAULT_QUALITY_MODEL
 
     def fingerprint(self) -> dict[str, object]:
+        # OpenAI fingerprints omit the provider so existing cached plans stay addressable.
         return {
+            **({"provider": self.config.provider} if self.anthropic else {}),
             "enabled": self.config.enabled,
-            "endpoint": self.config.endpoint,
+            "endpoint": self.endpoint,
             "model": self.model,
             "timeout_seconds": self.config.timeout_seconds,
             "max_output_tokens": self.config.max_output_tokens,
@@ -103,11 +128,11 @@ class OpenAICompatibleMapper:
         self.last_http_attempts = 0
         if not self.config.enabled:
             return ()
-        if not self.config.endpoint or not self.model or self.config.timeout_seconds is None or self.config.max_output_tokens is None:
+        if not self.endpoint or not self.model or self.config.timeout_seconds is None or self.config.max_output_tokens is None:
             raise MapperValidationError("enabled mapper requires endpoint, model, timeout_seconds, and max_output_tokens")
         if isinstance(max_response_bytes, bool) or not isinstance(max_response_bytes, int) or max_response_bytes <= 0:
             raise MapperValidationError("max_response_bytes must be a positive integer")
-        endpoint = urlparse(self.config.endpoint)
+        endpoint = urlparse(self.endpoint)
         if endpoint.username or endpoint.password or not endpoint.hostname:
             raise MapperValidationError("invalid mapper endpoint")
         if endpoint.scheme == "http":
@@ -122,15 +147,17 @@ class OpenAICompatibleMapper:
         allowed = {o.id for o in observations if o.document_id == document_id}
         local = tuple(o for o in observations if o.document_id == document_id)
         data, body = self._request_body(document_id, local)
-        user_payload = body["input"][1]["content"][0]["text"]
+        user_payload = body["messages"][0]["content"] if self.anthropic else body["input"][1]["content"][0]["text"]
         if max_input_bytes is not None and len(user_payload.encode()) > max_input_bytes:
             raise MapperUnavailableError("mapper_input_size_limit")
         headers = {"Content-Type": "application/json"}
-        api_key = os.environ.get("OPENAI_API_KEY")
-        if endpoint.hostname == "api.openai.com":
-            if not api_key:
-                raise MapperUnavailableError("OPENAI_API_KEY is not configured")
-            headers["Authorization"] = f"Bearer {api_key}"
+        if self.anthropic:
+            headers["anthropic-version"] = ANTHROPIC_API_VERSION
+        auth_host, env_name, header_name, header_template = PROVIDER_AUTH[self.config.provider]
+        if endpoint.hostname == auth_host:
+            if not os.environ.get(env_name):
+                raise MapperUnavailableError(f"{env_name} is not configured")
+            headers[header_name] = header_template.format(os.environ[env_name])
         encoded_body = json.dumps(body, separators=(",", ":")).encode()
         region_count = sum(observation.kind == "table_region" for observation in local)
         if len(local) > MAX_MAPPER_OBSERVATIONS:
@@ -139,7 +166,7 @@ class OpenAICompatibleMapper:
             raise MapperUnavailableError(f"mapper_region_limit:{region_count}>{MAX_MAPPER_REGIONS}")
         if len(encoded_body) > MAX_MAPPER_REQUEST_BYTES:
             raise MapperUnavailableError(f"mapper_request_size_limit:{len(encoded_body)}>{MAX_MAPPER_REQUEST_BYTES}")
-        request = Request(self.config.endpoint, data=encoded_body, headers=headers, method="POST")
+        request = Request(self.endpoint, data=encoded_body, headers=headers, method="POST")
         response_data: dict[str, object] | None = None
         for attempt in range(transient_retries + 1):
             try:
@@ -187,14 +214,7 @@ class OpenAICompatibleMapper:
                 raise MapperUnavailableError(_provider_error_message(diagnostic)) from exc
         if response_data is None:
             raise MapperUnavailableError("mapper_request_failed:no_response")
-        status = response_data.get("status")
-        if status == "incomplete":
-            details = response_data.get("incomplete_details")
-            reason = details.get("reason") if isinstance(details, dict) else "unknown"
-            raise MapperUnavailableError(f"mapper_incomplete:{reason}")
-        if status not in {None, "completed"}:
-            raise MapperUnavailableError(f"mapper_status:{status}")
-        text = self._extract_output_text(response_data)
+        text = self._extract_anthropic_text(response_data) if self.anthropic else self._extract_openai_text(response_data)
         try:
             parsed = json.loads(text)
         except (TypeError, json.JSONDecodeError) as exc:
@@ -229,6 +249,18 @@ class OpenAICompatibleMapper:
             "group/note rows into data rows; explicit source emptiness is decided only by local policy. Omit unresolved axes rather than guessing."
         )
         user_payload = json.dumps({"document_id": document_id, "observations": data, "allowed_fields": sorted(FIELDS), "allowed_identity_roles": sorted(IDENTITIES), "prompt_version": MAPPER_PROMPT_VERSION}, separators=(",", ":"))
+        if self.anthropic:
+            # Thinking is always on for current Claude models; effort is the only depth control.
+            output_config: dict[str, object] = {"format": {"type": "json_schema", "schema": self.response_schema()}}
+            if self.config.reasoning_effort:
+                output_config["effort"] = self.config.reasoning_effort
+            return data, {
+                "model": self.model,
+                "max_tokens": self.config.max_output_tokens,
+                "system": system,
+                "messages": [{"role": "user", "content": user_payload}],
+                "output_config": output_config,
+            }
         body: dict[str, object] = {
             "model": self.model,
             "store": False,
@@ -251,6 +283,32 @@ class OpenAICompatibleMapper:
             return False
         _, body = self._request_body(document_id, local)
         return len(json.dumps(body, separators=(",", ":")).encode()) <= MAX_MAPPER_REQUEST_BYTES
+
+    @classmethod
+    def _extract_openai_text(cls, response_data: dict[str, object]) -> str:
+        status = response_data.get("status")
+        if status == "incomplete":
+            details = response_data.get("incomplete_details")
+            reason = details.get("reason") if isinstance(details, dict) else "unknown"
+            raise MapperUnavailableError(f"mapper_incomplete:{reason}")
+        if status not in {None, "completed"}:
+            raise MapperUnavailableError(f"mapper_status:{status}")
+        return cls._extract_output_text(response_data)
+
+    @staticmethod
+    def _extract_anthropic_text(response_data: dict[str, object]) -> str:
+        stop_reason = response_data.get("stop_reason")
+        if stop_reason == "refusal":
+            raise MapperUnavailableError("mapper_refusal")
+        if stop_reason == "max_tokens":
+            raise MapperUnavailableError("mapper_incomplete:max_output_tokens")
+        if stop_reason not in {None, "end_turn"}:
+            raise MapperUnavailableError(f"mapper_status:{_safe_identifier(stop_reason)}")
+        contents = response_data.get("content") if isinstance(response_data.get("content"), list) else []
+        for content in contents:
+            if isinstance(content, dict) and content.get("type") == "text" and isinstance(content.get("text"), str):
+                return content["text"]
+        raise MapperValidationError("mapper response contains no text block")
 
     @staticmethod
     def _extract_output_text(response_data: dict[str, object]) -> str:

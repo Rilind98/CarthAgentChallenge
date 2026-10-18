@@ -354,3 +354,92 @@ def test_slow_mapper_budget_preserves_local_facts_and_finishes_with_reserve(tmp_
     assert any("mapper_unavailable" in diagnostic or "mapper_budget_exhausted" in diagnostic for diagnostic in result.diagnostics)
     evidence = json.loads(result.evidence_path.read_text())
     assert any(fact["field"] == "ahk_open" and fact["amount"]["normalized_base"] == "100" for fact in evidence["facts"])
+
+
+class AnthropicStubHandler(BaseHTTPRequestHandler):
+    response_content: object = {}
+    stop_reason = "end_turn"
+    request_json: dict | None = None
+    request_headers: dict[str, str] = {}
+
+    def do_POST(self):
+        length = int(self.headers["Content-Length"]); type(self).request_json = json.loads(self.rfile.read(length))
+        type(self).request_headers = {name.lower(): value for name, value in self.headers.items()}
+        content = [{"type": "thinking", "thinking": "", "signature": "sig"}, {"type": "text", "text": json.dumps(type(self).response_content)}]
+        body = json.dumps({"type": "message", "role": "assistant", "content": content, "stop_reason": type(self).stop_reason}).encode()
+        self.send_response(200); self.send_header("Content-Type", "application/json"); self.send_header("Content-Length", str(len(body))); self.end_headers(); self.wfile.write(body)
+
+    def log_message(self, format, *args):
+        return
+
+
+@pytest.fixture
+def anthropic_server():
+    AnthropicStubHandler.stop_reason = "end_turn"
+    server = ThreadingHTTPServer(("127.0.0.1", 0), AnthropicStubHandler); thread = Thread(target=server.serve_forever, daemon=True); thread.start()
+    yield f"http://127.0.0.1:{server.server_port}/v1/messages"
+    server.shutdown(); thread.join()
+
+
+def anthropic_config(endpoint: str, **changes) -> MapperConfig:
+    return replace(MapperConfig(True, endpoint, "claude-stub", 2, 256), provider="anthropic", **changes)
+
+
+def test_anthropic_mapper_sends_messages_api_payload_and_consumes_same_plan(anthropic_server):
+    observations = table_observations(); asset_header, header, asset, amount, row, region = observations
+    coverage = (CoverageItem("d:c", "d", "cell", "Data!B2", CoverageDisposition.UNRESOLVED),)
+    AnthropicStubHandler.response_content = plan(region, header, asset_header, row)
+    mapper = OpenAICompatibleMapper(anthropic_config(anthropic_server))
+    mapped = mapper.map("d", observations)
+    sent = AnthropicStubHandler.request_json
+    assert set(sent) == {"model", "max_tokens", "system", "messages", "output_config"}
+    assert sent["model"] == "claude-stub" and sent["max_tokens"] == 256 and "thinking" not in sent
+    assert sent["output_config"] == {"format": {"type": "json_schema", "schema": OpenAICompatibleMapper.response_schema()}, "effort": "max"}
+    assert sent["messages"][0]["role"] == "user" and json.loads(sent["messages"][0]["content"])["document_id"] == "d"
+    assert AnthropicStubHandler.request_headers["anthropic-version"] == "2023-06-01"
+    assert "x-api-key" not in AnthropicStubHandler.request_headers and "authorization" not in AnthropicStubHandler.request_headers
+    facts = interpret(observations, coverage, DEFAULT_POLICIES, mapped)[1]
+    assert len(facts) == 1 and facts[0].business.field == "ahk_open" and facts[0].business.asset_id == "A-1"
+    assert mapper.last_audit["fingerprint"]["provider"] == "anthropic"
+
+
+def test_anthropic_mapper_still_rejects_foreign_ids(anthropic_server):
+    observations = table_observations(); asset_header, header, _, _, row, region = observations
+    foreign = plan(region, header, asset_header, row); foreign["plans"][0]["region_observation_id"] = "other:region"
+    AnthropicStubHandler.response_content = foreign
+    with pytest.raises(MapperValidationError):
+        OpenAICompatibleMapper(anthropic_config(anthropic_server)).map("d", observations)
+
+
+@pytest.mark.parametrize(("stop_reason", "message"), [("refusal", "mapper_refusal"), ("max_tokens", "mapper_incomplete:max_output_tokens"), ("pause_turn", "mapper_status:pause_turn")])
+def test_anthropic_mapper_unfinished_stop_reasons_are_unavailable(anthropic_server, stop_reason, message):
+    AnthropicStubHandler.response_content = {"plans": []}; AnthropicStubHandler.stop_reason = stop_reason
+    with pytest.raises(MapperUnavailableError, match=message):
+        OpenAICompatibleMapper(anthropic_config(anthropic_server)).map("d", table_observations())
+
+
+def test_anthropic_overload_is_retried_but_billing_error_is_not(provider_error_server):
+    completed = {"type": "message", "content": [{"type": "text", "text": json.dumps({"plans": []})}], "stop_reason": "end_turn"}
+    ProviderErrorHandler.responses = [(529, {"type": "error", "error": {"type": "overloaded_error", "message": "x"}}, {"Retry-After": "0"}), (200, completed, {})]
+    mapper = OpenAICompatibleMapper(anthropic_config(provider_error_server))
+    assert mapper.map("d", table_observations(), transient_retries=2) == ()
+    assert ProviderErrorHandler.calls == 2
+    ProviderErrorHandler.calls = 0
+    ProviderErrorHandler.responses = [(402, {"type": "error", "error": {"type": "billing_error", "message": "card details"}}, {"request-id": "req_9"})]
+    with pytest.raises(MapperUnavailableError) as caught:
+        mapper.map("d", table_observations(), transient_retries=2)
+    assert ProviderErrorHandler.calls == 1 and "card details" not in str(caught.value)
+    assert mapper.last_provider_diagnostic == {"status": 402, "message": "mapper provider returned HTTP 402", "type": "billing_error", "request_id": "req_9"}
+
+
+def test_mapper_provider_defaults_fingerprints_and_credentials(monkeypatch):
+    openai = OpenAICompatibleMapper(MapperConfig(True, model="m"))
+    assert "provider" not in openai.fingerprint() and openai.endpoint == "https://api.openai.com/v1/responses"
+    monkeypatch.delenv("ANTHROPIC_MODEL", raising=False); monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    claude = OpenAICompatibleMapper(MapperConfig(True, provider="anthropic"))
+    assert claude.endpoint == "https://api.anthropic.com/v1/messages" and claude.model == "claude-opus-5-5"
+    assert claude.fingerprint()["provider"] == "anthropic"
+    with pytest.raises(MapperUnavailableError, match="ANTHROPIC_API_KEY is not configured"):
+        claude.map("d", table_observations())
+    with pytest.raises(MapperValidationError, match="unknown mapper provider"):
+        OpenAICompatibleMapper(MapperConfig(True, provider="other")).map("d", table_observations())
