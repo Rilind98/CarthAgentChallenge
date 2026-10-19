@@ -52,7 +52,8 @@ class RecordedPlanHandler(BaseHTTPRequestHandler):
         request = json.loads(self.rfile.read(int(self.headers["Content-Length"]))); type(self).requests.append(request)
         payload = json.loads(request["input"][1]["content"][0]["text"])
         sheets = {o.get("sheet") for o in payload["observations"] if o["kind"] == "table_region"}
-        plan = {"plans": [p for p in type(self).plan["plans"] if p["region_observation_id"].split(":", 1)[1] in sheets]}
+        ids = {o["id"] for o in payload["observations"]}
+        plan = {"plans": [p for p in type(self).plan["plans"] if p["region_observation_id"] in ids or p["region_observation_id"].split(":", 1)[1] in sheets]}
         text = json.dumps(resolve(plan, payload["observations"]))
         body = json.dumps({"status": "completed", "output": [{"type": "message", "content": [{"type": "output_text", "text": text}]}]}).encode()
         self.send_response(200); self.send_header("Content-Type", "application/json"); self.send_header("Content-Length", str(len(body))); self.end_headers(); self.wfile.write(body)

@@ -807,6 +807,8 @@ def _xlsx_axis(column: int, amount_row: int, indexed: list[tuple[int, int, Sourc
             elif "zuschreib" in value or "write up" in value: field = "zuschreibung"
             elif "umbuch" in value: field = "afa_umb"
             elif "geschäftsjahr" in value or "geschaftsjahr" in value or "afa gj" in value: field = "total_afa_gj"
+            # Additions to cumulative depreciation are the year's depreciation charge, never asset additions.
+            elif "zugang" in value or "zugänge" in value: field = "total_afa_gj"
             elif column in peer_dates and column == min(peer_dates): field, temporal_role = "kum_afa_open", "opening"
             elif column in peer_dates and column == max(peer_dates): field, temporal_role = "kum_afa_close", "closing"
         elif group == "book_value" and column in peer_dates:

@@ -1,0 +1,597 @@
+{
+ "recorded_from": "option-b-live-v1 ledger cache (Claude mapper, real model output)",
+ "document_id": "f05_sap_class_gitter_02-7720fe568d6f",
+ "fingerprint": {
+  "enabled": true,
+  "max_output_tokens": 32768,
+  "model": "claude-opus-5-5",
+  "prompt_version": "compact-region-plan-v10",
+  "provider": "anthropic",
+  "reasoning_effort": "high",
+  "schema_version": "semantic_region_plan_v8",
+  "timeout_seconds": 300,
+  "verifier_version": "option-b-verifier-2"
+ },
+ "verification_at_record_time": [],
+ "plans": [
+  {
+   "column_spans": [],
+   "field_headers": [
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!B16",
+     "parent_header_ids": [],
+     "semantic_field": "ahk_open"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!C16",
+     "parent_header_ids": [],
+     "semantic_field": "zugang"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!D16",
+     "parent_header_ids": [],
+     "semantic_field": "abgang"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!E16",
+     "parent_header_ids": [],
+     "semantic_field": "umb"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H16",
+     "parent_header_ids": [],
+     "semantic_field": "ahk_close"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!B17",
+     "parent_header_ids": [],
+     "semantic_field": "kum_afa_open"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!C17",
+     "parent_header_ids": [],
+     "semantic_field": "total_afa_gj"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!D17",
+     "parent_header_ids": [],
+     "semantic_field": "afa_abgang"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!E17",
+     "parent_header_ids": [],
+     "semantic_field": "afa_umb"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!G17",
+     "parent_header_ids": [],
+     "semantic_field": "zuschreibung"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H17",
+     "parent_header_ids": [],
+     "semantic_field": "kum_afa_close"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!B18",
+     "parent_header_ids": [],
+     "semantic_field": "bw_prev"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H18",
+     "parent_header_ids": [],
+     "semantic_field": "bw_close"
+    }
+   ],
+   "header_rows": [
+    "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:15",
+    "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+    "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+    "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18"
+   ],
+   "identity_headers": [
+    {
+     "identity_role": "entity",
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!B15"
+    },
+    {
+     "identity_role": "balance_position",
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!C15"
+    },
+    {
+     "identity_role": "account",
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!D15"
+    },
+    {
+     "identity_role": "class_code",
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!E15"
+    },
+    {
+     "identity_role": "class_name",
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!F15"
+    }
+   ],
+   "measure_axes": [],
+   "movement_axes": [],
+   "period_contexts": [
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!A12",
+     "scope": "sheet",
+     "temporal_role": "closing"
+    }
+   ],
+   "record_blocks": [
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:19",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:20"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:21"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:22"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:24",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:25"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:26"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:27"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:29",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:30"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:31"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:32"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:34",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:35"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:36"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:37"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:39",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:40"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:41"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:42"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:44",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:45"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:46"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:47"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:49",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:50"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:51"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:52"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:54",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:55"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:56"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:57"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:59",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:60"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:61"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:62"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:64",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:65"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:66"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:67"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:69",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:70"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:71"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:72"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:74",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:75"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:76"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:77"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:79",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:80"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:81"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:82"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:84",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:16",
+       "measure": "ahk",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:85"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:17",
+       "measure": "cum_depreciation",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:86"
+      },
+      {
+       "header_row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:18",
+       "measure": "book_value",
+       "row_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:87"
+      }
+     ]
+    }
+   ],
+   "region_observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:region",
+   "row_roles": [
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:1",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:2",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:3",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:4",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:5",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:6",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:8",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:9",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:10",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:12",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:13",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:19",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:24",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:29",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:34",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:39",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:44",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:49",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:54",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:59",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:64",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:69",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:74",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:79",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter:row:84",
+     "row_role": "data"
+    }
+   ],
+   "table_type": "class_grid_matrix",
+   "unit_contexts": [
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H19",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H24",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H29",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H34",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H39",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H44",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H49",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H54",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H59",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H64",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H69",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H74",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H79",
+     "scope": "block",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f05_sap_class_gitter_02-7720fe568d6f:xlsx:Anlagengitter!H84",
+     "scope": "block",
+     "unit": "EUR"
+    }
+   ]
+  }
+ ]
+}

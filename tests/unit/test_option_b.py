@@ -64,7 +64,7 @@ def test_structure_plan_schema_is_strict_for_openai_and_constraint_free_for_anth
         assert not FORBIDDEN_SCHEMA_KEYS & set(node), path
         if node.get("type") == "object":
             assert node["additionalProperties"] is False and set(node["required"]) == set(node["properties"]), path
-    assert (MAPPER_SCHEMA_VERSION, MAPPER_PROMPT_VERSION) == ("semantic_region_plan_v8", "compact-region-plan-v10")
+    assert (MAPPER_SCHEMA_VERSION, MAPPER_PROMPT_VERSION) == ("semantic_region_plan_v8", "compact-region-plan-v11")
 
 
 def _mapped(source, plan):
@@ -164,7 +164,7 @@ def test_r4_identity_row_must_carry_text_and_identifier_shaped_values(tmp_path):
     first_block = [h for h in _blocked(mapped) if h.candidates[0].record_identity_row_id == row(19)]
     assert "R4" in rules and not first_block, "a block whose identity fails R4 is skipped, not emitted without identity"
     assert not [f for f in facts if f.physical.occurrence.endswith(("20", "21", "22"))], "a bare amount in the identity row never becomes the class"
-    assert {f.business.class_code for f in facts} == {"2000"}
+    assert not facts, "the plan leaves the BuKr/BilanzPos/Konto identifier columns undeclared, so every block is skipped (R4)"
 
 
 def test_r5_disagreeing_scopes_and_creation_stamps_abstain(tmp_path):
@@ -178,7 +178,7 @@ def test_r5_disagreeing_scopes_and_creation_stamps_abstain(tmp_path):
     assert "R5" in rules and len(facts) == 26 and {f.business.period for f in facts} == {"2025"}, "the Erstellungsdatum cell is refused; the report date still applies"
     mapped, facts, rules = _run(source, _variant(creation_date_only))
     assert "R5" in rules and not facts, "a creation-date year is never the reporting period"
-    workbook = load_workbook(source); workbook.active["A11"] = "Vergleichsjahr 2024"; workbook.save(source)
+    workbook = load_workbook(source); workbook.active["A11"] = "Geschäftsjahr 2024"; workbook.save(source)
     def disagree(plan):
         plan["period_contexts"].append({"observation_id": "@cell:Anlagengitter!A11", "temporal_role": "current_period", "scope": "sheet"})
     mapped, facts, rules = _run(source, _variant(disagree))
@@ -203,7 +203,8 @@ def test_r7_conflicting_row_and_column_measures_abstain_and_unmerged_spans_are_i
     plan = stub.load_plan("two_year_two_sheets"); row_measure(plan["plans"][0]); row_measure(plan["plans"][1])
     mapped, facts, rules = _run(source, plan)
     cells = {f.physical.occurrence for f in facts}
-    assert "R7" in rules and "Tabelle1!C10" not in cells and "Tabelle1!J10" in cells
+    # J..M survive R7 but the block lacks the printed book values, so the mandatory book-value check (R6) refuses it too.
+    assert "R7" in rules and "Tabelle1!C10" not in cells and not cells
     def widen(plan):
         plan["column_spans"].append({"header_observation_id": "@cell:Anlagengitter!B16", "first_column": 2, "last_column": 8})
     mapped, facts, rules = _run(fixtures.sap_block_unlabelled(tmp_path / "sap.xlsx"), _variant(widen))

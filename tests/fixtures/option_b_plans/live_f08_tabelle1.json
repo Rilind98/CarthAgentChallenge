@@ -1,0 +1,525 @@
+{
+ "recorded_from": "option-b-live-v1 ledger cache (Claude mapper, real model output)",
+ "document_id": "f08_excel_spiegel_2y_01-dd66231ae7b1",
+ "fingerprint": {
+  "enabled": true,
+  "max_output_tokens": 32768,
+  "model": "claude-opus-5-5",
+  "prompt_version": "compact-region-plan-v10",
+  "provider": "anthropic",
+  "reasoning_effort": "high",
+  "schema_version": "semantic_region_plan_v8",
+  "timeout_seconds": 300,
+  "verifier_version": "option-b-verifier-2"
+ },
+ "verification_at_record_time": [
+  {
+   "detail": "header_text_names_other_field:f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!K5",
+   "rule": "R3"
+  },
+  {
+   "detail": "empty_header_key_role:f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!A5",
+   "rule": "R4"
+  }
+ ],
+ "plans": [
+  {
+   "column_spans": [
+    {
+     "first_column": 3,
+     "header_observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4",
+     "last_column": 8
+    },
+    {
+     "first_column": 10,
+     "header_observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4",
+     "last_column": 13
+    },
+    {
+     "first_column": 15,
+     "header_observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O4",
+     "last_column": 16
+    }
+   ],
+   "field_headers": [
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ],
+     "semantic_field": "ahk_open"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!D5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ],
+     "semantic_field": "zugang"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!E5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ],
+     "semantic_field": "abgang"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!F5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ],
+     "semantic_field": "umb"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!H5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ],
+     "semantic_field": "ahk_close"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4"
+     ],
+     "semantic_field": "kum_afa_open"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!K5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4"
+     ],
+     "semantic_field": "total_afa_gj"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!L5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4"
+     ],
+     "semantic_field": "afa_abgang"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!M5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4"
+     ],
+     "semantic_field": "kum_afa_close"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O4"
+     ],
+     "semantic_field": "bw_close"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!P5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O4"
+     ],
+     "semantic_field": "bw_prev"
+    }
+   ],
+   "header_rows": [
+    "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:4",
+    "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5"
+   ],
+   "identity_headers": [
+    {
+     "identity_role": "class_code",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!A5"
+    },
+    {
+     "identity_role": "class_name",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!B5"
+    }
+   ],
+   "measure_axes": [],
+   "movement_axes": [
+    {
+     "movement_axis": "opening",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ]
+    },
+    {
+     "movement_axis": "addition",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!D5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ]
+    },
+    {
+     "movement_axis": "disposal",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!E5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ]
+    },
+    {
+     "movement_axis": "transfer",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!F5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ]
+    },
+    {
+     "movement_axis": "closing",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!H5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C4"
+     ]
+    },
+    {
+     "movement_axis": "opening",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4"
+     ]
+    },
+    {
+     "movement_axis": "depreciation",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!K5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4"
+     ]
+    },
+    {
+     "movement_axis": "disposal",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!L5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4"
+     ]
+    },
+    {
+     "movement_axis": "closing",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!M5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J4"
+     ]
+    },
+    {
+     "movement_axis": "closing",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O4"
+     ]
+    },
+    {
+     "movement_axis": "prior_closing",
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!P5",
+     "parent_header_ids": [
+      "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O4"
+     ]
+    }
+   ],
+   "period_contexts": [
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!B2",
+     "scope": "sheet",
+     "temporal_role": "current_period"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C5",
+     "scope": "column",
+     "temporal_role": "opening"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!H5",
+     "scope": "column",
+     "temporal_role": "closing"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J5",
+     "scope": "column",
+     "temporal_role": "opening"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!M5",
+     "scope": "column",
+     "temporal_role": "closing"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O5",
+     "scope": "column",
+     "temporal_role": "closing"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!P5",
+     "scope": "column",
+     "temporal_role": "prior_closing"
+    }
+   ],
+   "record_blocks": [
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:10",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:10"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:11",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:11"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:15",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:15"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:16",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:16"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:17",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:17"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:18",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:18"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:19",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:19"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:23",
+     "role": "data",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:23"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:24",
+     "role": "subtotal",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:24"
+      }
+     ]
+    },
+    {
+     "identity_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:26",
+     "role": "total",
+     "rows": [
+      {
+       "header_row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:5",
+       "measure": null,
+       "row_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:26"
+      }
+     ]
+    }
+   ],
+   "region_observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:region",
+   "row_roles": [
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:1",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:2",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:8",
+     "row_role": "group"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:10",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:11",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:13",
+     "row_role": "group"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:15",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:16",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:17",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:18",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:19",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:21",
+     "row_role": "group"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:23",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:24",
+     "row_role": "subtotal"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:26",
+     "row_role": "total"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:29",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:30",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:31",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:33",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:34",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:35",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:36",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:38",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1:row:39",
+     "row_role": "note"
+    }
+   ],
+   "table_type": "two_year_spiegel",
+   "unit_contexts": [
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!C6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!D6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!E6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!F6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!H6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!J6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!K6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!L6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!M6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!O6",
+     "scope": "column",
+     "unit": "EUR"
+    },
+    {
+     "observation_id": "f08_excel_spiegel_2y_01-dd66231ae7b1:xlsx:Tabelle1!P6",
+     "scope": "column",
+     "unit": "EUR"
+    }
+   ]
+  }
+ ]
+}

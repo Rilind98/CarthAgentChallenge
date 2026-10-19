@@ -400,7 +400,11 @@ def _observation_chunks(observations: tuple[SourceObservation, ...], bounds: Res
         step = bounds.row_chunk_size - bounds.row_overlap
         if step <= 0:
             raise ValueError("row chunk overlap must be smaller than chunk size")
-        header_rows = set(rows[:bounds.row_overlap])
+        # Context rows repeated in every window: the sheet's first rows (titles, reporting date) plus, when acquisition found
+        # record blocks, the rows just above the first block (the table's header band).
+        first_record = min((int(o.metadata["row"]) for o in sheet_observations if o.kind == "record_block" and o.metadata.get("row") is not None), default=None)
+        above = [row for row in rows if first_record is not None and row < first_record]
+        header_rows = set(rows[:bounds.row_overlap]) | set(above[-bounds.row_overlap:])
         for offset in range(0, len(rows), step):
             window = set(rows[offset:offset + bounds.row_chunk_size]) | header_rows
             def row_of(observation: SourceObservation) -> int | None:
@@ -464,10 +468,12 @@ def _mapper_bounded_chunks(mapper: OpenAICompatibleMapper, document_id: str, obs
         whole = closure(region, rows)
         if mapper.request_fits(document_id, whole):
             pieces.append(whole); continue
-        context = rows[:context_rows]
+        identity_rows = {str(o.metadata.get("identity_row_id")) for o in observations if o.kind == "record_block"}
+        first_record = next((index for index, row_id in enumerate(rows) if row_id in identity_rows), 0)
+        context = list(dict.fromkeys((*rows[:context_rows], *rows[max(0, first_record - context_rows):first_record])))
         if context and not mapper.request_fits(document_id, closure(region, context)):
             raise MapperUnavailableError("mapper_minimum_coherent_region_exceeds_request_budget")
-        pending = rows[len(context):]
+        pending = [row_id for row_id in rows if row_id not in set(context)]
         offset = 0
         while offset < len(pending):
             low, high, best = offset + 1, len(pending), None
@@ -505,8 +511,10 @@ def _mapper_bounded_chunks(mapper: OpenAICompatibleMapper, document_id: str, obs
 def _deduplicate_mapped(hypotheses: tuple[HypothesisSet, ...]) -> tuple[HypothesisSet, ...]:
     grouped: dict[str, dict[str, HypothesisSet]] = {}
     for hypothesis in hypotheses:
-        encoded = json.dumps(jsonable(hypothesis), sort_keys=True)
-        grouped.setdefault(hypothesis.amount_observation_id, {})[encoded] = hypothesis
+        # Overlapping requests yield the same claim under different plan digests: identical claims are one hypothesis;
+        # claims that differ in any field or evidence still conflict and abstain.
+        encoded = json.dumps([jsonable(candidate) for candidate in hypothesis.candidates], sort_keys=True)
+        grouped.setdefault(hypothesis.amount_observation_id, {}).setdefault(encoded, hypothesis)
     return tuple(next(iter(variants.values())) for variants in grouped.values() if len(variants) == 1)
 
 

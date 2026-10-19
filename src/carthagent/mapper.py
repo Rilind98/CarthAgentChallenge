@@ -22,7 +22,7 @@ from .models import AssociationClaim, AssociationKind, HypothesisSet, SourceObse
 from .numeric import NumericParseError, parse_amount
 from .structure import FIELDS, HEADER_GROUPS, IDENTITIES, compose_matrix_axes, match, norm, unit_from_text
 
-MAPPER_PROMPT_VERSION = "compact-region-plan-v10"
+MAPPER_PROMPT_VERSION = "compact-region-plan-v11"
 MAPPER_SCHEMA_VERSION = "semantic_region_plan_v8"
 # Bumped whenever verification of a plan changes, so cached expansions are never replayed under older rules.
 MAPPER_VERIFIER_VERSION = "option-b-verifier-2"
@@ -31,6 +31,7 @@ TEMPORAL_ROLES = ("opening", "closing", "prior_closing", "current_period", "unkn
 MEASURE_AXES = tuple(HEADER_GROUPS)
 TABLE_TYPES = ("asset_register", "class_grid_matrix", "asset_grid_matrix", "spiegel_columns", "two_year_spiegel", "unknown")
 CONTEXT_SCOPES = ("sheet", "column", "block")
+PAYLOAD_ALWAYS = frozenset({"id", "kind", "text", "numeric_value", "row_block_id", "region_id", "locator_kind", "sheet", "row", "column", "normalized_bbox"})
 FLAT_PLAN_KEYS = frozenset({"region_observation_id", "field_headers", "identity_headers", "measure_axes", "movement_axes", "row_roles", "period_contexts", "unit_contexts"})
 STRUCTURE_PLAN_KEYS = frozenset({"table_type", "header_rows", "record_blocks", "column_spans"})
 MOVEMENT_AXES = ("opening", "closing", "prior_closing", "addition", "disposal", "transfer", "depreciation", "planned_depreciation", "extraordinary_depreciation", "writeup", "addition_or_disposal", "depreciation_or_writeup", "unknown")
@@ -286,7 +287,11 @@ class OpenAICompatibleMapper:
             "identity row). Label every field header cell in every governing header row. column_spans may only restate a merged header's own column range. "
             "Scope each period/unit context to the sheet, its column, or the record block containing it. Code verifies closure, periodicity, field/measure "
             "admissibility, identity shape, scope agreement and roll-forward plausibility; any failure abstains. "
-            "Name a field from the header cell's printed words, never from its position; give an empty header cell only a descriptive identity role. "
+            "Name a field from the header cell's printed words, never from its position. An empty header cell may only get source_name or class_name; "
+            "a label column without a code is source_name; key roles (asset_id, class_code, account, ...) need a header whose words name them. "
+            "A period context is a header or title cell naming the fiscal year or a dated column header, never a record date, a name, a prior-year line or an amount. "
+            "Under a cumulative depreciation (Kumulierte Abschreibungen/AfA) parent, Zugänge is current-year depreciation (total_afa_gj) and Abgänge is afa_abgang. "
+            "In SAP grids each record block names its identity row, then its measure rows in order, each with its governing header row and measure. "
             "Never return source values, dates, IDs, amounts, coordinates, confidence, or new evidence; local code copies actual source content and "
             "expands plans only after ownership, geometry, row membership, and ambiguity checks. Row roles cannot establish blank values or turn "
             "group/note rows into data rows; explicit source emptiness is decided only by local policy. Omit unresolved axes rather than guessing."
@@ -537,36 +542,77 @@ def _members(row: SourceObservation, by_id: dict[str, SourceObservation]) -> lis
 
 
 SUBTOTAL_MARKER = re.compile(r"\s*(?:\*+(?:\s|\||$)|(?:summe|gesamt|total)\b)", re.I)
-IDENTIFIER_HEADER = re.compile(r"\b(?:nummer|number|code|identifier|record id|nr|unr|no)\b|unternummer")
+IDENTIFIER_HEADER = re.compile(r"\b(?:nummer|number|code|identifier|record id|nr|unr|no|id|snr|sub|teil|lfd|unterpos)\b|unternummer|\binv|\banl")
 DESCRIPTIVE_ROLES = frozenset({"source_name", "class_name"})
 KEY_ROLES = frozenset({"asset_id", "asset_sub_id", "class_code", "account", "entity", "balance_position", "book"})
-# Header words that corroborate (or contradict) the model's identity role. A role is refused only when the header text
-# names some role(s) and the declared role is not among them; text without any hint is not evidence either way.
+# Header words that POSITIVELY support an identity role, most specific first; the first hit decides (one role family per
+# header). A key role needs support; text with no hint ("Bemerkung", "Pos.", "Nr.") may only carry a descriptive role.
 ROLE_HINTS = (
-    (re.compile(r"anlage|inventar|asset|\banl\b"), {"asset_id"}),
-    (re.compile(r"unter|\bsub|\bunr\b"), {"asset_sub_id"}),
-    (re.compile(r"klasse|class"), {"class_code", "class_name"}),
-    (re.compile(r"konto|kto|account"), {"account"}),
-    (re.compile(r"bukr|buchungskreis|gesellschaft|company|entity|\bbk\b"), {"entity"}),
-    (re.compile(r"bilanz|balance|\bbilpos"), {"balance_position"}),
-    (re.compile(r"bewertungsbereich|ledger"), {"book"}),
-    (re.compile(r"bezeichnung|name|beschreibung|description|\btext\b|gegenstand"), {"source_name", "class_name"}),
-    (re.compile(r"\b(?:nummer|number|nr|no)\b"), {"asset_id", "asset_sub_id", "class_code", "account"}),
+    (re.compile(r"unter|\bsub\b|\bu ?nr\b|\bsnr\b|\bteil\b|\blfd\b"), frozenset({"asset_sub_id"})),
+    (re.compile(r"klasse|class"), frozenset({"class_code", "class_name"})),
+    (re.compile(r"konto|kto|account"), frozenset({"account"})),
+    (re.compile(r"bukr|buchungskreis|gesellschaft|company|entity|\bbk\b"), frozenset({"entity"})),
+    (re.compile(r"bilanz|balance|bilpos"), frozenset({"balance_position"})),
+    (re.compile(r"bewertungsbereich|ledger"), frozenset({"book"})),
+    (re.compile(r"anlage|inventar|asset|\banl|\binv|\bid\b|objekt"), frozenset({"asset_id"})),
+    (re.compile(r"bezeichnung|name|beschreibung|description|\btext\b|gegenstand|bemerkung"), DESCRIPTIVE_ROLES),
 )
-CREATION_WORDS = re.compile(r"erstell|druck|printed|created|stand der erstellung", re.I)
+CREATION_WORDS = re.compile(r"erstell|druck|printed|created|stand der erstellung|vorjahr|vergleich|prior year|previous year|comparative", re.I)
+PERIOD_WORDS = re.compile(r"wirtschaftsjahr|gesch(?:ä|ae)ftsjahr|\bjahr\b|jahresabschluss|\bper\b|\bzum\b|\bstand\b|berichtsdatum|stichtag|zeitraum|fiscal|\byear\b|as of|\bgj\b", re.I)
+DATE_TEXT = re.compile(r"\b\d{1,2}\.\d{1,2}\.(?:19|20)\d{2}\b")
 ISO_DATE = re.compile(r"^\s*\d{4}-\d{2}-\d{2}(?:[ T]\d{2}:\d{2}:\d{2})?\s*$")
 
 
+def _supported_roles(text: str | None) -> frozenset[str]:
+    matched = match(text or "", IDENTITIES)
+    if matched:
+        return DESCRIPTIVE_ROLES if matched in DESCRIPTIVE_ROLES else (frozenset({"class_code", "class_name"}) if matched in {"class_code", "class_name"} else frozenset({matched}))
+    value = norm(text or "")
+    return next((roles for pattern, roles in ROLE_HINTS if pattern.search(value)), frozenset())
+
+
 def _identity_header_refusal(header: SourceObservation, role: str) -> str | None:
-    """B2: an empty header may only name a descriptive column; text must not contradict the declared role."""
-    text = norm(header.text or "")
-    if not text:
+    """Fail closed: a key role needs header words that support exactly that role; an empty or unhinted header carries only
+    a descriptive role; a descriptive role never sits on a header that names a key role."""
+    if not norm(header.text or ""):
         return None if role in DESCRIPTIVE_ROLES else "empty_header_key_role"
-    matched = match(header.text or "", IDENTITIES)
-    if matched and matched != role and not (matched in DESCRIPTIVE_ROLES and role in DESCRIPTIVE_ROLES):
+    supported = _supported_roles(header.text)
+    if role in KEY_ROLES and role not in supported:
+        return "key_role_without_header_support" if not supported else "header_text_names_other_role"
+    if role in DESCRIPTIVE_ROLES and supported and role not in supported:
         return "header_text_names_other_role"
-    hinted = {hinted_role for pattern, roles in ROLE_HINTS if pattern.search(text) for hinted_role in roles}
-    return "header_text_names_other_role" if hinted and role not in hinted else None
+    return None
+
+
+GROUP_MOVEMENTS = {("cum_depreciation", "zugang"): "total_afa_gj"}
+
+
+def _text_fields(text: str | None, groups: frozenset[str]) -> frozenset[str] | set[str]:
+    """Fields the header's own words allow, read under its parent group: "Zugänge" is zugang under AHK and current-year
+    depreciation under cumulative AfA. Text naming no field allows any label."""
+    exact = _exact_field(text)
+    if exact is None:
+        return frozenset(FIELDS)
+    if not groups:
+        return {exact, *(compose_matrix_axes(measure, exact, None) for measure in MEASURE_AXES)}
+    return {field for group in groups for field in (exact, GROUP_MOVEMENTS.get((group, exact)) or compose_matrix_axes(group, exact, None)) if field and field in _admissible_fields(group)}
+
+
+def _parent_groups(header: SourceObservation, cells: list[SourceObservation]) -> set[str]:
+    """Measure groups printed above a header cell: a merged group header spanning its column, or a group word in its column."""
+    position = _xlsx_position(header)
+    if position is None:
+        return set()
+    groups: set[str] = set()
+    for cell in cells:
+        above = _xlsx_position(cell)
+        if above is None or above[0] != position[0] or above[1] >= position[1] or not (group := match(cell.text or "", HEADER_GROUPS)):
+            continue
+        merged = cell.metadata.get("merged_range")
+        first, _, last, _ = range_boundaries(merged) if isinstance(merged, str) and cell.metadata.get("merged_anchor") is True else (above[2], 0, above[2], 0)
+        if first <= position[2] <= last:
+            groups.add(group)
+    return groups
 
 
 def _exact_field(text: str | None) -> str | None:
@@ -640,10 +686,7 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                 continue
             if any(label not in _admissible_fields(measure) for header_id, values in labels.items() if header_id in header_row_cells.get(header_row_id, ()) for label in values):
                 return reject("R3", f"{header_row_id}:{measure}")
-    disputed = {assignment["observation_id"] for assignment in field_headers if (exact := _exact_field(by_id[assignment["observation_id"]].text)) and assignment["semantic_field"] != exact
-                and assignment["semantic_field"] not in {compose_matrix_axes(measure, exact, None) for measure in MEASURE_AXES}}
-    for header_id in disputed:
-        verification.append({"rule": "R3", "detail": f"header_text_names_other_field:{header_id}"})
+    disputed: set[str] = set()
     # R4 identity headers: declared header row, text that does not contradict the role (B2).
     for assignment in identity_headers:
         header = by_id[assignment["observation_id"]]
@@ -656,9 +699,16 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
     header_area = [member for row_id in region_rows if row_id in by_id and first_record and (position := _row_position(by_id[row_id], order)) and position[0] == first_record[0] and position[1] < first_record[1]
                    for member in _members(by_id[row_id], by_id) if member.text]
     # Identifier-like or key-role headers anywhere above the records that the plan leaves undeclared.
-    undeclared_identifier_headers = [member for member in header_area if member.id not in declared_identity_ids and not _amount_candidate(member)
-                                     and (IDENTIFIER_HEADER.search(norm(member.text or "")) or match(member.text or "", IDENTITIES) in KEY_ROLES)]
+    # Identifier-like headers in a column that has NO declared identity header, anywhere above the records. Amount headers
+    # (declared field/movement/measure cells, or text naming a field or a measure group) are not identifiers.
+    amount_header_ids = {item["observation_id"] for item in (*field_headers, *movement_axes, *measure_axes)}
+    declared_identity_columns = {(position[0], position[2]) for item in identity_headers if (position := _xlsx_position(by_id[item["observation_id"]]))}
+    undeclared_identifier_headers = [member for member in header_area if member.id not in declared_identity_ids and member.id not in amount_header_ids and not _amount_candidate(member)
+                                     and not match(member.text or "", FIELDS) and not match(member.text or "", HEADER_GROUPS)
+                                     and (IDENTIFIER_HEADER.search(norm(member.text or "")) or _supported_roles(member.text) & KEY_ROLES)
+                                     and ((position := _xlsx_position(member)) is None or (position[0], position[2]) not in declared_identity_columns)]
     declared_roles = {assignment["identity_role"] for assignment in identity_headers}
+    group_cells = [by_id[cell] for cell in declared_header_cells if cell in by_id] + header_area
     block_claims: dict[str, list[tuple[SourceObservation, AssociationClaim]]] = {}
     acquisition_subtotals = {str(observation.metadata.get("identity_row_id")) for observation in by_id.values() if observation.kind == "record_block" and observation.metadata.get("subtotal_marker") is True}
     for block in structure["blocks"]:
@@ -683,12 +733,14 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
             elif column or assignment["identity_role"] == "asset_sub_id":
                 complete = False
         roles = [role for _, role in identity_values]
-        undeclared = [header for header in undeclared_identifier_headers for member in identity_cells if _same_column(header, member, {}) and member.text]
+        undeclared = [header for header in undeclared_identifier_headers for member in identity_cells if _same_column(header, member, {}) and member.text and (_block_identifier(member) or not _amount_candidate(member))]
         if not complete or len(roles) != len(set(roles)) or undeclared or not roles or ("asset_sub_id" in declared_roles and "asset_sub_id" not in roles):
             reject("R4", f"identity_incomplete:{identity_row.id}"); continue
         block_member_ids = {identity_row.id, *(item["row_id"] for item in block["rows"])}
         block_cells = {member.id for row_id in block_member_ids for member in _members(by_id[row_id], by_id)}
-        context_cells = {"block": {member.id for member in identity_cells}, "header": declared_header_cells | {member.id for member in header_area}}
+        descriptive_cells = {member.id for member in identity_cells for item in identity_headers if item["identity_role"] in DESCRIPTIVE_ROLES and _same_column(by_id[item["observation_id"]], member, {})}
+        context_cells = {"block": {member.id for member in identity_cells}, "header": declared_header_cells | {member.id for member in header_area},
+                         "header_rows": declared_header_cells, "descriptive": descriptive_cells}
         for item in block["rows"]:
             row = by_id[item["row_id"]]
             header_row = by_id.get(item["header_row_id"] or "")
@@ -704,8 +756,13 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                 # R7 uniqueness: two header assignments, a field and a movement on one column, or disagreeing row/column measures.
                 if len(fields) > 1 or len(movements) > 1 or (fields and movements) or len(column_measures) > 1 or (item["measure"] and column_measures and item["measure"] not in column_measures):
                     verification.append({"rule": "R7", "detail": amount.id}); continue
-                if fields and fields[0]["observation_id"] in disputed:
-                    continue
+                if fields:
+                    header = by_id[fields[0]["observation_id"]]
+                    groups = {group for group in (item["measure"], *column_measures) if group} | _parent_groups(header, group_cells)
+                    if fields[0]["semantic_field"] not in _text_fields(header.text, frozenset(groups)):
+                        if header.id not in disputed:
+                            disputed.add(header.id); verification.append({"rule": "R3", "detail": f"header_text_names_other_field:{header.id}"})
+                        continue
                 measure = item["measure"] or (next(iter(column_measures)) if column_measures else None)
                 movement = movements[0] if movements else None
                 movement_field, movement_temporal_role = _movement_semantics(movement["movement_axis"] if movement else None)
@@ -729,7 +786,9 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                 )))
     # R6 arithmetic veto on STRUCTURE: never selects or repairs a number. A block whose present measures cannot all be
     # checked, or whose checks fail, abstains; more than half failing rejects the declared layout.
-    failing = [block_id for block_id, items in block_claims.items() if _roll_forward_failures(items)]
+    # A table that prints book values must have its book-value identity checked; the plan cannot switch it off by omission.
+    book_values_printed = any(match(cell.text or "", HEADER_GROUPS) == "book_value" or match(cell.text or "", FIELDS) in BV_FIELDS for cell in group_cells)
+    failing = [block_id for block_id, items in block_claims.items() if _roll_forward_failures(items, require_book_value=book_values_printed)]
     if block_claims and len(failing) * 2 > len(block_claims):
         return reject("R6", ",".join(failing))
     for block_id in failing:
@@ -747,7 +806,7 @@ AFA_FIELDS = frozenset({"kum_afa_open", "total_afa_gj", "afa_plan", "extraordina
 BV_FIELDS = frozenset({"bw_close", "bw_prev"})
 
 
-def _roll_forward_failures(items: list[tuple[SourceObservation, AssociationClaim]]) -> int:
+def _roll_forward_failures(items: list[tuple[SourceObservation, AssociationClaim]], *, require_book_value: bool = False) -> int:
     """Count failed or uncheckable roll-forward identities for the measures a block declares (0 = plausible)."""
     values: dict[str, list[Decimal]] = {}
     for amount, claim in items:
@@ -771,12 +830,15 @@ def _roll_forward_failures(items: list[tuple[SourceObservation, AssociationClaim
         balanced = ((signed and get("kum_afa_open") + charge + get("afa_umb") + reductions == get("kum_afa_close"))
                     or (positive and charge >= 0 and reductions >= 0 and get("kum_afa_open") + charge + get("afa_umb") - reductions == get("kum_afa_close")))
         failures += not ({"kum_afa_open", "kum_afa_close"} <= present and balanced)
-    if present & BV_FIELDS:
+    # Cumulative depreciation can never exceed acquisition cost of the same record: the discriminator for AHK/AfA swaps.
+    if {"ahk_close", "kum_afa_close"} <= present and abs(get("kum_afa_close")) > abs(get("ahk_close")):
+        failures += 1
+    if present & BV_FIELDS or (require_book_value and present & (AHK_FIELDS | AFA_FIELDS)):
         direction = 1 if signed and not positive else (-1 if positive and not signed else 0)
         if not cumulative:
             direction = -1
         checks = [(name, ahk, kum) for name, ahk, kum in (("bw_close", "ahk_close", "kum_afa_close"), ("bw_prev", "ahk_open", "kum_afa_open")) if name in values]
-        failures += not (direction and all({ahk, kum} <= present and get(ahk) + direction * get(kum) == get(name) for name, ahk, kum in checks))
+        failures += not (direction and checks and all({ahk, kum} <= present and get(ahk) + direction * get(kum) == get(name) for name, ahk, kum in checks))
     return failures
 
 
@@ -830,6 +892,13 @@ def _scoped_context(contexts: list[dict[str, object]], amount: SourceObservation
         if scope == "sheet" and position and amount_position and position[0] != amount_position[0]:
             continue
         located = observation.id in context_cells["block"] if scope == "block" else observation.id in context_cells["header"]
+        if "temporal_role" in context and located:
+            # R2-6: a block period must be a labelled period in the identity row (never a name/label column); a sheet period
+            # must be a labelled period line or a printed date; a column period is a cell of a declared header row.
+            text = observation.text or ""
+            dated = observation.metadata.get("data_type") == "d" or bool(ISO_DATE.match(text) or DATE_TEXT.search(text))
+            located = (bool(PERIOD_WORDS.search(text)) and observation.id not in context_cells["descriptive"]) if scope == "block" else (
+                bool(PERIOD_WORDS.search(text)) or dated if scope == "sheet" else observation.id in context_cells["header_rows"])
         record_date = scope == "block" and (observation.metadata.get("data_type") == "d" or bool(ISO_DATE.match(observation.text or "")))
         value = _context_value(context, observation) if located and not record_date else None
         if value is None:
@@ -1099,4 +1168,5 @@ def _proposal_observation(observation: SourceObservation, context: _ProposalCont
         width = float(metadata.get("page_width") or max(observation.bbox[2], 1.0))
         height = float(metadata.get("page_height") or max(observation.bbox[3], 1.0))
         item["normalized_bbox"] = [observation.bbox[0] / width, observation.bbox[1] / height, observation.bbox[2] / width, observation.bbox[3] / height]
-    return item
+    # Compact payload: absent context (None or empty list) is omitted; identifiers, text slot and geometry always stay.
+    return {key: value for key, value in item.items() if key in PAYLOAD_ALWAYS or (value is not None and value != [])}

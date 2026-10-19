@@ -275,7 +275,8 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
             unit = source_unit; business = replace(business, unit=unit, currency="EUR"); evidence.append(unit_observation.id)
     period_observation = by_id.get(selected.semantic_period_observation_id or "")
     years = set(re.findall(r"\b(?:19|20)\d{2}\b", period_observation.text or "")) if period_observation is not None else set()
-    if block and business.period is not None and len(years) == 1 and business.period not in years:
+    # A verified block binds only under a period the mapper itself verified (R5/R2-6); a local header year alone is not enough.
+    if block and (len(years) != 1 or (business.period is not None and business.period not in years)):
         conflicts.append("period")
     if business.period is None and len(years) == 1:
         business = replace(business, period=next(iter(years)), temporal_role=selected.semantic_temporal_role); evidence.append(period_observation.id)
