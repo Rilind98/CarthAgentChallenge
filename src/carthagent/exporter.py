@@ -258,9 +258,21 @@ class TemplateExportAdapter:
         # K1 defence in depth: two facts planned for one destination cell both refuse (the later would overwrite the earlier).
         from collections import Counter
         cells = Counter(binding.destination.cell for binding in bindings if binding.status == "bound" and binding.destination.cell)
+        # R8-2: a row without a company code may be any company's row of the same remaining key: when such a row and another
+        # row of that key are both planned, every binding of the key refuses (blank entity is a wildcard for collision).
+        wildcard_keys: dict[tuple[str, str], set[str]] = {}
+        for binding in bindings:
+            if binding.status == "bound" and binding.destination.cell and binding.destination.row_key:
+                sheet = binding.destination.cell.rsplit("!", 1)[0]
+                wildcard_keys.setdefault((sheet, binding.destination.row_key.split("|", 1)[-1]), set()).add(binding.destination.row_key)
+        def wildcard_collision(binding: OutputBinding) -> bool:
+            if not (binding.destination.cell and binding.destination.row_key):
+                return False
+            keys = wildcard_keys.get((binding.destination.cell.rsplit("!", 1)[0], binding.destination.row_key.split("|", 1)[-1]), set())
+            return len(keys) > 1 and any(key.split("|", 1)[0] == "" for key in keys)
         return tuple(OutputBinding(binding.id, binding.snapshot_id, binding.record_id, OutputIdentity(binding.destination.contract_version, binding.destination.row_key, binding.destination.field, None),
                                    binding.source_pointer, "destination_collision", binding.transformations)
-                     if binding.status == "bound" and cells[binding.destination.cell] > 1 else binding for binding in bindings)
+                     if binding.status == "bound" and (cells[binding.destination.cell] > 1 or wildcard_collision(binding)) else binding for binding in bindings)
 
     @staticmethod
     def target_value(fact: ValidatedFact, binding: OutputBinding) -> Decimal:

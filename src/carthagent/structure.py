@@ -33,6 +33,26 @@ HEADER_GROUPS = {
 
 _MOVEMENT_WORD = re.compile(r"zug[aä]ng|abg[aä]ng|umbuch|zuschreib")
 _DEPRECIATION_WORD = re.compile(r"\bafa\b|abschr")
+_DEPRECIATION_HEADS = frozenset({"afa", "abschr", "abschreibung", "abschreibungen"})
+_DEPRECIATION_NEGATORS = frozenset({"ohne", "nicht", "davon", "keine", "kein"})
+_ASSET_QUALIFIERS = frozenset({"pflichtig", "fähig", "fahig"})
+
+
+def _depreciation_head(value: str) -> bool:
+    """R8-1: the depreciation word heads the header ("AfA Zugänge", "Abschreibungen Abgänge", "Abschr. Abgänge",
+    "Abschreibung auf Zugänge"), as a whole word that no negator precedes and no asset qualifier follows. "Zugänge
+    AfA-pflichtig", "Zugänge (ohne AfA)", "nicht abschreibbar", "abschreibungsfähig", "Abschreibungsgruppe" describe the asset."""
+    tokens = value.split()
+    for index, token in enumerate(tokens):
+        if token not in _DEPRECIATION_HEADS:
+            continue
+        if (index and tokens[index - 1] in _DEPRECIATION_NEGATORS) or (index + 1 < len(tokens) and tokens[index + 1] in _ASSET_QUALIFIERS):
+            return False
+        movement = next((position for position, other in enumerate(tokens) if _MOVEMENT_WORD.match(other)), None)
+        return movement is not None and index < movement
+    return False
+
+
 _PERIOD_QUALIFIER = re.compile(r"\b(?:im|des|geschäftsjahr(?:es)?)\b")
 
 
@@ -82,7 +102,9 @@ def match(text: str, vocab: dict[str, tuple[str, ...]]) -> str | None:
             return None
         # R7-4: a depreciation word plus a movement word names the depreciation counterpart ("AfA Abgänge" -> afa_abgang);
         # additions to depreciation are the year's charge, as under a "Kumulierte Abschreibungen" group.
-        if _DEPRECIATION_WORD.search(value) and (movement := _MOVEMENT_WORD.search(value)):
+        if "zuschreib" in value and "abschreib" in value:
+            return None  # R8-1: a combined write-up/depreciation (net) column names no single field
+        if _depreciation_head(value) and (movement := _MOVEMENT_WORD.search(value)):
             word = movement.group(0)
             return "zuschreibung" if word.startswith("zuschreib") else "afa_umb" if word.startswith("umbuch") else "afa_abgang" if word.startswith("abg") else "total_afa_gj"
         if _DEPRECIATION_WORD.search(value) and not _MOVEMENT_WORD.search(value):
@@ -396,6 +418,17 @@ class ContextResolver:
         if len({year for _, year, _ in dated}) != 1 or len({name for name, _, _ in dated}) != 1:
             return None
         dated_sheet, year, title = dated[0]
+        # R8-4: a sheet named or titled as a prior year / comparison is never the dated sheet's continuation.
+        if CREATION_WORDS.search(sheet) or re.search(r"\bvj\b", norm(sheet)) or any(CREATION_WORDS.search(o.text or "") for o in title_lines(sheet)):
+            return None
+        def header_band(name: str) -> tuple[tuple[int, str], ...]:
+            rows = self._xlsx_by_row[(document_id, name)]
+            first_amount = min((row for row, cells in rows.items() if any(o.text and _amount_like(o.text) for _, o in cells)), default=0)
+            bands = [row for row, cells in rows.items() if row < first_amount and sum(1 for _, o in cells if o.text) >= 2 and not any(o.text and _amount_like(o.text) for _, o in cells)]
+            return tuple(sorted((column, norm(o.text)) for column, o in rows[max(bands)] if o.text)) if bands else ()
+        self._xlsx_index(document_id, sheet, observations)
+        if header_band(sheet) and header_band(sheet) == header_band(dated_sheet):
+            return None  # the same header band again is a parallel table (most likely another year), not a continuation
         codes = {token for o in title_lines(dated_sheet) for token in re.findall(r"\b\d{3,}\b", o.text or "") if not YEAR.fullmatch(token)}
         dated_headers = column_headers(dated_sheet)
         dated_totals: dict[str, set[Decimal]] = {}
@@ -413,7 +446,7 @@ class ContextResolver:
             shared = [(column, cents(o.text)) for column, o in cells if column in headers and headers[column] in dated_totals and o.text and _amount_like(o.text)]
             # Every measure both totals print must agree to the cent, at least one of them non-zero, and this row must be a
             # printed total (the sum of the values above it in each such column).
-            if not shared or any(value is None or value not in dated_totals[headers[column]] for column, value in shared) or not any(value for _, value in shared):
+            if not shared or any(value is None or value not in dated_totals[headers[column]] for column, value in shared) or sum(1 for _, value in shared if value) < 2:
                 continue
             def is_sum(column: int, value: Decimal) -> bool:
                 above = [cents(other.text) for other_row, other in by_col.get(column, ()) if other_row < row and other.text and _amount_like(other.text)]
@@ -518,6 +551,16 @@ def _dated_book_value(field: str | None, temporal_role: str | None, column_year:
     if int(column_year) == int(reporting_year) - 1:
         return "bw_prev", "prior_closing"
     return None, None
+
+
+def _straddles(axis: _PdfAxis, other: _PdfAxis) -> bool:
+    """R8-5: a header axis is a TRUE straddle of its neighbour only when its trailing segment is the neighbour's whole header
+    and either reuses the neighbour's own words or its leading segment is a complete field header itself ("Abgänge Zugänge")."""
+    own, neighbour = norm(axis.header_text), norm(other.header_text)
+    if other is axis or not neighbour or not own.endswith(" " + neighbour):
+        return False
+    leading = own[: -len(neighbour)].strip()
+    return bool(set(axis.evidence_ids) & set(other.evidence_ids)) or match(leading, FIELDS) not in {None, "amount"}
 
 
 def _pdf_field_for(group: str | None, direct: str | None, year: int | None, date_rank: int | None, date_count: int) -> tuple[str | None, str | None]:
@@ -672,7 +715,10 @@ def _pdf_layout(amount: SourceObservation, observations: tuple[SourceObservation
     reporting_period = str(max(reporting_years)) if reporting_years else None
     # R7-4: a header whose text ends with a neighbouring column's whole header ("Abschreibungen Abgänge" next to "Abgänge")
     # swallowed that neighbour's words; reading it as one compound field ("AfA Abgänge") would guess, so it is no column axis.
-    axes = [axis for axis in axes if not any(other is not axis and norm(other.header_text) and norm(axis.header_text).endswith(" " + norm(other.header_text)) for other in axes)]
+    # R8-5: only a TRUE straddle drops: the trailing segment is the neighbour's whole header and either reuses the neighbour's
+    # own words, or the leading segment is a complete field header itself ("Abgänge Zugänge"). "AfA Abgänge" next to
+    # "Abgänge" and "Restbuchwert" next to "Buchwert" stay.
+    axes = [axis for axis in axes if not any(_straddles(axis, other) for other in axes)]
     if not axes:
         return None
     if reporting_period:

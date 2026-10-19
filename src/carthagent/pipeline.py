@@ -21,7 +21,6 @@ from .ocr_mistral import MistralDocumentOCR, MistralOCRConfig
 from .models import AssociationClaim, AssociationKind, CoverageDisposition, CoverageItem, HypothesisSet, OutputBinding, OutputIdentity, RunStatus, SourceObservation, jsonable
 from .policies import DEFAULT_BOUNDS, DEFAULT_POLICIES, PolicyBundle, ResourceBounds
 from .semantics import SEMANTICS_VERSION, interpret
-from . import semantics as semantics_module
 from .store import Ledger, content_hash, preserve_source
 
 
@@ -236,9 +235,12 @@ def run_input(input_path: Path, output: Path, config: RunConfig = RunConfig()) -
                     ledger.depend(fact.id, dependency, "semantic")
             for abst in abstentions:
                 ledger.append(abst.id, document_id, "abstention", jsonable(abst))
-            for item in coverage:
-                ledger.append(item.id, document_id, f"coverage:{PIPELINE_VERSION}:{semantics_module.SEMANTICS_VERSION}", jsonable(item))  # R7-3: a semantics change is a new kind
-            ledger.append(snapshot.id, document_id, "snapshot", {"digest": snapshot.digest, "fact_ids": [f.id for f in facts], "abstention_ids": [a.id for a in abstentions], "coverage_ids": [c.id for c in coverage]})
+            # R8-3: a coverage record's ledger id covers its content (disposition, linked record, reason), so a rerun with
+            # another outcome (a mapper that failed before and answers now) writes new records instead of colliding.
+            coverage_record_ids = [f"{item.id}:{sha256(json.dumps(jsonable(item), sort_keys=True, default=str).encode()).hexdigest()[:20]}" for item in coverage]
+            for record_id, item in zip(coverage_record_ids, coverage):
+                ledger.append(record_id, document_id, f"coverage:{PIPELINE_VERSION}", jsonable(item))
+            ledger.append(snapshot.id, document_id, "snapshot", {"digest": snapshot.digest, "fact_ids": [f.id for f in facts], "abstention_ids": [a.id for a in abstentions], "coverage_ids": coverage_record_ids})
             for fact in facts:
                 ledger.depend(snapshot.id, fact.id, "semantic_snapshot")
             for binding in bindings:

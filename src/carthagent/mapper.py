@@ -820,6 +820,8 @@ GROUP_MOVEMENTS = {("cum_depreciation", "zugang"): "total_afa_gj"}
 def _text_fields(text: str | None, groups: frozenset[str]) -> frozenset[str] | set[str]:
     """Fields the header's own words allow, read under its parent group: "Zugänge" is zugang under AHK and current-year
     depreciation under cumulative AfA. Text naming no field allows any label."""
+    if len({word[:3] for word in re.findall(r"zug[aä]ng|abg[aä]ng|umbuch|zuschreib", norm(text or ""))}) > 1:
+        return frozenset()  # R8-6: "Zugang/Umbuchung" names several movements; no single movement label is supported
     exact = _exact_field(text)
     if exact is None:
         return frozenset(FIELDS)

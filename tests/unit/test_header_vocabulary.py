@@ -100,3 +100,18 @@ def test_r7_4_a_dated_book_value_column_follows_the_reporting_year(tmp_path: Pat
 @pytest.mark.parametrize("header", ["SUMME AHK / Zugang / Abgang / Umbuchung", "Zugang/Umbuchung", "Zugänge und Abgänge"])
 def test_r7_8_a_header_naming_several_movements_is_no_single_field(header):
     assert match(header, FIELDS) is None
+
+
+@pytest.mark.parametrize(("header", "expected"), [
+    # R8-1: the depreciation word must be the HEAD of the header; as an asset qualifier it never moves the column to AfA.
+    ("Zugänge AfA-pflichtig", "zugang"), ("Zugänge (AfA-fähig)", "zugang"), ("Zugänge (ohne AfA)", "zugang"),
+    ("Zugänge nicht abschreibbar", "zugang"), ("Zugänge (davon abschreibungsfähig)", "zugang"), ("Abschreibungsgruppe Zugang", "zugang"),
+    ("Abgänge (nicht abschreibungspflichtig)", "abgang"), ("Zugänge keine AfA", "zugang"),
+    # Head-noun forms keep the depreciation counterpart.
+    ("AfA Zugänge", "total_afa_gj"), ("Abschreibungen Zugänge", "total_afa_gj"), ("Abschr. Abgänge", "afa_abgang"),
+    ("Abschreibung auf Zugänge", "total_afa_gj"), ("AfA auf Abgänge", "afa_abgang"),
+    # A combined write-up/depreciation (net) column names no field.
+    ("Zuschreibungen/Abschreibungen", None), ("Abschreibungen / Zuschreibungen", None),
+])
+def test_r8_1_depreciation_word_counts_only_as_the_head(header, expected):
+    assert match(header, FIELDS) == expected
