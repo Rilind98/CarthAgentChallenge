@@ -21,12 +21,13 @@ from .ocr_mistral import MistralDocumentOCR, MistralOCRConfig
 from .models import AssociationClaim, AssociationKind, CoverageDisposition, CoverageItem, HypothesisSet, OutputBinding, OutputIdentity, RunStatus, SourceObservation, jsonable
 from .policies import DEFAULT_BOUNDS, DEFAULT_POLICIES, PolicyBundle, ResourceBounds
 from .semantics import SEMANTICS_VERSION, interpret
+from . import semantics as semantics_module
 from .store import Ledger, content_hash, preserve_source
 
 
 PIPELINE_VERSION = "0.13.1"
 ACQUISITION_VERSION = "15"
-STRUCTURE_VERSION = "8"
+STRUCTURE_VERSION = "9"
 
 
 def _implementation_fingerprint() -> dict[str, str]:
@@ -236,12 +237,12 @@ def run_input(input_path: Path, output: Path, config: RunConfig = RunConfig()) -
             for abst in abstentions:
                 ledger.append(abst.id, document_id, "abstention", jsonable(abst))
             for item in coverage:
-                ledger.append(item.id, document_id, f"coverage:{PIPELINE_VERSION}", jsonable(item))
+                ledger.append(item.id, document_id, f"coverage:{PIPELINE_VERSION}:{semantics_module.SEMANTICS_VERSION}", jsonable(item))  # R7-3: a semantics change is a new kind
             ledger.append(snapshot.id, document_id, "snapshot", {"digest": snapshot.digest, "fact_ids": [f.id for f in facts], "abstention_ids": [a.id for a in abstentions], "coverage_ids": [c.id for c in coverage]})
             for fact in facts:
                 ledger.depend(snapshot.id, fact.id, "semantic_snapshot")
             for binding in bindings:
-                ledger.append(binding.id, document_id, "output_binding", jsonable(binding))
+                ledger.append(binding.id, document_id, "output_binding", jsonable(binding))  # ids are content-addressed (_finalize_binding_id)
                 ledger.depend(binding.id, binding.record_id, "output_projection")
                 ledger.depend(binding.id, snapshot.id, "snapshot_projection")
         diagnostics = (*acquired.diagnostics, *mapper_diagnostics, *output_diagnostics, *context_diagnostics)

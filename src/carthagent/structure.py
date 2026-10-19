@@ -32,7 +32,7 @@ HEADER_GROUPS = {
 
 
 _MOVEMENT_WORD = re.compile(r"zug[aä]ng|abg[aä]ng|umbuch|zuschreib")
-_DEPRECIATION_WORD = re.compile(r"\bafa\b|abschreib")
+_DEPRECIATION_WORD = re.compile(r"\bafa\b|abschr")
 _PERIOD_QUALIFIER = re.compile(r"\b(?:im|des|geschäftsjahr(?:es)?)\b")
 
 
@@ -76,6 +76,15 @@ def match(text: str, vocab: dict[str, tuple[str, ...]]) -> str | None:
         if "abgang" in value and "minderung" in value:
             return None
         # "AfA GJ-Beg"/"AfA GJ-Ende" name the cumulative balance at the start/end of the year, never the year's charge.
+        # R7-8: a header naming several movements ("SUMME AHK / Zugang / Abgang / Umbuchung", "Zugang/Umbuchung") is a
+        # combined column, never one movement field.
+        if len({word[:3] for word in _MOVEMENT_WORD.findall(value)}) > 1:
+            return None
+        # R7-4: a depreciation word plus a movement word names the depreciation counterpart ("AfA Abgänge" -> afa_abgang);
+        # additions to depreciation are the year's charge, as under a "Kumulierte Abschreibungen" group.
+        if _DEPRECIATION_WORD.search(value) and (movement := _MOVEMENT_WORD.search(value)):
+            word = movement.group(0)
+            return "zuschreibung" if word.startswith("zuschreib") else "afa_umb" if word.startswith("umbuch") else "afa_abgang" if word.startswith("abg") else "total_afa_gj"
         if _DEPRECIATION_WORD.search(value) and not _MOVEMENT_WORD.search(value):
             if _BALANCE_START.search(value):
                 return "kum_afa_open"
@@ -111,6 +120,7 @@ class ContextResolver:
         self._xlsx_record_roles: dict[tuple[str, str, int], str] = {}
         self._xlsx_axes: dict[tuple[str, str, int, int, int], tuple[str | None, str | None, str | None, tuple[str, ...]]] = {}
         self._xlsx_period_sets: dict[tuple[str, str, int, int], tuple[set[str], set[str]]] = {}
+        self._xlsx_inherited: dict[tuple[str, str], tuple[str, tuple[str, ...]] | None] = {}
         self._pdf_rows: dict[str, str] = {}
         self._observations_by_id = {observation.id: observation for observation in observations}
         self._recognition_candidates_by_anchor: dict[str, list[SourceObservation]] = {}
@@ -142,6 +152,9 @@ class ContextResolver:
         if axis_key not in self._xlsx_axes:
             self._xlsx_axes[axis_key] = _xlsx_axis(col, row, indexed, header_start, header_cutoff)
         field, period, temporal_role, axis_evidence = self._xlsx_axes[axis_key]
+        # R7-4: the column's OWN printed year (the axis period of a group is the group's newest date, not this column's).
+        own_years = {year for header_row, o in by_col.get(col, ()) if header_start <= header_row <= header_cutoff and o.text and not _amount_like(o.text) for year in YEAR.findall(o.text)}
+        column_year = next(iter(own_years)) if len(own_years) == 1 else None
         row_measure_observations = [
             observation for _, observation in by_row.get(row, ())
             if observation.text and match(observation.text, HEADER_GROUPS)
@@ -167,8 +180,11 @@ class ContextResolver:
                     periods_by_field.setdefault(candidate_field, set()).add(candidate_period)
             self._xlsx_period_sets[period_key] = ({value for values in periods_by_field.values() for value in values}, {name for name, values in periods_by_field.items() if len(values) > 1})
         all_periods, parallel_fields = self._xlsx_period_sets[period_key]
+        # R7-5: a title line (the only text in its row) dates the sheet only with a reporting word, never by a date alone;
+        # stamp words (CREATION_WORDS) veto any line. Column-header cells keep their printed dates.
         header_period_cells = [
             (year, observation) for _, header_row, observation in indexed if header_start <= header_row <= header_cutoff and not CREATION_WORDS.search(observation.text or "")
+            and (_has_report_label(observation.text or "") or sum(1 for _, candidate in by_row.get(header_row, ()) if candidate.text) > 1)
             for year in _reported_periods(observation.text or "")
         ]
         # Item 5: a reporting line ("Jahresabschluss per 30.06.2025") outranks a bare dated stamp ("Stand: 15.03.2026",
@@ -182,6 +198,18 @@ class ContextResolver:
         if reporting_periods and field not in parallel_fields:
             period = max(reporting_periods)
             period_evidence = tuple(observation.id for year, observation in reporting_lines if year == period)
+        reporting_year = max(year for year, _ in reporting_lines) if len({year for year, _ in reporting_lines}) == 1 else None
+        if reporting_year and field in {"bw_close", "bw_prev"} and column_year:
+            # R7-4: two dated "Buchwert" columns are parallel only in their printed dates; the reporting year decides.
+            field, temporal_role = _dated_book_value(field, temporal_role, column_year, reporting_year)
+            period = reporting_year if field else period
+            period_evidence = tuple(observation.id for year, observation in reporting_lines)
+        if period is None and field not in {None, "amount"}:
+            inherited_key = (amount.document_id, sheet)
+            if inherited_key not in self._xlsx_inherited:
+                self._xlsx_inherited[inherited_key] = self._inherited_period(amount.document_id, sheet, observations)
+            if self._xlsx_inherited[inherited_key]:
+                period, period_evidence = self._xlsx_inherited[inherited_key]
         local_unit_evidence = [o for header_row, o in by_col.get(col, ()) if o.text and header_start <= header_row <= header_cutoff and _header_span(col, o) and UNIT_WORDS.search(o.text)]
         currency_columns = {candidate_col for candidate_col, candidate_row, observation in indexed if header_start <= candidate_row <= header_cutoff and re.search(r"(?:währ\s*ung|waehr\s*ung|currency)", norm(observation.text or ""), re.I)}
         record_unit_evidence = [observation for candidate_col, observation in by_row.get(row, ()) if candidate_col in currency_columns and re.fullmatch(r"\s*(?:T?EUR|T€)\s*", observation.text or "", re.I)]
@@ -335,6 +363,65 @@ class ContextResolver:
             self._pdf_layouts[key] = _pdf_layout(amount, observations)
         return self._pdf_layouts[key]
 
+    def _inherited_period(self, document_id: str, sheet: str, observations: tuple[SourceObservation, ...]) -> tuple[str, tuple[str, ...]] | None:
+        """R7-8: a sheet with no period evidence inherits the workbook's single title-line period ONLY with a tie-out:
+        a printed total on this sheet (it equals the sum of the values above it) equals, to the cent, a printed "Summe"/"Summen"/
+        "Gesamt" total of the dated sheet under the same field header, and that total row names a company code the dated sheet
+        prints in a title line ("BK: 7307" / "Buchungskreis 7307"). Anything less keeps abstaining."""
+        sheets = sorted({o.locator.split("!", 1)[0] for o in observations if o.channel == "xlsx_native" and o.document_id == document_id and "!" in o.locator})
+        def title_lines(name: str) -> list[SourceObservation]:
+            self._xlsx_index(document_id, name, observations); rows = self._xlsx_by_row[(document_id, name)]
+            return [o for cells in rows.values() for _, o in cells if o.text and sum(1 for _, other in cells if other.text) == 1]
+        def column_headers(name: str) -> dict[int, str]:
+            # A column's measure is its topmost printed text ("AHK GJ-Beg"), compared as normalized text across sheets.
+            result = {}
+            for column, cells in self._xlsx_by_col[(document_id, name)].items():
+                texts = [o.text for _, o in sorted(cells, key=lambda item: item[0]) if o.text and not _amount_like(o.text)]
+                if texts:
+                    result[column] = norm(texts[0])
+            return result
+        def cents(text: str | None) -> Decimal | None:
+            try:
+                return Decimal(str(text).strip()).quantize(Decimal("0.01"))
+            except Exception:
+                return None
+        dated: list[tuple[str, str, SourceObservation]] = []
+        for name in sheets:
+            if name == sheet:
+                continue
+            for o in title_lines(name):
+                years = set(YEAR.findall(o.text or ""))
+                if PERIOD_WORDS.search(o.text or "") and not CREATION_WORDS.search(o.text or "") and len(years) == 1:
+                    dated.append((name, next(iter(years)), o))
+        if len({year for _, year, _ in dated}) != 1 or len({name for name, _, _ in dated}) != 1:
+            return None
+        dated_sheet, year, title = dated[0]
+        codes = {token for o in title_lines(dated_sheet) for token in re.findall(r"\b\d{3,}\b", o.text or "") if not YEAR.fullmatch(token)}
+        dated_headers = column_headers(dated_sheet)
+        dated_totals: dict[str, set[Decimal]] = {}
+        for row, cells in self._xlsx_by_row[(document_id, dated_sheet)].items():
+            if any(norm(o.text or "").startswith(("summe", "summen", "gesamt", "total")) for _, o in cells):
+                for column, o in cells:
+                    if column in dated_headers and (value := cents(o.text)) is not None and _amount_like(o.text):
+                        dated_totals.setdefault(dated_headers[column], set()).add(value)
+        self._xlsx_index(document_id, sheet, observations)
+        headers = column_headers(sheet); by_col = self._xlsx_by_col[(document_id, sheet)]; by_row = self._xlsx_by_row[(document_id, sheet)]
+        for row, cells in sorted(by_row.items()):
+            row_codes = {token for _, o in cells if o.text and not _amount_like(o.text) for token in re.findall(r"\b\d{3,}\b", o.text)}
+            if not row_codes & codes:
+                continue
+            shared = [(column, cents(o.text)) for column, o in cells if column in headers and headers[column] in dated_totals and o.text and _amount_like(o.text)]
+            # Every measure both totals print must agree to the cent, at least one of them non-zero, and this row must be a
+            # printed total (the sum of the values above it in each such column).
+            if not shared or any(value is None or value not in dated_totals[headers[column]] for column, value in shared) or not any(value for _, value in shared):
+                continue
+            def is_sum(column: int, value: Decimal) -> bool:
+                above = [cents(other.text) for other_row, other in by_col.get(column, ()) if other_row < row and other.text and _amount_like(other.text)]
+                return len(above) >= 2 and None not in above and sum(above) == value
+            if all(is_sum(column, value) for column, value in shared if value):
+                return year, (title.id, *(o.id for column, o in cells if column in dict(shared)))
+        return None
+
     def _xlsx_index(self, document_id: str, sheet: str, observations: tuple[SourceObservation, ...]) -> list[tuple[int, int, SourceObservation]]:
         key = (document_id, sheet)
         if key in self._xlsx_indexes:
@@ -419,6 +506,18 @@ def _pdf_group_for(center: float, groups: list[tuple[str, tuple[float, float, fl
         if left <= center < right:
             return group
     return None
+
+
+def _dated_book_value(field: str | None, temporal_role: str | None, column_year: str | None, reporting_year: str | None) -> tuple[str | None, str | None]:
+    """R7-4: a book-value column printing a year is bw_close for the reporting year, bw_prev for the year before, and
+    unknown for any other year; an undated column keeps its date-rank reading."""
+    if field not in {"bw_close", "bw_prev"} or not column_year or not reporting_year:
+        return field, temporal_role
+    if column_year == reporting_year:
+        return "bw_close", "closing"
+    if int(column_year) == int(reporting_year) - 1:
+        return "bw_prev", "prior_closing"
+    return None, None
 
 
 def _pdf_field_for(group: str | None, direct: str | None, year: int | None, date_rank: int | None, date_count: int) -> tuple[str | None, str | None]:
@@ -571,6 +670,14 @@ def _pdf_layout(amount: SourceObservation, observations: tuple[SourceObservation
         identity_axes.append(_PdfIdentityAxis(float("-inf") if not identity_axes else bbox[0], right, role, evidence[0]))
     reporting_years = [int(year) for word in words if word.bbox and word.bbox[3] <= header_row.bbox[3] for year in _reported_periods(word.text or "")]
     reporting_period = str(max(reporting_years)) if reporting_years else None
+    # R7-4: a header whose text ends with a neighbouring column's whole header ("Abschreibungen Abgänge" next to "Abgänge")
+    # swallowed that neighbour's words; reading it as one compound field ("AfA Abgänge") would guess, so it is no column axis.
+    axes = [axis for axis in axes if not any(other is not axis and norm(other.header_text) and norm(axis.header_text).endswith(" " + norm(other.header_text)) for other in axes)]
+    if not axes:
+        return None
+    if reporting_period:
+        axes = [_PdfAxis(axis.left, axis.right, *_dated_book_value(axis.field, axis.temporal_role, axis.period, reporting_period)[:1], axis.period,
+                         _dated_book_value(axis.field, axis.temporal_role, axis.period, reporting_period)[1], axis.group, axis.header_text, axis.evidence_ids, axis.parallel_period) for axis in axes]
     return _PdfLayout(current[0], words, tuple(visual_rows), tuple(axes), tuple(identity_axes), reporting_period, header_row.bbox[1], header_row.bbox[3])
 
 
@@ -751,13 +858,18 @@ def _xlsx_row(observation: SourceObservation) -> int | None:
 
 
 def _reported_periods(text: str) -> tuple[str, ...]:
-    normalized = norm(text)
     years = tuple(re.findall(r"\b((?:19|20)\d{2})\b", text))
     if not years:
         return ()
     has_full_date = bool(re.search(r"\b\d{1,2}[./-]\d{1,2}[./-](?:19|20)\d{2}\b", text))
-    has_report_label = any(label in normalized for label in ("jahresabschluss", "geschaftsjahr", "fiscal", "reporting period", "period ending", "stand zum", "per "))
-    return years if has_full_date or has_report_label else ()
+    return years if has_full_date or _has_report_label(text) else ()
+
+
+def _has_report_label(text: str) -> bool:
+    """A reporting word (R7-5): Geschäftsjahr, Wirtschaftsjahr, (Jahres)Abschluss, Stichtag, Berichtsdatum, fiscal/reporting
+    period, or "per"/"zum" + a year-end date. A date alone is no reporting word."""
+    normalized = norm(text)
+    return bool(PERIOD_WORDS.search(text)) or bool(REPORTING_WORD.search(normalized)) or any(label in normalized for label in ("jahresabschluss", "geschaftsjahr", "fiscal", "reporting period", "period ending", "stand zum", "per "))
 
 
 def _header_span(column: int, observation: SourceObservation) -> bool:
@@ -921,11 +1033,12 @@ def _xlsx_axis(column: int, amount_row: int, indexed: list[tuple[int, int, Sourc
 
 
 # Print/creation stamps and prior-year lines are never the reporting period ("Berichtsdatum" is not "Datum").
-CREATION_WORDS = re.compile(r"\berstell|\bdruck|gedruckt|printed|created|\bstand\b|\bdatum\b|abfrage|g(?:ü|ue)ltig|\bseite\b|vorjahr|vergleich|prior year|previous year|comparative", re.I)
+CREATION_WORDS = re.compile(r"\berstell|\bdruck|ausdruck|gedruckt|printed|created|generated|\bexport|\bstand\b|\bdatum\b|abfrage|g(?:ü|ue)ltig|\bseite\b|vorjahr|vergleich|prior year|previous year|comparative", re.I)
 # A reporting period needs a fiscal-year/reporting word, a standalone "GJ <year>", or "per"/"zum" + a fiscal year-end date.
 PERIOD_WORDS = re.compile(r"wirtschaftsjahr|gesch(?:ä|ae|a\u0308|a)ftsjahr|berichtsdatum|bilanzstichtag|stichtag|jahresabschluss|fiscal year|reporting date"
                           r"|\bgj\s+(?:19|20)\d{2}\b|\b(?:19|20)\d{2}\s+gj\b"
                           r"|\b(?:per|zum)\s+(?:31\.0?3|30\.0?6|30\.0?9|31\.12)\.(?:19|20)\d{2}\b", re.I)
+REPORTING_WORD = re.compile(r"\babschluss\b")
 YEAR = re.compile(r"\b(?:19|20)\d{2}\b")
 
 

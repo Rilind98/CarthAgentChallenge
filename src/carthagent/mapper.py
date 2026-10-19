@@ -1208,9 +1208,9 @@ def _flat_context(contexts: list[dict[str, object]], amount: SourceObservation, 
     by_scope: dict[str, list[tuple[tuple[str, ...] | None, dict[str, object]]]] = {"column": [], "sheet": []}
     for context in contexts:
         observation = by_id[context["observation_id"]]; scope = context.get("scope", "sheet")
-        if scope == "column" and _header_applies(observation, amount):
+        if scope == "column" and (_header_applies(observation, amount) or ("unit" in context and _merged_unit_covers(observation, amount))):
             by_scope["column"].append((_context_value(context, observation), context))
-        elif scope == "sheet" and (len(contexts) == 1 or _same_sheet(observation, amount)):
+        elif scope == "sheet" and _same_sheet(observation, amount):
             by_scope["sheet"].append((_context_value(context, observation), context))
     for scope in ("column", "sheet"):
         applicable = by_scope[scope]
@@ -1222,9 +1222,23 @@ def _flat_context(contexts: list[dict[str, object]], amount: SourceObservation, 
     return None
 
 
-def _same_sheet(observation: SourceObservation, amount: SourceObservation) -> bool:
+def _merged_unit_covers(observation: SourceObservation, amount: SourceObservation) -> bool:
+    """R7-7: a merged unit cell ("EUR" over C6:E6) heads every column of its merged range below it, never a column beyond."""
+    merged = observation.metadata.get("merged_range")
     first, second = _xlsx_position(observation), _xlsx_position(amount)
-    return bool(first and second and first[0] == second[0])
+    if not (isinstance(merged, str) and observation.metadata.get("merged_anchor") is True and first and second and first[0] == second[0]):
+        return False
+    min_col, _, max_col, max_row = range_boundaries(merged)
+    return min_col <= second[2] <= max_col and second[1] > max_row
+
+
+def _same_sheet(observation: SourceObservation, amount: SourceObservation) -> bool:
+    """R7-2: a sheet-scoped context covers its own worksheet (XLSX) or its own page (PDF), never another one."""
+    first, second = _xlsx_position(observation), _xlsx_position(amount)
+    if first and second:
+        return first[0] == second[0]
+    pages = (observation.metadata.get("page_index"), amount.metadata.get("page_index"))
+    return observation.channel != "xlsx_native" and amount.channel != "xlsx_native" and pages[0] is not None and pages[0] == pages[1]
 
 
 def _context_value(context: dict[str, object], observation: SourceObservation) -> tuple[str, ...] | None:
@@ -1257,7 +1271,8 @@ def _scoped_context(contexts: list[dict[str, object]], amount: SourceObservation
             observation = counterpart; context = {**context, "observation_id": counterpart.id}
             if "unit" in context and re.fullmatch(r"\s*(?:T?EUR|T€|Tsd\.?\s*EUR)\s*", counterpart.text or "", re.I) and unit_from_text(counterpart.text):
                 context["unit"] = unit_from_text(counterpart.text)  # the record prints its own scale; code reads it
-        if scope == "column" and not (_same_column(observation, amount, spans) and (position is None or amount_position is None or position[1] < amount_position[1])):
+        if scope == "column" and not ((_same_column(observation, amount, spans) or ("unit" in context and _merged_unit_covers(observation, amount)))
+                                      and (position is None or amount_position is None or position[1] < amount_position[1])):
             continue
         if scope == "sheet" and position and amount_position and position[0] != amount_position[0]:
             continue

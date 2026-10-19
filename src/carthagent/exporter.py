@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from dataclasses import dataclass
 from decimal import Decimal
 from hashlib import sha256
@@ -179,7 +181,7 @@ class TemplateExportAdapter:
 
     SUPPORTED_HASH = "0449e028926cbe6e32c32fabc6da27a2693c36147c581c8d3b008e9543239668"
     CONTRACT_VERSION = "A3_LAYOUT_VERSION=20"
-    IMPLEMENTATION_VERSION = "2"
+    IMPLEMENTATION_VERSION = "3"
     REGISTER = "Anlagenverzeichnis"
     CLASS_GRID = "Gitter nach Anlagenklasse"
     BALANCE_GRID = "Gitter nach Bilanzposition"
@@ -213,6 +215,8 @@ class TemplateExportAdapter:
         row_maps: dict[str, dict[str, int]] = {}
         bindings: list[OutputBinding] = []
         row_sources: dict[tuple[str, str], set[str]] = {}
+        row_fields: dict[tuple[str, str], dict[str, list[str | None]]] = {}
+        row_identities: dict[tuple[str, str], set[tuple[str | None, str | None, str | None]]] = {}
         for fact in facts:
             projected_sheet, projected_key, _, _, _ = self._projection(fact)
             # The source scope is the sheet, or the page of a PDF fact (item 6: a PDF occurrence carries no "!", so without the
@@ -221,13 +225,25 @@ class TemplateExportAdapter:
             source_sheet = str(fact.source_pointer.get("sheet") or (f"page:{page}" if page is not None else fact.physical.occurrence.split("!", 1)[0]))
             if projected_sheet and projected_key:
                 row_sources.setdefault((projected_sheet, projected_key), set()).add(source_sheet)
+                row_fields.setdefault((projected_sheet, projected_key), {}).setdefault(source_sheet, []).append(fact.business.field)
+                row_identities.setdefault((projected_sheet, projected_key), set()).add((fact.business.asset_id, fact.business.asset_sub_id, fact.business.class_code))
+
+        def split_width(key: tuple[str, str]) -> bool:
+            """R7-6: one record printed across consecutive PDF pages (AHK columns on one page, AfA/book values on the next):
+            the same exact identity, field sets disjoint between the pages. Any shared field keeps the row ambiguous."""
+            sources = row_fields.get(key, {})
+            pages = sorted(int(name.split(":", 1)[1]) for name in sources if re.fullmatch(r"page:\d+", name))
+            if len(pages) != len(sources) or pages != list(range(pages[0], pages[0] + len(pages))) or len(row_identities.get(key, ())) != 1:
+                return False
+            fields = [field for values in sources.values() for field in values]
+            return None not in fields and len(fields) == len(set(fields))
         for index, fact in enumerate(facts):
             sheet, row_key, column, first_row, capacity = self._projection(fact)
             status = "bound"
             row = None
             if not sheet or not row_key or not column:
                 status = "contract_pending"
-            elif fact.business.entity is None and len(row_sources.get((sheet, row_key), ())) > 1:
+            elif fact.business.entity is None and len(row_sources.get((sheet, row_key), ())) > 1 and not split_width((sheet, row_key)):
                 status = "ambiguous_destination_identity"
             else:
                 mapping = row_maps.setdefault(sheet, {})

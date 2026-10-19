@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import Counter
 from dataclasses import replace
 from decimal import Decimal
 from hashlib import sha256
@@ -13,7 +14,7 @@ from .policies import PolicyBundle
 from .structure import FIELDS, PERIOD_WORDS, ContextResolver, ResolvedContext, admissible_fields, compose_matrix_axes, label_key_ok, match, norm, unit_from_text
 
 
-SEMANTICS_VERSION = "14"
+SEMANTICS_VERSION = "15"
 
 
 def _stable_id(prefix: str, *parts: str) -> str:
@@ -77,11 +78,20 @@ def _numeric_like(text: str) -> bool:
         return False
 
 
+def _abstention(document_id: str, observation_id: str, reason: str, candidates: tuple[str, ...], dependencies: tuple[str, ...]) -> Abstention:
+    """R7-3: the id covers the whole payload (reason AND evidence), so an older build's record never shares an id with ours."""
+    return Abstention(_stable_id(f"{document_id}:abst", SEMANTICS_VERSION, observation_id, reason, *candidates, "|", *dependencies), document_id, reason, candidates, dependencies)
+
+
 def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[CoverageItem, ...], policies: PolicyBundle, mapped_hypotheses: tuple[HypothesisSet, ...] = (), *, deadline: float | None = None) -> tuple[tuple[HypothesisSet, ...], tuple[ValidatedFact, ...], tuple[Abstention, ...], tuple[CoverageItem, ...]]:
     engine = AssociationEngine(); resolver = ContextResolver(observations)
     hypotheses: list[HypothesisSet] = []
     facts: list[ValidatedFact] = []
     abstentions: list[Abstention] = []
+    record_of: dict[str, str] = {}
+    record_block_of_row = {str(member): o.id for o in observations if o.kind == "record_block" for member in o.metadata.get("member_ids", ())}
+    row_of_member = {str(member): o.id for o in observations if o.kind == "logical_row" for member in o.metadata.get("member_ids", ())}
+    by_observation = {o.id: o for o in observations}
     by_locator: dict[str, str] = {}
     # Option C: an Azure table cell is the primary amount evidence. Its words
     # are never separate amount candidates: a verified cell speaks for them,
@@ -105,7 +115,7 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
             if owning_cell.metadata.get("verified") is True:
                 continue
             reason = f"unverified_ocr_cell:{owning_cell.metadata.get('cross_check', 'unknown')}"
-            abstention = Abstention(_stable_id(f"{obs.document_id}:abst", SEMANTICS_VERSION, obs.id, reason), obs.document_id, reason, (obs.id,), (owning_cell.id,))
+            abstention = _abstention(obs.document_id, obs.id, reason, (obs.id,), (owning_cell.id,))
             abstentions.append(abstention); by_locator[obs.locator] = abstention.id
             continue
         # A numeric Azure cell spanning several rows or columns does not say
@@ -118,7 +128,7 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
                 span_ambiguity = "column_span"
         if obs.kind == "cell" and obs.channel == "pdf_ocr" and (obs.metadata.get("verified") is not True or span_ambiguity):
             reason = f"ambiguous_ocr_cell:{span_ambiguity}" if span_ambiguity and obs.metadata.get("verified") is True else f"unverified_ocr_cell:{obs.metadata.get('cross_check', 'unknown')}"
-            abstention = Abstention(_stable_id(f"{obs.document_id}:abst", SEMANTICS_VERSION, obs.id, reason), obs.document_id, reason, (obs.id,), ())
+            abstention = _abstention(obs.document_id, obs.id, reason, (obs.id,), ())
             abstentions.append(abstention); by_locator[obs.locator] = abstention.id
             continue
         if resolver.is_identity_value(obs, observations):
@@ -128,6 +138,7 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
         local_hyp = engine.candidates(obs, observations, context)
         external_hyp = engine.validate_external(mapped[0], obs, observations) if len(mapped) == 1 else None
         mapped_dependencies: tuple[str, ...] = ()
+        supported: list[AssociationClaim] = []
         if external_hyp is not None:
             supported = [candidate for candidate in external_hyp.candidates if candidate.source_sufficient]
             if len(supported) == 1:
@@ -154,7 +165,7 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
             amount = parse_amount(obs.text or "", scale=context.scale)
         if selected is None or context.business is None or context.missing_axes:
             reason = "missing_context:" + ",".join(context.missing_axes) if context.missing_axes else "association_ambiguous_or_insufficient"
-            abstention = Abstention(_stable_id(f"{obs.document_id}:abst", SEMANTICS_VERSION, obs.id, reason), obs.document_id, reason, (obs.id,), context.evidence_ids)
+            abstention = _abstention(obs.document_id, obs.id, reason, (obs.id,), context.evidence_ids)
             abstentions.append(abstention); by_locator[obs.locator] = abstention.id
             continue
         label_id = selected.target_observation_ids[0]
@@ -166,10 +177,22 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
             "amount": {"source_signed": str(amount.source_signed_value), "normalized": str(amount.normalized_value), "scale": str(amount.scale), "precision": amount.precision},
             "policy": policies.digest(),
         }, sort_keys=True)
-        fact_id = _stable_id(f"{obs.document_id}:fact", semantic_payload)
         dependencies = tuple(dict.fromkeys((obs.id, label_id, hyp.id, *mapped_dependencies, *context.evidence_ids)))
+        # R7-3: content-addressed, so a rerun into a directory an older build wrote can never reuse an id for other content.
+        fact_id = _stable_id(f"{obs.document_id}:fact", semantic_payload, json.dumps([pointer, dependencies], sort_keys=True, default=str))
         fact = ValidatedFact(fact_id, obs.document_id, PhysicalIdentity(obs.source_hash, obs.document_id, obs.locator), context.business, amount, obs.id, pointer, dependencies, policies.versions())
         facts.append(fact); by_locator[obs.locator] = fact.id
+        # R7-1: the record a fact belongs to: a verified mapper block, an acquisition record block, else its own row.
+        block_claim = supported[0] if external_hyp is not None and len(supported) == 1 and supported[0].record_identity_row_id else None
+        if block_claim:
+            record_of[fact.id] = block_claim.record_identity_row_id
+        else:
+            # The record is the row that printed the business key (a measure row under an asset row belongs to that asset's
+            # record); without a unique key cell, the acquisition record block or the fact's own row.
+            key_text = context.business.asset_id or context.business.class_code or context.business.balance_position or context.business.asset_or_class
+            key_rows = {row_of_member.get(evidence_id) for evidence_id in context.evidence_ids if (cell := by_observation.get(evidence_id)) is not None and key_text and (cell.text or "").strip() == key_text}
+            key_rows.discard(None)
+            record_of[fact.id] = record_block_of_row.get(next(iter(key_rows)), next(iter(key_rows))) if len(key_rows) == 1 else record_block_of_row.get(label_id, label_id)
     duplicate_groups: dict[tuple[object, ...], list[ValidatedFact]] = {}
     for fact in facts:
         business = fact.business
@@ -184,25 +207,34 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
                 retained.append(fact)
                 continue
             reason = "duplicate_same_row_field_ambiguous"
-            abstention = Abstention(_stable_id(f"{fact.document_id}:abst", SEMANTICS_VERSION, fact.source_observation_id, reason), fact.document_id, reason, (fact.source_observation_id,), fact.dependency_ids)
+            abstention = _abstention(fact.document_id, fact.source_observation_id, reason, (fact.source_observation_id,), fact.dependency_ids)
             abstentions.append(abstention); by_locator[fact.physical.occurrence] = abstention.id
         facts = retained
-    # K1 backstop: two facts with one OUTPUT identity (any source rows) are two records collapsed into one key, or one record
-    # read twice. Every member of such a group abstains; equal values do not excuse it.
+    # K1 backstop: one business key (WITHOUT the field, R7-1) fed by two records is two records collapsed into one key, and
+    # one key/field read twice is one record read twice. Every fact of such a key abstains; equal values do not excuse it,
+    # and a field only one of the records prints does not survive either (which record it belongs to is unknowable).
     output_groups: dict[tuple[object, ...], list[ValidatedFact]] = {}
     for fact in facts:
         business = fact.business
         # Scope = the source sheet/page: the same key on two sheets is the exporter's ambiguous_destination_identity case.
         scope = fact.physical.occurrence.rsplit("!", 1)[0] if "!" in fact.physical.occurrence else fact.physical.occurrence.split(":", 2)[:2]
-        output_groups.setdefault((str(scope), business.entity, business.book, business.asset_id, business.asset_sub_id, business.class_code, business.balance_position, business.asset_or_class, business.field, business.period), []).append(fact)
-    colliding = {fact.id for group in output_groups.values() if len(group) > 1 for fact in group}
+        output_groups.setdefault((str(scope), business.asset_id, business.asset_sub_id, business.class_code, business.balance_position, business.asset_or_class, business.period), []).append(fact)
+    colliding: set[str] = set()
+    for core in output_groups.values():
+        # Entity/book qualify the key only where printed: a fact WITHOUT them may belong to any qualified record of the core
+        # key, so it joins every qualified subgroup (R7-8: one row read once with and once without its company code).
+        qualified = {(fact.business.entity, fact.business.book) for fact in core} - {(None, None)}
+        subgroups = [[fact for fact in core if (fact.business.entity, fact.business.book) in {qualifier, (None, None)}] for qualifier in qualified] if len(qualified) > 1 else [core]
+        for group in subgroups:
+            if len({record_of.get(fact.id, fact.id) for fact in group}) > 1 or max(Counter(fact.business.field for fact in group).values()) > 1:
+                colliding |= {fact.id for fact in group}
     if colliding:
         retained = []
         for fact in facts:
             if fact.id not in colliding:
                 retained.append(fact); continue
             reason = "business_key_collision"
-            abstention = Abstention(_stable_id(f"{fact.document_id}:abst", SEMANTICS_VERSION, fact.source_observation_id, reason), fact.document_id, reason, (fact.source_observation_id,), fact.dependency_ids)
+            abstention = _abstention(fact.document_id, fact.source_observation_id, reason, (fact.source_observation_id,), fact.dependency_ids)
             abstentions.append(abstention); by_locator[fact.physical.occurrence] = abstention.id
         facts = retained
     facts = list(_annotate_arithmetic(tuple(facts)))

@@ -77,8 +77,11 @@ def test_lower_table_with_its_own_header_never_uses_the_upper_header(stub, docum
     # K1 (round 5): the copied lower table repeats the upper table's asset numbers, so its remaining facts collide on the
     # business key with the upper table's and abstain; the point here is only that no lower value takes "Zugänge".
     assert "zugang" not in lower_fields, lower_fields
-    upper = {f.business.field for f in facts if ":azcell:0:" in f.source_observation_id}
-    assert "zugang" in upper
+    # R7-1: K1 groups by the business key WITHOUT the field, so the upper "Zugänge" value of a key both tables print
+    # abstains too (which record it belongs to is unknowable); it never surfaces under the shared key.
+    upper_zugang = _cell(result, 0, 1, 3)
+    assert not [f for f in facts if f.source_observation_id == upper_zugang.id]
+    assert any(upper_zugang.id in a.candidate_observation_ids and a.reason == "business_key_collision" for a in abstentions)
 
 
 def test_table_without_its_own_header_row_abstains(stub, documents, monkeypatch):
