@@ -28,7 +28,7 @@ def test_xlsx_identity_row_followed_by_numeric_rows_is_one_record_block(tmp_path
     region = next(o for o in observations if o.kind == "table_region")
     # Blocks are new observations; the region payload stays byte-identical so existing immutable ledgers never collide.
     assert "record_block_ids" not in region.metadata
-    assert ACQUISITION_VERSION == "14"
+    assert ACQUISITION_VERSION == "15"
 
 
 def test_xlsx_flat_register_rows_and_header_rows_do_not_form_record_blocks(tmp_path):

@@ -418,11 +418,18 @@ def _pdf_layout(amount: SourceObservation, observations: tuple[SourceObservation
     current = [row for row in visual_rows if amount.id in row.metadata.get("member_ids", ())]
     if len(current) != 1:
         return None
-    words = tuple(observation for observation in observations if observation.channel == amount.channel and observation.locator.startswith(page_prefix) and observation.kind == "word" and observation.text and observation.bbox)
-    by_id = {word.id: word for word in words}
+    # Azure table cells elect headers among cells of their own grid; page
+    # words (title, unit, dates outside the table) stay context evidence.
+    member_kind = "cell" if amount.kind == "cell" else "word"
+    context_kinds = {"word", "cell"} if amount.kind == "cell" else {"word"}
+    words = tuple(observation for observation in observations if observation.channel == amount.channel and observation.locator.startswith(page_prefix) and observation.kind in context_kinds and observation.text and observation.bbox)
+    by_id = {word.id: word for word in words if word.kind == member_kind}
     header_options: list[tuple[tuple[int, int, float], SourceObservation, list[SourceObservation], list[tuple[str, int, int, tuple[float, float, float, float], tuple[str, ...], str]], list[tuple[str, int, int, tuple[float, float, float, float], tuple[str, ...], str]]]] = []
     for row in visual_rows:
-        if row.bbox is None or row.bbox[3] >= amount.bbox[1]:
+        # Grid rows share their borders, so a cell row counts as above the
+        # amount when its centre is; word rows keep the strict bottom test.
+        row_bottom = None if row.bbox is None else ((row.bbox[1] + row.bbox[3]) / 2 if amount.kind == "cell" else row.bbox[3])
+        if row_bottom is None or row_bottom >= amount.bbox[1]:
             continue
         row_words = sorted((by_id[item] for item in row.metadata.get("member_ids", ()) if item in by_id), key=lambda word: word.bbox[0])
         identities = _pdf_span_candidates(row_words, IDENTITIES)
@@ -433,7 +440,9 @@ def _pdf_layout(amount: SourceObservation, observations: tuple[SourceObservation
             score = (int("asset_id" in roles) + int("source_name" in roles), len(roles), row.bbox[1])
             header_options.append((score, row, row_words, identities, fields))
     if not header_options:
-        return _legacy_pdf_layout(amount, rows, words, current[0])
+        # The legacy layout extends each header span to the next one, which
+        # would let an unlabelled grid column inherit its neighbour's field.
+        return None if amount.kind == "cell" else _legacy_pdf_layout(amount, rows, words, current[0])
     _, header_row, header_words, identity_spans, field_spans = max(header_options, key=lambda item: item[0])
     assert header_row.bbox is not None
 
@@ -496,7 +505,10 @@ def _pdf_layout(amount: SourceObservation, observations: tuple[SourceObservation
         if word.bbox and word.bbox[1] > header_row.bbox[3] and _looks_numeric(word.text or "")
     ), default=axes[-1].right)
     axes = [
-        _PdfAxis(axis.left, axes[index + 1].left if index + 1 < len(axes) else max(axis.right, numeric_data_right), axis.field, axis.period, axis.temporal_role, axis.group, axis.header_text, axis.evidence_ids, bool(axis.field and len(periods_by_field.get(axis.field, ())) > 1))
+        # A header cell is the exact column extent: a column without its own
+        # field header must not inherit the field of the labelled column to its
+        # left. Word headers keep extending to the next header.
+        _PdfAxis(axis.left, axis.right if amount.kind == "cell" else (axes[index + 1].left if index + 1 < len(axes) else max(axis.right, numeric_data_right)), axis.field, axis.period, axis.temporal_role, axis.group, axis.header_text, axis.evidence_ids, bool(axis.field and len(periods_by_field.get(axis.field, ())) > 1))
         for index, axis in enumerate(axes)
     ]
     axes = [
@@ -509,7 +521,8 @@ def _pdf_layout(amount: SourceObservation, observations: tuple[SourceObservation
         if identity_axes and role == identity_axes[-1].role and abs(bbox[0] - identity_axes[-1].left) <= 1:
             continue
         next_header_left = min((word.bbox[0] for word in header_words if word.bbox and word.bbox[0] > bbox[2]), default=axes[0].left)
-        right = min(axes[0].left, (bbox[2] + next_header_left) / 2)
+        # A table cell already is the column extent; word headers need the gap midpoint.
+        right = min(axes[0].left, bbox[2] if amount.kind == "cell" else (bbox[2] + next_header_left) / 2)
         identity_axes.append(_PdfIdentityAxis(float("-inf") if not identity_axes else bbox[0], right, role, evidence[0]))
     reporting_years = [int(year) for word in words if word.bbox and word.bbox[3] <= header_row.bbox[3] for year in _reported_periods(word.text or "")]
     reporting_period = str(max(reporting_years)) if reporting_years else None

@@ -25,7 +25,7 @@ from .store import Ledger, content_hash, preserve_source
 
 
 PIPELINE_VERSION = "0.13.1"
-ACQUISITION_VERSION = "14"
+ACQUISITION_VERSION = "15"
 STRUCTURE_VERSION = "8"
 
 

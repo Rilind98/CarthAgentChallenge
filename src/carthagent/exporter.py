@@ -99,7 +99,10 @@ def _readback(evidence: Path, workbook: Path, snapshot: Snapshot, template_used:
             raise RuntimeError("pointer/observation readback mismatch")
         if pointer["kind"] == "xlsx" and observation["locator"] != f"{pointer['sheet']}!{pointer['cell']}":
             raise RuntimeError("xlsx direct pointer mismatch")
-        if pointer["kind"] == "pdf" and list(observation.get("bbox") or []) != pointer["bbox"]:
+        metadata = observation.get("metadata") or {}
+        # A verified Azure cell points at its printed lexeme (the cell polygon stays in its metadata).
+        verified_lexeme = metadata.get("lexeme_bbox") if observation.get("kind") == "cell" and observation.get("channel") == "pdf_ocr" and metadata.get("verified") is True else None
+        if pointer["kind"] == "pdf" and list(verified_lexeme or observation.get("bbox") or []) != pointer["bbox"]:
             raise RuntimeError("pdf direct pointer mismatch")
     wb = load_workbook(workbook, read_only=not template_used, data_only=False)
     if template_used:

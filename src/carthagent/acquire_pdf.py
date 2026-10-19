@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 from pathlib import Path
 import re
 from difflib import SequenceMatcher
@@ -532,10 +533,22 @@ def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, doc
     rendered_width, rendered_height = ((canonical.height, canonical.width) if rotation in {90, 270} else (canonical.width, canonical.height))
     transform = PageTransform(rotation=rotation, page_width=canonical.width, page_height=canonical.height)
 
+    # Azure's page angle is the clockwise orientation of the content. Whole
+    # quarter turns are the page /Rotate (undone by PageTransform); the
+    # remainder is scan skew, undone here about the page centre so pointers
+    # land in the upright page's coordinates.
+    deskew_degrees = 0.0 if provider_page.angle is None else ((provider_page.angle + 45.0) % 90.0) - 45.0
+    cos_t, sin_t = math.cos(math.radians(deskew_degrees)), math.sin(math.radians(deskew_degrees))
+    centre_x, centre_y = provider_page.width / 2, provider_page.height / 2
+
     def to_source(polygon: tuple[float, ...]) -> tuple[tuple[float, float, float, float], tuple[float, float, float, float]]:
         # Azure polygons are in the displayed (rotated, cropped) page in
-        # provider units; scale to points, then undo the page rotation.
-        points = tuple((polygon[offset] / provider_page.width * rendered_width, polygon[offset + 1] / provider_page.height * rendered_height) for offset in range(0, len(polygon), 2))
+        # provider units; deskew, scale to points, then undo the page rotation.
+        upright = []
+        for offset in range(0, len(polygon), 2):
+            dx, dy = polygon[offset] - centre_x, polygon[offset + 1] - centre_y
+            upright.append((centre_x + dx * cos_t + dy * sin_t, centre_y - dx * sin_t + dy * cos_t))
+        points = tuple((x / provider_page.width * rendered_width, y / provider_page.height * rendered_height) for x, y in upright)
         rendered = (min(x for x, _ in points), min(y for _, y in points), max(x for x, _ in points), max(y for _, y in points))
         return rendered, transform.to_source(rendered)
 
@@ -543,7 +556,7 @@ def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, doc
     for index, word in enumerate(provider_page.words):
         rendered, source_box = to_source(word.polygon)
         oid = f"{document_id}:pdf:p{page_index + 1}:azure:{index}"
-        observations.append(SourceObservation(oid, document_id, source_hash, "word", f"page:{page_index + 1}:azure:{index}", "pdf_ocr", word.text, source_box, {"confidence": word.confidence, "provider": "azure_document_intelligence", "provider_unit": provider_page.unit, "provider_page_width": provider_page.width, "provider_page_height": provider_page.height, "render_box": rendered, "roundtrip_ok": transform.roundtrip_ok(source_box), "page_index": page_index, "page_rotation": rotation, "page_width": canonical.width, "page_height": canonical.height}))
+        observations.append(SourceObservation(oid, document_id, source_hash, "word", f"page:{page_index + 1}:azure:{index}", "pdf_ocr", word.text, source_box, {"confidence": word.confidence, "provider": "azure_document_intelligence", "provider_unit": provider_page.unit, "provider_page_width": provider_page.width, "provider_page_height": provider_page.height, "render_box": rendered, "deskew_degrees": deskew_degrees, "roundtrip_ok": transform.roundtrip_ok(source_box), "page_index": page_index, "page_rotation": rotation, "page_width": canonical.width, "page_height": canonical.height}))
     groups: list[list[SourceObservation]] = []
     for word in sorted(observations, key=lambda item: (item.bbox[1], item.bbox[0]) if item.bbox else (0, 0)):
         if not word.bbox:
@@ -562,7 +575,7 @@ def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, doc
         # the ledger rejects (immutable record collision).
         observations.extend(_semantic_spans(document_id, source_hash, page_index, row_id, group, "pdf_ocr_structure"))
     page_words = [(f"{document_id}:pdf:p{page_index + 1}:azure:{index}", word) for index, word in enumerate(provider_page.words)]
-    cell_observations, issues = _azure_table_observations(provider_page, page_words, tables, document_id, source_hash, page_index, transform, canonical, to_source)
+    cell_observations, issues = _azure_table_observations(provider_page, page_words, tables, document_id, source_hash, page_index, transform, canonical, to_source, deskew_degrees)
     observations.extend(cell_observations)
     return observations, issues
 
@@ -602,7 +615,7 @@ def _cross_check(content: str, words: list[OCRWord], regions_on_page: int, share
     return "verified"
 
 
-def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str, OCRWord]], tables: tuple[OCRTable, ...], document_id: str, source_hash: str, page_index: int, transform: PageTransform, canonical: fitz.Rect, to_source: Callable[[tuple[float, ...]], tuple[tuple[float, float, float, float], tuple[float, float, float, float]]]) -> tuple[list[SourceObservation], list[str]]:
+def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str, OCRWord]], tables: tuple[OCRTable, ...], document_id: str, source_hash: str, page_index: int, transform: PageTransform, canonical: fitz.Rect, to_source: Callable[[tuple[float, ...]], tuple[tuple[float, float, float, float], tuple[float, float, float, float]]], deskew_degrees: float = 0.0) -> tuple[list[SourceObservation], list[str]]:
     """Azure table cells as `cell` observations, with rows and one region per table and page.
 
     Cell text is kept as Azure returned it. A cell is `verified` only when the
@@ -657,8 +670,11 @@ def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str
                     # The printed lexeme inside the cell (union of its verified
                     # words); the cell polygon itself is usually wider.
                     "lexeme_bbox": lexeme_bbox,
+                    # Kept beside the lexeme box so the export policy can switch
+                    # the pointer convention once the official scorer is known.
+                    "cell_polygon": source_box,
                     "member_word_ids": [word_id for word_id, _ in members],
-                    "provider": "azure_document_intelligence", "render_box": rendered, "roundtrip_ok": transform.roundtrip_ok(source_box),
+                    "provider": "azure_document_intelligence", "render_box": rendered, "deskew_degrees": deskew_degrees, "roundtrip_ok": transform.roundtrip_ok(source_box),
                 },
             )
             observations.append(observation)

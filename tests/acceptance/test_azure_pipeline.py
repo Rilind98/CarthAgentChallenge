@@ -55,20 +55,29 @@ def _display(value: Decimal) -> str:
     return f"{value:,.2f}".replace(",", "_").replace(".", ",").replace("_", ".")
 
 
-@pytest.mark.parametrize(("name", "fixture", "shift"), [
-    ("azure_scanned.pdf", "scanned_p1", (0, 0)),
-    ("azure_scanned_rotated_90.pdf", "scanned_rotated_90_p1", (0, 0)),
-    ("azure_scanned_cropped.pdf", "scanned_cropped_p1", (-15, -10)),
+# On the rotated scan Azure split the grid: value columns 3 and 6 have empty
+# header cells, so those three values abstain instead of inheriting a field.
+ROTATED_ABSTAINED = {"pdf:p1:azcell:0:1:3", "pdf:p1:azcell:0:1:6", "pdf:p1:azcell:0:2:6"}
+
+
+@pytest.mark.parametrize(("name", "fixture", "shift", "expected_facts", "abstained_cells"), [
+    ("azure_scanned.pdf", "scanned_p1", (0, 0), 10, set()),
+    ("azure_scanned_rotated_90.pdf", "scanned_rotated_90_p1", (0, 0), 7, ROTATED_ABSTAINED),
+    ("azure_scanned_cropped.pdf", "scanned_cropped_p1", (-15, -10), 10, set()),
 ])
-def test_azure_scan_facts_are_correct_unique_and_point_at_the_printed_value(documents, tmp_path, azure_config, name, fixture, shift):
+def test_azure_scan_facts_are_correct_unique_and_point_at_the_printed_value(documents, tmp_path, azure_config, name, fixture, shift, expected_facts, abstained_cells):
     LayoutStub.reset(recorded(fixture))
     _, data = evidence_for(documents / name, tmp_path / "out", config=azure_config)
     assert LayoutStub.posts == 1
     assert not any(d.startswith("azure_unavailable_fallback_tesseract") for d in data["diagnostics"]), data["diagnostics"]
     assert any(":azure_cells_verified:" in d for d in data["diagnostics"]), data["diagnostics"]
     facts = data["facts"]
-    # Two assets x five fields; a printed value must not appear twice (word and cell).
-    assert len(facts) == 10, [(f["asset_identity"]["asset_or_class"], f["field"]) for f in facts]
+    # Two assets x five fields minus named abstentions; a printed value must not
+    # appear twice (word and cell), and every fact comes from a verified cell.
+    assert len(facts) == expected_facts, [(f["asset_identity"]["asset_or_class"], f["field"]) for f in facts]
+    assert all(":azcell:" in f["pointer"]["observation_id"] for f in facts)
+    abstained = {cid.split(":", 1)[1] for a in data["abstentions"] for cid in a["candidate_observation_ids"] if ":azcell:" in cid and "column_structure" in a["reason"]}
+    assert abstained == abstained_cells, abstained
     keys = Counter((f["asset_identity"]["asset_or_class"], f["field"]) for f in facts)
     assert all(count == 1 for count in keys.values()), keys
     with pymupdf.open(documents / "clear.pdf") as original:

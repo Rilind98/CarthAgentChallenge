@@ -423,8 +423,13 @@ def test_repeated_equal_amounts_on_a_scan_point_at_their_own_occurrence(stub, do
             for cell, target in zip(amounts, expected[identity]):
                 pointer = _pointer_for(cell)
                 assert pointer["coordinate_space"] == "pymupdf_unrotated_points_top_left"
-                assert pointer["bbox"] == list(cell.bbox) and cell.metadata["verified"] is True
-                hits = [box for box in occurrences if contains(pointer["bbox"], box)]
+                # Deliberate (part B): a verified cell points at its printed lexeme;
+                # the cell polygon stays in the pointer for a later convention switch.
+                assert cell.metadata["verified"] is True
+                assert pointer["bbox"] == list(cell.metadata["lexeme_bbox"])
+                assert pointer["cell_polygon"] == list(cell.metadata["cell_polygon"]) == list(cell.bbox)
+                # The lexeme box is tighter than the PDF glyph box: compare by centre.
+                hits = [box for box in occurrences if inside(centre(pointer["bbox"]), box, 1)]
                 assert hits == [target], (identity, cell.metadata["column_index"], pointer["bbox"], hits)
                 # A second read of the original page at the pointer box finds the lexeme.
                 assert "1.000,00" in page.get_textbox(fitz.Rect(pointer["bbox"])).replace(" ", "")
@@ -464,3 +469,60 @@ def test_verified_cells_carry_the_printed_lexeme_box(stub, documents, monkeypatc
         if cell.text[0].isdigit() and targets:
             assert sum(inside(centre(t), lexeme, 2) for t in targets) == 1, (cell.text, lexeme, targets)
     assert any(c.text == "9.000,00" and c.metadata.get("lexeme_bbox") is None for c in cells)
+
+
+# ---------------------------------------------------------------- deskew and recorded boxes (round 3, part A)
+
+
+def _skewed_page(angle, points, *, width: float = 11.6944, height: float = 8.2639):
+    from carthagent.ocr_azure import OCRPage, OCRTextSpan, OCRWord
+    polygon = tuple(value for point in points for value in point)
+    return OCRPage(1, width, height, "inch", angle, (OCRWord("1.000,00", polygon, 0.99, OCRTextSpan(0, 8)),))
+
+
+def _rotate_clockwise(x: float, y: float, degrees: float, cx: float, cy: float) -> tuple[float, float]:
+    import math
+    t = math.radians(degrees)
+    dx, dy = x - cx, y - cy
+    return cx + dx * math.cos(t) - dy * math.sin(t), cy + dx * math.sin(t) + dy * math.cos(t)
+
+
+@pytest.mark.parametrize(("angle", "expected_deskew"), [(1.2, 1.2), (-0.9, -0.9), (None, 0.0)])
+def test_azure_skew_is_undone_about_the_page_centre(angle, expected_deskew):
+    from carthagent.acquire_pdf import _azure_page_observations
+    width, height = 11.6944, 8.2639
+    # A word far right of the centre: known upright position (9.3 in, 2.075 in).
+    upright = [(9.0, 2.0), (9.6, 2.0), (9.6, 2.15), (9.0, 2.15)]
+    printed = [_rotate_clockwise(x, y, expected_deskew, width / 2, height / 2) for x, y in upright]
+    with fitz.open() as doc:
+        page = doc.new_page(width=width * 72, height=height * 72)
+        observations, _ = _azure_page_observations(_skewed_page(angle, printed), page, "doc", "hash", 0)
+    word = next(o for o in observations if o.kind == "word")
+    assert word.metadata["deskew_degrees"] == pytest.approx(expected_deskew)
+    x0, y0, x1, y1 = word.bbox
+    assert ((x0 + x1) / 2, (y0 + y1) / 2) == pytest.approx((9.3 * 72, 2.075 * 72), abs=0.05)
+    if expected_deskew:
+        # Uncorrected, the printed position at this x is several points off.
+        assert abs(sum(y for _, y in printed) / 4 * 72 - 2.075 * 72) > 1.5
+
+
+def test_quarter_turn_page_keeps_only_the_residual_skew(stub, documents, monkeypatch):
+    monkeypatch.setenv(KEY_ENV, "k")
+    LayoutStub.reset(recorded("scanned_rotated_90_p1"))
+    result = acquire(documents / "azure_scanned_rotated_90.pdf", stub)
+    angles = {o.metadata["deskew_degrees"] for o in result.observations if o.metadata.get("provider") == "azure_document_intelligence" and "deskew_degrees" in o.metadata}
+    # Azure reports 89.9: the /Rotate quarter turn (handled by PageTransform) plus -0.1 skew.
+    assert len(angles) == 1 and angles.pop() == pytest.approx(89.90962219238281 - 90)
+
+
+def test_cells_record_both_boxes_and_the_deskew(stub, documents, monkeypatch):
+    monkeypatch.setenv(KEY_ENV, "k")
+    LayoutStub.reset(recorded("scanned_p1"))
+    result = acquire(documents / "azure_scanned.pdf", stub)
+    angle = recorded("scanned_p1")["analyzeResult"]["pages"][0]["angle"]
+    for cell in cells_of(result):
+        assert list(cell.metadata["cell_polygon"]) == list(cell.bbox), "the cell polygon box stays recorded"
+        assert cell.metadata["deskew_degrees"] == pytest.approx(angle)
+        if cell.metadata["verified"] and cell.text:
+            lexeme = cell.metadata["lexeme_bbox"]
+            assert contains(cell.bbox, lexeme, 0.01)

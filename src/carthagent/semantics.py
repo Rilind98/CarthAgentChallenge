@@ -83,6 +83,14 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
     facts: list[ValidatedFact] = []
     abstentions: list[Abstention] = []
     by_locator: dict[str, str] = {}
+    # Option C: a verified Azure table cell is the primary amount evidence; the
+    # Azure words it was verified against are not separate amount candidates.
+    verified_cell_words = {
+        str(word_id)
+        for cell in observations
+        if cell.kind == "cell" and cell.channel == "pdf_ocr" and cell.metadata.get("verified") is True
+        for word_id in cell.metadata.get("member_word_ids", ())
+    }
     for obs in observations:
         if deadline is not None and time.monotonic() >= deadline:
             raise TimeoutError("document_timeout:during_semantics")
@@ -90,6 +98,16 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
         if obs.kind not in {"cell", "word", "empty_cell"}:
             continue
         if not is_explicit_empty and (not obs.text or not _numeric_like(obs.text)):
+            continue
+        if obs.kind == "word" and obs.id in verified_cell_words:
+            continue
+        # A numeric Azure cell spanning several rows does not say which printed
+        # row owns the value (Azure merges a heading row with the asset row).
+        row_span_ambiguous = obs.kind == "cell" and obs.channel == "pdf_ocr" and int(obs.metadata.get("row_span") or 1) > 1
+        if obs.kind == "cell" and obs.channel == "pdf_ocr" and (obs.metadata.get("verified") is not True or row_span_ambiguous):
+            reason = "ambiguous_ocr_cell:row_span" if row_span_ambiguous and obs.metadata.get("verified") is True else f"unverified_ocr_cell:{obs.metadata.get('cross_check', 'unknown')}"
+            abstention = Abstention(_stable_id(f"{obs.document_id}:abst", SEMANTICS_VERSION, obs.id, reason), obs.document_id, reason, (obs.id,), ())
+            abstentions.append(abstention); by_locator[obs.locator] = abstention.id
             continue
         if resolver.is_identity_value(obs, observations):
             continue
@@ -212,7 +230,21 @@ def _pointer_for(obs: SourceObservation) -> dict[str, object]:
         sheet, cell = obs.locator.rsplit("!", 1)
         return {"kind": "xlsx", "sheet": sheet, "cell": cell, "merged_anchor": obs.metadata.get("merged_anchor"), "observation_id": obs.id}
     page_text = obs.locator.split(":", 2)[1]
-    return {"kind": "pdf", "page_index": int(page_text) - 1, "bbox": list(obs.bbox or ()), "coordinate_space": "pymupdf_unrotated_points_top_left", "rotation": obs.metadata.get("page_rotation", 0), "observation_id": obs.id}
+    pointer: dict[str, object] = {"kind": "pdf", "page_index": int(page_text) - 1, "bbox": list(_pdf_pointer_box(obs) or ()), "coordinate_space": "pymupdf_unrotated_points_top_left", "rotation": obs.metadata.get("page_rotation", 0), "observation_id": obs.id}
+    if obs.kind == "cell" and obs.channel == "pdf_ocr":
+        # Both boxes stay in the evidence so the export convention can be
+        # switched once the official scorer's pointer policy is known.
+        pointer["cell_polygon"] = list(obs.metadata.get("cell_polygon") or obs.bbox or ())
+        pointer["deskew_degrees"] = obs.metadata.get("deskew_degrees", 0.0)
+    return pointer
+
+
+def _pdf_pointer_box(obs: SourceObservation) -> tuple[float, ...] | None:
+    """A verified Azure cell points at its printed lexeme, not the wider cell polygon."""
+    lexeme = obs.metadata.get("lexeme_bbox")
+    if obs.kind == "cell" and obs.channel == "pdf_ocr" and obs.metadata.get("verified") is True and lexeme:
+        return tuple(lexeme)
+    return obs.bbox
 
 
 def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amount: SourceObservation, observations: tuple[SourceObservation, ...]) -> ResolvedContext:
