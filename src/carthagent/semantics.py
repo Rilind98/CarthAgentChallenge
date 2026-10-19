@@ -83,12 +83,13 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
     facts: list[ValidatedFact] = []
     abstentions: list[Abstention] = []
     by_locator: dict[str, str] = {}
-    # Option C: a verified Azure table cell is the primary amount evidence; the
-    # Azure words it was verified against are not separate amount candidates.
-    verified_cell_words = {
-        str(word_id)
+    # Option C: an Azure table cell is the primary amount evidence. Its words
+    # are never separate amount candidates: a verified cell speaks for them,
+    # and the words of a cell that failed the cross-check abstain with it.
+    azure_cell_by_word = {
+        str(word_id): cell
         for cell in observations
-        if cell.kind == "cell" and cell.channel == "pdf_ocr" and cell.metadata.get("verified") is True
+        if cell.kind == "cell" and cell.channel == "pdf_ocr"
         for word_id in cell.metadata.get("member_word_ids", ())
     }
     for obs in observations:
@@ -99,13 +100,24 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
             continue
         if not is_explicit_empty and (not obs.text or not _numeric_like(obs.text)):
             continue
-        if obs.kind == "word" and obs.id in verified_cell_words:
+        owning_cell = azure_cell_by_word.get(obs.id) if obs.kind == "word" else None
+        if owning_cell is not None:
+            if owning_cell.metadata.get("verified") is True:
+                continue
+            reason = f"unverified_ocr_cell:{owning_cell.metadata.get('cross_check', 'unknown')}"
+            abstention = Abstention(_stable_id(f"{obs.document_id}:abst", SEMANTICS_VERSION, obs.id, reason), obs.document_id, reason, (obs.id,), (owning_cell.id,))
+            abstentions.append(abstention); by_locator[obs.locator] = abstention.id
             continue
-        # A numeric Azure cell spanning several rows does not say which printed
-        # row owns the value (Azure merges a heading row with the asset row).
-        row_span_ambiguous = obs.kind == "cell" and obs.channel == "pdf_ocr" and int(obs.metadata.get("row_span") or 1) > 1
-        if obs.kind == "cell" and obs.channel == "pdf_ocr" and (obs.metadata.get("verified") is not True or row_span_ambiguous):
-            reason = "ambiguous_ocr_cell:row_span" if row_span_ambiguous and obs.metadata.get("verified") is True else f"unverified_ocr_cell:{obs.metadata.get('cross_check', 'unknown')}"
+        # A numeric Azure cell spanning several rows or columns does not say
+        # which printed row or header owns the value (Azure merges neighbours).
+        span_ambiguity = None
+        if obs.kind == "cell" and obs.channel == "pdf_ocr":
+            if int(obs.metadata.get("row_span") or 1) > 1:
+                span_ambiguity = "row_span"
+            elif int(obs.metadata.get("column_span") or 1) > 1:
+                span_ambiguity = "column_span"
+        if obs.kind == "cell" and obs.channel == "pdf_ocr" and (obs.metadata.get("verified") is not True or span_ambiguity):
+            reason = f"ambiguous_ocr_cell:{span_ambiguity}" if span_ambiguity and obs.metadata.get("verified") is True else f"unverified_ocr_cell:{obs.metadata.get('cross_check', 'unknown')}"
             abstention = Abstention(_stable_id(f"{obs.document_id}:abst", SEMANTICS_VERSION, obs.id, reason), obs.document_id, reason, (obs.id,), ())
             abstentions.append(abstention); by_locator[obs.locator] = abstention.id
             continue
@@ -161,7 +173,7 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
     duplicate_groups: dict[tuple[object, ...], list[ValidatedFact]] = {}
     for fact in facts:
         business = fact.business
-        row_ids = tuple(dependency for dependency in fact.dependency_ids if ":row:" in dependency or ":visual:" in dependency or ":ocrrow:" in dependency)
+        row_ids = tuple(dependency for dependency in fact.dependency_ids if ":row:" in dependency or ":visual:" in dependency or ":ocrrow:" in dependency or ":azrow:" in dependency)
         key = (row_ids, business.entity, business.book, business.asset_id, business.asset_sub_id, business.class_code, business.balance_position, business.source_name, business.field, business.period, business.temporal_role, business.unit)
         duplicate_groups.setdefault(key, []).append(fact)
     duplicate_ids = {fact.id for group in duplicate_groups.values() if len(group) > 1 for fact in group}

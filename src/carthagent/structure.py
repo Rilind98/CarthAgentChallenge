@@ -233,8 +233,17 @@ class ContextResolver:
         layout = self._pdf_layout(amount, observations)
         if layout is None:
             return ResolvedContext(None, Decimal(1), (), ("logical_row", "column_structure"))
-        amount_center = (amount.bbox[0] + amount.bbox[2]) / 2
-        selected = next((axis for axis in layout.axes if axis.left <= amount_center <= axis.right), None)
+        if amount.kind == "cell":
+            # A verified Azure cell is placed by its printed digits, not its
+            # polygon; the digits must lie under exactly one header extent.
+            lexeme = amount.metadata.get("lexeme_bbox") if amount.metadata.get("verified") is True else None
+            anchor = lexeme or amount.bbox
+            amount_center = (anchor[0] + anchor[2]) / 2
+            holding = [axis for axis in layout.axes if axis.left <= amount_center <= axis.right]
+            selected = holding[0] if len(holding) == 1 else None
+        else:
+            amount_center = (amount.bbox[0] + amount.bbox[2]) / 2
+            selected = next((axis for axis in layout.axes if axis.left <= amount_center <= axis.right), None)
         member_ids = set(layout.row.metadata.get("member_ids", ()))
         block = self._pdf_record_block_by_row.get(layout.row.id)
         if block is not None:
@@ -431,6 +440,10 @@ def _pdf_layout(amount: SourceObservation, observations: tuple[SourceObservation
     page_prefix = f"page:{page}:"
     rows = [observation for observation in observations if observation.kind == "logical_row" and observation.locator.startswith(page_prefix) and observation.bbox]
     visual_rows = [row for row in rows if row.metadata.get("structure_role") == "visual_row"]
+    if amount.kind == "cell":
+        # Header and group rows come from the amount's own Azure table only;
+        # a table without its own header row abstains (no legacy fallback).
+        visual_rows = [row for row in visual_rows if row.metadata.get("table_index") == amount.metadata.get("table_index") and row.metadata.get("table_index") is not None]
     current = [row for row in visual_rows if amount.id in row.metadata.get("member_ids", ())]
     if len(current) != 1:
         return None
@@ -438,7 +451,11 @@ def _pdf_layout(amount: SourceObservation, observations: tuple[SourceObservation
     # words (title, unit, dates outside the table) stay context evidence.
     member_kind = "cell" if amount.kind == "cell" else "word"
     context_kinds = {"word", "cell"} if amount.kind == "cell" else {"word"}
-    words = tuple(observation for observation in observations if observation.channel == amount.channel and observation.locator.startswith(page_prefix) and observation.kind in context_kinds and observation.text and observation.bbox)
+    words = tuple(
+        observation for observation in observations
+        if observation.channel == amount.channel and observation.locator.startswith(page_prefix) and observation.kind in context_kinds and observation.text and observation.bbox
+        and (observation.kind != "cell" or observation.metadata.get("table_index") == amount.metadata.get("table_index"))
+    )
     by_id = {word.id: word for word in words if word.kind == member_kind}
     header_options: list[tuple[tuple[int, int, float], SourceObservation, list[SourceObservation], list[tuple[str, int, int, tuple[float, float, float, float], tuple[str, ...], str]], list[tuple[str, int, int, tuple[float, float, float, float], tuple[str, ...], str]]]] = []
     for row in visual_rows:

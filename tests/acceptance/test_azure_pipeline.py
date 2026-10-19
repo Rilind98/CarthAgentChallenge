@@ -57,13 +57,14 @@ def _display(value: Decimal) -> str:
 
 # On the rotated scan Azure split the grid: value columns 3 and 6 have empty
 # header cells, so those three values abstain instead of inheriting a field.
-ROTATED_ABSTAINED = {"pdf:p1:azcell:0:1:3", "pdf:p1:azcell:0:1:6", "pdf:p1:azcell:0:2:6"}
+# "2.000,00" (r2c2) spans two grid columns there, so it abstains as ambiguous.
+ROTATED_ABSTAINED = {"pdf:p1:azcell:0:1:3": "column_structure", "pdf:p1:azcell:0:1:6": "column_structure", "pdf:p1:azcell:0:2:6": "column_structure", "pdf:p1:azcell:0:2:2": "ambiguous_ocr_cell:column_span"}
 
 
 @pytest.mark.parametrize(("name", "fixture", "shift", "expected_facts", "abstained_cells"), [
-    ("azure_scanned.pdf", "scanned_p1", (0, 0), 10, set()),
-    ("azure_scanned_rotated_90.pdf", "scanned_rotated_90_p1", (0, 0), 7, ROTATED_ABSTAINED),
-    ("azure_scanned_cropped.pdf", "scanned_cropped_p1", (-15, -10), 10, set()),
+    ("azure_scanned.pdf", "scanned_p1", (0, 0), 10, {}),
+    ("azure_scanned_rotated_90.pdf", "scanned_rotated_90_p1", (0, 0), 6, ROTATED_ABSTAINED),
+    ("azure_scanned_cropped.pdf", "scanned_cropped_p1", (-15, -10), 10, {}),
 ])
 def test_azure_scan_facts_are_correct_unique_and_point_at_the_printed_value(documents, tmp_path, azure_config, name, fixture, shift, expected_facts, abstained_cells):
     LayoutStub.reset(recorded(fixture))
@@ -76,7 +77,11 @@ def test_azure_scan_facts_are_correct_unique_and_point_at_the_printed_value(docu
     # appear twice (word and cell), and every fact comes from a verified cell.
     assert len(facts) == expected_facts, [(f["asset_identity"]["asset_or_class"], f["field"]) for f in facts]
     assert all(":azcell:" in f["pointer"]["observation_id"] for f in facts)
-    abstained = {cid.split(":", 1)[1] for a in data["abstentions"] for cid in a["candidate_observation_ids"] if ":azcell:" in cid and "column_structure" in a["reason"]}
+    abstained = {
+        cid.split(":", 1)[1]: ("ambiguous_ocr_cell:column_span" if a["reason"] == "ambiguous_ocr_cell:column_span" else "column_structure")
+        for a in data["abstentions"] for cid in a["candidate_observation_ids"]
+        if ":azcell:" in cid and ("column_structure" in a["reason"] or a["reason"] == "ambiguous_ocr_cell:column_span")
+    }
     assert abstained == abstained_cells, abstained
     keys = Counter((f["asset_identity"]["asset_or_class"], f["field"]) for f in facts)
     assert all(count == 1 for count in keys.values()), keys
