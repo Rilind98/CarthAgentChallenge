@@ -167,13 +167,21 @@ class ContextResolver:
                     periods_by_field.setdefault(candidate_field, set()).add(candidate_period)
             self._xlsx_period_sets[period_key] = ({value for values in periods_by_field.values() for value in values}, {name for name, values in periods_by_field.items() if len(values) > 1})
         all_periods, parallel_fields = self._xlsx_period_sets[period_key]
-        sheet_header_periods = {
-            year for _, header_row, observation in indexed if header_start <= header_row <= header_cutoff and not CREATION_WORDS.search(observation.text or "")
+        header_period_cells = [
+            (year, observation) for _, header_row, observation in indexed if header_start <= header_row <= header_cutoff and not CREATION_WORDS.search(observation.text or "")
             for year in _reported_periods(observation.text or "")
-        }
-        reporting_periods = all_periods | sheet_header_periods
+        ]
+        # Item 5: a reporting line ("Jahresabschluss per 30.06.2025") outranks a bare dated stamp ("Stand: 15.03.2026",
+        # "Abfrage zum 01.02.2026") and a dated column reading: once one exists, only its year(s) can be the sheet period.
+        # A reporting line is a title line (the only text in its row), never a cell of a column-header row (S1: a header
+        # "Restbuchwert zum 31.12.2024" names its column's date, not the sheet period).
+        reporting_lines = [(year, observation) for year, observation in header_period_cells if PERIOD_WORDS.search(observation.text or "")
+                           and sum(1 for _, candidate in by_row.get(_xlsx_row(observation), ()) if candidate.text) == 1]
+        reporting_periods = {year for year, _ in reporting_lines} or (all_periods | {year for year, _ in header_period_cells})
+        period_evidence: tuple[str, ...] = ()
         if reporting_periods and field not in parallel_fields:
             period = max(reporting_periods)
+            period_evidence = tuple(observation.id for year, observation in reporting_lines if year == period)
         local_unit_evidence = [o for header_row, o in by_col.get(col, ()) if o.text and header_start <= header_row <= header_cutoff and _header_span(col, o) and UNIT_WORDS.search(o.text)]
         currency_columns = {candidate_col for candidate_col, candidate_row, observation in indexed if header_start <= candidate_row <= header_cutoff and re.search(r"(?:währ\s*ung|waehr\s*ung|currency)", norm(observation.text or ""), re.I)}
         record_unit_evidence = [observation for candidate_col, observation in by_row.get(row, ()) if candidate_col in currency_columns and re.fullmatch(r"\s*(?:T?EUR|T€)\s*", observation.text or "", re.I)]
@@ -181,7 +189,7 @@ class ContextResolver:
         unit_evidence = local_unit_evidence or record_unit_evidence or global_unit_evidence
         units = {unit_from_text(o.text) for o in unit_evidence}
         unit = next(iter(units)) if len(units) == 1 else None  # a None member (Mio./Mrd.) or two units abstain
-        identity: dict[str, str] = {}; evidence = [*axis_evidence, *(o.id for o in unit_evidence)]
+        identity: dict[str, str] = {}; evidence = [*axis_evidence, *(o.id for o in unit_evidence), *period_evidence]
         for c, value in by_row.get(row, ()):
             if c == col: continue
             identity_headers = [(hr, hit) for hr, o in by_col.get(c, ()) if header_start <= hr <= header_cutoff and (hit := match(o.text or "", IDENTITIES))]
@@ -735,6 +743,13 @@ def _looks_numeric(text: str) -> bool:
     return bool(re.fullmatch(r"\s*[+\-]?(?:\(?\s*)?[\d.,\u00a0\u202f ]+(?:\s*\)?|\s*[+\-])?(?:\s*(?:CR|DR))?\s*", text, re.I))
 
 
+def _xlsx_row(observation: SourceObservation) -> int | None:
+    try:
+        return coordinate_from_string(observation.locator.rsplit("!", 1)[1])[1]
+    except Exception:
+        return None
+
+
 def _reported_periods(text: str) -> tuple[str, ...]:
     normalized = norm(text)
     years = tuple(re.findall(r"\b((?:19|20)\d{2})\b", text))
@@ -957,7 +972,11 @@ def _xlsx_record_role(row: int, indexed: list[tuple[int, int, SourceObservation]
         if o.text and current_row < row:
             cells_by_row.setdefault(current_row, []).append(o)
     first_amount_row = min((current_row for current_row, cells in cells_by_row.items() if any(_amount_like(o.text) for o in cells)), default=row)
-    totals += [current_row for current_row, cells in cells_by_row.items() if current_row > first_amount_row and len(cells) == 1 and YEAR.search(cells[0].text or "") and not _amount_like(cells[0].text)]
+    # Item 4: only a title whose year CONTRADICTS the sheet period ends the table; "Sachanlagen 2025" on a 2025 sheet is a
+    # section title. The sheet period is the year(s) of a period line above the first amounts; without one, any year ends it.
+    sheet_years = {year for current_row, cells in cells_by_row.items() if current_row < first_amount_row for o in cells if PERIOD_WORDS.search(norm(o.text or "")) for year in YEAR.findall(o.text or "")}
+    totals += [current_row for current_row, cells in cells_by_row.items() if current_row > first_amount_row and len(cells) == 1 and YEAR.search(cells[0].text or "") and not _amount_like(cells[0].text)
+               and not (sheet_years and set(YEAR.findall(cells[0].text or "")) <= sheet_years)]
     if totals:
         # Below a grand total the table has ended, unless a new header band (>= 2 field/group header cells in a row) starts.
         last_total = max(totals)

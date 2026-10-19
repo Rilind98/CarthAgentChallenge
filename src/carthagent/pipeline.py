@@ -340,6 +340,7 @@ def _cached_hypotheses(payload: object) -> tuple[HypothesisSet, ...]:
                 candidate.get("semantic_movement_observation_id"),
                 candidate.get("semantic_movement"),
                 candidate.get("record_identity_row_id"),
+                bool(candidate.get("period_conflict", False)),
             )
             for candidate in item["candidates"]
         )

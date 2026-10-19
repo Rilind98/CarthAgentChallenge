@@ -215,7 +215,10 @@ class TemplateExportAdapter:
         row_sources: dict[tuple[str, str], set[str]] = {}
         for fact in facts:
             projected_sheet, projected_key, _, _, _ = self._projection(fact)
-            source_sheet = str(fact.source_pointer.get("sheet") or fact.physical.occurrence.split("!", 1)[0])
+            # The source scope is the sheet, or the page of a PDF fact (item 6: a PDF occurrence carries no "!", so without the
+            # page every field of one asset counted as its own source and no PDF fact could ever bind).
+            page = fact.source_pointer.get("page_index")
+            source_sheet = str(fact.source_pointer.get("sheet") or (f"page:{page}" if page is not None else fact.physical.occurrence.split("!", 1)[0]))
             if projected_sheet and projected_key:
                 row_sources.setdefault((projected_sheet, projected_key), set()).add(source_sheet)
         for index, fact in enumerate(facts):

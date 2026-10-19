@@ -1063,7 +1063,8 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                     continue
                 if measure and field not in _admissible_fields(measure):
                     verification.append({"rule": "R3", "detail": amount.id}); continue
-                period = _scoped_context(periods, amount, block_cells, spans, by_id, verification, context_cells)
+                period_conflicts: list[str] = []
+                period = _scoped_context(periods, amount, block_cells, spans, by_id, verification, context_cells, period_conflicts)
                 unit = _scoped_context(units, amount, block_cells, spans, by_id, verification, context_cells)
                 field_id = fields[0]["observation_id"] if fields else movement["observation_id"]
                 measure_axis = column_measures.get(measure) if measure else None
@@ -1075,6 +1076,7 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                     unit["observation_id"] if unit else None, unit["unit"] if unit else None, "data", ((header_row.id,) if header_row else ()),
                     field_id, header_row.id if header_row else None, measure,
                     movement["observation_id"] if movement else None, movement["movement_axis"] if movement else None, identity_row.id,
+                    bool(period_conflicts),
                 )))
     # R6 arithmetic veto on STRUCTURE: never selects or repairs a number. A block whose present measures cannot all be
     # checked, or whose checks fail, abstains; more than half failing rejects the declared layout.
@@ -1236,7 +1238,7 @@ def _context_value(context: dict[str, object], observation: SourceObservation) -
     return (next(iter(years)), str(context["temporal_role"])) if len(years) == 1 else None
 
 
-def _scoped_context(contexts: list[dict[str, object]], amount: SourceObservation, block_cells: set[str], spans: dict[str, tuple[int, int]], by_id: dict[str, SourceObservation], verification: list[dict[str, object]], context_cells: dict[str, set[str]]) -> dict[str, object] | None:
+def _scoped_context(contexts: list[dict[str, object]], amount: SourceObservation, block_cells: set[str], spans: dict[str, tuple[int, int]], by_id: dict[str, SourceObservation], verification: list[dict[str, object]], context_cells: dict[str, set[str]], conflicts: list[str] | None = None) -> dict[str, object] | None:
     """R5: code re-reads the referenced text; applicable scopes must agree, the most specific one is cited.
 
     Block scope may cite only the record's identity row (and never a date-typed cell there, which is a record
@@ -1273,8 +1275,49 @@ def _scoped_context(contexts: list[dict[str, object]], amount: SourceObservation
             verification.append({"rule": "R5", "detail": observation.id}); continue
         applicable.append((CONTEXT_SCOPES.index(scope), value, context))
     if len({value for _, value, _ in applicable}) > 1:
-        verification.append({"rule": "R5", "detail": amount.id}); return None
+        reconciled = _boundary_reconciled(applicable, by_id)
+        if reconciled is not None:
+            return reconciled
+        verification.append({"rule": "R5", "detail": amount.id})
+        if conflicts is not None and any("temporal_role" in context for _, _, context in applicable):
+            conflicts.append(amount.id)
+        return None
     return max(applicable, key=lambda item: item[0])[2] if applicable else None
+
+
+def _boundary_date(text: str | None) -> tuple[int, int, int] | None:
+    """(day, month, year) of a printed date ("01.01.2024", "2024-01-01 00:00:00"), else None."""
+    value = (text or "").strip()
+    if found := re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})(?:[ T]\d{2}:\d{2}:\d{2})?", value):
+        return int(found.group(3)), int(found.group(2)), int(found.group(1))
+    if found := re.fullmatch(r"(\d{1,2})\.(\d{1,2})\.((?:19|20)\d{2})", value):
+        return int(found.group(1)), int(found.group(2)), int(found.group(3))
+    return None
+
+
+def _boundary_reconciled(applicable: list[tuple[int, tuple[str, ...], dict[str, object]]], by_id: dict[str, SourceObservation]) -> dict[str, object] | None:
+    """Item 7: a sheet period Y (current_period) and column dates on the year's boundary are one period, not a conflict.
+
+    01.01.Y and 31.12.Y-1 open the year, 31.12.Y closes it. Then the sheet context is cited (its year is the fact's period)
+    with the column's temporal role. Anything else (another year, a mid-year date, two column roles) stays a conflict."""
+    sheet = [context for index, _, context in applicable if index == CONTEXT_SCOPES.index("sheet")]
+    others = [context for index, _, context in applicable if index != CONTEXT_SCOPES.index("sheet")]
+    if not sheet or not others or "temporal_role" not in sheet[0]:
+        return None
+    sheet_years = {year for context in sheet for year in re.findall(r"\b(?:19|20)\d{2}\b", by_id[context["observation_id"]].text or "")}
+    if len(sheet_years) != 1 or any(context["temporal_role"] != "current_period" for context in sheet):
+        return None
+    year = int(next(iter(sheet_years)))
+    roles = {str(context["temporal_role"]) for context in others}
+    boundaries = {(1, 1, year): "opening", (31, 12, year - 1): "opening", (31, 12, year): "closing"}
+    for context in others:
+        date = _boundary_date(by_id[context["observation_id"]].text)
+        kind = boundaries.get(date) if date else None
+        if kind is None or (kind == "opening") != (context["temporal_role"] in {"opening", "prior_closing"}):
+            return None
+    if len(roles) != 1:
+        return None
+    return {**sheet[0], "temporal_role": next(iter(roles))}
 
 
 def _semantic_text(text: str | None) -> str | None:

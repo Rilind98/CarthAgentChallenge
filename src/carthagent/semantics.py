@@ -10,7 +10,7 @@ import time
 from .models import AssociationClaim, AssociationKind, Abstention, BusinessIdentity, CoverageDisposition, CoverageItem, HypothesisSet, PhysicalIdentity, SourceObservation, ValidatedFact
 from .numeric import NumericParseError, parse_amount
 from .policies import PolicyBundle
-from .structure import FIELDS, ContextResolver, ResolvedContext, admissible_fields, compose_matrix_axes, label_key_ok, match, norm, unit_from_text
+from .structure import FIELDS, PERIOD_WORDS, ContextResolver, ResolvedContext, admissible_fields, compose_matrix_axes, label_key_ok, match, norm, unit_from_text
 
 
 SEMANTICS_VERSION = "14"
@@ -349,7 +349,14 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
     period_observation = by_id.get(selected.semantic_period_observation_id or "")
     years = set(re.findall(r"\b(?:19|20)\d{2}\b", period_observation.text or "")) if period_observation is not None else set()
     # A verified block binds only under a period the mapper itself verified (R5/R2-6); a local header year alone is not enough.
-    if block and (len(years) != 1 or (business.period is not None and business.period not in years)):
+    # Item 5: when the plan's period was refused (no verified mapper period), a local period read from a reporting line
+    # ("Jahresabschluss per 30.06.2025") still stands; a local year from any other text (a stamp, a header) does not.
+    if block and selected.period_conflict:
+        conflicts.append("period")
+    local_reporting = not selected.period_conflict and period_observation is None and business.period is not None and any(
+        (cited := by_id.get(observation_id)) is not None and PERIOD_WORDS.search(cited.text or "") and business.period in re.findall(r"\b(?:19|20)\d{2}\b", cited.text or "")
+        and _title_line(cited, by_id) for observation_id in context.evidence_ids)
+    if block and not local_reporting and (len(years) != 1 or (business.period is not None and business.period not in years)):
         conflicts.append("period")
     if business.period is None and len(years) == 1:
         business = replace(business, period=next(iter(years)), temporal_role=selected.semantic_temporal_role); evidence.append(period_observation.id)
@@ -374,6 +381,16 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
         *conflicts,
     )))
     return ResolvedContext(business, Decimal(1000) if unit == "TEUR" else Decimal(1), tuple(dict.fromkeys(evidence)), missing)
+
+
+def _title_line(observation: SourceObservation, by_id: dict[str, SourceObservation]) -> bool:
+    """The cell is the only text of its worksheet row (a title line, not a column header such as "Restbuchwert zum 31.12.2024")."""
+    if observation.channel != "xlsx_native" or "!" not in observation.locator:
+        return False
+    sheet, coordinate = observation.locator.rsplit("!", 1)
+    number = re.sub(r"^[A-Z]+", "", coordinate)
+    row = by_id.get(f"{observation.document_id}:xlsx:{sheet}:row:{number}")
+    return row is not None and sum(1 for member in row.metadata.get("member_ids", ()) if (cell := by_id.get(str(member))) is not None and cell.text) == 1
 
 
 def _header_words_contradict(selected: AssociationClaim, by_id: dict[str, SourceObservation]) -> bool:

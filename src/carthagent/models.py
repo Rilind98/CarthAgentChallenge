@@ -120,6 +120,9 @@ class AssociationClaim:
     semantic_movement_observation_id: str | None = None
     semantic_movement: str | None = None
     record_identity_row_id: str | None = None
+    # The plan's period contexts genuinely disagree on the year for this amount (item 7): the claim must abstain on period
+    # and must not fall back to a local period either.
+    period_conflict: bool = False
 
 
 @dataclass(frozen=True, slots=True)
