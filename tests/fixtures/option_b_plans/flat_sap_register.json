@@ -1,0 +1,155 @@
+{
+ "plans": [
+  {
+   "region_observation_id": "@region:Sheet1",
+   "table_type": "asset_register",
+   "header_rows": [
+    "@row:Sheet1:13"
+   ],
+   "record_blocks": [
+    {
+     "identity_row_id": "@row:Sheet1:14",
+     "rows": [
+      {
+       "row_id": "@row:Sheet1:14",
+       "header_row_id": "@row:Sheet1:13",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    },
+    {
+     "identity_row_id": "@row:Sheet1:15",
+     "rows": [
+      {
+       "row_id": "@row:Sheet1:15",
+       "header_row_id": "@row:Sheet1:13",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    },
+    {
+     "identity_row_id": "@row:Sheet1:16",
+     "rows": [
+      {
+       "row_id": "@row:Sheet1:16",
+       "header_row_id": "@row:Sheet1:13",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    }
+   ],
+   "column_spans": [],
+   "field_headers": [
+    {
+     "observation_id": "@cell:Sheet1!F13",
+     "semantic_field": "ahk_open",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!G13",
+     "semantic_field": "zugang",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!H13",
+     "semantic_field": "abgang",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!I13",
+     "semantic_field": "umb",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!L13",
+     "semantic_field": "ahk_close",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!M13",
+     "semantic_field": "kum_afa_open",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!N13",
+     "semantic_field": "total_afa_gj",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!O13",
+     "semantic_field": "afa_abgang",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!P13",
+     "semantic_field": "afa_umb",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!R13",
+     "semantic_field": "zuschreibung",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!S13",
+     "semantic_field": "kum_afa_close",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!T13",
+     "semantic_field": "bw_prev",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Sheet1!U13",
+     "semantic_field": "bw_close",
+     "parent_header_ids": []
+    }
+   ],
+   "identity_headers": [
+    {
+     "observation_id": "@cell:Sheet1!A13",
+     "identity_role": "asset_id"
+    },
+    {
+     "observation_id": "@cell:Sheet1!B13",
+     "identity_role": "asset_sub_id"
+    },
+    {
+     "observation_id": "@cell:Sheet1!D13",
+     "identity_role": "source_name"
+    }
+   ],
+   "measure_axes": [],
+   "movement_axes": [],
+   "row_roles": [],
+   "period_contexts": [
+    {
+     "observation_id": "@cell:Sheet1!A4",
+     "temporal_role": "closing",
+     "scope": "sheet"
+    }
+   ],
+   "unit_contexts": [
+    {
+     "observation_id": "@cell:Sheet1!E14",
+     "unit": "EUR",
+     "scope": "block"
+    },
+    {
+     "observation_id": "@cell:Sheet1!E15",
+     "unit": "EUR",
+     "scope": "block"
+    },
+    {
+     "observation_id": "@cell:Sheet1!E16",
+     "unit": "EUR",
+     "scope": "block"
+    }
+   ]
+  }
+ ]
+}

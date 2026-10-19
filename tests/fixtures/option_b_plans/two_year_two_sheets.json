@@ -1,0 +1,312 @@
+{
+ "plans": [
+  {
+   "region_observation_id": "@region:Tabelle1",
+   "table_type": "two_year_spiegel",
+   "header_rows": [
+    "@row:Tabelle1:4",
+    "@row:Tabelle1:5",
+    "@row:Tabelle1:6"
+   ],
+   "record_blocks": [
+    {
+     "identity_row_id": "@row:Tabelle1:10",
+     "rows": [
+      {
+       "row_id": "@row:Tabelle1:10",
+       "header_row_id": "@row:Tabelle1:5",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    },
+    {
+     "identity_row_id": "@row:Tabelle1:15",
+     "rows": [
+      {
+       "row_id": "@row:Tabelle1:15",
+       "header_row_id": "@row:Tabelle1:5",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    },
+    {
+     "identity_row_id": "@row:Tabelle1:16",
+     "rows": [
+      {
+       "row_id": "@row:Tabelle1:16",
+       "header_row_id": "@row:Tabelle1:5",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    }
+   ],
+   "column_spans": [
+    {
+     "header_observation_id": "@cell:Tabelle1!C4",
+     "first_column": 3,
+     "last_column": 8
+    },
+    {
+     "header_observation_id": "@cell:Tabelle1!J4",
+     "first_column": 10,
+     "last_column": 13
+    },
+    {
+     "header_observation_id": "@cell:Tabelle1!O4",
+     "first_column": 15,
+     "last_column": 16
+    }
+   ],
+   "field_headers": [],
+   "identity_headers": [
+    {
+     "observation_id": "@cell:Tabelle1!B6",
+     "identity_role": "source_name"
+    }
+   ],
+   "measure_axes": [
+    {
+     "observation_id": "@cell:Tabelle1!C4",
+     "semantic_measure": "ahk"
+    },
+    {
+     "observation_id": "@cell:Tabelle1!J4",
+     "semantic_measure": "cum_depreciation"
+    },
+    {
+     "observation_id": "@cell:Tabelle1!O4",
+     "semantic_measure": "book_value"
+    }
+   ],
+   "movement_axes": [
+    {
+     "observation_id": "@cell:Tabelle1!C5",
+     "movement_axis": "opening",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!D5",
+     "movement_axis": "addition",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!E5",
+     "movement_axis": "disposal",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!F5",
+     "movement_axis": "transfer",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!H5",
+     "movement_axis": "closing",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!J5",
+     "movement_axis": "opening",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!K5",
+     "movement_axis": "depreciation",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!L5",
+     "movement_axis": "disposal",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!M5",
+     "movement_axis": "closing",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!O5",
+     "movement_axis": "closing",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle1!P5",
+     "movement_axis": "opening",
+     "parent_header_ids": []
+    }
+   ],
+   "row_roles": [],
+   "period_contexts": [
+    {
+     "observation_id": "@cell:Tabelle1!B2",
+     "temporal_role": "current_period",
+     "scope": "sheet"
+    }
+   ],
+   "unit_contexts": [
+    {
+     "observation_id": "@cell:Tabelle1!C6",
+     "unit": "EUR",
+     "scope": "sheet"
+    }
+   ]
+  },
+  {
+   "region_observation_id": "@region:Tabelle2",
+   "table_type": "two_year_spiegel",
+   "header_rows": [
+    "@row:Tabelle2:4",
+    "@row:Tabelle2:5",
+    "@row:Tabelle2:6"
+   ],
+   "record_blocks": [
+    {
+     "identity_row_id": "@row:Tabelle2:10",
+     "rows": [
+      {
+       "row_id": "@row:Tabelle2:10",
+       "header_row_id": "@row:Tabelle2:5",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    },
+    {
+     "identity_row_id": "@row:Tabelle2:15",
+     "rows": [
+      {
+       "row_id": "@row:Tabelle2:15",
+       "header_row_id": "@row:Tabelle2:5",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    },
+    {
+     "identity_row_id": "@row:Tabelle2:16",
+     "rows": [
+      {
+       "row_id": "@row:Tabelle2:16",
+       "header_row_id": "@row:Tabelle2:5",
+       "measure": null
+      }
+     ],
+     "role": "data"
+    }
+   ],
+   "column_spans": [
+    {
+     "header_observation_id": "@cell:Tabelle2!B4",
+     "first_column": 2,
+     "last_column": 7
+    },
+    {
+     "header_observation_id": "@cell:Tabelle2!I4",
+     "first_column": 9,
+     "last_column": 12
+    },
+    {
+     "header_observation_id": "@cell:Tabelle2!N4",
+     "first_column": 14,
+     "last_column": 15
+    }
+   ],
+   "field_headers": [],
+   "identity_headers": [
+    {
+     "observation_id": "@cell:Tabelle2!A6",
+     "identity_role": "source_name"
+    }
+   ],
+   "measure_axes": [
+    {
+     "observation_id": "@cell:Tabelle2!B4",
+     "semantic_measure": "ahk"
+    },
+    {
+     "observation_id": "@cell:Tabelle2!I4",
+     "semantic_measure": "cum_depreciation"
+    },
+    {
+     "observation_id": "@cell:Tabelle2!N4",
+     "semantic_measure": "book_value"
+    }
+   ],
+   "movement_axes": [
+    {
+     "observation_id": "@cell:Tabelle2!B5",
+     "movement_axis": "opening",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!C5",
+     "movement_axis": "addition",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!D5",
+     "movement_axis": "disposal",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!E5",
+     "movement_axis": "transfer",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!G5",
+     "movement_axis": "closing",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!I5",
+     "movement_axis": "opening",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!J5",
+     "movement_axis": "depreciation",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!K5",
+     "movement_axis": "disposal",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!L5",
+     "movement_axis": "closing",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!N5",
+     "movement_axis": "closing",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Tabelle2!O5",
+     "movement_axis": "opening",
+     "parent_header_ids": []
+    }
+   ],
+   "row_roles": [],
+   "period_contexts": [
+    {
+     "observation_id": "@cell:Tabelle2!A2",
+     "temporal_role": "current_period",
+     "scope": "sheet"
+    }
+   ],
+   "unit_contexts": [
+    {
+     "observation_id": "@cell:Tabelle2!B6",
+     "unit": "EUR",
+     "scope": "sheet"
+    }
+   ]
+  }
+ ]
+}

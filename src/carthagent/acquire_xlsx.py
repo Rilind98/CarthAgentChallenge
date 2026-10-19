@@ -11,6 +11,7 @@ from openpyxl import load_workbook
 from openpyxl.utils.cell import range_boundaries
 
 from .models import CoverageDisposition, CoverageItem, SourceObservation
+from .numeric import NumericParseError, parse_amount
 from .policies import ResourceBounds
 
 
@@ -78,6 +79,33 @@ def _xml_cells(path: Path, bounds: ResourceBounds) -> dict[str, dict[str, str | 
     return result
 
 
+def _amount_text(text: str) -> bool:
+    try:
+        parse_amount(text); return True
+    except NumericParseError:
+        return False
+
+
+def _record_blocks(rows: list[tuple[int, str, str, str]], document_id: str, source_hash: str, sheet: str) -> list[SourceObservation]:
+    """An identity-text row followed by consecutive numeric-only rows; blank, text or mixed rows end the block. Evidence only."""
+    blocks: list[SourceObservation] = []
+    for index, (number, row_id, shape, text) in enumerate(rows):
+        if shape != "identity":
+            continue
+        members = [(number, row_id, text)]
+        for next_number, next_id, next_shape, next_text in rows[index + 1:]:
+            if next_shape != "numeric" or next_number != members[-1][0] + 1:
+                break
+            members.append((next_number, next_id, next_text))
+        if len(members) < 2:
+            continue
+        marker = bool(re.match(r"\s*(?:\*+(?:\s|\||$)|(?:summe|gesamt|total)\b)", text, re.I))
+        blocks.append(SourceObservation(f"{document_id}:xlsx:{sheet}:block:{number}", document_id, source_hash, "record_block", f"{sheet}!block:{number}", "xlsx_structure", " || ".join(item[2] for item in members), metadata={
+            "member_ids": [item[1] for item in members], "identity_row_id": row_id, "measure_row_ids": [item[1] for item in members[1:]],
+            "sheet": sheet, "row": number, "subtotal_marker": marker, "structure_role": "record_block"}))
+    return blocks
+
+
 def acquire_xlsx(path: Path, document_id: str, source_hash: str, bounds: ResourceBounds, *, deadline: float | None = None) -> AcquisitionResult:
     if deadline is not None and time.monotonic() >= deadline:
         raise ResourceLimitError("document_timeout:before_xlsx_acquisition")
@@ -124,6 +152,7 @@ def acquire_xlsx(path: Path, document_id: str, source_hash: str, bounds: Resourc
             raise ResourceLimitError(f"declared_range_limit:{ws.title}:{declared_area}>{bounds.max_cells}")
         sparse_rows: dict[int, list] = {}
         sheet_row_ids: list[str] = []
+        row_shapes: list[tuple[int, str, str, str]] = []
         for cell in ws._cells.values():
             sparse_rows.setdefault(cell.row, []).append(cell)
         for row_number in sorted(sparse_rows):
@@ -142,6 +171,7 @@ def acquire_xlsx(path: Path, document_id: str, source_hash: str, bounds: Resourc
                 row = sorted(existing, key=lambda c: c.column)
             row_member_ids: list[str] = []
             row_texts: list[str] = []
+            row_numbers = row_words = 0
             for cell in row:
                 raw = cell.value
                 cache = cached_ws[cell.coordinate].value
@@ -163,12 +193,20 @@ def acquire_xlsx(path: Path, document_id: str, source_hash: str, bounds: Resourc
                 row_member_ids.append(observation_id)
                 if observation_text is not None:
                     row_texts.append(str(observation_text))
+                    if isinstance(observation_text, (int, float)) and not isinstance(observation_text, bool):
+                        row_numbers += 1
+                    elif not (isinstance(observation_text, str) and _amount_text(observation_text)):
+                        row_words += 1
                 coverage.append(CoverageItem(f"{document_id}:coverage:cell:{locator}", document_id, "cell", locator, CoverageDisposition.UNRESOLVED, reason="awaiting_semantic_disposition"))
             if row_member_ids:
                 row_number = row[0].row
                 row_id = f"{document_id}:xlsx:{ws.title}:row:{row_number}"
                 observations.append(SourceObservation(row_id, document_id, source_hash, "logical_row", f"{ws.title}!row:{row_number}", "xlsx_structure", " | ".join(row_texts), metadata={"member_ids": row_member_ids, "sheet": ws.title, "row": row_number}))
                 sheet_row_ids.append(row_id)
+                shape = "identity" if row_words and not row_numbers else ("numeric" if not row_words and row_texts else "other")
+                row_shapes.append((row_number, row_id, shape, " | ".join(row_texts)))
+        record_blocks = _record_blocks(row_shapes, document_id, source_hash, ws.title)
+        observations.extend(record_blocks)
         observations.append(SourceObservation(f"{document_id}:xlsx:{ws.title}:region", document_id, source_hash, "table_region", f"{ws.title}!region", "xlsx_structure", ws.title, metadata={"member_ids": sheet_row_ids, "sheet": ws.title, "structure_role": "worksheet_region"}))
         coverage[worksheet_coverage_index[ws.title]] = CoverageItem(
             f"{document_id}:coverage:sheet:{ws.title}", document_id, "worksheet", ws.title,

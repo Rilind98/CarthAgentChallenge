@@ -1,0 +1,192 @@
+{
+ "plans": [
+  {
+   "region_observation_id": "@region:Anlagengitter",
+   "table_type": "class_grid_matrix",
+   "header_rows": [
+    "@row:Anlagengitter:15",
+    "@row:Anlagengitter:16",
+    "@row:Anlagengitter:17",
+    "@row:Anlagengitter:18"
+   ],
+   "record_blocks": [
+    {
+     "identity_row_id": "@row:Anlagengitter:19",
+     "rows": [
+      {
+       "row_id": "@row:Anlagengitter:20",
+       "header_row_id": "@row:Anlagengitter:16",
+       "measure": "ahk"
+      },
+      {
+       "row_id": "@row:Anlagengitter:21",
+       "header_row_id": "@row:Anlagengitter:17",
+       "measure": "cum_depreciation"
+      },
+      {
+       "row_id": "@row:Anlagengitter:22",
+       "header_row_id": "@row:Anlagengitter:18",
+       "measure": "book_value"
+      }
+     ],
+     "role": "data"
+    },
+    {
+     "identity_row_id": "@row:Anlagengitter:24",
+     "rows": [
+      {
+       "row_id": "@row:Anlagengitter:25",
+       "header_row_id": "@row:Anlagengitter:16",
+       "measure": "ahk"
+      },
+      {
+       "row_id": "@row:Anlagengitter:26",
+       "header_row_id": "@row:Anlagengitter:17",
+       "measure": "cum_depreciation"
+      },
+      {
+       "row_id": "@row:Anlagengitter:27",
+       "header_row_id": "@row:Anlagengitter:18",
+       "measure": "book_value"
+      }
+     ],
+     "role": "data"
+    },
+    {
+     "identity_row_id": "@row:Anlagengitter:29",
+     "rows": [
+      {
+       "row_id": "@row:Anlagengitter:30",
+       "header_row_id": "@row:Anlagengitter:16",
+       "measure": "ahk"
+      },
+      {
+       "row_id": "@row:Anlagengitter:31",
+       "header_row_id": "@row:Anlagengitter:17",
+       "measure": "cum_depreciation"
+      },
+      {
+       "row_id": "@row:Anlagengitter:32",
+       "header_row_id": "@row:Anlagengitter:18",
+       "measure": "book_value"
+      }
+     ],
+     "role": "subtotal"
+    }
+   ],
+   "column_spans": [],
+   "field_headers": [
+    {
+     "observation_id": "@cell:Anlagengitter!B16",
+     "semantic_field": "ahk_open",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!C16",
+     "semantic_field": "zugang",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!D16",
+     "semantic_field": "abgang",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!E16",
+     "semantic_field": "umb",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!H16",
+     "semantic_field": "ahk_close",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!B17",
+     "semantic_field": "kum_afa_open",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!C17",
+     "semantic_field": "total_afa_gj",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!D17",
+     "semantic_field": "afa_abgang",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!E17",
+     "semantic_field": "afa_umb",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!G17",
+     "semantic_field": "zuschreibung",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!H17",
+     "semantic_field": "kum_afa_close",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!B18",
+     "semantic_field": "bw_prev",
+     "parent_header_ids": []
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!H18",
+     "semantic_field": "bw_close",
+     "parent_header_ids": []
+    }
+   ],
+   "identity_headers": [
+    {
+     "observation_id": "@cell:Anlagengitter!B15",
+     "identity_role": "entity"
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!C15",
+     "identity_role": "balance_position"
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!D15",
+     "identity_role": "account"
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!E15",
+     "identity_role": "class_code"
+    }
+   ],
+   "measure_axes": [],
+   "movement_axes": [],
+   "row_roles": [],
+   "period_contexts": [
+    {
+     "observation_id": "@cell:Anlagengitter!A12",
+     "temporal_role": "current_period",
+     "scope": "sheet"
+    }
+   ],
+   "unit_contexts": [
+    {
+     "observation_id": "@cell:Anlagengitter!H19",
+     "unit": "EUR",
+     "scope": "block"
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!H24",
+     "unit": "EUR",
+     "scope": "block"
+    },
+    {
+     "observation_id": "@cell:Anlagengitter!H29",
+     "unit": "EUR",
+     "scope": "block"
+    }
+   ]
+  }
+ ]
+}

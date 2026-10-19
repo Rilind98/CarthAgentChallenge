@@ -119,6 +119,7 @@ class AssociationClaim:
     semantic_measure: str | None = None
     semantic_movement_observation_id: str | None = None
     semantic_movement: str | None = None
+    record_identity_row_id: str | None = None
 
 
 @dataclass(frozen=True, slots=True)

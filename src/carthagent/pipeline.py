@@ -25,7 +25,7 @@ from .store import Ledger, content_hash, preserve_source
 
 
 PIPELINE_VERSION = "0.13.1"
-ACQUISITION_VERSION = "13"
+ACQUISITION_VERSION = "14"
 STRUCTURE_VERSION = "8"
 
 
@@ -338,6 +338,7 @@ def _cached_hypotheses(payload: object) -> tuple[HypothesisSet, ...]:
                 candidate.get("semantic_measure"),
                 candidate.get("semantic_movement_observation_id"),
                 candidate.get("semantic_movement"),
+                candidate.get("record_identity_row_id"),
             )
             for candidate in item["candidates"]
         )

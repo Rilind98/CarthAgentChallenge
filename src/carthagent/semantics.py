@@ -13,7 +13,7 @@ from .policies import PolicyBundle
 from .structure import ContextResolver, ResolvedContext, norm
 
 
-SEMANTICS_VERSION = "12"
+SEMANTICS_VERSION = "13"
 
 
 def _stable_id(prefix: str, *parts: str) -> str:
@@ -242,16 +242,25 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
                 valid_headers.append(header)
     business = context.business
     evidence = list(context.evidence_ids)
+    # A verified record block is a second opinion against local rules: disagreement abstains, it never overrides.
+    block = selected.record_identity_row_id is not None
+    conflicts: list[str] = []
+    if block and selected.semantic_field and business.field not in {None, "amount", selected.semantic_field}:
+        conflicts.append("field")
     if selected.semantic_field and len(valid_headers) == 1 and business.field in {None, "amount"}:
         business = replace(business, field=selected.semantic_field); evidence.append(valid_headers[0].id)
     target_rows = [by_id.get(value) for value in selected.target_observation_ids]
     target_rows = [row for row in target_rows if row is not None and amount.id in row.metadata.get("member_ids", ())]
     row_members = set(target_rows[0].metadata.get("member_ids", ())) if len(target_rows) == 1 else set()
+    if block and len(target_rows) == 1 and by_id.get(selected.record_identity_row_id) is not None:
+        row_members |= set(by_id[selected.record_identity_row_id].metadata.get("member_ids", ()))
     identity_updates: dict[str, str] = {}
     for observation_id, role in selected.semantic_identity_assignments:
         value = by_id.get(observation_id)
         if value is not None and observation_id in row_members and value.text and role in business.__dataclass_fields__ and getattr(business, role) is None:
             identity_updates[role] = value.text; evidence.append(observation_id)
+        elif block and value is not None and role in business.__dataclass_fields__ and getattr(business, role) not in {None, value.text}:
+            conflicts.append("business_identity")
     if identity_updates:
         business = replace(business, **identity_updates)
     # A model row label is descriptive context only. It cannot override the
@@ -265,10 +274,11 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
         if source_unit == selected.semantic_unit:
             unit = source_unit; business = replace(business, unit=unit, currency="EUR"); evidence.append(unit_observation.id)
     period_observation = by_id.get(selected.semantic_period_observation_id or "")
-    if business.period is None and period_observation is not None:
-        years = set(re.findall(r"\b(?:19|20)\d{2}\b", period_observation.text or ""))
-        if len(years) == 1:
-            business = replace(business, period=next(iter(years)), temporal_role=selected.semantic_temporal_role); evidence.append(period_observation.id)
+    years = set(re.findall(r"\b(?:19|20)\d{2}\b", period_observation.text or "")) if period_observation is not None else set()
+    if block and business.period is not None and len(years) == 1 and business.period not in years:
+        conflicts.append("period")
+    if business.period is None and len(years) == 1:
+        business = replace(business, period=next(iter(years)), temporal_role=selected.semantic_temporal_role); evidence.append(period_observation.id)
     key = business.asset_id or business.class_code or business.balance_position or business.source_name
     business = replace(business, asset_or_class=key, granularity="asset" if business.asset_id else ("class" if business.class_code else "source_row"))
     recomputed = {
@@ -277,9 +287,12 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
         "unit": bool(unit),
         "period": business.period is not None,
     }
+    # Block identity (sub-number, unresolved identifier columns) was verified against the declared headers in the mapper (R4).
+    carried = {"asset_sub_id", "unresolved_identifier"} if block and identity_updates else set()
     missing = tuple(dict.fromkeys((
-        *(name for name in context.missing_axes if name not in recomputed),
+        *(name for name in context.missing_axes if name not in recomputed and name not in carried),
         *(name for name, present in recomputed.items() if not present),
+        *conflicts,
     )))
     return ResolvedContext(business, Decimal(1000) if unit == "TEUR" else Decimal(1), tuple(dict.fromkeys(evidence)), missing)
 
