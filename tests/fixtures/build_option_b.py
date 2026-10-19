@@ -154,3 +154,55 @@ def generate(directory: Path) -> dict[str, Path]:
     directory.mkdir(parents=True, exist_ok=True)
     return {name: builder(directory / name) for name, builder in (
         ("sap_block_unlabelled.xlsx", sap_block_unlabelled), ("two_year_two_sheets.xlsx", two_year_two_sheets), ("flat_sap_register.xlsx", flat_sap_register))}
+
+
+SAP_FIELD_NAMES = (("ahk_open", "zugang", "abgang", "umb", None, None, "ahk_close"),
+                   ("kum_afa_open", "total_afa_gj", "afa_abgang", "afa_umb", None, "zuschreibung", "kum_afa_close"),
+                   ("bw_prev", None, None, None, None, None, "bw_close"))
+
+
+def sap_block_many(path: Path, blocks: int = 30, odd_at: int | None = None) -> tuple[Path, dict]:
+    """f05 shape with many class blocks (round 4 skeleton). Block `odd_at` lacks its book-value row (a different shape).
+    Returns the path and the truth {cell: (field, class, value)} for every printed, labelled value."""
+    workbook = Workbook(); sheet = workbook.active; sheet.title = "Anlagengitter"
+    sheet["A12"] = "Berichtsdatum: 31.12.2025   Anlagengitter  Bereich 01 Handelsbilanz"
+    for offset, header in enumerate(SAP_HEADER):
+        for column, text in header.items():
+            sheet[f"{column}{15 + offset}"] = text
+    truth: dict[str, tuple] = {}; row = 19
+    for index in range(blocks):
+        identity, *measures = SAP_BLOCKS[index % 2]
+        identity = {**identity, "E": str(1000 + index)}
+        if index == odd_at:
+            measures = measures[:2]
+        for column, text in identity.items():
+            sheet[f"{column}{row}"] = text
+        for k, (values, names) in enumerate(zip(measures, SAP_FIELD_NAMES), start=1):
+            for column, value, field in zip("BCDEFGH", values, names):
+                if value is not None:
+                    sheet[f"{column}{row + k}"] = value
+                    if field:
+                        truth[f"{column}{row + k}"] = (field, identity["E"], value)
+        row += len(measures) + 2
+    workbook.save(path)
+    return path, truth
+
+
+def flat_register_many(path: Path, rows: int = 40) -> tuple[Path, dict]:
+    """f09 shape with many asset rows (round 4 flat skeleton). Truth {cell: (field, asset_id, value)}."""
+    from openpyxl.utils import get_column_letter
+    workbook = Workbook(); sheet = workbook.active; sheet.title = "Sheet1"
+    sheet["A4"] = "Jahresabschluss per 30.06.2025"
+    for index, text in enumerate(REGISTER_HEADER):
+        sheet.cell(13, index + 1, text)
+    labelled = {5: "ahk_open", 6: "zugang", 7: "abgang", 8: "umb", 11: "ahk_close", 12: "kum_afa_open", 13: "total_afa_gj", 14: "afa_abgang",
+                15: "afa_umb", 17: "zuschreibung", 18: "kum_afa_close", 19: "bw_prev", 20: "bw_close"}
+    truth: dict[str, tuple] = {}
+    for offset in range(rows):
+        values = list(REGISTER_ROWS[offset % 3]); values[0] = str(200000000 + offset); values[1] = "0"
+        for index, value in enumerate(values):
+            sheet.cell(14 + offset, index + 1, value)
+            if index in labelled:
+                truth[f"{get_column_letter(index + 1)}{14 + offset}"] = (labelled[index], values[0], value)
+    workbook.save(path)
+    return path, truth

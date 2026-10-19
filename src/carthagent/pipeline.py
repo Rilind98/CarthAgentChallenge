@@ -166,7 +166,8 @@ def run_input(input_path: Path, output: Path, config: RunConfig = RunConfig()) -
                 if stop_mapper:
                     break
                 for request_chunk in _mapper_bounded_chunks(mapper, document_id, chunk, config.bounds.row_overlap):
-                    if not residual_ids.intersection(observation.id for observation in request_chunk):
+                    request_chunk = _regions_needing_mapper(request_chunk, residual_ids)
+                    if not request_chunk:
                         continue
                     request_fingerprint = mapper.request_fingerprint(document_id, request_chunk)
                     chunk_cache_key = Ledger.cache_key(
@@ -509,6 +510,21 @@ def _mapper_bounded_chunks(mapper: OpenAICompatibleMapper, document_id: str, obs
     if not packed:
         raise MapperUnavailableError("mapper_no_coherent_regions")
     return tuple(packed)
+
+
+def _regions_needing_mapper(observations: tuple[SourceObservation, ...], residual_ids: set[str]) -> tuple[SourceObservation, ...]:
+    """Drop every table region whose amounts were all resolved locally (or that has none): the model cannot help there."""
+    by_id = {o.id: o for o in observations}
+    regions = [o for o in observations if o.kind == "table_region"]
+    rows_of = {region.id: [str(row) for row in region.metadata.get("member_ids", ()) if str(row) in by_id] for region in regions}
+    needed = {region.id for region in regions if any(str(member) in residual_ids for row in rows_of[region.id] for member in by_id[row].metadata.get("member_ids", ()))}
+    if not needed:
+        return ()
+    keep_rows = {row for region in needed for row in rows_of[region]}
+    drop_rows = {row for region in regions if region.id not in needed for row in rows_of[region.id]} - keep_rows
+    keep_members = {str(member) for row in keep_rows for member in by_id[row].metadata.get("member_ids", ())}
+    drop = {region.id for region in regions if region.id not in needed} | drop_rows | ({str(member) for row in drop_rows for member in by_id[row].metadata.get("member_ids", ())} - keep_members)
+    return tuple(o for o in observations if o.id not in drop)
 
 
 def _header_bands(rows: list, identity: set, members: set, limit: int) -> list[tuple[int, list]]:

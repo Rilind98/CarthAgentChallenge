@@ -23,7 +23,7 @@ class ResourceBounds:
     worker_soft_memory_bytes: int = 2 * 1024 * 1024 * 1024
     mapper_phase_timeout_seconds: int = 480
     post_mapper_reserve_seconds: int = 120
-    max_mapper_requests: int = 16
+    max_mapper_requests: int = 6
     max_mapper_response_bytes: int = 8_388_608
 
     def __post_init__(self) -> None:

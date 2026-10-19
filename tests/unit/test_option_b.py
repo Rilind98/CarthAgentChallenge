@@ -64,7 +64,7 @@ def test_structure_plan_schema_is_strict_for_openai_and_constraint_free_for_anth
         assert not FORBIDDEN_SCHEMA_KEYS & set(node), path
         if node.get("type") == "object":
             assert node["additionalProperties"] is False and set(node["required"]) == set(node["properties"]), path
-    assert (MAPPER_SCHEMA_VERSION, MAPPER_PROMPT_VERSION) == ("semantic_region_plan_v8", "compact-region-plan-v11")
+    assert (MAPPER_SCHEMA_VERSION, MAPPER_PROMPT_VERSION) == ("semantic_region_plan_v9", "compact-region-plan-v12")
 
 
 def _mapped(source, plan):

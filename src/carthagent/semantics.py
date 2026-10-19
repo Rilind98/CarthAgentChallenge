@@ -290,7 +290,14 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
     block = selected.record_identity_row_id is not None
     conflicts: list[str] = []
     if block and selected.semantic_field and business.field not in {None, "amount", selected.semantic_field}:
-        conflicts.append("field")
+        # Local column=field rules read a stacked header column (several governing header rows above one amount column) as
+        # one field; that reading is no evidence against the row the block declares. Any other disagreement abstains.
+        governing = [by_id[row_id] for row_id in selected.header_parent_ids if row_id in by_id]
+        touched = [row for row in governing if set(context.evidence_ids) & set(row.metadata.get("member_ids", ()))]
+        if len(touched) < 2:
+            conflicts.append("field")
+        else:
+            business = replace(business, field=None)  # the verified block's header row decides below
     if selected.semantic_field and len(valid_headers) == 1 and business.field in {None, "amount"}:
         business = replace(business, field=selected.semantic_field); evidence.append(valid_headers[0].id)
     target_rows = [by_id.get(value) for value in selected.target_observation_ids]

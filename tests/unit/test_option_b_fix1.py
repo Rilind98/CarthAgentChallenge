@@ -55,7 +55,7 @@ def test_m1_unhashable_ids_reject_the_plan_instead_of_crashing(tmp_path, where):
 
 def test_m2_cache_fingerprint_names_the_verifier_version():
     fingerprint = OpenAICompatibleMapper(MapperConfig(True, "http://127.0.0.1:1/v1/responses", "m", 1, 1)).fingerprint()
-    assert fingerprint["verifier_version"] == "option-b-verifier-2"
+    assert fingerprint["verifier_version"] == "option-b-verifier-3"
 
 
 def test_m3_subtotal_guard_holds_without_acquisition_record_blocks(tmp_path):
