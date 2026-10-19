@@ -176,6 +176,9 @@ class OpenAICompatibleMapper:
         headers = {"Content-Type": "application/json"}
         if self.anthropic:
             headers["anthropic-version"] = ANTHROPIC_API_VERSION
+            # An organisation-level key must name the workspace; a workspace-scoped key needs nothing.
+            if os.environ.get("ANTHROPIC_WORKSPACE_ID"):
+                headers["anthropic-workspace-id"] = os.environ["ANTHROPIC_WORKSPACE_ID"]
         auth_host, env_name, header_name, header_template = PROVIDER_AUTH[self.config.provider]
         if endpoint.hostname == auth_host:
             if not os.environ.get(env_name):

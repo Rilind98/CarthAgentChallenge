@@ -463,3 +463,13 @@ def test_mapper_identity_never_comes_from_a_bare_amount_cell(mapper_server):
             assert assignments == ((identity.id, "class_code"),), identity_text
         else:
             assert assignments == (), identity_text
+
+
+def test_anthropic_mapper_sends_workspace_header_only_when_configured(anthropic_server, monkeypatch):
+    AnthropicStubHandler.response_content = {"plans": []}
+    monkeypatch.delenv("ANTHROPIC_WORKSPACE_ID", raising=False)
+    OpenAICompatibleMapper(anthropic_config(anthropic_server)).map("d", table_observations())
+    assert "anthropic-workspace-id" not in AnthropicStubHandler.request_headers
+    monkeypatch.setenv("ANTHROPIC_WORKSPACE_ID", "wrkspc_test_123")
+    OpenAICompatibleMapper(anthropic_config(anthropic_server)).map("d", table_observations())
+    assert AnthropicStubHandler.request_headers["anthropic-workspace-id"] == "wrkspc_test_123"
