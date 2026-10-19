@@ -10,10 +10,10 @@ import time
 from .models import AssociationClaim, AssociationKind, Abstention, BusinessIdentity, CoverageDisposition, CoverageItem, HypothesisSet, PhysicalIdentity, SourceObservation, ValidatedFact
 from .numeric import NumericParseError, parse_amount
 from .policies import PolicyBundle
-from .structure import ContextResolver, ResolvedContext, norm
+from .structure import ContextResolver, ResolvedContext, norm, unit_from_text
 
 
-SEMANTICS_VERSION = "13"
+SEMANTICS_VERSION = "14"
 
 
 def _stable_id(prefix: str, *parts: str) -> str:
@@ -270,7 +270,7 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
     unit = business.unit
     unit_observation = by_id.get(selected.semantic_unit_observation_id or "")
     if unit is None and unit_observation is not None and selected.semantic_unit in {"EUR", "TEUR"}:
-        source_unit = "TEUR" if re.search(r"\b(?:TEUR|T€)\b", unit_observation.text or "", re.I) else ("EUR" if re.search(r"\bEUR\b", unit_observation.text or "", re.I) else None)
+        source_unit = unit_from_text(unit_observation.text)
         if source_unit == selected.semantic_unit:
             unit = source_unit; business = replace(business, unit=unit, currency="EUR"); evidence.append(unit_observation.id)
     period_observation = by_id.get(selected.semantic_period_observation_id or "")
@@ -287,8 +287,9 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
         "unit": bool(unit),
         "period": business.period is not None,
     }
-    # Block identity (sub-number, unresolved identifier columns) was verified against the declared headers in the mapper (R4).
-    carried = {"asset_sub_id", "unresolved_identifier"} if block and identity_updates else set()
+    # A sub-number clears only when the block bound one. Unresolved identifier columns clear only for an emitted block claim:
+    # mapper R4 skips any block with a value under an undeclared identifier-like header anywhere above the records.
+    carried = ({"asset_sub_id"} if "asset_sub_id" in identity_updates else set()) | {"unresolved_identifier"} if block and identity_updates else set()
     missing = tuple(dict.fromkeys((
         *(name for name in context.missing_axes if name not in recomputed and name not in carried),
         *(name for name, present in recomputed.items() if not present),

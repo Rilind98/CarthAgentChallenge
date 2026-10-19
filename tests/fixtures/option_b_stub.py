@@ -40,9 +40,8 @@ def resolve(template: object, observations: list[dict]) -> object:
         hits = [o["id"] for o in observations if o["kind"] == "table_region" and o.get("sheet") == reference]
     else:
         raise ValueError(template)
-    if len(hits) != 1:
-        raise KeyError(f"recorded plan placeholder {template} resolved to {len(hits)} observations")
-    return hits[0]
+    # Evidence the request does not contain (e.g. another sheet's chunk) stays an unknown ID, as a model would send it.
+    return hits[0] if len(hits) == 1 else template
 
 
 class RecordedPlanHandler(BaseHTTPRequestHandler):

@@ -427,7 +427,11 @@ def _mapper_bounded_chunks(mapper: OpenAICompatibleMapper, document_id: str, obs
 
     def closure(region: SourceObservation, row_ids: list[str]) -> tuple[SourceObservation, ...]:
         selected_rows = {row_id for row_id in row_ids if row_id in by_id}
-        selected_ids = set(selected_rows)
+        # A record block travels whole: any selected member row pulls in the block observation and all of its rows,
+        # identity row included, so the model can see and declare the record (fit checks run on this closure).
+        blocks = [o for o in observations if o.kind == "record_block" and selected_rows.intersection(str(v) for v in o.metadata.get("member_ids", ()))]
+        selected_rows.update(str(v) for block in blocks for v in block.metadata.get("member_ids", ()) if str(v) in by_id)
+        selected_ids = set(selected_rows) | {block.id for block in blocks}
         for row_id in selected_rows:
             selected_ids.update(str(value) for value in by_id[row_id].metadata.get("member_ids", ()) if value in by_id)
         # Semantic header spans refer to the same source words as a selected
@@ -448,7 +452,8 @@ def _mapper_bounded_chunks(mapper: OpenAICompatibleMapper, document_id: str, obs
             if observation.id not in selected_ids:
                 continue
             if observation.id == region.id:
-                result.append(replace(region, metadata={**dict(region.metadata), "member_ids": tuple(row_id for row_id in row_ids if row_id in selected_rows)}))
+                ordered = list(dict.fromkeys((*(str(value) for value in region.metadata.get("member_ids", ())), *row_ids)))
+                result.append(replace(region, metadata={**dict(region.metadata), "member_ids": tuple(row_id for row_id in ordered if row_id in selected_rows)}))
             else:
                 result.append(observation)
         return tuple(result)

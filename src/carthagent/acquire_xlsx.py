@@ -93,10 +93,9 @@ def _record_blocks(rows: list[tuple[int, str, str, str]], document_id: str, sour
         if shape != "identity":
             continue
         members = [(number, row_id, text)]
-        for next_number, next_id, next_shape, next_text in rows[index + 1:]:
-            if next_shape != "numeric" or next_number != members[-1][0] + 1:
-                break
-            members.append((next_number, next_id, next_text))
+        cursor = index + 1
+        while cursor < len(rows) and rows[cursor][2] == "numeric" and rows[cursor][0] == members[-1][0] + 1:
+            members.append((rows[cursor][0], rows[cursor][1], rows[cursor][3])); cursor += 1
         if len(members) < 2:
             continue
         marker = bool(re.match(r"\s*(?:\*+(?:\s|\||$)|(?:summe|gesamt|total)\b)", text, re.I))

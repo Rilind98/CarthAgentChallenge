@@ -555,6 +555,16 @@ def _compose_matrix_field(measure: str | None, axis: _PdfAxis, amount: SourceObs
     return compose_matrix_axes(measure, axis.field, axis.temporal_role)
 
 
+def unit_from_text(text: str | None) -> str | None:
+    """EUR or TEUR printed in the text; any other scale (Mio., Mrd.) or no currency abstains."""
+    value = text or ""
+    if re.search(r"\b(?:mio|million(?:en)?|mrd|milliarde(?:n)?)\b", value, re.I):
+        return None
+    if re.search(r"\b(?:tsd|tausend|teur|teuro)\b|T€", value, re.I):
+        return "TEUR"
+    return "EUR" if re.search(r"\bEUR\b|€", value, re.I) else None
+
+
 def compose_matrix_axes(measure: str | None, field: str | None, temporal_role: str | None) -> str | None:
     """Compose a closed measure row by movement/period column intersection."""
     if measure is None:

@@ -64,7 +64,7 @@ def test_structure_plan_schema_is_strict_for_openai_and_constraint_free_for_anth
         assert not FORBIDDEN_SCHEMA_KEYS & set(node), path
         if node.get("type") == "object":
             assert node["additionalProperties"] is False and set(node["required"]) == set(node["properties"]), path
-    assert (MAPPER_SCHEMA_VERSION, MAPPER_PROMPT_VERSION) == ("semantic_region_plan_v8", "compact-region-plan-v9")
+    assert (MAPPER_SCHEMA_VERSION, MAPPER_PROMPT_VERSION) == ("semantic_region_plan_v8", "compact-region-plan-v10")
 
 
 def _mapped(source, plan):
@@ -149,7 +149,7 @@ def test_r2_non_periodic_blocks_reject_the_whole_plan(tmp_path):
 def test_r3_field_measure_admissibility_and_one_field_per_header_cell(tmp_path):
     source = fixtures.sap_block_unlabelled(tmp_path / "sap.xlsx")
     mapped, facts, rules = _run(source, "adversarial_swapped_header_rows")
-    assert "R3" in rules and not _blocked(mapped) and not facts
+    assert {"R1", "R3"} & rules and not _blocked(mapped) and not facts, "header-row order (R1) or admissibility (R3) must refuse the swap"
     def relabel(plan):
         plan["field_headers"].append({"observation_id": "@cell:Anlagengitter!C16", "semantic_field": "abgang", "parent_header_ids": []})
     mapped, facts, rules = _run(source, _variant(relabel))
@@ -162,22 +162,27 @@ def test_r4_identity_row_must_carry_text_and_identifier_shaped_values(tmp_path):
     numeric = fixtures.sap_block_unlabelled(tmp_path / "numeric.xlsx", class_cell=1000.5)
     mapped, facts, rules = _run(numeric, "adversarial_numeric_identity")
     first_block = [h for h in _blocked(mapped) if h.candidates[0].record_identity_row_id == row(19)]
-    assert "R4" in rules and first_block and all(not h.candidates[0].semantic_identity_assignments for h in first_block)
+    assert "R4" in rules and not first_block, "a block whose identity fails R4 is skipped, not emitted without identity"
     assert not [f for f in facts if f.physical.occurrence.endswith(("20", "21", "22"))], "a bare amount in the identity row never becomes the class"
     assert {f.business.class_code for f in facts} == {"2000"}
 
 
-def test_r5_disagreeing_or_multi_year_period_scopes_abstain(tmp_path):
+def test_r5_disagreeing_scopes_and_creation_stamps_abstain(tmp_path):
+    from openpyxl import load_workbook
     source = fixtures.sap_block_unlabelled(tmp_path / "sap.xlsx")
     def creation_date_too(plan):
         plan["period_contexts"].append({"observation_id": "@cell:Anlagengitter!A13", "temporal_role": "current_period", "scope": "sheet"})
-    def two_years(plan):
+    def creation_date_only(plan):
         plan["period_contexts"] = [{"observation_id": "@cell:Anlagengitter!A13", "temporal_role": "current_period", "scope": "sheet"}]
-    for mutate in (creation_date_too,):
-        mapped, facts, rules = _run(source, _variant(mutate))
-        assert "R5" in rules and _blocked(mapped) and not facts and all(h.candidates[0].semantic_period_observation_id is None for h in _blocked(mapped))
-    mapped, facts, rules = _run(source, _variant(two_years))
-    assert mapped and len(facts) == 26 and {f.business.period for f in facts} == {"2026"}, "a single year is code-verified text, not a guess"
+    mapped, facts, rules = _run(source, _variant(creation_date_too))
+    assert "R5" in rules and len(facts) == 26 and {f.business.period for f in facts} == {"2025"}, "the Erstellungsdatum cell is refused; the report date still applies"
+    mapped, facts, rules = _run(source, _variant(creation_date_only))
+    assert "R5" in rules and not facts, "a creation-date year is never the reporting period"
+    workbook = load_workbook(source); workbook.active["A11"] = "Vergleichsjahr 2024"; workbook.save(source)
+    def disagree(plan):
+        plan["period_contexts"].append({"observation_id": "@cell:Anlagengitter!A11", "temporal_role": "current_period", "scope": "sheet"})
+    mapped, facts, rules = _run(source, _variant(disagree))
+    assert "R5" in rules and _blocked(mapped) and not facts and all(h.candidates[0].semantic_period_observation_id is None for h in _blocked(mapped))
 
 
 def test_r6_arithmetic_veto_rejects_structure_that_breaks_most_roll_forwards(tmp_path):
