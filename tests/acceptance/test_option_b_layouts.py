@@ -32,9 +32,10 @@ REGISTER_FIELDS = {5: "ahk_open", 6: "zugang", 7: "abgang", 8: "umb", 11: "ahk_c
                    17: "zuschreibung", 18: "kum_afa_close", 19: "bw_prev", 20: "bw_close"}
 
 
-# Local header rules read "AfA GJ-Beg" as total_afa_gj (f09; R2-8 ticket). (f08 "Zugänge" under the AfA group is fixed: total_afa_gj.)
+# Local header rules once read "AfA GJ-Beg" as total_afa_gj (f09) and "Zugänge" under the AfA group as zugang (f08); both fixed,
+# so local and block agree everywhere. A disagreement would still make the value abstain (second opinion).
 # The verified block disagrees, so those values must abstain (second opinion), never take either label.
-LOCAL_DISAGREES = {"flat_sap_register": ("kum_afa_open",)}
+LOCAL_DISAGREES: dict[str, tuple[str, ...]] = {}
 
 
 def expected_sap() -> set[tuple]:

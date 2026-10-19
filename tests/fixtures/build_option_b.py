@@ -103,7 +103,28 @@ def two_year_two_sheets(path: Path) -> Path:
         for subtotal, members in ((11, (10,)), (17, (15, 16))):
             for index, column in enumerate(SPIEGEL_VALUE_COLUMNS):
                 sheet[f"{col(column)}{subtotal}"] = sum(SPIEGEL_ROWS[year][member][2 + index] for member in members)
+        if year == 2025:
+            # Unlabelled grand total, then a reconciliation section below the table (shape of the real f08, rows 26-39).
+            for index, column in enumerate(SPIEGEL_VALUE_COLUMNS):
+                sheet[f"{column}19"] = sum(values[2 + index] for values in SPIEGEL_ROWS[year].values())
+            for row, label, cells in RECONCILIATION:
+                sheet[f"B{row}"] = label
+                for column, value in cells:
+                    sheet[f"{column}{row}"] = value
     workbook.save(path); return path
+
+
+RECONCILIATION = (  # (row, label, [(column, value)]) - never records: they restate or check totals
+    (21, "Abstimmung Vorjahreswerte", ()),
+    (22, "AHK 01.01.2025 lt. Anlagengitter Vorjahr (AV 2)", (("C", 9000.00), ("T", 0))),
+    (23, "kum. Abschreibungen 01.01.2025 lt. Anlagengitter Vorjahr (AV 2)", (("J", 1600.00), ("T", 0))),
+    (25, "Abstimmung aktuelle Werte Anlagegitter", ()),
+    (26, "Zugänge lt. Anlagegitter", (("D", 700.00), ("T", 0))),
+    (27, "Abgänge lt. Anlagegitter", (("E", 100.00), ("T", 0))),
+    (28, "Abschreibungen lt. Anlagegitter", (("K", 400.00), ("T", 0))),
+    (30, "Bearbeitungsstand 21.02.2026: Werte lt. vorläufiger Bilanz", ()),
+    (31, "Differenz Zugänge: GWG-Sammelposten im Anlagegitter nicht enthalten", (("D", 12.50),)),
+)
 
 
 REGISTER_HEADER = ("Anlage", "Unter-nummer", "Aktivierung am", "Anlagenbezeichnung", "Währ-ung", "AHK GJ-Beg", "Zugang", "Abgang", "Umbuchung", "Nachaktivg",

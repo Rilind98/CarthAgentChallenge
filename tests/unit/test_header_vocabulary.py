@@ -42,3 +42,24 @@ def test_xlsx_group_branch_keeps_movement_under_depreciation_group(tmp_path: Pat
     depreciation = resolver.resolve(by_locator["Spiegel!C4"], observations)
     assert writeup.business is not None and writeup.business.field == "zuschreibung"
     assert depreciation.business is not None and depreciation.business.field == "total_afa_gj"
+
+
+@pytest.mark.parametrize(("header", "expected"), [
+    # R3-5: an opening/closing suffix names the cumulative balance, never the year's charge.
+    ("AfA GJ-Beg", "kum_afa_open"), ("AfA GJ Beginn", "kum_afa_open"), ("AfA Anfang", "kum_afa_open"),
+    ("AfA GJ-Ende", "kum_afa_close"), ("AfA GJ End", "kum_afa_close"),
+    ("AfA GJ", "total_afa_gj"), ("AfA des Jahres", None),
+])
+def test_depreciation_suffix_names_the_balance_not_the_charge(header, expected):
+    assert match(header, FIELDS) == expected
+
+
+@pytest.mark.parametrize(("header", "expected"), [
+    ("UNr", "asset_sub_id"), ("U-Nr.", "asset_sub_id"), ("Sub", "asset_sub_id"), ("Teil", "asset_sub_id"), ("Lfd.", "asset_sub_id"),
+    ("Unterpos.", "asset_sub_id"), ("SNr", "asset_sub_id"), ("Unter-nummer", "asset_sub_id"), ("Anlage", "asset_id"),
+    # Short spellings are exact tokens, never substrings of other headers.
+    ("lfd Buchwert", None), ("Teilwert", None), ("Subvention", None), ("Anlagengruppe", None),
+])
+def test_sub_number_and_asset_spellings_are_exact(header, expected):
+    from carthagent.structure import IDENTITIES
+    assert match(header, IDENTITIES) == expected

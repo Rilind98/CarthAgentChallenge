@@ -10,7 +10,7 @@ import time
 from .models import AssociationClaim, AssociationKind, Abstention, BusinessIdentity, CoverageDisposition, CoverageItem, HypothesisSet, PhysicalIdentity, SourceObservation, ValidatedFact
 from .numeric import NumericParseError, parse_amount
 from .policies import PolicyBundle
-from .structure import ContextResolver, ResolvedContext, norm, unit_from_text
+from .structure import ContextResolver, ResolvedContext, label_key_ok, norm, unit_from_text
 
 
 SEMANTICS_VERSION = "14"
@@ -312,7 +312,7 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
         conflicts.append("period")
     if business.period is None and len(years) == 1:
         business = replace(business, period=next(iter(years)), temporal_role=selected.semantic_temporal_role); evidence.append(period_observation.id)
-    key = business.asset_id or business.class_code or business.balance_position or business.source_name
+    key = business.asset_id or business.class_code or business.balance_position or (business.source_name if label_key_ok(business.source_name) else None)
     business = replace(business, asset_or_class=key, granularity="asset" if business.asset_id else ("class" if business.class_code else "source_row"))
     recomputed = {
         "field": business.field not in {None, "amount"},

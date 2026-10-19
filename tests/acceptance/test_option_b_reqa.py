@@ -42,7 +42,7 @@ def reg_go(tmp_path, mutate=None, idents=None, periods=None):
 
 def test_register_baseline_still_binds_every_value(tmp_path):
     facts, bad, collisions = reg_go(tmp_path)
-    assert len(facts) == 36 and not bad and not collisions
+    assert len(facts) == 39 and not bad and not collisions, "13 labelled fields x 3 records (M = kum_afa_open binds since R3-5)"
 
 
 def _remarks(ws):

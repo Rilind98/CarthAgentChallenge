@@ -400,13 +400,14 @@ def _observation_chunks(observations: tuple[SourceObservation, ...], bounds: Res
         step = bounds.row_chunk_size - bounds.row_overlap
         if step <= 0:
             raise ValueError("row chunk overlap must be smaller than chunk size")
-        # Context rows repeated in every window: the sheet's first rows (titles, reporting date) plus, when acquisition found
-        # record blocks, the rows just above the first block (the table's header band).
-        first_record = min((int(o.metadata["row"]) for o in sheet_observations if o.kind == "record_block" and o.metadata.get("row") is not None), default=None)
-        above = [row for row in rows if first_record is not None and row < first_record]
-        header_rows = set(rows[:bounds.row_overlap]) | set(above[-bounds.row_overlap:])
+        # Context rows repeated in every window: the sheet's first rows (titles, reporting date) plus the header band of the
+        # table the window starts in (the nearest band above its first row), never another table's band.
+        blocks = [o for o in sheet_observations if o.kind == "record_block" and o.metadata.get("row") is not None]
+        identity = {int(o.metadata["row"]) for o in blocks}
+        members = {int(str(member).rsplit(":", 1)[1]) for o in blocks for member in o.metadata.get("member_ids", ()) if str(member).rsplit(":", 1)[1].isdigit()}
+        bands = _header_bands(rows, identity, members, bounds.row_overlap)
         for offset in range(0, len(rows), step):
-            window = set(rows[offset:offset + bounds.row_chunk_size]) | header_rows
+            window = set(rows[offset:offset + bounds.row_chunk_size]) | set(rows[:bounds.row_overlap]) | set(_band_for(bands, offset))
             def row_of(observation: SourceObservation) -> int | None:
                 if observation.metadata.get("row") is not None:
                     return int(observation.metadata["row"])
@@ -468,14 +469,16 @@ def _mapper_bounded_chunks(mapper: OpenAICompatibleMapper, document_id: str, obs
         whole = closure(region, rows)
         if mapper.request_fits(document_id, whole):
             pieces.append(whole); continue
-        identity_rows = {str(o.metadata.get("identity_row_id")) for o in observations if o.kind == "record_block"}
-        first_record = next((index for index, row_id in enumerate(rows) if row_id in identity_rows), 0)
-        context = list(dict.fromkeys((*rows[:context_rows], *rows[max(0, first_record - context_rows):first_record])))
-        if context and not mapper.request_fits(document_id, closure(region, context)):
+        blocks = [o for o in observations if o.kind == "record_block"]
+        bands = _header_bands(rows, {str(o.metadata.get("identity_row_id")) for o in blocks}, {str(m) for o in blocks for m in o.metadata.get("member_ids", ())}, context_rows)
+        top = rows[:context_rows]
+        if top and not mapper.request_fits(document_id, closure(region, top)):
             raise MapperUnavailableError("mapper_minimum_coherent_region_exceeds_request_budget")
-        pending = [row_id for row_id in rows if row_id not in set(context)]
+        pending = [row_id for row_id in rows if row_id not in set(top)]
+        index_of = {row_id: index for index, row_id in enumerate(rows)}
         offset = 0
         while offset < len(pending):
+            context = list(dict.fromkeys((*top, *_band_for(bands, index_of[pending[offset]]))))
             low, high, best = offset + 1, len(pending), None
             while low <= high:
                 middle = (low + high) // 2
@@ -506,6 +509,27 @@ def _mapper_bounded_chunks(mapper: OpenAICompatibleMapper, document_id: str, obs
     if not packed:
         raise MapperUnavailableError("mapper_no_coherent_regions")
     return tuple(packed)
+
+
+def _header_bands(rows: list, identity: set, members: set, limit: int) -> list[tuple[int, list]]:
+    """(index of a table's first record, up to `limit` non-record rows directly above it) for every table on the sheet."""
+    bands: list[tuple[int, list]] = []
+    for index, row in enumerate(rows):
+        if row not in identity or (index and rows[index - 1] in members):
+            continue
+        cursor = index; band: list = []
+        while cursor and rows[cursor - 1] not in members and len(band) < limit:
+            cursor -= 1; band.insert(0, rows[cursor])
+        if band:
+            bands.append((index, band))
+    return bands
+
+
+def _band_for(bands: list[tuple[int, list]], index: int) -> list:
+    """The band of the table a window starting at `index` is in: the nearest band whose records start at or before it
+    (a window still in the preamble gets the first table's band)."""
+    above = [band for start, band in bands if start <= index]
+    return above[-1] if above else (bands[0][1] if bands else [])
 
 
 def _deduplicate_mapped(hypotheses: tuple[HypothesisSet, ...]) -> tuple[HypothesisSet, ...]:

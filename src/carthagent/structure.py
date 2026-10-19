@@ -61,18 +61,33 @@ def _match_uncached(text: str, vocab: dict[str, tuple[str, ...]]) -> str | None:
     return winners[0] if len(winners) == 1 else None
 
 
+# Short identity spellings match only as the whole header (a substring "lfd"/"teil"/"sub" would hit "lfd Buchwert", "Teilwert").
+EXACT_IDENTITIES = {
+    **{spelling: "asset_sub_id" for spelling in ("unr", "u nr", "sub", "teil", "lfd", "unterpos", "snr", "unter nummer", "unter nr", "sub nr")},
+    **{spelling: "asset_id" for spelling in ("anlage", "anlage nr", "anlagen nr", "anl nr")},
+}
+_BALANCE_START = re.compile(r"\b(?:beg|beginn|begin|anfang|anf)\b")
+_BALANCE_END = re.compile(r"\b(?:ende|end)\b")
+
+
 def match(text: str, vocab: dict[str, tuple[str, ...]]) -> str | None:
     if vocab is FIELDS:
         value = norm(text)
         if "abgang" in value and "minderung" in value:
             return None
+        # "AfA GJ-Beg"/"AfA GJ-Ende" name the cumulative balance at the start/end of the year, never the year's charge.
+        if _DEPRECIATION_WORD.search(value) and not _MOVEMENT_WORD.search(value):
+            if _BALANCE_START.search(value):
+                return "kum_afa_open"
+            if _BALANCE_END.search(value):
+                return "kum_afa_close"
         # "Zugänge im Geschäftsjahr" names additions; the period qualifier only
         # means current-year depreciation when no movement word is present.
         if "geschäftsjahr" in value and _MOVEMENT_WORD.search(value) and not _DEPRECIATION_WORD.search(value):
             return _match_uncached(_PERIOD_QUALIFIER.sub(" ", value), FIELDS)
         return _match_known(text, "fields")
     if vocab is IDENTITIES:
-        return _match_known(text, "identities")
+        return EXACT_IDENTITIES.get(norm(text)) or _match_known(text, "identities")
     if vocab is HEADER_GROUPS:
         return _match_known(text, "groups")
     return _match_uncached(text, vocab)
@@ -189,7 +204,7 @@ class ContextResolver:
             candidate_col for candidate_col, header_row, header in indexed
             if header_start <= header_row <= header_cutoff
             and match(header.text or "", IDENTITIES) is None
-            and re.search(r"\b(?:nummer|number|code|identifier|record id)\b", norm(header.text or ""))
+            and re.search(r"\b(?:nummer|number|code|identifier|record id|id|ident|kennung|kz)\b", norm(header.text or ""))
         }
         unresolved_identifier_present = any(candidate_col in unresolved_identifier_columns and value.text for candidate_col, value in by_row.get(row, ()))
         declared_sub_id = any(match(header.text or "", IDENTITIES) == "asset_sub_id" and header_start <= header_row <= header_cutoff for _, header_row, header in indexed)
@@ -197,8 +212,8 @@ class ContextResolver:
         if role_key not in self._xlsx_record_roles:
             self._xlsx_record_roles[role_key] = _xlsx_record_role(row, indexed)
         role = self._xlsx_record_roles[role_key]
-        key = identity.get("asset_id") or identity.get("class_code") or identity.get("balance_position") or (None if unresolved_identifier_present else identity.get("source_name"))
-        missing = tuple(name for name, ok in (("field", field not in {None, "amount"}), ("business_identity", key), ("asset_sub_id", not declared_sub_id or identity.get("asset_sub_id") is not None), ("period", period is not None), ("unit", unit), ("unresolved_identifier", not unresolved_identifier_present)) if not ok)
+        key = identity.get("asset_id") or identity.get("class_code") or identity.get("balance_position") or (None if unresolved_identifier_present or not label_key_ok(identity.get("source_name")) else identity.get("source_name"))
+        missing = tuple(name for name, ok in (("field", field not in {None, "amount"}), ("business_identity", key), ("asset_sub_id", not declared_sub_id or identity.get("asset_sub_id") is not None), ("period", period is not None), ("unit", unit), ("unresolved_identifier", not unresolved_identifier_present), ("non_data_note", role != "note")) if not ok)
         business = BusinessIdentity(entity=identity.get("entity"), book=identity.get("book"), asset_or_class=key, source_name=identity.get("source_name"), asset_id=identity.get("asset_id"), asset_sub_id=identity.get("asset_sub_id"), class_code=identity.get("class_code"), class_name=identity.get("class_name"), account=identity.get("account"), balance_position=identity.get("balance_position"), granularity="asset" if identity.get("asset_id") else ("class" if identity.get("class_code") else "source_row"), row_kind=role, period=period, temporal_role=temporal_role, field=field, currency="EUR", unit=unit)
         return ResolvedContext(business, Decimal(1000) if unit == "TEUR" else Decimal(1), tuple(dict.fromkeys(evidence)), missing)
 
@@ -273,7 +288,8 @@ class ContextResolver:
             re.search(r"\b(?:seite|page)\s*\d+\b", row_text)
             and re.search(r"\b(?:datum|date|printed|erstellt)\b", row_text)
         )
-        row_kind = "note" if is_page_footer else ("subtotal" if row_text.startswith(("summe ", "subtotal ")) else ("total" if row_text.startswith(("gesamt ", "total ")) else "data"))
+        reconciliation = any(reconciliation_text(word.text) for word in layout.words if word.id in set(layout.row.metadata.get("member_ids", ())))
+        row_kind = "note" if is_page_footer or reconciliation else ("subtotal" if row_text.startswith(("summe ", "subtotal ")) else ("total" if row_text.startswith(("gesamt ", "total ")) else "data"))
         row_member_ids = set(layout.row.metadata.get("member_ids", ()))
         measure_spans = [
             observation for observation in observations
@@ -819,6 +835,8 @@ def _xlsx_axis(column: int, amount_row: int, indexed: list[tuple[int, int, Sourc
             if "abgang" in value or "abgänge" in value: field = "afa_abgang"
             elif "zuschreib" in value or "write up" in value: field = "zuschreibung"
             elif "umbuch" in value: field = "afa_umb"
+            elif _BALANCE_START.search(value): field, temporal_role = "kum_afa_open", "opening"
+            elif _BALANCE_END.search(value): field, temporal_role = "kum_afa_close", "closing"
             elif "geschäftsjahr" in value or "geschaftsjahr" in value or "afa gj" in value: field = "total_afa_gj"
             # Additions to cumulative depreciation are the year's depreciation charge, never asset additions.
             elif "zugang" in value or "zugänge" in value: field = "total_afa_gj"
@@ -833,10 +851,34 @@ def _xlsx_axis(column: int, amount_row: int, indexed: list[tuple[int, int, Sourc
     return field, str(period_year) if period_year else None, temporal_role, tuple(dict.fromkeys(evidence))
 
 
+# A reconciliation/check line restates or compares totals ("AHK lt. Anlagengitter Vorjahr", "Differenz Zugänge"): never a record.
+RECONCILIATION_MARKERS = re.compile(r"abstimmung|\blt\b|\blaut\b|gem(?:ä|ae)(?:ß|ss)|differenz|(?:ü|ue)berleitung|bearbeitungsstand|vorl(?:ä|ae)ufig|kontrolle|\bcheck\b")
+GRAND_TOTAL_LABELS = frozenset({"summe", "gesamt", "total", "gesamtsumme", "summe gesamt", "summe anlagevermögen", "anlagevermögen gesamt", "gesamt anlagevermögen", "grand total"})
+MAX_LABEL_WORDS = 6
+
+
+def reconciliation_text(text: str | None) -> bool:
+    return bool(text) and not _looks_numeric(text or "") and bool(RECONCILIATION_MARKERS.search(norm(text or "")))
+
+
+def label_key_ok(text: str | None) -> bool:
+    """A printed label can key a record only while it reads like a name, not a sentence."""
+    return bool(text) and len(norm(text or "").split()) <= MAX_LABEL_WORDS
+
+
 def _xlsx_record_role(row: int, indexed: list[tuple[int, int, SourceObservation]]) -> str:
     row_values = [(column, o) for column, current_row, o in indexed if current_row == row and o.text]
     values = [o for _, o in row_values]
     texts = [norm(o.text or "") for o in values]
+    if any(reconciliation_text(o.text) for o in values):
+        return "note"
+    totals = [current_row for _, current_row, o in indexed if current_row < row and o.text and (norm(o.text) in GRAND_TOTAL_LABELS or norm(o.text).startswith(("gesamt ", "total ")))]
+    if totals:
+        # Below a grand total the table has ended, unless a new header band (>= 2 field/group header cells in a row) starts.
+        last_total = max(totals)
+        header_rows = {current_row for _, current_row, o in indexed if last_total < current_row < row and o.text and (match(o.text, FIELDS) or match(o.text, HEADER_GROUPS))}
+        if not any(sum(1 for _, r, o in indexed if r == candidate and o.text and (match(o.text, FIELDS) or match(o.text, HEADER_GROUPS))) >= 2 for candidate in header_rows):
+            return "note"
     if any(text.startswith(("summe ", "subtotal ")) for text in texts):
         return "subtotal"
     if any(text.startswith(("gesamt ", "total ")) for text in texts):
