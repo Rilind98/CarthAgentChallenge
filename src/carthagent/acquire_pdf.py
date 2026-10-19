@@ -7,7 +7,7 @@ import shutil
 import subprocess
 import tempfile
 import time
-from typing import Protocol
+from typing import Callable, Protocol
 
 import pymupdf as fitz
 
@@ -15,7 +15,7 @@ from .acquire_xlsx import AcquisitionResult, ResourceLimitError
 from .geometry import PageTransform
 from .models import CoverageDisposition, CoverageItem, SourceObservation
 from .numeric import NumericParseError, parse_amount
-from .ocr_azure import AzureDocumentIntelligenceOCR, AzureOCRError, OCRPage
+from .ocr_azure import AzureDocumentIntelligenceOCR, AzureOCRError, OCRPage, OCRTable, OCRTableCell, OCRWord
 from .ocr_mistral import MistralDocumentOCR, MistralOCRError, OCRPage as MistralOCRPage
 from .policies import ResourceBounds
 from .structure import FIELDS, HEADER_GROUPS, IDENTITIES, match, norm
@@ -170,18 +170,32 @@ def acquire_pdf(path: Path, document_id: str, source_hash: str, bounds: Resource
     azure_failed = False
     mistral_pages: dict[int, MistralOCRPage] = {}
     if ocr_enabled and ocr_provider == "azure_document_intelligence":
-        needs_cloud = any(not page.get_text("words") or bool(page.get_images(full=True) and len(page.get_text("words")) < 10) for page in doc)
-        if needs_cloud and azure_provider is None:
-            diagnostics.append("azure_ocr_provider_unconfigured"); azure_failed = True; partial = True
-        elif needs_cloud:
-            try:
-                result = azure_provider.analyze(path.read_bytes(), deadline=deadline)
-                for provider_page in result.pages:
-                    page_index = provider_page.page_number - 1
-                    if 0 <= page_index < doc.page_count:
-                        azure_pages[page_index] = _azure_page_observations(provider_page, doc[page_index], document_id, source_hash, page_index)
-            except (AzureOCRError, OSError, ValueError) as exc:
-                diagnostics.append(f"azure_ocr_unavailable:{type(exc).__name__}:{exc}"); azure_failed = True; partial = True
+        # Azure is the primary source for scan pages (no text layer, or a
+        # raster with almost no text) and outline pages (vector glyphs, no
+        # text layer). Only those pages are sent; native pages keep the
+        # native path. Tesseract is the fallback when Azure cannot answer.
+        cloud_pages = [index for index, page in enumerate(doc) if not page.get_text("words") or bool(page.get_images(full=True) and len(page.get_text("words")) < 10)]
+        if cloud_pages and azure_provider is None:
+            diagnostics.append("azure_ocr_provider_unconfigured"); diagnostics.append("azure_unavailable_fallback_tesseract:unconfigured"); azure_failed = True; partial = True
+        elif cloud_pages:
+            # Polling is bounded by what is left of the document budget after
+            # the reserve the later phases need.
+            azure_deadline = deadline - bounds.post_mapper_reserve_seconds
+            if azure_deadline <= time.monotonic():
+                diagnostics.append("azure_unavailable_fallback_tesseract:document_budget_exhausted"); azure_failed = True; partial = True
+            else:
+                try:
+                    result = azure_provider.analyze(path.read_bytes(), deadline=azure_deadline, pages=[index + 1 for index in cloud_pages])
+                    for provider_page in result.pages:
+                        page_index = provider_page.page_number - 1
+                        if page_index in cloud_pages:
+                            azure_pages[page_index], page_issues = _azure_page_observations(provider_page, doc[page_index], document_id, source_hash, page_index, result.tables)
+                            diagnostics.extend(page_issues)
+                    # A requested page Azure did not return (the free tier, for
+                    # one, analyses only the first two pages) goes to Tesseract.
+                    diagnostics.extend(f"page:{index + 1}:azure_page_missing_fallback_tesseract" for index in cloud_pages if not azure_pages.get(index))
+                except (AzureOCRError, OSError, ValueError) as exc:
+                    diagnostics.append(f"azure_unavailable_fallback_tesseract:{type(exc).__name__}:{exc}"); azure_failed = True; partial = True
     if ocr_enabled and ocr_provider == "mistral_document_ai":
         if mistral_provider is None:
             diagnostics.append("mistral_ocr_provider_unconfigured"); partial = True
@@ -269,7 +283,9 @@ def acquire_pdf(path: Path, document_id: str, source_hash: str, bounds: Resource
                 raise ResourceLimitError(f"pdf_observation_limit:{len(observations)}>{bounds.max_cells}")
             if not ocr:
                 partial = True
-        page_rows = [o.id for o in observations if o.metadata.get("page_index") == i and o.kind == "logical_row" and o.metadata.get("structure_role") == "visual_row"]
+        # Rows of an Azure table belong to that table's own region (one per
+        # table and page; tables are not stitched across pages).
+        page_rows = [o.id for o in observations if o.metadata.get("page_index") == i and o.kind == "logical_row" and o.metadata.get("structure_role") == "visual_row" and "table_index" not in o.metadata]
         record_blocks = _record_blocks(observations, document_id, source_hash, i, page.rotation)
         observations.extend(record_blocks)
         first_block_top = min((block.bbox[1] for block in record_blocks if block.bbox), default=float("inf"))
@@ -414,15 +430,26 @@ def _mistral_recognition_candidates(page: MistralOCRPage, observations: list[Sou
     return candidates
 
 
-def _record_blocks(observations: list[SourceObservation], document_id: str, source_hash: str, page_index: int, rotation: int) -> list[SourceObservation]:
+def _record_blocks(observations: list[SourceObservation], document_id: str, source_hash: str, page_index: int, rotation: int, *, table_index: int | None = None) -> list[SourceObservation]:
+    """Group measure rows into record blocks.
+
+    With ``table_index`` None this covers the page's word rows; otherwise only
+    the rows of that Azure table, whose members are ``cell`` observations.
+    """
     by_id = {observation.id: observation for observation in observations}
     rows = sorted(
-        (observation for observation in observations if observation.metadata.get("page_index") == page_index and observation.kind == "logical_row" and observation.metadata.get("structure_role") == "visual_row" and observation.bbox),
+        (
+            observation for observation in observations
+            if observation.metadata.get("page_index") == page_index and observation.kind == "logical_row" and observation.metadata.get("structure_role") == "visual_row" and observation.bbox
+            and observation.metadata.get("table_index") == table_index
+        ),
         key=lambda observation: observation.bbox[1],
     )
+    scope_members = {str(member) for row in rows for member in row.metadata.get("member_ids", ())}
     group_spans = [
         observation for observation in observations
         if observation.metadata.get("page_index") == page_index and observation.metadata.get("semantic_group") and observation.bbox
+        and scope_members.intersection(str(member) for member in observation.metadata.get("member_ids", ()))
     ]
     if not group_spans:
         return []
@@ -432,7 +459,7 @@ def _record_blocks(observations: list[SourceObservation], document_id: str, sour
         row_members = {str(value) for value in row.metadata.get("member_ids", ())}
         spans = [span for span in group_spans if row_members.intersection(str(value) for value in span.metadata.get("member_ids", ()))]
         span = spans[0] if len(spans) == 1 else None
-        words = [by_id[value] for value in row_members if value in by_id and by_id[value].kind == "word" and by_id[value].bbox]
+        words = [by_id[value] for value in row_members if value in by_id and by_id[value].kind in {"word", "cell"} and by_id[value].bbox]
         has_financial_value = False
         for word in words:
             if (word.bbox[0] + word.bbox[2]) / 2 <= value_boundary or not word.text:
@@ -458,8 +485,9 @@ def _record_blocks(observations: list[SourceObservation], document_id: str, sour
         block_rows = [item[0] for item in current]; spans = [item[1] for item in current if item[1] is not None]
         boxes = [row.bbox for row in block_rows if row.bbox]
         bbox = (min(box[0] for box in boxes), min(box[1] for box in boxes), max(box[2] for box in boxes), max(box[3] for box in boxes))
-        block_id = f"{document_id}:pdf:p{page_index + 1}:record:{len(blocks)}"
-        blocks.append(SourceObservation(block_id, document_id, source_hash, "record_block", f"page:{page_index + 1}:record:{len(blocks)}", "pdf_structure", " | ".join(row.text or "" for row in block_rows), bbox, {
+        scope = "record" if table_index is None else f"aztable:{table_index}:record"
+        block_id = f"{document_id}:pdf:p{page_index + 1}:{scope}:{len(blocks)}"
+        blocks.append(SourceObservation(block_id, document_id, source_hash, "record_block", f"page:{page_index + 1}:{scope}:{len(blocks)}", "pdf_structure", " | ".join(row.text or "" for row in block_rows), bbox, {
             "member_ids": [row.id for row in block_rows],
             "identity_row_id": block_rows[0].id,
             "measure_row_ids": [row.id for row in block_rows],
@@ -469,6 +497,7 @@ def _record_blocks(observations: list[SourceObservation], document_id: str, sour
             "page_index": page_index,
             "page_rotation": rotation,
             "structure_role": "record_block",
+            **({} if table_index is None else {"table_index": table_index}),
         }))
         current = []
 
@@ -495,18 +524,24 @@ def _record_blocks(observations: list[SourceObservation], document_id: str, sour
     return blocks
 
 
-def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, document_id: str, source_hash: str, page_index: int) -> list[SourceObservation]:
+def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, document_id: str, source_hash: str, page_index: int, tables: tuple[OCRTable, ...] = ()) -> tuple[list[SourceObservation], list[str]]:
     if provider_page.unit not in {"inch", "pixel"} or provider_page.width <= 0 or provider_page.height <= 0:
         raise ValueError(f"unsupported_azure_coordinate_unit:{provider_page.unit}")
     canonical = source_page.cropbox
     rotation = source_page.rotation % 360
     rendered_width, rendered_height = ((canonical.height, canonical.width) if rotation in {90, 270} else (canonical.width, canonical.height))
     transform = PageTransform(rotation=rotation, page_width=canonical.width, page_height=canonical.height)
+
+    def to_source(polygon: tuple[float, ...]) -> tuple[tuple[float, float, float, float], tuple[float, float, float, float]]:
+        # Azure polygons are in the displayed (rotated, cropped) page in
+        # provider units; scale to points, then undo the page rotation.
+        points = tuple((polygon[offset] / provider_page.width * rendered_width, polygon[offset + 1] / provider_page.height * rendered_height) for offset in range(0, len(polygon), 2))
+        rendered = (min(x for x, _ in points), min(y for _, y in points), max(x for x, _ in points), max(y for _, y in points))
+        return rendered, transform.to_source(rendered)
+
     observations: list[SourceObservation] = []
     for index, word in enumerate(provider_page.words):
-        points = tuple((word.polygon[offset] / provider_page.width * rendered_width, word.polygon[offset + 1] / provider_page.height * rendered_height) for offset in range(0, len(word.polygon), 2))
-        rendered = (min(x for x, _ in points), min(y for _, y in points), max(x for x, _ in points), max(y for _, y in points))
-        source_box = transform.to_source(rendered)
+        rendered, source_box = to_source(word.polygon)
         oid = f"{document_id}:pdf:p{page_index + 1}:azure:{index}"
         observations.append(SourceObservation(oid, document_id, source_hash, "word", f"page:{page_index + 1}:azure:{index}", "pdf_ocr", word.text, source_box, {"confidence": word.confidence, "provider": "azure_document_intelligence", "provider_unit": provider_page.unit, "provider_page_width": provider_page.width, "provider_page_height": provider_page.height, "render_box": rendered, "roundtrip_ok": transform.roundtrip_ok(source_box), "page_index": page_index, "page_rotation": rotation, "page_width": canonical.width, "page_height": canonical.height}))
     groups: list[list[SourceObservation]] = []
@@ -522,16 +557,140 @@ def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, doc
         bbox = (min(box[0] for box in boxes), min(box[1] for box in boxes), max(box[2] for box in boxes), max(box[3] for box in boxes))
         row_id = f"{document_id}:pdf:p{page_index + 1}:azurerow:{row_no}"
         observations.append(SourceObservation(row_id, document_id, source_hash, "logical_row", f"page:{page_index + 1}:azurerow:{row_no}", "pdf_ocr_structure", " ".join(item.text or "" for item in group), bbox, {"member_ids": [item.id for item in group], "page_index": page_index, "page_rotation": rotation, "structure_role": "visual_row", "provider": "azure_document_intelligence"}))
-        observations.extend(item for item in _semantic_spans(document_id, source_hash, page_index, row_id, group, "pdf_ocr_structure") if item.metadata.get("semantic_group"))
-        for start in range(len(group)):
-            for end in range(start + 1, len(group) + 1):
-                field = match(" ".join(item.text or "" for item in group[start:end]), FIELDS)
-                axis = match(" ".join(item.text or "" for item in group[start:end]), IDENTITIES)
-                role, value = ("semantic_field", field) if field else (("semantic_identity", axis) if axis else (None, None))
-                if role is None:
-                    continue
-                span = group[start:end]; span_boxes = [item.bbox for item in span if item.bbox]
-                span_bbox = (min(box[0] for box in span_boxes), min(box[1] for box in span_boxes), max(box[2] for box in span_boxes), max(box[3] for box in span_boxes))
-                observations.append(SourceObservation(f"{row_id}:header:{role}:{value}:{start}", document_id, source_hash, "logical_row", f"page:{page_index + 1}:azureheader:{row_no}:{role}:{value}:{start}", "pdf_ocr_structure", " ".join(item.text or "" for item in span), span_bbox, {"member_ids": [item.id for item in span], "page_index": page_index, "page_rotation": rotation, "structure_role": "native_line", role: value, "provider": "azure_document_intelligence"}))
-    return observations
+        # Narrowest span per (role, value), as for native rows. Emitting every
+        # matching span keyed only by its start produced duplicate ids, which
+        # the ledger rejects (immutable record collision).
+        observations.extend(_semantic_spans(document_id, source_hash, page_index, row_id, group, "pdf_ocr_structure"))
+    page_words = [(f"{document_id}:pdf:p{page_index + 1}:azure:{index}", word) for index, word in enumerate(provider_page.words)]
+    cell_observations, issues = _azure_table_observations(provider_page, page_words, tables, document_id, source_hash, page_index, transform, canonical, to_source)
+    observations.extend(cell_observations)
+    return observations, issues
+
+
+def _normalise_space(text: str) -> str:
+    return " ".join(text.split())
+
+
+_NUMERIC_LOOKING = re.compile(r"[\d\s.,'+\-\u2212()]*\d[\d\s.,'+\-\u2212()]*")
+
+
+def _point_in_polygon(x: float, y: float, polygon: tuple[float, ...]) -> bool:
+    inside = False
+    points = [(polygon[offset], polygon[offset + 1]) for offset in range(0, len(polygon), 2)]
+    for (x0, y0), (x1, y1) in zip(points, points[1:] + points[:1]):
+        if (y0 > y) != (y1 > y) and x < x0 + (y - y0) * (x1 - x0) / (y1 - y0):
+            inside = not inside
+    return inside
+
+
+def _cross_check(content: str, words: list[OCRWord], regions_on_page: int, shared: bool) -> str:
+    """Return "verified" or why the cell text is not corroborated by its own words."""
+    if regions_on_page != 1:
+        return "multiple_regions"
+    if shared:
+        return "word_in_multiple_cells"
+    joined = _normalise_space(" ".join(word.text for word in words))
+    text = _normalise_space(content)
+    if text != joined:
+        return "text_mismatch"
+    if text and _NUMERIC_LOOKING.fullmatch(text):
+        try:
+            if parse_amount(text).source_signed_value != parse_amount(joined).source_signed_value:
+                return "numeric_mismatch"
+        except NumericParseError:
+            return "numeric_unparseable"
+    return "verified"
+
+
+def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str, OCRWord]], tables: tuple[OCRTable, ...], document_id: str, source_hash: str, page_index: int, transform: PageTransform, canonical: fitz.Rect, to_source: Callable[[tuple[float, ...]], tuple[tuple[float, float, float, float], tuple[float, float, float, float]]]) -> tuple[list[SourceObservation], list[str]]:
+    """Azure table cells as `cell` observations, with rows and one region per table and page.
+
+    Cell text is kept as Azure returned it. A cell is `verified` only when the
+    Azure words whose centre lies inside its polygon spell the same text
+    (whitespace-normalised) and, for numeric text, parse to the same amount.
+    Tables are not stitched across pages.
+    """
+    page_number = provider_page.page_number
+    rotation = transform.rotation
+    observations: list[SourceObservation] = []
+    verified_count = unverified_count = 0
+    word_centres = []
+    for word_id, word in page_words:
+        xs, ys = word.polygon[0::2], word.polygon[1::2]
+        word_centres.append((word_id, word, (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2))
+    for table_index, table in enumerate(tables):
+        placed: list[tuple[OCRTableCell, tuple[float, ...], int, list[tuple[str, OCRWord]]]] = []
+        for cell in table.cells:
+            regions = [region for region in cell.bounding_regions if region.page_number == page_number]
+            if not regions:
+                continue
+            polygon = regions[0].polygon
+            members = sorted(((word_id, word) for word_id, word, x, y in word_centres if _point_in_polygon(x, y, polygon)), key=lambda item: item[1].span.offset)
+            placed.append((cell, polygon, len(regions), members))
+        if not placed:
+            continue
+        claims: dict[str, int] = {}
+        for _, _, _, members in placed:
+            for word_id, _ in members:
+                claims[word_id] = claims.get(word_id, 0) + 1
+        cells_by_row: dict[int, list[SourceObservation]] = {}
+        single_row_boxes: dict[int, list[tuple[float, float, float, float]]] = {}
+        for cell, polygon, region_count, members in placed:
+            rendered, source_box = to_source(polygon)
+            status = _cross_check(cell.content, [word for _, word in members], region_count, any(claims[word_id] > 1 for word_id, _ in members))
+            verified = status == "verified"
+            lexeme_boxes = [to_source(word.polygon)[1] for _, word in members] if verified else []
+            lexeme_bbox = (min(b[0] for b in lexeme_boxes), min(b[1] for b in lexeme_boxes), max(b[2] for b in lexeme_boxes), max(b[3] for b in lexeme_boxes)) if lexeme_boxes else None
+            verified_count += verified
+            unverified_count += not verified
+            row_span, column_span = cell.row_span or 1, cell.column_span or 1
+            locator = f"page:{page_index + 1}:azcell:{table_index}:{cell.row_index}:{cell.column_index}"
+            observation = SourceObservation(
+                f"{document_id}:pdf:p{page_index + 1}:azcell:{table_index}:{cell.row_index}:{cell.column_index}", document_id, source_hash, "cell",
+                locator, "pdf_ocr", cell.content, source_box,
+                {
+                    "row_index": cell.row_index, "column_index": cell.column_index, "row_span": row_span, "column_span": column_span,
+                    "cell_kind": cell.kind or "content", "table_index": table_index, "page_index": page_index, "page_rotation": rotation,
+                    "page_width": canonical.width, "page_height": canonical.height,
+                    "confidence": min((word.confidence for _, word in members), default=None),
+                    "azure_cell_id": f"t{table_index}r{cell.row_index}c{cell.column_index}", "verified": verified, "cross_check": status,
+                    # The printed lexeme inside the cell (union of its verified
+                    # words); the cell polygon itself is usually wider.
+                    "lexeme_bbox": lexeme_bbox,
+                    "member_word_ids": [word_id for word_id, _ in members],
+                    "provider": "azure_document_intelligence", "render_box": rendered, "roundtrip_ok": transform.roundtrip_ok(source_box),
+                },
+            )
+            observations.append(observation)
+            cells_by_row.setdefault(cell.row_index, []).append(observation)
+            if row_span == 1:
+                single_row_boxes.setdefault(cell.row_index, []).append(source_box)
+        row_ids: list[str] = []
+        header_row_ids: list[str] = []
+        table_observations: list[SourceObservation] = []
+        for row_index in sorted(cells_by_row):
+            # A spanning cell belongs only to the row it starts in, so every
+            # cell has exactly one owning visual row.
+            members = sorted(cells_by_row[row_index], key=lambda item: int(item.metadata["column_index"]))
+            # A cell spanning several rows would stretch the row box over its
+            # neighbours; prefer the boxes of the row's single-row cells.
+            boxes = single_row_boxes.get(row_index) or [item.bbox for item in members if item.bbox]
+            bbox = (min(b[0] for b in boxes), min(b[1] for b in boxes), max(b[2] for b in boxes), max(b[3] for b in boxes))
+            row_id = f"{document_id}:pdf:p{page_index + 1}:azrow:{table_index}:{row_index}"
+            table_observations.append(SourceObservation(row_id, document_id, source_hash, "logical_row", f"page:{page_index + 1}:azrow:{table_index}:{row_index}", "pdf_ocr_structure", " ".join(item.text or "" for item in members), bbox, {"member_ids": [item.id for item in members], "page_index": page_index, "page_rotation": rotation, "structure_role": "visual_row", "provider": "azure_document_intelligence", "table_index": table_index, "row_index": row_index}))
+            row_ids.append(row_id)
+            if any(item.metadata["cell_kind"] == "columnHeader" for item in members):
+                header_row_ids.append(row_id)
+            table_observations.extend(_semantic_spans(document_id, source_hash, page_index, row_id, members, "pdf_ocr_structure"))
+        blocks = _record_blocks([*observations, *table_observations], document_id, source_hash, page_index, rotation, table_index=table_index)
+        table_observations.extend(blocks)
+        regions = [region.polygon for region in table.bounding_regions if region.page_number == page_number]
+        table_observations.append(SourceObservation(
+            f"{document_id}:pdf:p{page_index + 1}:aztable:{table_index}", document_id, source_hash, "table_region", f"page:{page_index + 1}:aztable:{table_index}", "pdf_ocr_structure", f"Page {page_index + 1} table {table_index}", to_source(regions[0])[1] if len(regions) == 1 else None,
+            {"member_ids": row_ids, "header_row_ids": header_row_ids, "record_block_ids": [block.id for block in blocks], "page_index": page_index, "page_rotation": rotation, "structure_role": "azure_table", "provider": "azure_document_intelligence", "table_index": table_index, "row_count": table.row_count, "column_count": table.column_count},
+        ))
+        observations.extend(table_observations)
+    if not verified_count and not unverified_count:
+        return observations, []
+    return observations, [f"page:{page_index + 1}:azure_cells_verified:{verified_count}", f"page:{page_index + 1}:azure_cells_unverified:{unverified_count}"]
 
