@@ -443,3 +443,23 @@ def test_mapper_provider_defaults_fingerprints_and_credentials(monkeypatch):
         claude.map("d", table_observations())
     with pytest.raises(MapperValidationError, match="unknown mapper provider"):
         OpenAICompatibleMapper(MapperConfig(True, provider="other")).map("d", table_observations())
+
+
+def test_mapper_identity_never_comes_from_a_bare_amount_cell(mapper_server):
+    # A numeric cell under an identity header is an amount, not an identity, unless it is identifier-shaped.
+    for identity_text, expected in (("0", ()), ("-23056.37", ()), ("27001", "keep")):
+        asset_header = xobs("A1", "Klasse"); amount_header = xobs("B1", "Custom metric EUR 2025")
+        identity = xobs("A2", identity_text); amount = xobs("B2", "123")
+        row = xobs("row:2", f"{identity_text} | 123", "logical_row", {"member_ids": [identity.id, amount.id], "sheet": "Data", "row": 2})
+        region = xobs("region", "Data", "table_region", {"member_ids": [row.id], "sheet": "Data"})
+        observations = (asset_header, amount_header, identity, amount, row, region)
+        proposal = plan(region, amount_header, asset_header, row)
+        proposal["plans"][0]["identity_headers"] = [{"observation_id": asset_header.id, "identity_role": "class_code"}]
+        StubHandler.response_content = proposal
+        mapped = OpenAICompatibleMapper(MapperConfig(True, mapper_server, "local-stub", 2, 256)).map("d", observations)
+        hypothesis = next(h for h in mapped if h.amount_observation_id == amount.id)
+        assignments = hypothesis.candidates[0].semantic_identity_assignments
+        if expected == "keep":
+            assert assignments == ((identity.id, "class_code"),), identity_text
+        else:
+            assert assignments == (), identity_text

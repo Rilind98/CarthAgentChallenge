@@ -31,6 +31,11 @@ HEADER_GROUPS = {
 }
 
 
+_MOVEMENT_WORD = re.compile(r"zug[aä]ng|abg[aä]ng|umbuch|zuschreib")
+_DEPRECIATION_WORD = re.compile(r"\bafa\b|abschreib")
+_PERIOD_QUALIFIER = re.compile(r"\b(?:im|des|geschäftsjahr(?:es)?)\b")
+
+
 @lru_cache(maxsize=32_768)
 def norm(text: str) -> str:
     return " ".join(re.sub(r"[^\wäöüß]+", " ", unicodedata.normalize("NFKC", text).casefold()).split())
@@ -61,6 +66,10 @@ def match(text: str, vocab: dict[str, tuple[str, ...]]) -> str | None:
         value = norm(text)
         if "abgang" in value and "minderung" in value:
             return None
+        # "Zugänge im Geschäftsjahr" names additions; the period qualifier only
+        # means current-year depreciation when no movement word is present.
+        if "geschäftsjahr" in value and _MOVEMENT_WORD.search(value) and not _DEPRECIATION_WORD.search(value):
+            return _match_uncached(_PERIOD_QUALIFIER.sub(" ", value), FIELDS)
         return _match_known(text, "fields")
     if vocab is IDENTITIES:
         return _match_known(text, "identities")
@@ -784,10 +793,10 @@ def _xlsx_axis(column: int, amount_row: int, indexed: list[tuple[int, int, Sourc
             elif column in peer_dates and column == min(peer_dates): field, temporal_role = "ahk_open", "opening"
             elif column in peer_dates and column == max(peer_dates): field, temporal_role = "ahk_close", "closing"
         elif group == "cum_depreciation":
-            if "geschäftsjahr" in value or "geschaftsjahr" in value or "afa gj" in value: field = "total_afa_gj"
-            elif "abgang" in value or "abgänge" in value: field = "afa_abgang"
+            if "abgang" in value or "abgänge" in value: field = "afa_abgang"
             elif "zuschreib" in value or "write up" in value: field = "zuschreibung"
             elif "umbuch" in value: field = "afa_umb"
+            elif "geschäftsjahr" in value or "geschaftsjahr" in value or "afa gj" in value: field = "total_afa_gj"
             elif column in peer_dates and column == min(peer_dates): field, temporal_role = "kum_afa_open", "opening"
             elif column in peer_dates and column == max(peer_dates): field, temporal_role = "kum_afa_close", "closing"
         elif group == "book_value" and column in peer_dates:

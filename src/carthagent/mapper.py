@@ -388,7 +388,7 @@ class OpenAICompatibleMapper:
                     identity_evidence: list[str] = []
                     for assignment in identity_headers:
                         header = by_id[assignment["observation_id"]]
-                        matching = [member for member in members if member.id != amount.id and _header_applies(header, member)]
+                        matching = [member for member in members if member.id != amount.id and _header_applies(header, member) and _identifier_like(member)]
                         if len(matching) == 1:
                             identity_values.append((matching[0].id, assignment["identity_role"])); identity_evidence.extend((header.id, matching[0].id))
                     period = periods[0] if len(periods) == 1 else None
@@ -472,6 +472,16 @@ def _amount_candidate(observation: SourceObservation) -> bool:
         return True
     except NumericParseError:
         return False
+
+
+def _identifier_like(observation: SourceObservation) -> bool:
+    """Text, or an undecorated digit string such as an asset or class number; never a parsed amount like 0 or -23056.37."""
+    text = (observation.text or "").strip()
+    if not text:
+        return False
+    if re.fullmatch(r"\d{2,}", text):
+        return True
+    return not _amount_candidate(observation)
 
 
 def _safe_identifier(value: object) -> str | None:
