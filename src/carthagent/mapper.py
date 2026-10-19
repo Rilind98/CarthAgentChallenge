@@ -491,9 +491,8 @@ class OpenAICompatibleMapper:
                         matching = [member for member in members if member.id != amount.id and _header_applies(header, member) and _block_identifier(member)]
                         if len(matching) == 1:
                             identity_values.append((matching[0].id, assignment["identity_role"])); identity_evidence.extend((header.id, matching[0].id))
-                    flat_periods = [item for item in periods if _period_cell_admissible(by_id[item["observation_id"]])]
-                    period = flat_periods[0] if len(periods) == 1 and flat_periods else None
-                    unit = units[0] if len(units) == 1 else None
+                    period = _flat_context(periods, amount, by_id, verification)
+                    unit = _flat_context(units, amount, by_id, verification)
                     context_ids = tuple(dict.fromkeys((
                         *((field_assignment or {}).get("observation_id",),),
                         *((measure_assignment or {}).get("observation_id",),),
@@ -560,7 +559,8 @@ def _validate_structure(plan: dict[str, object], row_ids: tuple[str, ...], by_id
                 raise MapperValidationError("invalid record block row")
         blocks.append(block)
     patterns = plan.get("block_pattern")
-    patterns = [] if patterns is None else (patterns if isinstance(patterns, list) else [patterns])
+    # Work on a copy: normalisation must never rewrite the model's plan (the audit records it as returned).
+    patterns = [] if patterns is None else json.loads(json.dumps(patterns if isinstance(patterns, list) else [patterns]))
     if len(patterns) > MAX_BLOCK_PATTERNS:
         raise MapperValidationError(f"at most {MAX_BLOCK_PATTERNS} block patterns per plan")
     for pattern in patterns:
@@ -927,14 +927,23 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
         labels.setdefault(assignment["observation_id"], set()).add(assignment["semantic_field"])
     if any(len(values) > 1 for values in labels.values()):
         return reject("R3", "header_cell_has_conflicting_fields")
+    # A header cell whose label the governing measure cannot carry abstains alone (R6-2: "Nachaktivg" labelled bew_ahk
+    # under AHK). The plan is refused only when the inadmissible labels are not a strict minority of the row's labels:
+    # then the measure itself, or the header-row assignment, is wrong (swapped header rows).
+    inadmissible: set[str] = set()
     for signature in signatures:
         if len(signature) > 1 and any(measure is None for _, measure in signature):
             return reject("R3", "multi_row_record_without_measure")
         for header_row_id, measure in signature:
             if header_row_id is None or measure is None:
                 continue
-            if any(label not in _admissible_fields(measure) for header_id, values in labels.items() if header_id in header_row_cells.get(header_row_id, ()) for label in values):
+            row_labels = {header_id: values for header_id, values in labels.items() if header_id in header_row_cells.get(header_row_id, ())}
+            refused = {header_id for header_id, values in row_labels.items() if values - _admissible_fields(measure)}
+            if refused and 2 * len(refused) >= len(row_labels):
                 return reject("R3", f"{header_row_id}:{measure}")
+            for header_id in sorted(refused - inadmissible):
+                verification.append({"rule": "R3", "detail": f"field_inadmissible_for_measure:{header_id}:{measure}"})
+            inadmissible |= refused
     disputed: set[str] = set()
     # R4 identity headers: declared header row, text that does not contradict the role (B2).
     for assignment in identity_headers:
@@ -1037,6 +1046,8 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                 # R7 uniqueness: two header assignments, a field and a movement on one column, or disagreeing row/column measures.
                 if len(fields) > 1 or len(movements) > 1 or (fields and movements) or len(column_measures) > 1 or (item["measure"] and column_measures and item["measure"] not in column_measures):
                     verification.append({"rule": "R7", "detail": amount.id}); continue
+                if fields and fields[0]["observation_id"] in inadmissible:
+                    continue
                 if fields:
                     header = by_id[fields[0]["observation_id"]]
                     groups = {group for group in (item["measure"], *column_measures) if group} | _parent_groups(header, group_cells)
@@ -1186,6 +1197,32 @@ def _period_cell_admissible(observation: SourceObservation) -> bool:
     """B3: a reporting period is printed text, never an amount, a record date, or a creation/print stamp."""
     text = observation.text or ""
     return bool(text.strip()) and not _amount_candidate(observation) and not CREATION_WORDS.search(text)
+
+
+def _flat_context(contexts: list[dict[str, object]], amount: SourceObservation, by_id: dict[str, SourceObservation], verification: list[dict[str, object]]) -> dict[str, object] | None:
+    """R6-3: a column-only (flat) region resolves period/unit per column like a block does. A column context applies to the
+    amounts below it in its column, a sheet context to its sheet; code re-reads every cited text (R5). The column scope wins
+    over the sheet scope; disagreeing contexts of one scope, or a cited text that does not read as declared, abstain."""
+    by_scope: dict[str, list[tuple[tuple[str, ...] | None, dict[str, object]]]] = {"column": [], "sheet": []}
+    for context in contexts:
+        observation = by_id[context["observation_id"]]; scope = context.get("scope", "sheet")
+        if scope == "column" and _header_applies(observation, amount):
+            by_scope["column"].append((_context_value(context, observation), context))
+        elif scope == "sheet" and (len(contexts) == 1 or _same_sheet(observation, amount)):
+            by_scope["sheet"].append((_context_value(context, observation), context))
+    for scope in ("column", "sheet"):
+        applicable = by_scope[scope]
+        if not applicable:
+            continue
+        if any(value is None for value, _ in applicable) or len({value for value, _ in applicable}) > 1:
+            verification.append({"rule": "R5", "detail": amount.id}); return None
+        return applicable[0][1]
+    return None
+
+
+def _same_sheet(observation: SourceObservation, amount: SourceObservation) -> bool:
+    first, second = _xlsx_position(observation), _xlsx_position(amount)
+    return bool(first and second and first[0] == second[0])
 
 
 def _context_value(context: dict[str, object], observation: SourceObservation) -> tuple[str, ...] | None:

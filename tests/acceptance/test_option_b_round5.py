@@ -115,6 +115,11 @@ def build_two(path, label_total=True):
     workbook.save(path); return path
 
 
+TOTAL_TRUTH = {("AV", f"{column}12"): (field, "Gesamt Anlagevermögen", "2025", Decimal(sum(record[index][position] for record in reqa.RECS.values())))
+               for cols, index, fields in ((reqa.AHK_COLS, 1, ("ahk_open", "zugang", "abgang", "umb", "ahk_close")), (reqa.AFA_COLS, 2, ("kum_afa_open", "total_afa_gj", "afa_abgang", "kum_afa_close")), (reqa.BV_COLS, 3, ("bw_close", "bw_prev")))
+               for position, (column, field) in enumerate(zip(cols, fields))}
+
+
 @pytest.mark.parametrize(("label_total", "declare_prior", "total_role"), [(True, True, False), (True, True, True), (False, True, False), (True, False, False), (False, False, False)])
 def test_k2_s4_rows_below_the_grand_total_and_the_prior_year_title_never_bind(tmp_path, label_total, declare_prior, total_role):
     source = build_two(tmp_path / "two.xlsx", label_total)
@@ -126,8 +131,11 @@ def test_k2_s4_rows_below_the_grand_total_and_the_prior_year_title_never_bind(tm
         q["record_blocks"].append({"identity_row_id": R(12), "rows": [{"row_id": R(12), "header_row_id": R(5), "measure": None}], "role": "total"})
     for name, plan in (("local", {"plans": []}), ("mapped", recorded)):
         _, facts = adv.run(tmp_path, source, plan, name)
-        assert not [f["pointer"]["cell"] for f in facts if f["pointer"]["cell"][1:] in ("12", "13", "14", "15")], name
-        assert not adv.wrong(facts, reqa.AV_TRUTH), name
+        # R6-1 (S4 reverted): a LABELLED grand total stays a total record keyed by its printed label (the evaluator scores
+        # totals); an unlabelled one never binds. The prior-year rows below the title never bind.
+        assert not [f["pointer"]["cell"] for f in facts if f["pointer"]["cell"][1:] in (("13", "14", "15") if label_total else ("12", "13", "14", "15"))], name
+        assert all(f["asset_identity"].get("asset_or_class") == "Gesamt Anlagevermögen" for f in facts if f["pointer"]["cell"][1:] == "12"), name
+        assert not adv.wrong(facts, {**reqa.AV_TRUTH, **(TOTAL_TRUTH if label_total else {})}), name
 
 
 def test_k2_two_year_sheets_keep_their_facts(tmp_path):

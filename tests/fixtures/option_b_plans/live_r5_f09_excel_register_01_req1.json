@@ -1,0 +1,223 @@
+{
+ "recorded_from": "stage1-935f331 ledger cache (Claude mapper, schema v11)",
+ "document_id": "f09_excel_register_01-c01685ad5142",
+ "fingerprint": {
+  "enabled": true,
+  "max_output_tokens": 32768,
+  "model": "claude-opus-5-5",
+  "prompt_version": "compact-region-plan-v13",
+  "provider": "anthropic",
+  "reasoning_effort": "high",
+  "schema_version": "semantic_region_plan_v11",
+  "skeleton_sample_blocks": 3,
+  "timeout_seconds": 300,
+  "verifier_version": "option-b-verifier-4"
+ },
+ "verification_at_record_time": [
+  {
+   "detail": "no_pattern:f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:9",
+   "rule": "pattern"
+  },
+  {
+   "detail": "no_pattern:f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:70",
+   "rule": "pattern"
+  }
+ ],
+ "request_fingerprint": null,
+ "plans": [
+  {
+   "block_pattern": [
+    {
+     "applies_to": "all_blocks_of_same_shape",
+     "role": "data",
+     "row_count": 1,
+     "rows": [
+      {
+       "header_row_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:13",
+       "measure": null,
+       "ordinal": 0
+      }
+     ]
+    }
+   ],
+   "field_headers": [
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!F13",
+     "parent_header_ids": [],
+     "semantic_field": "ahk_open"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!G13",
+     "parent_header_ids": [],
+     "semantic_field": "zugang"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!H13",
+     "parent_header_ids": [],
+     "semantic_field": "abgang"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!I13",
+     "parent_header_ids": [],
+     "semantic_field": "umb"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!L13",
+     "parent_header_ids": [],
+     "semantic_field": "ahk_close"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!M13",
+     "parent_header_ids": [],
+     "semantic_field": "kum_afa_open"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!N13",
+     "parent_header_ids": [],
+     "semantic_field": "total_afa_gj"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!O13",
+     "parent_header_ids": [],
+     "semantic_field": "afa_abgang"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!P13",
+     "parent_header_ids": [],
+     "semantic_field": "afa_umb"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!R13",
+     "parent_header_ids": [],
+     "semantic_field": "zuschreibung"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!S13",
+     "parent_header_ids": [],
+     "semantic_field": "kum_afa_close"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!T13",
+     "parent_header_ids": [],
+     "semantic_field": "bw_prev"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!U13",
+     "parent_header_ids": [],
+     "semantic_field": "bw_close"
+    }
+   ],
+   "header_rows": [
+    "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:13"
+   ],
+   "identity_headers": [
+    {
+     "identity_role": "asset_id",
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!A13"
+    },
+    {
+     "identity_role": "asset_sub_id",
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!B13"
+    },
+    {
+     "identity_role": "source_name",
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!D13"
+    }
+   ],
+   "measure_axes": [],
+   "movement_axes": [],
+   "period_contexts": [
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1!A4",
+     "scope": "sheet",
+     "temporal_role": "closing"
+    }
+   ],
+   "region_observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:region",
+   "row_roles": [
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:4",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:6",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:9",
+     "row_role": "total"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:14",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:15",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:16",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:17",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:18",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:19",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:20",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:21",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:22",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:23",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:24",
+     "row_role": "data"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:71",
+     "row_role": "total"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:75",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:76",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:77",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:78",
+     "row_role": "note"
+    },
+    {
+     "observation_id": "f09_excel_register_01-c01685ad5142:xlsx:Sheet1:row:79",
+     "row_role": "note"
+    }
+   ],
+   "table_type": "asset_register",
+   "unit_contexts": []
+  }
+ ]
+}

@@ -937,9 +937,10 @@ def total_label(text: str | None) -> bool:
 
 
 def label_key_ok(text: str | None) -> bool:
-    """A printed label can key a record only while it reads like a name, not a sentence, and is not a total label."""
+    """A printed label can key a record only while it reads like a name, not a sentence. Total and subtotal labels
+    ("Summe EDV-Software", "Summe Anlagevermögen") stay keys: they are the printed class/section totals (R6-1)."""
     value = norm(text or "")
-    return bool(text) and len(value.split()) <= MAX_LABEL_WORDS and not total_label(text) and not re.match(r"summe\b", value)
+    return bool(text) and len(value.split()) <= MAX_LABEL_WORDS
 
 
 def _xlsx_record_role(row: int, indexed: list[tuple[int, int, SourceObservation]]) -> str:
