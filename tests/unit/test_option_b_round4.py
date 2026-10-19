@@ -46,7 +46,7 @@ def test_skeleton_sends_header_band_and_three_sample_blocks_only(tmp_path):
     assert all(set(b) >= {"id", "identity_row_id", "member_count", "subtotal_marker"} for b in blocks)
     cells = {(item["row"], item["column"]) for item in skeleton if item["kind"] in {"cell", "empty_cell"}}
     assert (19 + 5 * 5 + 1, 2) not in cells, "unsampled rows send nothing about their cells"
-    assert MAPPER_SCHEMA_VERSION == "semantic_region_plan_v9" and MAPPER_PROMPT_VERSION == "compact-region-plan-v12"
+    assert MAPPER_SCHEMA_VERSION == "semantic_region_plan_v11" and MAPPER_PROMPT_VERSION == "compact-region-plan-v13"
 
 
 def test_odd_shaped_block_is_an_anchor_in_the_skeleton(tmp_path):
@@ -59,7 +59,7 @@ def test_odd_shaped_block_is_an_anchor_in_the_skeleton(tmp_path):
 def pattern_plan(rows=((1, 16, "ahk"), (2, 17, "cum_depreciation"), (3, 18, "book_value"))):
     plan = stub.load_plan("sap_block_unlabelled"); q = plan["plans"][0]
     q["record_blocks"] = []
-    q["block_pattern"] = {"rows": [{"ordinal": o, "header_row_id": f"@row:{S}:{h}", "measure": m} for o, h, m in rows], "role": "data", "applies_to": "all_blocks_of_same_shape"}
+    q["block_pattern"] = [{"rows": [{"ordinal": o, "header_row_id": f"@row:{S}:{h}", "measure": m} for o, h, m in rows], "role": "data", "applies_to": "all_blocks_of_same_shape"}]
     q["unit_contexts"] = [{"observation_id": f"@cell:{S}!H19", "unit": "EUR", "scope": "block"}]
     return plan
 

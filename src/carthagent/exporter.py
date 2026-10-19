@@ -236,7 +236,12 @@ class TemplateExportAdapter:
             transform = "positive_magnitude" if fact.business.field in self.POSITIVE_TARGET_FIELDS else "source_signed"
             destination = OutputIdentity(self.CONTRACT_VERSION, row_key, fact.business.field, f"{sheet}!{column}{row}" if status == "bound" else None)
             bindings.append(OutputBinding(f"{fact.document_id}:binding:{index}", snapshot_id, fact.id, destination, fact.source_pointer, status, {"polarity": transform, "source_unit": fact.business.unit, "target_unit": "EUR"}))
-        return tuple(bindings)
+        # K1 defence in depth: two facts planned for one destination cell both refuse (the later would overwrite the earlier).
+        from collections import Counter
+        cells = Counter(binding.destination.cell for binding in bindings if binding.status == "bound" and binding.destination.cell)
+        return tuple(OutputBinding(binding.id, binding.snapshot_id, binding.record_id, OutputIdentity(binding.destination.contract_version, binding.destination.row_key, binding.destination.field, None),
+                                   binding.source_pointer, "destination_collision", binding.transformations)
+                     if binding.status == "bound" and cells[binding.destination.cell] > 1 else binding for binding in bindings)
 
     @staticmethod
     def target_value(fact: ValidatedFact, binding: OutputBinding) -> Decimal:

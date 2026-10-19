@@ -63,7 +63,7 @@ def _match_uncached(text: str, vocab: dict[str, tuple[str, ...]]) -> str | None:
 
 # Short identity spellings match only as the whole header (a substring "lfd"/"teil"/"sub" would hit "lfd Buchwert", "Teilwert").
 EXACT_IDENTITIES = {
-    **{spelling: "asset_sub_id" for spelling in ("unr", "u nr", "sub", "teil", "lfd", "unterpos", "snr", "unter nummer", "unter nr", "sub nr")},
+    **{spelling: "asset_sub_id" for spelling in ("unr", "u nr", "sub", "teil", "unterpos", "snr", "unter nummer", "unter nr", "sub nr")},
     **{spelling: "asset_id" for spelling in ("anlage", "anlage nr", "anlagen nr", "anl nr")},
 }
 _BALANCE_START = re.compile(r"\b(?:beg|beginn|begin|anfang|anf)\b")
@@ -168,19 +168,19 @@ class ContextResolver:
             self._xlsx_period_sets[period_key] = ({value for values in periods_by_field.values() for value in values}, {name for name, values in periods_by_field.items() if len(values) > 1})
         all_periods, parallel_fields = self._xlsx_period_sets[period_key]
         sheet_header_periods = {
-            year for _, header_row, observation in indexed if header_start <= header_row <= header_cutoff
+            year for _, header_row, observation in indexed if header_start <= header_row <= header_cutoff and not CREATION_WORDS.search(observation.text or "")
             for year in _reported_periods(observation.text or "")
         }
         reporting_periods = all_periods | sheet_header_periods
         if reporting_periods and field not in parallel_fields:
             period = max(reporting_periods)
-        local_unit_evidence = [o for header_row, o in by_col.get(col, ()) if o.text and header_start <= header_row <= header_cutoff and _header_span(col, o) and re.search(r"\b(?:T?EUR|T€)\b", o.text, re.I)]
+        local_unit_evidence = [o for header_row, o in by_col.get(col, ()) if o.text and header_start <= header_row <= header_cutoff and _header_span(col, o) and UNIT_WORDS.search(o.text)]
         currency_columns = {candidate_col for candidate_col, candidate_row, observation in indexed if header_start <= candidate_row <= header_cutoff and re.search(r"(?:währ\s*ung|waehr\s*ung|currency)", norm(observation.text or ""), re.I)}
         record_unit_evidence = [observation for candidate_col, observation in by_row.get(row, ()) if candidate_col in currency_columns and re.fullmatch(r"\s*(?:T?EUR|T€)\s*", observation.text or "", re.I)]
-        global_unit_evidence = [o for _, r, o in indexed if header_start <= r <= header_cutoff and re.search(r"\b(?:T?EUR|T€)\b", o.text or "", re.I) and (_spans_multiple_columns(o) or sum(bool(candidate.text) for _, candidate in by_row.get(r, ())) == 1)]
+        global_unit_evidence = [o for _, r, o in indexed if header_start <= r <= header_cutoff and UNIT_WORDS.search(o.text or "") and (_spans_multiple_columns(o) or sum(bool(candidate.text) for _, candidate in by_row.get(r, ())) == 1)]
         unit_evidence = local_unit_evidence or record_unit_evidence or global_unit_evidence
-        units = {"TEUR" if re.search(r"\b(?:TEUR|T€)\b", o.text or "", re.I) else "EUR" for o in unit_evidence}
-        unit = next(iter(units)) if len(units) == 1 else None
+        units = {unit_from_text(o.text) for o in unit_evidence}
+        unit = next(iter(units)) if len(units) == 1 else None  # a None member (Mio./Mrd.) or two units abstain
         identity: dict[str, str] = {}; evidence = [*axis_evidence, *(o.id for o in unit_evidence)]
         for c, value in by_row.get(row, ()):
             if c == col: continue
@@ -226,7 +226,9 @@ class ContextResolver:
         if amount.channel != "xlsx_native": return False
         sheet, coord = amount.locator.rsplit("!", 1); letters, row = coordinate_from_string(coord); col = column_index_from_string(letters)
         self._xlsx_index(amount.document_id, sheet, observations)
-        return any(header_row < row and match(header.text or "", IDENTITIES) for header_row, header in self._xlsx_by_col[(amount.document_id, sheet)].get(col, ()))
+        by_row = self._xlsx_by_row[(amount.document_id, sheet)]
+        return any(header_row < row and match(header.text or "", IDENTITIES) and not any(_amount_like(cell.text) for _, cell in by_row.get(header_row, ()))
+                   for header_row, header in self._xlsx_by_col[(amount.document_id, sheet)].get(col, ()))
 
     def _pdf(self, amount: SourceObservation, observations: tuple[SourceObservation, ...]) -> ResolvedContext:
         if not amount.bbox: return ResolvedContext(None, Decimal(1), (), ("pointer",))
@@ -239,8 +241,10 @@ class ContextResolver:
             lexeme = amount.metadata.get("lexeme_bbox") if amount.metadata.get("verified") is True else None
             anchor = lexeme or amount.bbox
             amount_center = (anchor[0] + anchor[2]) / 2
-            holding = [axis for axis in layout.axes if axis.left <= amount_center <= axis.right]
-            selected = holding[0] if len(holding) == 1 else None
+            # S2: the WHOLE digit box must lie inside one header extent, and that header's Azure column must be the cell's
+            # own column_index (after span normalisation); any disagreement leaves the column unresolved (abstain).
+            holding = [axis for axis in layout.axes if axis.left <= anchor[0] and anchor[2] <= axis.right]
+            selected = holding[0] if len(holding) == 1 and _azure_columns_agree(holding[0], amount, self._observations_by_id) else None
         else:
             amount_center = (amount.bbox[0] + amount.bbox[2]) / 2
             selected = next((axis for axis in layout.axes if axis.left <= amount_center <= axis.right), None)
@@ -596,9 +600,27 @@ def _pdf_unit(amount: SourceObservation, layout: _PdfLayout, selected: _PdfAxis 
     return (next(iter(values)) if len(values) == 1 else None), tuple(word.id for word in global_units)
 
 
+def _azure_columns_agree(axis: _PdfAxis, amount: SourceObservation, by_id: dict[str, SourceObservation]) -> bool:
+    """The axis' own header cells (Azure grid cells) must cover the amount cell's column_index range."""
+    first = amount.metadata.get("column_index")
+    if not isinstance(first, int):
+        return True
+    last = first + max(int(amount.metadata.get("column_span") or 1), 1) - 1
+    header_columns = set()
+    for evidence_id in axis.evidence_ids:
+        header = by_id.get(evidence_id)
+        if header is not None and header.kind == "cell" and isinstance(header.metadata.get("column_index"), int) and header.metadata.get("table_index") == amount.metadata.get("table_index"):
+            start = header.metadata["column_index"]
+            header_columns.update(range(start, start + max(int(header.metadata.get("column_span") or 1), 1)))
+    return not header_columns or set(range(first, last + 1)) <= header_columns
+
+
 def _compose_matrix_field(measure: str | None, axis: _PdfAxis, amount: SourceObservation) -> str | None:
     """Compose independent source row/column axes through a closed registry."""
     return compose_matrix_axes(measure, axis.field, axis.temporal_role)
+
+
+UNIT_WORDS = re.compile(r"\b(?:T?EUR|TEURO|tsd|tausend|mio|million(?:en)?|mrd|milliarde(?:n)?)\b|€", re.I)
 
 
 def unit_from_text(text: str | None) -> str | None:
@@ -609,6 +631,13 @@ def unit_from_text(text: str | None) -> str | None:
     if re.search(r"\b(?:tsd|tausend|teur|teuro)\b|T€", value, re.I):
         return "TEUR"
     return "EUR" if re.search(r"\bEUR\b|€", value, re.I) else None
+
+
+def admissible_fields(measure: str) -> frozenset[str]:
+    """Every field a measure row can carry: the compose registry's outputs plus the year's charge under cumulative AfA."""
+    roles = ("opening", "closing", "prior_closing", "current_period", "unknown", None)
+    fields = {compose_matrix_axes(measure, field, role) for field in (*FIELDS, None) for role in roles}
+    return frozenset(field for field in fields | ({"total_afa_gj"} if measure == "cum_depreciation" else set()) if field)
 
 
 def compose_matrix_axes(measure: str | None, field: str | None, temporal_role: str | None) -> str | None:
@@ -747,8 +776,16 @@ def _date_year(text: str) -> int | None:
     return int(matches[-1]) if len(set(matches)) == 1 else None
 
 
+def _amount_like(text: str | None) -> bool:
+    """An amount, not a printed date (header rows may carry dates such as 01.01.2025 or 2025-01-01 00:00:00)."""
+    value = (text or "").strip()
+    return bool(value) and _looks_numeric(value) and not re.fullmatch(r"\d{1,2}\.\d{1,2}\.\d{2,4}|\d{4}-\d{2}-\d{2}(?:[ T]\d{2}:\d{2}:\d{2})?", value)
+
+
 def _xlsx_header_scope(amount_row: int, indexed: list[tuple[int, int, SourceObservation]]) -> tuple[int, int]:
-    identity_headers = [(column, row) for column, row, observation in indexed if row < amount_row and observation.text and match(observation.text, IDENTITIES)]
+    # A header row prints no amounts: an identity word inside a record row ("Summe Bilanzposition") is a label, not a header.
+    numeric_rows = {row for _, row, observation in indexed if _amount_like(observation.text)}
+    identity_headers = [(column, row) for column, row, observation in indexed if row < amount_row and row not in numeric_rows and observation.text and match(observation.text, IDENTITIES)]
     identity_rows = {row for _, row in identity_headers}
     if identity_rows:
         identity_header_row = max(identity_rows)
@@ -868,19 +905,41 @@ def _xlsx_axis(column: int, amount_row: int, indexed: list[tuple[int, int, Sourc
     return field, str(period_year) if period_year else None, temporal_role, tuple(dict.fromkeys(evidence))
 
 
+# Print/creation stamps and prior-year lines are never the reporting period ("Berichtsdatum" is not "Datum").
+CREATION_WORDS = re.compile(r"\berstell|\bdruck|gedruckt|printed|created|\bstand\b|\bdatum\b|abfrage|g(?:ü|ue)ltig|\bseite\b|vorjahr|vergleich|prior year|previous year|comparative", re.I)
+# A reporting period needs a fiscal-year/reporting word, a standalone "GJ <year>", or "per"/"zum" + a fiscal year-end date.
+PERIOD_WORDS = re.compile(r"wirtschaftsjahr|gesch(?:ä|ae|a\u0308|a)ftsjahr|berichtsdatum|bilanzstichtag|stichtag|jahresabschluss|fiscal year|reporting date"
+                          r"|\bgj\s+(?:19|20)\d{2}\b|\b(?:19|20)\d{2}\s+gj\b"
+                          r"|\b(?:per|zum)\s+(?:31\.0?3|30\.0?6|30\.0?9|31\.12)\.(?:19|20)\d{2}\b", re.I)
+YEAR = re.compile(r"\b(?:19|20)\d{2}\b")
+
+
 # A reconciliation/check line restates or compares totals ("AHK lt. Anlagengitter Vorjahr", "Differenz Zugänge"): never a record.
-RECONCILIATION_MARKERS = re.compile(r"abstimmung|\blt\b|\blaut\b|gem(?:ä|ae)(?:ß|ss)|differenz|(?:ü|ue)berleitung|bearbeitungsstand|vorl(?:ä|ae)ufig|kontrolle|\bcheck\b")
+# Anchored (C1): leading reconciliation words, or "lt./laut/gemäß" followed by a document noun. Asset names such as
+# "Check-in Terminal", "Differenzialgetriebe", "Lt.-Fahrzeug" or "Laut-Sprecheranlage" are not reconciliation lines.
+RECONCILIATION_LEADING = re.compile(r"^\s*(?:abstimmung|differenz|kontrolle|check|(?:ü|ue)berleitung|bearbeitungsstand)(?=[\s:.,]|$)", re.I)
+RECONCILIATION_SOURCE = re.compile(r"\b(?:lt|laut|gem(?:ä|ae)(?:ß|ss))\.?\s+(?:vorl(?:ä|ae)ufige[rn]?\s+)?(?:anlagen?gitter|anlagen?spiegel|bilanz|inventar|hauptbuch|vorjahr|av)\b", re.I)
+GRAND_TOTAL_WORDS = frozenset({"summe", "gesamt", "total", "insgesamt", "gesamtsumme"})
+GENERIC_TOTAL_WORDS = GRAND_TOTAL_WORDS | {"anlagevermögen", "anlagevermoegen", "aller", "alle", "anlagen", "grand"}
 GRAND_TOTAL_LABELS = frozenset({"summe", "gesamt", "total", "gesamtsumme", "summe gesamt", "summe anlagevermögen", "anlagevermögen gesamt", "gesamt anlagevermögen", "grand total"})
 MAX_LABEL_WORDS = 6
 
 
 def reconciliation_text(text: str | None) -> bool:
-    return bool(text) and not _looks_numeric(text or "") and bool(RECONCILIATION_MARKERS.search(norm(text or "")))
+    value = text or ""
+    return bool(value) and not _looks_numeric(value) and bool(RECONCILIATION_LEADING.search(value) or RECONCILIATION_SOURCE.search(value))
+
+
+def total_label(text: str | None) -> bool:
+    """C2: a grand-total label is ONLY total words plus generic words ("Gesamt Anlagevermögen"), never "Total Station Leica"."""
+    words = set(norm(text or "").split())
+    return bool(words) and words <= GENERIC_TOTAL_WORDS and bool(words & GRAND_TOTAL_WORDS)
 
 
 def label_key_ok(text: str | None) -> bool:
-    """A printed label can key a record only while it reads like a name, not a sentence."""
-    return bool(text) and len(norm(text or "").split()) <= MAX_LABEL_WORDS
+    """A printed label can key a record only while it reads like a name, not a sentence, and is not a total label."""
+    value = norm(text or "")
+    return bool(text) and len(value.split()) <= MAX_LABEL_WORDS and not total_label(text) and not re.match(r"summe\b", value)
 
 
 def _xlsx_record_role(row: int, indexed: list[tuple[int, int, SourceObservation]]) -> str:
@@ -889,7 +948,15 @@ def _xlsx_record_role(row: int, indexed: list[tuple[int, int, SourceObservation]
     texts = [norm(o.text or "") for o in values]
     if any(reconciliation_text(o.text) for o in values):
         return "note"
-    totals = [current_row for _, current_row, o in indexed if current_row < row and o.text and (norm(o.text) in GRAND_TOTAL_LABELS or norm(o.text).startswith(("gesamt ", "total ")))]
+    identifier_rows = {current_row for _, current_row, o in indexed if re.fullmatch(r"\s*\d{2,}\s*", o.text or "") and not isinstance(o.metadata.get("raw_value"), (int, float))}
+    totals = [current_row for _, current_row, o in indexed if current_row < row and current_row not in identifier_rows and o.text and (norm(o.text) in GRAND_TOTAL_LABELS or total_label(o.text))]
+    # K2: a one-cell title line naming a year ("Entwicklung Vorjahr 2024") ends the table above it as well.
+    cells_by_row: dict[int, list[SourceObservation]] = {}
+    for _, current_row, o in indexed:
+        if o.text and current_row < row:
+            cells_by_row.setdefault(current_row, []).append(o)
+    first_amount_row = min((current_row for current_row, cells in cells_by_row.items() if any(_amount_like(o.text) for o in cells)), default=row)
+    totals += [current_row for current_row, cells in cells_by_row.items() if current_row > first_amount_row and len(cells) == 1 and YEAR.search(cells[0].text or "") and not _amount_like(cells[0].text)]
     if totals:
         # Below a grand total the table has ended, unless a new header band (>= 2 field/group header cells in a row) starts.
         last_total = max(totals)
@@ -898,7 +965,7 @@ def _xlsx_record_role(row: int, indexed: list[tuple[int, int, SourceObservation]
             return "note"
     if any(text.startswith(("summe ", "subtotal ")) for text in texts):
         return "subtotal"
-    if any(text.startswith(("gesamt ", "total ")) for text in texts):
+    if any(total_label(o.text) for o in values):
         return "total"
     identity_columns = {column for column, header_row, header in indexed if header_row < row and header.text and match(header.text, IDENTITIES)}
     header_start, header_cutoff = _xlsx_header_scope(row, indexed)

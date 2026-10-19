@@ -390,7 +390,8 @@ def test_pdf_column_local_unit_does_not_scale_neighbor_column():
         return SourceObservation(f"d:{suffix}", "d", "a" * 64, kind, f"page:1:{suffix}", channel, text, bbox, metadata or {"page_index": 0})
     asset_header = obs("asset-header", "logical_row", "Asset ID", (10, 20, 70, 30), {"page_index": 0, "structure_role": "native_line"}, "pdf_structure")
     first_header = obs("first-header", "logical_row", "Additions 2025", (100, 20, 180, 30), {"page_index": 0, "structure_role": "native_line"}, "pdf_structure")
-    second_header = obs("second-header", "logical_row", "Additions 2025", (200, 20, 280, 30), {"page_index": 0, "structure_role": "native_line"}, "pdf_structure")
+    # Distinct fields per column: two values under one output key would abstain as a business-key collision (K1).
+    second_header = obs("second-header", "logical_row", "Disposals 2025", (200, 20, 280, 30), {"page_index": 0, "structure_role": "native_line"}, "pdf_structure")
     eur = obs("eur", "word", "EUR", (140, 35, 160, 45)); teur = obs("teur", "word", "TEUR", (235, 35, 265, 45))
     asset = obs("asset", "word", "A-1", (15, 80, 45, 90)); first = obs("first", "word", "3", (130, 80, 150, 90)); second = obs("second", "word", "4", (230, 80, 250, 90))
     row = obs("row", "logical_row", "A-1 3 4", (10, 80, 250, 90), {"page_index": 0, "structure_role": "visual_row", "member_ids": [asset.id, first.id, second.id]}, "pdf_structure")

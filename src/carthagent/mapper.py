@@ -20,12 +20,15 @@ from openpyxl.utils.cell import column_index_from_string, coordinate_from_string
 
 from .models import AssociationClaim, AssociationKind, HypothesisSet, SourceObservation
 from .numeric import NumericParseError, parse_amount
-from .structure import FIELDS, HEADER_GROUPS, IDENTITIES, compose_matrix_axes, match, norm, reconciliation_text, unit_from_text
+from .structure import CREATION_WORDS, FIELDS, HEADER_GROUPS, IDENTITIES, PERIOD_WORDS, YEAR, compose_matrix_axes, match, norm, reconciliation_text, unit_from_text
 
-MAPPER_PROMPT_VERSION = "compact-region-plan-v12"
-MAPPER_SCHEMA_VERSION = "semantic_region_plan_v9"
+MAPPER_PROMPT_VERSION = "compact-region-plan-v13"
+MAPPER_SCHEMA_VERSION = "semantic_region_plan_v11"
 # Bumped whenever verification of a plan changes, so cached expansions are never replayed under older rules.
-MAPPER_VERIFIER_VERSION = "option-b-verifier-3"
+MAPPER_VERIFIER_VERSION = "option-b-verifier-4"
+# Sentinel for "no header row"/"no measure" in schema v11 (no null unions in the grammar).
+NONE = "none"
+MAX_BLOCK_PATTERNS = 3
 # Flat skeleton: first data rows and last data rows sent in full (round 4 brief R4-1).
 SKELETON_FLAT_HEAD_ROWS = 12
 SKELETON_FLAT_TAIL_ROWS = 3
@@ -35,6 +38,7 @@ MEASURE_AXES = tuple(HEADER_GROUPS)
 TABLE_TYPES = ("asset_register", "class_grid_matrix", "asset_grid_matrix", "spiegel_columns", "two_year_spiegel", "unknown")
 CONTEXT_SCOPES = ("sheet", "column", "block")
 PAYLOAD_ALWAYS = frozenset({"id", "kind", "text", "numeric_value", "row_block_id", "region_id", "locator_kind", "sheet", "row", "column", "normalized_bbox"})
+PATTERN_PLAN_KEYS = frozenset({"table_type", "header_rows", "block_pattern"})
 FLAT_PLAN_KEYS = frozenset({"region_observation_id", "field_headers", "identity_headers", "measure_axes", "movement_axes", "row_roles", "period_contexts", "unit_contexts"})
 STRUCTURE_PLAN_KEYS = frozenset({"table_type", "header_rows", "record_blocks", "column_spans"})
 MOVEMENT_AXES = ("opening", "closing", "prior_closing", "addition", "disposal", "transfer", "depreciation", "planned_depreciation", "extraordinary_depreciation", "writeup", "addition_or_disposal", "depreciation_or_writeup", "unknown")
@@ -127,42 +131,51 @@ class OpenAICompatibleMapper:
         }
 
     @staticmethod
-    def response_schema() -> dict[str, object]:
-        def assignment(role_name: str, role_schema: dict[str, object]) -> dict[str, object]:
-            return {"type": "object", "additionalProperties": False, "required": ["observation_id", role_name], "properties": {"observation_id": {"type": "string"}, role_name: role_schema}}
-        field = {"type": "object", "additionalProperties": False, "required": ["observation_id", "semantic_field", "parent_header_ids"], "properties": {"observation_id": {"type": "string"}, "semantic_field": {"type": "string", "enum": sorted(FIELDS)}, "parent_header_ids": {"type": "array", "items": {"type": "string"}}}}
-        movement = {"type": "object", "additionalProperties": False, "required": ["observation_id", "movement_axis", "parent_header_ids"], "properties": {"observation_id": {"type": "string"}, "movement_axis": {"type": "string", "enum": list(MOVEMENT_AXES)}, "parent_header_ids": {"type": "array", "items": {"type": "string"}}}}
-        def scoped(role_name: str, role_schema: dict[str, object]) -> dict[str, object]:
-            item = assignment(role_name, role_schema)
-            return {**item, "required": [*item["required"], "scope"], "properties": {**item["properties"], "scope": {"type": "string", "enum": list(CONTEXT_SCOPES)}}}
-        block_row = {"type": "object", "additionalProperties": False, "required": ["row_id", "header_row_id", "measure"], "properties": {
-            "row_id": {"type": "string"}, "header_row_id": {"anyOf": [{"type": "string"}, {"type": "null"}]},
-            "measure": {"anyOf": [{"type": "string", "enum": list(MEASURE_AXES)}, {"type": "null"}]}}}
-        block = {"type": "object", "additionalProperties": False, "required": ["identity_row_id", "rows", "role"], "properties": {
-            "identity_row_id": {"type": "string"}, "rows": {"type": "array", "items": block_row}, "role": {"type": "string", "enum": list(ROW_ROLES)}}}
-        span = {"type": "object", "additionalProperties": False, "required": ["header_observation_id", "first_column", "last_column"], "properties": {
-            "header_observation_id": {"type": "string"}, "first_column": {"type": "integer"}, "last_column": {"type": "integer"}}}
-        pattern = {"anyOf": [{"type": "object", "additionalProperties": False, "required": ["rows", "role", "applies_to"], "properties": {
-            "rows": {"type": "array", "items": {"type": "object", "additionalProperties": False, "required": ["ordinal", "header_row_id", "measure"], "properties": {
-                "ordinal": {"type": "integer"}, "header_row_id": {"anyOf": [{"type": "string"}, {"type": "null"}]},
-                "measure": {"anyOf": [{"type": "string", "enum": list(MEASURE_AXES)}, {"type": "null"}]}}}},
-            "role": {"type": "string", "enum": list(ROW_ROLES)}, "applies_to": {"type": "string", "enum": ["all_blocks_of_same_shape"]}}}, {"type": "null"}]}
-        plan = {"type": "object", "additionalProperties": False, "required": ["region_observation_id", "table_type", "header_rows", "record_blocks", "block_pattern", "column_spans", "field_headers", "identity_headers", "measure_axes", "movement_axes", "row_roles", "period_contexts", "unit_contexts"], "properties": {
-            "region_observation_id": {"type": "string"},
+    def response_schema(nullable: str = "sentinel") -> dict[str, object]:
+        """Strict plan schema v11. Record blocks are found by code; the model describes each distinct block shape once
+        (block_pattern, at most MAX_BLOCK_PATTERNS, enforced in code). Every enum and repeated shape lives once in $defs.
+        nullable="sentinel" (default) encodes "no header row"/"no measure" as the value "none" so the grammar has no
+        unions; nullable="null" builds the equivalent anyOf-null variant (kept only for size comparison)."""
+        ref = lambda name: {"$ref": f"#/$defs/{name}"}  # noqa: E731
+
+        def obj(**properties: dict[str, object]) -> dict[str, object]:
+            return {"type": "object", "additionalProperties": False, "required": list(properties), "properties": properties}
+
+        ids = {"type": "array", "items": ref("id")}
+        sentinel = nullable == "sentinel"
+        defs: dict[str, object] = {
+            "id": {"type": "string"},
+            "field": {"type": "string", "enum": sorted(FIELDS)},
+            "identity_role": {"type": "string", "enum": sorted(IDENTITIES)},
+            "measure": {"type": "string", "enum": list(MEASURE_AXES)},
+            "measure_or_none": {"type": "string", "enum": [*MEASURE_AXES, NONE]} if sentinel else {"anyOf": [ref("measure"), {"type": "null"}]},
+            "header_or_none": ref("id") if sentinel else {"anyOf": [ref("id"), {"type": "null"}]},
+            "movement": {"type": "string", "enum": list(MOVEMENT_AXES)},
+            "row_role": {"type": "string", "enum": list(ROW_ROLES)},
+            "temporal_role": {"type": "string", "enum": list(TEMPORAL_ROLES)},
+            "unit": {"type": "string", "enum": ["EUR", "TEUR"]},
+            "scope": {"type": "string", "enum": list(CONTEXT_SCOPES)},
             "table_type": {"type": "string", "enum": list(TABLE_TYPES)},
-            "header_rows": {"type": "array", "items": {"type": "string"}},
-            "record_blocks": {"type": "array", "items": block},
-            "block_pattern": pattern,
-            "column_spans": {"type": "array", "items": span},
-            "field_headers": {"type": "array", "items": field},
-            "identity_headers": {"type": "array", "items": assignment("identity_role", {"type": "string", "enum": sorted(IDENTITIES)})},
-            "measure_axes": {"type": "array", "items": assignment("semantic_measure", {"type": "string", "enum": list(MEASURE_AXES)})},
-            "movement_axes": {"type": "array", "items": movement},
-            "row_roles": {"type": "array", "items": assignment("row_role", {"type": "string", "enum": list(ROW_ROLES)})},
-            "period_contexts": {"type": "array", "items": scoped("temporal_role", {"type": "string", "enum": list(TEMPORAL_ROLES)})},
-            "unit_contexts": {"type": "array", "items": scoped("unit", {"type": "string", "enum": ["EUR", "TEUR"]})},
-        }}
-        return {"type": "object", "additionalProperties": False, "required": ["plans"], "properties": {"plans": {"type": "array", "items": plan}}}
+            "pattern_row": obj(ordinal={"type": "integer"}, header_row_id=ref("header_or_none"), measure=ref("measure_or_none")),
+            "block_pattern": obj(rows={"type": "array", "items": ref("pattern_row")}, role=ref("row_role"), row_count={"type": "integer"},
+                                 applies_to={"type": "string", "enum": ["all_blocks_of_same_shape"]}),
+        }
+        if sentinel:
+            defs.pop("header_or_none"); defs["pattern_row"]["properties"]["header_row_id"] = ref("id")
+        plan = obj(
+            region_observation_id=ref("id"),
+            table_type=ref("table_type"),
+            header_rows=ids,
+            block_pattern={"type": "array", "items": ref("block_pattern")},
+            field_headers={"type": "array", "items": obj(observation_id=ref("id"), semantic_field=ref("field"), parent_header_ids=ids)},
+            identity_headers={"type": "array", "items": obj(observation_id=ref("id"), identity_role=ref("identity_role"))},
+            measure_axes={"type": "array", "items": obj(observation_id=ref("id"), semantic_measure=ref("measure"))},
+            movement_axes={"type": "array", "items": obj(observation_id=ref("id"), movement_axis=ref("movement"), parent_header_ids=ids)},
+            row_roles={"type": "array", "items": obj(observation_id=ref("id"), row_role=ref("row_role"))},
+            period_contexts={"type": "array", "items": obj(observation_id=ref("id"), temporal_role=ref("temporal_role"), scope=ref("scope"))},
+            unit_contexts={"type": "array", "items": obj(observation_id=ref("id"), unit=ref("unit"), scope=ref("scope"))},
+        )
+        return {"type": "object", "additionalProperties": False, "required": ["plans"], "properties": {"plans": {"type": "array", "items": plan}}, "$defs": defs}
 
     def map(self, document_id: str, observations: tuple[SourceObservation, ...], *, transient_retries: int = 0, deadline: float | None = None, max_input_bytes: int | None = None, max_response_bytes: int = 8_388_608) -> tuple[HypothesisSet, ...]:
         self.last_http_attempts = 0
@@ -309,9 +322,11 @@ class OpenAICompatibleMapper:
             "A period context is a header or title cell naming the fiscal year or a dated column header, never a record date, a name, a prior-year line or an amount. "
             "Under a cumulative depreciation (Kumulierte Abschreibungen/AfA) parent, Zugänge is current-year depreciation (total_afa_gj) and Abgänge is afa_abgang. "
             "In SAP grids each record block names its identity row, then its measure rows in order, each with its governing header row and measure. "
-            "You see a skeleton: header rows, a few sample record blocks in full and only summaries (identity row, member count, subtotal marker) of "
-            "the rest. Describe the record shape ONCE in block_pattern (ordinal 0 = identity row, 1.. = following rows, each with its header row and "
-            "measure); code applies it to every block of the same shape and verifies each block. List record_blocks only for exceptions. "
+            "Record blocks are found by code (record_block observations; single data rows count as one-row records). You see a skeleton: header "
+            "rows, a few sample blocks in full and summaries (identity row, member count, subtotal marker) of the rest. Describe each distinct block "
+            "shape ONCE in block_pattern (at most 3): row_count, and per ordinal (0 = identity row, 1.. = following rows) its governing header row "
+            "and measure (\"none\" when absent). Code applies a pattern to every block of that row count and shape and verifies each block; a block "
+            "matching no pattern or two patterns abstains. Merged header spans are read by code. "
             "Never return source values, dates, IDs, amounts, coordinates, confidence, or new evidence; local code copies actual source content and "
             "expands plans only after ownership, geometry, row membership, and ambiguity checks. Row roles cannot establish blank values or turn "
             "group/note rows into data rows; explicit source emptiness is decided only by local policy. Omit unresolved axes rather than guessing."
@@ -402,7 +417,7 @@ class OpenAICompatibleMapper:
         result: list[HypothesisSet] = []
         self.last_verification = verification = []
         for plan in parsed["plans"]:
-            if not isinstance(plan, dict) or set(plan) not in (FLAT_PLAN_KEYS, FLAT_PLAN_KEYS | STRUCTURE_PLAN_KEYS, FLAT_PLAN_KEYS | STRUCTURE_PLAN_KEYS | {"block_pattern"}) \
+            if not isinstance(plan, dict) or set(plan) not in (FLAT_PLAN_KEYS, FLAT_PLAN_KEYS | STRUCTURE_PLAN_KEYS, FLAT_PLAN_KEYS | STRUCTURE_PLAN_KEYS | {"block_pattern"}, FLAT_PLAN_KEYS | PATTERN_PLAN_KEYS) \
                     or not all(isinstance(plan[key], list) for key in set(plan) - {"region_observation_id", "table_type", "block_pattern"}):
                 raise MapperValidationError("invalid compact plan")
             region_id = plan["region_observation_id"]
@@ -436,10 +451,10 @@ class OpenAICompatibleMapper:
             structure = _validate_structure(plan, row_ids, by_id, allowed, verification)
             structure["ended_rows"] = _rows_after_declared_total(structure, row_roles, rows, by_id)
             covered_rows = {row_id for block in structure["blocks"] for row_id in (block["identity_row_id"], *(item["row_id"] for item in block["rows"]))}
-            if plan.get("block_pattern") is not None or structure["blocks"]:
+            if plan.get("block_pattern") not in (None, []) or structure["blocks"]:
                 # Once the plan declares record structure, every acquisition record block of the region is structured: one the
                 # plan did not list or the pattern did not expand abstains; it never falls back to column-only reading.
-                covered_rows |= {str(member) for block in _region_blocks(row_ids, by_id) for member in block.metadata.get("member_ids", ())}
+                covered_rows |= {row_id for members, _ in _code_records(row_ids, by_id) for row_id in members} if plan.get("block_pattern") else {str(member) for block in _region_blocks(row_ids, by_id) for member in block.metadata.get("member_ids", ())}
             plan_digest = sha256(json.dumps({"fingerprint": self.fingerprint(), "plan": plan}, sort_keys=True).encode()).hexdigest()
             for amount, claim in _expand_blocks(structure, by_id, field_headers, identity_headers, measure_axes, movement_axes, periods, units, verification, deadline):
                 digest = sha256(f"{plan_digest}|{amount.id}".encode()).hexdigest()[:20]
@@ -532,30 +547,45 @@ def _model_id(value: object, allowed: set[str]) -> bool:
 
 def _validate_structure(plan: dict[str, object], row_ids: tuple[str, ...], by_id: dict[str, SourceObservation], allowed: set[str], verification: list[dict[str, object]]) -> dict[str, object]:
     """Shape-check the declared structure; malformed declarations reject the response, semantic failures only abstain later."""
-    if not STRUCTURE_PLAN_KEYS <= set(plan):
+    if "table_type" not in plan:
         return {"table_type": "unknown", "header_rows": [], "blocks": [], "spans": [], "region_rows": row_ids}
     if plan["table_type"] not in TABLE_TYPES or not all(_model_id(value, allowed) for value in plan["header_rows"]):
         raise MapperValidationError("invalid table structure")
     blocks: list[dict[str, object]] = []
-    for block in plan["record_blocks"]:
+    for block in plan.get("record_blocks", []):
         if not isinstance(block, dict) or set(block) != {"identity_row_id", "rows", "role"} or not _model_id(block["identity_row_id"], allowed) or block["role"] not in ROW_ROLES or not isinstance(block["rows"], list):
             raise MapperValidationError("invalid record block")
         for item in block["rows"]:
             if not isinstance(item, dict) or set(item) != {"row_id", "header_row_id", "measure"} or not _model_id(item["row_id"], allowed) or (item["header_row_id"] is not None and not _model_id(item["header_row_id"], allowed)) or (item["measure"] is not None and item["measure"] not in MEASURE_AXES):
                 raise MapperValidationError("invalid record block row")
         blocks.append(block)
-    pattern = plan.get("block_pattern")
-    if pattern is not None:
+    patterns = plan.get("block_pattern")
+    patterns = [] if patterns is None else (patterns if isinstance(patterns, list) else [patterns])
+    if len(patterns) > MAX_BLOCK_PATTERNS:
+        raise MapperValidationError(f"at most {MAX_BLOCK_PATTERNS} block patterns per plan")
+    for pattern in patterns:
         rows = pattern.get("rows") if isinstance(pattern, dict) else None
-        if not isinstance(pattern, dict) or set(pattern) != {"rows", "role", "applies_to"} or pattern["applies_to"] != "all_blocks_of_same_shape" or pattern["role"] not in ROW_ROLES or not isinstance(rows, list) or not rows:
+        keys = set(pattern) if isinstance(pattern, dict) else set()
+        if keys not in ({"rows", "role", "applies_to"}, {"rows", "role", "row_count", "applies_to"}) or pattern["applies_to"] != "all_blocks_of_same_shape" or pattern["role"] not in ROW_ROLES \
+                or not isinstance(rows, list) or not rows or ("row_count" in pattern and (not isinstance(pattern["row_count"], int) or isinstance(pattern["row_count"], bool) or pattern["row_count"] < 1)):
             raise MapperValidationError("invalid block pattern")
         for item in rows:
-            if not isinstance(item, dict) or set(item) != {"ordinal", "header_row_id", "measure"} or not isinstance(item["ordinal"], int) or isinstance(item["ordinal"], bool) or item["ordinal"] < 0 \
-                    or (item["header_row_id"] is not None and not _model_id(item["header_row_id"], allowed)) or (item["measure"] is not None and item["measure"] not in MEASURE_AXES):
+            if not isinstance(item, dict) or set(item) != {"ordinal", "header_row_id", "measure"} or not isinstance(item["ordinal"], int) or isinstance(item["ordinal"], bool) or item["ordinal"] < 0:
                 raise MapperValidationError("invalid block pattern row")
-        blocks += _expand_pattern(pattern, blocks, row_ids, by_id, verification)
+            item["header_row_id"] = None if item["header_row_id"] in (None, NONE) else item["header_row_id"]
+            item["measure"] = None if item["measure"] in (None, NONE) else item["measure"]
+            if (item["header_row_id"] is not None and not _model_id(item["header_row_id"], allowed)) or (item["measure"] is not None and item["measure"] not in MEASURE_AXES):
+                raise MapperValidationError("invalid block pattern row")
+    # A pattern may list the record's identity row as ordinal 0 (no measure, governed by the row carrying the identity
+    # headers): that ordinal names the identity row, it is not a measure row and binds no amounts.
+    identity_header_rows = {row.id for row in by_id.values() if row.kind == "logical_row" and {item.get("observation_id") for item in plan.get("identity_headers", []) if isinstance(item, dict)} & set(row.metadata.get("member_ids", ()))}
+    for pattern in patterns:
+        for item in pattern["rows"]:
+            item["identity_only"] = item["ordinal"] == 0 and item["measure"] is None and (item["header_row_id"] is None or item["header_row_id"] in identity_header_rows) and len(pattern["rows"]) > 1
+    if patterns:
+        blocks += _expand_patterns(patterns, blocks, row_ids, by_id, verification)
     spans: list[dict[str, object]] = []
-    for span in plan["column_spans"]:
+    for span in plan.get("column_spans", []):
         if not isinstance(span, dict) or set(span) != {"header_observation_id", "first_column", "last_column"} or not _model_id(span["header_observation_id"], allowed):
             raise MapperValidationError("invalid column span")
         bounds = [span[key] for key in ("first_column", "last_column")]
@@ -583,26 +613,64 @@ def _majority_shape(blocks: list[SourceObservation], by_id: dict[str, SourceObse
     return shapes.most_common(1)[0][0] if shapes else None
 
 
-def _expand_pattern(pattern: dict[str, object], explicit: list[dict[str, object]], row_ids, by_id: dict[str, SourceObservation], verification: list[dict[str, object]]) -> list[dict[str, object]]:
-    """Apply the model's record pattern to every acquisition record block of the majority shape it was sampled from.
-    Blocks of another shape (or subtotal-marked, unless the pattern says subtotal) are never expanded; every expanded block
-    then passes R1-R7 exactly as if the model had listed it."""
-    blocks = sorted(_region_blocks(row_ids, by_id), key=lambda block: list(row_ids).index(str(block.metadata["identity_row_id"])))
-    reference = _majority_shape(blocks, by_id)
+def _label_shape(member_ids: list[str], by_id: dict[str, SourceObservation]) -> tuple[object, ...]:
+    """Per member row: the columns holding printed text that is not an amount, and whether the row holds amounts.
+    Amounts may differ (zero, blank, value) between records of one layout; the label layout may not."""
+    shape = []
+    for row_id in member_ids:
+        members = _members(by_id[row_id], by_id)
+        text = frozenset(key for member in members if (member.text or "").strip() and not _amount_candidate(member) for key in _column_keys(member))
+        shape.append((text, any(member.kind != "empty_cell" and _amount_candidate(member) for member in members)))
+    return tuple(shape)
+
+
+def _code_records(row_ids, by_id: dict[str, SourceObservation]) -> list[tuple[list[str], bool]]:
+    """Records found by code: acquisition record blocks, plus one-row records (a labelled row with amounts) outside them."""
+    ordered = list(row_ids)
+    blocks = sorted(_region_blocks(row_ids, by_id), key=lambda block: ordered.index(str(block.metadata["identity_row_id"])))
+    records = [([str(value) for value in block.metadata.get("member_ids", ()) if str(value) in by_id], bool(block.metadata.get("subtotal_marker"))) for block in blocks]
+    in_blocks = {row_id for members, _ in records for row_id in members}
+    for row_id in ordered:
+        if row_id in in_blocks or row_id not in by_id:
+            continue
+        members = _members(by_id[row_id], by_id)
+        labelled = any(re.search(r"[^\W\d_]", member.text or "") and not _amount_candidate(member) for member in members)
+        reconciliation = any(reconciliation_text(member.text) for member in members)  # code-known non-records never vote on the shape
+        if labelled and not reconciliation and any(member.kind != "empty_cell" and _amount_candidate(member) for member in members):
+            records.append(([row_id], bool(SUBTOTAL_MARKER.match(by_id[row_id].text or ""))))
+    return records
+
+
+def _expand_patterns(patterns: list[dict[str, object]], explicit: list[dict[str, object]], row_ids, by_id: dict[str, SourceObservation], verification: list[dict[str, object]]) -> list[dict[str, object]]:
+    """Apply each model pattern to the code-found records of its row count and of the majority label shape for that row
+    count and role. A record matching no pattern or two patterns abstains; every expanded block then passes R1-R7."""
+    from collections import Counter
+    records = _code_records(row_ids, by_id)
     taken = {row_id for block in explicit for row_id in (block["identity_row_id"], *(item["row_id"] for item in block["rows"]))}
-    ordinals = sorted(item["ordinal"] for item in pattern["rows"])
+    majority: dict[tuple[int, bool], object] = {}
+    for count_and_role in {(len(members), subtotal) for members, subtotal in records}:
+        shapes = Counter(_label_shape(members, by_id) for members, subtotal in records if (len(members), subtotal) == count_and_role)
+        majority[count_and_role] = shapes.most_common(1)[0][0]
     expanded: list[dict[str, object]] = []
-    for block in blocks:
-        members = [str(value) for value in block.metadata.get("member_ids", ()) if str(value) in by_id]
-        shape = _block_shape(block, by_id)
-        subtotal = bool(block.metadata.get("subtotal_marker"))
+    for members, subtotal in records:
         if set(members) & taken:
             continue
-        if subtotal != (pattern["role"] == "subtotal") or (not subtotal and shape != reference) or len(set(ordinals)) != len(ordinals) or ordinals[-1] >= len(members):
-            verification.append({"rule": "pattern", "detail": f"shape_mismatch:{block.metadata.get('identity_row_id')}"})
+        shape = _label_shape(members, by_id)
+        fitting = []
+        for pattern in patterns:
+            ordinals = sorted(item["ordinal"] for item in pattern["rows"])
+            count = pattern.get("row_count")
+            if (count is not None and count != len(members)) or (count is None and len(members) < 2) or subtotal != (pattern["role"] == "subtotal") \
+                    or len(set(ordinals)) != len(ordinals) or ordinals[-1] >= len(members) or shape != majority[(len(members), subtotal)]:
+                continue
+            fitting.append(pattern)
+        if len(fitting) != 1:
+            verification.append({"rule": "pattern", "detail": f"{'no' if not fitting else 'several'}_pattern:{members[0]}"})
             continue
-        expanded.append({"identity_row_id": members[0], "rows": [{"row_id": members[item["ordinal"]], "header_row_id": item["header_row_id"], "measure": item["measure"]}
-                                                                for item in sorted(pattern["rows"], key=lambda row: row["ordinal"])], "role": pattern["role"]})
+        pattern = fitting[0]
+        rows = [{"row_id": members[item["ordinal"]], "header_row_id": item["header_row_id"], "measure": item["measure"]}
+                for item in sorted(pattern["rows"], key=lambda row: row["ordinal"]) if not (item["ordinal"] == 0 and item.get("identity_only"))]
+        expanded.append({"identity_row_id": members[0], "rows": rows, "role": pattern["role"], "generated": True})
     return expanded
 
 
@@ -698,7 +766,8 @@ def _members(row: SourceObservation, by_id: dict[str, SourceObservation]) -> lis
 
 
 SUBTOTAL_MARKER = re.compile(r"\s*(?:\*+(?:\s|\||$)|(?:summe|gesamt|total)\b)", re.I)
-IDENTIFIER_HEADER = re.compile(r"\b(?:nummer|number|code|identifier|record id|nr|unr|no|id|snr|sub|teil|lfd|unterpos)\b|unternummer|kennung|\bident|\binv|\banl")
+IDENTIFIER_HEADER = re.compile(r"\b(?:nummer|number|code|identifier|record id|nr|unr|no|id|snr|sub|teil|unterpos|anl|inv)\b|unternummer|inventarnummer|anlagennummer|kennung|\bident")
+COUNTER_HEADER = re.compile(r"^(?:lfd|laufende)(?: (?:nr|nummer|no))?$")  # a running row number, never an identifier
 DESCRIPTIVE_ROLES = frozenset({"source_name", "class_name"})
 # asset_id needs an anchored asset-number header; words naming another attribute cancel it ("Anlagengruppe", "Anlagedatum").
 ASSET_ID_HINT = re.compile(r"^anlage$|^anlagen ?(?:nummer|nr)$|^anl ?nr$|^anl$|^inventar ?(?:nummer|nr)$|^inv ?nr$|^asset(?: (?:id|no|nr|number))?$|^anlage ?nr$")
@@ -707,7 +776,7 @@ KEY_ROLES = frozenset({"asset_id", "asset_sub_id", "class_code", "account", "ent
 # Header words that POSITIVELY support an identity role, most specific first; the first hit decides (one role family per
 # header). A key role needs support; text with no hint ("Bemerkung", "Pos.", "Nr.") may only carry a descriptive role.
 ROLE_HINTS = (
-    (re.compile(r"^unter ?(?:nummer|nr|pos)?$|unternummer|\bsub\b|^u ?nr$|\bunr\b|\bsnr\b|^teil$|^lfd$|unterpos"), frozenset({"asset_sub_id"})),
+    (re.compile(r"^unter ?(?:nummer|nr|pos)?$|unternummer|\bsub\b|^u ?nr$|\bunr\b|\bsnr\b|^teil$|unterpos"), frozenset({"asset_sub_id"})),
     (re.compile(r"klasse|class"), frozenset({"class_code", "class_name"})),
     (re.compile(r"konto|kto|account"), frozenset({"account"})),
     (re.compile(r"bukr|buchungskreis|gesellschaft|company|entity|\bbk\b"), frozenset({"entity"})),
@@ -716,11 +785,7 @@ ROLE_HINTS = (
     (ASSET_ID_HINT, frozenset({"asset_id"})),
     (re.compile(r"bezeichnung|name|beschreibung|description|\btext\b|gegenstand|bemerkung"), DESCRIPTIVE_ROLES),
 )
-# Print/creation stamps and prior-year lines are never the reporting period ("Berichtsdatum" is not "Datum").
-CREATION_WORDS = re.compile(r"erstell|druck|printed|created|\bstand\b|\bdatum\b|abfrage|g(?:ü|ue)ltig|\bseite\b|vorjahr|vergleich|prior year|previous year|comparative", re.I)
-# A reporting period needs a fiscal-year/reporting word, or "per"/"zum" followed by a fiscal year-end date.
-PERIOD_WORDS = re.compile(r"wirtschaftsjahr|gesch(?:ä|ae)ftsjahr|berichtsdatum|bilanzstichtag|stichtag|jahresabschluss|fiscal year|reporting date|\bgj\b"
-                          r"|\b(?:per|zum)\s+(?:31\.0?3|30\.0?6|30\.0?9|31\.12)\.(?:19|20)\d{2}\b", re.I)
+# Period words are shared with the local rules (structure.CREATION_WORDS / PERIOD_WORDS).
 DATE_TEXT = re.compile(r"\b\d{1,2}\.\d{1,2}\.(?:19|20)\d{2}\b")
 ISO_DATE = re.compile(r"^\s*\d{4}-\d{2}-\d{2}(?:[ T]\d{2}:\d{2}:\d{2})?\s*$")
 
@@ -808,6 +873,15 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
     header_row_cells = {row_id: {member.id for member in _members(by_id[row_id], by_id)} for row_id in header_rows}
     declared_header_cells = {cell for cells in header_row_cells.values() for cell in cells}
     spans: dict[str, tuple[int, int]] = {}
+    # Merged header ranges are read by code (schema v11 has no model spans): a single-row merged anchor in a declared
+    # header row spans exactly its merged columns.
+    for cell_id in declared_header_cells:
+        cell = by_id.get(cell_id); position = _xlsx_position(cell) if cell else None
+        merged = cell.metadata.get("merged_range") if cell else None
+        if position and isinstance(merged, str) and cell.metadata.get("merged_anchor") is True:
+            bounds = range_boundaries(merged)
+            if bounds[1] == bounds[3] == position[1]:
+                spans[cell.id] = (bounds[0], bounds[2])
     for span in structure["spans"]:
         header = by_id[span["header_observation_id"]]; position = _xlsx_position(header)
         merged = header.metadata.get("merged_range")
@@ -828,34 +902,24 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                  and not any(member.text and _amount_candidate(member) for member in _members(by_id[row_id], by_id))]
     # Two adjacent text-only rows that are neither records nor declared headers form another table's header band.
     foreign_bands = [b for a, b in zip(band_like, band_like[1:]) if a[0] == b[0] and b[1] == a[1] + 1]
+    kept_blocks: list[dict[str, object]] = []
     for block in structure["blocks"]:
-        sequence = list(dict.fromkeys((block["identity_row_id"], *(item["row_id"] for item in block["rows"]))))
-        positions = [_row_position(by_id[row_id], order) for row_id in sequence]
-        if not block["rows"] or not set(sequence) <= set(order) or seen & set(sequence) or header_set & set(sequence) or None in positions:
-            return reject("R1", block["identity_row_id"])
-        if any(b[0] != a[0] or b[1] != a[1] + 1 for a, b in zip(positions, positions[1:])):
-            return reject("R1", block["identity_row_id"])
-        governing: list[tuple[object, int]] = []
-        for item in block["rows"]:
-            header_position = _row_position(by_id[item["header_row_id"]], order) if item["header_row_id"] in by_id else None
-            row_position = _row_position(by_id[item["row_id"]], order)
-            if item["header_row_id"] and (item["header_row_id"] not in header_set or header_position is None or header_position[0] != row_position[0] or header_position[1] >= row_position[1]):
-                return reject("R1", item["row_id"])
-            if header_position is not None:
-                if any(band[0] == header_position[0] and header_position[1] < band[1] < row_position[1] for band in foreign_bands):
-                    return reject("R1", f"header_band_between:{item['row_id']}")
-                governing.append(header_position)
-        # One stacked header row may govern every row of a record (scanned SAP grids merge the header lines into one grid
-        # row); then every row must declare its own distinct measure. Otherwise header rows must strictly follow row order.
-        shared = len(governing) > 1 and len(set(governing)) == 1 and len({item["measure"] for item in block["rows"]}) == len(block["rows"]) and all(item["measure"] for item in block["rows"])
-        if not shared and any(b[0] != a[0] or b[1] <= a[1] for a, b in zip(governing, governing[1:])):
-            return reject("R1", f"header_order:{block['identity_row_id']}")
-        seen.update(sequence)
+        failure = _r1_failure(block, order, header_set, seen, foreign_bands, by_id)
+        if failure and not block.get("generated"):
+            return reject("R1", failure)
+        if failure:
+            # A pattern-expanded block that fails closure abstains alone (e.g. a prior-year grid below under another band).
+            verification.append({"rule": "R1", "detail": failure}); continue
+        seen.update(dict.fromkeys((block["identity_row_id"], *(item["row_id"] for item in block["rows"]))))
+        kept_blocks.append(block)
+    structure["blocks"] = kept_blocks
     data_blocks = [block for block in structure["blocks"] if block["role"] == "data"]
     # R2 periodicity: one (ordinal -> header row, measure) mapping for every data block of the table.
-    signatures = {tuple((item["header_row_id"], item["measure"]) for item in block["rows"]) for block in data_blocks}
+    signatures = {tuple((item["header_row_id"], item["measure"]) for item in block["rows"]) for block in data_blocks if not block.get("generated")}
     if len(signatures) > 1:
         return reject("R2", structure["table_type"])
+    # Each pattern is periodic by construction; its signature joins the R3 admissibility check below.
+    signatures |= {tuple((item["header_row_id"], item["measure"]) for item in block["rows"]) for block in data_blocks if block.get("generated")}
     # R3 admissibility: one field per header cell; in a multi-row record every row declares its measure and the measure
     # admits every field label in its governing header row.
     labels: dict[str, set[str]] = {}
@@ -887,19 +951,33 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
     # Identifier-like headers in a column that has NO declared identity header, anywhere above the records. Amount headers
     # (declared field/movement/measure cells, or text naming a field or a measure group) are not identifiers.
     amount_header_ids = {item["observation_id"] for item in (*field_headers, *movement_axes, *measure_axes)}
-    declared_identity_columns = {key for item in identity_headers for key in _column_keys(by_id[item["observation_id"]])}
+    declared_identity_columns = {key for item in identity_headers if item["identity_role"] in KEY_ROLES or item["identity_role"] in _supported_roles(by_id[item["observation_id"]].text)
+                                 for key in _column_keys(by_id[item["observation_id"]])}
     undeclared_identifier_headers = [member for member in header_area if member.id not in declared_identity_ids and member.id not in amount_header_ids and not _amount_candidate(member)
                                      and not match(member.text or "", FIELDS) and not match(member.text or "", HEADER_GROUPS)
+                                     and not COUNTER_HEADER.match(norm(member.text or ""))
                                      and (IDENTIFIER_HEADER.search(norm(member.text or "")) or _supported_roles(member.text) & KEY_ROLES)
                                      and not _column_keys(member) & declared_identity_columns]
+    # C3: an undeclared "ID"/"Kennung" column holding a running counter (0..n-1 or 1..n in record order) is a row number.
+    def _counter(header: SourceObservation) -> bool:
+        values = [member.text.strip() for block in data_blocks for member in _members(by_id[block["identity_row_id"]], by_id) if _same_column(header, member, {}) and (member.text or "").strip()]
+        numbers = [int(value) for value in values if re.fullmatch(r"\d{1,6}", value)]
+        return len(values) >= 2 and len(numbers) == len(values) and numbers in (list(range(1, len(numbers) + 1)), list(range(len(numbers))))
+    # Only an UNKNOWN header ("ID", "Kennung") can be a counter; a header naming a key role ("UNr" = sub-number) never is.
+    undeclared_identifier_headers = [header for header in undeclared_identifier_headers if _supported_roles(header.text) & KEY_ROLES or not _counter(header)]
     declared_roles = {assignment["identity_role"] for assignment in identity_headers}
     group_cells = [by_id[cell] for cell in declared_header_cells if cell in by_id] + header_area
     block_claims: dict[str, list[tuple[SourceObservation, AssociationClaim]]] = {}
     acquisition_subtotals = {str(observation.metadata.get("identity_row_id")) for observation in by_id.values() if observation.kind == "record_block" and observation.metadata.get("subtotal_marker") is True}
     all_identity_cells = {member.id for block in data_blocks for member in _members(by_id[block["identity_row_id"]], by_id)}
-    # The header rows that govern some ordinal of a record: carried on each claim so semantics can tell a local reading
-    # that collapsed these stacked rows into one column from a genuine disagreement.
-    governing_rows = tuple(dict.fromkeys(item["header_row_id"] for block in data_blocks for item in block["rows"] if item["header_row_id"]))
+    # S1: a sheet period comes from a title/context line above the header band, never from a header-band row (a column
+    # header such as "Restbuchwert zum 31.12.2024" describes one column, not the report).
+    labelled = {item["observation_id"] for item in (*field_headers, *movement_axes, *measure_axes, *identity_headers)} | declared_header_cells
+    band_rows = {_xlsx_position(by_id[cell])[:2] for cell in labelled if cell in by_id and _xlsx_position(by_id[cell])}
+    from collections import Counter
+    header_words = Counter(position[:2] for member in header_area if (position := _xlsx_position(member)) and (match(member.text or "", FIELDS) or match(member.text or "", HEADER_GROUPS)))
+    band_rows |= {row for row, count in header_words.items() if count >= 2}  # a header band names several columns; a title line is one cell
+    title_cells = {member.id for member in header_area if member.id not in declared_header_cells and ((position := _xlsx_position(member)) is None or position[:2] not in band_rows)}
     for block in structure["blocks"]:
         identity_row = by_id[block["identity_row_id"]]
         block_rows = [by_id[row_id] for row_id in dict.fromkeys((identity_row.id, *(item["row_id"] for item in block["rows"])))]
@@ -924,7 +1002,7 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
             matching = [member for member in column if (_block_identifier(member) if assignment["identity_role"] in KEY_ROLES else member.text and not _amount_candidate(member))]
             if len(matching) == 1 and len(column) == 1:
                 identity_values.append((matching[0].id, assignment["identity_role"])); identity_evidence.extend((header.id, matching[0].id))
-            elif column or assignment["identity_role"] == "asset_sub_id":
+            elif column or assignment["identity_role"] in {"asset_id", "asset_sub_id", "class_code"}:
                 complete = False
         roles = [role for _, role in identity_values]
         undeclared = [header for header in undeclared_identifier_headers for member in identity_cells if _same_column(header, member, {}) and member.text and (_block_identifier(member) or not _amount_candidate(member))]
@@ -940,7 +1018,8 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                 identity_by_column.setdefault(key, []).append(member)
         context_cells = {"block": {member.id for member in identity_cells}, "header": declared_header_cells | {member.id for member in header_area},
                          "identity_by_column": identity_by_column, "identity_cells_any": all_identity_cells,
-                         "header_rows": declared_header_cells, "descriptive": descriptive_cells, "period_columns": period_columns - descriptive_cells}
+                         "header_rows": declared_header_cells, "descriptive": descriptive_cells, "period_columns": period_columns - descriptive_cells,
+                         "title_cells": title_cells}
         for item in block["rows"]:
             row = by_id[item["row_id"]]
             header_row = by_id.get(item["header_row_id"] or "")
@@ -982,7 +1061,7 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
                 block_claims.setdefault(identity_row.id, []).append((amount, AssociationClaim(
                     AssociationKind.OTHER, (row.id,), evidence, (), False, field, context_ids, tuple(identity_values),
                     period["observation_id"] if period else None, movement_temporal_role or (period["temporal_role"] if period else None),
-                    unit["observation_id"] if unit else None, unit["unit"] if unit else None, "data", governing_rows,
+                    unit["observation_id"] if unit else None, unit["unit"] if unit else None, "data", ((header_row.id,) if header_row else ()),
                     field_id, header_row.id if header_row else None, measure,
                     movement["observation_id"] if movement else None, movement["movement_axis"] if movement else None, identity_row.id,
                 )))
@@ -998,6 +1077,32 @@ def _expand_blocks(structure: dict[str, object], by_id: dict[str, SourceObservat
     for block_id in failing:
         verification.append({"rule": "R6", "detail": block_id})
     return [claim for block_id, items in block_claims.items() if block_id not in failing for claim in items]
+
+
+def _r1_failure(block: dict[str, object], order: dict[str, int], header_set: set[str], seen: set[str], foreign_bands: list, by_id: dict[str, SourceObservation]) -> str | None:
+    """R1 closure for one block: region rows, contiguity, disjointness, header rows above and in row order, no other table's band between."""
+    sequence = list(dict.fromkeys((block["identity_row_id"], *(item["row_id"] for item in block["rows"]))))
+    positions = [_row_position(by_id[row_id], order) for row_id in sequence]
+    if not block["rows"] or not set(sequence) <= set(order) or seen & set(sequence) or header_set & set(sequence) or None in positions:
+        return block["identity_row_id"]
+    if any(b[0] != a[0] or b[1] != a[1] + 1 for a, b in zip(positions, positions[1:])):
+        return block["identity_row_id"]
+    governing: list[tuple[object, int]] = []
+    for item in block["rows"]:
+        header_position = _row_position(by_id[item["header_row_id"]], order) if item["header_row_id"] in by_id else None
+        row_position = _row_position(by_id[item["row_id"]], order)
+        if item["header_row_id"] and (item["header_row_id"] not in header_set or header_position is None or header_position[0] != row_position[0] or header_position[1] >= row_position[1]):
+            return item["row_id"]
+        if header_position is not None:
+            if any(band[0] == header_position[0] and header_position[1] < band[1] < row_position[1] for band in foreign_bands):
+                return f"header_band_between:{item['row_id']}"
+            governing.append(header_position)
+    # One stacked header row may govern every row of a record (scanned SAP grids merge the header lines into one grid
+    # row); then every row must declare its own distinct measure. Otherwise header rows must strictly follow row order.
+    shared = len(governing) > 1 and len(set(governing)) == 1 and len({item["measure"] for item in block["rows"]}) == len(block["rows"]) and all(item["measure"] for item in block["rows"])
+    if not shared and any(b[0] != a[0] or b[1] <= a[1] for a, b in zip(governing, governing[1:])):
+        return f"header_order:{block['identity_row_id']}"
+    return None
 
 
 @lru_cache(maxsize=None)
@@ -1111,6 +1216,8 @@ def _scoped_context(contexts: list[dict[str, object]], amount: SourceObservation
             if counterpart is None:
                 continue
             observation = counterpart; context = {**context, "observation_id": counterpart.id}
+            if "unit" in context and re.fullmatch(r"\s*(?:T?EUR|T€|Tsd\.?\s*EUR)\s*", counterpart.text or "", re.I) and unit_from_text(counterpart.text):
+                context["unit"] = unit_from_text(counterpart.text)  # the record prints its own scale; code reads it
         if scope == "column" and not (_same_column(observation, amount, spans) and (position is None or amount_position is None or position[1] < amount_position[1])):
             continue
         if scope == "sheet" and position and amount_position and position[0] != amount_position[0]:
@@ -1122,7 +1229,7 @@ def _scoped_context(contexts: list[dict[str, object]], amount: SourceObservation
             text = observation.text or ""
             dated = observation.metadata.get("data_type") == "d" or bool(ISO_DATE.match(text) or DATE_TEXT.search(text))
             located = (observation.id in context_cells["period_columns"]) if scope == "block" else (
-                bool(PERIOD_WORDS.search(text)) if scope == "sheet" else observation.id in context_cells["header_rows"])
+                bool(PERIOD_WORDS.search(text)) and observation.id in context_cells["title_cells"] if scope == "sheet" else observation.id in context_cells["header_rows"])
         record_date = scope == "block" and (observation.metadata.get("data_type") == "d" or bool(ISO_DATE.match(observation.text or "")))
         value = _context_value(context, observation) if located and not record_date else None
         if value is None:

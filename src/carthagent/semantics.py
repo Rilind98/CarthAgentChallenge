@@ -10,7 +10,7 @@ import time
 from .models import AssociationClaim, AssociationKind, Abstention, BusinessIdentity, CoverageDisposition, CoverageItem, HypothesisSet, PhysicalIdentity, SourceObservation, ValidatedFact
 from .numeric import NumericParseError, parse_amount
 from .policies import PolicyBundle
-from .structure import ContextResolver, ResolvedContext, label_key_ok, norm, unit_from_text
+from .structure import FIELDS, ContextResolver, ResolvedContext, admissible_fields, compose_matrix_axes, label_key_ok, match, norm, unit_from_text
 
 
 SEMANTICS_VERSION = "14"
@@ -187,6 +187,24 @@ def interpret(observations: tuple[SourceObservation, ...], coverage: tuple[Cover
             abstention = Abstention(_stable_id(f"{fact.document_id}:abst", SEMANTICS_VERSION, fact.source_observation_id, reason), fact.document_id, reason, (fact.source_observation_id,), fact.dependency_ids)
             abstentions.append(abstention); by_locator[fact.physical.occurrence] = abstention.id
         facts = retained
+    # K1 backstop: two facts with one OUTPUT identity (any source rows) are two records collapsed into one key, or one record
+    # read twice. Every member of such a group abstains; equal values do not excuse it.
+    output_groups: dict[tuple[object, ...], list[ValidatedFact]] = {}
+    for fact in facts:
+        business = fact.business
+        # Scope = the source sheet/page: the same key on two sheets is the exporter's ambiguous_destination_identity case.
+        scope = fact.physical.occurrence.rsplit("!", 1)[0] if "!" in fact.physical.occurrence else fact.physical.occurrence.split(":", 2)[:2]
+        output_groups.setdefault((str(scope), business.entity, business.book, business.asset_id, business.asset_sub_id, business.class_code, business.balance_position, business.asset_or_class, business.field, business.period), []).append(fact)
+    colliding = {fact.id for group in output_groups.values() if len(group) > 1 for fact in group}
+    if colliding:
+        retained = []
+        for fact in facts:
+            if fact.id not in colliding:
+                retained.append(fact); continue
+            reason = "business_key_collision"
+            abstention = Abstention(_stable_id(f"{fact.document_id}:abst", SEMANTICS_VERSION, fact.source_observation_id, reason), fact.document_id, reason, (fact.source_observation_id,), fact.dependency_ids)
+            abstentions.append(abstention); by_locator[fact.physical.occurrence] = abstention.id
+        facts = retained
     facts = list(_annotate_arithmetic(tuple(facts)))
     updated: list[CoverageItem] = []
     observations_by_locator = {o.locator: o for o in observations}
@@ -292,12 +310,14 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
     if block and selected.semantic_field and business.field not in {None, "amount", selected.semantic_field}:
         # Local column=field rules read a stacked header column (several governing header rows above one amount column) as
         # one field; that reading is no evidence against the row the block declares. Any other disagreement abstains.
-        governing = [by_id[row_id] for row_id in selected.header_parent_ids if row_id in by_id]
-        touched = [row for row in governing if set(context.evidence_ids) & set(row.metadata.get("member_ids", ()))]
-        if len(touched) < 2:
+        # G2': the block decides only where the local reading is IMPOSSIBLE for the row's declared measure (a local column
+        # reading of a stacked SAP header, e.g. local zugang on the AfA row). Any admissible disagreement abstains.
+        if not selected.semantic_measure or business.field in admissible_fields(selected.semantic_measure):
             conflicts.append("field")
         else:
             business = replace(business, field=None)  # the verified block's header row decides below
+    if block and selected.semantic_field and _header_words_contradict(selected, by_id):
+        conflicts.append("field")
     if selected.semantic_field and len(valid_headers) == 1 and business.field in {None, "amount"}:
         business = replace(business, field=selected.semantic_field); evidence.append(valid_headers[0].id)
     target_rows = [by_id.get(value) for value in selected.target_observation_ids]
@@ -320,6 +340,8 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
         business = replace(business, row_kind=selected.semantic_row_role); evidence.append(target_rows[0].id)
     unit = business.unit
     unit_observation = by_id.get(selected.semantic_unit_observation_id or "")
+    if unit is not None and unit_observation is not None and unit_from_text(unit_observation.text) == selected.semantic_unit and unit != selected.semantic_unit:
+        conflicts.append("unit")
     if unit is None and unit_observation is not None and selected.semantic_unit in {"EUR", "TEUR"}:
         source_unit = unit_from_text(unit_observation.text)
         if source_unit == selected.semantic_unit:
@@ -341,13 +363,31 @@ def _apply_mapped_axes(context: ResolvedContext, selected: AssociationClaim, amo
     }
     # A sub-number clears only when the block bound one. Unresolved identifier columns clear only for an emitted block claim:
     # mapper R4 skips any block with a value under an undeclared identifier-like header anywhere above the records.
-    carried = ({"asset_sub_id"} if "asset_sub_id" in identity_updates else set()) | {"unresolved_identifier"} if block and identity_updates else set()
+    key_roles = {"asset_id", "asset_sub_id", "class_code", "account", "balance_position", "entity", "book"}
+    # The mapper's R4 already skipped every block with an undeclared identifier column (counters excepted, C3); a block
+    # claim that BOUND a key role (applied, or equal to the local value) may therefore clear the local abstention.
+    bound_key_roles = key_roles & {role for _, role in selected.semantic_identity_assignments} if block and "business_identity" not in conflicts else set()
+    carried = ({"asset_sub_id"} if "asset_sub_id" in identity_updates else set()) | ({"unresolved_identifier"} if bound_key_roles else set()) if block else set()
     missing = tuple(dict.fromkeys((
         *(name for name in context.missing_axes if name not in recomputed and name not in carried),
         *(name for name, present in recomputed.items() if not present),
         *conflicts,
     )))
     return ResolvedContext(business, Decimal(1000) if unit == "TEUR" else Decimal(1), tuple(dict.fromkeys(evidence)), missing)
+
+
+def _header_words_contradict(selected: AssociationClaim, by_id: dict[str, SourceObservation]) -> bool:
+    """The governing header cell's own words (local vocabulary, e.g. "Umbuchung (lfd.)" -> umb), read under the row's
+    measure, must allow the block's field. Words naming no field are no evidence either way."""
+    header = by_id.get(selected.semantic_field_observation_id or "")
+    named = match(header.text or "", FIELDS) if header is not None else None
+    if not named or named == "amount":
+        return False
+    measure = selected.semantic_measure
+    if not measure:
+        return False  # without a row measure the column's group decides; the local column reading is the second opinion there
+    allowed = {field for field in (named, compose_matrix_axes(measure, named, None), "total_afa_gj" if (measure, named) == ("cum_depreciation", "zugang") else None) if field and field in admissible_fields(measure)}
+    return selected.semantic_field not in allowed
 
 
 def _merge_hypotheses(local: HypothesisSet, external: HypothesisSet) -> HypothesisSet:

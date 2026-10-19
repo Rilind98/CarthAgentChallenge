@@ -74,7 +74,9 @@ def test_lower_table_with_its_own_header_never_uses_the_upper_header(stub, docum
     assert not [f for f in facts if f.source_observation_id == lower.id]
     assert any(lower.id in a.candidate_observation_ids and "column_structure" in a.reason for a in abstentions)
     lower_fields = {f.business.field for f in facts if ":azcell:1:" in f.source_observation_id}
-    assert "zugang" not in lower_fields and lower_fields, lower_fields
+    # K1 (round 5): the copied lower table repeats the upper table's asset numbers, so its remaining facts collide on the
+    # business key with the upper table's and abstain; the point here is only that no lower value takes "Zugänge".
+    assert "zugang" not in lower_fields, lower_fields
     upper = {f.business.field for f in facts if ":azcell:0:" in f.source_observation_id}
     assert "zugang" in upper
 

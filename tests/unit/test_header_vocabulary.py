@@ -55,7 +55,7 @@ def test_depreciation_suffix_names_the_balance_not_the_charge(header, expected):
 
 
 @pytest.mark.parametrize(("header", "expected"), [
-    ("UNr", "asset_sub_id"), ("U-Nr.", "asset_sub_id"), ("Sub", "asset_sub_id"), ("Teil", "asset_sub_id"), ("Lfd.", "asset_sub_id"),
+    ("UNr", "asset_sub_id"), ("U-Nr.", "asset_sub_id"), ("Sub", "asset_sub_id"), ("Teil", "asset_sub_id"), ("Lfd.", None),
     ("Unterpos.", "asset_sub_id"), ("SNr", "asset_sub_id"), ("Unter-nummer", "asset_sub_id"), ("Anlage", "asset_id"),
     # Short spellings are exact tokens, never substrings of other headers.
     ("lfd Buchwert", None), ("Teilwert", None), ("Subvention", None), ("Anlagengruppe", None),

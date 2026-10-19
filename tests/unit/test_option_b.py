@@ -54,17 +54,16 @@ def _walk(schema, path="$"):
 def test_structure_plan_schema_is_strict_for_openai_and_constraint_free_for_anthropic():
     schema = OpenAICompatibleMapper.response_schema()
     plan = schema["properties"]["plans"]["items"]
-    assert {"table_type", "header_rows", "record_blocks", "column_spans"} <= set(plan["required"])
-    block_row = plan["properties"]["record_blocks"]["items"]["properties"]["rows"]["items"]
-    assert set(block_row["required"]) == {"row_id", "header_row_id", "measure"}
-    assert set(plan["properties"]["column_spans"]["items"]["required"]) == {"header_observation_id", "first_column", "last_column"}
+    # Schema v11 (G1b): record blocks and spans are found by code; the model describes block shapes in block_pattern.
+    assert {"table_type", "header_rows", "block_pattern"} <= set(plan["required"]) and not {"record_blocks", "column_spans"} & set(plan["properties"])
+    assert set(schema["$defs"]["pattern_row"]["required"]) == {"ordinal", "header_row_id", "measure"}
     for context in ("period_contexts", "unit_contexts"):
-        assert plan["properties"][context]["items"]["properties"]["scope"]["enum"] == ["sheet", "column", "block"]
+        assert plan["properties"][context]["items"]["properties"]["scope"] == {"$ref": "#/$defs/scope"} and schema["$defs"]["scope"]["enum"] == ["sheet", "column", "block"]
     for path, node in _walk(schema):
         assert not FORBIDDEN_SCHEMA_KEYS & set(node), path
         if node.get("type") == "object":
             assert node["additionalProperties"] is False and set(node["required"]) == set(node["properties"]), path
-    assert (MAPPER_SCHEMA_VERSION, MAPPER_PROMPT_VERSION) == ("semantic_region_plan_v9", "compact-region-plan-v12")
+    assert (MAPPER_SCHEMA_VERSION, MAPPER_PROMPT_VERSION) == ("semantic_region_plan_v11", "compact-region-plan-v13")
 
 
 def _mapped(source, plan):

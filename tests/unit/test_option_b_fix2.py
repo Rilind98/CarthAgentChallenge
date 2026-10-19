@@ -38,7 +38,7 @@ def test_r2_2_prompt_carries_the_structure_rules_and_a_new_version():
     system = body["input"][0]["content"][0]["text"]
     for rule in ("empty header cell", "source_name", "record date", "total_afa_gj", "afa_abgang", "identity row"):
         assert rule in system, rule
-    assert MAPPER_PROMPT_VERSION == "compact-region-plan-v12" and mapper.fingerprint()["prompt_version"] == MAPPER_PROMPT_VERSION
+    assert MAPPER_PROMPT_VERSION == "compact-region-plan-v13" and mapper.fingerprint()["prompt_version"] == MAPPER_PROMPT_VERSION
 
 
 def test_r2_7_identical_claims_from_overlapping_requests_are_one_hypothesis():
