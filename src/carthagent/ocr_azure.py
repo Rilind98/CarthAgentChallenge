@@ -6,7 +6,7 @@ import math
 import os
 import socket
 import time
-from typing import Any, Mapping, Sequence
+from typing import Any, Mapping
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode, urlparse
 from urllib.request import HTTPRedirectHandler, Request, build_opener
@@ -146,11 +146,9 @@ class AzureDocumentIntelligenceOCR:
         self.config = config
         self._opener = build_opener(_RejectRedirects())
 
-    def analyze(self, document_bytes: bytes, *, deadline: float | None = None, pages: Sequence[int] | None = None) -> OCRResult:
-        """Analyse the document; ``pages`` (1-based) limits analysis and billing to those pages."""
+    def analyze(self, document_bytes: bytes, *, deadline: float | None = None) -> OCRResult:
         if not isinstance(document_bytes, bytes):
             raise TypeError("document_bytes must be bytes")
-        page_query = _page_ranges(pages) if pages is not None else None
         if not document_bytes:
             raise AzureOCRResourceLimitError("azure_ocr_empty_input")
         if len(document_bytes) > self.config.max_input_bytes:
@@ -163,10 +161,7 @@ class AzureDocumentIntelligenceOCR:
             local_deadline = min(local_deadline, deadline)
 
         endpoint = self.config.endpoint.rstrip("/")
-        parameters = {"api-version": self.config.api_version, "stringIndexType": AZURE_STRING_INDEX_TYPE}
-        if page_query is not None:
-            parameters["pages"] = page_query
-        query = urlencode(parameters, safe=",")
+        query = urlencode({"api-version": self.config.api_version, "stringIndexType": AZURE_STRING_INDEX_TYPE})
         analyze_url = f"{endpoint}/documentintelligence/documentModels/{AZURE_LAYOUT_MODEL}:analyze?{query}"
         headers = {
             "Content-Type": "application/octet-stream",
@@ -255,23 +250,6 @@ class AzureDocumentIntelligenceOCR:
             or operation.fragment
         ):
             raise AzureOCRResponseError("azure_ocr_operation_location_origin_mismatch")
-
-
-def _page_ranges(pages: Sequence[int]) -> str:
-    """Format 1-based page numbers as Azure's ``pages`` query value, e.g. ``1-3,5``."""
-    numbers = sorted(set(pages))
-    if not numbers or any(isinstance(page, bool) or not isinstance(page, int) or page < 1 for page in numbers):
-        raise ValueError("azure_ocr_pages_must_be_positive_integers")
-    ranges: list[str] = []
-    start = previous = numbers[0]
-    for page in numbers[1:] + [None]:
-        if page is not None and page == previous + 1:
-            previous = page
-            continue
-        ranges.append(str(start) if start == previous else f"{start}-{previous}")
-        if page is not None:
-            start = previous = page
-    return ",".join(ranges)
 
 
 @dataclass(frozen=True, slots=True)

@@ -186,10 +186,17 @@ def acquire_pdf(path: Path, document_id: str, source_hash: str, bounds: Resource
                 diagnostics.append("azure_unavailable_fallback_tesseract:document_budget_exhausted"); azure_failed = True; partial = True
             else:
                 try:
-                    result = azure_provider.analyze(path.read_bytes(), deadline=azure_deadline, pages=[index + 1 for index in cloud_pages])
+                    # Upload only the scan/outline pages (request-size limits,
+                    # billing); uploaded page k is original page cloud_pages[k - 1].
+                    with fitz.open() as subset:
+                        for index in cloud_pages:
+                            subset.insert_pdf(doc, from_page=index, to_page=index)
+                        subset_bytes = subset.tobytes()
+                    result = azure_provider.analyze(subset_bytes, deadline=azure_deadline)
                     for provider_page in result.pages:
-                        page_index = provider_page.page_number - 1
-                        if page_index in cloud_pages:
+                        position = provider_page.page_number - 1
+                        if 0 <= position < len(cloud_pages):
+                            page_index = cloud_pages[position]
                             azure_pages[page_index], page_issues = _azure_page_observations(provider_page, doc[page_index], document_id, source_hash, page_index, result.tables)
                             diagnostics.extend(page_issues)
                     # A requested page Azure did not return (the free tier, for
@@ -541,13 +548,14 @@ def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, doc
     cos_t, sin_t = math.cos(math.radians(deskew_degrees)), math.sin(math.radians(deskew_degrees))
     centre_x, centre_y = provider_page.width / 2, provider_page.height / 2
 
-    def to_source(polygon: tuple[float, ...]) -> tuple[tuple[float, float, float, float], tuple[float, float, float, float]]:
+    def to_source(polygon: tuple[float, ...], *, deskew: bool = True) -> tuple[tuple[float, float, float, float], tuple[float, float, float, float]]:
         # Azure polygons are in the displayed (rotated, cropped) page in
         # provider units; deskew, scale to points, then undo the page rotation.
+        # deskew=False gives the raw printed position on the scan.
         upright = []
         for offset in range(0, len(polygon), 2):
             dx, dy = polygon[offset] - centre_x, polygon[offset + 1] - centre_y
-            upright.append((centre_x + dx * cos_t + dy * sin_t, centre_y - dx * sin_t + dy * cos_t))
+            upright.append((centre_x + dx * cos_t + dy * sin_t, centre_y - dx * sin_t + dy * cos_t) if deskew else (polygon[offset], polygon[offset + 1]))
         points = tuple((x / provider_page.width * rendered_width, y / provider_page.height * rendered_height) for x, y in upright)
         rendered = (min(x for x, _ in points), min(y for _, y in points), max(x for x, _ in points), max(y for _, y in points))
         return rendered, transform.to_source(rendered)
@@ -556,7 +564,7 @@ def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, doc
     for index, word in enumerate(provider_page.words):
         rendered, source_box = to_source(word.polygon)
         oid = f"{document_id}:pdf:p{page_index + 1}:azure:{index}"
-        observations.append(SourceObservation(oid, document_id, source_hash, "word", f"page:{page_index + 1}:azure:{index}", "pdf_ocr", word.text, source_box, {"confidence": word.confidence, "provider": "azure_document_intelligence", "provider_unit": provider_page.unit, "provider_page_width": provider_page.width, "provider_page_height": provider_page.height, "render_box": rendered, "deskew_degrees": deskew_degrees, "roundtrip_ok": transform.roundtrip_ok(source_box), "page_index": page_index, "page_rotation": rotation, "page_width": canonical.width, "page_height": canonical.height}))
+        observations.append(SourceObservation(oid, document_id, source_hash, "word", f"page:{page_index + 1}:azure:{index}", "pdf_ocr", word.text, source_box, {"confidence": word.confidence, "provider": "azure_document_intelligence", "provider_unit": provider_page.unit, "provider_page_width": provider_page.width, "provider_page_height": provider_page.height, "render_box": rendered, "deskew_degrees": deskew_degrees, "pointer_convention": POINTER_CONVENTION, "raw_bbox": to_source(word.polygon, deskew=False)[1], "roundtrip_ok": transform.roundtrip_ok(source_box), "page_index": page_index, "page_rotation": rotation, "page_width": canonical.width, "page_height": canonical.height}))
     groups: list[list[SourceObservation]] = []
     for word in sorted(observations, key=lambda item: (item.bbox[1], item.bbox[0]) if item.bbox else (0, 0)):
         if not word.bbox:
@@ -580,6 +588,12 @@ def _azure_page_observations(provider_page: OCRPage, source_page: fitz.Page, doc
     return observations, issues
 
 
+def _union(boxes: list[tuple[float, float, float, float]]) -> tuple[float, float, float, float] | None:
+    if not boxes:
+        return None
+    return (min(b[0] for b in boxes), min(b[1] for b in boxes), max(b[2] for b in boxes), max(b[3] for b in boxes))
+
+
 def _normalise_space(text: str) -> str:
     return " ".join(text.split())
 
@@ -596,6 +610,19 @@ def _point_in_polygon(x: float, y: float, polygon: tuple[float, ...]) -> bool:
     return inside
 
 
+# Azure builds a cell's text from the same words the text check compares, so a
+# misread digit passes that check; word confidence is the only signal left. The
+# clean recorded pages (synthetic scans, f01) have every word at >= 0.988; the
+# real f05 SAP page has 95 of 221 numeric words below 0.9, its misreads among
+# them ("1.456,941,12-" at 0.601). Set by the code review, not yet calibrated
+# on the corpus.
+MIN_NUMERIC_WORD_CONFIDENCE = 0.9
+
+# Pointers of Azure observations are in the upright (deskewed) page; the raw
+# printed position is kept in metadata (raw_bbox, raw_cell_polygon, raw_lexeme_bbox).
+POINTER_CONVENTION = "deskewed_upright"
+
+
 def _cross_check(content: str, words: list[OCRWord], regions_on_page: int, shared: bool) -> str:
     """Return "verified" or why the cell text is not corroborated by its own words."""
     if regions_on_page != 1:
@@ -607,6 +634,8 @@ def _cross_check(content: str, words: list[OCRWord], regions_on_page: int, share
     if text != joined:
         return "text_mismatch"
     if text and _NUMERIC_LOOKING.fullmatch(text):
+        if any(word.confidence < MIN_NUMERIC_WORD_CONFIDENCE for word in words):
+            return "low_confidence"
         try:
             if parse_amount(text).source_signed_value != parse_amount(joined).source_signed_value:
                 return "numeric_mismatch"
@@ -615,7 +644,7 @@ def _cross_check(content: str, words: list[OCRWord], regions_on_page: int, share
     return "verified"
 
 
-def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str, OCRWord]], tables: tuple[OCRTable, ...], document_id: str, source_hash: str, page_index: int, transform: PageTransform, canonical: fitz.Rect, to_source: Callable[[tuple[float, ...]], tuple[tuple[float, float, float, float], tuple[float, float, float, float]]], deskew_degrees: float = 0.0) -> tuple[list[SourceObservation], list[str]]:
+def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str, OCRWord]], tables: tuple[OCRTable, ...], document_id: str, source_hash: str, page_index: int, transform: PageTransform, canonical: fitz.Rect, to_source: Callable[..., tuple[tuple[float, float, float, float], tuple[float, float, float, float]]], deskew_degrees: float = 0.0) -> tuple[list[SourceObservation], list[str]]:
     """Azure table cells as `cell` observations, with rows and one region per table and page.
 
     Cell text is kept as Azure returned it. A cell is `verified` only when the
@@ -631,7 +660,8 @@ def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str
     for word_id, word in page_words:
         xs, ys = word.polygon[0::2], word.polygon[1::2]
         word_centres.append((word_id, word, (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2))
-    for table_index, table in enumerate(tables):
+    placed_by_table: list[list[tuple[OCRTableCell, tuple[float, ...], int, list[tuple[str, OCRWord]]]]] = []
+    for table in tables:
         placed: list[tuple[OCRTableCell, tuple[float, ...], int, list[tuple[str, OCRWord]]]] = []
         for cell in table.cells:
             regions = [region for region in cell.bounding_regions if region.page_number == page_number]
@@ -640,20 +670,25 @@ def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str
             polygon = regions[0].polygon
             members = sorted(((word_id, word) for word_id, word, x, y in word_centres if _point_in_polygon(x, y, polygon)), key=lambda item: item[1].span.offset)
             placed.append((cell, polygon, len(regions), members))
-        if not placed:
-            continue
-        claims: dict[str, int] = {}
+        placed_by_table.append(placed)
+    # Claims are counted across all tables on the page: a word inside cells of
+    # two overlapping tables must not verify in both.
+    claims: dict[str, int] = {}
+    for placed in placed_by_table:
         for _, _, _, members in placed:
             for word_id, _ in members:
                 claims[word_id] = claims.get(word_id, 0) + 1
+    for table_index, (table, placed) in enumerate(zip(tables, placed_by_table)):
+        if not placed:
+            continue
         cells_by_row: dict[int, list[SourceObservation]] = {}
         single_row_boxes: dict[int, list[tuple[float, float, float, float]]] = {}
         for cell, polygon, region_count, members in placed:
             rendered, source_box = to_source(polygon)
             status = _cross_check(cell.content, [word for _, word in members], region_count, any(claims[word_id] > 1 for word_id, _ in members))
             verified = status == "verified"
-            lexeme_boxes = [to_source(word.polygon)[1] for _, word in members] if verified else []
-            lexeme_bbox = (min(b[0] for b in lexeme_boxes), min(b[1] for b in lexeme_boxes), max(b[2] for b in lexeme_boxes), max(b[3] for b in lexeme_boxes)) if lexeme_boxes else None
+            lexeme_bbox = _union([to_source(word.polygon)[1] for _, word in members]) if verified else None
+            raw_lexeme_bbox = _union([to_source(word.polygon, deskew=False)[1] for _, word in members]) if verified else None
             verified_count += verified
             unverified_count += not verified
             row_span, column_span = cell.row_span or 1, cell.column_span or 1
@@ -666,6 +701,7 @@ def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str
                     "cell_kind": cell.kind or "content", "table_index": table_index, "page_index": page_index, "page_rotation": rotation,
                     "page_width": canonical.width, "page_height": canonical.height,
                     "confidence": min((word.confidence for _, word in members), default=None),
+                    "min_word_confidence": min((word.confidence for _, word in members), default=None),
                     "azure_cell_id": f"t{table_index}r{cell.row_index}c{cell.column_index}", "verified": verified, "cross_check": status,
                     # The printed lexeme inside the cell (union of its verified
                     # words); the cell polygon itself is usually wider.
@@ -673,6 +709,9 @@ def _azure_table_observations(provider_page: OCRPage, page_words: list[tuple[str
                     # Kept beside the lexeme box so the export policy can switch
                     # the pointer convention once the official scorer is known.
                     "cell_polygon": source_box,
+                    "pointer_convention": POINTER_CONVENTION,
+                    "raw_cell_polygon": to_source(polygon, deskew=False)[1],
+                    "raw_lexeme_bbox": raw_lexeme_bbox,
                     "member_word_ids": [word_id for word_id, _ in members],
                     "provider": "azure_document_intelligence", "render_box": rendered, "deskew_degrees": deskew_degrees, "roundtrip_ok": transform.roundtrip_ok(source_box),
                 },

@@ -9,3 +9,6 @@ hackathon-local/
 .env
 .env.*
 !.env.example
+
+# Agent memory is personal; never commit it
+.claude/agent-memory/

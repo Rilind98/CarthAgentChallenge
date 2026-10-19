@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from threading import Thread
@@ -17,8 +18,7 @@ from urllib.parse import parse_qs, urlparse
 import pymupdf as fitz
 import pytest
 
-from carthagent.acquire_pdf import acquire_pdf
-from carthagent.numeric import parse_amount
+from carthagent.acquire_pdf import MIN_NUMERIC_WORD_CONFIDENCE, acquire_pdf
 from carthagent.ocr_azure import AzureDocumentIntelligenceOCR, AzureOCRConfig
 from carthagent.policies import DEFAULT_BOUNDS
 from carthagent.semantics import _pointer_for
@@ -30,7 +30,18 @@ KEY_ENV = "CARTHAGENT_TEST_AZURE_LAYOUT_KEY"
 API_VERSION = "2024-11-30"
 
 
+# Azure analyses of private corpus pages are never committed; they live in the
+# git-ignored hackathon-local/ tree and the tests using them skip without it.
+PRIVATE_RESPONSES = ROOT / "hackathon-local" / "azure-recordings"
+PRIVATE_RECORDINGS = {"f05_sap_class_grid_03_p2", "f09_excel_register_03_p2"}
+
+
 def recorded(name: str) -> dict:
+    if name in PRIVATE_RECORDINGS:
+        path = PRIVATE_RESPONSES / f"{name}.json"
+        if not path.exists():
+            pytest.skip(f"private Azure recording {name} is unavailable (hackathon-local/azure-recordings)")
+        return json.loads(path.read_text())
     return json.loads((RESPONSES / f"{name}.json").read_text())
 
 
@@ -40,6 +51,7 @@ class LayoutStub(BaseHTTPRequestHandler):
     poll_status = 200
     running_polls = 0
     queries: list[dict[str, list[str]]] = []
+    bodies: list[bytes] = []
     posts = 0
     gets = 0
 
@@ -50,13 +62,14 @@ class LayoutStub(BaseHTTPRequestHandler):
         cls.poll_status = 200
         cls.running_polls = 0
         cls.queries = []
+        cls.bodies = []
         cls.posts = 0
         cls.gets = 0
 
     def do_POST(self) -> None:
         type(self).posts += 1
         type(self).queries.append(parse_qs(urlparse(self.path).query))
-        self.rfile.read(int(self.headers["Content-Length"]))
+        type(self).bodies.append(self.rfile.read(int(self.headers["Content-Length"])))
         if type(self).post_status != 202:
             self.send_error(type(self).post_status)
             return
@@ -280,27 +293,57 @@ def test_word_claimed_by_two_overlapping_cells_verifies_neither(stub, documents,
     assert first.metadata["cross_check"] == "word_in_multiple_cells"
 
 
-def test_real_sap_grid_cross_check_is_consistent(stub, tmp_path, monkeypatch):
+def test_real_sap_misreads_do_not_verify(stub, tmp_path, monkeypatch):
+    # Azure builds cell text from the same words the text check compares, so a
+    # misread passes it; only the word confidence can catch it.
     monkeypatch.setenv(KEY_ENV, "k")
-    LayoutStub.reset(recorded("f05_sap_class_grid_03_p2"))
+    payload = recorded("f05_sap_class_grid_03_p2")
+    LayoutStub.reset(payload)
     result = acquire(scan_doc(tmp_path, 2), stub)
     cells = cells_of(result)
-    words = {o.id: o for o in result.observations if o.kind == "word" and o.channel == "pdf_ocr"}
+    misread = [c for c in cells if c.text and "1.456,941,12-" in c.text]
+    assert misread and all(c.metadata["verified"] is False and c.metadata["cross_check"] == "low_confidence" for c in misread)
     for cell in cells:
-        joined = " ".join(" ".join(words[w].text.split()) for w in cell.metadata["member_word_ids"])
-        same_text = " ".join((cell.text or "").split()) == " ".join(joined.split())
-        if not same_text:
-            assert cell.metadata["verified"] is False, cell
-        if cell.metadata["verified"]:
-            assert same_text
-            try:
-                parse_amount(cell.text or "")
-            except ValueError:
-                continue
-            assert parse_amount(cell.text).source_signed_value == parse_amount(joined).source_signed_value
+        if cell.metadata["verified"] and cell.metadata["member_word_ids"] and re.fullmatch(r"[\d\s.,'+\-\u2212()]*\d[\d\s.,'+\-\u2212()]*", " ".join((cell.text or "").split())):
+            assert cell.metadata["min_word_confidence"] >= MIN_NUMERIC_WORD_CONFIDENCE, cell
+    low = sum(c.metadata["cross_check"] == "low_confidence" for c in cells)
+    assert low >= 10, low
     verified = sum(cell.metadata["verified"] for cell in cells)
     assert f"page:2:azure_cells_verified:{verified}" in result.diagnostics
     assert f"page:2:azure_cells_unverified:{len(cells) - verified}" in result.diagnostics
+
+
+def test_low_confidence_numeric_word_unverifies_its_cell_but_not_text_cells(stub, documents, monkeypatch):
+    monkeypatch.setenv(KEY_ENV, "k")
+    payload = recorded("scanned_p1")
+    words = payload["analyzeResult"]["pages"][0]["words"]
+    next(w for w in words if w["content"] == "1.000,00")["confidence"] = 0.6
+    next(w for w in words if w["content"] == "Zugänge")["confidence"] = 0.5
+    LayoutStub.reset(payload)
+    result = acquire(documents / "azure_scanned.pdf", stub)
+    by_text = {c.text: c for c in cells_of(result)}
+    amount = by_text["1.000,00"]
+    assert amount.metadata["verified"] is False and amount.metadata["cross_check"] == "low_confidence"
+    assert amount.metadata["min_word_confidence"] == pytest.approx(0.6)
+    assert amount.metadata["lexeme_bbox"] is None
+    header = by_text["Zugänge"]
+    assert header.metadata["verified"] is True and header.metadata["min_word_confidence"] == pytest.approx(0.5)
+    assert by_text["2.000,00"].metadata["verified"] is True
+    assert "page:1:azure_cells_unverified:1" in result.diagnostics
+
+
+def test_a_word_inside_cells_of_two_tables_verifies_neither(stub, documents, monkeypatch):
+    # Overlapping tables on one page: a word claimed across tables would otherwise
+    # verify in both and yield two cell facts for one printed value.
+    monkeypatch.setenv(KEY_ENV, "k")
+    payload = recorded("scanned_p1")
+    tables = payload["analyzeResult"]["tables"]
+    tables.append(json.loads(json.dumps(tables[0])))
+    LayoutStub.reset(payload)
+    result = acquire(documents / "azure_scanned.pdf", stub)
+    cells = [c for c in cells_of(result) if c.text]
+    assert {c.metadata["table_index"] for c in cells} == {0, 1}
+    assert all(c.metadata["verified"] is False and c.metadata["cross_check"] == "word_in_multiple_cells" for c in cells)
 
 
 # ---------------------------------------------------------------- C3 provider policy
@@ -315,25 +358,36 @@ def test_native_pages_are_never_sent_to_azure(stub, documents, monkeypatch):
     assert not any(o.metadata.get("provider") == "azure_document_intelligence" for o in result.observations)
 
 
-def test_only_scan_and_outline_pages_are_requested(stub, documents, tmp_path, monkeypatch):
+def _uploaded_page_count(body: bytes) -> int:
+    with fitz.open(stream=body, filetype="pdf") as uploaded:
+        return uploaded.page_count
+
+
+def test_only_scan_and_outline_pages_are_uploaded_and_mapped_back(stub, documents, tmp_path, monkeypatch):
+    # Native page 1, scan page 2: only the scan is uploaded, as a one-page PDF
+    # (the free tier rejects large requests); Azure's page 1 is original page 2.
     monkeypatch.setenv(KEY_ENV, "k")
     target = tmp_path / "native_then_scan.pdf"
-    with fitz.open(documents / "clear.pdf") as doc, fitz.open(scan_doc(tmp_path, 2)) as scans:
-        doc.insert_pdf(scans, from_page=1, to_page=1)
+    with fitz.open(documents / "clear.pdf") as doc, fitz.open(documents / "azure_scanned.pdf") as scans:
+        doc.insert_pdf(scans)
         doc.save(target)
-    LayoutStub.reset(recorded("f05_sap_class_grid_03_p2"))
+    LayoutStub.reset(recorded("scanned_p1"))
     result = acquire(target, stub)
     assert LayoutStub.posts == 1
-    assert LayoutStub.queries[0]["pages"] == ["2"]
-    assert cells_of(result) and all(c.metadata["page_index"] == 1 for c in cells_of(result))
-    assert any(o.channel == "pdf_native" for o in result.observations)
+    assert _uploaded_page_count(LayoutStub.bodies[0]) == 1
+    assert len(LayoutStub.bodies[0]) < target.stat().st_size
+    assert "pages" not in LayoutStub.queries[0]
+    cells = cells_of(result)
+    assert len(cells) == 21 and all(c.metadata["page_index"] == 1 and c.locator.startswith("page:2:") for c in cells)
+    assert any(o.channel == "pdf_native" and o.metadata.get("page_index") == 0 for o in result.observations)
+    assert not any(o.metadata.get("provider") == "azure_document_intelligence" and o.metadata.get("page_index") == 0 for o in result.observations)
 
 
 def test_outline_page_routes_to_azure(stub, documents, monkeypatch):
     monkeypatch.setenv(KEY_ENV, "k")
     LayoutStub.reset(recorded("scanned_p1"))
     result = acquire(documents / "azure_outline_only.pdf", stub)
-    assert LayoutStub.posts == 1 and LayoutStub.queries[0]["pages"] == ["1"]
+    assert LayoutStub.posts == 1 and _uploaded_page_count(LayoutStub.bodies[0]) == 1
     assert len(cells_of(result)) == 21
 
 
@@ -380,15 +434,6 @@ def test_azure_wait_is_bounded_by_the_post_mapper_reserve(stub, documents, monke
     result = acquire(documents / "azure_scanned.pdf", stub, deadline=deadline, ocr_enabled=True)
     assert LayoutStub.posts == 0
     assert any(d.startswith("azure_unavailable_fallback_tesseract:") and "budget" in d for d in result.diagnostics), result.diagnostics
-
-
-def test_client_sends_requested_pages_as_ranges(stub, monkeypatch):
-    monkeypatch.setenv(KEY_ENV, "k")
-    LayoutStub.reset(recorded("scanned_p1"))
-    provider(stub).analyze(b"%PDF-x", pages=(1, 2, 3, 5, 7, 8))
-    assert LayoutStub.queries[0]["pages"] == ["1-3,5,7-8"]
-    with pytest.raises(ValueError):
-        provider(stub).analyze(b"%PDF-x", pages=(0,))
 
 
 # ---------------------------------------------------------------- C4 pointers
@@ -444,11 +489,11 @@ def test_page_azure_did_not_return_falls_back_with_a_diagnostic(stub, tmp_path, 
     if not shutil.which("tesseract"):
         pytest.skip("Tesseract is required for the fallback path")
     monkeypatch.setenv(KEY_ENV, "k")
-    LayoutStub.reset(recorded("f05_sap_class_grid_03_p2"))
+    LayoutStub.reset(recorded("scanned_p1"))
     result = acquire(scan_doc(tmp_path, 2), stub)
-    assert LayoutStub.queries[0]["pages"] == ["1-2"]
-    assert "page:1:azure_page_missing_fallback_tesseract" in result.diagnostics
-    assert not any(d.startswith("page:2:azure_page_missing") for d in result.diagnostics)
+    assert _uploaded_page_count(LayoutStub.bodies[0]) == 2
+    assert "page:2:azure_page_missing_fallback_tesseract" in result.diagnostics
+    assert not any(d.startswith("page:1:azure_page_missing") for d in result.diagnostics)
 
 
 def test_verified_cells_carry_the_printed_lexeme_box(stub, documents, monkeypatch):
@@ -501,9 +546,13 @@ def test_azure_skew_is_undone_about_the_page_centre(angle, expected_deskew):
     assert word.metadata["deskew_degrees"] == pytest.approx(expected_deskew)
     x0, y0, x1, y1 = word.bbox
     assert ((x0 + x1) / 2, (y0 + y1) / 2) == pytest.approx((9.3 * 72, 2.075 * 72), abs=0.05)
+    assert word.metadata["pointer_convention"] == "deskewed_upright"
+    rx0, ry0, rx1, ry1 = word.metadata["raw_bbox"]
+    printed_centre = (sum(x for x, _ in printed) / 4 * 72, sum(y for _, y in printed) / 4 * 72)
+    assert ((rx0 + rx1) / 2, (ry0 + ry1) / 2) == pytest.approx(printed_centre, abs=0.05)
     if expected_deskew:
         # Uncorrected, the printed position at this x is several points off.
-        assert abs(sum(y for _, y in printed) / 4 * 72 - 2.075 * 72) > 1.5
+        assert abs(printed_centre[1] - 2.075 * 72) > 1.5
 
 
 def test_quarter_turn_page_keeps_only_the_residual_skew(stub, documents, monkeypatch):
@@ -522,7 +571,30 @@ def test_cells_record_both_boxes_and_the_deskew(stub, documents, monkeypatch):
     angle = recorded("scanned_p1")["analyzeResult"]["pages"][0]["angle"]
     for cell in cells_of(result):
         assert list(cell.metadata["cell_polygon"]) == list(cell.bbox), "the cell polygon box stays recorded"
+        assert cell.metadata["pointer_convention"] == "deskewed_upright"
+        assert len(cell.metadata["raw_cell_polygon"]) == 4
+        if cell.metadata["verified"] and cell.text:
+            assert len(cell.metadata["raw_lexeme_bbox"]) == 4
         assert cell.metadata["deskew_degrees"] == pytest.approx(angle)
         if cell.metadata["verified"] and cell.text:
             lexeme = cell.metadata["lexeme_bbox"]
             assert contains(cell.bbox, lexeme, 0.01)
+
+
+@pytest.mark.parametrize("rotation", [90, 180, 270])
+def test_quarter_turn_pages_map_back_to_unrotated_points(rotation):
+    from carthagent.acquire_pdf import _azure_page_observations
+    from carthagent.ocr_azure import OCRPage, OCRTextSpan, OCRWord
+    with fitz.open() as doc:
+        page = doc.new_page(width=842, height=595)
+        page.insert_text((600, 120), "1.000,00", fontsize=9)
+        page.set_rotation(rotation)
+        native = fitz.Rect(page.get_text("words")[0][:4])
+        displayed = native * page.rotation_matrix  # PyMuPDF's own unrotated -> displayed mapping
+        width, height = page.rect.width / 72, page.rect.height / 72  # displayed page, inches
+        polygon = (displayed.x0 / 72, displayed.y0 / 72, displayed.x1 / 72, displayed.y0 / 72, displayed.x1 / 72, displayed.y1 / 72, displayed.x0 / 72, displayed.y1 / 72)
+        provider_page = OCRPage(1, width, height, "inch", float(rotation), (OCRWord("1.000,00", polygon, 0.99, OCRTextSpan(0, 8)),))
+        observations, _ = _azure_page_observations(provider_page, page, "doc", "hash", 0)
+    word = next(o for o in observations if o.kind == "word")
+    assert word.metadata["deskew_degrees"] == pytest.approx(0.0)
+    assert word.bbox == pytest.approx(tuple(native), abs=0.05)
